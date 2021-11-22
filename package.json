@@ -1,0 +1,17 @@
+{
+  "name": "agrirouter-user-documentation",
+  "version": "1.0.0",
+  "repository": "https://github.com/DKE-Data/agrirouter-user-documentation.git",
+  "author": "Oliver Rahner <o.rahner@dke-data.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "validate-xrefs": "antora --generator @antora/xref-validator ./antora-playbook.yml",
+    "build": "DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr $(npm bin)/antora --generator antora-site-generator-lunr ./antora-playbook.yml",
+    "build-nosearch": "$(npm bin)/antora --generator antora-site-generator-lunr ./antora-playbook.yml",
+    "generate-images": "node scripts/generate_images.js"
+  },
+  "dependencies": {
+    "@antora/cli": "^2.3.4",
+    "@antora/xref-validator": "https://gitlab.com/antora/xref-validator#main"
+  }
+}
