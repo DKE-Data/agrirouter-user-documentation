@@ -12,6 +12,9 @@
   },
   "dependencies": {
     "@antora/cli": "^2.3.4",
-    "@antora/xref-validator": "https://gitlab.com/antora/xref-validator#main"
+    "@antora/site-generator-default": "^2.3.4",
+    "@antora/xref-validator": "https://gitlab.com/antora/xref-validator#main",
+    "antora-site-generator-lunr": "^0.6.1",
+    "asciidoctor-kroki": "^0.14.0"
   }
 }

@@ -1,16 +1,19 @@
 site:
   title: agrirouter User Manual
-  url: https://docs.my-agrirouter.com
-  start_page: agrirouter-user-documentation::introduction.adoc
+  url: https://manual.my-agrirouter.com
+  start_page: agrirouter-user-documentation-en::index.adoc
 content:
   sources:
     - url: .
       branches: HEAD
+      start_path: de/
+    - url: .
+      branches: HEAD
+      start_path: en/
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-  supplemental_files: ./supplemental-ui
 asciidoc:
   attributes:
     idprefix: ""
