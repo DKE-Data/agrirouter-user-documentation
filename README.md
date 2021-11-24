@@ -8,7 +8,9 @@ is intelligently connected to other datasets.
 
 This is a repository for the end user documentation.
 
-# add new documents
+## maintenance tasks
+
+### add new documents
 
 New pages always have to first be added in English!
 
@@ -19,7 +21,7 @@ If you want to add new pages to the documentation, follow these steps:
 * add an entry in [po4a.conf](po4a.conf) (this configures the translation process to include that file)
 * after running po4a, have someone translate the respective `.po` files under [translations](translations) (or do it yourself ;) )
 
-# edit existing documents
+### edit existing documents
 
 English is the primary language of this documentation.
 
@@ -30,7 +32,7 @@ If you just want to edit existing pages:
 * for all other languages, edit the respective `.po` file under [translations](translations)
 * during the build process, all necessary updates and generating of the non-English files will be done
 
-# add new language
+### add new language
 
 To add a new language, the following steps have to be done:
 
