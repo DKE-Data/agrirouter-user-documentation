@@ -6,6 +6,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "validate-xrefs": "antora --generator @antora/xref-validator ./antora-playbook.yml",
+    "build-all": "for LANG in de en fr it ru; do cd $LANG; ../node_modules/.bin/antora generate antora-playbook.yml --to-dir ../build/; cd ..; done",
     "build": "DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr $(npm bin)/antora --generator antora-site-generator-lunr ./antora-playbook.yml",
     "build-nosearch": "$(npm bin)/antora --generator antora-site-generator-lunr ./antora-playbook.yml",
     "generate-images": "node scripts/generate_images.js"
