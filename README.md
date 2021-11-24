@@ -7,3 +7,35 @@ Its underlying concept unites cross-vendor and discrimination-free data transfer
 is intelligently connected to other datasets.
 
 This is a repository for the end user documentation.
+
+## maintenance tasks
+
+### add new documents
+
+New pages always have to first be added in English!
+
+If you want to add new pages to the documentation, follow these steps:
+
+* add a file called `pagetitle.adoc` under [en/modules/ROOT/pages](en/modules/ROOT/pages), you can create subdirectories there
+* add an entry in [en/modules/ROOT/nav.adoc](en/modules/ROOT/nav.adoc) to make navigation to that page possible
+* add an entry in [po4a.conf](po4a.conf) (this configures the translation process to include that file)
+* after running po4a, have someone translate the respective `.po` files under [translations](translations) (or do it yourself ;) )
+
+### edit existing documents
+
+English is the primary language of this documentation.
+
+This means that all structural editing, creating new pages etc. always has to start in English.
+
+If you just want to edit existing pages:
+* for English, just edit the respective `.adoc` file
+* for all other languages, edit the respective `.po` file under [translations](translations)
+* during the build process, all necessary updates and generating of the non-English files will be done
+
+### add new language
+
+To add a new language, the following steps have to be done:
+
+* create the directory to contain all files for that language using its two-letter-code, e.g. ko for Korean
+* add the language to po4a.conf, in the line "[po4a_langs]"
+* after running po4a, have someone translate the respective `.po` files under [translations](translations) (or do it yourself ;) )
