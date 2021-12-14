@@ -35,6 +35,7 @@ jobs:
           PERLLIB: ~/po4a/lib
         run: |
           echo "$PATH"
+          ls -la ~/po4a
           yarn translate
 
       - name: Validate xrefs
