@@ -1,0 +1,23 @@
+---
+asciidoc:
+  attributes:
+    idprefix: ''
+    idseparator: '-'
+    kroki-fetch-diagram: 'true'
+    kroki-plantuml-include: style.puml
+  extensions:
+    - asciidoctor-kroki
+content:
+  sources:
+    -
+      branches: HEAD
+      start_path: de/
+      url: ..
+site:
+  start_page: manual:ROOT:introduction.adoc
+  title: 'agrirouter Bedienungsanleitung'
+  url: /en
+ui:
+  bundle:
+    snapshot: 'true'
+    url: https://files.my-agrirouter.com/ui-bundle-release.zip
