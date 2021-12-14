@@ -32,7 +32,9 @@ jobs:
       - name: Run translation
         env: 
           PERLLIB: ~/po4a/lib
-        run: yarn translate
+        run: |
+          echo "$PATH"
+          yarn translate
 
       - name: Validate xrefs
         run: |
