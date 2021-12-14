@@ -25,6 +25,7 @@ jobs:
         run: |
           git clone https://github.com/mquinson/po4a.git ~/po4a
           export PERLLIB=~/po4a/lib
+          export PATH=$PATH:~/po4a/
 
       - name: Install dependencies
         run: yarn install
