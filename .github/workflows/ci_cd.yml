@@ -35,6 +35,7 @@ jobs:
           PERLLIB: $HOME/po4a/lib
         run: |
           echo "$PATH"
+          echo "PERLLIB=$PERLLIB"
           ls -la ~/po4a
           yarn translate
 
