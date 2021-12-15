@@ -25,14 +25,14 @@ jobs:
         run: |
           git clone https://github.com/mquinson/po4a.git ~/po4a
           ls -la ~/po4a
-          echo "~/po4a" >> $GITHUB_PATH
+          echo "$HOME/po4a" >> $GITHUB_PATH
 
       - name: Install dependencies
         run: yarn install
 
       - name: Run translation
         env: 
-          PERLLIB: ~/po4a/lib
+          PERLLIB: $HOME/po4a/lib
         run: |
           echo "$PATH"
           ls -la ~/po4a
