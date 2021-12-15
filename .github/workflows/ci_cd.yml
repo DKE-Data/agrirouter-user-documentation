@@ -32,7 +32,7 @@ jobs:
 
       - name: Run translation
         env: 
-          PERLLIB: $HOME/po4a/lib
+          PERLLIB: ${{ env.HOME}}/po4a/lib
         run: |
           echo "$PATH"
           echo "PERLLIB=$PERLLIB"
