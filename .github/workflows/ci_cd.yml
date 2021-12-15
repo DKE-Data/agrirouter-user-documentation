@@ -21,7 +21,7 @@ jobs:
           node-version: "14"
 
       - name: Install po4a dependencies
-        run: sudo apt-get install libyaml-tiny-perl
+        run: sudo apt-get install libyaml-tiny-perl gettext
 
       # install po4a (replace by stable tag after v0.66 release / we need PR #331)
       - name: Install po4a from github
