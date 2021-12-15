@@ -26,17 +26,15 @@ jobs:
           git clone https://github.com/mquinson/po4a.git ~/po4a
           ls -la ~/po4a
           echo "$HOME/po4a" >> $GITHUB_PATH
+          echo "PERLLIB=$HOME/po4a/lib" >> $GITHUB_ENV
 
       - name: Install dependencies
         run: yarn install
 
       - name: Run translation
-        env: 
-          PERLLIB: ${{ env.HOME}}/po4a/lib
         run: |
-          echo "$PATH"
+          echo "PATH=$PATH"
           echo "PERLLIB=$PERLLIB"
-          ls -la ~/po4a
           yarn translate
 
       - name: Validate xrefs
