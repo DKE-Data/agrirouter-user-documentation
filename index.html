@@ -10,11 +10,11 @@
 
 var defaultLocale = 'en';
 var routing = {
-  "en": 'https://manual.my-agrirouter.com/en',
-  "de": 'https://manual.my-agrirouter.com/de',
-  "it": 'https://manual.my-agrirouter.com/it',
-  "ru": 'https://manual.my-agrirouter.com/ru',
-  "fr": 'https://manual.my-agrirouter.com/fr'
+  "en": 'en/',
+  "de": 'de/',
+  "it": 'it/',
+  "ru": 'ru/',
+  "fr": 'fr/'
 };
 
 var enableLog = true;
@@ -31,15 +31,6 @@ function getBrowserLanguage() {
   return navigator.language;
 }
 
-function getSubPath() {
-  var url = window.location.href;
-  var domainNameIndex = url.indexOf("//");
-  var firstSlashIndex = url.indexOf("/", domainNameIndex + 2);
-  if (firstSlashIndex === -1) return null;
-  var subPath = url.substring(firstSlashIndex + 1);
-  return subPath;
-}
-
 function getQueryParam(name) {
   var url = window.location.href;
   name = name.replace(/[\[\]]/g, '\\$&');
@@ -50,14 +41,15 @@ function getQueryParam(name) {
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-function redirectToRoute(locale, subPath) {
+function redirectToRoute(locale) {
   if (enableLog) console.log('matching locale ' + locale + ' ...');
   var route = routing[locale];
   if (route != null) {
     if (enableLog) console.log('will redirect to ' + route);
-    if (subPath) {
-      if (!route.endsWith('/')) route += '/';
-      route += subPath;
+    origPath = window.location.href;
+    if (origPath) {
+      if (!origPath.endsWith('/')) origPath += '/';
+      origPath += route;
       if (enableLog) console.log('full url will be ' + route);
     }
     window.location.replace(route);
@@ -68,7 +60,7 @@ function redirectToRoute(locale, subPath) {
   if (parts == null || parts.length <= 1) return;
   
   if (enableLog) console.log("will try to use just the language");
-  redirectToRoute(parts[0], subPath);
+  redirectToRoute(parts[0]);
 }
 
 ////////////////
@@ -101,8 +93,7 @@ if (locale == null) {
 }
 
 locale = locale.toLowerCase();
-var subPath = getSubPath();
-redirectToRoute(locale, subPath);
+redirectToRoute(locale);
 </script>
 </body>
 </html>
