@@ -29,7 +29,19 @@ Dein Konto kannst du unter der Kachel „Kontoverwaltung“ managen.
 
 == Nachrichten Formate
 
-// TaskData, vodeo, bilder, dokumente, EFDI, GPS 
+Je nach Endpunkt stehen dir zum Datenaustausch verschiedene Nachrichtenformate zur Verfügung:
+
+* Task Data (ISO11783 z.B. Auftragsdaten oder Applikationskarten)
+* Telemetriedaten
+* Shape (z.B. Grenzlinien)
+* Bild- und Videodaten
+* Dokumente (z.B. PDF Auftragsberichte)
+
+Der agrirouter vergleicht, welche Nachrichtenformate die gewählten Endpunkte verarbeiten können und zeigt ausschließlich diese zur Auswahl an. 
+Dadurch wird sichergestellt, dass Daten nicht zu einem Endpunkt transportiert werden, die er nicht verarbeiten kann.
+
+.Nachrichten Formate
+image::message_formats_de.png[Nachrichten Formate,633,307]
 
 
 == Routen
