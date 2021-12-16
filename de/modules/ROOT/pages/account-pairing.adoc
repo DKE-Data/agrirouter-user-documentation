@@ -24,6 +24,10 @@ Vergib dazu einen frei wählbaren Anzeigennamen. Gib anschließend beides in die
 .Einladung versenden
 image::account_pairing_invitaion_de.png[Einladung versenden,633,307]
 
+Dieses Verfahren funktioniert auch umgekehrt. Wenn sich jemand mit dir bzw. deinem agrirouter Konto verbinden möchte, 
+erhältst du eine Einladung per E-Mail. Sobald du diese Einladung durch Anklicken öffnest, 
+landest du direkt auf deiner agrirouter Startseite. Dort kannst du die Einladung in der Rubrik “Empfangene Einladungen“ ansehen, annehmen oder ablehnen.
+
 == Einladung annehmen oder ablehnen
 
 !Erklärung !
@@ -66,7 +70,17 @@ Schalte dazu über den entsprechenden Button den Datenfluss ein bzw. aus. Den Da
 .Datenfluss ein bzw. ausschalten
 image::account_pairing_dataflow_de.png[Datenfluss ein bzw. ausschalten,633,307]
 
-
+Wurden zwei Konten miteinander verbunden, können Daten von einem Konto zum anderen weitergeleitet werden. 
+Dafür muss der Datenfluss beim angeschlossenen Endpunkt im agrirouter User-Interface aktiviert werden. 
+Daten, die zu einem angeschlossenen Konto fließen, werden immer mit dem Status „Published“ versehen. 
+Man kann sich dies wie eine Wurfsendung vorstellen, die an alle Empfänger zugestellt wird, die die Nachrichten empfangen möchten. 
+Verbundene Accounts können untereinander nicht die Endpunkte des anderen Accounts einsehen, 
+außer ein Account Inhaber hat bestimmte Maschinen für einen oder mehrere verbundene Accounts freigegeben. 
+So kann z.B. ein Lohnunternehmer nur die GPS-Position und den Arbeitsstaus eines Feldhäckslers einem verbundenen Kunden Account freigeben. 
+In der jeweiligen Agrar-Software am verbundenen Account, die die Wurfsendungen empfangen soll, müssen unter den sogenannten „Subscriptions“ 
+die entsprechenden Nachrichtenformate ausgewählt werden. Wir sprechen hier von nicht direkter Nachrichtenzustellung. 
+Die Agrar-Software legt mit den „Subscriptions“ fest, welche Wurfsendungen sie erhalten möchte und welche nicht. 
+Bei vielen Agrar-Software-Lösungen sind diese Einstellungen bereits standardmäßig gesetzt.
 
 == alter Text!!!
 
