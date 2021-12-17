@@ -7,7 +7,7 @@
   "scripts": {
     "validate-xrefs": "for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora --generator @antora/xref-validator ./antora-playbook.yml; cd ..; done",
     "translate": "po4a po4a.conf; for LNG in en fr it ru; do cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; done",
-    "build": "DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr; for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora generate antora-playbook.yml --generator antora-site-generator-lunr --to-dir ../build/$LNG; cd ..; done; cp index.html build/",
+    "build": "export DOCSEARCH_ENABLED=true; export DOCSEARCH_ENGINE=lunr; for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora generate antora-playbook.yml --generator antora-site-generator-lunr --to-dir ../build/$LNG; cd ..; done; cp index.html build/",
     "generate-images": "node scripts/generate_images.js"
   },
   "dependencies": {
