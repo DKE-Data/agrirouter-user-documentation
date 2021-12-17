@@ -72,14 +72,17 @@ image::account_pairing_dataflow.png[Datenfluss ein bzw. ausschalten]
 
 Wurden zwei Konten miteinander verbunden, können Daten von einem Konto zum anderen weitergeleitet werden. 
 Dafür muss der Datenfluss beim angeschlossenen Endpunkt im agrirouter User-Interface aktiviert werden. 
+
 Daten, die zu einem angeschlossenen Konto fließen, werden immer mit dem Status „Published“ versehen. 
 Man kann sich dies wie eine Wurfsendung vorstellen, die an alle Empfänger zugestellt wird, die die Nachrichten empfangen möchten. 
 Verbundene Accounts können untereinander nicht die Endpunkte des anderen Accounts einsehen, 
 außer ein Account Inhaber hat bestimmte Maschinen für einen oder mehrere verbundene Accounts freigegeben. 
 So kann z.B. ein Lohnunternehmer nur die GPS-Position und den Arbeitsstaus eines Feldhäckslers einem verbundenen Kunden Account freigeben. 
+
 In der jeweiligen Agrar-Software am verbundenen Account, die die Wurfsendungen empfangen soll, müssen unter den sogenannten „Subscriptions“ 
 die entsprechenden Nachrichtenformate ausgewählt werden. Wir sprechen hier von nicht direkter Nachrichtenzustellung. 
 Die Agrar-Software legt mit den „Subscriptions“ fest, welche Wurfsendungen sie erhalten möchte und welche nicht. 
+
 Bei vielen Agrar-Software-Lösungen sind diese Einstellungen bereits standardmäßig gesetzt.
 
 == alter Text!!!
