@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "validate-xrefs": "for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora --generator @antora/xref-validator ./antora-playbook.yml; cd ..; done",
-    "translate": "po4a po4a.conf",
+    "translate": "po4a po4a.conf; for LNG in en fr it ru; do cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; done",
     "build": "DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr; for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora generate antora-playbook.yml --to-dir ../build/$LNG; cd ..; done; cp index.html build/",
     "generate-images": "node scripts/generate_images.js"
   },
