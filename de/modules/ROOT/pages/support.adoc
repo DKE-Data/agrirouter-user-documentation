@@ -5,14 +5,45 @@
 == Support kontaktieren via Help Center
 !Erklärung ...
 
+Via central email address: support@my-agrirouter.com
+
+Telephone:
+* DE: +49 541 200 690 220
+* EN: +49 541 200 690 230
+* FR: +49 541 200 690 240
+
+agrirouter Help Center: https://agrirouter.atlassian.net/servicedesk/customer/portals
+
 .Help Center
 image::support_help_center.png[Help Center]
 
 == System Status
 !Erklärung ...
 
+* User Interface Service: Monitoring if the login in the user interface is possible.
+
+* Onboarding  Service: Monitoring if it is possible to create a registration code and onboard a device or software application to agrirouter.
+
+* Capability Message Service: Monitoring if it is possible to send a capability message to agrirouter including a confirmation from agrirouter.
+
+* Content Message Service: Monitoring if it is possible to send a content message to another endpoint and receiving the same massage as a recipient. 
+
+
 .System Status
 image::support_system_status.png[System Status]
+
+
+agrirouter status definition:
+
+* operational: The components are working as expected and in a timely manner.
+
+* under maintenance:  The component is currently being worked on.
+
+* degraded performance: The components are working but are slow or otherwise impacted in a minor way. The component response time is longer than expected.
+
+* partial outage:  The components are completely broken for a subset of customers but is working for the other.
+
+* major outage: The components are completely unavailable.
 
 
 .System Status abonnieren
