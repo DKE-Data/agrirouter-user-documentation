@@ -55,7 +55,7 @@ image::message_formats.png[Nachrichten Formate]
 == Telemetrieparameter
 !Erklärung ...
 
-Die einzelnen Telemetrieparameter Definitionen nach "ISOBUS Data Dictionary according to ISO 11783-11" Standart können unter folgenden URL: https://www.isobus.net/isobus/dDEntity eingesehen werde.
+Die einzelnen Telemetrieparameter Definitionen nach "ISOBUS Data Dictionary according to ISO 11783-11" Standart können unter folgenden URL: https://www.isobus.net/isobus/dDEntity eingesehen werden.
 
 == Telemetrieparameter Kategorien
 !Erklärung ...
@@ -71,7 +71,7 @@ Telemetrieparameter Kategorien:
 [cols="1,2,4,2,4",options="header",]
 |=======================================================================================
 |# |Name |Beschreibung | Anzahl der DDI's  |Beispiel
-|0 |GPS Geo Position |GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged. |0  |
+|0 |GPS Geo Position |GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged. |0 |
 |1 |Guidance and Geo Data |Data related to geographical and guidance information |15 |Tramline, AB-Lines, Tracknumber / Tramline control state / …
 |2 |General Work Data |Task and Lifetime Counter or average values (Counters that are not relevant for Application and or yield) |93 |Counter (e.g. km or ha), Working time, distance, …
 |3 |Fuel and Exhaust Fluid Consumption Data |Data related what a machine consumpt of fuel and Exhaust Fluid (Energy overall) |90 |Consumption Data of Fuel and e.g. AddBlue
@@ -81,7 +81,7 @@ Telemetrieparameter Kategorien:
 |7 |Process Data |Data related to the main working process of the machine |69 |Working depth, bale width, bale length, weigth,...
 |8 |Environment Data |Data related to the Environment (wheater data) |11 |Wind speed, Air Humidity,  Ambient temperature, …
 |9 |Basic Data |Fundamental values that are relevant for the whole system |23 |Device Element Offsets, Speed Source, Connector Type, …
-|10 |Machine Data (only PGN Data) |Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-Speed, etc. |0 | |
+|10 |Machine Data (only PGN Data) |Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-Speed, etc. |0 |
 |11 |Proprietary Data |Manufacturer specific data (not part of the standard) |0 |proprietary, manufacturer-specific DDI range (DDIs 57344-65534)
 |12 |Soil Data |Conditions and sensor data about soil |4 |Soil Compaction and Ingrediants
 |=======================================================================================
