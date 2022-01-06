@@ -58,6 +58,29 @@ image::message_formats.png[Nachrichten Formate]
 == Telemetrieparameter Kategorien
 !Erklärung ...
 
+Telemetrieparameter Kategorien:
+
+====
+[cols="1,2,4,1,4,4",options="header",]
+|=======================================================================================
+|# |Name |Beschreibung | Anzahl der DDI's  |Beispiel  |Bemerkung
+|0 |GPS Geo Position |GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged. |0  | |Deselection is possible
+|1 |Guidance and Geo Data |Data related to geographical and guidance information |15 |Tramline, AB-Lines, Tracknumber / Tramline control state / … |Deselection is possible
+|2 |General Work Data |Task and Lifetime Counter or average values (Counters that are not relevant for Application and or yield) |93 |Counter (e.g. km or ha), Working time, distance, … |Deselection is possible
+|3 | | |  | |
+|4 | | |  | |
+|5 | | |  | |
+|6 | | |  | |
+|7 | | |  | |
+|8 | | |  | |
+|9 | | |  | |
+|10 | | |  | |
+|11 | | |  | |
+|11 | | |  | |
+|=======================================================================================
+====
+
+
 == Dashboard 
 !Review alter Text ...
 
