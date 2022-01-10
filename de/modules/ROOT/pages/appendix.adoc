@@ -1,6 +1,4 @@
-== Telemetrieparameter Kategorien Zuordnung
-
-=== Gruppe "Guidance and Geo Data"
+== Gruppe "Guidance and Geo Data"
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -54,8 +52,7 @@
 |632 |Setpoint Tramline Condensed Work State (241-256) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
 |=======================================================================================
 
-
-=== Gruppe "General Work Data"
+== Gruppe "General Work Data"
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -116,8 +113,7 @@
 |602 |Lifetime Total Distance Street |General Work Data |Entire Total Distance on the street of the device lifetime
 |=======================================================================================
 
-
-=== Gruppe "Fuel and Exhaust Fluid Consumption Data"
+== Gruppe "Fuel and Exhaust Fluid Consumption Data"
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -143,7 +139,7 @@
 |491 |Fuel Percentage Level |Fuel and Exhaust Fluid Consumption Data |The actual level of the machine fuel tank in percent.
 |=======================================================================================
 
-=== Gruppe "Machine Data"
+== Gruppe "Machine Data"
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -255,3 +251,4 @@
 |641 |Minimum Tire Pressure |Machine Data |Minimum Tire Pressure in the tire at the time of operation
 |642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
 |643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
+|=======================================================================================
