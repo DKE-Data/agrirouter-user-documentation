@@ -252,3 +252,64 @@
 |642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
 |643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
 |=======================================================================================
+
+== Gruppe "Application Data"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+
+|=======================================================================================
+
+== Gruppe "Crop and Yield Data"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+
+|=======================================================================================
+
+== Gruppe "Process Data"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+
+|=======================================================================================
+
+== Gruppe "Environment Data"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+
+|=======================================================================================
+
+== Gruppe "Basic Data"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+
+|=======================================================================================
+
+== Gruppe "Machine Data (only PGN Data)"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|57342 |PGN Based Data |Machine Data (only PGN Data) |This DDI is used in the XML files to identify PGN based data.
+|=======================================================================================
+
+== Gruppe "Proprietary Data"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|57344 |65534 Proprietary DDI Range |Proprietary Data |Manufacturer proprietary definitions
+|65535 |Reserved |Proprietary Data |Reserved
+|=======================================================================================
+
+== Gruppe "Soil Data"
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|468 |Soil Snow/Frozen Condtion |Soil Data |DDI to document the soil snow / frozen condition.
+|469 |Estimated Soil Water Condtion |Soil Data |DDI to document the estimated soil water condition.
+|470 |Soil Compaction |Soil Data |DDI to document the soil compaction.
+|550 |Ground Cover |Soil Data |The Ground Cover as an amount of soil that is covered by plants
+|655 |Electrical Apparent Soil Conductivity |Soil Data |Electrical conductivity also called the EC-Value.
+|=======================================================================================
