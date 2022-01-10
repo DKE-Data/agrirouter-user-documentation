@@ -66,7 +66,7 @@ NOTE: In der agrirouter Benutzeroberfläche werden die Telemetrieparameter Kateg
 
 Telemetrieparameter Kategorien:
 
-====
+
 [cols="1,2,4,2,4",options="header",]
 |=======================================================================================
 |# |Name |Beschreibung | Anzahl der DDI's  |Beispiel
@@ -84,7 +84,6 @@ Telemetrieparameter Kategorien:
 |11 |Proprietary Data |Manufacturer specific data (not part of the standard) |2 |proprietary, manufacturer-specific DDI range (DDIs 57344-65534)
 |12 |Soil Data |Conditions and sensor data about soil |5 |Soil Compaction and Ingrediants
 |=======================================================================================
-====
 
 
 == Dashboard 
@@ -125,7 +124,7 @@ image::notification_center_prio.png[Ansicht nach Priorität]
 == Telemetrieparameter Kategorien zuordnung
 !Erklärung ...
 
-====
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -141,4 +140,3 @@ image::notification_center_prio.png[Ansicht nach Priorität]
 |514 |GNSS Quality |Guidance and Geo Data |GNSS Quality Identifier to inform the implement about the used Position Status.
 
 |=======================================================================================
-====
