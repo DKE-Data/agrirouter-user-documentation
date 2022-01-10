@@ -67,24 +67,23 @@ NOTE: In der agrirouter Benutzeroberfläche werden die Telemetrieparameter Kateg
 Telemetrieparameter Kategorien:
 
 
-[cols="2,4,2,4",options="header",]
+[cols="2,4,",options="header",]
 |=======================================================================================
-|Name |Beschreibung | Anzahl der DDI's  |Beispiel
-|GPS Geo Position |GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged. |0 |
-|Guidance and Geo Data |Data related to geographical and guidance information |xref:appendix.adoc[47] |Tramline, AB-Lines, Tracknumber / Tramline control state / …
-|General Work Data |Task and Lifetime Counter or average values (Counters that are not relevant for Application and or yield) |xref:appendix.adoc[53] |Counter (e.g. km or ha), Working time, distance, …
-|Fuel and Exhaust Fluid Consumption Data |Data related what a machine consumpt of fuel and Exhaust Fluid (Energy overall) |xref:appendix.adoc[20] |Consumption Data of Fuel and e.g. AddBlue
-|Machine Data |Data related to the machine characteristics (not process relevant) |xref:appendix.adoc[108] |Max. and Min. Capacities of machine elemenets (e.g. Minium and Maximum of Tillage Depth) / Hydraulicoil Temp / …
-|Application Data |Data related what is applied to the field (e.g. fertilizier, seeds, plant protection, dry matter, …) |xref:appendix.adoc[109] |Application Data / Rates, actual values,… / (fertilizier, crop protection)
-|Crop and Yield Data |Properties of harvested material |xref:appendix.adoc[80] |Yield Data, Crop specifica e.g. moisture
-|Process Data |Data related to the main working process of the machine |xref:appendix.adoc[201] |Working depth, bale width, bale length, weigth,...
-|Environment Data |Data related to the Environment (wheater data) |xref:appendix.adoc[12] |Wind speed, Air Humidity,  Ambient temperature, …
-|Basic Data |Fundamental values that are relevant for the whole system |xref:appendix.adoc[24] |Device Element Offsets, Speed Source, Connector Type, …
-|Machine Data (only PGN Data) |Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-Speed, etc. |xref:appendix.adoc[1] |
-|Proprietary Data |Manufacturer specific data (not part of the standard) |xref:appendix.adoc[2] |proprietary, manufacturer-specific DDI range (DDIs 57344-65534)
-|Soil Data |Conditions and sensor data about soil |xref:appendix.adoc[5] |Soil Compaction and Ingrediants
+|Name |Beschreibung 
+|xref:appendix.adoc[GPS Geo Position] |GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged.
+|xref:appendix.adoc[Guidance and Geo Data] |Data related to geographical and guidance information 
+|xref:appendix.adoc[General Work Data] |Task and Lifetime Counter or average values (Counters that are not relevant for Application and or yield) 
+|xref:appendix.adoc[Fuel and Exhaust Fluid Consumption Data] |Data related what a machine consumpt of fuel and Exhaust Fluid (Energy overall) 
+|xref:appendix.adoc[Machine Data] |Data related to the machine characteristics (not process relevant) 
+|xref:appendix.adoc[Application Data] |Data related what is applied to the field (e.g. fertilizier, seeds, plant protection, dry matter, …) 
+|xref:appendix.adoc[Crop and Yield Data] |Properties of harvested material 
+|xref:appendix.adoc[Process Data] |Data related to the main working process of the machine 
+|xref:appendix.adoc[Environment Data] |Data related to the Environment (wheater data) 
+|xref:appendix.adoc[Basic Data] |Fundamental values that are relevant for the whole system 
+|xref:appendix.adoc[Machine Data (only PGN Data)] |Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-Speed, etc. 
+|xref:appendix.adoc[Proprietary Data] |Manufacturer specific data (not part of the standard) 
+|xref:appendix.adoc[Soil Data] |Conditions and sensor data about soil 
 |=======================================================================================
-
 
 == Dashboard 
 !Review alter Text ...
