@@ -67,22 +67,22 @@ NOTE: In der agrirouter Benutzeroberfläche werden die Telemetrieparameter Kateg
 Telemetrieparameter Kategorien:
 
 
-[cols="1,2,4,2,4",options="header",]
+[cols="2,4,2,4",options="header",]
 |=======================================================================================
-|# |Name |Beschreibung | Anzahl der DDI's  |Beispiel
-|0 |GPS Geo Position |GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged. |0 |
-|1 |Guidance and Geo Data |Data related to geographical and guidance information |47 |Tramline, AB-Lines, Tracknumber / Tramline control state / …
-|2 |General Work Data |Task and Lifetime Counter or average values (Counters that are not relevant for Application and or yield) |53 |Counter (e.g. km or ha), Working time, distance, …
-|3 |Fuel and Exhaust Fluid Consumption Data |Data related what a machine consumpt of fuel and Exhaust Fluid (Energy overall) |20 |Consumption Data of Fuel and e.g. AddBlue
-|4 |Machine Data |Data related to the machine characteristics (not process relevant) |108 |Max. and Min. Capacities of machine elemenets (e.g. Minium and Maximum of Tillage Depth) / Hydraulicoil Temp / …
-|5 |Application Data |Data related what is applied to the field (e.g. fertilizier, seeds, plant protection, dry matter, …) |109 |Application Data / Rates, actual values,… / (fertilizier, crop protection)
-|6 |Crop and Yield Data |Properties of harvested material |80 |Yield Data, Crop specifica e.g. moisture
-|7 |Process Data |Data related to the main working process of the machine |201 |Working depth, bale width, bale length, weigth,...
-|8 |Environment Data |Data related to the Environment (wheater data) |12 |Wind speed, Air Humidity,  Ambient temperature, …
-|9 |Basic Data |Fundamental values that are relevant for the whole system |24 |Device Element Offsets, Speed Source, Connector Type, …
-|10 |Machine Data (only PGN Data) |Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-Speed, etc. |1 |
-|11 |Proprietary Data |Manufacturer specific data (not part of the standard) |2 |proprietary, manufacturer-specific DDI range (DDIs 57344-65534)
-|12 |Soil Data |Conditions and sensor data about soil |5 |Soil Compaction and Ingrediants
+|Name |Beschreibung | Anzahl der DDI's  |Beispiel
+|GPS Geo Position |GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged. |0 |
+|Guidance and Geo Data |Data related to geographical and guidance information |47 |Tramline, AB-Lines, Tracknumber / Tramline control state / …
+|General Work Data |Task and Lifetime Counter or average values (Counters that are not relevant for Application and or yield) |53 |Counter (e.g. km or ha), Working time, distance, …
+|Fuel and Exhaust Fluid Consumption Data |Data related what a machine consumpt of fuel and Exhaust Fluid (Energy overall) |20 |Consumption Data of Fuel and e.g. AddBlue
+|Machine Data |Data related to the machine characteristics (not process relevant) |108 |Max. and Min. Capacities of machine elemenets (e.g. Minium and Maximum of Tillage Depth) / Hydraulicoil Temp / …
+|Application Data |Data related what is applied to the field (e.g. fertilizier, seeds, plant protection, dry matter, …) |109 |Application Data / Rates, actual values,… / (fertilizier, crop protection)
+|Crop and Yield Data |Properties of harvested material |80 |Yield Data, Crop specifica e.g. moisture
+|Process Data |Data related to the main working process of the machine |201 |Working depth, bale width, bale length, weigth,...
+|Environment Data |Data related to the Environment (wheater data) |12 |Wind speed, Air Humidity,  Ambient temperature, …
+|Basic Data |Fundamental values that are relevant for the whole system |24 |Device Element Offsets, Speed Source, Connector Type, …
+|Machine Data (only PGN Data) |Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-Speed, etc. |1 |
+|Proprietary Data |Manufacturer specific data (not part of the standard) |2 |proprietary, manufacturer-specific DDI range (DDIs 57344-65534)
+|Soil Data |Conditions and sensor data about soil |5 |Soil Compaction and Ingrediants
 |=======================================================================================
 
 
@@ -121,20 +121,4 @@ image::notification_center_prio.png[Ansicht nach Priorität]
 == Sprache der Benutzeroberfläche
 !Erklärung ...
 
-=== Telemetrieparameter Kategorien zuordnung
 
-[cols="1,3,3,4",options="header",]
-|=======================================================================================
-|DDI ID| DDI |Kategorie |Beschreibung
-|505 |Tramline Control Level |Guidance and Geo Data	|This DDI defines the Tramline Control capability of the Implement.
-|506 |Setpoint Tramline Control Level |Guidance and Geo Data |This DDI defines the Tramline Control capability of the Task Controller that is used with the appropriate Implement.
-|507 |Tramline Sequence Number |Guidance and Geo Data |This DDI defines a group of DDIs which belong together.
-|508 |Unique A-B Guidance Reference Line ID |Guidance and Geo Data |This DDI defines a unique ID to identify which Guidance Reference Line is the base for the Tramline calculation.
-|509 |Actual Track Number |Guidance and Geo Data |This DDI defines a unique number of the Guidance Track the Implement is currently located on.
-|510 |Track Number to the right |Guidance and Geo Data |This DDI defines a unique number of the Guidance Track to right hand side in direction of Implement orientation.
-|511 |Track Number to the left |Guidance and Geo Data |This DDI defines a unique number of the Guidance Track to left hand side in direction of Implement orientation.
-|512 |Guidance Line Swath Width |Guidance and Geo Data |The Swath Width is the Distance between two adjacent Guidance Lines in a Guidance Pattern.
-|513 |Guidance Line Deviation |Guidance and Geo Data |Deviation of the Device-Reference-Point (DRP) to the actual guidance line, in driving direction.
-|514 |GNSS Quality |Guidance and Geo Data |GNSS Quality Identifier to inform the implement about the used Position Status.
-
-|=======================================================================================
