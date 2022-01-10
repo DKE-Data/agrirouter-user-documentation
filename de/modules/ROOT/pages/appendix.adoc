@@ -178,7 +178,30 @@
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
-
+|0 |Data Dictionary Version |Basic Data |This DDE is used to specify which version of the Data Dictionary is being used.
+|134 |Device Element Offset X |Basic Data |X direction offset of a DeviceElement relative to a Device.
+|135 |Device Element Offset Y |Basic Data |Y direction offset of a DeviceElement relative to a Device.
+|136 |Device Element Offset Z |Basic Data |Z direction offset of a DeviceElement relative to a Device.
+|147 |Log Count |Basic Data |Log Counter, may be used to control data log record generation on a Task Controller
+|154 |Physical Object Length |Basic Data |Length of device element (dimension along the X-axis)
+|155 |Physical Object Width |Basic Data |Width of device element (dimension along the Y-axis)
+|156 |Physical Object Height |Basic Data |Height of device element (dimension along the Z-axis)
+|157 |Connector Type |Basic Data |Specification of the type of coupler. The value definitions can be looked up at https://www.isobus.net/isobus/dDEntity/767
+|158 |Prescription Control State |Basic Data |Defines and synchronise the actual state of the prescription system. The state is represented by the lowest significant 2 bits in the lowest significant byte of the process data value: Byte 1: bit 0-1: 00 = manual/off, 01 = auto/on, 10 = error indicator, 11 = undefined/not installed. bits 2-7: reserved set to 0. Byte 2-4: reserved set to 0.
+|159 |Number of Sub-Units per Section |Basic Data |Specifies the number of sub-units for a section (e.g. number of nozzles per sprayer section or number of planter row units per metering device).
+|178 |Element Type Instance |Basic Data |This DDI is used to enumerate and identify multiple device elements (DET) of the same type within one Device Description object pool. The value of this DDI is independent of the DET number. The combination of device element type and value of Element Type Instance ETI represents a unique object inside the device description object pool and therefore shall exist only once per object pool. Recommendation: The definition of the device elements should be made from left to right direction or from front to back direction.  When in a matrix, count left-to-right first, then front-to-back and at last top-to-bottom. See attachment for more information.
+|179 |Actual Cultural Practice |Basic Data |This DDI is used to define the current cultural practice which is performed by an individual device operation. For instance a planter/seeder could provide a sowing and a fertilizing operation at the same time.
+|180 |Device Reference Point (DRP) to Ground distance |Basic Data |This DDI is used to specify the distance from the Device Reference Point (DRP) down to the ground surface. The DRP to Ground DDI shall be attached only to the Device Element (DET) with element number zero.
+|259 |Yield Lag Ignore Time |Basic Data |Amount of time to ignore yield data, starting at the transition from the in-work to the out-of-work state. During this time, the yield sensor provides inconsistent or unreliable crop flow data.
+|260 |Yield Lead Ignore Time |Basic Data |Amount of time to ignore yield data, starting at the transition from the out-of-work to the in-work state. During this time, the yield sensor provides inconsistent or unreliable crop flow data.
+|264 |Connector Pivot X-Offset |Basic Data |X direction offset of a connector pivot point  relative to DRP.
+|306 |True Rotation Point  X-Offset  |Basic Data |X direction offset of the device rotation point relative to the DRP.
+|307 |True Rotation Point Y-Offset |Basic Data |Y direction offset of the device rotation point relative to the DRP.
+|350 |Function or Operation Technique |Basic Data |The Function or Operation Technique DDE can be used to define the operation technique or functionality performed by a device element defined within the DDOP. The values to be used are defined in the attached document.
+|400 |Speed Source |Basic Data |The Speed Source that the device uses to report actual speed and to process the setpoint, minimum and maximum speeds. The Speed Source value is an enumeration with the following definitions:
+|471 |Setpoint Actual Cultural Practice |Basic Data |This DDI is used to define the setpoint cultural practice which is performed by an individual device operation. For instance a planter/seeder could provide a sowing and a fertilizing operation at the same time.
+|520 |Actual Canopy Height |Basic Data |Actual height of the canopy above ground.
+|57343 |Request Default Process Data |Basic Data |Request Default Process Data. This DDE is the highest ISO assigned entity.  The range above this number is reserved for manufacture specific DDE's.
 |=======================================================================================
 
 == Machine Data (only PGN Data)
