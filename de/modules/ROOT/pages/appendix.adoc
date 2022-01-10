@@ -171,7 +171,18 @@
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
-
+|192 |Ambient temperature |Environment Data |Ambient temperature measured by a machine. Unit is milli-Kelvin (mK). 
+|207 |Wind speed |Environment Data |Wind speed measured in the treated field at the beginning of operations or on the application implement during operations. Measurements at to be made at 2m height or 1 m over the canopy in tree and bush crops.
+|208 |Wind direction |Environment Data |Wind direction measured in the treated field at the beginning of operations or on the application implement during operations. Measurements at to be made at 2m height or 1 m over the canopy in tree and bush crops.
+|209 |Relative Humidity |Environment Data |Ambient humidty measured by a weather station in a treated field or on the application implement.
+|210 |Sky conditions |Environment Data |This DDE is used to define the current sky conditions during operation. The METAR format and its abbrivations is used as follows to define the sky conditions:
+|224 |Delta T |Environment Data |The difference between dry bulb temperature and wet bulb temperature measured by a weather station in a treated field or on the application equipment.
+|383 |Apparent Wind Direction |Environment Data |The apparent wind is the wind which is measured on a moving vehicle. It is the result of two motions: the actual true wind and the motion of the vehicle. The wind angle is referenced to the present heading of the vehicle (Zero degree refers to the vehicle driving direction).
+|384 |Apparent Wind Speed |Environment Data |The apparent wind is the wind which is measured on a moving vehicle. It is the result of two motions: the actual true wind and the motion of the vehicle.
+|385 |MSL Atmospheric Pressure  |Environment Data |The atmospheric pressure MSL (Mean Sea Level) is the air pressure related to mean sea level.
+|386 |Actual Atmospheric Pressure |Environment Data |The Actual Atmospheric Pressure is the air pressure currently measured by the weather station.
+|556 |Present Weather Conditions |Environment Data |DDI to document the current weather conditions.
+|587 |Previous Rainfall |Environment Data |DDI to document past rainfall conditions.
 |=======================================================================================
 
 == Basic Data
