@@ -144,7 +144,36 @@
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
-
+|54 |Minimum Tillage Depth |Machine Data |Minimum Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
+|55 |Maximum Tillage Depth |Machine Data |Maximum Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
+|59 |Minimum Seeding Depth |Machine Data |Minimum Seeding Depth of Device Element below soil surface, value increases with depth
+|60 |Maximum Seeding Depth |Machine Data |Maximum Seeding Depth of Device Element below soil surface, value increases with depth
+|64 |Minimum Working Height |Machine Data |Minimum Working Height of Device Element above crop or soil
+|65 |Maximum Working Height |Machine Data |Maximum Working Height of Device Element above crop or soil
+|69 |Minimum Working Width |Machine Data |Minimum Working Width of Device Element
+|70 |Maximum Working Width |Machine Data |Maximum Working Width of Device Element
+|73 |Maximum Volume Content |Machine Data |Maximum Device Element Content specified as volume
+|76 |Maximum Mass Content |Machine Data |Maximum Device Element Content specified as mass
+|79 |Maximum Count Content |Machine Data |Maximum Device Element Content specified as count
+|104 |Minimum Bale Width |Machine Data |Minimum Bale Width for square baler or round baler
+|105 |Maximum Bale Width |Machine Data |Maximum Bale Width for square baler or round baler
+|109 |Minimum Bale Height |Machine Data |Minimum Bale Height is only applicable to square baler
+|110 |Maximum Bale Height |Machine Data |Maximum Bale Height is only applicable to square baler
+|114 |Minimum Bale Size |Machine Data |Minimum Bale Size as length for a square baler or diameter for a round baler
+|115 |Maximum Bale Size |Machine Data |Maximum Bale Size as length for a square baler or diameter for a round baler
+|124 |Auxiliary Valve Scaling Extend |Machine Data |Factor to apply to AuxValveCommand PortFlowCommand. The scaling of the port flow relates to flow, not to spool position, although the position of the spool is of course indirectly affected.
+|125 |Auxiliary Valve Scaling Retract |Machine Data |Factor to apply to AuxValveCommand PortFlowCommand. The scaling of the port flow relates to flow, not to spool position, although the position of the spool is of course indirectly affected.
+|126 |Auxiliary Valve Ramp Extend Up |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|127 |Auxiliary Valve Ramp Extend Down |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|128 |Auxiliary Valve Ramp Retract Up |Machine Data |The valve will apply a ramp to theAuxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|129 |Auxiliary Valve Ramp Retract Down |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|130 |Auxiliary Valve Float Threshold |Machine Data |Safety function. Current output of valve must be above threshold before float command is allowed.
+|131 |Auxiliary Valve Progressivity Extend |Machine Data |Define non-linear releationship between command and flow by 2nd degree polynomium. (I will get polynomium)
+|132 |Auxiliary Valve Progressivity Retract |Machine Data |Define non-linear releationship between command and flow by 2nd degree polynomium. (I will get polynomium)
+|133 |Auxiliary Valve Invert Ports |Machine Data |Tell valve to swap extend and retract ports, easier than redoing plumbing on valve
+|137 |Device Volume Capacity |Machine Data |DeviceElement Volume Capacity, dimension of a DeviceElement
+|138 |Device Mass Capacity |Machine Data |DeviceElement Mass Capacity, dimension of a DeviceElement
+|139 |Device Count Capacity |Machine Data |DeviceElement Count Capacity, dimension of a DeviceElement
 |=======================================================================================
 
 == Application Data
