@@ -209,6 +209,8 @@
 |348 |Maximum Swathing Width |Machine Data |This is the maximum with of the swath the raker can create.
 |392 |Minimum Revolutions Per Time |Machine Data |Minimum Revolutions specified as count per time
 |393 |Maximum Revolutions Per Time |Machine Data |Maximum Revolutions specified as count per time
+|398 |Minimum Speed |Machine Data |The minimum speed that can be specified in a process data variable for communication between farm management information systems and mobile implement control systems. A positive value will represent forward direction and a negative value will represent reverse direction.
+|399 |Maximum Speed |Machine Data |The maximum speed that can be specified in a process data variable for communication between farm management information systems and mobile implement control systems.  A positive value will represent forward direction and a negative value will represent reverse direction.
 |473 |Minimum length of cut |Machine Data |Minimum length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
 |474 |Maximum Length of Cut |Machine Data |Maximum length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
 |476 |Minimum Bale Hydraulic Pressure |Machine Data |The minimum value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber.
@@ -242,11 +244,6 @@
 |582 |Default Temperature |Machine Data |Default Temperature of Device Element specified as milli Kelvin
 |585 |Minimum Frequency  |Machine Data |Minimum Frequency of Device Element specified as Hz
 |586 |Maximum Frequency  |Machine Data |Maximum Frequency of Device Element specified as Hz
-|595 |Machine Mode |Machine Data |Current mode of the machine. Unknown(0)/Idle(1)/FieldMode(2)/Streetmode(3)/Maintenance(4)/Filling(5)/Emptying(6)/Cleaning(7)
-|596 |Cargo Area Cover State |Machine Data |Current state of the Cargo Area Cover. -1=Error, 0=Open, 100=Closed, everything inbetween is in percentage
-|638 |Setpoint Tire Pressure |Machine Data |Setpoint Tire Pressure to adjust the pressure of the Tire at the point of dispensing.
-|639 |Actual Tire Pressure |Machine Data |Actual Tire Pressure is the measured pressure in the tire during operation.
-|640 |Default Tire Pressure |Machine Data |Default Tire Pressure in the tire during operation
 |641 |Minimum Tire Pressure |Machine Data |Minimum Tire Pressure in the tire at the time of operation
 |642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
 |643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
