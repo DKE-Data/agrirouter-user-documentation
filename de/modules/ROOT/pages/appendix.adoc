@@ -1,3 +1,4 @@
+
 == Guidance and Geo Data
 
 [cols="1,3,3,4",options="header",]
@@ -143,114 +144,7 @@
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
-|54 |Minimum Tillage Depth |Machine Data |Minimum Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
-|55 |Maximum Tillage Depth |Machine Data |Maximum Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
-|59 |Minimum Seeding Depth |Machine Data |Minimum Seeding Depth of Device Element below soil surface, value increases with depth
-|60 |Maximum Seeding Depth |Machine Data |Maximum Seeding Depth of Device Element below soil surface, value increases with depth
-|64 |Minimum Working Height |Machine Data |Minimum Working Height of Device Element above crop or soil
-|65 |Maximum Working Height |Machine Data |Maximum Working Height of Device Element above crop or soil
-|69 |Minimum Working Width |Machine Data |Minimum Working Width of Device Element
-|70 |Maximum Working Width |Machine Data |Maximum Working Width of Device Element
-|73 |Maximum Volume Content |Machine Data |Maximum Device Element Content specified as volume
-|76 |Maximum Mass Content |Machine Data |Maximum Device Element Content specified as mass
-|79 |Maximum Count Content |Machine Data |Maximum Device Element Content specified as count
-|104 |Minimum Bale Width |Machine Data |Minimum Bale Width for square baler or round baler
-|105 |Maximum Bale Width |Machine Data |Maximum Bale Width for square baler or round baler
-|109 |Minimum Bale Height |Machine Data |Minimum Bale Height is only applicable to square baler
-|110 |Maximum Bale Height |Machine Data |Maximum Bale Height is only applicable to square baler
-|114 |Minimum Bale Size |Machine Data |Minimum Bale Size as length for a square baler or diameter for a round baler
-|115 |Maximum Bale Size |Machine Data |Maximum Bale Size as length for a square baler or diameter for a round baler
-|124 |Auxiliary Valve Scaling Extend |Machine Data |Factor to apply to AuxValveCommand PortFlowCommand. The scaling of the port flow relates to flow, not to spool position, although the position of the spool is of course indirectly affected.
-|125 |Auxiliary Valve Scaling Retract |Machine Data |Factor to apply to AuxValveCommand PortFlowCommand. The scaling of the port flow relates to flow, not to spool position, although the position of the spool is of course indirectly affected.
-|126 |Auxiliary Valve Ramp Extend Up |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
-|127 |Auxiliary Valve Ramp Extend Down |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
-|128 |Auxiliary Valve Ramp Retract Up |Machine Data |The valve will apply a ramp to theAuxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
-|129 |Auxiliary Valve Ramp Retract Down |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
-|130 |Auxiliary Valve Float Threshold |Machine Data |Safety function. Current output of valve must be above threshold before float command is allowed.
-|131 |Auxiliary Valve Progressivity Extend |Machine Data |Define non-linear releationship between command and flow by 2nd degree polynomium. (I will get polynomium)
-|132 |Auxiliary Valve Progressivity Retract |Machine Data |Define non-linear releationship between command and flow by 2nd degree polynomium. (I will get polynomium)
-|133 |Auxiliary Valve Invert Ports |Machine Data |Tell valve to swap extend and retract ports, easier than redoing plumbing on valve
-|137 |Device Volume Capacity |Machine Data |DeviceElement Volume Capacity, dimension of a DeviceElement
-|138 |Device Mass Capacity |Machine Data |DeviceElement Mass Capacity, dimension of a DeviceElement
-|139 |Device Count Capacity |Machine Data |DeviceElement Count Capacity, dimension of a DeviceElement
-|142 |Physical Setpoint Time Latency |Machine Data |The Setpoint Value Latency Time is the time lapse between the moment of receival of a setpoint value command by the working set and the moment this setpoint value is physically applied on the device. That means if the setpoint value is communicated on the network (CAN bus) but the system needs 2 seconds to adjust the value physically on the desired unit (device element) then the Setpoint Latency Time is 2 seconds. 
-|143 |Physical Actual Value Time Latency |Machine Data |The Actual Value Latency Time is the time lapse between the moment this actual value is communicated to the Task Controller, and the moment that this actual value is physically applied on the device. That means if the system needs 2 seconds to calculate or measure a value before communicating it on the network, then the Actual Latency Time value is minus 2 seconds.
-|195 |Minimum Product Pressure |Machine Data |Minimun Product Pressure in the product flow system at the point of dispensing. 
-|196 |Maximum Product Pressure |Machine Data |Maximum Product Pressure in the product flow system at the point of dispensing. 
-|199 |Minimum Pump Output Pressure |Machine Data |Minimum Pump Output Pressure for the output pressure of the solution pump.
-|200 |Maximum Pump Output Pressure |Machine Data |Maximum Pump Output Pressure for the output pressure of the solution pump.
-|203 |Minimum Tank Agitation Pressure |Machine Data |Minimun Tank Agitation Pressure for a stir system in a tank.
-|204 |Maximum Tank Agitation Pressure |Machine Data |Maximun Tank Agitation Pressure for a stir system in a tank.
-|205 |SC Turn On Time |Machine Data |The Section Control Turn On Time defines the overall time lapse between the moment the TC sends a turn on section command to the working set and the moment this section is physically turned on and the product is applied.
-|206 |SC Turn Off Time |Machine Data |The Section Control Turn Off Time defines the overall time lapse between the moment the TC sends a turn off section command to the working set and the moment this section is physically turned off.
-|227 |Minimum Working Length |Machine Data |Minimum Working Length of Device Element.
-|228 |Maximum Working Length |Machine Data |Maximum Working Length of Device Element.
-|234 |Minimum Gross Weight |Machine Data |Minimum Gross Weight specified as mass.
-|235 |Maximum Gross Weight |Machine Data |Maximum Gross Weight specified as mass.
-|244 |Minimum Sieve Clearance |Machine Data |Minimal separation distance between Sieve elements
-|245 |Maximum Sieve Clearance |Machine Data |Maximum separation distance between Sieve elements.
-|248 |Minimum Chaffer Clearance |Machine Data |Minimum separation distance between Chaffer elements.
-|249 |Maximum Chaffer Clearance |Machine Data |Maximum separation distance between Chaffer elements.
-|252 |Minimum Concave Clearance |Machine Data |Minimum separation distance between Concave elements.
-|253 |Maximum Concave Clearance |Machine Data |Maximum separation distance between Concave elements.
-|256 |Minimum Separation Fan Rotational Speed |Machine Data |Minimum rotational speed of the fan used for separating product material from non product material.
-|257 |Maximum Separation Fan Rotational Speed |Machine Data |Maximum rotational speed of the fan used for separating product material from non product material.
-|258 |Hydraulic Oil Temperature |Machine Data |Temperature of fluid in the hydraulic system.
-|309 |Minimum Percentage Application Rate |Machine Data |Minimum Application Rate expressed as percentage
-|310 |Maximum Percentage Application Rate |Machine Data |Maximum Application Rate expressed as percentage
-|328 |Minimum Header Speed |Machine Data |The minimum rotational speed of the header attachment of a chopper, mower or combine
-|329 |Maximum Header Speed |Machine Data |The maximum rotational speed of the header attachment of a chopper, mower or combine
-|332 |Minimum Cutting drum speed |Machine Data |The minimum speed of the cutting drum of a chopper
-|333 |Maximum Cutting drum speed |Machine Data |The maximum speed of the cutting drum of a chopper
-|343 |Minimum Grain Kernel Cracker Gap |Machine Data |The minimum gap (distance) of the grain kernel cracker drums in a chopper
-|344 |Maximum Grain Kernel Cracker Gap |Machine Data |The maximum gap (distance) of the grain kernel cracker drums in a chopper
-|347 |Minimum Swathing Width |Machine Data |This is the minimum swath width the raker can create.
-|348 |Maximum Swathing Width |Machine Data |This is the maximum with of the swath the raker can create.
-|392 |Minimum Revolutions Per Time |Machine Data |Minimum Revolutions specified as count per time
-|393 |Maximum Revolutions Per Time |Machine Data |Maximum Revolutions specified as count per time
-|398 |Minimum Speed |Machine Data |The minimum speed that can be specified in a process data variable for communication between farm management information systems and mobile implement control systems. A positive value will represent forward direction and a negative value will represent reverse direction.
-|399 |Maximum Speed |Machine Data |The maximum speed that can be specified in a process data variable for communication between farm management information systems and mobile implement control systems.  A positive value will represent forward direction and a negative value will represent reverse direction.
-|473 |Minimum length of cut |Machine Data |Minimum length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
-|474 |Maximum Length of Cut |Machine Data |Maximum length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
-|476 |Minimum Bale Hydraulic Pressure |Machine Data |The minimum value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber.
-|477 |Maximum Bale Hydraulic Pressure |Machine Data |The maximum value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber.
-|479 |Minimum Flake Size |Machine Data |Minimum size of the flake that can be produced by the chamber.
-|480 |Maximum Flake Size |Machine Data |Maximum size of the flake that can be produced by the chamber.
-|485 |Minimum Engine Speed |Machine Data |The minimum of the rotational speed of the engine.
-|486 |Maximum Engine Speed |Machine Data |The maximum of the rotational speed of the engine.
-|489 |Maximum Diesel Exhaust Fluid Tank Content |Machine Data |This value describes the maximum ammount of Diesel Exhaust fluid, that can be filled into the tank of the machine
-|490 |Maximum Fuel Tank Content |Machine Data |This value describes the maximum ammount of fuel that can be filled into the machines Fuel tank. 
-|503 |Minimum Engine Torque |Machine Data |The minimum value of the engine torque
-|504 |Maximum Engine Torque |Machine Data |The maximum value of the engine torque
-|526 |Actual Cooling Fluid Temperature |Machine Data |The actual temperature of the cooling fluid for the machine.
-|543 |Default PTO Speed |Machine Data |The default Speed of the Power Take-Off (PTO)
-|544 |Minimum PTO Speed |Machine Data |The minimum Speed of the Power Take-Off (PTO)
-|545 |Maximum PTO Speed |Machine Data |The maximum Speed of the Power Take-Off (PTO)
-|553 |Default PTO Torque |Machine Data |The default Torque of the Power Take-Off (PTO)
-|554 |Minimum PTO Torque |Machine Data |The minimum Torque of the Power Take-Off (PTO)
-|555 |Maximum PTO Torque |Machine Data |The maximum Torque of the Power Take-Off (PTO)
-|559 |Minimum Electrical Current |Machine Data |Minimum electrical Current of Device Element
-|560 |Maximum Electrical Current |Machine Data |Maximum electrical Current of Device Element
-|561 |Default Electrical Current |Machine Data |Default electrical current of Device Element
-|563 |Default Voltage |Machine Data |Default Voltage  of a Device Element
-|565 |Minimum Voltage |Machine Data |Minimum Voltage of a Device Element
-|566 |Maximum Voltage |Machine Data |Maximum Voltage of a Device Element
-|570 |Default Electrical Power  |Machine Data |Default Electrical Power of Device Element
-|571 |Maximum Electrical Power |Machine Data |Maximum Electrical Power of Device Element
-|572 |Minimum Electrical Power |Machine Data |Minimum Electrical Power of Device Element
-|580 |Minimum Temperature |Machine Data |Minimum Temperature of Device Element specified as milli Kelvin
-|581 |Maximum Temperature |Machine Data |Maximum Temperature of Device Element specified as milli Kelvin
-|582 |Default Temperature |Machine Data |Default Temperature of Device Element specified as milli Kelvin
-|585 |Minimum Frequency  |Machine Data |Minimum Frequency of Device Element specified as Hz
-|586 |Maximum Frequency  |Machine Data |Maximum Frequency of Device Element specified as Hz
-|595 |Machine Mode |Machine Data |Current mode of the machine. Unknown(0)/Idle(1)/FieldMode(2)/Streetmode(3)/Maintenance(4)/Filling(5)/Emptying(6)/Cleaning(7)
-|596 |Cargo Area Cover State |Machine Data |Current state of the Cargo Area Cover. -1=Error, 0=Open, 100=Closed, everything inbetween is in percentage
-|638 |Setpoint Tire Pressure |Machine Data |Setpoint Tire Pressure to adjust the pressure of the Tire at the point of dispensing.
-|639 |Actual Tire Pressure |Machine Data |Actual Tire Pressure is the measured pressure in the tire during operation.
-|640 |Default Tire Pressure |Machine Data |Default Tire Pressure in the tire during operation
-|641 |Minimum Tire Pressure |Machine Data |Minimum Tire Pressure in the tire at the time of operation
-|642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
-|643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
+
 |=======================================================================================
 
 == Application Data
