@@ -247,8 +247,14 @@
 |641 |Minimum Tire Pressure |Machine Data |Minimum Tire Pressure in the tire at the time of operation
 |642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
 |643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
-|595 |Machine Mode |Machine Data |Current mode of the machine. Unknown(0),Idle(1),FieldMode(2),Streetmode(3),Maintenance(4),Filling(5),Emptying(6),Cleaning(7)
-|596 |Cargo Area Cover State |Machine Data |Current state of the Cargo Area Cover. -1=Error, 0=Open, 100=Closed, everything inbetween is in percentage
+|595 |Machine Mode |Machine Data |Current mode of the machine.
+|596 |Cargo Area Cover State |Machine Data |Current state of the Cargo Area Cover.
+|638 |Setpoint Tire Pressure |Machine Data |Setpoint Tire Pressure to adjust the pressure of the Tire at the point of dispensing.
+|639 |Actual Tire Pressure |Machine Data |Actual Tire Pressure is the measured pressure in the tire during operation.
+|640 |Default Tire Pressure |Machine Data |Default Tire Pressure in the tire during operation
+|641 |Minimum Tire Pressure |Machine Data |Minimum Tire Pressure in the tire at the time of operation
+|642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
+|643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
 |=======================================================================================
 
 == Application Data
