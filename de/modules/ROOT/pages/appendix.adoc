@@ -1,0 +1,740 @@
+
+== Guidance and Geo Data
+
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|505 |Tramline Control Level |Guidance and Geo Data |This DDI defines the Tramline Control capability of the Implement.
+|506 |Setpoint Tramline Control Level |Guidance and Geo Data |This DDI defines the Tramline Control capability of the Task Controller that is used with the appropriate Implement.
+|507 |Tramline Sequence Number |Guidance and Geo Data |This DDI defines a group of DDIs which belong together.
+|508 |Unique A-B Guidance Reference Line ID |Guidance and Geo Data |This DDI defines a unique ID to identify which Guidance Reference Line is the base for the Tramline calculation.
+|509 |Actual Track Number |Guidance and Geo Data |This DDI defines a unique number of the Guidance Track the Implement is currently located on.
+|510 |Track Number to the right |Guidance and Geo Data |This DDI defines a unique number of the Guidance Track to right hand side in direction of Implement orientation.
+|511 |Track Number to the left |Guidance and Geo Data |This DDI defines a unique number of the Guidance Track to left hand side in direction of Implement orientation.
+|512 |Guidance Line Swath Width |Guidance and Geo Data |The Swath Width is the Distance between two adjacent Guidance Lines in a Guidance Pattern.
+|513 |Guidance Line Deviation |Guidance and Geo Data |Deviation of the Device-Reference-Point (DRP) to the actual guidance line, in driving direction.
+|514 |GNSS Quality |Guidance and Geo Data |GNSS Quality Identifier to inform the implement about the used Position Status.
+|515 |Tramline Control State |Guidance and Geo Data |Specifies the actual state of Tramline Control. 
+|516 |Tramline Overdosing Rate |Guidance and Geo Data |Overdosing Rate for the rows adjacent to the Tramline Track.
+|517 |Setpoint Tramline Condensed Work State 1-16 |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs. The value is a combination of the Setpoint Tramline Valve Work States of individual Tramline Valves number 1 to 16 into a single Setpoint Tramline Condensed Work State of their parent DeviceElement. The Setpoint Tramline Condensed Work State contains the child element Setpoint Tramline Work States, in the driving direction from left to right, where the leftmost child element Setpoint Tramline Work State are the 2 lowest significant bits of the Process Data Value. Each child device elements Setpoint Work State is represented by 2 bits and defined as: 00 = disable/off, 01 = enable/on, 10 = error indicator, 11 = no change. In total 16 child device element Setpoint Tramline Work States can be contained in one Setpoint Tramline Condensed Work State of their parent DeviceElement. If less than 16 child device element Setpoint Tramline Work States are available, then the unused bits shall be set to value 11 (no change).
+|518 |Actual Tramline Condensed Work State 1-16 |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 1 to 16 into a single Actual Tramline State of their parent DeviceElement. The Actual Tramline Condensed Work State contains the child element Actual Tramline Work States, in the driving direction from left to right, where the leftmost child element Actual Tramline Work State are the 2 lowest significant bits of the Process Data Value. Each child device elements Actual Tramline Work State is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element Actual Tramline Work States can be contained in one Actual Tramline Condensed Work State of their parent DeviceElement. If less than 16 child device element Actual Tramline Work States are available, then the unused bits shall be set to value 11 (not installed).
+|521 |GNSS Installation Type |Guidance and Geo Data |The GNSS Installation Type DDE is used by the device to provide additional information about the type and location of the GPS receiver with reference to the overall system. 
+|593 |Traction Type |Guidance and Geo Data |The type of traction system used for a machine.
+|594 |Steering Type |Guidance and Geo Data |Steering Type DDI is used to define the current active steering type of a machine.
+|603 |Actual Tramline Condensed Work State (17-32) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 17 to 32 into a single Actual Tramline State.
+|604 |Actual Tramline Condensed Work State (33-48) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 33 to 48 into a single Actual Tramline State.
+|605 |Actual Tramline Condensed Work State (49-64) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 49 to 64 into a single Actual Tramline State.
+|606 |Actual Tramline Condensed Work State (65-80) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 65 to 80 into a single Actual Tramline State.
+|607 |Actual Tramline Condensed Work State (81-96) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 81 to 96 into a single Actual Tramline State.
+|608 |Actual Tramline Condensed Work State (97-112) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 97 to 112 into a single Actual Tramline State.
+|609 |Actual Tramline Condensed Work State (113-128) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 113 to 128 into a single Actual Tramline State.
+|610 |Actual Tramline Condensed Work State (129-144) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 129 to 144 into a single Actual Tramline State.
+|611 |Actual Tramline Condensed Work State (145-160) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 145 to 160 into a single Actual Tramline State.
+|612 |Actual Tramline Condensed Work State (161-176) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 161 to 176 into a single Actual Tramline State.
+|613 |Actual Tramline Condensed Work State (177-192) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 177 to 192 into a single Actual Tramline State.
+|614 |Actual Tramline Condensed Work State (193-208) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 193 to 208 into a single Actual Tramline State.
+|615 |Actual Tramline Condensed Work State (209-224) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 209 to 224 into a single Actual Tramline State.
+|616 |Actual Tramline Condensed Work State (225-240) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 225 to 240 into a single Actual Tramline State.
+|617 |Actual Tramline Condensed Work State (241-256) |Guidance and Geo Data |Combination of the Actual States of individual Tramline Valves number 241 to 256 into a single Actual Tramline State.
+|618 |Setpoint Tramline Condensed Work State (17-32) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|619 |Setpoint Tramline Condensed Work State (33-48) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|620 |Setpoint Tramline Condensed Work State (49-64) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|621 |Setpoint Tramline Condensed Work State (65-80) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|622 |Setpoint Tramline Condensed Work State (81-96) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|623 |Setpoint Tramline Condensed Work State (97-112) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|624 |Setpoint Tramline Condensed Work State (113-128) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|625 |Setpoint Tramline Condensed Work State (129-144) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|626 |Setpoint Tramline Condensed Work State (145-160) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|627 |Setpoint Tramline Condensed Work State (161-176) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|628 |Setpoint Tramline Condensed Work State (177-192) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|629 |Setpoint Tramline Condensed Work State (193-208) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|630 |Setpoint Tramline Condensed Work State (209-224) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|631 |Setpoint Tramline Condensed Work State (225-240) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|632 |Setpoint Tramline Condensed Work State (241-256) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
+|=======================================================================================
+
+== General Work Data
+
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|116 |Total Area |General Work Data |Accumulated Area
+|117 |Effective Total Distance |General Work Data |Accumulated Distance in working position
+|118 |Ineffective Total Distance |General Work Data |Accumulated Distance out of working position
+|119 |Effective Total Time |General Work Data |Accumulated Time in working position
+|120 |Ineffective Total Time |General Work Data |Accumulated Time out of working position
+|213 |Last Bale Average Strokes per Flake |Crop and Yield Data |The number of baler plunger compression strokes per flake that has entered the bale compression chamber. This value is the average valid for the most recently produced bale.
+|214 |Lifetime Bale Count |General Work Data |The number of bales produced by a machine over its entire lifetime. This DDE value can not be set through the process data interface but can be requested and added to a datalog. This DDE value is not affected by a task based total bales but will increment at the same rate as the task based total.
+|215 |Lifetime Working Hours |General Work Data |The number of working hours of a device element over its entire lifetime. This DDE value can not be set through the process data interface but can be requested and added to a datalog.
+|236 |Thresher Engagement Total Time |General Work Data |Accumulated time while the threshing mechanism is engaged
+|265 |Remaining Area |General Work Data |Remaining Area of a field, which is calculated from the total area and the processed area.
+|271 |Lifetime Total Area |General Work Data |Entire Total Area of the device lifetime.
+|272 |Lifetime Effective Total Distance |General Work Data |Entire Total Distance of the device lifetime in working position.
+|273 |Lifetime Ineffective Total Distance |General Work Data |Entire Ineffective Total Distance of the device lifetime out of working position.
+|274 |Lifetime Effective Total Time |General Work Data |Entire Effective Total Time of the device lifetime.
+|275 |Lifetime Ineffective Total Time |General Work Data |Entire Ineffective Total Time of the device lifetime.
+|282 |Lifetime Threshing Engagement Total Time |General Work Data |Entire Threshing Engagement Total Time of the device lifetime.
+|283 |Precut Total Count |General Work Data |The total number of pre-cutted product units produced by a device during an operation.
+|284 |Uncut Total Count |General Work Data |The total number of un-cutted product units produced by a device during an operation.
+|285 |Lifetime Precut Total Count |General Work Data |Entire Precut Total Count of the device lifetime.
+|286 |Lifetime Uncut Total Count |General Work Data |Entire Uncut Total Count of the device lifetime.
+|324 |Chopper Engagement Total Time |General Work Data |Accumulated time while the chopping mechanism is engaged
+|335 |Front PTO hours |General Work Data |The hours the Front PTO of the machine was running for the current Task
+|336 |Rear PTO hours |General Work Data |The hours the Rear PTO of the machine was running for the current Task
+|337 |Lifetime Front PTO hours |General Work Data |The hours the Front PTO of the machine was running for the lifetime of the machine
+|338 |Lifetime Rear PTO Hours |General Work Data |The hours the Rear PTO of the machine was running for the lifetime of the machine
+|339 |Effective Total Loading Time |General Work Data |The total time needed in the current task to load a product such as crop.
+|340 |Effective Total Unloading Time |General Work Data |The total time needed in the current task to unload a product crop.
+|362 |Total Bale Length |General Work Data |Gives the total baled meters during a task. This is calculated as the sum of the lengths of all knotted bales (square baler). 
+|428 |Loaded Total Mass |General Work Data |Accumulated Loads specified as mass, not corrected for the reference moisture percentage DDI 184.
+|429 |Unloaded Total Mass |General Work Data |Accumulated Unloads specified as mass, not corrected for the reference moisture percentage DDI 184.
+|430 |Lifetime Loaded Total Mass |General Work Data |Entire Yield Total Mass of the device lifetime.
+|431 |Lifetime Unloaded Total Mass |General Work Data |Entire Unloaded Total Mass of the device lifetime.
+|452 |Loaded Total Volume |General Work Data |Accumulated Loaded Volume specified as volume
+|453 |Unloaded Total Volume |General Work Data |Accumulated Unloaded Volume specified as volume
+|454 |Lifetime loaded Total Volume |General Work Data |Entire loaded Volume of the device lifetime.
+|455 |Lifetime Unloaded Total Volume |General Work Data |Entire unloaded Volume of the device lifetime.
+|458 |Loaded Total Count |General Work Data |Accumulated Loads specified as count
+|459 |Unloaded Total Count |General Work Data |Accumulated Unloaded specified as count
+|460 |Lifetime Loaded Total Count |General Work Data |Entire Loaded Total Count of the device lifetime.
+|461 |Lifetime Unloaded Total Count |General Work Data |Entire Unloaded Total Count of the device lifetime.
+|492 |Total Engine Hours |General Work Data |The total time the engine was running when the task was active.
+|493 |Lifetime Engine Hours |General Work Data |The total time, when the engine was running over the whole lifetime of the machine.
+|522 |Twine Bale Total Count |General Work Data |The total number of  twine bound product units for which Twine binding method was used during operation.
+|523 |Mesh Bale Total Count |General Work Data |The total number of mesh product units for which Net binding method was used during operation.
+|524 |Lifetime Twine Bale Total Count |General Work Data |Entire total number of  twine bound product units for which Twine binding method was used during operation, of a device lifetime
+|525 |Lifetime Mesh Bale Total Count |General Work Data |Entire total number of mesh product units for which Net binding method was used during operation, of a device lifetime
+|546 |Lifetime Chopping Engagement Total Time |General Work Data |Entire Chopping Engagement Total Time of the device lifetime.
+|573 |Total Electrical Energy |General Work Data |Accumulated Electrical Energy Consumption as a Task Total.
+|597 |Total Distance |General Work Data |Accumulated Distance (independent of working position and surface)
+|598 |Lifetime Total Distance |General Work Data |Entire Total Distance of the device lifetime (independent of working position and surface)
+|599 |Total Distance Field |General Work Data |Accumulated Distance on the field
+|600 |Lifetime Total Distance Field |General Work Data |Entire Total Distance on the field of the device lifetime
+|601 |Total Distance Street |General Work Data |Accumulated Distance on the street
+|602 |Lifetime Total Distance Street |General Work Data |Entire Total Distance on the street of the device lifetime
+|=======================================================================================
+
+== Fuel and Exhaust Fluid Consumption Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|148 |Total Fuel Consumption |Fuel and Exhaust Fluid Consumption Data |Accumulated Fuel Consumption as Counter
+|149 |Instantaneous Fuel Consumption per Time |Fuel and Exhaust Fluid Consumption Data |Fuel Consumption per time
+|150 |Instantaneous Fuel Consumption per Area |Fuel and Exhaust Fluid Consumption Data |Fuel Consumption per area
+|276 |Lifetime Fuel Consumption |Fuel and Exhaust Fluid Consumption Data |Entire Fuel Consumption of the device lifetime.
+|277 |Lifetime Average Fuel Consumption per Time |Fuel and Exhaust Fluid Consumption Data |Entire Average Fuel Consumption per Time of the device lifetime.
+|278 |Lifetime Average Fuel Consumption per Area |Fuel and Exhaust Fluid Consumption Data |Entire Average Fuel Consumption per Area of the device lifetime.
+|316 |Effective Total Fuel Consumption |Fuel and Exhaust Fluid Consumption Data |Accumulated total fuel Consumption in working position.
+|317 |Ineffective Total Fuel Consumption |Fuel and Exhaust Fluid Consumption Data |Accumulated total fuel Consumption in non working position.
+|318 |Effective Total Diesel Exhaust Fluid Consumption |Fuel and Exhaust Fluid Consumption Data |Accumulated total Diesel Exhaust Fluid Consumption in working position.
+|319 |Ineffective Total Diesel Exhaust Fluid Consumption |Fuel and Exhaust Fluid Consumption Data |Accumulated total Diesel Exhaust Fluid Consumption in non working position.
+|394 |Actual Fuel Tank Content |Fuel and Exhaust Fluid Consumption Data |The actual content of the fuel tank 
+|395 |Actual Diesel Exhaust Fluid Tank Content |Fuel and Exhaust Fluid Consumption Data |The actualcontent of the diesel exhaust fluid tank 
+|409 |Total Diesel Exhaust Fluid Consumption |Fuel and Exhaust Fluid Consumption Data |Accumulated Diesel Exhaust Fluid Consumption as a Task Total.
+|410 |Instantaneous Diesel Exhaust Fluid Consumption per Time |Fuel and Exhaust Fluid Consumption Data |Diesel Exhaust Fluid Consumption per time
+|411 |Instantaneous Diesel Exhaust Fluid Consumption per Area |Fuel and Exhaust Fluid Consumption Data |Diesel Exhaust Fluid Consumption per area
+|412 |Lifetime Diesel Exhaust Fluid Consumption |Fuel and Exhaust Fluid Consumption Data |Accumulated Diesel Exhaust Fluid Consumption over the entire lifetime of the device.
+|413 |Lifetime Average Diesel Exhaust Fluid Consumption per Time |Fuel and Exhaust Fluid Consumption Data |Average Diesel Exhaust Fluid Consumption per Time over the entire lifetime of the device.
+|414 |Lifetime Average Diesel Exhaust Fluid Consumption per Area |Fuel and Exhaust Fluid Consumption Data |Average Diesel Exhaust Fluid Consumption per Area over the entire lifetime of the device.
+|488 |Diesel Exhaust Fluid Tank Percentage Level |Fuel and Exhaust Fluid Consumption Data |The actual level of the Diesel Exhaust Fluid Tank in percent.
+|491 |Fuel Percentage Level |Fuel and Exhaust Fluid Consumption Data |The actual level of the machine fuel tank in percent.
+|=======================================================================================
+
+== Machine Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|54 |Minimum Tillage Depth |Machine Data |Minimum Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
+|55 |Maximum Tillage Depth |Machine Data |Maximum Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
+|59 |Minimum Seeding Depth |Machine Data |Minimum Seeding Depth of Device Element below soil surface, value increases with depth
+|60 |Maximum Seeding Depth |Machine Data |Maximum Seeding Depth of Device Element below soil surface, value increases with depth
+|64 |Minimum Working Height |Machine Data |Minimum Working Height of Device Element above crop or soil
+|65 |Maximum Working Height |Machine Data |Maximum Working Height of Device Element above crop or soil
+|69 |Minimum Working Width |Machine Data |Minimum Working Width of Device Element
+|70 |Maximum Working Width |Machine Data |Maximum Working Width of Device Element
+|73 |Maximum Volume Content |Machine Data |Maximum Device Element Content specified as volume
+|76 |Maximum Mass Content |Machine Data |Maximum Device Element Content specified as mass
+|79 |Maximum Count Content |Machine Data |Maximum Device Element Content specified as count
+|104 |Minimum Bale Width |Machine Data |Minimum Bale Width for square baler or round baler
+|105 |Maximum Bale Width |Machine Data |Maximum Bale Width for square baler or round baler
+|109 |Minimum Bale Height |Machine Data |Minimum Bale Height is only applicable to square baler
+|110 |Maximum Bale Height |Machine Data |Maximum Bale Height is only applicable to square baler
+|114 |Minimum Bale Size |Machine Data |Minimum Bale Size as length for a square baler or diameter for a round baler
+|115 |Maximum Bale Size |Machine Data |Maximum Bale Size as length for a square baler or diameter for a round baler
+|124 |Auxiliary Valve Scaling Extend |Machine Data |Factor to apply to AuxValveCommand PortFlowCommand. The scaling of the port flow relates to flow, not to spool position, although the position of the spool is of course indirectly affected.
+|125 |Auxiliary Valve Scaling Retract |Machine Data |Factor to apply to AuxValveCommand PortFlowCommand. The scaling of the port flow relates to flow, not to spool position, although the position of the spool is of course indirectly affected.
+|126 |Auxiliary Valve Ramp Extend Up |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|127 |Auxiliary Valve Ramp Extend Down |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|128 |Auxiliary Valve Ramp Retract Up |Machine Data |The valve will apply a ramp to theAuxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|129 |Auxiliary Valve Ramp Retract Down |Machine Data |The valve will apply a ramp to the Auxiliary ValveCommand PortFlowCommand, to limit the acceleration or deceleration of flow. The valve must apply the ramp to create a liniear increase/decrease of flow over time.
+|130 |Auxiliary Valve Float Threshold |Machine Data |Safety function. Current output of valve must be above threshold before float command is allowed.
+|131 |Auxiliary Valve Progressivity Extend |Machine Data |Define non-linear releationship between command and flow by 2nd degree polynomium. (I will get polynomium)
+|132 |Auxiliary Valve Progressivity Retract |Machine Data |Define non-linear releationship between command and flow by 2nd degree polynomium. (I will get polynomium)
+|133 |Auxiliary Valve Invert Ports |Machine Data |Tell valve to swap extend and retract ports, easier than redoing plumbing on valve
+|137 |Device Volume Capacity |Machine Data |DeviceElement Volume Capacity, dimension of a DeviceElement
+|138 |Device Mass Capacity |Machine Data |DeviceElement Mass Capacity, dimension of a DeviceElement
+|139 |Device Count Capacity |Machine Data |DeviceElement Count Capacity, dimension of a DeviceElement
+|142 |Physical Setpoint Time Latency |Machine Data |The Setpoint Value Latency Time is the time lapse between the moment of receival of a setpoint value command by the working set and the moment this setpoint value is physically applied on the device. That means if the setpoint value is communicated on the network (CAN bus) but the system needs 2 seconds to adjust the value physically on the desired unit (device element) then the Setpoint Latency Time is 2 seconds. 
+|143 |Physical Actual Value Time Latency |Machine Data |The Actual Value Latency Time is the time lapse between the moment this actual value is communicated to the Task Controller, and the moment that this actual value is physically applied on the device. That means if the system needs 2 seconds to calculate or measure a value before communicating it on the network, then the Actual Latency Time value is minus 2 seconds.
+|195 |Minimum Product Pressure |Machine Data |Minimun Product Pressure in the product flow system at the point of dispensing. 
+|196 |Maximum Product Pressure |Machine Data |Maximum Product Pressure in the product flow system at the point of dispensing. 
+|199 |Minimum Pump Output Pressure |Machine Data |Minimum Pump Output Pressure for the output pressure of the solution pump.
+|200 |Maximum Pump Output Pressure |Machine Data |Maximum Pump Output Pressure for the output pressure of the solution pump.
+|203 |Minimum Tank Agitation Pressure |Machine Data |Minimun Tank Agitation Pressure for a stir system in a tank.
+|204 |Maximum Tank Agitation Pressure |Machine Data |Maximun Tank Agitation Pressure for a stir system in a tank.
+|205 |SC Turn On Time |Machine Data |The Section Control Turn On Time defines the overall time lapse between the moment the TC sends a turn on section command to the working set and the moment this section is physically turned on and the product is applied.
+|206 |SC Turn Off Time |Machine Data |The Section Control Turn Off Time defines the overall time lapse between the moment the TC sends a turn off section command to the working set and the moment this section is physically turned off.
+|227 |Minimum Working Length |Machine Data |Minimum Working Length of Device Element.
+|228 |Maximum Working Length |Machine Data |Maximum Working Length of Device Element.
+|234 |Minimum Gross Weight |Machine Data |Minimum Gross Weight specified as mass.
+|235 |Maximum Gross Weight |Machine Data |Maximum Gross Weight specified as mass.
+|244 |Minimum Sieve Clearance |Machine Data |Minimal separation distance between Sieve elements
+|245 |Maximum Sieve Clearance |Machine Data |Maximum separation distance between Sieve elements.
+|248 |Minimum Chaffer Clearance |Machine Data |Minimum separation distance between Chaffer elements.
+|249 |Maximum Chaffer Clearance |Machine Data |Maximum separation distance between Chaffer elements.
+|252 |Minimum Concave Clearance |Machine Data |Minimum separation distance between Concave elements.
+|253 |Maximum Concave Clearance |Machine Data |Maximum separation distance between Concave elements.
+|256 |Minimum Separation Fan Rotational Speed |Machine Data |Minimum rotational speed of the fan used for separating product material from non product material.
+|257 |Maximum Separation Fan Rotational Speed |Machine Data |Maximum rotational speed of the fan used for separating product material from non product material.
+|258 |Hydraulic Oil Temperature |Machine Data |Temperature of fluid in the hydraulic system.
+|309 |Minimum Percentage Application Rate |Machine Data |Minimum Application Rate expressed as percentage
+|310 |Maximum Percentage Application Rate |Machine Data |Maximum Application Rate expressed as percentage
+|328 |Minimum Header Speed |Machine Data |The minimum rotational speed of the header attachment of a chopper, mower or combine
+|329 |Maximum Header Speed |Machine Data |The maximum rotational speed of the header attachment of a chopper, mower or combine
+|332 |Minimum Cutting drum speed |Machine Data |The minimum speed of the cutting drum of a chopper
+|333 |Maximum Cutting drum speed |Machine Data |The maximum speed of the cutting drum of a chopper
+|343 |Minimum Grain Kernel Cracker Gap |Machine Data |The minimum gap (distance) of the grain kernel cracker drums in a chopper
+|344 |Maximum Grain Kernel Cracker Gap |Machine Data |The maximum gap (distance) of the grain kernel cracker drums in a chopper
+|347 |Minimum Swathing Width |Machine Data |This is the minimum swath width the raker can create.
+|348 |Maximum Swathing Width |Machine Data |This is the maximum with of the swath the raker can create.
+|392 |Minimum Revolutions Per Time |Machine Data |Minimum Revolutions specified as count per time
+|393 |Maximum Revolutions Per Time |Machine Data |Maximum Revolutions specified as count per time
+|398 |Minimum Speed |Machine Data |The minimum speed that can be specified in a process data variable for communication between farm management information systems and mobile implement control systems. A positive value will represent forward direction and a negative value will represent reverse direction.
+|399 |Maximum Speed |Machine Data |The maximum speed that can be specified in a process data variable for communication between farm management information systems and mobile implement control systems.  A positive value will represent forward direction and a negative value will represent reverse direction.
+|473 |Minimum length of cut |Machine Data |Minimum length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
+|474 |Maximum Length of Cut |Machine Data |Maximum length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
+|476 |Minimum Bale Hydraulic Pressure |Machine Data |The minimum value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber.
+|477 |Maximum Bale Hydraulic Pressure |Machine Data |The maximum value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber.
+|479 |Minimum Flake Size |Machine Data |Minimum size of the flake that can be produced by the chamber.
+|480 |Maximum Flake Size |Machine Data |Maximum size of the flake that can be produced by the chamber.
+|485 |Minimum Engine Speed |Machine Data |The minimum of the rotational speed of the engine.
+|486 |Maximum Engine Speed |Machine Data |The maximum of the rotational speed of the engine.
+|489 |Maximum Diesel Exhaust Fluid Tank Content |Machine Data |This value describes the maximum ammount of Diesel Exhaust fluid, that can be filled into the tank of the machine
+|490 |Maximum Fuel Tank Content |Machine Data |This value describes the maximum ammount of fuel that can be filled into the machines Fuel tank. 
+|503 |Minimum Engine Torque |Machine Data |The minimum value of the engine torque
+|504 |Maximum Engine Torque |Machine Data |The maximum value of the engine torque
+|526 |Actual Cooling Fluid Temperature |Machine Data |The actual temperature of the cooling fluid for the machine.
+|543 |Default PTO Speed |Machine Data |The default Speed of the Power Take-Off (PTO)
+|544 |Minimum PTO Speed |Machine Data |The minimum Speed of the Power Take-Off (PTO)
+|545 |Maximum PTO Speed |Machine Data |The maximum Speed of the Power Take-Off (PTO)
+|553 |Default PTO Torque |Machine Data |The default Torque of the Power Take-Off (PTO)
+|554 |Minimum PTO Torque |Machine Data |The minimum Torque of the Power Take-Off (PTO)
+|555 |Maximum PTO Torque |Machine Data |The maximum Torque of the Power Take-Off (PTO)
+|559 |Minimum Electrical Current |Machine Data |Minimum electrical Current of Device Element
+|560 |Maximum Electrical Current |Machine Data |Maximum electrical Current of Device Element
+|561 |Default Electrical Current |Machine Data |Default electrical current of Device Element
+|563 |Default Voltage |Machine Data |Default Voltage  of a Device Element
+|565 |Minimum Voltage |Machine Data |Minimum Voltage of a Device Element
+|566 |Maximum Voltage |Machine Data |Maximum Voltage of a Device Element
+|570 |Default Electrical Power  |Machine Data |Default Electrical Power of Device Element
+|571 |Maximum Electrical Power |Machine Data |Maximum Electrical Power of Device Element
+|572 |Minimum Electrical Power |Machine Data |Minimum Electrical Power of Device Element
+|580 |Minimum Temperature |Machine Data |Minimum Temperature of Device Element specified as milli Kelvin
+|581 |Maximum Temperature |Machine Data |Maximum Temperature of Device Element specified as milli Kelvin
+|582 |Default Temperature |Machine Data |Default Temperature of Device Element specified as milli Kelvin
+|585 |Minimum Frequency  |Machine Data |Minimum Frequency of Device Element specified as Hz
+|586 |Maximum Frequency  |Machine Data |Maximum Frequency of Device Element specified as Hz
+|641 |Minimum Tire Pressure |Machine Data |Minimum Tire Pressure in the tire at the time of operation
+|642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
+|643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
+|595 |Machine Mode |Machine Data |Current mode of the machine.
+|596 |Cargo Area Cover State |Machine Data |Current state of the Cargo Area Cover.
+|638 |Setpoint Tire Pressure |Machine Data |Setpoint Tire Pressure to adjust the pressure of the Tire at the point of dispensing.
+|639 |Actual Tire Pressure |Machine Data |Actual Tire Pressure is the measured pressure in the tire during operation.
+|640 |Default Tire Pressure |Machine Data |Default Tire Pressure in the tire during operation
+|641 |Minimum Tire Pressure |Machine Data |Minimum Tire Pressure in the tire at the time of operation
+|642 |Maximum Tire Pressure |Machine Data |Maximum Tire Pressure in the tire during operation
+|643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
+|=======================================================================================
+
+== Application Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|1 |Setpoint Volume Per Area Application Rate as [mm³/m²] |Application Data |Setpoint Application Rate specified as volume per area
+|2 |Actual Volume Per Area Application Rate as [mm³/m²] |Application Data |Actual Application Rate specified as volume per area
+|3 |Default Volume Per Area Application Rate as [mm³/m²] |Application Data |Default Application Rate specified as volume per area
+|4 |Minimum Volume Per Area Application Rate as [mm³/m²] |Application Data |Minimum Application Rate specified as volume per area
+|5 |Maximum Volume Per Area Application Rate as [mm³/m²] |Application Data |Maximum Application Rate specified as volume per area
+|6 |Setpoint Mass Per Area Application Rate |Application Data |Setpoint Application Rate specified as mass per area
+|7 |Actual Mass Per Area Application Rate |Application Data |Actual Application Rate specified as mass per area
+|8 |Default Mass Per Area Application Rate |Application Data |Default Application Rate specified as mass per area
+|9 |Minimum Mass Per Area Application Rate |Application Data |Minimum Application Rate specified as mass per area
+|10 |Maximum Mass Per Area Application Rate |Application Data |Maximum Application Rate specified as mass per area
+|11 |Setpoint Count Per Area Application Rate |Application Data |Setpoint Application Rate specified as count per area
+|12 |Actual Count Per Area Application Rate |Application Data |Actual Application Rate specified as count per area
+|13 |Default Count Per Area Application Rate |Application Data |Default Application Rate specified as count per area
+|14 |Minimum Count Per Area Application Rate |Application Data |Minimum Application Rate specified as count per area
+|15 |Maximum Count Per Area Application Rate |Application Data |Maximum Application Rate specified as count per area
+|16 |Setpoint Spacing Application Rate |Application Data |Setpoint Application Rate specified as distance: e.g. seed spacing of a precision seeder(0 indicates, nothing shall be applied)
+|17 |Actual Spacing Application Rate |Application Data |Actual Application Rate specified as distance: e.g. seed spacing of a precision seeder
+|18 |Default Spacing Application Rate |Application Data |Default Application Rate specified as distance: e.g. seed spacing of a precision seeder
+|19 |Minimum Spacing Application Rate |Application Data |Minimum Application Rate specified as distance: e.g. seed spacing of a precision seeder
+|20 |Maximum Spacing Application Rate |Application Data |Maximum Application Rate specified as distance: e.g. seed spacing of a precision seeder
+|21 |Setpoint Volume Per Volume Application Rate |Application Data |Setpoint Application Rate specified as volume per volume
+|22 |Actual Volume Per Volume Application Rate |Application Data |Actual Application Rate specified as volume per volume
+|23 |Default Volume Per Volume Application Rate |Application Data |Default Application Rate specified as volume per volume
+|24 |Minimum Volume Per Volume Application Rate |Application Data |Minimum Application Rate specified as volume per volume
+|25 |Maximum Volume Per Volume Application Rate |Application Data |Maximum Application Rate specified as volume per volume
+|26 |Setpoint Mass Per Mass Application Rate |Application Data |Setpoint Application Rate specified as mass per mass
+|27 |Actual Mass Per Mass Application Rate |Application Data |Actual Application Rate specified as mass per mass
+|28 |Default Mass Per Mass Application Rate |Application Data |Default Application Rate specified as mass per mass
+|29 |Minimum Mass Per Mass Application Rate |Application Data |Minimum Application Rate specified as mass per mass
+|30 |MaximumMass Per Mass Application Rate |Application Data |Maximum Application Rate specified as mass per mass
+|31 |Setpoint Volume Per Mass Application Rate |Application Data |Setpoint Application Rate specified as volume per mass
+|32 |Actual Volume Per Mass Application Rate |Application Data |Actual Application Rate specified as volume per mass
+|33 |Default Volume Per Mass Application Rate |Application Data |Default Application Rate specified as volume per mass
+|34 |Minimum Volume Per Mass Application Rate |Application Data |Minimum Application Rate specified as volume per mass
+|35 |Maximum Volume Per Mass Application Rate |Application Data |Maximum Application Rate specified as volume per mass
+|36 |Setpoint Volume Per Time Application Rate |Application Data |Setpoint Application Rate specified as volume per time
+|37 |Actual Volume Per Time Application Rate |Application Data |Actual Application Rate specified as volume per time
+|38 |Default Volume Per Time Application Rate |Application Data |Default Application Rate specified as volume per time
+|39 |Minimum Volume Per Time Application Rate |Application Data |Minimum Application Rate specified as volume per time
+|40 |Maximum Volume Per Time Application Rate |Application Data |Maximum Application Rate specified as volume per time
+|41 |Setpoint Mass Per Time Application Rate |Application Data |Setpoint Application Rate specified as mass per time
+|42 |Actual Mass Per Time Application Rate |Application Data |Actual Application Rate specified as mass per time
+|43 |Default Mass Per Time Application Rate |Application Data |Default Application Rate specified as mass per time
+|44 |Minimum Mass Per Time Application Rate |Application Data |Minimum Application Rate specified as mass per time
+|45 |Maximum Mass Per Time Application Rate |Application Data |Maximum Application Rate specified as mass per time
+|46 |Setpoint Count Per Time Application Rate |Application Data |Setpoint Application Rate specified as count per time
+|47 |Actual Count Per Time Application Rate |Application Data |Actual Application Rate specified as count per time
+|48 |Default Count Per Time Application Rate |Application Data |Default Application Rate specified as count per time
+|49 |Minimum Count Per Time Application Rate |Application Data |Minimum Application Rate specified as count per time
+|50 |Maximum Count Per Time Application Rate |Application Data |Maximum Application Rate specified as count per time
+|80 |Application Total Volume as [L] |Application Data |Accumulated Application specified as volume in liter [L]
+|81 |Application Total Mass in [kg] |Application Data |Accumulated Application specified as mass in kilogram [kg]
+|82 |Application Total Count |Application Data |Accumulated Application specified as count
+|140 |Setpoint Percentage Application Rate |Application Data |Application Rate expressed as percentage
+|266 |Lifetime Application Total Mass |Application Data |Entire Application Total Mass of the device lifetime.
+|267 |Lifetime Application Total Count |Application Data |Entire Application Total Count of the device lifetime.
+|308 |Actual Percentage Application Rate |Application Data |Actual Application Rate expressed as percentage
+|325 |Lifetime Application Total Volume |Application Data |Entire Application Total Volume of the device lifetime.
+|351 |Application Total Volume in [ml] |Application Data |Accumulated Application specified as volume in milliliter [ml]
+|352 |Application Total Mass in gram [g] |Application Data |Accumulated Application specified as mass in gram [g]
+|353 |Total Application of Nitrogen |Application Data |Accumulated application of nitrogen [N2] specified as gram [g]
+|354 |Total Application of Ammonium |Application Data |Accumulated  application of ammonium [NH4] specified as gram [g]
+|355 |Total Application of Phosphor |Application Data |Accumulated application of phosphor (P2O5) specified as gram [g]
+|356 |Total Application of Potassium |Application Data |Accumulated application of potassium (K) specified as gram [g]
+|357 |Total Application of Dry Matter |Application Data |Accumulated application of dry matter  in kilogram [kg]. Dry matter measured at zero percent of moisture
+|401 |Actual Application of Nitrogen |Application Data |Actual application of Nitrogen [N2] specified as milligram per liter [mg/l]
+|402 |Actual application of Ammonium |Application Data |Actual application of Ammonium [NH4] specified as milligram per liter [mg/l]
+|403 |Actual application of Phosphor |Application Data |Actual application of Phosphor [P2O5] specified as milligram per liter [mg/l]
+|404 |Actual application of Potassium |Application Data |Actual application of Potassium [K] specified as gram [g]
+|405 |Actual application of Dry Matter |Application Data |Actual application of Dry Matter in kilogram [kg]. Dry matter measured at Zero percent of moisture.
+|432 |Setpoint Application Rate of Nitrogen |Application Data |Setpoint application rate of nitrogen specified as a mass per area
+|433 |Actual  Application Rate of Nitrogen |Application Data |Actual application rate of nitrogen specified as a mass per area
+|434 |Minimum Application Rate of Nitrogen |Application Data |Minimum application rate of nitrogen specified as a mass per area
+|435 |Maximum  Application Rate of Nitrogen |Application Data |Maximum application rate of nitrogen specified as a mass per area
+|436 |Setpoint  Application Rate of Ammonium |Application Data |Setpoint application rate of Ammonium specified as a mass per area
+|437 |Actual  Application Rate of Ammonium |Application Data |Actual application rate of Ammonium specified as a mass per area
+|438 |Minimum  Application Rate of Ammonium |Application Data |Minimum application rate of Ammonium specified as a mass per area
+|439 |Maximum  Application Rate of Ammonium |Application Data |Maximum application rate of Ammonium specified as a mass per area
+|440 |Setpoint  Application Rate of Phosphor |Application Data |Setpoint application rate of phosphor specified as a mass per area
+|441 |Actual  Application Rate of Phosphor |Application Data |Actual application rate of phosphor specified as a mass per area
+|442 |Minimum  Application Rate of Phosphor |Application Data |Minimum application rate of phosphor specified as a mass per area
+|443 |Maximum  Application Rate of Phosphor |Application Data |Maximum application rate of phosphor specified as a mass per area
+|444 |Setpoint  Application Rate of Potassium |Application Data |Setpoint application rate of potassium specified as a mass per area
+|445 |Actual  Application Rate of Potassium |Application Data |Actual application rate of potassium specified as a mass per area
+|446 |Minimum Application Rate of Potassium |Application Data |Minimum application rate of potassium specified as a mass per area
+|447 |Maximum Application Rate of Potassium |Application Data |Maximum application rate of potassium specified as a mass per area
+|448 |Setpoint Application Rate of Dry Matter |Application Data |Setpoint application rate of dry matter expressed as percentage
+|449 |Actual  Application Rate of Dry Matter |Application Data |Actual application rate of dry matter expressed as percentage
+|450 |Minimum Application Rate of Dry Matter |Application Data |Minimum application rate of dry matter expressed as percentage
+|451 |Maximum Application Rate of Dry Matter |Application Data |Maximum application rate of dry matter expressed as percentage
+|574 |Setpoint Electrical Energy per Area Application Rate |Application Data |Setpoint Electrical Energy Application Rate specified as kWh per area
+|575 |Actual  Electrical Energy per Area Application Rate |Application Data |Actual Electrical Energy Application Rate specified as kWh per area
+|576 |Maximum  Electrical Energy  per Area Application Rate |Application Data |Maximum Electrical Energy Application Rate specified as kWh per area
+|577 |Minimum  Electrical Energy per Area Application Rate |Application Data |Minimum Electrical Energy Application Rate specified as kWh per area
+|588 |Setpoint Volume Per Area Application Rate as [ml/m²] |Application Data |Setpoint Application Rate specified as volume per area for High Flows as [mm³/m²]
+|589 |Actual Volume Per Area Application Rate as [ml/m²] |Application Data |Actual Application Rate specified as volume per area for High Flows as [ml/m²]
+|590 |Minimum Volume Per Area Application Rate as [ml/m²] |Application Data |Minimum Application Rate specified as volume per area for High Flows as [ml/m²]
+|591 |Maximum Volume Per Area Application Rate as [ml/m²] |Application Data |Maximum Volume Per Area Application Rate for high flows as [ml/m²]
+|592 |Default Volume Per Area Application Rate as [ml/m²] |Application Data |Default Volume Per Area Application Rate for high flows as [ml/m²]
+|633 |Setpoint Volume per distance Application Rate |Application Data |Setpoint Application Rate specified as volume per distance
+|634 |Actual Volume per distance Application Rate |Application Data |Actual liquid application based on distance travelled, e.g. in vineyards, orchards.
+|635 |Default Volume per distance Application Rate |Application Data |Default Application Rate specified as volume per distance
+|636 |Minimum Volume per distance Application Rate |Application Data |Minimum Application Rate specified as volume per distance
+|637 |Maximum Volume per distance Application Rate |Application Data |Maximum Application Rate specified as volume per distance
+|32768 |Maximum Droplet Size |Application Data |The maximum droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|36864 |Minimum Droplet Size |Application Data |The minimum droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|40960 |Default Droplet Size |Application Data |The default droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|45056 |Actual Droplet Size |Application Data |The actual droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|49152 |Setpoint Droplet Size |Application Data |The setpoint for droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|=======================================================================================
+
+== Crop and Yield Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|83 |Volume Per Area Yield |Crop and Yield Data |Yield as volume per area
+|84 |Mass Per Area Yield |Crop and Yield Data |Yield as mass per area, not corrected for the reference moisture percentage DDI 184.
+|85 |Count Per Area Yield |Crop and Yield Data |Yield as count per area
+|86 |Volume Per Time Yield |Crop and Yield Data |Yield as volume per time
+|87 |Mass Per Time Yield |Crop and Yield Data |Yield as mass per time, not corrected for the reference moisture percentage DDI 184.
+|88 |Count Per Time Yield |Crop and Yield Data |Yield as count per time
+|89 |Yield Total Volume |Crop and Yield Data |Accumulated Yield specified as volume
+|90 |Yield Total Mass |Crop and Yield Data |Accumulated Yield specified as mass, not corrected for the reference moisture percentage DDI 184.
+|91 |Yield Total Count |Crop and Yield Data |Accumulated Yield specified as count
+|99 |Crop Moisture |Crop and Yield Data |Moisture in crop yield
+|100 |Crop Contamination |Crop and Yield Data |Dirt or foreign material in crop yield
+|121 |Product Density Mass Per Volume |Crop and Yield Data |Product Density as mass per volume
+|122 |Product Density Mass PerCount |Crop and Yield Data |Product Density as mass per count
+|123 |Product Density Volume Per Count |Crop and Yield Data |Product Density as volume per count
+|177 |Actual length of cut |Crop and Yield Data |Actual length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
+|181 |Dry Mass Per Area Yield |Crop and Yield Data |Actual Dry Mass Per Area Yield. The definition of dry mass is the mass with a reference moisture specified by DDI 184.
+|182 |Dry Mass Per Time Yield |Crop and Yield Data |Actual Dry Mass Per Time Yield. The definition of dry mass is the mass with a reference moisture specified by DDI 184.
+|183 |Yield Total Dry Mass |Crop and Yield Data |Accumulated Yield specified as dry mass. The definition of dry mass is the mass with a reference moisture specified by DDI 184.
+|184 |Reference Moisture For Dry Mass |Crop and Yield Data |Moisture percentage used for the dry mass DDIs 181, 182 and 183.
+|185 |Seed Cotton Mass Per Area Yield |Crop and Yield Data |Seed cotton yield as mass per area, not corrected for a possibly included lint percantage.
+|186 |Lint Cotton Mass Per Area Yield |Crop and Yield Data |Lint cotton yield as mass per area.
+|187 |Seed Cotton Mass Per Time Yield |Crop and Yield Data |Seed cotton yield as mass per time, not corrected for a possibly included lint percantage.
+|188 |Lint Cotton Mass Per Time Yield |Crop and Yield Data |Lint cotton yield as mass per time.
+|189 |Yield Total Seed Cotton Mass |Crop and Yield Data |Accumulated yield specified as seed cotton mass, not corrected for a possibly included lint percantage.
+|190 |Yield Total Lint Cotton Mass |Crop and Yield Data |Accumulated yield specified as lint cotton mass.
+|191 |Lint Turnout Percentage  |Crop and Yield Data |Percent of lint in the seed cotton.
+|211 |Last Bale Flakes per Bale |Crop and Yield Data |The number of flakes in the most recently produced bale.
+|212 |Last Bale Average Moisture |Crop and Yield Data |The average moisture in the most recently produced bale.
+|213 |Last Bale Average Strokes per Flake |Crop and Yield Data |The number of baler plunger compression strokes per flake that has entered the bale compression chamber. This value is the average valid for the most recently produced bale.
+|217 |Last Bale Average Hydraulic Pressure |Crop and Yield Data |The average actual value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber. This average is calculated over the most recently produced bale.
+|220 |Last Bale Average Bale Compression Plunger Load |Crop and Yield Data |The average bale compression plunger load for the most recently produced bale.
+|221 |Last Bale Applied Preservative |Crop and Yield Data |The total preservative applied to the most recently produced bale.
+|222 |Last Bale Tag Number |Crop and Yield Data |The Last Bale Tag Number as a decimal number in the range of 0 to 4294967295. Note that the value of this DDI has the limitation of being an unsigned 32 bit number.
+|223 |Last Bale Mass |Crop and Yield Data |The mass of the bale that has most recently been produced.
+|241 |Crop Temperature |Crop and Yield Data |Temperature of harvested crop
+|261 |Average Yield Mass Per Time |Crop and Yield Data |Average Yield expressed as mass per unit time, not corrected for the reference moisture percentage DDI 184. This value is the average for a Task and may be reported as a total.
+|262 |Average Crop Moisture |Crop and Yield Data |Average Moisture of the harvested crop. This value is the average for a Task and may be reported as a total.
+|263 |Average Yield Mass Per Area |Crop and Yield Data |Average Yield expressed as mass per unit area, not corrected for the reference moisture percentage DDI 184. This value is the average for a Task and may be reported as a total.
+|268 |Lifetime Yield Total Volume |Crop and Yield Data |Entire Yield Total Volume of the device lifetime.
+|269 |Lifetime Yield Total Mass |Crop and Yield Data |Entire Yield Total Mass of the device lifetime.
+|270 |Lifetime Yield Total Count |Crop and Yield Data |Entire Yield Total Count of the device lifetime.
+|279 |Lifetime Yield Total Dry Mass |Crop and Yield Data |Entire Yield Total Dry Mass of the device lifetime.
+|280 |Lifetime Yield Total Seed Cotton Mass |Crop and Yield Data |Entire Yield Total Seed Cotton Mass of the device lifetime.
+|281 |Lifetime Yield Total Lint Cotton Mass |Crop and Yield Data |Entire Yield Total Lint Cotton Mass of the device lifetime.
+|311 |Relative Yield Potential |Crop and Yield Data |Relative yield potential provided by a FMIS or a sensor or entered by the operator for a certain task expressed as percentage.
+|312 |Minimum Relative Yield Potential |Crop and Yield Data |Minimum potential yield expressed as percentage.
+|313 |Maximum Relative Yield Potential |Crop and Yield Data |Maximum potential yield expressed as percentage.
+|314 |Actual Percentage Crop Dry Matter |Crop and Yield Data |Actual Percentage Crop Dry Matter expressed as parts per million. 
+|315 |Average Percentage Crop Dry Matter  |Crop and Yield Data |Average Percentage Crop Dry Matter expressed as parts per million.
+|358 |Average Dry Yield Mass Per Time |Crop and Yield Data |Average Yield expressed as mass per unit time, corrected for the reference moisture percentage DDI 184. This value is the average for a Task and may be reported as a total.
+|359 |Average Dry Yield Mass Per Area |Crop and Yield Data |Average Yield expressed as mass per unit area, corrected for the reference moisture percentage DDI 184. This value is the average for a Task and may be reported as a total.
+|360 |Last Bale Size |Crop and Yield Data |The bale size of the most recently produced bale. Bale Size as length for a square baler or diameter for a round baler.
+|361 |Last Bale Density |Crop and Yield Data |The bale density of the most recently produced bale. 
+|363 |Last Bale Dry Mass |Crop and Yield Data |The dry mass of the bale that has most recently been produced. This is the bale mass corrected for the average moisture of this bale (DDI 212).
+|406 |Actual Protein Content  |Crop and Yield Data |Actual Protein content of a harvested crops
+|407 |Average Protein Content |Crop and Yield Data |Average protein content in a harvested crop
+|408 |Average Crop Contamination |Crop and Yield Data |Average amount of dirt or foreign  in a harvested crop
+|482 |Last Bale Number of Subbales |Crop and Yield Data |Number of smaller bales included in the latest produced bale.
+|519 |Last Bale Lifetime Count |Crop and Yield Data |The Lifetime Bale Count of the bale that leaves the machine.
+|528 |Last Bale Capacity |Crop and Yield Data |The capacity of the bale that leaves the machine.
+|531 |Actual Applied Preservative Per Yield Mass |Crop and Yield Data |This DDI shall describe the actual applied preservative per harvested yield mass.
+|532 |Setpoint Applied Preservative Per Yield Mass |Crop and Yield Data |The desired volume of preservative per harvested yield mass
+|533 |Default Applied Preservative Per Yield Mass |Crop and Yield Data |The default volume of preservative applied per harvested yield mass
+|534 |Minimum Applied Preservative Per Yield Mass |Crop and Yield Data |The minimum setable value, the preservative system is able to control the flow of preservative.
+|535 |Maximum Applied Preservative Per Yield Mass |Crop and Yield Data |The maximum volume, the preservative system can apply to the harvested yield in a controled way
+|536 |Total Applied Preservative |Crop and Yield Data |The total volume of applied preservative in this task.
+|537 |Lifetime Applied Preservative |Crop and Yield Data |The total applied volume of preservative in the lifetime of the machine
+|538 |Average Applied Preservative Per Yield Mass |Crop and Yield Data |The average volume per mass for this task.
+|549 |Last Bale Average Bale Compression Plunger Load (N) |Crop and Yield Data |The average bale compression plunger load for the most recently produced bale expressed as newton.
+|644 |Binding Method |Crop and Yield Data |Specification of the methode used to bind bales: 0=unknown (default), 1= Mesh, 2= Twine, 3=Film
+|645 |Last Bale number of knives |Crop and Yield Data |Number of cutting knives used in the most recently produced bale
+|646 |Last Bale Twine Consumption |Crop and Yield Data |Binding twine consumption in the most recently produced bale
+|647 |Last Bale Mesh Consumption |Crop and Yield Data |Binding mesh consumption in the most recently produced bale
+|648 |Last Bale Film Consumption |Crop and Yield Data |Binding film consumption in the most recently produced bale
+|649 |Last Bale Film Stretching |Crop and Yield Data |Binding film stretching in the most recently produced bale
+|650 |Last Bale Wrapping Film Width |Crop and Yield Data |Wrapping film width in the most recently produced bale
+|651 |Last Bale Wrapping Film Consumption |Crop and Yield Data |Wrapping film consumption in the most recently produced bale
+|652 |Last Bale Wrapping Film Stretching |Crop and Yield Data |Wrapping film stretching in the most recently produced bale
+|653 |Last Bale Wrapping Film Overlap Percentage |Crop and Yield Data |Wrapping film overlap percentage in the most recently produced bale
+|654 |Last Bale Wrapping Film Layers |Crop and Yield Data |Wrapping film layers in the most recently produced bale
+|=======================================================================================
+
+== Process Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|51 |Setpoint Tillage Depth |Process Data |Setpoint Tillage Depth of Device Element below soil surface, value increases with depth.  In case of a negative value the system will indicate the distance above the ground.
+|52 |Actual Tillage Depth |Process Data |Actual Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
+|53 |Default Tillage Depth |Process Data |Default Tillage Depth of Device Element below soil surface, value increases with depth. In case of a negative value the system will indicate the distance above the ground.
+|56 |Setpoint Seeding Depth |Process Data |Setpoint Seeding Depth of Device Element below soil surface, value increases with depth
+|57 |Actual Seeding Depth |Process Data |Actual Seeding Depth of Device Element below soil surface, value increases with depth
+|58 |Default Seeding Depth |Process Data |Default Seeding Depth of Device Element below soil surface, value increases with depth
+|61 |Setpoint Working Height |Process Data |Setpoint Working Height of Device Element above crop or soil
+|62 |Actual Working Height |Process Data |Actual Working Height of Device Element above crop or soil
+|63 |Default Working Height |Process Data |Default Working Height of Device Element above crop or soil
+|66 |Setpoint Working Width |Process Data |Setpoint Working Width of Device Element
+|67 |Actual Working Width |Process Data |Actual Working Width of Device Element
+|68 |Default Working Width |Process Data |Default Working Width of Device Element
+|71 |Setpoint Volume Content |Process Data |Setpoint Device Element Content specified as volume
+|72 |Actual Volume Content |Process Data |Actual Device Element Content specified as volume
+|74 |Setpoint Mass Content |Process Data |Setpoint Machine Element Content specified as mass
+|75 |Actual Mass Content |Process Data |Actual Device Element Content specified as mass
+|77 |Setpoint Count Content |Process Data |Setpoint Device Element Content specified as count
+|78 |Actual Count Content |Process Data |Actual Device Element Content specified as count
+|92 |Volume Per Area Crop Loss |Process Data |Crop yield loss as volume per area
+|93 |Mass Per Area Crop Loss |Process Data |Crop yield loss as mass per area
+|94 |Count Per Area Crop Loss |Process Data |Crop yield loss as count per area
+|95 |Volume Per Time Crop Loss |Process Data |Crop yield loss as volume per time
+|96 |Mass Per Time Crop Loss |Process Data |Crop yield loss as mass per time
+|97 |Count Per Time Crop Loss |Process Data |Crop yield loss as count per time
+|98 |Percentage Crop Loss |Process Data |Crop yield loss
+|101 |Setpoint Bale Width |Process Data |Setpoint Bale Width for square baler or round baler
+|102 |Actual Bale Width |Process Data |Actual Bale Width for square baler or round baler
+|103 |Default Bale Width |Process Data |Default Bale Width for square baler or round baler
+|106 |Setpoint Bale Height |Process Data |Setpoint Bale Height is only applicable to square baler
+|107 |ActualBaleHeight |Process Data |Actual Bale Height is only applicable to square baler
+|108 |Default Bale Height |Process Data |Default Bale Height is only applicable to square baler
+|111 |Setpoint Bale Size |Process Data |Setpoint Bale Size as length for a square baler or diameter for a round baler
+|112 |Actual Bale Size |Process Data |Actual Bale Size as length for a square baler or diameter for a round baler
+|113 |Default Bale Size |Process Data |Default Bale Size as length for a square baler or diameter for a round baler
+|141 |Actual Work State |Process Data |Actual Work State, 2 bits defined as 00=disabled/off, 01=enabled/on, 10=error, 11=undefined/not installed
+|144 |Yaw Angle |Process Data |Pivot / Yaw Angle of a DeviceElement
+|145 |Roll Angle |Process Data |Roll Angle of a DeviceElement
+|146 |Pitch Angle |Process Data |Pitch Angle of a DeviceElement
+|151 |Instantaneous Area Per Time Capacity |Process Data |Area per time capacity
+|153 |Actual Normalized Difference Vegetative Index (NDVI) |Process Data |The Normalized Difference Vegetative Index (NDVI) computed from crop reflectances as the difference between NIR reflectance in the 780 to 880 nm band and red reflectance in the 640 to 680 nm band divided by the sum of the NIR and red reflectance in the same bands.
+|160 |Section Control State |Process Data |Specifies the actual state of section control. The value definitions are: Byte 1 (bitfield) Bit 0-1: 00 = manual/off, 01 = auto/on, 10 = error indicator, 11 = undefined/not installed. Bits 2-7: reserved, set to 0. Bytes 2-4: reserved, set to 0.
+|161 |Actual Condensed Work State (1-16) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 1 to 16 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|162 |Actual Condensed Work State (17-32) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 17 to 32 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|163 |Actual Condensed Work State (33-48) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 33 to 48 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|164 |Actual Condensed Work State (49-64) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 49 to 64 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|165 |Actual Condensed Work State (65-80) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 65 to 80 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|166 |Actual Condensed Work State (81-96) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 81 to 96 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|167 |Actual Condensed Work State (97-112) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 97 to 112 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|168 |Actual Condensed Work State (113-128) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 113 to 128 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|169 |Actual Condensed Work State (129-144) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 129 to 144 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, tthen he device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|170 |Actual Condensed Work State (145-160) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 145 to 160 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|171 |Actual Condensed Work State (161-176) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 161 to 176 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|172 |Actual Condensed Work State (177-192) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 177 to 192 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|173 |Actual Condensed Work State (193-208) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 193 to 208 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|174 |Actual Condensed Work State (209-224) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 209 to 224 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|175 |Actual Condensed Work State (225-240) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 225 to 240 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|176 |Actual Condensed Work State (241-256) |Process Data |Combination of the actual work states of individual sections or units (e.g. nozzles) number 241 to 256 into a single actual work state of their parent device element. The actual condensed work state contains the child element actual work states, in the driving direction from left to right, where the leftmost child element actual work state are the 2 lowest significant bits of the Process Data Value. Each child device elements actual work state is represented by 2 bits and defined as: 00 = disabled/off, 01 = enabled/on, 10 = error indicator, 11 = undefined/not installed. In total 16 child device element actual work states can be contained in one actual condensed work state of their parent device element. If less than 16 child device element actual work states are available, then the unused bits shall be set to value 11 (not installed). When the parent device element contains the Actual Condensed Work State DDE, then the device descriptor shall not contain the individual actual work state DDEs of the child device elements.
+|193 |Setpoint Product Pressure |Process Data |Setpoint Product Pressure to adjust the pressure of the product flow system at the point of dispensing.
+|194 |Actual Product Pressure |Process Data |Actual Product Pressure is the measured pressure in the product flow system at the point of dispensing.
+|197 |Setpoint Pump Output Pressure |Process Data |Setpoint Pump Output Pressure to adjust the  pressure at the output of the solution pump.
+|198 |Actual Pump Output Pressure |Process Data |Actual Pump Output Pressure measured at the output of the solution pump.
+|201 |Setpoint Tank Agitation Pressure |Process Data |Setpoint Tank Agitation Pressure to adjust the pressure for a stir system in a tank.
+|202 |Actual Tank Agitation Pressure |Process Data |Actual Tank Agitation Pressure measured by the tank stir system.
+|216 |Actual Bale Hydraulic Pressure |Process Data |The actual value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber.
+|218 |Setpoint Bale Compression Plunger Load |Process Data |The setpoint bale compression plunger load as a unitless number.
+|219 |Actual Bale Compression Plunger Load |Process Data |The actual bale compression plunger load expressed as percentage.
+|225 |Setpoint Working Length |Process Data |Setpoint Working Length of Device Element.
+|226 |Actual Working Length |Process Data |Actual Working Length of a Device Element.
+|229 |Actual Net Weight |Process Data |Actual Net Weight value specified as mass
+|230 |Net Weight State |Process Data |Net Weight State, 2 bits defined as:
+|231 |Setpoint Net Weight |Process Data |Setpoint Net Weight value.
+|232 |Actual Gross Weight |Process Data |Actual Gross Weight value specified as mass
+|233 |Gross Weight State |Process Data |Gross Weight State, 2 bits defined as:
+|237 |Actual Header Working Height Status |Process Data |Actual status of the header being above or below the threshold height for the in-work state.
+|238 |Actual Header Rotational Speed Status |Process Data |Actual status of the header rotational speed being above or below the threshold for in-work state.
+|239 |Yield Hold Status |Process Data |Status indicator for the yield measurement system. When enabled/on, the measurements from the yield measurement system are ignored and the yield is held constant.
+|240 |Actual (Un)Loading System Status |Process Data |Actual status of the Unloading and/or Loading system.  This DDE covers both Unloading and Loading of the device element wherein it is listed. Bits that are not mentioned are reserved and shall be set to 1.
+|242 |Setpoint Sieve Clearance |Process Data |Setpoint separation distance between Sieve elements
+|243 |Actual Sieve Clearance |Process Data |Actual separation distance between Sieve elements
+|246 |Setpoint Chaffer Clearance |Process Data |Setpoint separation distance between Chaffer elements.
+|247 |Actual Chaffer Clearance |Process Data |Actual separation distance between Chaffer elements.
+|250 |Setpoint Concave Clearance |Process Data |Setpoint separation distance between Concave elements.
+|251 |Actual Concave Clearance |Process Data |Actual separation distance between Concave elements.
+|254 |Setpoint Separation Fan Rotational Speed |Process Data |Setpoint rotational speed of the fan used for separating product material from non product material.
+|255 |Actual Separation Fan Rotational Speed |Process Data |Actual rotational speed of the fan used for separating product material from non product material.
+|287 |Setpoint Prescription Mode |Process Data |This DDE defines the source of the Task Controller set point value sent to the Control Function. This DDI shall be defined as DPD in the DDOP and needs to be setable. The TC shall then set this DDI before starting a prescription operation. The WS (Working Set) shall set this value to zero (0) after system start.  
+|288 |Actual Prescription Mode |Process Data |This DDE defines the actual source of the set point value used by the Control Function. This DDI shall be defined as DPD in the DDOP and shall not be setable and need to support the on change trigger. The TC should request this DDI in case of an active prescription operation for documentation purpose. 
+|289 |Setpoint Work State |Process Data |The Setpoint Work State DDI is the control command counterparts to the Work State DDI (141). The separation of the control commands through one DDI from the actual state communicated through another DDI enables verification of the transmission of the control commands independent from the effectuation of the requested control action.
+|290 |Setpoint Condensed Work State (1-16) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|291 |Setpoint Condensed Work State (17-32) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|292 |Setpoint Condensed Work State (33-48) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|293 |Setpoint Condensed Work State (49-64) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|294 |Setpoint Condensed Work State (65-80) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|295 |Setpoint Condensed Work State (81-96) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|296 |Setpoint Condensed Work State (97-112) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|297 |Setpoint Condensed Work State (113-128) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|298 |Setpoint Condensed Work State (129-144) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|299 |Setpoint Condensed Work State (145-160) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|300 |Setpoint Condensed Work State (161-176) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|301 |Setpoint Condensed Work State (177-192) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|302 |Setpoint Condensed Work State (193-208) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|303 |Setpoint Condensed Work State (209-224) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|304 |Setpoint Condensed Work State (225-240) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|305 |Setpoint Condensed Work State (241-256) |Process Data |The Setpoint Condensed Work State DDIs are the control command counterparts to the Condensed Work States DDIs (161 â€“ 176).
+|320 |Last loaded Weight |Process Data |Last loaded Weight value specified as mass
+|321 |Last unloaded Weight |Process Data |Last unloaded Weight value specified as mass
+|322 |Load Identification Number |Process Data |The Load Identification Number as a decimal number in the range of 0 to 4294967295. Note that the value of this DDI has the limitation of being an unsigned 32 bit number.
+|323 |Unload Identification Number |Process Data |The Unload Identification Number as a decimal number in the range of 0 to 2147483647. Note that the value of this DDI has the limitation of being an unsigned 32 bit number.
+|326 |Setpoint Header Speed |Process Data |The setpoint rotational speed of the header attachment of a chopper, mower or combine
+|327 |Actual Header Speed |Process Data |The actual rotational speed of the header attachment of a chopper, mower or combine
+|330 |Setpoint Cutting drum speed |Process Data |The setpoint speed of the cutting drum of a chopper 
+|331 |Actual Cutting drum speed |Process Data |The actual speed of the cutting drum of a chopper
+|334 |Operating Hours Since Last Sharpening |Process Data |This value describes the working hours since the last sharpening of the cutting device.
+|341 |Setpoint Grain Kernel Cracker Gap |Process Data |The setpoint gap (distance) of the grain kernel cracker drums in a chopper.
+|342 |Actual Grain Kernel Cracker Gap |Process Data |The actual gap (distance) of the grain kernel cracker drums in a chopper
+|345 |Setpoint Swathing Width |Process Data |This is the setpoint swathing width of the swath created by a raker.
+|346 |Actual Swathing Width |Process Data |This is the width of the swath currently created by a raker.
+|349 |Nozzle Drift Reduction |Process Data |The Nozzle Drift Reduction classification value of the spraying equipment as percentage 
+|364 |Actual Flake Size |Process Data |Actual size of the flake that is currently produced by the chamber.
+|365 |Setpoint Downforce Pressure |Process Data |Setpoint downforce pressure for an operation
+|366 |Actual Downforce Pressure |Process Data |Actual downforce pressure for an operation
+|367 |Condensed Section Override State (1-16) |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 1 to 16 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|368 |Condensed Section Override State (17-32)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 17 to 32 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|369 |Condensed Section Override State (33-48)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 33 to 48 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|370 |Condensed Section Override State (49-64)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 49 to 64 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|371 |Condensed Section Override State (65-80)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 65 to 80 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|372 |Condensed Section Override State (81-96)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 81 to 96 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|373 |Condensed Section Override State (97-112)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 97 to 112 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|374 |Condensed Section Override State (113-128)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 113 to 128 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|375 |Condensed Section Override State (129-144)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 129 to 144 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|376 |Condensed Section Override State (145-160)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 145 to 160 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|377 |Condensed Section Override State (161-176)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 161 to 176 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|378 |Condensed Section Override State (177-192)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 177 to 192 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|379 |Condensed Section Override State (193-208)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 193 to 208 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|380 |Condensed Section Override State (209-224)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 209 to 224 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|381 |Condensed Section Override State (225-240)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 225 to 240 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|382 |Condensed Section Override State (241-256)  |Process Data |This DDE is used by the implement to communicate that a certain section is overridden and will not follow the section control commands. The value is a combination of the override states of individual sections number 241 to 256 into a single override state. The condensed section override state contains the child element override states, in the driving direction from left to right, where the leftmost child element override state are the 2 lowest significant bits of the Process Data Value. Each child device elements override state is represented by 2 bits and defined as: 00 = section is not overridden, 01 = section is overridden, 10 = reserved, 11 = undefined / not installed. In total 16 child device element override states can be contained in one condensed section override state. If less than 16 child device element override states are available, then the unused bits shall be set to value 11 (undefined / not installed). This DDE shall be placed in the same device element as the corresponding actual condensed work state.
+|387 |Total Revolutions in Fractional Revolutions |Process Data |Accumulated Revolutions specified with fractional revolutions
+|388 |Total Revolutions in Complete Revolutions |Process Data |Accumulated Revolutions specified as completed integer revolutions
+|389 |Setpoint Revolutions specified as count per time |Process Data |Setpoint Revolutions specified as count per time
+|390 |Actual Revolutions Per Time |Process Data |Actual Revolutions specified as count per time
+|391 |Default Revolutions Per Time |Process Data |Default Revolutions specified as count per time
+|396 |Setpoint Speed |Process Data |The setpoint speed that can be specified in a process data variable for communication between farm management information systems and mobile implement control systems. The setpoint speed DDI may also be used in a device description object pool to specify support for speed control by a device. A positive value will represent forward direction and a negative value will represent reverse direction.
+|397 |Actual Speed |Process Data |The actual speed as measured on or used by a device for the execution of task based data, e.g. to convert a setpoint rate expressed per area to device specific control data that is expressed as a rate per time. The actual speed can be measured by the device itself or it can be a speed value that is obtained from one of the speed parameter groups that are broadcasted on the ISO11783 network and defined in ISO11783-7. Examples of broadcasted speed parameter groups are wheel based speed, ground based speed and machine selected speed. The source of the actual speed can be specified by a Speed Source DDI that is present in the same device element as the speed DDI.  A positive value will represent forward direction and a negative value will represent reverse direction.
+|415 |Actual Seed Singulation Percentage |Process Data |Actual Seed Singulation Percentage calculated from measured seed spacing using ISO 7256-1 "Quality of Feed Index" algorithm
+|416 |Average Seed Singulation Percentage |Process Data |Average Seed Singulation Percentage calculated from measured seed spacing using ISO 7256-1 "Quality of Feed Index" algorithm. The value is the average for a Task.
+|417 |Actual Seed Skip Percentage |Process Data |Actual Seed Skip Percentage calculated from measured seed spacing using ISO 7256-1 "Miss Index" algorithm
+|418 |Average Seed Skip Percentage |Process Data |Average Seed Skip Percentage calculated from measured seed spacing using ISO 7256-1 "Miss Index" algorithm. The value is the average for a Task.
+|419 |Actual Seed Multiple Percentage |Process Data |Actual Seed Multiple Percentage calculated from measured seed spacing using ISO 7256-1 "Multiples Index" algorithm.
+|420 |Average Seed Multiple Percentage |Process Data |Average Seed Multiple Percentage calculated from measured seed spacing using ISO 7256-1 "Multiples Index" algorithm. The value is the average for a Task.
+|421 |Actual Seed Spacing Deviation |Process Data |Actual Seed Spacing Deviation from setpoint seed spacing
+|422 |Average Seed Spacing Deviation |Process Data |Average Seed Spacing Deviation from setpoint seed spacing. The value is the average for a Task.
+|423 |Actual Coefficient of Variation of Seed Spacing Percentage  |Process Data |Actual Coefficient of Variation of Seed Spacing Percentage calculated from measured seed spacing using ISO 7256-1 algorithm
+|424 |Average Coefficient of Variation of Seed Spacing Percentage |Process Data |Average Coefficient of Variation of Seed Spacing Percentage calculated from measured seed spacing using ISO 7256-1 algorithm. The value is the average for a Task.
+|425 |Setpoint Maximum Allowed Seed Spacing Deviation |Process Data |Setpoint Maximum Allowed Seed Spacing Deviation
+|426 |Setpoint Downforce as Force |Process Data |Setpoint Downforce as Force
+|427 |Actual Downforce as Force |Process Data |Actual Downforce as Force
+|456 |Last loaded Volume |Process Data |Last loaded Volume value specified as volume
+|457 |Last unloaded Volume |Process Data |Last unloaded Volume value specified as volume
+|462 |Last loaded Count |Process Data |Last loaded Count value specified as count
+|463 |Last unloaded Count |Process Data |Last unloaded Count value specified as count
+|464 |Haul Counter |Process Data |Each Time a Device Element is filled and emptied this is called a haul cycle. This counter counts the cycles
+|465 |Lifetime Haul Counter |Process Data |The number of haul cycles done by a machine over its entire lifetime. This DDE value can not be set through the process data interface but can be requested and added to a datalog. This DDE value is not affected by a task based total haul cycles but will increment at the same rate as the task based total.
+|466 |Actual relative connector angle |Process Data |The DDI Actual relative connector angle shall be placed in the device element of type connector in the DDOP of the TC-SC Client. The value describes the actual angle of the longitudinal axis of the implement relative to the longitudinal axis of the tractor. This angle should be used by the TC-SC server to calculate the real position of implement. The TC-SC server may smooth the rendering in any proprietary screen. 
+|467 |Actual Percentage Content |Process Data |Actual Device Element Content specified as percent.
+|472 |Setpoint Length of Cut |Process Data |Setpoint length of cut for harvested material, e.g. Forage Harvester or Tree Harvester.
+|475 |Setpoint Bale Hydraulic Pressure |Process Data |The setpoint value of the hydraulic pressure applied to the sides of the bale in the bale compression chamber.
+|478 |Setpoint Flake Size |Process Data |Setpoint size of the flake to be produced by the chamber.
+|481 |Setpoint Number of Subbales |Process Data |Number of smaller bales that shall be included in one bigger bale.
+|483 |Setpoint Engine Speed |Process Data |The setpoint of the rotational speed of the engine.
+|484 |Actual Engine Speed |Process Data |Actual rotational speed of the engine.
+|494 |Last Event Partner ID (Byte 1-4) |Process Data |Last Event Partner ID as a decimal number of 128bit length.
+|495 |Last Event Partner ID (Byte 5-8) |Process Data |Last Event Partner ID as a decimal number of 128bit length.
+|496 |Last Event Partner ID (Byte 9-12) |Process Data |Last Event Partner ID as a decimal number of 128bit length.
+|497 |Last Event Partner ID (Byte 13-16) |Process Data |Last Event Partner ID as a decimal number of 128bit length.
+|498 |Last Event Partner ID Type |Process Data |Defines The Type of the Partner ID Device. See Attatchment for Definition.
+|499 |Last Event Partner ID Manufacturer ID Code |Process Data |The Partner ID has to tell its Manufacturer, and the Manufacturer Numbers from SAE J1939 / ISO 11783 shall be used. 
+|500 |Last Event Partner ID Device Class |Process Data |This DDI should tell the Device Class of the Partner Device.
+|501 |Setpoint Engine Torque |Process Data |The setpoint of the engine torque.
+|502 |Actual Engine Torque |Process Data |The current torque of the engine.
+|529 |Setpoint Tillage Disc Gang Angle |Process Data |Setpoint Tillage Gang Angle is the pivot angle of the gangs for the device element
+|530 |Actual Tillage Disc Gang Angle |Process Data |Actual Tillage Gang Angle is the pivot angle of the gangs for the device element.
+|539 |Actual Preservative Tank Volume |Process Data |The actual volume inside the preservative tank.
+|540 |Actual Preservative Tank Level |Process Data |The percentage level of the preservative tank.
+|541 |Actual PTO Speed |Process Data |Actual Speed of the Power Take-Off (PTO)
+|542 |Setpoint PTO Speed |Process Data |The desired Speed of the Power Take-Off (PTO)
+|547 |Setpoint Bale Compression Plunger Load (N) |Process Data |The setpoint bale compression plunger load expressed as Newton.
+|548 |Actual Bale Compression Plunger Load (N) |Process Data |The actual bale compression plunger load expressed as Newton.
+|551 |Actual PTO Torque |Process Data |Actual Torque of the Power Take-Off (PTO)
+|552 |Setpoint PTO Torque |Process Data |The desired Torque of the Power Take-Off (PTO)
+|557 |Setpoint Electrical Current |Process Data |Setpoint electrical Current of a Device Element
+|558 |Actual Electrical Current |Process Data |Actual Electrical Current of Device Element
+|562 |Setpoint Voltage |Process Data |Setpoint Voltage of a Device Element
+|564 |Actual Voltage |Process Data |Actual Voltage of a Device Element
+|567 |Actual Electrical Resistance |Process Data |Actual Electrical Resistance of Device Element
+|568 |Setpoint Electrical Power |Process Data |Setpoint Electrical Power of Device Element
+|569 |Actual Electrical Power |Process Data |Actual Electrical Power of Device Element
+|578 |Setpoint Temperature |Process Data |Setpoint Temperature of Device Element specified as milli Kelvin
+|579 |Actual Temperature |Process Data |Actual Temperature of Device Element specified as milli Kelvin
+|583 |Setpoint Frequency  |Process Data |Setpoint Frequency of Device Element specified as Hz
+|584 |Actual Frequency  |Process Data |Actual Frequency of Device Element specified as Hz
+|=======================================================================================
+
+== Environment Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|192 |Ambient temperature |Environment Data |Ambient temperature measured by a machine. Unit is milli-Kelvin (mK). 
+|207 |Wind speed |Environment Data |Wind speed measured in the treated field at the beginning of operations or on the application implement during operations. Measurements at to be made at 2m height or 1 m over the canopy in tree and bush crops.
+|208 |Wind direction |Environment Data |Wind direction measured in the treated field at the beginning of operations or on the application implement during operations. Measurements at to be made at 2m height or 1 m over the canopy in tree and bush crops.
+|209 |Relative Humidity |Environment Data |Ambient humidty measured by a weather station in a treated field or on the application implement.
+|210 |Sky conditions |Environment Data |This DDE is used to define the current sky conditions during operation. The METAR format and its abbrivations is used as follows to define the sky conditions:
+|224 |Delta T |Environment Data |The difference between dry bulb temperature and wet bulb temperature measured by a weather station in a treated field or on the application equipment.
+|383 |Apparent Wind Direction |Environment Data |The apparent wind is the wind which is measured on a moving vehicle. It is the result of two motions: the actual true wind and the motion of the vehicle. The wind angle is referenced to the present heading of the vehicle (Zero degree refers to the vehicle driving direction).
+|384 |Apparent Wind Speed |Environment Data |The apparent wind is the wind which is measured on a moving vehicle. It is the result of two motions: the actual true wind and the motion of the vehicle.
+|385 |MSL Atmospheric Pressure  |Environment Data |The atmospheric pressure MSL (Mean Sea Level) is the air pressure related to mean sea level.
+|386 |Actual Atmospheric Pressure |Environment Data |The Actual Atmospheric Pressure is the air pressure currently measured by the weather station.
+|556 |Present Weather Conditions |Environment Data |DDI to document the current weather conditions.
+|587 |Previous Rainfall |Environment Data |DDI to document past rainfall conditions.
+|=======================================================================================
+
+== Basic Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|0 |Data Dictionary Version |Basic Data |This DDE is used to specify which version of the Data Dictionary is being used.
+|134 |Device Element Offset X |Basic Data |X direction offset of a DeviceElement relative to a Device.
+|135 |Device Element Offset Y |Basic Data |Y direction offset of a DeviceElement relative to a Device.
+|136 |Device Element Offset Z |Basic Data |Z direction offset of a DeviceElement relative to a Device.
+|147 |Log Count |Basic Data |Log Counter, may be used to control data log record generation on a Task Controller
+|154 |Physical Object Length |Basic Data |Length of device element (dimension along the X-axis)
+|155 |Physical Object Width |Basic Data |Width of device element (dimension along the Y-axis)
+|156 |Physical Object Height |Basic Data |Height of device element (dimension along the Z-axis)
+|157 |Connector Type |Basic Data |Specification of the type of coupler. The value definitions can be looked up at https://www.isobus.net/isobus/dDEntity/767
+|158 |Prescription Control State |Basic Data |Defines and synchronise the actual state of the prescription system. The state is represented by the lowest significant 2 bits in the lowest significant byte of the process data value: Byte 1: bit 0-1: 00 = manual/off, 01 = auto/on, 10 = error indicator, 11 = undefined/not installed. bits 2-7: reserved set to 0. Byte 2-4: reserved set to 0.
+|159 |Number of Sub-Units per Section |Basic Data |Specifies the number of sub-units for a section (e.g. number of nozzles per sprayer section or number of planter row units per metering device).
+|178 |Element Type Instance |Basic Data |This DDI is used to enumerate and identify multiple device elements (DET) of the same type within one Device Description object pool. The value of this DDI is independent of the DET number. The combination of device element type and value of Element Type Instance ETI represents a unique object inside the device description object pool and therefore shall exist only once per object pool. Recommendation: The definition of the device elements should be made from left to right direction or from front to back direction.  When in a matrix, count left-to-right first, then front-to-back and at last top-to-bottom. See attachment for more information.
+|179 |Actual Cultural Practice |Basic Data |This DDI is used to define the current cultural practice which is performed by an individual device operation. For instance a planter/seeder could provide a sowing and a fertilizing operation at the same time.
+|180 |Device Reference Point (DRP) to Ground distance |Basic Data |This DDI is used to specify the distance from the Device Reference Point (DRP) down to the ground surface. The DRP to Ground DDI shall be attached only to the Device Element (DET) with element number zero.
+|259 |Yield Lag Ignore Time |Basic Data |Amount of time to ignore yield data, starting at the transition from the in-work to the out-of-work state. During this time, the yield sensor provides inconsistent or unreliable crop flow data.
+|260 |Yield Lead Ignore Time |Basic Data |Amount of time to ignore yield data, starting at the transition from the out-of-work to the in-work state. During this time, the yield sensor provides inconsistent or unreliable crop flow data.
+|264 |Connector Pivot X-Offset |Basic Data |X direction offset of a connector pivot point  relative to DRP.
+|306 |True Rotation Point  X-Offset  |Basic Data |X direction offset of the device rotation point relative to the DRP.
+|307 |True Rotation Point Y-Offset |Basic Data |Y direction offset of the device rotation point relative to the DRP.
+|350 |Function or Operation Technique |Basic Data |The Function or Operation Technique DDE can be used to define the operation technique or functionality performed by a device element defined within the DDOP. The values to be used are defined in the attached document.
+|400 |Speed Source |Basic Data |The Speed Source that the device uses to report actual speed and to process the setpoint, minimum and maximum speeds. The Speed Source value is an enumeration with the following definitions:
+|471 |Setpoint Actual Cultural Practice |Basic Data |This DDI is used to define the setpoint cultural practice which is performed by an individual device operation. For instance a planter/seeder could provide a sowing and a fertilizing operation at the same time.
+|520 |Actual Canopy Height |Basic Data |Actual height of the canopy above ground.
+|57343 |Request Default Process Data |Basic Data |Request Default Process Data. This DDE is the highest ISO assigned entity.  The range above this number is reserved for manufacture specific DDE's.
+|=======================================================================================
+
+== Machine Data (only PGN Data)
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|57342 |PGN Based Data |Machine Data (only PGN Data) |This DDI is used in the XML files to identify PGN based data.
+|=======================================================================================
+
+== Proprietary Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|57344 |65534 Proprietary DDI Range |Proprietary Data |Manufacturer proprietary definitions
+|65535 |Reserved |Proprietary Data |Reserved
+|=======================================================================================
+
+== Soil Data
+[cols="1,3,3,4",options="header",]
+|=======================================================================================
+|DDI ID| DDI |Kategorie |Beschreibung
+|468 |Soil Snow/Frozen Condtion |Soil Data |DDI to document the soil snow / frozen condition.
+|469 |Estimated Soil Water Condtion |Soil Data |DDI to document the estimated soil water condition.
+|470 |Soil Compaction |Soil Data |DDI to document the soil compaction.
+|550 |Ground Cover |Soil Data |The Ground Cover as an amount of soil that is covered by plants
+|655 |Electrical Apparent Soil Conductivity |Soil Data |Electrical conductivity also called the EC-Value.
+|=======================================================================================
