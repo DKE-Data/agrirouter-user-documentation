@@ -7,7 +7,13 @@ asciidoc:
     kroki-plantuml-include: style.puml
     icons: font
     lang: de
+    # variables for UI rendering
     page-toctitle: Inhalt
+    page-search-note: Suchen
+    page-privacy-policy: Datenschutz
+    page-legal-notice: Impressum
+    page-edit-this-page: Diese Seite bearbeiten
+    # variables for Asciidoctor processing
     appendix-caption: Anhang
     appendix-refsig: Anhang
     caution-caption: Achtung
@@ -17,12 +23,12 @@ asciidoc:
     figure-caption: Abbildung
     important-caption: Wichtig
     last-update-label: Zuletzt aktualisiert
-    listing-caption: Listing]
-    manname-title: Bezeichnung]
+    listing-caption: Listing
+    manname-title: Bezeichnung
     note-caption: Anmerkung
     part-signifier: Teil
     part-refsig: Teil
-    preface-title: Vorwort]
+    preface-title: Vorwort
     section-refsig: Abschnitt
     table-caption: Tabelle
     tip-caption: Hinweis
@@ -30,7 +36,6 @@ asciidoc:
     untitled-label: Ohne Titel
     version-label: Version
     warning-caption: Warnung
-
   extensions:
     - asciidoctor-kroki
 content:
@@ -46,3 +51,4 @@ ui:
   bundle:
     url: https://files.my-agrirouter.com/ui-bundle-release.zip
     snapshot: true
+  supplemental_files: ./supplemental-ui
