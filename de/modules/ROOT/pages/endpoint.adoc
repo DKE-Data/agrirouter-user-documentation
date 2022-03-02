@@ -1,19 +1,26 @@
 :imagesdir: _images/
+:icons: font
 
 = Endpunkt
 
+
 == Typen
-!Erklärung ...
+agrirouter ermöglicht den herstellerübergreifenden Austausch von Daten. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt bereitgestellt.
 
-Maschine ...
+Folgende Sender und Empfänger können über den agrirouter miteinander verbunden werden.
 
-Agrar Software ...
+[unordered.stack]
+Maschine:: Eine ISOBUS Maschine mit Task Controller Funktion.
+Agrarsoftware:: In diese Kategorie fallen u.a. Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
+ 
+Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]
 
-Telemetrie-Verbindung ...
+Verbundenes Konto:: Auch mit dem agrirouter-Konto anderer Benutzer können Daten ausgetauscht werden.
 
-Verbundenes Konto ...
+Externe Maschinen:: #TODO#
 
-Externe Maschinen ...
+Die Endpunkte werden im agrirouter so miteinander verknüpft, dass die Daten des Senders an die gewünschten Empfänger gelangen.
+
 
 == Tab "Senden an"
 !Erklärung ...
@@ -46,7 +53,15 @@ image::endpoint_details.png[Tab "Details"]
 image::endpoint_capablities.png[Tab "Fähigkeiten"]
 
 == Name oder Beschreibung bearbeiten
-!Erklärung ...
+Der Name und die Beschreibung eines Endpunktes kann geändert werden.
+
+. Wähle den Endpunkt in der Liste der Endpunkte. + 
+=> Die Details des Endpunktes werden rechts neben der Liste angezeigt.
+. Klicke den Button *_Bearbeiten_*. + 
+=> Das Formular `Endpunkt bearbeiten` wird angezeigt.
+. Gebe einen Namen und eine Beschreibung ein und klicke *_Bestätigen_*. + 
+=> In der Liste der Endpunkte wird der neue Name angezeigt. + 
+=> Im Reiter `Details` wird die neue Beschreibung angezeigt.
 
 .Namen oder Beschreibung bearbeiten
 image::endpoint_change_name.png[Namen oder Beschreibung bearbeiten]
