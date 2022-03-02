@@ -2,18 +2,32 @@
 :imagesdir: _images/
 :icons: font
 
+////
+Eine nummerierte Liste kann aufgetrennt werden. Eine Liste kann bei einer beliebigen Nummer gestartet werden.
+
+. Schritt 1.
+. Schritt 2.
+
+//~
+
+[start=2]
+. Nochmal Schritt 2.
+
+////
+
+
 == Benutzerkonto erstellen
 Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
 
 . Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
 . Klicke das Icon *_Anmelden_*. + 
 => Eine Auswahlliste wird angezeigt.
-. Wähle *_Registrieren_*. +
+. Wähle `Registrieren`. +
 => Das Formular `Benutzerregistrierung` wird angezeigt.
 . Fülle die Pflichtfelder aus und klicke den Button *_Registrieren_*. + 
 => Du erhälst eine E-Mail mit dem Aktivierungslink.
 . Klicke in der E-Mail den Button *_ACCOUNT AKTIVIEREN_*. + 
-=>Das Formular `Benutzerkonto aktivieren` wird angezeigt.
+=> Das Formular `Benutzerkonto aktivieren` wird angezeigt.
 . Vergebe ein Kennwort und klicke den Button *_Sichern_*.
 
 TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
@@ -22,7 +36,7 @@ TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrieru
 . Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^]. + 
 . Klicke das Icon *_Anmelden_*. + 
 => Eine Auswahlliste wird angezeigt.
-. Wähle *_Login_*. +
+. Wähle `Login`. +
 => Das Formular `Anmelden` wird angezeigt.
 . Gebe Benutzernamen und Passwort ein.
 . Aktiviere die Checkbox "_Angemeldet bleiben_".
@@ -46,7 +60,7 @@ Die Benutzerdaten können in der Kontoverwaltung geändert werden.
 . Klicke den Button *_Email-Adresse ändern_* im Abschnitt `Angaben zum Ansprechpartner`. + 
 => Das Formular `Email-Adresse ändern` wird angezeigt.
 . Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke den Button *_Bestätigen_*.
-. Klicke den Button *_Startseite_*.
+. Klicke den Button *_Startseite_*. + 
 => Das Dashboard wird angezeigt.
 
 == Konto löschen
@@ -78,35 +92,37 @@ Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein u
 . Klicke den Reiter `Theme` und wähle das Design.
 . Klicke den Reiter `Anzeigeeinstellungen`. + 
 => Die Optionen werden angezeigt.
-..  Schalte *_Große Interaktionselemente_* an. + 
+.. Schalte *_Große Interaktionselemente_* an. + 
 => Die Icons, Buttons und Kacheln werden in der maximalen Größe angezeigt.
-..  Wähle in der Auswahlliste *_Animation_* die Option `Voll`.
+.. Wähle in der Auswahlliste *_Animation_* die Option `Voll`.
 
 [NOTE]
 ====
-Wähle auf alten oder leistungsschwachen Endgeräten (Desktop-PC, Laptop oder Tablet) in der Auswahlliste *_Animation_* die Option `Minimal`.
+Wähle auf einem leistungsschwachen PC, Laptop oder Tablet in der Auswahlliste *_Animation_* die Option `Minimal`.
 
-Arbeitest du mit einem Bildschirm, schalte *_Große Interaktionselemente_* aus.
+Schalte auf Geräten mit kleinem Bildschirm *_Große Interaktionselemente_* aus.
 ====
 
 === Startseite
-Das Dashboard ist in 4 Reiter aufgeteilt. Du wählst aus, welche Inhalte im Dashboard angezeigt werden sollen.
+Das Dashboard ist in 4 Reiter aufgeteilt.
 
+Um die Inhalte aller Reiter auf einer Seite anzuzeigen, gehe vor wie folgt:
 . Klicke den Button *_Startseite_*.
-. Um die Inhalte aller Reiter anzuzeigen, wähle *_Sämtlichen Inhalt anzeigen_*.
+. Wähle *_Sämtlichen Inhalt anzeigen_*.
 
-//~
-
-[start=2]
-. Um den Inhalt des gewählten Reiters anzuzeigen, wähle *_Eine Gruppe auf einmal anzeigen_*.
+Um nur den Inhalt des gewählten Reiters anzuzeigen, gehe vor wie folgt:
+. Klicke den Button *_Startseite_*.
+. Wähle *_Eine Gruppe auf einmal anzeigen_*.
 
 === Benachrichtigungen
-Du kannst...
+#TODO# Einführenden Satz und Zusammenfassung der Einstellmöglichkeiten
 
 . Klicke den Button *_Benachrichtigungen_*.
 . Aktiviere die gewünschten Optionen.
 
 === Sprache und Region
+#TODO# Sprache und Region kann m.E. gar nicht eingestellt werden.
+
 Wähle eine Sprache und stelle das Format für die Darstellung von Datum und Zeit ein.
 
 . Klicke den Button *_Benachrichtigungen_*.
