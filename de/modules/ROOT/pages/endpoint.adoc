@@ -21,6 +21,10 @@ Externe Maschinen:: #TODO#
 
 Die Endpunkte werden im agrirouter so miteinander verknüpft, dass die Daten des Senders an die gewünschten Empfänger gelangen.
 
+== Endpunkteliste
+Du kannst einen Endpunkt bearbeiten, deaktivieren und löschen.
+Die Diagnoseinformationen eines Endpunktes teilst du bei einer Anfrage unserem technischen Support mit.
+
 
 == Tab "Senden an"
 !Erklärung ...
@@ -53,18 +57,27 @@ image::endpoint_details.png[Tab "Details"]
 image::endpoint_capablities.png[Tab "Fähigkeiten"]
 
 == Endpunkt bearbeiten
-Du kannst einen Endpunkt bearbeiten, deaktivieren und löschen.
-Die Diagnoseinformationen eines Endpunktes teilst du bei einer Anfrage unserem technischen Support mit.
 
-=== Bearbeiten
-Der Name und die Beschreibung eines Endpunktes kann geändert werden.
+Um einen Endpunkt zu bearbeiten, gehe vor wie folgt:
 
-. Wähle den Endpunkt in der Liste der Endpunkte. + 
-=> Die Details des Endpunktes werden rechts neben der Liste angezeigt.
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*. + 
+=> Im linken Bereich des Kontrollzentrums wird die Endpunktliste angezeigt.
+. Wähle den Endpunkt in der Endpunkteliste. + 
+=> Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.
+
+Du kannst nun
+* Name und Beschreibung des Endpunktes ändern,
+* den Endpunkt deaktivieren,
+* den Endpunkt löschen und
+* die Diagnoseinformationen eines Endpunktes abfragen.
+
+=== Name ändern
+Der Name und die Beschreibung eines Endpunktes kann geändert werden:
+
 . Klicke den Button *_Bearbeiten_*. + 
 => Das Formular `Endpunkt bearbeiten` wird angezeigt.
 . Gebe einen Namen und eine Beschreibung ein und klicke *_Bestätigen_*. + 
-=> In der Liste der Endpunkte wird der neue Name angezeigt. + 
+=> In der Endpunkte wird der neue Name angezeigt. + 
 => Im Reiter `Details` wird die neue Beschreibung angezeigt.
 
 ////
@@ -75,15 +88,13 @@ image::endpoint_change_name.png[Namen oder Beschreibung bearbeiten]
 === Deaktivieren
 Deaktiviere einen Endpunkt, wenn er keine Nachrichten mehr verarbeiten soll:
 
-. Wähle den Endpunkt in der Liste der Endpunkte. + 
-=> Die Details des Endpunktes werden rechts neben der Liste angezeigt.
 . Setze den Schalter *_Aktiv_* auf `AUS`. + 
 => Der Endpunkt ist deaktiviert. + 
-=> Der Endpunkt bleibt in der Liste der Endpunkte sichtbar.
+=> Der Endpunkt bleibt in der Endpunkteliste sichtbar.
 
 Aktiviere den Endpunkt, um wieder Nachrichten zu empfangen und zu versenden:
 
-. Wähle den Endpunkt in der Liste der Endpunkte. + 
+. Wähle den Endpunkt in der Endpunkteliste. + 
 => Die Details des Endpunktes werden rechts neben der Liste angezeigt.
 . Setze den Schalter *_Aktiv_* auf `AN`. + 
 => Der Endpunkt ist aktiviert.
@@ -94,21 +105,19 @@ image::endpoint_activation.png[Endpunkt aktivieren oder deaktivieren]
 ////
 
 === Löschen
-Lösche einen Endpunkt, wenn er nicht mehr benötigt wird.
+Lösche einen Endpunkt, wenn er nicht mehr benötigt wird:
 
-. Wähle den Endpunkt in der Liste der Endpunkte. + 
-=> Die Details des Endpunktes werden rechts neben der Liste angezeigt.
 . Klicke den Button *_Löschen_*. + 
 => Ein Meldungsfenster wird angezeigt.
 . Bestätige die Abfrage mit *_OK_*. + 
 => Der Endpunkt wird gelöscht. + 
-=> Der Endpunkt wird aus der Liste der Endpunkte entfernt. + 
+=> Der Endpunkt wird aus der Endpunkteliste entfernt. + 
 => Alle zum Endpunkt gespeicherten Daten werden gelöscht.
 
 [NOTE]
 ====
 Ein verbundenes Konto kann nicht gelöscht werden.
-Um ein verbundenes Konto aus der Liste der Endpunkte zu entfernen, gehe vor wie folgt:
+Um ein verbundenes Konto aus der Endpunkteliste zu entfernen, gehe vor wie folgt:
 . Klicke im Dashboard die Kachel *_Konten verbinden_*.
 . Wähle in der Liste der verbundenen Konten das Konto aus.
 . Klicke den Button *_Verbindung aufheben_*.
@@ -120,10 +129,8 @@ image::endpoint_delete.png[Endpunkt löschen]
 ////
 
 === Technischer Support
-Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wir Informationen zum Endpunkt.
+Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wir die Diagnoseinformationen des Endpunktes:
 
-. Wähle den Endpunkt in der Liste der Endpunkte. + 
-=> Die Details des Endpunktes werden rechts neben der Liste angezeigt.
 . Klicke den Button *_..._*. + 
 => Eine Auswahlliste wird angezeigt.
 . Wähle das Icon *_Support Informationen anzeigen_*. + 
