@@ -40,8 +40,10 @@ Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
 * Status oder
 * Maschinenklasse.
 
+//~
+
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_*. + 
-=> Das Auswahlliste *_Filtern nach_* wird angezeigt.
+=> Die Auswahlliste *_Filtern nach_* wird angezeigt.
 . Wähle eine Kategorie. + 
 => Die Auswahlliste *_Filtern nach: <Kategorie>_* wird angezeigt.
 . Wähle eine Option und bestätige mit *_OK_*. + 
@@ -50,7 +52,7 @@ Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
 Um den Filter zurückzusetzen, gehe vor wie folgt:
 
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_*. + 
-=> Das Auswahlliste *_Filtern nach_* wird angezeigt.
+=> Die Auswahlliste *_Filtern nach_* wird angezeigt.
 . Klicke das Icon *_Alle Filter zurücksetzen_* und bestätige mit *_OK_*. + 
 => Alle Endpunkte werden angezeigt.
 
@@ -67,7 +69,6 @@ image::endpoint_filter_delete.png[Filter löschen]
 
 === Endpunkt suchen
 Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
-Herstellernamen, den Produktnamen oder die Typenbezeichnung ein. Schon beim Eintippen verändert sich die Ansicht entsprechend deiner Eingabe, die als Filter genutzt wird.
 
 . Klicke das Icon *_Suchen_* über der Endpunkteliste. + 
 => Der Cursor blinkt im Eingabefeld *_Suchen_*.
@@ -76,18 +77,25 @@ Herstellernamen, den Produktnamen oder die Typenbezeichnung ein. Schon beim Eint
 
 Um die Suche rückgängig zu machen, gehe vor wie folgt:
 
-. Klicke das Icon *_Suche löschen_* rechts neben dem Eingabefeld *_Suchen_*. + 
+. Klicke das Icon *_X_* rechts neben dem Eingabefeld *_Suchen_*. + 
 => Alle Endpunkte werden angezeigt.
 
+////
 .Endpunkt suchen
 image::endpoint_search.png[Endpunkt suchen]
+////
 
 == Endpunkt Liste aktualisieren
-!Erklärung ...
+Die Endpunkteliste wird automatisch aktualisiert. Du kannst sie manuell aktualisieren:
 
+. Klicke das Icon *_Aktualisieren_* über der Endpunkteliste. + 
+=> Die Endpunkteliste wird aktualisiert. + 
+=> Die Detailansicht des gewählten Endpunktes wird aktualisiert.
+
+////
 .Endpunkt Liste aktualisieren
 image::endpoint_refresh.png[Endpunkt Liste aktualisieren]
-
+////
 
 
 
