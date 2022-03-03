@@ -22,8 +22,73 @@ Externe Maschinen:: #TODO#
 Die Endpunkte werden im agrirouter so miteinander verknüpft, dass die Daten des Senders an die gewünschten Empfänger gelangen.
 
 == Endpunkteliste
-Du kannst einen Endpunkt bearbeiten, deaktivieren und löschen.
-Die Diagnoseinformationen eines Endpunktes teilst du bei einer Anfrage unserem technischen Support mit.
+Du kannst
+
+* die Endpunkteliste filtern,
+* einen Endpunkt suchen und
+* die Endpunkteliste aktualisieren.
+
+Um die Endpunkteliste zu öffnen, gehe vor wie folgt:
+
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*. + 
+=> Im linken Bereich des Kontrollzentrums wird die Endpunktliste angezeigt.
+
+=== Liste filtern
+Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
+
+* Typ,
+* Status oder
+* Maschinenklasse.
+
+. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_*. + 
+=> Das Auswahlliste *_Filtern nach_* wird angezeigt.
+. Wähle eine Kategorie. + 
+=> Die Auswahlliste *_Filtern nach: <Kategorie>_* wird angezeigt.
+. Wähle eine Option und bestätige mit *_OK_*. + 
+=> Die gefilterte Endpunkteliste wird angezeigt.
+
+Um den Filter zurückzusetzen, gehe vor wie folgt:
+
+. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_*. + 
+=> Das Auswahlliste *_Filtern nach_* wird angezeigt.
+. Klicke das Icon *_Alle Filter zurücksetzen_* und bestätige mit *_OK_*. + 
+=> Alle Endpunkte werden angezeigt.
+
+////
+.Endpunkte filtern
+image::endpoint_filter.png[Endpunkte filtern]
+
+.Endpunkte filtern nach Typ, Status oder Maschinenklasse
+image::endpoint_filter_typ_status_mashine.png[Endpunkte filtern nach Typ, Status oder Maschinenklasse]
+
+.Filter löschen
+image::endpoint_filter_delete.png[Filter löschen]
+////
+
+=== Endpunkt suchen
+Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
+Herstellernamen, den Produktnamen oder die Typenbezeichnung ein. Schon beim Eintippen verändert sich die Ansicht entsprechend deiner Eingabe, die als Filter genutzt wird.
+
+. Klicke das Icon *_Suchen_* über der Endpunkteliste. + 
+=> Der Cursor blinkt im Eingabefeld *_Suchen_*.
+. Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein. + 
+=> Bereits beim Tippen wird die Endpunkteliste aktualisiert.
+
+Um die Suche rückgängig zu machen, gehe vor wie folgt:
+
+. Klicke das Icon *_Suche löschen_* rechts neben dem Eingabefeld *_Suchen_*. + 
+=> Alle Endpunkte werden angezeigt.
+
+.Endpunkt suchen
+image::endpoint_search.png[Endpunkt suchen]
+
+== Endpunkt Liste aktualisieren
+!Erklärung ...
+
+.Endpunkt Liste aktualisieren
+image::endpoint_refresh.png[Endpunkt Liste aktualisieren]
+
+
 
 
 == Tab "Senden an"
@@ -57,6 +122,12 @@ image::endpoint_details.png[Tab "Details"]
 image::endpoint_capablities.png[Tab "Fähigkeiten"]
 
 == Endpunkt bearbeiten
+Du kannst
+
+* Name und Beschreibung des Endpunktes ändern,
+* den Endpunkt deaktivieren,
+* den Endpunkt löschen und
+* die Diagnoseinformationen eines Endpunktes abfragen.
 
 Um einen Endpunkt zu bearbeiten, gehe vor wie folgt:
 
@@ -65,15 +136,8 @@ Um einen Endpunkt zu bearbeiten, gehe vor wie folgt:
 . Wähle den Endpunkt in der Endpunkteliste. + 
 => Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.
 
-Du kannst nun
-
-* Name und Beschreibung des Endpunktes ändern,
-* den Endpunkt deaktivieren,
-* den Endpunkt löschen und
-* die Diagnoseinformationen eines Endpunktes abfragen.
-
 === Name ändern
-Der Name und die Beschreibung eines Endpunktes kann geändert werden:
+Du kannst Name und Beschreibung eines Endpunktes ändern:
 
 . Klicke den Button *_Bearbeiten_*. + 
 => Das Formular `Endpunkt bearbeiten` wird angezeigt.
@@ -134,38 +198,10 @@ image::endpoint_delete.png[Endpunkt löschen]
 === Technischer Support
 Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wir die Diagnoseinformationen des Endpunktes:
 
-. Klicke den Button *_..._*. + 
+. Klicke das Icon *_Mehr_*. + 
 => Eine Auswahlliste wird angezeigt.
 . Wähle das Icon *_Support Informationen anzeigen_*. + 
 => Das Meldungsfenster *_Support-Information_* wird angezeigt.
 . Klicke das Icon *_In Zwischenablage kopieren_*.
 . Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support.
-
-== Endpunkte filtern nach Typ, Status oder Maschinenklasse
-!Erklärung ...
-
-.Endpunkte filtern
-image::endpoint_filter.png[Endpunkte filtern]
-
-!Erklärung ...
-
-.Endpunkte filtern nach Typ, Status oder Maschinenklasse
-image::endpoint_filter_typ_status_mashine.png[Endpunkte filtern nach Typ, Status oder Maschinenklasse]
-
-!Erklärung ...
-
-.Filter löschen
-image::endpoint_filter_delete.png[Filter löschen]
-
-== Endpunkt Suche
-!Erklärung ...
-
-.Endpunkt suchen
-image::endpoint_search.png[Endpunkt suchen]
-
-== Endpunkt Liste aktualisieren
-!Erklärung ...
-
-.Endpunkt Liste aktualisieren
-image::endpoint_refresh.png[Endpunkt Liste aktualisieren]
 
