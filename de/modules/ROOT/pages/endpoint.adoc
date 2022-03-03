@@ -85,7 +85,7 @@ Um die Suche rückgängig zu machen, gehe vor wie folgt:
 image::endpoint_search.png[Endpunkt suchen]
 ////
 
-== Endpunkt Liste aktualisieren
+=== Endpunkteliste aktualisieren
 Die Endpunkteliste wird automatisch aktualisiert. Du kannst sie manuell aktualisieren:
 
 . Klicke das Icon *_Aktualisieren_* über der Endpunkteliste. + 
@@ -98,36 +98,52 @@ image::endpoint_refresh.png[Endpunkt Liste aktualisieren]
 ////
 
 
+== Detailansicht
+In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
-== Tab "Senden an"
-!Erklärung ...
+* verbundene Endpunkte und Gruppen
+* Details zum Endpunkt und dem Postfach
+* Fähigkeiten des Endpunktes
 
+== `Senden an`
+Der Reiter enthält die Gruppen und Endpunkte, die Daten vom Endpunkt erhalten.
+
+////
 .Tab "Senden an"
 image::endpoint_send_to.png[Tab "Senden an"]
+////
 
-== Tab "Empfangen von"
-!Erklärung ...
+=== `Empfangen von`
+Der Reiter enthält die Gruppen und Endpunkte, die Daten an den Endpunkt senden.
 
+////
 .Tab "Empfangen von"
 image::endpoint_receive_from.png[Tab "Empfangen von"]
+////
 
-== Tab "Gruppen"
-!Erklärung ...
+=== `Gruppen`
+Der Reiter `Gruppen` enthält alle Gruppen, denen der Endpunkt zugeordnet ist.
 
+////
 .Tab "Gruppen"
 image::endpoint_group.png[Tab "Gruppen"]
+////
 
-== Tab "Details"
-!Erklärung ...
+=== `Details`
+Der Reiter `Details` enthält zusammenfassende Informationen zum Endpunkt und zum Postfach.
 
+////
 .Tab "Details"
 image::endpoint_details.png[Tab "Details"]
+////
 
-== Tab "Fähigkeiten"
-!Erklärung ...
+=== `Fähigkeiten`
+Der Reiter `Fähigkeiten` 
 
+////
 .Tab "Fähigkeiten"
 image::endpoint_capablities.png[Tab "Fähigkeiten"]
+////
 
 == Endpunkt bearbeiten
 Du kannst
