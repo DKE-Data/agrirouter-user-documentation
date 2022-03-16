@@ -30,9 +30,10 @@ Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
 => Das Formular `Benutzerkonto aktivieren` wird angezeigt.
 . Vergebe ein Kennwort und klicke den Button *_Sichern_*.
 
-//// Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
+[comment]
+Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
 TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
-////
+
 
 == Anmelden
 . Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^]. + 
@@ -79,7 +80,7 @@ Lösche das Benutzerkonto, wenn du es nicht mehr benötigst.
 => Ein Meldungsfenster wird angezeigt.
 . Klicke den Button *_OK_*. + 
 
-WARNING: Alle Einstellungen, Benutzerdaten und Endpunkte werden gelöscht und können nicht wieder hergestellt werden.
+WARNING: Alle Einstellungen und Benutzerdaten sowie alle Endpunkte und deren Postfächer werden gelöscht und können nicht wieder hergestellt werden.
 
 == Einstellungen
 Ansicht und Inhalt der Startseite und die Darstellung von Benachrichtigungen können eingestellt werden.
@@ -117,26 +118,20 @@ Um die Inhalte aller Reiter auf einer Seite anzuzeigen, gehe vor wie folgt:
 . Klicke den Button *_Startseite_*.
 . Wähle *_Sämtlichen Inhalt anzeigen_*.
 
+[NOTE]: Dies ist die empfohlene Einstellung.
+
 Um nur den Inhalt des gewählten Reiters anzuzeigen, gehe vor wie folgt:
 
 . Klicke den Button *_Startseite_*.
 . Wähle *_Eine Gruppe auf einmal anzeigen_*.
 
 === Benachrichtigungen
-#TODO# Einführenden Satz und Zusammenfassung der Einstellmöglichkeiten
+Diese Einstellungen werden nicht verwendet.
 
-. Klicke den Button *_Benachrichtigungen_*.
-. Aktiviere die gewünschten Optionen.
+. Ändere die Einstellungen nicht.
 
 === Sprache und Region
-#TODO# Sprache und Region kann m.E. gar nicht eingestellt werden.
-
-Wähle eine Sprache und stelle das Format für die Darstellung von Datum und Zeit ein.
-
-. Klicke den Button *_Benachrichtigungen_*.
-. Trage in das Eingabefeld `Sprache` eines der folgenden Sprachkürzel ein:
-* DE (Deutsch)
-* EN (Englisch)
-. Trage in das Eingabefeld `Datumsformat` eines der folgenden Formate ein:
-. Wähle zwischen 12h- und 24h-Anzeige.
+#TODO# Interne Link auf das Kapitel Kontoverwaltung. Geht das?
+Die Sprache stellst Du in der Kontoverwaltung ein.
+Die Region, Datum- und Zeitformat können nicht eingestellt werden.
 
