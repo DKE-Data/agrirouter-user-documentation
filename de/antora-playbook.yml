@@ -1,23 +1,57 @@
 ---
 asciidoc:
   attributes:
-    idprefix: ''
-    idseparator: '-'
-    kroki-fetch-diagram: 'true'
+    idprefix: ""
+    idseparator: "-"
+    kroki-fetch-diagram: "true"
     kroki-plantuml-include: style.puml
+    icons: font
+    lang: de
+    # variables for UI rendering
+    page-toctitle: Inhalt
+    page-search-note: Suchen
+    page-privacy-policy: Datenschutz
+    page-legal-notice: Impressum
+    page-edit-this-page: Diese Seite bearbeiten
+    # variables for Asciidoctor processing
+    appendix-caption: Anhang
+    appendix-refsig: Anhang
+    caution-caption: Achtung
+    chapter-signifier: Kapitel
+    chapter-refsig: Kapitel
+    example-caption: Beispiel
+    figure-caption: Abbildung
+    important-caption: Wichtig
+    last-update-label: Zuletzt aktualisiert
+    listing-caption: Listing
+    manname-title: Bezeichnung
+    note-caption: Anmerkung
+    part-signifier: Teil
+    part-refsig: Teil
+    preface-title: Vorwort
+    section-refsig: Abschnitt
+    table-caption: Tabelle
+    tip-caption: Hinweis
+    toc-title: Inhaltsverzeichnis
+    untitled-label: Ohne Titel
+    version-label: Version
+    warning-caption: Warnung
   extensions:
     - asciidoctor-kroki
+antora:
+  extensions:
+    - "@antora/lunr-extension"
 content:
   sources:
-    -
-      branches: HEAD
+    - branches: HEAD
       start_path: de/
       url: ..
 site:
   start_page: manual:ROOT:introduction.adoc
-  title: 'agrirouter Bedienungsanleitung'
+  title: "agrirouter Bedienungsanleitung"
   url: /de
 ui:
   bundle:
     url: https://files.my-agrirouter.com/ui-bundle-release.zip
     snapshot: true
+  supplemental_files: ./supplemental-ui
