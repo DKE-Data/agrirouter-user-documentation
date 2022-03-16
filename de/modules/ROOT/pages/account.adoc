@@ -30,7 +30,9 @@ Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
 => Das Formular `Benutzerkonto aktivieren` wird angezeigt.
 . Vergebe ein Kennwort und klicke den Button *_Sichern_*.
 
+//// Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
 TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
+////
 
 == Anmelden
 . Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^]. + 
@@ -71,9 +73,13 @@ Lösche das Benutzerkonto, wenn du es nicht mehr benötigst.
 . Klicke den Button *_Konto löschen_*. + 
 => Ein Meldungsfenster wird angezeigt.
 . Klicke den Button *_OK_*. + 
-=> Das Konto wird gelöscht.
+=> Ein Eingabefenster wird angezeigt.
+. Gebe dein Passwort ein und klicke den Button *_Bestätigen_*. + 
+=> Das Konto wird gelöscht. + 
+=> Ein Meldungsfenster wird angezeigt.
+. Klicke den Button *_OK_*. + 
 
-WARNING: Alle Benutzerdaten, Endpunkte, Daten werden gelöscht und können nicht wieder hergestellt werden.
+WARNING: Alle Einstellungen, Benutzerdaten und Endpunkte werden gelöscht und können nicht wieder hergestellt werden.
 
 == Einstellungen
 Ansicht und Inhalt der Startseite und die Darstellung von Benachrichtigungen können eingestellt werden.
