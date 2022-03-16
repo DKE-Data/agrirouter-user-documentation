@@ -38,6 +38,9 @@ asciidoc:
     warning-caption: Warnung
   extensions:
     - asciidoctor-kroki
+antora:
+  extensions:
+    - "@antora/lunr-extension"
 content:
   sources:
     - branches: HEAD
