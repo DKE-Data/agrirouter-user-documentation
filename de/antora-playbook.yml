@@ -33,6 +33,9 @@ asciidoc:
 
   extensions:
     - asciidoctor-kroki
+antora:
+  extensions:
+    - "@antora/lunr-extension"
 content:
   sources:
     - branches: HEAD
