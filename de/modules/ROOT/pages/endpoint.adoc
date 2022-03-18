@@ -4,22 +4,23 @@
 = Endpunkt
 
 
-== Typen
-agrirouter ermöglicht den herstellerübergreifenden Austausch von Daten. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt bereitgestellt.
-
-Folgende Sender und Empfänger können über den agrirouter miteinander verbunden werden.
+== Allgemeines
+agrirouter ermöglicht den herstellerübergreifenden Austausch von Daten. Folgende Sender und Empfänger können über den agrirouter miteinander verbunden werden:
 
 [unordered.stack]
-Maschine:: Eine ISOBUS Maschine mit Task Controller Funktion.
-Agrarsoftware:: In diese Kategorie fallen u.a. Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
- 
 Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]
 
-Verbundenes Konto:: Auch mit dem agrirouter-Konto anderer Benutzer können Daten ausgetauscht werden.
+Maschine:: Eine angehängte, gezogene oder selbstfahrende landwirtschaftliche Maschine, die mit einer Telemetrie-Einheit verbunden ist und eine Device Description bereitstellen kann. Die Maschine kann, muss aber nicht ISOBUS-kompatibel sein.
 
-Externe Maschinen:: #TODO#
+Agrarsoftware:: Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
 
-Die Endpunkte werden im agrirouter so miteinander verknüpft, dass die Daten des Senders an die gewünschten Empfänger gelangen.
+Verbundenes Konto:: Das agrirouter-Konto eines anderen Benutzers.
+
+Externe Maschine:: Maschine, die zu einem verbundenen Konto gehört.
+
+Für jeden verbundenen Sender und Empfänger wird im agrirouter ein sog. Endpunkt angelegt. Jeder Endpunkt kann Daten senden und empfangen.
+Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen. => Kapitel ./routing.html[Routing^].
+
 
 == Endpunkteliste
 Du kannst
@@ -105,7 +106,7 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 * Details zum Endpunkt und dem Postfach
 * Fähigkeiten des Endpunktes
 
-== `Senden an`
+=== `Senden an`
 Der Reiter enthält die Gruppen und Endpunkte, die Daten vom Endpunkt erhalten.
 
 ////
