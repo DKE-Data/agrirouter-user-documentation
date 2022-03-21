@@ -62,6 +62,7 @@ Maschinenklasse:: Einem Endpunkt vom Typ `Maschine` wird automatisch eine Maschi
 
 //-
 
+Filtere die Liste wie folgt:
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_logon-icon.png[logon, 20, 20].
 [.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
 . Wähle eine Kategorie.
@@ -108,7 +109,7 @@ image::endpoint_search.png[Endpunkt suchen]
 ////
 
 === Endpunkteliste aktualisieren
-Wenn der gesuchte Endpunkt nicht eingetragen ist, ist die Liste ggf. nicht aktuell.
+Wenn die Detailansicht eines Endpunktes veraltete Daten enthält oder der gesuchte Endpunkt nicht eingetragen ist, ist die Liste ggf. nicht aktuell.
 Aktualisiere die Endpunkteliste wie folgt:
 
 . Klicke das Icon *_Aktualisieren_*  image:ar_logon-icon.png[logon, 20, 20] über der Endpunkteliste.
@@ -126,7 +127,8 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
 * verbundene Endpunkte und Gruppen
 * Details zum Endpunkt und dem Postfach
-* Eigenschaften des Endpunktes
+* Fähigkeiten des Endpunktes
+// Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
 
 === `Senden an`
 Der Reiter enthält die Gruppen und Endpunkte, die Daten vom Endpunkt erhalten.
