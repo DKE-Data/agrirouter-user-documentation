@@ -1,8 +1,8 @@
 :imagesdir: _images/
 :icons: font
 
-= Endpunkt
-
+= Kontrollzentrum
+#TODO Im Kontrollzentrum..., ggf. ein Screenshot mit Beschreibung der Bereiche#
 
 == Endpunkt-Typ
 Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
@@ -41,12 +41,16 @@ NOTE: Auf einem Tablet öffnest du die Endpunkteliste über das Burger-Menü ima
 
 Ein Listeneintrag besteht aus
 
+[.float-group]
+--
+image::ar_registrieren-waehlen.png[Select Register, 250, float=right]
+
 . Namen
 . Typ
 . Maschinenklasse (optional) und
 . Status
 
-image::ar_registrieren-waehlen.png[Select Register, 250, float=right]
+--
 
 === Liste filtern
 Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
