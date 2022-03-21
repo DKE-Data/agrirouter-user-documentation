@@ -4,8 +4,9 @@
 = Endpunkt
 
 
-== Allgemeines
-agrirouter ermöglicht den herstellerübergreifenden Austausch von Daten. Folgende Sender und Empfänger können über den agrirouter miteinander verbunden werden:
+== Endpunkt-Typ
+Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
+Es gibt folgende Endpunkt-Typen:
 
 [unordered.stack]
 Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]
@@ -18,30 +19,45 @@ Verbundenes Konto:: Das agrirouter-Konto eines anderen Benutzers.
 
 Externe Maschine:: Maschine, die zu einem verbundenen Konto gehört.
 
-Für jeden verbundenen Sender und Empfänger wird im agrirouter ein sog. Endpunkt angelegt. Jeder Endpunkt kann Daten senden und empfangen.
-Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen. (=> Kapitel xref:routing.adoc[Routing^]).
+Jeder Endpunkt kann Daten senden und empfangen.
+Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen. (=> Kapitel xref:routing.adoc[Routing]).
 
 
 == Endpunkteliste
+Die Endpunkteliste ist anhand des Namens alphabetisch sortiert.
 Du kannst
 
 * die Endpunkteliste filtern,
 * einen Endpunkt suchen und
 * die Endpunkteliste aktualisieren.
 
-Um die Endpunkteliste zu öffnen, gehe vor wie folgt:
+Du öffnest die Endpunkteliste wie folgt:
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
-[.result]#Im linken Bereich des Kontrollzentrums wird die Endpunktliste angezeigt.#
+[.result]#Das Kontrollzentrum wird angezeigt.#
+[.result]#Die Endpunkteliste wird im linken Bereich des Kontrollzentrums angezeigt.#
+
+NOTE: Auf einem Tablet wird nur die Detailansicht angezeigt. Die Endpunkteliste muss über das Burger-Menü geöffnet werden.
+
+Auf einem Tablet öffnest Du die Endpunkteliste wie folgt:
+. Klicke auf das Burger-Menü Icon image:ar_logon-icon.png[logon, 20, 20].
+[.result]#Die Endpunkteliste wird eingeblendet.#
+
+Ein Listeneintrag besteht aus
+
+. Namen
+. Typ
+. Maschinenklasse (optional) und
+. Status
+
 
 === Liste filtern
 Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
 
-* Typ,
-* Status oder
-* Maschinenklasse.
-
-//~
+[unordered.stack]
+Typ:: Die im Abschnitt `Endpunkt-Typ` beschriebenen Typen.
+Status:: Ein Endpunkt kann den Status `Aktiv`, `Deaktiviert` oder `Blockiert` haben.
+Maschinenklasse:: Einem Endpunkt vom Typ `Maschine` wird automatisch eine Maschinenklasse zugeordnet. Diese gibt an, um welche Art landwirtschaftliche Maschine es sich handelt, z.B. Dünger, Spritze, etc. ... .
 
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_*.
 [.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
@@ -50,11 +66,13 @@ Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
 . Wähle eine Option und bestätige mit *_OK_*.
 [.result]#Die gefilterte Endpunkteliste wird angezeigt.#
 
-Um den Filter zurückzusetzen, gehe vor wie folgt:
+Setze den Filter zurück wie folgt:
 
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_*.
 [.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
-. Klicke das Icon *_Alle Filter zurücksetzen_* und bestätige mit *_OK_*.
+. Klicke das Icon *_Alle Filter zurücksetzen_*.
+[.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
+. Klicke *_OK_*.
 [.result]#Alle Endpunkte werden angezeigt.#
 
 ////
@@ -76,7 +94,7 @@ Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen
 . Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.
 [.result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#
 
-Um die Suche rückgängig zu machen, gehe vor wie folgt:
+Mache die Suche rückgängig wie folgt:
 
 . Klicke das Icon *_X_* rechts neben dem Eingabefeld *_Suchen_*.
 [.result]#Alle Endpunkte werden angezeigt.#
