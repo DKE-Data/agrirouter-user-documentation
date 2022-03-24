@@ -28,14 +28,14 @@ Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Se
 
 
 == Endpunkteliste
-Die Endpunkteliste ist anhand des Namens alphabetisch sortiert.
+Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + 
 Du kannst
 
 * die Endpunkteliste filtern,
 * einen Endpunkt suchen und
 * die Endpunkteliste aktualisieren.
 
-Du öffnest die Endpunkteliste wie folgt:
+Öffne die Endpunkteliste wie folgt:
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
 [.result]#Das Kontrollzentrum wird angezeigt.#
@@ -114,7 +114,7 @@ image::endpoint_search.png[Endpunkt suchen]
 ////
 
 === Endpunkteliste aktualisieren
-Wenn die Detailansicht eines Endpunktes veraltete Daten enthält oder der gesuchte Endpunkt nicht eingetragen ist, ist die Liste ggf. nicht aktuell.
+Wenn die Detailansicht eines Endpunktes veraltete Daten enthält oder der gesuchte Endpunkt nicht eingetragen ist, ist die Liste ggf. nicht aktuell. + 
 Aktualisiere die Endpunkteliste wie folgt:
 
 . Klicke das Icon *_Aktualisieren_*  image:ar_logon-icon.png[logon, 20, 20] über der Endpunkteliste.
@@ -137,51 +137,67 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
 Die Detailansicht ist in folgende Reiter aufgeteilt:
 
-[unordered.stack]
-Senden an:: Die Endpunkte und Gruppen, an die der Endpunkt Daten sendet.
-
-////
-.Tab "Senden an"
-image::endpoint_send_to.png[Tab "Senden an"]
-////
-Empfangen von:: Die Endpunkte und Gruppen, von denen der Endpunkt Daten erhält.
-
 ////
 .Tab "Empfangen von"
 image::endpoint_receive_from.png[Tab "Empfangen von"]
 ////
 
-Gruppen:: Die Gruppen, denen der Endpunkt zugeordnet ist.
 
-////
-.Tab "Gruppen"
-image::endpoint_group.png[Tab "Gruppen"]
-////
+[unordered.stack]
+Senden an:: Die Endpunkte und Gruppen, an die der Endpunkt Daten sendet.
+
+Empfangen von:: Die Endpunkte und Gruppen, von denen der Endpunkt Daten erhält.
+
+Gruppen:: Die Gruppen, denen der Endpunkt zugeordnet ist.
 
 Details:: Zusammenfassende Informationen zum Endpunkt und zum Postfach. + 
 Die Endpunktdetails können mit Ausnahme der Beschreibung nicht geändert werden. Die Postfachdetails werden automatisch aktualisiert.
 
-////
-.Tab "Details"
-image::endpoint_details.png[Tab "Details"]
-////
-
 Fähigkeiten:: Der Reiter enthält die Nachrichtenformate, die der Endpunkt senden und empfangen kann. + 
-Die Fähigkeiten sind vom Endpunkt vorgegeben und können nicht geändert werden.
-
-////
-.Tab "Fähigkeiten"
-image::endpoint_capablities.png[Tab "Fähigkeiten"]
-////
+Die unterstützten Nachrichtenformate sind vom Endpunkt vorgegeben und können nicht geändert werden.
 
 === Senden an
+Der Reiter enthält eine Liste der Empfänger.
+Empfänger sind alle Endpunkte und Gruppen, an die der Endpunkt Daten sendet.
+
+Wenn der Endpunkteliste ein neuer Endpunkt hinzugefügt wird, wird automatisch ein Standardempfänger angelegt. Dieser kann nicht bearbeitet oder gelöscht werden.
+
+#TODO: Du verwaltest die Empfänger, die vom Endpunkt Daten erhalten und definierst, welche Nachrichten jeder Empfänger erhalten soll.#
+
+Füge der Liste der Empfänger einen neuen Empfänger hinzu wie folgt:
+. Klicke das Icon *_Hinzufügen_*.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke in das Eingabefeld *_Empfänger_*.
+[.result]#Die Auswahlliste `Endpunkt auswählen` wird angezeigt.#
+. Wähle den Empfänger.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke in das Eingabefeld *_Nachrichtenformate_*.
+[.result]#Die Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#
+. Wähle die Nachrichtenformate, die der Empfänger erhalten soll und klicke *_Bestätigen_*.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke den Button *_Bestätigen_*.
+[.result]#Der Empfänger wird hinzugefügt.#
+
+#TODO: Das kann ich nicht nachstellen, weiß also nicht, was genau einzugeben ist#
+. Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.
+[.result]#Das Formular `Telemetrie-Parameter` wird angezeigt.#
+
+NOTE: Es kann mehrere Minuten dauern, bis das System den Empfänger hinzugefügt hat.
+
+[IMPORTANT:]
+====
+ Beachte beim Eingabefeld `Telemetrie-Parameter-Kategorien` folgende Einschränkungen: +
+Nur Gruppen und Maschinen können Telemetrie-Parameter versenden.
+Der Empfänger muss Timelog-Nachrichten verarbeiten können.
+Sind diese Bedingungen nicht erfüllt, ist das Eingabefeld deaktiviert.
+====
 
 === Empfangen von
 
 === Gruppen
 
 === Details
-Du kannst die Beschreibung des Endpunktes ändern:
+Ändere die Beschreibung des Endpunktes wie folgt:
 
 . Klicke den Button *_Bearbeiten_*.
 [.result]#Das Formular `Endpunkt bearbeiten` wird angezeigt.#
@@ -189,7 +205,7 @@ Du kannst die Beschreibung des Endpunktes ändern:
 [.result]#Die neue Beschreibung wird angezeigt.#
 
 Die Daten im Reiter werden automatisch aktualisiert.
-Um häufiger zu aktualisieren, z.B. wenn du das Postfach beobachtest, gehe vor wie folgt:
+Aktualisiere manuell, wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:
 
 . Klicke das Icon *_Aktualisieren_*  image:ar_logon-icon.png[logon, 20, 20].
 [.result]#Der Reiter `Details` wird aktualisiert.#
@@ -203,13 +219,13 @@ Du kannst
 * den Endpunkt löschen und
 * die Diagnoseinformationen eines Endpunktes abfragen.
 
-Um den Endpunkt zu bearbeiten, gehe vor wie folgt:
+Bearbeite den Endpunkt wie folgt:
 
 . Wähle den Endpunkt in der Endpunkteliste.
 [.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
 
 === Name ändern
-Du kannst den Namen des Endpunktes ändern:
+Ändere den Namen des Endpunktes wie folgt:
 
 . Klicke den Button *_Bearbeiten_*.
 [.result]#Das Formular `Endpunkt bearbeiten` wird angezeigt.#
@@ -253,7 +269,7 @@ Lösche den Endpunkt, wenn er nicht mehr benötigt wird:
 [NOTE]
 ====
 Ein verbundenes Konto kann nicht gelöscht werden.
-Um ein verbundenes Konto aus der Endpunkteliste zu entfernen, gehe vor wie folgt:
+Entferne ein verbundenes Konto aus der Endpunkteliste wie folgt:
 
 . Klicke im Dashboard die Kachel *_Konten verbinden_*.
 . Wähle in der Liste der verbundenen Konten das Konto aus.
