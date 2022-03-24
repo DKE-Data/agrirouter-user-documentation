@@ -7,6 +7,7 @@
 * Einführender Text: Im Kontrollzentrum
 * ggf. ein Screenshot mit Beschreibung der Bereiche
 * Dummy Screenshots und Icons ersetzen
+* 2 Bereiche: Endpunkte und Gruppen
 
 == Endpunkt-Typ
 Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
@@ -39,7 +40,9 @@ Du kannst
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
 [.result]#Das Kontrollzentrum wird angezeigt.#
-[.result]#Die Endpunkteliste wird im linken Bereich des Kontrollzentrums angezeigt.#
+. Klicke den Button *_Endpunkte_*.
+[.result]#Im linken Bereich des Kontrollzentrums wird die Endpunkteliste angezeigt.#
+[.result]#Im linken Bereich des Kontrollzentrums wird die Detailansicht angezeigt.#
 
 NOTE: Auf einem Tablet öffnest du die Endpunkteliste über das Burger-Menü image:ar_logon-icon.png[logon, 20, 20].
 
@@ -157,14 +160,13 @@ Fähigkeiten:: Der Reiter enthält die Nachrichtenformate, die der Endpunkt send
 Die unterstützten Nachrichtenformate sind vom Endpunkt vorgegeben und können nicht geändert werden.
 
 === Senden an
+Empfänger sind alle Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
 Der Reiter enthält eine Liste der Empfänger.
-Empfänger sind alle Endpunkte und Gruppen, an die der Endpunkt Daten sendet.
+Du verwaltest die Liste der Empfänger und definierst, welche Nachrichtenformate die Empfänger erhalten.
 
-Wenn der Endpunkteliste ein neuer Endpunkt hinzugefügt wird, wird automatisch ein Standardempfänger angelegt. Dieser kann nicht bearbeitet oder gelöscht werden.
+NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Empfänger zugewiesen. Wenn du die Standard-Gruppe löscht, wird automatisch auch der Empfänger gelöscht.
 
-#TODO: Du verwaltest die Empfänger, die vom Endpunkt Daten erhalten und definierst, welche Nachrichten jeder Empfänger erhalten soll.#
-
-Füge der Liste der Empfänger einen neuen Empfänger hinzu wie folgt:
+Füge einen neuen Empfänger hinzu wie folgt:
 
 . Klicke das Icon *_Hinzufügen_*.
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -197,8 +199,36 @@ Sind diese Bedingungen nicht erfüllt, ist das Eingabefeld deaktiviert.
 ====
 
 === Empfangen von
+Sender sind alle Endpunkte und Gruppen, die Daten an den Endpunkt senden.
+Der Reiter enthält eine Liste der Sender.
+Du verwaltest die Liste der Empfänger und definierst, welche Nachrichtenformate die Empfänger erhalten.
+
+NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Sender zugewiesen. Wenn du die Standard-Gruppe löscht, wird automatisch auch der Sender gelöscht.
+
+Füge einen neuen Sender hinzu wie folgt:
+
+. Klicke das Icon *_Hinzufügen_*.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke in das Eingabefeld *_Sender_*.
+[.result]#Die Auswahlliste `Endpunkt auswählen` wird angezeigt.#
+. Wähle den Sender.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke in das Eingabefeld *_Nachrichtenformate_*.
+[.result]#Die Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#
+. Wähle die Nachrichtenformate, die der Sender senden soll und klicke *_Bestätigen_*.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke den Button *_Bestätigen_*.
+[.result]#Der Sender wird hinzugefügt.#
+
+#TODO: Das kann ich nicht nachstellen, weiß also nicht, was genau einzugeben ist#
+. Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.
+[.result]#Das Formular `Telemetrie-Parameter` wird angezeigt.#
+
+NOTE: Es kann mehrere Minuten dauern, bis das System den Sender hinzugefügt hat.
 
 === Gruppen
+Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. Einstellungen, die du an der Gruppe vornimmst, gelten für alle Mitglieder der Gruppe. Es sind zwei Standard-Gruppen vorgegeben, welche du nicht löschen oder bearbeiten kannst.
+
 
 === Details
 Ändere die Beschreibung des Endpunktes wie folgt:
