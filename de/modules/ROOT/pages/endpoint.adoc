@@ -165,6 +165,7 @@ Wenn der Endpunkteliste ein neuer Endpunkt hinzugefügt wird, wird automatisch e
 #TODO: Du verwaltest die Empfänger, die vom Endpunkt Daten erhalten und definierst, welche Nachrichten jeder Empfänger erhalten soll.#
 
 Füge der Liste der Empfänger einen neuen Empfänger hinzu wie folgt:
+
 . Klicke das Icon *_Hinzufügen_*.
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke in das Eingabefeld *_Empfänger_*.
@@ -186,9 +187,12 @@ NOTE: Es kann mehrere Minuten dauern, bis das System den Empfänger hinzugefügt
 
 [IMPORTANT]
 ====
- Beachte beim Eingabefeld `Telemetrie-Parameter-Kategorien` folgende Einschränkungen: +
+Beachte beim Eingabefeld `Telemetrie-Parameter-Kategorien` folgende Einschränkungen:
+
 Nur Gruppen und Maschinen können Telemetrie-Parameter versenden.
+
 Der Empfänger muss Timelog-Nachrichten verarbeiten können.
+
 Sind diese Bedingungen nicht erfüllt, ist das Eingabefeld deaktiviert.
 ====
 
