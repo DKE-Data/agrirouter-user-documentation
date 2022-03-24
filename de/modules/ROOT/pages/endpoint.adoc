@@ -72,6 +72,24 @@ image::ar_registrieren-waehlen.png[Select Register, 250, float=right]
 
 NOTE: Der Endpunkt wird in der Endpunkteliste angezeigt, wenn du den Registrierungscode am Endpunkt eingegeben hast. + Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode am Gerät eingibst.
 
+=== Endpunkt suchen
+Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
+
+. Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_logon-icon.png[logon, 20, 20].
+[.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#
+. Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.
+[.result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#
+
+Mache die Suche rückgängig wie folgt:
+
+. Klicke das Icon image:ar_logon-icon.png[logon, 20, 20] rechts neben dem Eingabefeld *_Suchen_*.
+[.result]#Alle Endpunkte werden angezeigt.#
+
+////
+.Endpunkt suchen
+image::endpoint_search.png[Endpunkt suchen]
+////
+
 === Liste filtern
 Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
 
@@ -111,37 +129,13 @@ image::endpoint_filter_typ_status_mashine.png[Endpunkte filtern nach Typ, Status
 image::endpoint_filter_delete.png[Filter löschen]
 ////
 
-=== Endpunkt suchen
-Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
-
-. Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_logon-icon.png[logon, 20, 20].
-[.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#
-. Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.
-[.result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#
-
-Mache die Suche rückgängig wie folgt:
-
-. Klicke das Icon image:ar_logon-icon.png[logon, 20, 20] rechts neben dem Eingabefeld *_Suchen_*.
-[.result]#Alle Endpunkte werden angezeigt.#
-
-////
-.Endpunkt suchen
-image::endpoint_search.png[Endpunkt suchen]
-////
-
-=== Endpunkteliste aktualisieren
+=== Liste aktualisieren
 Wenn die Detailansicht eines Endpunktes veraltete Daten enthält oder der gesuchte Endpunkt nicht eingetragen ist, ist die Liste ggf. nicht aktuell. + 
 Aktualisiere die Endpunkteliste wie folgt:
 
 . Klicke das Icon *_Aktualisieren_*  image:ar_logon-icon.png[logon, 20, 20] über der Endpunkteliste.
 [.result]#Die Endpunkteliste wird aktualisiert.#
 [.result]#Die Detailansicht des gewählten Endpunktes wird aktualisiert.#
-
-////
-.Endpunkt Liste aktualisieren
-image::endpoint_refresh.png[Endpunkt Liste aktualisieren]
-////
-
 
 == Detailansicht
 In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
@@ -153,18 +147,12 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
 Die Detailansicht ist in folgende Reiter aufgeteilt:
 
-////
-.Tab "Empfangen von"
-image::endpoint_receive_from.png[Tab "Empfangen von"]
-////
-
-
 [unordered.stack]
-Senden an:: Die Endpunkte und Gruppen, an die der Endpunkt Daten sendet.
+Senden an:: Die Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
 
-Empfangen von:: Die Endpunkte und Gruppen, von denen der Endpunkt Daten erhält.
+Empfangen von:: Die Endpunkte und Gruppen, die Daten an den Endpunkt senden.
 
-Gruppen:: Die Gruppen, denen der Endpunkt zugeordnet ist.
+Gruppen:: Die Gruppen, denen der Endpunkt angehört.
 
 Details:: Zusammenfassende Informationen zum Endpunkt und zum Postfach. + 
 Die Endpunktdetails können mit Ausnahme der Beschreibung nicht geändert werden. Die Postfachdetails werden automatisch aktualisiert.
@@ -177,7 +165,8 @@ Empfänger sind alle Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
 Der Reiter enthält eine Liste der Empfänger.
 Du verwaltest die Liste der Empfänger und definierst, welche Nachrichtenformate die Empfänger erhalten.
 
-NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Empfänger zugewiesen. Wenn du die Standard-Gruppe löscht, wird automatisch auch der Empfänger gelöscht.
+NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Empfänger zugewiesen.
+Wenn du die Standard-Gruppe löscht, wird automatisch auch der Empfänger gelöscht.
 
 Füge einen neuen Empfänger hinzu wie folgt:
 
@@ -203,9 +192,7 @@ NOTE: Es kann mehrere Minuten dauern, bis das System den Empfänger hinzugefügt
 [IMPORTANT]
 ====
 Beachte beim Eingabefeld `Telemetrie-Parameter-Kategorien` folgende Einschränkungen:
-
 Nur Gruppen und Maschinen können Telemetrie-Parameter versenden.
-
 Der Empfänger muss Timelog-Nachrichten verarbeiten können.
 
 Sind diese Bedingungen nicht erfüllt, ist das Eingabefeld deaktiviert.
