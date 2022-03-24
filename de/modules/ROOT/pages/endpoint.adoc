@@ -32,6 +32,7 @@ Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Se
 Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + 
 Du kannst
 
+* einen Endpunkt hinzufügen,
 * die Endpunkteliste filtern,
 * einen Endpunkt suchen und
 * die Endpunkteliste aktualisieren.
@@ -59,6 +60,18 @@ image::ar_registrieren-waehlen.png[Select Register, 250, float=right]
 
 --
 
+=== Endpunkt hinzufügen
+#TODO#
+
+. Klicke den Button *_Telemetrie-Verbindung_*.
+[.result]#Das Fenster `Telemetrie-Verbindung auswählen` wird angezeigt.#
+. Wähle den Endpunkt.
+[.result]#Das Meldungsfenster `Registrierungscode` wird angezeigt.#
+. Notiere den Registrierungscode und klicke *_Schließen_*.
+[.result]#Die Endpunkteliste wird angezeigt.#
+
+NOTE: Der Endpunkt wird in der Endpunkteliste angezeigt, wenn du den Registrierungscode am Endpunkt eingegeben hast. + Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode am Gerät eingibst.
+
 === Liste filtern
 Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
 
@@ -72,18 +85,18 @@ Maschinenklasse:: Einem Endpunkt vom Typ `Maschine` wird automatisch eine Maschi
 Filtere die Liste wie folgt:
 
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_logon-icon.png[logon, 20, 20].
-[.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
+[.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
 . Wähle eine Kategorie.
-[.result]#Die Auswahlliste *_Filtern nach: <Kategorie>_* wird angezeigt.#
+[.result]#Die Auswahlliste `Filtern nach: <Kategorie>` wird angezeigt.#
 . Wähle eine Option und bestätige mit *_OK_*.
 [.result]#Die gefilterte Endpunkteliste wird angezeigt.#
 
 Setze den Filter zurück wie folgt:
 
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_logon-icon.png[logon, 20, 20].
-[.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
+[.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
 . Klicke das Icon *_Alle Filter zurücksetzen_*.
-[.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
+[.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
 . Klicke *_OK_*.
 [.result]#Alle Endpunkte werden angezeigt.#
 
