@@ -3,7 +3,10 @@
 
 = Kontrollzentrum
 
-#TODO# Im Kontrollzentrum..., ggf. ein Screenshot mit Beschreibung der Bereiche
+#TODO#
+* Einführender Text: Im Kontrollzentrum
+* ggf. ein Screenshot mit Beschreibung der Bereiche
+* Dummy Screenshots und Icons ersetzen
 
 == Endpunkt-Typ
 Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
@@ -64,6 +67,7 @@ Maschinenklasse:: Einem Endpunkt vom Typ `Maschine` wird automatisch eine Maschi
 //-
 
 Filtere die Liste wie folgt:
+
 . Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_logon-icon.png[logon, 20, 20].
 [.result]#Die Auswahlliste *_Filtern nach_* wird angezeigt.#
 . Wähle eine Kategorie.
@@ -131,69 +135,86 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 * Fähigkeiten des Endpunktes
 // Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
 
-=== `Senden an`
-Der Reiter enthält die Gruppen und Endpunkte, die Daten vom Endpunkt erhalten.
+Die Detailansicht ist in folgende Reiter aufgeteilt:
+
+[unordered.stack]
+Senden an:: Die Endpunkte und Gruppen, an die der Endpunkt Daten sendet.
 
 ////
 .Tab "Senden an"
 image::endpoint_send_to.png[Tab "Senden an"]
 ////
-
-=== `Empfangen von`
-Der Reiter enthält die Gruppen und Endpunkte, die Daten an den Endpunkt senden.
+Empfangen von:: Die Endpunkte und Gruppen, von denen der Endpunkt Daten erhält.
 
 ////
 .Tab "Empfangen von"
 image::endpoint_receive_from.png[Tab "Empfangen von"]
 ////
 
-=== `Gruppen`
-Der Reiter `Gruppen` enthält alle Gruppen, denen der Endpunkt zugeordnet ist.
+Gruppen:: Die Gruppen, denen der Endpunkt zugeordnet ist.
 
 ////
 .Tab "Gruppen"
 image::endpoint_group.png[Tab "Gruppen"]
 ////
 
-=== `Details`
-Der Reiter `Details` enthält zusammenfassende Informationen zum Endpunkt und zum Postfach.
+Details:: Zusammenfassende Informationen zum Endpunkt und zum Postfach. + 
+Die Endpunktdetails können mit Ausnahme der Beschreibung nicht geändert werden. Die Postfachdetails werden automatisch aktualisiert.
 
 ////
 .Tab "Details"
 image::endpoint_details.png[Tab "Details"]
 ////
 
-=== `Fähigkeiten`
-Der Reiter `Fähigkeiten` 
+Fähigkeiten:: Der Reiter enthält die Nachrichtenformate, die der Endpunkt senden und empfangen kann. + 
+Die Fähigkeiten sind vom Endpunkt vorgegeben und können nicht geändert werden.
 
 ////
 .Tab "Fähigkeiten"
 image::endpoint_capablities.png[Tab "Fähigkeiten"]
 ////
 
+=== Senden an
+
+=== Empfangen von
+
+=== Gruppen
+
+=== Details
+Du kannst die Beschreibung des Endpunktes ändern:
+
+. Klicke den Button *_Bearbeiten_*.
+[.result]#Das Formular `Endpunkt bearbeiten` wird angezeigt.#
+. Gebe die Beschreibung ein und klicke *_Bestätigen_*.
+[.result]#Die neue Beschreibung wird angezeigt.#
+
+Die Daten im Reiter werden automatisch aktualisiert.
+Um häufiger zu aktualisieren, z.B. wenn du das Postfach beobachtest, gehe vor wie folgt:
+
+. Klicke das Icon *_Aktualisieren_*  image:ar_logon-icon.png[logon, 20, 20].
+[.result]#Der Reiter `Details` wird aktualisiert.#
+
+
 == Endpunkt bearbeiten
 Du kannst
 
-* Name und Beschreibung des Endpunktes ändern,
+* Name des Endpunktes ändern,
 * den Endpunkt deaktivieren,
 * den Endpunkt löschen und
 * die Diagnoseinformationen eines Endpunktes abfragen.
 
-Um einen Endpunkt zu bearbeiten, gehe vor wie folgt:
+Um den Endpunkt zu bearbeiten, gehe vor wie folgt:
 
-. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
-[.result]#Im linken Bereich des Kontrollzentrums wird die Endpunktliste angezeigt.#
 . Wähle den Endpunkt in der Endpunkteliste.
 [.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
 
 === Name ändern
-Du kannst Name und Beschreibung eines Endpunktes ändern:
+Du kannst den Namen des Endpunktes ändern:
 
 . Klicke den Button *_Bearbeiten_*.
 [.result]#Das Formular `Endpunkt bearbeiten` wird angezeigt.#
-. Gebe einen Namen und eine Beschreibung ein und klicke *_Bestätigen_*.
-[.result]#In der Endpunkte wird der neue Name angezeigt.#
-[.result]#Im Reiter `Details` wird die neue Beschreibung angezeigt.#
+. Gebe den Namen ein und klicke *_Bestätigen_*.
+[.result]#In der Endpunkteliste wird der neue Name angezeigt.#
 
 ////
 .Namen oder Beschreibung bearbeiten
@@ -201,7 +222,7 @@ image::endpoint_change_name.png[Namen oder Beschreibung bearbeiten]
 ////
 
 === Deaktivieren
-Deaktiviere einen Endpunkt, wenn er keine Nachrichten mehr verarbeiten soll:
+Deaktiviere den Endpunkt, wenn er keine Nachrichten mehr verarbeiten soll:
 
 . Setze den Schalter *_Aktiv_* auf `AUS`.
 [.result]#Der Endpunkt ist deaktiviert.#
@@ -220,14 +241,14 @@ image::endpoint_activation.png[Endpunkt aktivieren oder deaktivieren]
 ////
 
 === Löschen
-Lösche einen Endpunkt, wenn er nicht mehr benötigt wird:
+Lösche den Endpunkt, wenn er nicht mehr benötigt wird:
 
 . Klicke den Button *_Löschen_*.
 [.result]#Ein Meldungsfenster wird angezeigt.#
 . Bestätige die Abfrage mit *_OK_*.
 [.result]#Der Endpunkt wird gelöscht.#
 [.result]#Der Endpunkt wird aus der Endpunkteliste entfernt.#
-[.result]#Alle zum Endpunkt gespeicherten Daten werden gelöscht.#
+[.result]#Alle zum Endpunkt gehörenden Daten werden gelöscht.#
 
 [NOTE]
 ====
