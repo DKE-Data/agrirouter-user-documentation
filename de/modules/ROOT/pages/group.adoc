@@ -182,33 +182,18 @@ Bearbeite die Gruppe wie folgt:
 [.result]#In der Detailansicht der Gruppe wird die neue Beschreibung angezeigt.#
 
 === Löschen
-Lösche den Endpunkt, wenn er nicht mehr benötigt wird:
+Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:
 
 . Klicke den Button *_Löschen_*.
 [.result]#Ein Meldungsfenster wird angezeigt.#
 . Bestätige die Abfrage mit *_OK_*.
-[.result]#Der Endpunkt wird gelöscht.#
-[.result]#Der Endpunkt wird aus der Endpunkteliste entfernt.#
-[.result]#Alle zum Endpunkt gehörenden Daten werden gelöscht.#
+[.result]#Die Gruppe, alle Routings und alle Mitgliedschaften der Gruppe werden gelöscht.#
+[.result]#Die Gruppe wird aus der Gruppenliste entfernt.#
 
-[NOTE]
-====
-Ein verbundenes Konto kann nicht gelöscht werden.
-Entferne ein verbundenes Konto aus der Endpunkteliste wie folgt:
-
-. Klicke im Dashboard die Kachel *_Konten verbinden_*.
-. Wähle in der Liste der verbundenen Konten das Konto aus.
-. Klicke den Button *_Verbindung aufheben_*.
-
-====
-
-////
-.Endpunkt löschen
-image::endpoint_delete.png[Endpunkt löschen]
-////
+IMPORTANT: Die Mitglieder der Gruppe werden nicht gelöscht; ihre Mitgliedschaft in der Gruppe wird automatisch beendet.
 
 === Technischer Support
-Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wir die Diagnoseinformationen des Endpunktes:
+Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen wir die Diagnoseinformationen der Gruppe:
 
 . Klicke das Icon *_Mehr_*.
 [.result]#Eine Auswahlliste wird angezeigt.#
@@ -216,14 +201,6 @@ Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wi
 [.result]#Das Meldungsfenster *_Support-Information_* wird angezeigt.#
 . Klicke das Icon *_In Zwischenablage kopieren_*.
 . Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support.
-
-
-
-
-
-
-
-
 
 
 

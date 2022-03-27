@@ -280,13 +280,13 @@ image::endpoint_change_name.png[Namen oder Beschreibung bearbeiten]
 ////
 
 === Deaktivieren
-Deaktiviere den Endpunkt, wenn er keine Nachrichten mehr verarbeiten soll:
+Wenn der Endpunkt keine Nachrichten mehr verarbeiten soll, deaktiviere ihn:
 
 . Setze den Schalter *_Aktiv_* auf `AUS`.
 [.result]#Der Endpunkt ist deaktiviert.#
 [.result]#Der Endpunkt bleibt in der Endpunkteliste sichtbar.#
 
-Aktiviere den Endpunkt, um wieder Nachrichten zu empfangen und zu versenden:
+Wenn der Endpunkt Nachrichten empfangen oder versenden soll, aktiviere ihn:
 
 . Wähle den Endpunkt in der Endpunkteliste.
 [.result]#Die Details des Endpunktes werden rechts neben der Liste angezeigt.#
@@ -299,7 +299,7 @@ image::endpoint_activation.png[Endpunkt aktivieren oder deaktivieren]
 ////
 
 === Löschen
-Lösche den Endpunkt, wenn er nicht mehr benötigt wird:
+Wenn der Endpunkt nicht mehr benötigt wird, lösche ihn:
 
 . Klicke den Button *_Löschen_*.
 [.result]#Ein Meldungsfenster wird angezeigt.#
