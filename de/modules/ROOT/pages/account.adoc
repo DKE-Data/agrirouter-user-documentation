@@ -29,7 +29,6 @@ Syntax für einen Rahmen:
 
 [.float-group]
 --
-
 image::ar_register-select.png[Select Register, 200]
 
 . Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
@@ -40,11 +39,10 @@ image::ar_register-select.png[Select Register, 200]
 . Fülle die mit einem roten Sternchen markierten Pflichtfelder aus und klicke den Button *_Registrieren_*.
 [.result]#Du erhälst eine E-Mail mit dem Aktivierungslink.#
 . Klicke in der E-Mail den Button *_ACCOUNT AKTIVIEREN_*.
-[.result]#Das Formular `Benutzerkonto aktivieren` wird angezeigt.#
-
+[.result]#Das Formular `Benutzerkonto aktivieren` wird angezeigt:#
 --
 
-image::ar_activation-form-filled-in.png[Account management]
+image::ar_activation-form-filled-in.png[Activate form]
 
 [start=6]
 . Vergebe ein Kennwort und klicke den Button *_Sichern_*.
@@ -56,38 +54,37 @@ image::ar_activation-form-filled-in.png[Account management]
 Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
 TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
 
+NOTE: Notiere E-Mail-Adresse und Passwort. Diese benötigst du, um dich am agrirouter anzumelden.
+
 
 == Anmelden
 
-
 [.float-group]
 --
-
-image::ar_logon-select.png[Select Register, 200]
+image::ar_logon-select.png[Select Log on, 200]
 
 . Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
 . Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].
 [.result]#Eine Auswahlliste wird angezeigt.#
 . Wähle `Login`.
 [.result]#Das Formular `Anmelden` wird angezeigt.#
-. Gebe Benutzernamen und Passwort ein.
+. Gebe E-Mail-Adresse und Passwort ein.
 . Aktiviere die Checkbox "_Angemeldet bleiben_".
-
 --
 
-image::ar_logon.png[Log on]
+image::ar_logon.png[Log on form]
 
 [start=6]
 . Klicke den Button *_Anmelden_*.
 [.result]#Das Dashboard wird angezeigt.#
 
-NOTE: Wenn du "_Angemeldet bleiben_" aktiviert hast, öffnet sich bei der nächsten Anmeldung das Dashboard, ohne dass du Benutzername und Passwort eingeben musst.
+NOTE: Wenn du "_Angemeldet bleiben_" aktiviert hast, öffnet sich bei der nächsten Anmeldung das Dashboard, ohne dass du E-Mail-Adresse und Passwort eingeben musst.
 
 
 == Benutzerdaten ändern
 
 . Klicke die Kachel *_Kontoverwaltung_*.
-[.result]#Die `Kontoverwaltung` wird angezeigt.# + 
+[.result]#Die `Kontoverwaltung` wird angezeigt:# + 
 
 image::ar_account-mgmt.png[Account management]
 
@@ -104,9 +101,15 @@ image::ar_account-mgmt.png[Account management]
 . Klicke den Button *_Startseite_*.
 [.result]#Das Dashboard wird angezeigt.#
 
+NOTE: Verwende bei der nächsten Anmeldung die neue E-Mail-Adresse.
+
 
 == Konto löschen
 Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:
+
+[.float-group]
+--
+image::ar_account-mgmt-tile.png[Select Log on, 150]
 
 . Klicke die Kachel *_Kontoverwaltung_*.
 [.result]#Die `Kontoverwaltung` wird angezeigt.#
@@ -114,15 +117,25 @@ Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:
 [.result]#Ein Meldungsfenster wird angezeigt.#
 . Klicke den Button *_OK_*.
 [.result]#Das Formular `Bestätigung` wird angezeigt.#
+--
+
+[start=4]
 . Gebe dein Passwort ein und klicke den Button *_Bestätigen_*.
 [.result]#Das Konto wird gelöscht.#
 [.result]#Ein Meldungsfenster wird angezeigt.#
 . Klicke den Button *_OK_*.
 
+image::ar_account-delete-success.png[Account deleted]
+
+
 WARNING: Alle Einstellungen und Benutzerdaten sowie alle Endpunkte und deren Postfächer werden gelöscht und können nicht wieder hergestellt werden.
 
 == Einstellungen
 Ansicht und Inhalt der Startseite und die Darstellung von Benachrichtigungen können eingestellt werden.
+
+[.float-group]
+--
+image::ar_profile-menue.png[Profile menue, 150]
 
 . Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].
 [.result]#Eine Auswahlliste wird angezeigt.#
@@ -130,6 +143,8 @@ Ansicht und Inhalt der Startseite und die Darstellung von Benachrichtigungen kö
 [.result]#Das Fenster `Einstellungen` wird angezegt.#
 [.result]#Links befindet sich die Liste der Einstellungen, rechts die Details zum gewählten Listeneintrag.#
 . Ändere die Einstellungen und klicke den Button *_Sichern_*.
+--
+
 
 === Ansicht
 Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche. + 
