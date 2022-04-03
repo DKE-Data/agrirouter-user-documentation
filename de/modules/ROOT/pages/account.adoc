@@ -26,6 +26,7 @@ Syntax für einen Rahmen:
 ==== = Block mit dickem Rahmen
 ////
 
+
 [.float-group]
 --
 image::ar_register-select.png[Select Register, 200]
@@ -41,12 +42,11 @@ image::ar_register-select.png[Select Register, 200]
 [.result]#Das Formular `Benutzerkonto aktivieren` wird angezeigt.#
 --
 
+
 image::ar_activation-form-filled-in.png[Account management]
 
 [start=6]
 . Vergebe ein Kennwort und klicke den Button *_Sichern_*.
-
-
 
 [comment]
 Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
@@ -54,6 +54,7 @@ TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrieru
 
 
 == Anmelden
+
 
 [.float-group]
 --
@@ -67,6 +68,7 @@ image::ar_logon-select.png[Select Register, 200]
 . Gebe Benutzernamen und Passwort ein.
 . Aktiviere die Checkbox "_Angemeldet bleiben_".
 --
+
 
 image::ar_logon.png[Log on]
 
