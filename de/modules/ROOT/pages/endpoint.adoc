@@ -5,7 +5,7 @@
 
 Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und die Regeln zum Datenaustausch image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- und die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt und zur gewählten Gruppe angezeigt werden.
 
-image::ar_control-center.png[Control Center Overview]
+image::ar_control-center.legend.png[Control Center Overview]
 
 
 == Endpunkt-Typ
@@ -54,7 +54,7 @@ image::ar_control-center-tile.png[Control Center Tile, 250, float=right]
 ====
 Auf einem Tablet öffnest du die Endpunkteliste über das Burger-Menü:
 
-. Klicke auf das Icon *_Burger-Menü_* image:ar_logon-icon.png[logon, 30, 30].
+. Klicke auf das Icon *_Burger-Menü_* image:ar_burger.icon.png[Burger menue, 30, 30].
 [.result]#Die Endpunkteliste wird angezeigt.#
 
 ====
@@ -75,12 +75,12 @@ image::ar_endpoint-item.legend.png[Endpoint list item, 400, float=right]
 === Maschine verbinden
 Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter. In der Endpunkteliste wird daher nicht die Maschine, sondern die Telemetrie-Einheit angezeigt. Du kannst aber den Namen des Listeneintrags ändern.
 
-NOTE: Eine Ausnahme bilden ISOBUS-Maschinen. Es wird der Name der Maschine in der Endpunkteliste angezeigt, nicht die Telemetrie-Einheit.
+NOTE: Eine Ausnahme bilden ISOBUS-Maschinen. Es wird die Maschine in der Endpunkteliste angezeigt, nicht die Telemetrie-Einheit.
 
 . Klicke den Button *_+ Telemetrie-Verbindung_*.
 [.result]#Das Fenster `Telemetrie-Verbindung auswählen` wird angezeigt.#
 . Wähle die Telemetrie-Verbindung.
-[.result]#Das Meldungsfenster `Registrierungscode` wird angezeigt.#
+[.result]#Das Meldungsfenster `Registrierungscode` wird angezeigt:#
 
 image::ar_registration-code.png[Code]
 
@@ -88,12 +88,9 @@ image::ar_registration-code.png[Code]
 . Notiere den Registrierungscode und klicke *_Schließen_*.
 [.result]#Die Endpunkteliste wird angezeigt.#
 
-NOTE: Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt, wenn du den Registrierungscode eingegeben hast. Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
-
 [TIP]
-Klicke auf das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.
+Klicke auf das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. + 
 Klicke auf das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken.
-
 
 [start=4]
 . Gebe den Registrierungscode an der Telemetrie-Einheit ein.
@@ -101,8 +98,10 @@ Klicke auf das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den C
 [.result]#Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt.#
 . Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben.
 
+NOTE: Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
+
 === Agrarsoftware verbinden
-Um eine Agrarsoftware mit agrirouter zu verbinden, gehe vor wie folgt:
+Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:
 
 . Starte die Agrarsoftware.
 . Klicke den Button *_Mit agrirouter verbinden_*.
@@ -161,12 +160,10 @@ Setze den Filter zurück wie folgt:
 [.result]#Alle Endpunkte werden angezeigt.#
 
 === Liste aktualisieren
-Wenn die Detailansicht eines Endpunktes veraltete Daten enthält oder der gesuchte Endpunkt nicht eingetragen ist, ist die Liste ggf. nicht aktuell. + 
-Aktualisiere die Endpunkteliste wie folgt:
+Aktualisiere die Endpunkteliste, wenn der gesuchte Endpunkt nicht eingetragen ist:
 
 . Klicke das Icon *_Aktualisieren_*  image:ar_refresh.icon.png[refresh, 30, 30] über der Endpunkteliste.
 [.result]#Die Endpunkteliste wird aktualisiert.#
-[.result]#Die Detailansicht des gewählten Endpunktes wird aktualisiert.#
 
 == Detailansicht
 In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
