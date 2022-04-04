@@ -72,14 +72,19 @@ image::ar_endpoint-item.legend.png[Endpoint list item, 400, float=right]
 
 --
 
-=== Maschine hinzufügen
-Jede Maschine benötigt zur Anbindung an den agrirouter eine Telemetrie-Einheit, die die Kommunikation der Maschine mit der Außenwelt übernimmt. In der Endpunkteliste wird nicht die Maschine, sondern die Telemetrie-Einheit angezeigt. Eine Ausnahme sind ISOBUS-Maschinen. Diese werden mit ihrem Namen in der Endpunkteliste angezeigt.
-Du kannst aber den Namen des Listeneintrage ändern.
+=== Maschine verbinden
+Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter. In der Endpunkteliste wird daher nicht die Maschine, sondern die Telemetrie-Einheit angezeigt. Du kannst aber den Namen des Listeneintrags ändern.
+
+NOTE: Eine Ausnahme bilden ISOBUS-Maschinen. Es wird der Name der Maschine in der Endpunkteliste angezeigt, nicht die Telemetrie-Einheit.
 
 . Klicke den Button *_+ Telemetrie-Verbindung_*.
 [.result]#Das Fenster `Telemetrie-Verbindung auswählen` wird angezeigt.#
 . Wähle die Telemetrie-Verbindung.
 [.result]#Das Meldungsfenster `Registrierungscode` wird angezeigt.#
+
+image::ar_registration-code.png[Code]
+
+[start=3]
 . Notiere den Registrierungscode und klicke *_Schließen_*.
 [.result]#Die Endpunkteliste wird angezeigt.#
 
@@ -92,8 +97,21 @@ NOTE: Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt, wenn du den R
 . Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben.
 
 #TODO#
-=== Agrarsoftware hinzufügen
-=== Konto hinzufügen
+
+=== Agrarsoftware verbinden
+Jede Agrarsoftware mit agrirouter-Schnittstelle hat eine Funktion `Mit agrirouter verbinden`.
+
+. Starte die Agrarsoftware.
+. Klicke den Button *_Mit agrirouter verbinden_*.
+[.result]#Ein Formular wird angezeigt.#
+. Gebe die Benutzerdaten deines agrirouter-Kontos ein.
+[.result]#Die Agrarsoftware verbindet sich mit dem agrirouter.#
+. Öffne das Kontrollzentrum im agrirouter und klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].
+[.result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#
+
+TIP: Die Funktion *_Mit agrirouter verbinden_* findest du in der Agrarsoftware meist unter `Einstellungen`.
+
+=== Konto verbinden
 
 
 === Endpunkt suchen
