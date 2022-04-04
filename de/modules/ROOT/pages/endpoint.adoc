@@ -54,7 +54,7 @@ image::ar_control-center-tile.png[Control Center Tile, 250, float=right]
 ====
 Auf einem Tablet öffnest du die Endpunkteliste über das Burger-Menü:
 
-. Klicke auf das Icon *_Burger-Menü_* image:ar_logon-icon.png[logon, 20, 20].
+. Klicke auf das Icon *_Burger-Menü_* image:ar_logon-icon.png[logon, 30, 30].
 [.result]#Die Endpunkteliste wird angezeigt.#
 
 ====
@@ -63,7 +63,7 @@ Ein Listeneintrag besteht aus
 
 [.float-group]
 --
-image::ar_endpoint-item.legend.png[Endpoint list item, 250, float=right]
+image::ar_endpoint-item.legend.png[Endpoint list item, 400, float=right]
 
 . Namen
 . Typ
@@ -87,28 +87,27 @@ NOTE: Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt, wenn du den R
 
 [start=4]
 . Gebe den Registrierungscode an der Telemetrie-Einheit ein.
-. Klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 20, 20].
+. Klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].
 [.result]#Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt.#
 . Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben.
+
+#TODO#
+=== Agrarsoftware hinzufügen
+=== Konto hinzufügen
 
 
 === Endpunkt suchen
 Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
 
-. Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_logon-icon.png[logon, 20, 20].
+. Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_search.icon.png[search, 30, 30].
 [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#
 . Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.
 [.result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#
 
 Mache die Suche rückgängig wie folgt:
 
-. Klicke das Icon image:ar_logon-icon.png[logon, 20, 20] rechts neben dem Eingabefeld *_Suchen_*.
+. Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem Eingabefeld *_Suchen_*.
 [.result]#Alle Endpunkte werden angezeigt.#
-
-////
-.Endpunkt suchen
-image::endpoint_search.png[Endpunkt suchen]
-////
 
 === Liste filtern
 Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
@@ -122,7 +121,7 @@ Maschinenklasse:: Einem Endpunkt vom Typ `Maschine` wird automatisch eine Maschi
 
 Filtere die Liste wie folgt:
 
-. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_logon-icon.png[logon, 20, 20].
+. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_filter.icon.png[filter, 30, 30].
 [.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
 . Wähle eine Kategorie.
 [.result]#Die Auswahlliste `Filtern nach: <Kategorie>` wird angezeigt.#
@@ -131,29 +130,18 @@ Filtere die Liste wie folgt:
 
 Setze den Filter zurück wie folgt:
 
-. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_logon-icon.png[logon, 20, 20].
+. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_filter.icon.png[filter, 30, 30].
 [.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
 . Klicke das Icon *_Alle Filter zurücksetzen_*.
 [.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
 . Klicke *_OK_*.
 [.result]#Alle Endpunkte werden angezeigt.#
 
-////
-.Endpunkte filtern
-image::endpoint_filter.png[Endpunkte filtern]
-
-.Endpunkte filtern nach Typ, Status oder Maschinenklasse
-image::endpoint_filter_typ_status_mashine.png[Endpunkte filtern nach Typ, Status oder Maschinenklasse]
-
-.Filter löschen
-image::endpoint_filter_delete.png[Filter löschen]
-////
-
 === Liste aktualisieren
 Wenn die Detailansicht eines Endpunktes veraltete Daten enthält oder der gesuchte Endpunkt nicht eingetragen ist, ist die Liste ggf. nicht aktuell. + 
 Aktualisiere die Endpunkteliste wie folgt:
 
-. Klicke das Icon *_Aktualisieren_*  image:ar_logon-icon.png[logon, 20, 20] über der Endpunkteliste.
+. Klicke das Icon *_Aktualisieren_*  image:ar_refresh.icon.png[refresh, 30, 30] über der Endpunkteliste.
 [.result]#Die Endpunkteliste wird aktualisiert.#
 [.result]#Die Detailansicht des gewählten Endpunktes wird aktualisiert.#
 
@@ -263,7 +251,7 @@ Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Ma�
 Die Daten im Reiter werden automatisch aktualisiert.
 Aktualisiere manuell, wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:
 
-. Klicke das Icon *_Aktualisieren_*  image:ar_logon-icon.png[logon, 20, 20].
+. Klicke das Icon *_Aktualisieren_*  image:ar_refresh.icon.png[refresh, 30, 30].
 [.result]#Der Reiter `Details` wird aktualisiert.#
 
 
