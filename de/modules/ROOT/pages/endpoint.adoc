@@ -42,7 +42,7 @@ Du kannst
 
 [.float-group]
 --
-image::ar_control-center-tile.png[Control Center Tile, 150, float=right]
+image::ar_control-center-tile.png[Control Center Tile, 250, float=right]
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
 [.result]#Das Kontrollzentrum wird geöffnet.#
@@ -63,7 +63,7 @@ Ein Listeneintrag besteht aus
 
 [.float-group]
 --
-image::ar_endpoint-item.legend.png[Endpoint list item, 150, float=right]
+image::ar_endpoint-item.legend.png[Endpoint list item, 250, float=right]
 
 . Namen
 . Typ
@@ -72,17 +72,25 @@ image::ar_endpoint-item.legend.png[Endpoint list item, 150, float=right]
 
 --
 
-=== Endpunkt hinzufügen
-#TODO#
+=== Maschine hinzufügen
+Jede Maschine benötigt zur Anbindung an den agrirouter eine Telemetrie-Einheit, die die Kommunikation der Maschine mit der Außenwelt übernimmt. In der Endpunkteliste wird nicht die Maschine, sondern die Telemetrie-Einheit angezeigt. Eine Ausnahme sind ISOBUS-Maschinen. Diese werden mit ihrem Namen in der Endpunkteliste angezeigt.
+Du kannst aber den Namen des Listeneintrage ändern.
 
 . Klicke den Button *_+ Telemetrie-Verbindung_*.
 [.result]#Das Fenster `Telemetrie-Verbindung auswählen` wird angezeigt.#
-. Wähle den Endpunkt.
+. Wähle die Telemetrie-Verbindung.
 [.result]#Das Meldungsfenster `Registrierungscode` wird angezeigt.#
 . Notiere den Registrierungscode und klicke *_Schließen_*.
 [.result]#Die Endpunkteliste wird angezeigt.#
 
-NOTE: Der Endpunkt wird in der Endpunkteliste angezeigt, wenn du den Registrierungscode am Endpunkt eingegeben hast. Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode am Gerät eingibst.
+NOTE: Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt, wenn du den Registrierungscode eingegeben hast. Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
+
+[start=4]
+. Gebe den Registrierungscode an der Telemetrie-Einheit ein.
+. Klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 20, 20].
+[.result]#Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt.#
+. Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben.
+
 
 === Endpunkt suchen
 Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
