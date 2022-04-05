@@ -121,7 +121,7 @@ NOTE: Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle fi
 TIP: Die Funktion *_Mit agrirouter verbinden_* findest du in der Agrarsoftware meist unter `Einstellungen`.
 
 === Konto verbinden
-Verbinde dein Konto mit den Konten anderer Landwirte oder Lohnunternehmen und tausche Daten mit diesen aus. Die mit dem anderen Konto verbundenen Maschinen kannst du auch Daten senden oder Daten von diesen empfangen.
+Verbinde dein Konto mit den Konten anderer Landwirte oder Lohnunternehmen und tausche Daten mit den Maschinen dieser Konten aus.
 
 [.float-group]
 --
@@ -131,15 +131,24 @@ image::ar_pairing-tile.png[Pairing tile, 250, float=right]
 [.result]#Das Fenster `Konten verbinden` wird angezeigt.#
 . Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-Adresse_* ein.
 . Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein.
+
+image::ar_pairing-invite.png[Pairing invite]
+
+[start=4]
 . Klicke den Button *_Einladung versenden_*.
-[.result]#Die Einladung wird im Reiter `Offene Einladungen` angezeigt.#
+[.result]#Die Einladung wird im Reiter `Offene Einladungen` angezeigt, bis sie vom Empfänger angenommen wird.#
 --
 
+NOTE: Wenn der eingeladene Kontoinhaber deine Einladung annimmt, erhälst du zur Benachrichtigung eine E-Mail.
+
 [NOTE]
+====
 Du kannst eine offene Einladung zurückziehen. + 
+
 . Wähle im Reiter `Offene Einladungen` die Einladung.
 [.result]#Der Listeneintrag wird grün eingefärbt.#
 . Klicke den Button *_Einladung aufheben_*.
+====
 
 === Endpunkt suchen
 Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
@@ -217,7 +226,6 @@ Der Reiter enthält eine Liste der Empfänger.
 Du verwaltest die Liste der Empfänger und definierst, welche Nachrichtenformate die Empfänger erhalten.
 
 NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Empfänger zugewiesen.
-Wenn du die Standard-Gruppe löscht, wird automatisch auch der Empfänger gelöscht.
 
 Füge einen neuen Empfänger hinzu wie folgt:
 
@@ -230,32 +238,23 @@ Füge einen neuen Empfänger hinzu wie folgt:
 . Klicke in das Eingabefeld *_Nachrichtenformate_*.
 [.result]#Die Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#
 . Wähle die Nachrichtenformate, die der Empfänger erhalten soll und klicke *_Bestätigen_*.
+. Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.
+[.result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#
+. Wähle eine oder mehrere Kategorien und klicke Bestätigen.
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Empfänger wird hinzugefügt.#
 
-#TODO: Das kann ich nicht nachstellen, weiß also nicht, was genau einzugeben ist#
+IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
 
-. Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.
-[.result]#Das Formular `Telemetrie-Parameter` wird angezeigt.#
-
-NOTE: Es kann mehrere Minuten dauern, bis das System den Empfänger hinzugefügt hat.
-
-[IMPORTANT]
-====
-Beachte beim Eingabefeld `Telemetrie-Parameter-Kategorien` folgende Einschränkungen:
-Nur Gruppen und Maschinen können Telemetrie-Parameter versenden.
-Der Empfänger muss Timelog-Nachrichten verarbeiten können.
-
-Sind diese Bedingungen nicht erfüllt, ist das Eingabefeld deaktiviert.
-====
+NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung erstellt ist, d.h. du Daten an den Empfänger senden kannst.
 
 === Empfangen von
 Sender sind alle Endpunkte und Gruppen, die Daten an den Endpunkt senden.
 Der Reiter enthält eine Liste der Sender.
 Du verwaltest die Liste der Sender und definierst, welche Nachrichtenformate der Endpunkt erhält.
 
-NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Sender zugewiesen. Wenn du die Standard-Gruppe löscht, wird automatisch auch der Sender gelöscht.
+NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Sender zugewiesen.
 
 Füge einen neuen Sender hinzu wie folgt:
 
@@ -271,25 +270,26 @@ Füge einen neuen Sender hinzu wie folgt:
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Sender wird hinzugefügt.#
-
-#TODO: Das kann ich nicht nachstellen, weiß also nicht, was genau einzugeben ist#
-
 . Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.
-[.result]#Das Formular `Telemetrie-Parameter` wird angezeigt.#
+[.result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#
+. Wähle eine oder mehrere Kategorien und klicke Bestätigen.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke den Button *_Bestätigen_*.
+[.result]#Der Sender wird hinzugefügt.#
 
-NOTE: Es kann mehrere Minuten dauern, bis das System den Sender hinzugefügt hat.
+IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
+
+NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung erstellt ist, d.h. der Sender dir Daten senden kann.
+
 
 === Gruppen
-Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. Einstellungen, die du an der Gruppe vornimmst, gelten für alle Mitglieder der Gruppe. Es sind zwei Standard-Gruppen vorgegeben, welche du nicht löschen oder bearbeiten kannst.
+Der Reiter enthält eine Liste der Gruppen, denen der Endpunkt angehört.
+Jeder neue Endpunkt ist automatisch Mitglied in einer der Standard-Gruppen.
+Erfahre xref:routing.adoc[=> hier] mehr über Gruppen.
 
 
 === Details
-Ändere die Beschreibung des Endpunktes wie folgt:
-
-. Klicke den Button *_Bearbeiten_*.
-[.result]#Das Formular `Endpunkt bearbeiten` wird angezeigt.#
-. Gebe die Beschreibung ein und klicke *_Bestätigen_*.
-[.result]#Die neue Beschreibung wird angezeigt.#
+Der Reiter enthält Informationen zum Endpunkt und zum Postfach.
 
 Die Daten im Reiter werden automatisch aktualisiert.
 Aktualisiere manuell, wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:
@@ -301,7 +301,7 @@ Aktualisiere manuell, wenn du das Postfach auf eingehende oder verarbeitete Nach
 == Endpunkt bearbeiten
 Du kannst
 
-* Name des Endpunktes ändern,
+* Name und Beschreibung des Endpunktes ändern,
 * den Endpunkt deaktivieren,
 * den Endpunkt löschen und
 * die Diagnoseinformationen eines Endpunktes abfragen.
@@ -311,18 +311,14 @@ Bearbeite den Endpunkt wie folgt:
 . Wähle den Endpunkt in der Endpunkteliste.
 [.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
 
-=== Name ändern
-Ändere den Namen des Endpunktes wie folgt:
+=== Name und Beschreibung ändern
+Ändere Name und Beschreibung des Endpunktes wie folgt:
 
 . Klicke den Button *_Bearbeiten_*.
 [.result]#Das Formular `Endpunkt bearbeiten` wird angezeigt.#
-. Gebe den Namen ein und klicke *_Bestätigen_*.
+. Gebe Namen und Beschreibung ein und klicke *_Bestätigen_*.
 [.result]#In der Endpunkteliste wird der neue Name angezeigt.#
-
-////
-.Namen oder Beschreibung bearbeiten
-image::endpoint_change_name.png[Namen oder Beschreibung bearbeiten]
-////
+[.result]#Im Reiter `Details` der Detailansicht wird die neue Beschreibung angezeigt.#
 
 === Deaktivieren
 Wenn der Endpunkt keine Nachrichten mehr verarbeiten soll, deaktiviere ihn:
@@ -338,13 +334,12 @@ Wenn der Endpunkt Nachrichten empfangen oder versenden soll, aktiviere ihn:
 . Setze den Schalter *_Aktiv_* auf `AN`.
 [.result]#Der Endpunkt ist aktiviert.#
 
-////
-.Endpunkt aktivieren oder deaktivieren
-image::endpoint_activation.png[Endpunkt aktivieren oder deaktivieren]
-////
-
 === Löschen
 Wenn der Endpunkt nicht mehr benötigt wird, lösche ihn:
+
+[.float-group]
+--
+image::ar_endpoint-delete.png[Delete endpoint, 250, float=right]
 
 . Klicke den Button *_Löschen_*.
 [.result]#Ein Meldungsfenster wird angezeigt.#
@@ -352,6 +347,7 @@ Wenn der Endpunkt nicht mehr benötigt wird, lösche ihn:
 [.result]#Der Endpunkt wird gelöscht.#
 [.result]#Der Endpunkt wird aus der Endpunkteliste entfernt.#
 [.result]#Alle zum Endpunkt gehörenden Daten werden gelöscht.#
+--
 
 [NOTE]
 ====
@@ -364,13 +360,12 @@ Entferne ein verbundenes Konto aus der Endpunkteliste wie folgt:
 
 ====
 
-////
-.Endpunkt löschen
-image::endpoint_delete.png[Endpunkt löschen]
-////
-
 === Technischer Support
 Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wir die Diagnoseinformationen des Endpunktes:
+
+[.float-group]
+--
+image::ar_endpoint-techsupport.png[Technical support, 250, float=right]
 
 . Klicke das Icon *_Mehr_*.
 [.result]#Eine Auswahlliste wird angezeigt.#
@@ -378,3 +373,6 @@ Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wi
 [.result]#Das Meldungsfenster *_Support-Information_* wird angezeigt.#
 . Klicke das Icon *_In Zwischenablage kopieren_*.
 . Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support.
+--
+
+TIP: Klicke auf das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um die Diagnoseinformationen in die Zwischenablage zu kopieren.
