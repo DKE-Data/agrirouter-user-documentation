@@ -39,7 +39,7 @@ Du kannst
 
 . einen Endpunkt hinzufügen,
 . die Endpunkteliste filtern,
-. einen Endpunkt suchen und
+. einen Endpunkt suchen,
 . die Endpunkteliste aktualisieren.
 --
 
@@ -72,7 +72,7 @@ image::ar_endpoint-item.legend.png[Endpoint list item, 250, float=right]
 
 . Namen
 . Typ
-. Maschinenklasse (optional) und
+. Maschinenklasse (optional)
 . Status
 
 --
@@ -205,20 +205,7 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 * Fähigkeiten des Endpunktes
 // Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
 
-Die Detailansicht ist in folgende Reiter aufgeteilt:
-
-[unordered.stack]
-Senden an:: Die Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
-
-Empfangen von:: Die Endpunkte und Gruppen, die Daten an den Endpunkt senden.
-
-Gruppen:: Die Gruppen, denen der Endpunkt angehört.
-
-Details:: Zusammenfassende Informationen zum Endpunkt und zum Postfach. + 
-Die Endpunktdetails können mit Ausnahme der Beschreibung nicht geändert werden. Die Postfachdetails werden automatisch aktualisiert.
-
-Fähigkeiten:: Der Reiter enthält die Nachrichtenformate, die der Endpunkt senden und empfangen kann. + 
-Die unterstützten Nachrichtenformate sind vom Endpunkt vorgegeben und können nicht geändert werden.
+Die Detailansicht ist in die Reiter `Senden an`, `Empfangen von`, `Gruppen`, `Details` und `Fähigkeiten` unterteilt.
 
 === Senden an
 Der Reiter enthält eine Liste der Empfänger.
@@ -333,13 +320,17 @@ Aktualisiere manuell, wenn du das Postfach auf eingehende oder verarbeitete Nach
 . Klicke das Icon *_Aktualisieren_*  image:ar_refresh.icon.png[refresh, 30, 30].
 [.result]#Der Reiter `Details` wird aktualisiert.#
 
+=== Fähigkeiten
+Der Reiter enthält die Nachrichtenformate, die der Endpunkt senden und empfangen kann. + 
+Die unterstützten Nachrichtenformate sind vom Endpunkt vorgegeben und können nicht geändert werden.
+
 
 == Endpunkt bearbeiten
 Du kannst
 
 * Name und Beschreibung des Endpunktes ändern,
 * den Endpunkt deaktivieren,
-* den Endpunkt löschen und
+* den Endpunkt löschen,
 * die Diagnoseinformationen eines Endpunktes abfragen.
 
 Bearbeite den Endpunkt wie folgt:

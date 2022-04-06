@@ -2,8 +2,8 @@
 
 = Gruppe
 
-Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme.
-Der Vorteil: Einstellungen, die du an der Gruppe vornimmst, gelten für alle Mitglieder der Gruppe.
+Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + 
+Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe.
 
 Gruppen erstellst und verwaltest du im Kontrollzentrum. 
 Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts befindet sich die Detailansicht image:two_bk.icon.png[two, 30, 30].
@@ -16,18 +16,17 @@ Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts 
 
 image::ar_group-view.legend.png[Groups legend]
 
-[NOTE]
-====
-Im agrirouter gibt es zwei Standard-Gruppen, die du nicht löschen oder bearbeiten kannst:
+== Standard-Gruppen
+
+Im agrirouter gibt es zwei vordefinierte Standard-Gruppen, die du nicht löschen oder bearbeiten kannst:
 
 * Maschinen-Gruppe
 * Agrarsoftware-Gruppe
 
-Jeder Endpunkt, den du hinzufügst, wird automatisch Mitglied in einer der beiden Standard-Gruppen.
-====
+Jeder Endpunkt, den du hinzufügst, wird automatisch einer der beiden Standard-Gruppen als Mitglied hinzugefügt.
 
-TIP: Die Standard-Gruppen helfen dir bei der schnellen Inbetriebnahme des agrirouter. Die Routen für die Daten sind angelegt und können direkt genutzt werden.
-
+Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: + 
+Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können damit ohne weiteren Konfigurationsaufwand Daten empfangen und senden.
 
 == Gruppenliste
 
@@ -39,7 +38,7 @@ Die Gruppenliste ist anhand des Namens alphabetisch sortiert. +
 Du kannst
 
 . eine Gruppe hinzufügen,
-. eine Gruppe suchen und
+. eine Gruppe suchen,
 . die Gruppenliste aktualisieren.
 --
 
@@ -62,7 +61,7 @@ Ein Listeneintrag besteht aus
 image::ar_group-item.legend.png[Group list, 250, float=right]
 
 . Namen
-. Typ (nur bei den zwei Standardgruppen)
+. Typ (nur bei den zwei Standard-Gruppen)
 
 --
 
@@ -101,14 +100,7 @@ Wenn deine neu erstellte Gruppe nicht in der Liste erscheint, aktualisiere die L
 In der Detailansicht sind alle Informationen zur Gruppe zusammengefasst.
 Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe austauschen und fügst der Gruppe Mitglieder hinzu.
 
-Die Detailansicht ist in Reiter unterteilt:
-
-[unordered.stack]
-Senden an:: Endpunkte und Gruppen, an welche die Gruppe Daten sendet.
-
-Empfangen von:: Endpunkte und Gruppen, die Daten an die Gruppe senden.
-
-Mitglieder:: Mitglieder der Gruppe.
+Die Detailansicht ist in die Reiter `Senden an`, `Empfangen von` und `Mitglieder` unterteilt.
 
 === Senden an
 Der Reiter enthält eine Liste der Empfänger.
