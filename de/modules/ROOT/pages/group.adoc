@@ -7,17 +7,25 @@ Der Vorteil: Einstellungen, die du an der Gruppe vornimmst, gelten für alle Mit
 
 [NOTE]
 ====
-Es sind zwei Standard-Gruppen vorgegeben, welche du nicht löschen oder bearbeiten kannst:
+Im agrirouter gibt es zwei Standard-Gruppen, die du nicht löschen oder bearbeiten kannst:
 
-* Maschinen Gruppe
-* Agrar-Software Gruppe
+* Maschinen-Gruppe
+* Agrarsoftware-Gruppe
 
+Jeder Endpunkt, den du hinzufügst, wird automatisch Mitglied in einer der beiden Standard-Gruppen.
 ====
 
-#TODO#
-TIP: Nutze die Standard-Gruppen, weil...
+TIP: Die Standard-Gruppen helfen dir bei der schnellen Inbetriebnahme des agrirouter. Die Routen für die Daten sind angelegt und du kannst direkt loslegen.
 
 == Gruppenliste
+
+Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und die Regeln zum Datenaustausch image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- und die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt und zur gewählten Gruppe angezeigt werden.
+
+image::ar_control-center.legend.png[Control Center Overview]
+
+
+
+
 Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + 
 Du kannst
 
@@ -30,8 +38,8 @@ Du kannst
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
 [.result]#Das Kontrollzentrum wird angezeigt.#
 . Klicke den Button *_Gruppen_*.
-[.result]#Im linken Bereich des Kontrollzentrums wird die Gruppenliste angezeigt.#
-[.result]#Im linken Bereich des Kontrollzentrums wird die Detailansicht angezeigt.#
+[.result]#Links wird die Gruppenliste angezeigt.#
+[.result]#Rechts wird die Detailansicht angezeigt.#
 
 [NOTE]
 ====
