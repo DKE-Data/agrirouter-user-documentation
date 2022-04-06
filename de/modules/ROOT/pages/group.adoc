@@ -69,7 +69,7 @@ image::ar_group-item.legend.png[Group list, 250, float=right]
 
 . Klicke den Button *_+ Gruppe_*.
 [.result]#Das Fenster `Neue Gruppe` wird angezeigt.#
-. Gebe den Name und optional eine kurze Beschreibung ein.
+. Gebe den Namen und optional eine kurze Beschreibung ein.
 . Klicke den Button *_Bestätigen_*.
 [.result]#Die Gruppenliste wird angezeigt.#
 
@@ -106,10 +106,10 @@ Die Detailansicht ist in die Reiter `Senden an`, `Empfangen von` und `Mitglieder
 Der Reiter enthält eine Liste der Empfänger.
 Empfänger sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden.
 
-Du kannst:
+Du kannst
 
 * Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
-* Definieren, welche Nachrichten die Empfänger von der Gruppe erhalten sollen
+* definieren, welche Nachrichten die Empfänger von der Gruppe erhalten sollen
 
 
 ==== Empfänger hinzufügen
@@ -131,7 +131,7 @@ Du kannst:
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Empfänger wird hinzugefügt.#
 
-NOTE: Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing fertiggestellt ist, d.h. der Empfänger Daten von der Gruppe empfangen kann.
+NOTE: Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing erstellt ist, d.h. der Empfänger Daten von der Gruppe empfangen kann.
 
 ==== Empfänger bearbeiten
 
@@ -144,17 +144,17 @@ NOTE: Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten da
 . Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].
 [.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#
 . Bestätige die Abfrage mit *_OK_*.
-[.result]#Der Empfänger wird gelöscht.#
+[.result]#Der Empfänger erthält keine Nachrichten mehr von der Gruppe.#
 
 
 === Empfangen von
 Der Reiter enthält eine Liste der Sender.
 Sender sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden.
 
-Du kannst:
+Du kannst
 
 * Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
-* Definieren, welche Nachrichten die Mitglieder der Gruppe vom Sender erhalten sollen
+* definieren, welche Nachrichten die Gruppe vom Sender erhalten soll
 
 ==== Sender hinzufügen
 
@@ -175,7 +175,7 @@ Du kannst:
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Sender wird hinzugefügt.#
 
-NOTE: Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing fertiggestellt ist, d.h. der Sender Daten an die Gruppe senden kann.
+NOTE: Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing erstellt ist, d.h. der Sender Daten an die Gruppe senden kann.
 
 ==== Sender bearbeiten
 
@@ -188,7 +188,7 @@ NOTE: Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern
 . Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].
 [.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#
 . Bestätige die Abfrage mit *_OK_*.
-[.result]#Der Sender wird gelöscht.#
+[.result]#Die Nachrichten des Senders werden nicht mehr an die Gruppe weitergeleitet.#
 
 
 === Mitglieder
@@ -211,7 +211,7 @@ Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der Gruppe
 . Bestätige die Abfrage mit *_OK_*.
 [.result]#Das Mitglied wird aus der Gruppe entfernt.#
 
-NOTE: Beachte, dass das Mitglied aus der Gruppe entfernt, nicht aber gelöscht wird. Endpunkte und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste.
+IMPORTANT: Das Mitglied wird aus der Gruppe entfernt, nicht aber gelöscht. Endpunkte und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste.
 
 == Gruppe bearbeiten
 Du kannst
@@ -225,7 +225,7 @@ Bearbeite die Gruppe wie folgt:
 [.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht der Gruppe angezeigt.#
 . Klicke den Button *_Bearbeiten_*.
 [.result]#Das Formular `Gruppe bearbeiten` wird angezeigt.#
-. Gebe Namen und Beschreibung ein und klicke *_Bestätigen_*.
+. Ändere Namen und Beschreibung und klicke *_Bestätigen_*.
 [.result]#In der Gruppenliste wird der neue Name angezeigt.#
 [.result]#In der Detailansicht der Gruppe wird die neue Beschreibung angezeigt.#
 
@@ -238,7 +238,7 @@ Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:
 [.result]#Die Gruppe, alle Routings und alle Mitgliedschaften der Gruppe werden gelöscht.#
 [.result]#Die Gruppe wird aus der Gruppenliste entfernt.#
 
-IMPORTANT: Die Mitglieder der Gruppe werden nicht gelöscht; ihre Mitgliedschaft in der Gruppe wird automatisch beendet.
+IMPORTANT: Es wird nur die Gruppe gelöscht; die Mitglieder sind weiter im Kontrollzentrum verfügbar.
 
 === Technischer Support
 Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen wir die Diagnoseinformationen der Gruppe:
@@ -249,44 +249,3 @@ Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen wir 
 [.result]#Das Meldungsfenster *_Support-Information_* wird angezeigt.#
 . Klicke das Icon *_In Zwischenablage kopieren_*.
 . Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support.
-
-
-
-== Standard Gruppe "Agrar-Software"
-!Erklärung ...
-
-.Standard Gruppe "Agrar-Software"
-image::group_agricultural_software.png[Standard Gruppe "Agrar-Software"]
-
-== Standard Gruppe "Maschinen" 
-!Erklärung ...
-
-.Standard Gruppe "Maschinen"
-image::group_machine.png[Standard Gruppe "Maschinen"]
-
-== Gruppenmitglieder verwalten
-!Erklärung ...
-
-.Tab "Mitglieder"
-image::group_member.png[Tab "Mitglieder"]
-
-.Neue "Mitglieder" hinzufügen
-image::group_member_add.png[Neue "Mitglieder" hinzufügen]
-
-."Mitglieder" auswählen
-image::group_member_select.png["Mitglieder" auswählen]
-
-."Mitglieder" löschen
-image::group_member_delete.png["Mitglieder" löschen]
-
-== Neue Gruppe erstellen
-!Erklärung ...
-
-.Neue Gruppe erstellen
-image::group_new.png[Neue Gruppe erstellen]
-
-.Gruppennamen festlegen
-image::group_new_name.png[Gruppennamen festlegen]
-
-== Vererbung der Routen in den Gruppen
-!Erklärung ...
