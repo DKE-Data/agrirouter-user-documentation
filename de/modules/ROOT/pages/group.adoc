@@ -6,10 +6,15 @@ Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Ma�
 Der Vorteil: Einstellungen, die du an der Gruppe vornimmst, gelten für alle Mitglieder der Gruppe.
 
 Gruppen erstellst und verwaltest du im Kontrollzentrum. 
-Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts befindet sich die Detailansicht image:two_bk.icon.png[two, 30, 30], in der Informationen zur gewählten Gruppe angezeigt werden.
+Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts befindet sich die Detailansicht image:two_bk.icon.png[two, 30, 30].
+
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
+[.result]#Das Kontrollzentrum wird angezeigt.#
+. Klicke den Button *_Gruppen_*.
+[.result]#Links wird die Gruppenliste angezeigt.#
+[.result]#Rechts wird die Detailansicht angezeigt.#
 
 image::ar_group-view.legend.png[Groups legend]
-
 
 [NOTE]
 ====
@@ -21,17 +26,10 @@ Im agrirouter gibt es zwei Standard-Gruppen, die du nicht löschen oder bearbeit
 Jeder Endpunkt, den du hinzufügst, wird automatisch Mitglied in einer der beiden Standard-Gruppen.
 ====
 
-TIP: Die Standard-Gruppen helfen dir bei der schnellen Inbetriebnahme des agrirouter. Die Routen für die Daten sind angelegt und du kannst direkt loslegen.
-
-Zwischen den beiden Standardgruppen sind schon für alle Nachrichtenformate Routings angelegt, sodass deine Daten direkt zwischen verbundenen Telemetrie-Verbindungen, Maschinen und Agrar-Software-Lösungen ausgetauscht werden können. Möchtest du eine Telemetrie-Verbindung, Maschine oder Agrar-Software individuell bearbeiten, muss diese aus der Standardgruppe herausgenommen werden.
+TIP: Die Standard-Gruppen helfen dir bei der schnellen Inbetriebnahme des agrirouter. Die Routen für die Daten sind angelegt und können direkt genutzt werden.
 
 
 == Gruppenliste
-
-Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und die Regeln zum Datenaustausch image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- und die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt und zur gewählten Gruppe angezeigt werden.
-
-image::ar_control-center.legend.png[Control Center Overview]
-
 
 [.float-group]
 --
@@ -40,17 +38,11 @@ image::ar_group-list.legend.png[Select Register, 250, float=right]
 Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + 
 Du kannst
 
+. eine Gruppe hinzufügen,
 . eine Gruppe suchen und
 . die Gruppenliste aktualisieren.
 --
 
-Öffne die Gruppenliste wie folgt:
-
-. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
-[.result]#Das Kontrollzentrum wird angezeigt.#
-. Klicke den Button *_Gruppen_*.
-[.result]#Links wird die Gruppenliste angezeigt.#
-[.result]#Rechts wird die Detailansicht angezeigt.#
 
 [NOTE]
 ====
@@ -76,15 +68,13 @@ image::ar_group-item.legend.png[Group list, 250, float=right]
 
 === Gruppe hinzufügen
 
-
 . Klicke den Button *_+ Gruppe_*.
 [.result]#Das Fenster `Neue Gruppe` wird angezeigt.#
 . Gebe den Name und optional eine kurze Beschreibung ein.
 . Klicke den Button *_Bestätigen_*.
 [.result]#Die Gruppenliste wird angezeigt.#
 
-TIP: Die Beschreibung ist zwar optional, wird aber in der Detailansicht angezeigt. Wenn du viele Gruppen hast, empfiehlt es sich, eine erklärende Beschreibung einzugeben.
-
+TIP: Wenn du viele Gruppen hast, empfiehlt es sich, eine erklärende Beschreibung einzugeben. Diese wird in der Detailansicht angezeigt.
 
 === Gruppe suchen
 Wenn die Gruppenliste viele Einträge enthält, kannst Du eine Gruppe suchen:
@@ -106,29 +96,28 @@ Wenn deine neu erstellte Gruppe nicht in der Liste erscheint, aktualisiere die L
 . Klicke das Icon *_Aktualisieren_*  image:ar_refresh.icon.png[refresh, 30, 30] über der Gruppenliste.
 [.result]#Die Gruppenliste wird aktualisiert.#
 
-#TODO#
-NOTE: Wenn die Gruppe weiterhin nicht in der Liste erscheint... Kann das überhaupt passieren?
 
 == Detailansicht
 In der Detailansicht sind alle Informationen zur Gruppe zusammengefasst.
-Die Detailansicht ist in folgende Reiter aufgeteilt:
+Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe austauschen und fügst der Gruppe Mitglieder hinzu.
+
+Die Detailansicht ist in Reiter unterteilt:
 
 [unordered.stack]
-Senden an:: Die Endpunkte und Gruppen, an welche Mitglieder der Gruppe Daten senden.
+Senden an:: Endpunkte und Gruppen, an welche die Gruppe Daten sendet.
 
-Empfangen von:: Die Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden.
+Empfangen von:: Endpunkte und Gruppen, die Daten an die Gruppe senden.
 
-Mitglieder:: Die Mitglieder der Gruppe.
+Mitglieder:: Mitglieder der Gruppe.
 
 === Senden an
 Empfänger sind alle Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden.
 Der Reiter enthält eine Liste der Empfänger.
 Du verwaltest die Liste der Empfänger und definierst, welche Nachrichtenformate die Empfänger erhalten.
 
-
 Füge einen neuen Empfänger hinzu wie folgt:
 
-. Klicke das Icon *_Hinzufügen_*.
+. Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke in das Eingabefeld *_Empfänger_*.
 [.result]#Die Auswahlliste `Endpunkt auswählen` wird angezeigt.#
@@ -145,7 +134,7 @@ Füge einen neuen Empfänger hinzu wie folgt:
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Empfänger wird hinzugefügt.#
 
-NOTE: Es kann mehrere Minuten dauern, bis das System den Empfänger hinzugefügt hat.
+NOTE: Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung hergestellt ist, d.h. bis der Empfänger Daten von der Gruppe empfangen kann.
 
 === Empfangen von
 Sender sind alle Endpunkte und Gruppen, die Daten an die Gruppe senden.
@@ -154,7 +143,7 @@ Du verwaltest die Liste der Sender und definierst, welche Nachrichtenformate die
 
 Füge einen neuen Sender hinzu wie folgt:
 
-. Klicke das Icon *_Hinzufügen_*.
+. Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke in das Eingabefeld *_Sender_*.
 [.result]#Die Auswahlliste `Endpunkt auswählen` wird angezeigt.#
@@ -171,15 +160,13 @@ Füge einen neuen Sender hinzu wie folgt:
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Sender wird hinzugefügt.#
 
-NOTE: Es kann mehrere Minuten dauern, bis das System den Sender hinzugefügt hat.
+NOTE: Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung hergestellt ist, d.h. bis der Sender Daten an die Gruppe senden kann.
 
 === Mitglieder
-#TODO#
-Mitglieder der Gruppe erben folgende Dinge.
-
+Für die Gruppe definierte Routen gelten für alle Mitglieder der Gruppe.
 Füge ein Mitglied hinzu wie folgt:
 
-. Klicke das Icon *_Hinzufügen_*.
+. Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Mitglieder auswählen` wird angezeigt.#
 . Wähle das neue Mitglied und klicke *_Bestätigen_*.
 [.result]#Das Mitglied wird hinzugefügt.#
