@@ -111,11 +111,16 @@ Empfangen von:: Endpunkte und Gruppen, die Daten an die Gruppe senden.
 Mitglieder:: Mitglieder der Gruppe.
 
 === Senden an
-Empfänger sind alle Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden.
 Der Reiter enthält eine Liste der Empfänger.
-Du verwaltest die Liste der Empfänger und definierst, welche Nachrichtenformate die Empfänger erhalten.
+Empfänger sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden.
 
-Füge einen neuen Empfänger hinzu wie folgt:
+Du kannst:
+
+* Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
+* Definieren, welche Nachrichten die Empfänger von der Gruppe erhalten sollen
+
+
+==== Empfänger hinzufügen
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -134,14 +139,32 @@ Füge einen neuen Empfänger hinzu wie folgt:
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Empfänger wird hinzugefügt.#
 
-NOTE: Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung hergestellt ist, d.h. bis der Empfänger Daten von der Gruppe empfangen kann.
+NOTE: Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing fertiggestellt ist, d.h. der Empfänger Daten von der Gruppe empfangen kann.
+
+==== Empfänger bearbeiten
+
+. Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].
+[.result]#Das Formular `Routing bearbeiten` wird angezeigt.#
+. Ändere die Eigenschaften des Empfängers und klicke den Button *_Bestätigen_*.
+
+==== Empfänger löschen
+
+. Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].
+[.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#
+. Bestätige die Abfrage mit *_OK_*.
+[.result]#Der Empfänger wird gelöscht.#
+
 
 === Empfangen von
-Sender sind alle Endpunkte und Gruppen, die Daten an die Gruppe senden.
 Der Reiter enthält eine Liste der Sender.
-Du verwaltest die Liste der Sender und definierst, welche Nachrichtenformate die Gruppe erhält.
+Sender sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden.
 
-Füge einen neuen Sender hinzu wie folgt:
+Du kannst:
+
+* Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
+* Definieren, welche Nachrichten die Mitglieder der Gruppe vom Sender erhalten sollen
+
+==== Sender hinzufügen
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -160,16 +183,43 @@ Füge einen neuen Sender hinzu wie folgt:
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Sender wird hinzugefügt.#
 
-NOTE: Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung hergestellt ist, d.h. bis der Sender Daten an die Gruppe senden kann.
+NOTE: Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing fertiggestellt ist, d.h. der Sender Daten an die Gruppe senden kann.
+
+==== Sender bearbeiten
+
+. Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].
+[.result]#Das Formular `Routing bearbeiten` wird angezeigt.#
+. Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*.
+
+==== Sender löschen
+
+. Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].
+[.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#
+. Bestätige die Abfrage mit *_OK_*.
+[.result]#Der Sender wird gelöscht.#
+
 
 === Mitglieder
-Für die Gruppe definierte Routen gelten für alle Mitglieder der Gruppe.
-Füge ein Mitglied hinzu wie folgt:
+Der Reiter enthält eine Liste der Mitglieder der Gruppe.
+
+Du kannst Mitglieder hinzufügen image:ar_add.icon.png[add, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
+
+==== Mitglied hinzufügen
+Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der Gruppenliste hinzufügen.
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Mitglieder auswählen` wird angezeigt.#
 . Wähle das neue Mitglied und klicke *_Bestätigen_*.
 [.result]#Das Mitglied wird hinzugefügt.#
+
+==== Mitglied löschen
+
+. Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].
+[.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#
+. Bestätige die Abfrage mit *_OK_*.
+[.result]#Das Mitglied wird aus der Gruppe entfernt.#
+
+NOTE: Beachte, dass das Mitglied aus der Gruppe entfernt, nicht aber gelöscht wird. Endpunkte und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste.
 
 == Gruppe bearbeiten
 Du kannst

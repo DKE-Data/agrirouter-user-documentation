@@ -251,13 +251,13 @@ NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Empfänger zug
 
 IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
 
-NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung hergestellt ist, d.h. du Daten an den Empfänger senden kannst.
+NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing fertiggestellt ist, d.h. der Endpunkt Daten an den Empfänger senden kann.
 
 ==== Empfänger bearbeiten
 
 . Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].
 [.result]#Das Formular `Routing bearbeiten` wird angezeigt.#
-. Änderungen durchführen und mit *_Bestätigen_* abschließen.
+. Ändere die Eigenschaften des Empfängers und klicke den Button *_Bestätigen_*.
 
 ==== Empfänger löschen
 
@@ -278,7 +278,7 @@ Du kannst:
 
 NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Sender zugewiesen.
 
-Sender hinzufügen:
+==== Sender hinzufügen
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -301,7 +301,21 @@ Sender hinzufügen:
 
 IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
 
-NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung hergestellt ist, d.h. der Sender dir Daten senden kann.
+NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing fertiggestellt ist, d.h. der Sender Daten an den Endpunkt senden kann.
+
+==== Sender bearbeiten
+
+. Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].
+[.result]#Das Formular `Routing bearbeiten` wird angezeigt.#
+. Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*.
+
+==== Sender löschen
+
+. Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].
+[.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#
+. Bestätige die Abfrage mit *_OK_*.
+[.result]#Der Sender wird gelöscht.#
+
 
 
 === Gruppen
@@ -361,7 +375,7 @@ Wenn der Endpunkt nicht mehr benötigt wird, lösche ihn:
 
 [.float-group]
 --
-image::ar_endpoint-delete.png[Delete endpoint, 250, float=right]
+image::ar_endpoint-delete.png[Delete endpoint, 200, float=right]
 
 . Klicke den Button *_Löschen_*.
 [.result]#Ein Meldungsfenster wird angezeigt.#
@@ -387,7 +401,7 @@ Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen wi
 
 [.float-group]
 --
-image::ar_endpoint-techsupport.png[Technical support, 250, float=right]
+image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
 
 . Klicke das Icon *_Mehr_*.
 [.result]#Eine Auswahlliste wird angezeigt.#
