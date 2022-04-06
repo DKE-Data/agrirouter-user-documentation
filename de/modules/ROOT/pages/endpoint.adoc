@@ -221,13 +221,16 @@ Fähigkeiten:: Der Reiter enthält die Nachrichtenformate, die der Endpunkt send
 Die unterstützten Nachrichtenformate sind vom Endpunkt vorgegeben und können nicht geändert werden.
 
 === Senden an
-Empfänger sind alle Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
 Der Reiter enthält eine Liste der Empfänger.
-Du verwaltest die Liste der Empfänger und definierst, welche Nachrichtenformate die Empfänger erhalten.
+Empfänger sind Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
 
-NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Empfänger zugewiesen.
+Du kannst:
+* Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
+* Definieren, welche Nachrichten die Empfänger vom Endpunkt erhalten sollen
 
-Füge einen neuen Empfänger hinzu wie folgt:
+NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Empfänger zugewiesen.
+
+==== Empfänger hinzufügen
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -249,14 +252,31 @@ IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte
 
 NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Datenverbindung hergestellt ist, d.h. du Daten an den Empfänger senden kannst.
 
+==== Empfänger bearbeiten
+
+. Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].
+[.result]#Das Formular `Routing bearbeiten` wird angezeigt.#
+. Änderungen durchführen und mit *_Bestätigen_* abschließen.
+
+==== Empfänger löschen
+
+. Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].
+[.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#
+. Bestätige die Abfrage mit *_OK_*.
+[.result]#Der Empfänger wird gelöscht.#
+
+
 === Empfangen von
-Sender sind alle Endpunkte und Gruppen, die Daten an den Endpunkt senden.
 Der Reiter enthält eine Liste der Sender.
-Du verwaltest die Liste der Sender und definierst, welche Nachrichtenformate der Endpunkt erhält.
+Sender sind Endpunkte und Gruppen, die Daten an den Endpunkt senden.
 
-NOTE: Jedem Endpunkt wird bei Erstellung automatisch eine Standard-Gruppe und ein Sender zugewiesen.
+Du kannst:
+* Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
+* Definieren, welche Nachrichten der Endpunkt vom Sender erhalten sollen
 
-Füge einen neuen Sender hinzu wie folgt:
+NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Sender zugewiesen.
+
+Sender hinzufügen:
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
