@@ -3,7 +3,7 @@
 :icons: font
 
 Du kannst dein Konto mit den Konten anderer Nutzer verbinden.
-Ein verbundenes Konto ist im agrirouter ein Endpunkt, wie eine Maschine oder eine Agrarsoftware. Das verbundene Konto kann also Daten von dir empfangen oder Daten an dich senden.
+Das verbundene Konto kann Daten von dir empfangen und Daten an dich senden. Verbundene Konten werden in der Endpunkteliste angezeigt und dort stellst du auch die Routen ein.
 
 == Einladung versenden
 Um dein Konto mit einem anderen Konto zu verbinden, sendest du dem Kontoinhaber eine Einladung.
@@ -13,7 +13,7 @@ Dazu benötigst du die E-Mail-Adresse des Kontos.
 --
 image::ar_pairing-tile.png[Pairing tile, 250, float=right]
 
-. Klicke im Dashboard die Kachel *_+ Konten verbinden_*.
+. Klicke im Dashboard die Kachel *_Konten verbinden_*.
 [.result]#Das Fenster `Konten verbinden` wird angezeigt.#
 . Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-Adresse_* ein.
 . Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein.
@@ -26,11 +26,11 @@ image::ar_pairing-invite.png[Pairing invite]
 [.result]#Die Einladung wird im Reiter `Offene Einladungen` angezeigt, bis sie vom Empfänger angenommen wird.#
 --
 
-NOTE: Wenn der Kontoinhaber deine Einladung annimmt, erhälst du eine E-Mail. D
+NOTE: Wenn der Kontoinhaber deine Einladung annimmt, erhälst du eine E-Mail.
 
 [NOTE]
 ====
-Du kannst eine Einladung zurückziehen, wenn der Empfänger sie noch nicht angenommen hat. + 
+Du kannst eine Einladung zurücknehmen, wenn der Empfänger sie noch nicht angenommen hat. + 
 
 . Wähle im Reiter `Offene Einladungen` die Einladung.
 [.result]#Der Listeneintrag wird grün eingefärbt.#
@@ -46,13 +46,14 @@ Das oben beschriebene Verfahren funktioniert auch umgekehrt: du kannst von einem
 In der Kachel `Konten verbinden` werden in der Zeile `Eingehend` die Einladungen angezeigt, die du erhalten und noch nicht bearbeitet hast.
 --
 
-. Klicke im Dashboard die Kachel *_+ Konten verbinden_*.
+. Klicke im Dashboard die Kachel *_Konten verbinden_*.
 [.result]#Das Fenster `Konten verbinden` wird angezeigt.#
 . Wähle im Reiter `Empfangene Einladungen` die Einladung.
 [.result]#Der Listeneintrag wird grün eingefärbt.#
 . Klicke den Button *_Einladung annehmen_*.
+[.result]#Die beiden Konten sind miteinander verbunden.#
 [.result]#Das Konto wird in den Reiter `Verbunden` verschoben.#
-[.result]#Der Inhaber des anderen Kontos wird per E-Mail darüber informiert, dass du seine Einladung angenommen hast.#
+[.result]#Der Inhaber des anderen Kontos wird mit einer E-Mail darüber informiert, dass du seine Einladung angenommen hast.#
 
 [NOTE]
 ====
@@ -67,7 +68,7 @@ Du kannst die Verbindung zu einem anderen Konto löschen.
 [.float-group]
 --
 
-. Klicke im Dashboard die Kachel *_+ Konten verbinden_*.
+. Klicke im Dashboard die Kachel *_Konten verbinden_*.
 [.result]#Das Fenster `Konten verbinden` wird angezeigt.#
 . Wähle im Reiter `Verbunden` das Konto.
 [.result]#Der Listeneintrag wird grün eingefärbt.#
@@ -80,7 +81,7 @@ Du kannst die Verbindung zu einem anderen Konto löschen.
 
 Damit miteinander verbundene Konten Daten austauschen können, musst du das Routing anschalten:
 
-. Klicke im Dashboard die Kachel *_+ Kontrollzentrum_*.
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
 [.result]#Das `Kontrollzentrum` wird geöffnet und die Endpunkteliste wird angezeigt.#
 . Wähle in der Endpunkteliste das verbundene Konto.
 [.result]#Rechts werden die Details des Kontos angezeigt.#
