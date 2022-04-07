@@ -1,6 +1,25 @@
+= Routing
 :imagesdir: _images/
+:icons: font
 
-= Route
+Die Verbindung zwischen dem Sender und dem Empfänger heißt Route.
+Ohne eine Route können die Endpunkte keine Nachrichten austauschen.
+
+Die Route definiert
+
+* zwischen welchen Endpunkten Daten ausgetauscht werden
+* in welche Richtung die Daten fließen
+* welche Nachrichten(typen) ausgetauscht werden
+* ob und welche Echtzeitdaten ausgetauscht werden
+
+
+NOTE: Beim Anlegen einer Route werden nur Nachrichtentypen angeboten, welche vom Sender und Empfänger verarbeitet werden können.
+
+Lege für ein neues Routing zunächst fest, ob der Endpunkt etwas senden oder empfangen soll.
+
+Echtzeitdaten
+Wähle aus über 600 möglichen Werten an Echtzeitdaten. Diese sind zur besseren Übersicht in 12 Kategorien aufgeteilt.
+Darunter fallen z.B. die Geschwindigkeit einer Maschine oder die Positionsdaten.
 
 == Automatisch angelegte Routen
 !Erklärung ...
@@ -15,35 +34,12 @@ Verweis auf link:https://manual.my-agrirouter.com/de/manual/latest/group.html#st
 Verweis auf link:https://manual.my-agrirouter.com/de/manual/latest/group.html#gruppenmitglieder-verwalten[Gruppenmitglieder verwalten]
 
 == Route anlegen
-!Erklärung ...
-
-.Schritt 1
-image::routing_create_step1.png[Schritt 1]
-
-
-.Schritt 2
-image::routing_create_step2.png[Schritt 2]
-
-
-.Schritt 3
-image::routing_create_step3.png[Schritt 3]
-
-
-.Schritt 4
-image::routing_create_step4.png[Schritt 4]
-
+Die Routen von Maschinen, Agrarsoftware, Telemetrie-Einheiten und verbundenen Konten im Kontrollzentrum -> Endpunkteliste
+Die Routen von Gruppen im Kontrollzentrum -> Gruppenliste
 
 == Route bearbeiten
-!Erklärung ...
-
-.Route bearbeiten
-image::routing_edit.png[Route bearbeiten]
 
 == Route löschen
-!Erklärung ...
-
-.Route löschen
-image::routing_delete.png[Route löschen]
 
 == von Maschine zur Maschine
 !Erklärung ...

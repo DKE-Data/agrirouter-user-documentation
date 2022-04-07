@@ -178,6 +178,7 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 Die Detailansicht ist in die Reiter `Senden an`, `Empfangen von`, `Gruppen`, `Details` und `Fähigkeiten` unterteilt.
 
 === Senden an
+#TODO# Der Reiter enthält eine Liste der Routen, d.h. Empfänger und Regeln!
 Der Reiter enthält eine Liste der Empfänger.
 Empfänger sind Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
 
@@ -198,7 +199,7 @@ NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Empfänger zug
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke in das Eingabefeld *_Nachrichtenformate_*.
 [.result]#Die Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#
-. Wähle die Nachrichtenformate, die der Empfänger erhalten soll und klicke *_Bestätigen_*.
+. Wähle die Nachrichten, die der Empfänger erhalten soll und klicke *_Bestätigen_*.
 . Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.
 [.result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#
 . Wähle eine oder mehrere Kategorien und klicke Bestätigen.
@@ -245,7 +246,7 @@ NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Sender zugewie
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke in das Eingabefeld *_Nachrichtenformate_*.
 [.result]#Die Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#
-. Wähle die Nachrichtenformate, die der Sender senden soll und klicke *_Bestätigen_*.
+. Wähle die Nachrichten, die der Sender senden soll und klicke *_Bestätigen_*.
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Sender wird hinzugefügt.#
@@ -278,7 +279,7 @@ NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch 
 === Gruppen
 Der Reiter enthält eine Liste der Gruppen, denen der Endpunkt angehört.
 Jeder neue Endpunkt ist automatisch Mitglied in einer der Standard-Gruppen.
-xref:routing.adoc[Klicke diesen Link] und erfahre mehr über Gruppen.
+xref:routing.adoc[Klicke diesen Link^] und erfahre mehr über Gruppen.
 
 
 === Details
@@ -291,8 +292,8 @@ Aktualisiere manuell, wenn du das Postfach auf eingehende oder verarbeitete Nach
 [.result]#Der Reiter `Details` wird aktualisiert.#
 
 === Fähigkeiten
-Der Reiter enthält die Nachrichtenformate, die der Endpunkt senden und empfangen kann. + 
-Die unterstützten Nachrichtenformate sind vom Endpunkt vorgegeben und können nicht geändert werden.
+Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen kann. + 
+Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht geändert werden.
 
 
 == Endpunkt bearbeiten
