@@ -1,86 +1,106 @@
-:imagesdir: _images/
-
 = Konto verbinden
+:imagesdir: _images/
+:icons: font
 
-//Publishing and Subskription erklären
-//Maschinen mit live Telemetrie 
-//Datenfluss ein / aus
-//Externe Maschinen
-
-== Mein Netzwerk
-
-Du kannst deinen agrirouter mit Konten anderer Landwirte sowie Lohnunternehmern verbinden und Informationen sowie Daten austauschen.
-Ein Klick auf die Kachel „Konten verbinden“ zeigt dir alle Verbindungen sowie offene und erhaltene Einladungen. 
-
-.Mein Netztwerk
-image::account_pairing_dashboard.png[Mein Netztwerk]
-
+Du kannst dein Konto mit den Konten anderer Nutzer verbinden.
+Ein verbundenes Konto ist im agrirouter ein Endpunkt, wie eine Maschine oder eine Agrarsoftware. Das verbundene Konto kann also Daten von dir empfangen oder Daten an dich senden.
 
 == Einladung versenden
+Um dein Konto mit einem anderen Konto zu verbinden, sendest du dem Kontoinhaber eine Einladung.
+Dazu benötigst du die E-Mail-Adresse des Kontos.
 
-Möchtest du eine Verbindung herstellen, brauchst du die E-Mail-Adresse des anderen agrirouter Kontos, mit dem du dich verbinden möchtest. 
-Vergib dazu einen frei wählbaren Anzeigennamen. Gib anschließend beides in die entsprechenden Felder ein.
+[.float-group]
+--
+image::ar_pairing-tile.png[Pairing tile, 250, float=right]
 
-.Einladung versenden
-image::account_pairing_invitation.png[Einladung versenden]
+. Klicke im Dashboard die Kachel *_+ Konten verbinden_*.
+[.result]#Das Fenster `Konten verbinden` wird angezeigt.#
+. Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-Adresse_* ein.
+. Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein.
 
-Dieses Verfahren funktioniert auch umgekehrt. Wenn sich jemand mit dir bzw. deinem agrirouter Konto verbinden möchte, 
-erhältst du eine Einladung per E-Mail. Sobald du diese Einladung durch Anklicken öffnest, 
-landest du direkt auf deiner agrirouter Startseite. Dort kannst du die Einladung in der Rubrik “Empfangene Einladungen“ ansehen, annehmen oder ablehnen.
+image::ar_pairing-invite.png[Pairing invite]
 
-== Einladung annehmen oder ablehnen
+[start=4]
+. Klicke den Button *_Einladung versenden_*.
+[.result]#Die Einladung wird an das andere Konto gesendet.#
+[.result]#Die Einladung wird im Reiter `Offene Einladungen` angezeigt, bis sie vom Empfänger angenommen wird.#
+--
 
-!Erklärung !
+NOTE: Wenn der Kontoinhaber deine Einladung annimmt, erhälst du eine E-Mail. D
 
-.Einladung annehmen oder ablehnen
-image::account_pairing_invitation_accept.png[Einladung annehmen oder ablehnen]
+[NOTE]
+====
+Du kannst eine Einladung zurückziehen, wenn der Empfänger sie noch nicht angenommen hat. + 
+
+. Wähle im Reiter `Offene Einladungen` die Einladung.
+[.result]#Der Listeneintrag wird grün eingefärbt.#
+. Klicke den Button *_Einladung aufheben_*.
+====
+
+== Einladung erhalten
+
+[.float-group]
+--
+image::ar_pairing-tile-one-incoming.png[Incoming invitation, 250, float=right]
+Das oben beschriebene Verfahren funktioniert auch umgekehrt: du kannst von einem anderen Konto eingeladen werden.
+In der Kachel `Konten verbinden` werden in der Zeile `Eingehend` die Einladungen angezeigt, die du erhalten und noch nicht bearbeitet hast.
+--
+
+. Klicke im Dashboard die Kachel *_+ Konten verbinden_*.
+[.result]#Das Fenster `Konten verbinden` wird angezeigt.#
+. Wähle im Reiter `Empfangene Einladungen` die Einladung.
+[.result]#Der Listeneintrag wird grün eingefärbt.#
+. Klicke den Button *_Einladung annehmen_*.
+[.result]#Das Konto wird in den Reiter `Verbunden` verschoben.#
+[.result]#Der Inhaber des anderen Kontos wird per E-Mail darüber informiert, dass du seine Einladung angenommen hast.#
+
+[NOTE]
+====
+Um die Einladung abzulehnen, klicke im Schritt 3 den Button *_Einladung ablehnen_*.
+
+[.result]#Die beiden Konten werden nicht miteinander verbunden.#
+====
+
+== Verbindung löschen
+Du kannst die Verbindung zu einem anderen Konto löschen.
+
+[.float-group]
+--
+
+. Klicke im Dashboard die Kachel *_+ Konten verbinden_*.
+[.result]#Das Fenster `Konten verbinden` wird angezeigt.#
+. Wähle im Reiter `Verbunden` das Konto.
+[.result]#Der Listeneintrag wird grün eingefärbt.#
+. Klicke den Button *_Verbindung aufheben_*.
+[.result]#Die beiden Konten sind nicht mehr miteinander verbunden.#
+[.result]#Es werden keine Daten mehr zwischen den Konten ausgetauscht.#
+--
+
+== Routing anschalten
+
+Damit miteinander verbundene Konten Daten austauschen können, musst du das Routing anschalten:
+
+. Klicke im Dashboard die Kachel *_+ Kontrollzentrum_*.
+[.result]#Das `Kontrollzentrum` wird geöffnet und die Endpunkteliste wird angezeigt.#
+. Wähle in der Endpunkteliste das verbundene Konto.
+[.result]#Rechts werden die Details des Kontos angezeigt.#
+. Setze den Schalter *_Datenfluss_* auf `EIN`.
+[.result]#Die beiden Konten können Daten austauschen.#
+
+[NOTE]
+====
+Auch Agrarsoftware eines verbundenen Kontos kann Nachrichten von dir empfangen.
+Dazu muss der Kontoinhaber des verbundenen Kontos in den Einstellungen der Agrarsoftware die Nachrichten auswählen, die diese empfangen soll. Der Eintrag in den Einstellungen heißt meist `Subscriptions`.
+Meist sind diese Einstellungen standardmäßig gesetzt.
+====
 
 
-== Offene Einladungen
-
-!Erklärung !
-
-.Offene Einladungen
-image::account_pairing_invitation_open.png[Offene Einladungen]
-
-
-== Verbundene Konten
-
-!Erklärung !
-
-.Verbundene Konten
-image::account_pairing_invitation_connected.png[Verbundene Konten]
-
-
-== Verbundung aufheben
-
-!Erklärung !
-
-.Verbundung aufheben
-image::account_pairing_invitation_disconnected.png[Verbundung aufheben]
-
-
-
-== Datenfluss ein bzw. ausschalten
-
-Schalte dazu über den entsprechenden Button den Datenfluss ein bzw. aus. Den Datenfluss zwischen zwei verbundenen agrirouter Konten legst du durch Routen (siehe Menüpunkt „Routing“) fest. 
-
-!Erklärung !
-
-.Datenfluss ein bzw. ausschalten
-image::account_pairing_dataflow.png[Datenfluss ein bzw. ausschalten]
-
-Wurden zwei Konten miteinander verbunden, können Daten von einem Konto zum anderen weitergeleitet werden. 
-Dafür muss der Datenfluss beim angeschlossenen Endpunkt im agrirouter User-Interface aktiviert werden. 
-
+////
 Daten, die zu einem angeschlossenen Konto fließen, werden immer mit dem Status „Published“ versehen. 
 Man kann sich dies wie eine Wurfsendung vorstellen, die an alle Empfänger zugestellt wird, die die Nachrichten empfangen möchten. 
 Verbundene Accounts können untereinander nicht die Endpunkte des anderen Accounts einsehen, 
 außer ein Account Inhaber hat bestimmte Maschinen für einen oder mehrere verbundene Accounts freigegeben. 
 So kann z.B. ein Lohnunternehmer nur die GPS-Position und den Arbeitsstaus eines Feldhäckslers einem verbundenen Kunden Account freigeben. 
+////
 
-In der jeweiligen Agrar-Software am verbundenen Account, die die Wurfsendungen empfangen soll, müssen unter den sogenannten „Subscriptions“ 
-die entsprechenden Nachrichtenformate ausgewählt werden. Wir sprechen hier von nicht direkter Nachrichtenzustellung. 
-Die Agrar-Software legt mit den „Subscriptions“ fest, welche Wurfsendungen sie erhalten möchte und welche nicht. 
 
-Bei vielen Agrar-Software-Lösungen sind diese Einstellungen bereits standardmäßig gesetzt.
