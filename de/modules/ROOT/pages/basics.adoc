@@ -3,17 +3,48 @@
 
 == Grundbegriffe
 
+=== Kontrollzentrum
+
+Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und Routen image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- bzw. die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe angezeigt werden.
+
+image::ar_control-center.legend.png[Control Center Overview]
+
 Telemetrie Plattform ... 
 
 Kommunikationseinheit ...
  
-Farming Software ...
+=== Endpunkt
+Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
+Es gibt folgende Endpunkt-Typen:
 
-Maschine ...
+[unordered.stack]
+Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]
 
-Endpunkt ...
+Maschine:: Eine angehängte, gezogene oder selbstfahrende landwirtschaftliche Maschine, die mit einer Telemetrie-Einheit verbunden ist und eine Device Description bereitstellen kann. Die Maschine kann, muss aber nicht ISOBUS-kompatibel sein.
 
-Route ...
+Agrarsoftware:: Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
+
+Verbundenes Konto:: Das Konto eines anderen Benutzers.
+
+Externe Maschine:: Maschine, die zu einem verbundenen Konto gehört.
+
+image::ar_overview.png[Overview]
+
+Jeder Endpunkt kann Daten senden und empfangen.
+Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen. (=> Kapitel xref:routing.adoc[Routing]).
+
+=== Route
+Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
+
+Das Routing regelt den Datenverkehr auf den Routen.
+Du definierst
+
+* zwischen welchen Endpunkten Daten ausgetauscht werden
+* in welche Richtung die Daten fließen
+* welche Nachrichten ausgetauscht werden
+* ob und welche Echtzeitdaten ausgetauscht werden
+
+NOTE: Ohne eine Route können Endpunkte keine Nachrichten austauschen.
 
 Standard Agrar-Software Gruppe = Alle Endpunkte von Agrar-Software Lösungen und Telemetrie-Plattformen werden automatisch dieser Standard-Gruppe hinzugefügt. 
 Die Routen zum Austausch von Daten sind bereits angelegt und können nicht verändert werden. 
@@ -35,21 +66,16 @@ Agrar-Software verbinden ...
 
 Kommunikationseinheit verbinden ...
 
-== Nachrichten Formate
+== Nachrichten(typen)
+Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:
 
-Je nach Endpunkt stehen dir zum Datenaustausch verschiedene Nachrichtenformate zur Verfügung:
+Auftragsdaten:: ISOBUS Auftragsdaten, Applikationskarten
+Echtzeitdaten:: Maschinendaten, Prozessdaten, Geoposition
+Shape:: Feldgrenzen im Shape-Format
+Mediadaten:: Bilder, Videos
+Dokumente:: Berichte im pdf-Format
 
-* Task Data (ISO11783 z.B. Auftragsdaten oder Applikationskarten)
-* Telemetriedaten
-* Shape (z.B. Grenzlinien)
-* Bild- und Videodaten
-* Dokumente (z.B. PDF Auftragsberichte)
-
-Der agrirouter vergleicht, welche Nachrichtenformate die gewählten Endpunkte verarbeiten können und zeigt ausschließlich diese zur Auswahl an. 
-Dadurch wird sichergestellt, dass Daten nicht zu einem Endpunkt transportiert werden, die er nicht verarbeiten kann.
-
-.Nachrichten Formate
-image::message_formats.png[Nachrichten Formate]
+NOTE: Bei der Erstellung einer Route werden dir nur die Nachrichten(typen) zur Wahl angeboten, die von Sender und Empfänger verarbeitet werden können.
 
 == Telemetrieparameter
 !Erklärung ...

@@ -3,7 +3,7 @@
 
 = Kontrollzentrum
 
-Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und die Regeln zum Datenaustausch image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- und die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt und zur gewählten Gruppe angezeigt werden.
+Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und Routen image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- bzw. die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe angezeigt werden.
 
 image::ar_control-center.legend.png[Control Center Overview]
 
@@ -170,7 +170,7 @@ Aktualisiere die Endpunkteliste, wenn der gesuchte Endpunkt nicht eingetragen is
 == Detailansicht
 In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
-* verbundene Endpunkte und Gruppen
+* das Routing, d.h. verbundene Endpunkte und Gruppen und die Regeln des Datenaustausches
 * Details zum Endpunkt und dem Postfach
 * Fähigkeiten des Endpunktes
 // Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
@@ -178,18 +178,18 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 Die Detailansicht ist in die Reiter `Senden an`, `Empfangen von`, `Gruppen`, `Details` und `Fähigkeiten` unterteilt.
 
 === Senden an
-#TODO# Der Reiter enthält eine Liste der Routen, d.h. Empfänger und Regeln!
-Der Reiter enthält eine Liste der Empfänger.
+Abgehende Routen und Sende-Regeln verwaltest du in diesem Reiter. Er enthält eine Liste der Empfänger.
 Empfänger sind Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
 
 Du kannst
 
 * Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
-* definieren, welche Nachrichten die Empfänger vom Endpunkt erhalten sollen
+* definieren, welche Nachrichten der Endpunkt an den Empfänger sendet
 
-NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Empfänger zugewiesen.
+NOTE: Die Liste der Empfänger ist auch bei einem neuen Endpunkt nicht leer. Bei Erstellung des Endpunktes wird automatisch ein Standard-Empfänger zugewiesen.
 
 ==== Empfänger hinzufügen
+Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt:
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -207,9 +207,11 @@ NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Empfänger zug
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Empfänger wird hinzugefügt.#
 
-IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
+NOTE: Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom Empfänger verarbeitet werden können.
 
-NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing erstellt ist, d.h. der Endpunkt Daten an den Empfänger senden kann.
+NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten an den Empfänger gesendet werden können.
+
+IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
 
 ==== Empfänger bearbeiten
 
@@ -226,17 +228,19 @@ NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jed
 
 
 === Empfangen von
-Der Reiter enthält eine Liste der Sender.
-Sender sind Endpunkte und Gruppen, die Daten an den Endpunkt senden.
+Eingehende Routen und Empfangs-Regeln verwaltest du in diesem Reiter. Er enthält eine Liste der Sender.
+Sender sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt.
 
 Du kannst
 
 * Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
-* definieren, welche Nachrichten der Endpunkt vom Sender erhalten sollen
+* definieren, welche Nachrichten der Endpunkt vom Sender empfängt
 
-NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Sender zugewiesen.
+
+NOTE: Die Liste der Sender ist auch bei einem neuen Endpunkt nicht leer. Bei Erstellung des Endpunktes wird automatisch ein Standard-Sender zugewiesen.
 
 ==== Sender hinzufügen
+Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt:
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -257,9 +261,11 @@ NOTE: Jedem Endpunkt wird bei Erstellung automatisch ein Standard-Sender zugewie
 . Klicke den Button *_Bestätigen_*.
 [.result]#Der Sender wird hinzugefügt.#
 
-IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
+NOTE: Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom Endpunkt verarbeitet werden können.
 
-NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis das Routing erstellt ist, d.h. der Sender Daten an den Endpunkt senden kann.
+NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten vom Sender empfangen werden können.
+
+IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
 
 ==== Sender bearbeiten
 
@@ -280,8 +286,6 @@ NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch 
 Der Reiter enthält eine Liste der Gruppen, denen der Endpunkt angehört.
 Jeder neue Endpunkt ist automatisch Mitglied in einer der Standard-Gruppen.
 xref:routing.adoc[Klicke diesen Link] und erfahre mehr über Gruppen.
-Teste anchors <<sender-hinzufügen>>
-xref:group#mitglieder[Mitglieder Uberschrift]
 
 === Details
 Der Reiter enthält Informationen zum Endpunkt und zum Postfach.

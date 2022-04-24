@@ -2,18 +2,20 @@
 :imagesdir: _images/
 :icons: font
 
-Die Verbindung zwischen dem Sender und dem Empfänger heißt Route.
-Ohne eine Route können die Endpunkte keine Nachrichten austauschen.
+Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
 
-Die Route definiert
+Das Routing regelt den Datenverkehr auf den Routen.
+Du definierst
 
 * zwischen welchen Endpunkten Daten ausgetauscht werden
 * in welche Richtung die Daten fließen
-* welche Nachrichten(typen) ausgetauscht werden
+* welche Nachrichten ausgetauscht werden
 * ob und welche Echtzeitdaten ausgetauscht werden
 
+NOTE: Ohne eine Route können Endpunkte keine Nachrichten austauschen.
 
-NOTE: Beim Anlegen einer Route werden nur Nachrichtentypen angeboten, welche vom Sender und Empfänger verarbeitet werden können.
+NOTE: Beim Anlegen einer Route werden nur Nachrichten angeboten, welche von Sender und Empfänger verarbeitet werden können.
+
 
 Lege für ein neues Routing zunächst fest, ob der Endpunkt etwas senden oder empfangen soll.
 
