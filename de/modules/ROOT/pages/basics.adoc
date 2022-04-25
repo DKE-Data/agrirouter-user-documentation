@@ -5,7 +5,7 @@
 
 == Grundbegriffe
 
-=== Dashboard 
+=== Dashboard
 Nachdem du dich bei my-agrirouter.com eingeloggt hast, wird das Dashboard angezeigt, deine persönliche agrirouter Startseite.
 Im Dashboard hast du alle Funktionen des agrirouter:
 
@@ -15,7 +15,6 @@ Im Dashboard hast du alle Funktionen des agrirouter:
 . Dein Konto verwaltest du in der *_Kontoverwaltung_*.
 . Das Dashboard stellst du im *_Profil_* ein.
 
-.agrirouter Dashboard
 image::ar_dashboard.legend.png[agrirouter Dashboard]
 
 === Endpunkt
@@ -70,6 +69,17 @@ Du definierst
 * ob und welche Echtzeitdaten ausgetauscht werden
 
 NOTE: Ohne eine Route können Endpunkte keine Nachrichten austauschen.
+
+=== Standard-Gruppen
+Im agrirouter gibt es zwei vordefinierte Standard-Gruppen, die du nicht löschen oder bearbeiten kannst:
+
+* Maschinen-Gruppe
+* Agrarsoftware-Gruppe
+
+Jeder Endpunkt, den du hinzufügst, wird automatisch einer der beiden Standard-Gruppen als Mitglied hinzugefügt.
+
+Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: + 
+Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können damit ohne weiteren Konfigurationsaufwand Daten empfangen und senden.
 
 Standard Agrar-Software Gruppe = Alle Endpunkte von Agrar-Software Lösungen und Telemetrie-Plattformen werden automatisch dieser Standard-Gruppe hinzugefügt. 
 Die Routen zum Austausch von Daten sind bereits angelegt und können nicht verändert werden. 
