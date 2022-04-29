@@ -1,28 +1,70 @@
 :imagesdir: _images/
+:icons: font
 
 = Service & Support
-
-== Support kontaktieren
+Wenn du eine Frage zur Bedienung hast oder bei der Nutzung ein Problem auftaucht, helfen wir weiter.
 
 [NOTE]
 ====
-Über folgende Kanäle kann unser support Team kontaktiert werden.
+Falls du ein Problem mit einem Endpunkt hast, benötigen wir folgende Diagnoseinformationen des Endpunktes:
+* die agrirouter Konto-ID,
+* die Endpunkt-ID,
+* die Endpunktsoftware-ID und
+* die Endpunktsoftware-Version-ID.
+
+Diese Informationen findest du im Kontrollzentrum deines agrirouter Benutzerkontos:
+
+[.float-group]
+--
+image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
+
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
+[.result]#Das Kontrollzentrum wird geöffnet.#
+[.result]#Links wird die Endpunkteliste angezeigt.#
+[.result]#Rechts wird die Detailansicht angezeigt.#
+. Wähle in der Endpunkteliste den Endpunkt.
+. Klicke das Icon *_Mehr_*.
+[.result]#Eine Auswahlliste wird angezeigt.#
+. Wähle das Icon *_Support Informationen anzeigen_*.
+[.result]#Das Meldungsfenster *_Support-Information_* wird angezeigt.#
+. Klicke das Icon *_In Zwischenablage kopieren_*.
+. Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support.
+--
+
 ====
+
+
+== Fehlerbericht senden
+Im Help Center kannst du uns eine allgemeine Anfrage oder einen Fehlerbericht senden.
+Nutze diesen Weg, wenn die Anfrage nicht besonders dringend ist.
+
+TIP: Das Help Center hat auch eine Suchfunktion, mit der du kurze Erläuterungen zu häufig angefragten Stichwörtern erhälst.
+
+TIP: Wir empfehlen, dass du dir im Help Center <<benutzerkonto-erstellen, ein Benutzerkonto erstellst>>. In diesem werden deine Anfragen und unsere Antworten gespeichert. Du kannst deine Anfragen mit anderen Benutzern teilen.
+
+. Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
+[.result]#Das Help Center wird angezeigt.#
+. Klicke den Button *_Einloggen_* und melde dich mit deinen Benutzerdaten an.
+[.result]#Die Startseite des Help Center wird angezeigt.#
+. Wähle *_agrirouter Störungsmeldung_* um einen Fehlerbericht zu senden.
+. Wähle *_Allgemeine Anfrage zu agrirouter_* um eine Frage, zusätzliche Information oder einen Feature-Wunsch zu senden.
+[.result]#Ein Eingabeformular wird angezeigt.#
+. Fülle das Formular aus und klicke *_Senden_*.
+[.result]#Die Anfrage wird mit dem Status `Wartet auf Support` in deiner Anfrageliste gespeichert.#
+
+== E-Mail-Support
+Wenn der Weg über das Help Center nicht möglich ist, mailto:support@my-agrirouter.com[schreibe uns eine E-Mail].
+
+== Telefonsupport kontaktieren
+In dringenden Fällen kannst du unser Support-Team anrufen:
 
 [cols="2,4",options="header",]
 |=======================================================================================
-|Kontakt per |Kontaktdetails
-|Help Center |https://agrirouter.atlassian.net/servicedesk/customer/portals
-|Email Adresse |support@my-agrirouter.com
-|Telefon in Deutsch |+49 541 200 690 220
-|Telefon in Englisch |+49 541 200 690 230
-|Telefon in Französisch|+49 541 200 690 240
+|Sprache |Telefonnummer
+|Deutsch |+49 541 200 690 220
+|Englisch |+49 541 200 690 230
+|Französisch|+49 541 200 690 240
 |=======================================================================================
-
-[TIP]
-====
-In dringenden Fällen, bitte kontaktiere unser support Team einfach per Telefon.
-====
 
 .Help Center
 image::support_help_center.png[Help Center]
@@ -44,6 +86,24 @@ image::endpoint_support_copy.png[Endpunkt Support Informationen in den Zwischens
 
 .Support direkt kontaktieren
 image::endpoint_support_contact.png[Support direkt kontaktieren]
+
+== Benutzerkonto erstellen
+Wenn du im Help Center ein Benutzerkonto erstellst, hast du Zugriff auf alle deine Fehlerberichte und Anfragen und auf Berichte und Anfragen, die andere Benutzer mit dir geteilt haben.
+
+. Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
+[.result]#Das Help Center wird angezeigt.#
+. Klicke den Button *_Einloggen_*.
+[.result]#Das Formular `Im Help Center einloggen` wird angezeigt.#
+. Klicke den Button *_Anmelden_*.
+[.result]#Das Formular `Anmelden` wird angezeigt.#
+. Gebe deine E-Mail-Adresse ein und klicke *_Link senden_*.
+[.result]#Du erhälst eine E-Mail mit dem Aktivierungslink.#
+. Klicke auf den Aktivierungslink.
+[.result]#Das Formular `Anmelden` wird angezeigt.#
+. Gebe deinen Namen und ein Passwort ein und klicke *_Anmelden_*.
+[.result]#Die Startseite des Help Center wird angezeigt.#
+
+
 
 == Service und Status Monitoring
 
