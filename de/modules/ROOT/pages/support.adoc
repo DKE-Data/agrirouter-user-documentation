@@ -1,17 +1,17 @@
 :imagesdir: _images/
 :icons: font
 
-= Service & Support
+== Support
 Wenn du eine Frage zur Bedienung hast oder bei der Nutzung ein Problem auftaucht, helfen wir weiter.
 
 [NOTE]
 ====
-Falls du ein Problem mit einem Endpunkt hast, benötigen wir folgende Diagnoseinformationen des Endpunktes:
+Falls du ein Problem mit einem Endpunkt hast, benötigen wir die Diagnoseinformationen des Endpunktes:
 
-* die agrirouter Konto-ID,
-* die Endpunkt-ID,
-* die Endpunktsoftware-ID und
-* die Endpunktsoftware-Version-ID.
+* agrirouter Konto-ID,
+* Endpunkt-ID,
+* Endpunktsoftware-ID und
+* Endpunktsoftware-Version-ID.
 
 Diese Informationen findest du im Kontrollzentrum deines agrirouter Benutzerkontos:
 
@@ -28,20 +28,19 @@ image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
 [.result]#Eine Auswahlliste wird angezeigt.#
 . Wähle das Icon *_Support Informationen anzeigen_*.
 [.result]#Das Meldungsfenster *_Support-Information_* wird angezeigt.#
-. Klicke das Icon *_In Zwischenablage kopieren_*.
-. Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support.
 --
 
 ====
 
 
-== Fehlerbericht senden
+=== Fehlerbericht senden
 Im Help Center kannst du uns eine allgemeine Anfrage oder einen Fehlerbericht senden.
-Nutze diesen Weg, wenn die Anfrage nicht besonders dringend ist.
 
-TIP: Das Help Center hat auch eine Suchfunktion, mit der du kurze Erläuterungen zu häufig angefragten Stichwörtern erhälst.
-
-TIP: Wir empfehlen, dass du dir im Help Center <<benutzerkonto-erstellen, ein Benutzerkonto erstellst>>. In diesem werden deine Anfragen und unsere Antworten gespeichert. Du kannst deine Anfragen mit anderen Benutzern teilen.
+[TIP]
+====
+Wir empfehlen, dass du dir im Help Center <<benutzerkonto-erstellen, ein Benutzerkonto erstellst>>.
+In diesem werden deine Anfragen inkl. unserer Antworten gespeichert; du kannst deine Anfragen mit anderen Benutzern teilen.
+====
 
 . Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
 [.result]#Das Help Center wird angezeigt.#
@@ -53,10 +52,12 @@ TIP: Wir empfehlen, dass du dir im Help Center <<benutzerkonto-erstellen, ein Be
 . Fülle das Formular aus und klicke *_Senden_*.
 [.result]#Die Anfrage wird mit dem Status `Wartet auf Support` in deiner Anfrageliste gespeichert.#
 
-== E-Mail-Support
-Wenn der Weg über das Help Center nicht möglich ist, mailto:support@my-agrirouter.com[schreibe uns eine E-Mail].
+TIP: Das Help Center hat eine Suchfunktion, mit der du Hilfe zu häufig angefragten Stichwörtern erhälst.
 
-== Telefonsupport kontaktieren
+=== E-Mail-Support
+Wenn du das Help Center nicht nutzen kannst, mailto:support@my-agrirouter.com[schreibe uns eine E-Mail].
+
+=== Telefonsupport
 In dringenden Fällen kannst du unser Support-Team anrufen:
 
 [cols="2,4",options="header",]
@@ -67,28 +68,9 @@ In dringenden Fällen kannst du unser Support-Team anrufen:
 |Französisch|+49 541 200 690 240
 |=======================================================================================
 
-.Help Center
-image::support_help_center.png[Help Center]
+== Service
 
-== Relevante Support Informationen
-!Erklärung ...
-
-.Endpunkt Support Informationen finden
-image::endpoint_support_view.png[Endpunkt Support Informationen finden]
-
-.Endpunkt Support Informationen anzeigen
-image::endpoint_support_info_button.png[Endpunkt Support Informationen anzeigen]
-
-.Endpunkt Support Informationen ablesen
-image::endpoint_support_info.png[Endpunkt Support Informationen ablesen]
-
-.Endpunkt Support Informationen in den Zwischenspeicher kopieren
-image::endpoint_support_copy.png[Endpunkt Support Informationen in den Zwischenspeicher kopieren]
-
-.Support direkt kontaktieren
-image::endpoint_support_contact.png[Support direkt kontaktieren]
-
-== Benutzerkonto erstellen
+=== Benutzerkonto erstellen
 Wenn du im Help Center ein Benutzerkonto erstellst, hast du Zugriff auf alle deine Fehlerberichte und Anfragen und auf Berichte und Anfragen, die andere Benutzer mit dir geteilt haben.
 
 . Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
@@ -105,34 +87,42 @@ Wenn du im Help Center ein Benutzerkonto erstellst, hast du Zugriff auf alle dei
 [.result]#Die Startseite des Help Center wird angezeigt.#
 
 
+== Systemmonitor
 
-== Service und Status Monitoring
+Wenn gar keine Daten mehr empfangen oder versendet werden können, ist das Portal vielleicht kurzzeitig nicht aktiv.
+Trotz einer Verfügbarkeit von über 99% kann es hin und wieder vorkommen, dass wir einzelne Funktionen des agrirouter für ein Update oder eine Fehlerkorrektur kurzzeitig vom Netz nehmen müssen.
+Du kannst dir den Systemstatus des Portals anzeigen lassen:
 
-Das aktuelle System Status kann unter folgender URL: https://agrirouter.statuspage.io/ angesehen werden.
+. Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter.statuspage.io^] .
+[.result]#Der Systemmonitor wird angezeigt.#
+. Klicke das Icon *_Ausklappen_* image:ar_foldout.icon.png[add, 30, 30] im Abschnitt `agrirouter Production`.
+[.result]#Der Systemstatus der letzten 90 Tage wird grafisch dargestellt.#
 
-=== Service Definition
+image::support_system_status.png[Systemstatus]
+
+Folgende Systemfunktionen werden vom Monitor überwacht:
+
 [cols="2,4",options="header",]
 |=======================================================================================
-|Service |Beschreibung
-|User Interface Service |Monitoring if the login in the user interface is possible.
-|Onboarding  Service |Monitoring if it is possible to create a registration code and onboard a device or software application to agrirouter.
-|Capability Message Service |Monitoring if it is possible to send a capability message to agrirouter including a confirmation from agrirouter.
-|Content Message Service |Monitoring if it is possible to send a content message to another endpoint and receiving the same massage as a recipient.
+|Systemfunktion |Beschreibung
+|User Interface |Ist die Anmeldung am Benutzerkonto möglich?
+|Onboarding Service |Kann ein Endpunkt hinzugefügt und ein Registrierungscode erzeugt werden?
+|Capability Message Service |Kann ein Endpunkt seine Fähigkeiten im agrirouter registrieren?
+|Content Message Service |Können Endpunkte Daten austauschen?
 |=======================================================================================
+
+Folgende Systemstati sind möglich:
 
 === System Status Definition
 [cols="2,4",options="header",]
 |=======================================================================================
-|System Status |Beschreibung
-|operational |The component is currently being worked on.
-|under maintenance |The component is currently being worked on.
-|degraded performance |The components are working but are slow or otherwise impacted in a minor way. The component response time is longer than expected.
-|partial outage |The components are completely broken for a subset of customers but is working for the other.
-|major outage |The components are completely unavailable.
+|Systemstatus |Beschreibung
+|operational |Die Systemfunktion ist voll verfügbar.
+|under maintenance |Die Systemfunktion wird aktuell gewartet und ist nicht verfügbar.
+|degraded performance |Die Systemfunktion ist eingeschränkt verfügbar. Das System antwortet langsamer als erwartet.
+|partial outage |Die Systemfunktion steht nicht mehr allen Benutzer zur Verfügung.
+|major outage |Die Systemfunktion ist nicht verfügbar.
 |=======================================================================================
-
-.System Status
-image::support_system_status.png[System Status]
 
 == Fernwartung mit TeamViewer
 !Erklärung ...
