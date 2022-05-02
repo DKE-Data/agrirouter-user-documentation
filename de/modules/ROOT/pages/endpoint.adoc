@@ -19,13 +19,13 @@ Maschine:: Eine angehängte, gezogene oder selbstfahrende landwirtschaftliche Ma
 
 Agrarsoftware:: Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
 
-Verbundenes Konto:: Das Konto eines anderen Benutzers.
+Verbundenes Konto:: Das Konto eines anderen Benutzers, z.B. eines Lohnunternehmers, der für dich tätig ist.
 
 Externe Maschine:: Maschine, die zu einem verbundenen Konto gehört.
 
 image::ar_overview.png[Overview]
 
-Jeder Endpunkt kann Daten senden und empfangen.
+Endpunkte können Daten senden und/oder empfangen.
 Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen. (=> Kapitel xref:routing.adoc[Routing]).
 
 
@@ -78,9 +78,11 @@ image::ar_endpoint-item.legend.png[Endpoint list item, 250, float=right]
 --
 
 === Maschine verbinden
-Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter. In der Endpunkteliste wird daher nicht die Maschine, sondern die Telemetrie-Einheit angezeigt. Du kannst aber den Namen des Listeneintrags ändern.
+Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter. In der Endpunkteliste werden die Telemetrie-Einheit und die Maschine angezeigt. Du kannst den Namen der Listeneinträge ändern.
 
+////
 NOTE: Eine Ausnahme bilden ISOBUS-Maschinen. Es wird die Maschine in der Endpunkteliste angezeigt, nicht die Telemetrie-Einheit.
+////
 
 . Klicke den Button *_+ Telemetrie-Verbindung_*.
 [.result]#Das Fenster `Telemetrie-Verbindung auswählen` wird angezeigt.#
@@ -100,7 +102,7 @@ Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code 
 [start=4]
 . Gebe den Registrierungscode an der Telemetrie-Einheit ein.
 . Klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].
-[.result]#Die Telemetrie-Einheit wird in der Endpunkteliste angezeigt.#
+[.result]#Die Telemetrie-Einheit und die Maschine werden in der Endpunkteliste angezeigt.#
 . Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben.
 
 NOTE: Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
@@ -178,15 +180,16 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 Die Detailansicht ist in die Reiter `Senden an`, `Empfangen von`, `Gruppen`, `Details` und `Fähigkeiten` unterteilt.
 
 === Senden an
-Abgehende Routen und Sende-Regeln verwaltest du in diesem Reiter. Er enthält eine Liste der Empfänger.
-Empfänger sind Endpunkte und Gruppen, an welche der Endpunkt Daten sendet.
+Der Reiter enthält eine Liste der Empfänger.
+Sender sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt.
+Du verwaltest abgehende Routen und Sende-Regeln.
 
 Du kannst
 
 * Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
 * definieren, welche Nachrichten der Endpunkt an den Empfänger sendet
 
-NOTE: Die Liste der Empfänger ist auch bei einem neuen Endpunkt nicht leer. Bei Erstellung des Endpunktes wird automatisch ein Standard-Empfänger zugewiesen.
+NOTE: Die Liste der Empfänger ist auch bei einem neuen Endpunkt nicht leer. Der neue Endpunkt ist automatisch Mitglied einer Standard-Gruppe, die in der Liste der Empfänger angezeigt wird.
 
 ==== Empfänger hinzufügen
 Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt:
@@ -209,7 +212,7 @@ Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt:
 
 NOTE: Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom Empfänger verarbeitet werden können.
 
-NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten an den Empfänger gesendet werden können.
+NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch bis zu 2 Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten an den Empfänger gesendet werden können.
 
 IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
 
@@ -228,16 +231,16 @@ IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte
 
 
 === Empfangen von
-Eingehende Routen und Empfangs-Regeln verwaltest du in diesem Reiter. Er enthält eine Liste der Sender.
+Der Reiter enthält eine Liste der Sender.
 Sender sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt.
+Du verwaltest eingehende Routen und Empfangs-Regeln.
 
 Du kannst
 
 * Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, 30, 30]
 * definieren, welche Nachrichten der Endpunkt vom Sender empfängt
 
-
-NOTE: Die Liste der Sender ist auch bei einem neuen Endpunkt nicht leer. Bei Erstellung des Endpunktes wird automatisch ein Standard-Sender zugewiesen.
+NOTE: Die Liste der Sender ist auch bei einem neuen Endpunkt nicht leer. Der neue Endpunkt ist automatisch Mitglied einer Standard-Gruppe, die in der Liste der Sender angezeigt wird.
 
 ==== Sender hinzufügen
 Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt:
@@ -263,7 +266,7 @@ Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt:
 
 NOTE: Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom Endpunkt verarbeitet werden können.
 
-NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch mehrere Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten vom Sender empfangen werden können.
+NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch bis zu 2 Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten vom Sender empfangen werden können.
 
 IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Telemetrie-Daten verarbeiten können.
 
@@ -290,8 +293,8 @@ xref:routing.adoc[Klicke diesen Link] und erfahre mehr über Gruppen.
 === Details
 Der Reiter enthält Informationen zum Endpunkt und zum Postfach.
 
-Die Daten im Reiter werden automatisch aktualisiert.
-Aktualisiere manuell, wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:
+Die Daten im Reiter werden nicht automatisch aktualisiert.
+Aktualisiere, wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:
 
 . Klicke das Icon *_Aktualisieren_*  image:ar_refresh.icon.png[refresh, 30, 30].
 [.result]#Der Reiter `Details` wird aktualisiert.#
@@ -309,14 +312,11 @@ Du kannst
 * den Endpunkt löschen,
 * die Diagnoseinformationen eines Endpunktes abfragen.
 
-Bearbeite den Endpunkt wie folgt:
-
-. Wähle den Endpunkt in der Endpunkteliste.
-[.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
-
 === Name und Beschreibung ändern
 Ändere Name und Beschreibung des Endpunktes wie folgt:
 
+. Wähle den Endpunkt in der Endpunkteliste.
+[.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
 . Klicke den Button *_Bearbeiten_*.
 [.result]#Das Formular `Endpunkt bearbeiten` wird angezeigt.#
 . Gebe Namen und Beschreibung ein und klicke *_Bestätigen_*.
@@ -326,6 +326,8 @@ Bearbeite den Endpunkt wie folgt:
 === Deaktivieren
 Wenn der Endpunkt keine Nachrichten mehr verarbeiten soll, deaktiviere ihn:
 
+. Wähle den Endpunkt in der Endpunkteliste.
+[.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
 . Setze den Schalter *_Aktiv_* auf `AUS`.
 [.result]#Der Endpunkt ist deaktiviert.#
 [.result]#Der Endpunkt bleibt in der Endpunkteliste sichtbar.#
@@ -333,7 +335,7 @@ Wenn der Endpunkt keine Nachrichten mehr verarbeiten soll, deaktiviere ihn:
 Wenn der Endpunkt Nachrichten empfangen oder versenden soll, aktiviere ihn:
 
 . Wähle den Endpunkt in der Endpunkteliste.
-[.result]#Die Details des Endpunktes werden rechts neben der Liste angezeigt.#
+[.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
 . Setze den Schalter *_Aktiv_* auf `AN`.
 [.result]#Der Endpunkt ist aktiviert.#
 
@@ -344,6 +346,8 @@ Wenn der Endpunkt nicht mehr benötigt wird, lösche ihn:
 --
 image::ar_endpoint-delete.png[Delete endpoint, 200, float=right]
 
+. Wähle den Endpunkt in der Endpunkteliste.
+[.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
 . Klicke den Button *_Löschen_*.
 [.result]#Ein Meldungsfenster wird angezeigt.#
 . Bestätige die Abfrage mit *_OK_*.
@@ -379,3 +383,4 @@ image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
 --
 
 TIP: Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um die Diagnoseinformationen in die Zwischenablage zu kopieren.
+TIP: Klicke xref:support.adoc#support[diesen Link] für weitere Informationen zu Service & Support.
