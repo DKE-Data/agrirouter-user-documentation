@@ -26,12 +26,12 @@ Anchor in anderem Dokument referenzieren: xref:group#mitglieder[Mein optionaler 
 
 
 == Benutzerkonto erstellen
-Zur Nutzung des agrirouter benÃ¶tigst du ein Benutzerkonto.
+Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
 
 ////
-Syntax fÃ¼r einen Rahmen:
+Syntax für einen Rahmen:
 -- = einfacher Block, ohne Optik
----- = Block mit dÃ¼nnem Rahmen
+---- = Block mit dünnem Rahmen
 ==== = Block mit dickem Rahmen
 ////
 
@@ -40,13 +40,13 @@ Syntax fÃ¼r einen Rahmen:
 --
 image::ar_register-select.png[Select Register, 200, float=right]
 
-. Ã–ffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
+. Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
 . Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].
 [.result]#Eine Auswahlliste wird angezeigt.#
-. WÃ¤hle `Registrieren`.
+. Wähle `Registrieren`.
 [.result]#Das Formular `Benutzerregistrierung` wird angezeigt.#
-. FÃ¼lle die mit einem roten Sternchen markierten Pflichtfelder aus und klicke den Button *_Registrieren_*.
-[.result]#Du erhÃ¤lst eine E-Mail mit dem Aktivierungslink.#
+. Fülle die mit einem roten Sternchen markierten Pflichtfelder aus und klicke den Button *_Registrieren_*.
+[.result]#Du erhälst eine E-Mail mit dem Aktivierungslink.#
 . Klicke in der E-Mail den Button *_ACCOUNT AKTIVIEREN_*.
 [.result]#Das Formular `Benutzerkonto aktivieren` wird angezeigt:#
 --
@@ -63,7 +63,7 @@ image::ar_activation-form-filled-in.png[Activate form]
 Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
 TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
 
-NOTE: Notiere E-Mail-Adresse und Passwort. Diese benÃ¶tigst du, um dich am agrirouter anzumelden.
+NOTE: Notiere E-Mail-Adresse und Passwort. Diese benötigst du, um dich am agrirouter anzumelden.
 
 
 == Anmelden
@@ -72,10 +72,10 @@ NOTE: Notiere E-Mail-Adresse und Passwort. Diese benÃ¶tigst du, um dich am agr
 --
 image::ar_logon-select.png[Select Log on, 200, float=right]
 
-. Ã–ffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
+. Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
 . Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].
 [.result]#Eine Auswahlliste wird angezeigt.#
-. WÃ¤hle `Login`.
+. Wähle `Login`.
 [.result]#Das Formular `Anmelden` wird angezeigt.#
 . Gebe E-Mail-Adresse und Passwort ein.
 . Aktiviere die Checkbox "_Angemeldet bleiben_".
@@ -87,10 +87,10 @@ image::ar_logon.png[Log on form]
 . Klicke den Button *_Anmelden_*.
 [.result]#Das Dashboard wird angezeigt.#
 
-NOTE: Wenn du "_Angemeldet bleiben_" aktiviert hast, Ã¶ffnet sich bei der nÃ¤chsten Anmeldung das Dashboard, ohne dass du E-Mail-Adresse und Passwort eingeben musst.
+NOTE: Wenn du "_Angemeldet bleiben_" aktiviert hast, öffnet sich bei der nächsten Anmeldung das Dashboard, ohne dass du E-Mail-Adresse und Passwort eingeben musst.
 
 
-== Benutzerdaten Ã¤ndern
+== Benutzerdaten ändern
 
 . Klicke die Kachel *_Kontoverwaltung_*.
 [.result]#Die `Kontoverwaltung` wird angezeigt:# + 
@@ -100,21 +100,21 @@ image::ar_account-mgmt.png[Account management]
 [start=2]
 . Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zum Ansprechpartner`.
 [.result]#Das Formular `Daten Ansprechpartner bearbeiten` wird angezeigt.#
-. Gebe die neuen Werte ein und klicke den Button *_BestÃ¤tigen_*.
+. Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*.
 . Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.
 [.result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#
-. Gebe die neuen Werte ein und klicke den Button *_BestÃ¤tigen_*.
-. Klicke den Button *_Email-Adresse Ã¤ndern_* im Abschnitt `Angaben zum Ansprechpartner`.
-[.result]#Das Formular `Email-Adresse Ã¤ndern` wird angezeigt.#
-. Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke den Button *_BestÃ¤tigen_*.
+. Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*.
+. Klicke den Button *_Email-Adresse ändern_* im Abschnitt `Angaben zum Ansprechpartner`.
+[.result]#Das Formular `Email-Adresse ändern` wird angezeigt.#
+. Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke den Button *_Bestätigen_*.
 . Klicke den Button *_Startseite_*.
 [.result]#Das Dashboard wird angezeigt.#
 
-NOTE: Verwende bei der nÃ¤chsten Anmeldung die neue E-Mail-Adresse.
+NOTE: Verwende bei der nächsten Anmeldung die neue E-Mail-Adresse.
 
 
-== Konto lÃ¶schen
-LÃ¶sche das Benutzerkonto, wenn du es nicht mehr benÃ¶tigst:
+== Konto löschen
+Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:
 
 [.float-group]
 --
@@ -122,25 +122,25 @@ image::ar_account-mgmt-tile.png[Account Management Tile, 200, float=right]
 
 . Klicke die Kachel *_Kontoverwaltung_*.
 [.result]#Die `Kontoverwaltung` wird angezeigt.#
-. Klicke den Button *_Konto lÃ¶schen_*.
+. Klicke den Button *_Konto löschen_*.
 [.result]#Ein Meldungsfenster wird angezeigt.#
 . Klicke den Button *_OK_*.
-[.result]#Das Formular `BestÃ¤tigung` wird angezeigt.#
+[.result]#Das Formular `Bestätigung` wird angezeigt.#
 --
 
 [start=4]
-. Gebe dein Passwort ein und klicke den Button *_BestÃ¤tigen_*.
-[.result]#Das Konto wird gelÃ¶scht.#
+. Gebe dein Passwort ein und klicke den Button *_Bestätigen_*.
+[.result]#Das Konto wird gelöscht.#
 [.result]#Ein Meldungsfenster wird angezeigt.#
 . Klicke den Button *_OK_*.
 
 image::ar_account-delete-success.png[Account deleted]
 
 
-WARNING: Alle Einstellungen und Benutzerdaten sowie alle Endpunkte und deren PostfÃ¤cher werden gelÃ¶scht und kÃ¶nnen nicht wieder hergestellt werden.
+WARNING: Alle Einstellungen und Benutzerdaten sowie alle Endpunkte und deren Postfächer werden gelöscht und können nicht wieder hergestellt werden.
 
 == Einstellungen
-Ansicht und Inhalt des Dashboard und die Darstellung von Benachrichtigungen kÃ¶nnen eingestellt werden.
+Ansicht und Inhalt des Dashboard und die Darstellung von Benachrichtigungen können eingestellt werden.
 
 [.float-group]
 --
@@ -148,33 +148,33 @@ image::ar_profile-menue.png[Profile menue, 150, float=right]
 
 . Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].
 [.result]#Eine Auswahlliste wird angezeigt.#
-. WÃ¤hle *_Einstellungen_* image:ar_settings.icon.png[logon, 30, 30].
+. Wähle *_Einstellungen_* image:ar_settings.icon.png[logon, 30, 30].
 [.result]#Das Fenster `Einstellungen` wird angezegt.#
-[.result]#Links befindet sich die Liste der Einstellungen, rechts die Details zum gewÃ¤hlten Listeneintrag.#
-. Ã„ndere die Einstellungen wie in den folgenden Kapiteln beschrieben und klicke dann den Button *_Sichern_*:
+[.result]#Links befindet sich die Liste der Einstellungen, rechts die Details zum gewählten Listeneintrag.#
+. Ändere die Einstellungen wie in den folgenden Kapiteln beschrieben und klicke dann den Button *_Sichern_*:
 --
 
 image::ar_settings-page.png[Settings]
 
 
 === Ansicht
-Im Reiter `Theme` wÃ¤hlst du zwischen hellem und dunklem Design der BenutzeroberflÃ¤che. + 
-Im Reiter `Anzeigeeinstellungen` stellst du die GrÃ¶ÃŸe der Bedienelemente ein und aktivierst die Animationen.
+Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche. + 
+Im Reiter `Anzeigeeinstellungen` stellst du die GröÃŸe der Bedienelemente ein und aktivierst die Animationen.
 
 
 . Klicke den Button *_Erscheinungsbild_*.
-. Klicke den Reiter `Theme` und wÃ¤hle das Design.
+. Klicke den Reiter `Theme` und wähle das Design.
 . Klicke den Reiter `Anzeigeeinstellungen`.
 [.result]#Die Optionen werden angezeigt.#
 . Schalte *_GroÃŸe Interaktionselemente_* an.
-[.result]#Die Icons, Buttons und Kacheln werden in der maximalen GrÃ¶ÃŸe angezeigt.#
-. WÃ¤hle in der Auswahlliste *_Animation_* die Option `Voll`.
+[.result]#Die Icons, Buttons und Kacheln werden in der maximalen GröÃŸe angezeigt.#
+. Wähle in der Auswahlliste *_Animation_* die Option `Voll`.
 
 [NOTE]
 ====
-WÃ¤hle auf einem leistungsschwachen PC, Laptop oder Tablet in der Auswahlliste *_Animation_* die Option `Minimal`.
+Wähle auf einem leistungsschwachen PC, Laptop oder Tablet in der Auswahlliste *_Animation_* die Option `Minimal`.
 
-Schalte auf GerÃ¤ten mit kleinem Bildschirm *_GroÃŸe Interaktionselemente_* aus.
+Schalte auf Geräten mit kleinem Bildschirm *_GroÃŸe Interaktionselemente_* aus.
 ====
 
 === Startseite
@@ -183,14 +183,14 @@ Das Dashboard ist in 4 Reiter aufgeteilt.
 Zeige die Inhalte aller Reiter auf einer Seite an wie folgt:
 
 . Klicke den Button *_Startseite_*.
-. WÃ¤hle *_SÃ¤mtlichen Inhalt anzeigen_*.
+. Wähle *_Sämtlichen Inhalt anzeigen_*.
 
 NOTE: Dies ist die empfohlene Einstellung.
 
-Zeige den Inhalt des gewÃ¤hlten Reiters an wie folgt:
+Zeige den Inhalt des gewählten Reiters an wie folgt:
 
 . Klicke den Button *_Startseite_*.
-. WÃ¤hle *_Eine Gruppe auf einmal anzeigen_*.
+. Wähle *_Eine Gruppe auf einmal anzeigen_*.
 
 === Benachrichtigungen
 Diese Einstellungen werden vom Programm nicht verwendet.
@@ -200,4 +200,4 @@ Die Sprache stellst Du in der `Kontoverwaltung` im Abschnitt `Angaben zum Anspre
 
 . Gehe vor wie im Kapitel `Benutzerdaten` beschrieben.
 
-Region, Datum- und Zeitformat kÃ¶nnen nicht eingestellt werden.
+Region, Datum- und Zeitformat können nicht eingestellt werden.
