@@ -7,27 +7,26 @@ Wilkommen im agrirouter Benutzerhandbuch! Der agrirouter ist eine universelle Da
 Mit dem agrirouter können Maschinen, Agrarsoftware und Hersteller-Portale herstellerübergreifend Daten austauschen.
 
 == Über diese Anleitung
-Das agrirouter Benutzerhandbuch wird dir zeigen, wie du einen kostenlosen agrirouter-Account erstellst. Außerdem zeigen wir dir, wie du deinen agrirouter einrichtest und benutzt.
 
 Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der Einrichtung und Nutzung des agrirouter:
 
-Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
-[.result]#Finde im xref:account.adoc[Kapitel `Konto`] heraus, wie du das Konto einrichtest und verwaltest.#
+Zur Nutzung des agrirouter benötigst du ein Benutzerkonto:
+[.result]#Das Kapitel xref:account.adoc[Konto] beschreibt, wie du das Konto einrichtest und verwaltest.#
 
-Wenn du dich angemeldet hast, wird das <<Dashboard>> angezeigt, über das du Zugriff auf alle Funktionen des agrirouter hast.
+Wenn du dich angemeldet hast, wird das <<Dashboard>> angezeigt:
+[.result]#Im Dashboard hast du Zugriff auf alle Funktionen des agrirouter.#
 
 Die Benutzeroberfläche richtest Du in den xref:account.adoc#einstellungen[Einstellungen] ein.
 
-Damit sie über den agrirouter Daten austauschen können, legst du für jede Maschine und Agrarsoftware einen <<Endpunkt>> an.
-[.result]#Finde im xref:endpoint.adoc#maschine-verbinden[Kapitel `Maschine verbinden`] heraus, wie du einen Endpunkt hinzufügst.#
+Damit Maschinen und Agrarsoftware über den agrirouter Daten austauschen können, musst du sie als <<Endpunkt,Endpunkte>> registrieren.
+[.result]#Das Kapitel xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] beschreibt, wie du einen Endpunkt hinzufügst.#
 
-Über <<Route,Routen>> legst du fest, ob der Endpunkt Daten sendet oder empfängt und welche Inhalte ausgetauscht werden.
-Den Datenversand richtest du xref:endpoint.adoc#senden-an[so] ein, den Datenempfang xref:endpoint.adoc#empfangen-von[so].
+Über <<Route,Routen>> legst du fest, welche Daten der Endpunkt sendet oder empfängt.
+[.result]#Den Datenversand richtest du xref:endpoint.adoc#senden-an[so] ein, den Datenempfang xref:endpoint.adoc#empfangen-von[so].#
 
 Du kannst Endpunkte in <<Gruppe, Gruppen>> zusammenfassen, dann musst du das Routing nur xref:endpoint.adoc#senden-an[einmal einrichten].
-Lies nach, wie du eine xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügst] und das Routing für die Gruppe xref:group.adoc#senden-an[einrichtest].
-
-Beispiele für spezielle Routen findest du xref:routing.adoc[hier...].
+[.result]#Lies nach, wie du eine xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügst] und das Routing für die Gruppe xref:group.adoc#senden-an[einrichtest].#
+[.result]#Beispiele für häufig verwendete Routen findest du xref:routing.adoc[hier...].#
 
 == Grundlagen
 Es folgen in alphabetischer Reihenfolge einige grundlegende Begriffe und Konzepte, die du kennen solltest, wenn du den agrirouter nutzt.
