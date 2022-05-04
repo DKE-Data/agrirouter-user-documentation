@@ -11,21 +11,25 @@ Mit dem agrirouter können Maschinen, Agrarsoftware und Hersteller-Portale herst
 Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der Einrichtung und Nutzung des agrirouter:
 
 Zur Nutzung des agrirouter benötigst du ein Benutzerkonto:
-[.result]#Das Kapitel xref:account.adoc[Konto] beschreibt, wie du das Konto einrichtest und verwaltest.#
+[.result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account.adoc[Konto] beschrieben.#
 
-Wenn du dich angemeldet hast, wird das <<Dashboard>> angezeigt:
-[.result]#Im Dashboard hast du Zugriff auf alle Funktionen des agrirouter.#
+Wenn du dich am agrirouter anmeldest, wird deine persönliche Startseite, das <<Dashboard>>, angezeigt:
+[.result]#Hier hast du Zugriff auf alle Funktionen des agrirouter.#
 
-Die Benutzeroberfläche richtest Du in den xref:account.adoc#einstellungen[Einstellungen] ein.
+Du kannst die Ansicht deines Dashboards einrichten.
+[.result]#Ändere die Einstellungen, wie im Kapitel xref:account.adoc#einstellungen[Einstellungen] beschrieben.#
 
-Damit Maschinen und Agrarsoftware über den agrirouter Daten austauschen können, musst du sie als <<Endpunkt,Endpunkte>> registrieren.
-[.result]#Das Kapitel xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] beschreibt, wie du einen Endpunkt hinzufügst.#
+Maschinen und Agrarsoftware können Daten austauschen, wenn du sie im agrirouter als <<Endpunkt,Endpunkte>> registriert hast.
+[.result]#Füge Endpunkte hinzu, wie im Kapitel xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] beschrieben.#
 
-Über <<Route,Routen>> legst du fest, welche Daten der Endpunkt sendet oder empfängt.
-[.result]#Den Datenversand richtest du xref:endpoint.adoc#senden-an[so] ein, den Datenempfang xref:endpoint.adoc#empfangen-von[so].#
+Das <<Route,Routing>> legt fest, welche Daten ein Endpunkt sendet oder empfängt.
+[.result]#Soll der Endpunkt Daten versenden, folge der Anleitung im Kapitel xref:endpoint.adoc#senden-an[Senden an].#
+[.result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint.adoc#empfangen-von[Empfangen von].#
 
-Du kannst Endpunkte in <<Gruppe, Gruppen>> zusammenfassen, dann musst du das Routing nur xref:endpoint.adoc#senden-an[einmal einrichten].
-[.result]#Lies nach, wie du eine xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügst] und das Routing für die Gruppe xref:group.adoc#senden-an[einrichtest].#
+Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du das Routing nur für die Gruppe und nicht für jedes Mitglied der Gruppe einrichten.
+[.result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügen] beschrieben.#
+[.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel xref:group.adoc#senden-an[Senden an].#
+[.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im Kapitel xref:group.adoc#empfangen-von[Empfangen von].#
 [.result]#Beispiele für häufig verwendete Routen findest du xref:routing.adoc[hier...].#
 
 == Grundlagen
