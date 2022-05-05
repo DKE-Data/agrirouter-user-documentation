@@ -74,12 +74,6 @@ Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitg
 Gruppen erstellst und verwaltest du im Kontrollzentrum. 
 Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts befindet sich die Detailansicht image:two_bk.icon.png[two, 30, 30].
 
-. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
-[.result]#Das Kontrollzentrum wird angezeigt.#
-. Klicke den Button *_Gruppen_*.
-[.result]#Links wird die Gruppenliste angezeigt.#
-[.result]#Rechts wird die Detailansicht angezeigt.#
-
 image::ar_group-view.legend.png[Groups legend]
 
 === Kontrollzentrum
@@ -113,18 +107,23 @@ NOTE: Ohne eine Route können Endpunkte keine Nachrichten austauschen.
 
 === Standard-Gruppen
 
-Im agrirouter gibt es zwei vordefinierte Standard-Gruppen, die du nicht löschen oder bearbeiten kannst:
+Im agrirouter gibt es zwei vordefinierte Standard-Gruppen:
 
 * Maschinen-Gruppe
 * Agrarsoftware-Gruppe
+
+Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: + 
+Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. + 
 
 Jeder Endpunkt, den du hinzufügst, ist automatisch Mitglied in einer der beiden Standard-Gruppen:
 
 * Telemetrie-Einheiten und Maschinen sind Mitglied in der Maschinen-Gruppe
 * Agrarsoftware und Hersteller-Plattformen sind Mitglied in der Agrarsoftware-Gruppe
 
-Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: + 
-Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden.
+[NOTE]
+====
+Du kannst Mitglieder hinzufügen oder Mitglieder entfernen. Das eingestellte Routing kann nicht geändert werden und die beiden Gruppen können nicht gelöscht werden.
+====
 
 === Telemetriedaten
 Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. agrirouter unterstützt über 600 Datentypen, die in 12 Kategorien aufgeteilt sind:
