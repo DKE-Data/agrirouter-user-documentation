@@ -1,33 +1,20 @@
 :imagesdir: _images/
 :icons: font
 
-= Kontrollzentrum
+= Endpunkte
+Für jede Maschine und Agrarsoftware, die über den agrirouter Daten austauschen soll, musst du einen xref:introduction.adoc#endpunkt[Endpunkt^] anlegen.
+In diesem Abschnitt erfährst du
 
-Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und Routen image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- bzw. die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe angezeigt werden.
+* wie du einen Endpunkt hinzufügst, bearbeitest und löscht
+* wie du das xref:introduction.adoc#routing[Routing^] für den Endpunkt einstellst
 
-image::ar_control-center.legend.png[Control Center Overview]
+== Das xref:introduction.adoc#kontrollzentrum[Kontrollzentrum^]
+Öffne das Kontrollzentrum, um einen Endpunkt hinzuzufügen und zu verwalten:
 
-
-== Endpunkt-Typ
-Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
-Es gibt folgende Endpunkt-Typen:
-
-[unordered.stack]
-Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]
-
-Maschine:: Eine angehängte, gezogene oder selbstfahrende landwirtschaftliche Maschine, die mit einer Telemetrie-Einheit verbunden ist und eine Device Description bereitstellen kann. Die Maschine kann, muss aber nicht ISOBUS-kompatibel sein.
-
-Agrarsoftware:: Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
-
-Verbundenes Konto:: Das Konto eines anderen Benutzers, z.B. eines Lohnunternehmers, der für dich tätig ist.
-
-Externe Maschine:: Maschine, die zu einem verbundenen Konto gehört.
-
-image::ar_overview.png[Overview]
-
-Endpunkte können Daten senden und/oder empfangen.
-Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen. (=> Kapitel xref:routing.adoc[Routing]).
-
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
+[.result]#Das Kontrollzentrum wird geöffnet.#
+[.result]#Links wird die Endpunkteliste angezeigt.#
+[.result]#Rechts wird die Detailansicht angezeigt.#
 
 == Endpunkteliste
 [.float-group]
