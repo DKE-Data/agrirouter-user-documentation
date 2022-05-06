@@ -3,13 +3,16 @@
 
 = Service & Support
 
-== Support
-Wir helfen, wenn du eine Frage zur Bedienung hast oder bei der Nutzung ein Problem auftaucht. Du kannst
+In diesem Abschnitt erfährst du,
 
-* uns über das Help Center einen Fehlerbericht oder eine Anfrage senden
-* uns eine E-Mail senden
-* unsere Hotline (de/en/fr) anrufen
-* mit TeamViewer deinen Bildschirminhalt mit uns teilen
+* wie du im Help Center einen Fehlerbericht oder eine Anfrage erstellst
+* über welche E-Mail-Adresse und Telefonnummern du unser Support-Team erreichst
+* wie du deinen Bildschirminhalt mit uns teilst
+* wie du prüfst, ob der agrirouter verfügbar ist
+
+== Support
+
+Unser Support-Team hilft, wenn du eine Frage zur Bedienung hast oder bei der Nutzung das agrirouter ein Problem auftaucht.
 
 [NOTE]
 ====
@@ -20,7 +23,7 @@ Falls du ein Problem mit einem Endpunkt hast, benötigen wir die Diagnoseinforma
 * Endpunktsoftware-ID
 * Endpunktsoftware-Version-ID
 
-Diese Informationen findest du in den Support-Informationen des Endpunktes:
+Diese Daten findest du in den Support-Informationen des Endpunktes:
 
 [.float-group]
 --
@@ -109,9 +112,9 @@ NOTE: ID und Passwort findest du auf der Startseite von TeamViewer unter der Üb
 
 === Systemmonitor
 
-Wenn gar keine Daten mehr empfangen oder versendet werden können, ist das Portal vielleicht kurzzeitig nicht aktiv.
 Trotz einer Verfügbarkeit von über 99% kann es hin und wieder vorkommen, dass wir einzelne Funktionen des agrirouter für ein Update oder eine Fehlerkorrektur kurzzeitig vom Netz nehmen müssen.
-Du kannst dir den Systemstatus des Portals anzeigen lassen:
+Wenn deine Endpunkte also keine Daten mehr empfangen oder versenden können, kannst du dir den Systemstatus des agrirouter anzeigen lassen:
+
 
 . Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter.statuspage.io^] .
 [.result]#Der Systemmonitor wird angezeigt.#
@@ -119,6 +122,9 @@ Du kannst dir den Systemstatus des Portals anzeigen lassen:
 [.result]#Der Systemstatus der letzten 90 Tage wird grafisch dargestellt.#
 
 image::ar_sysmon.png[Systemmonitor]
+
+NOTE: Die Daten, die nicht versendet werden können, während der agrirouter offline ist, gehen nicht verloren. Sie werden im Postausgang des Endpunktes gespeichert und automatisch versendet, wenn der agrirouter wieder online geht.
+
 
 Diese Systemfunktionen werden vom Monitor überwacht:
 
