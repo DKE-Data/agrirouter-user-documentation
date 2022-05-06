@@ -3,63 +3,43 @@
 
 = Routing
 
-Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
+Eine xref:introduction.adoc#route[Route] ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
 
 Das Routing regelt den Datenverkehr auf den Routen.
-Du definierst
 
-* zwischen welchen Endpunkten Daten ausgetauscht werden
-* in welche Richtung die Daten fließen
-* welche Nachrichten ausgetauscht werden
-* ob und welche Echtzeitdaten ausgetauscht werden
+In diesem Abschnitt erfährst du
 
-NOTE: Ohne eine Route können Endpunkte keine Nachrichten austauschen.
+* wann und welche Routen automatisch angelegt werden
+* an Beispielen, wie du eine Route anlegst
 
-NOTE: Beim Anlegen einer Route werden nur Nachrichten angeboten, welche von Sender und Empfänger verarbeitet werden können.
-
-
-Lege für ein neues Routing zunächst fest, ob der Endpunkt etwas senden oder empfangen soll.
-
-Echtzeitdaten
-Wähle aus über 600 möglichen Werten an Echtzeitdaten. Diese sind zur besseren Übersicht in 12 Kategorien aufgeteilt.
-Darunter fallen z.B. die Geschwindigkeit einer Maschine oder die Positionsdaten.
 
 == Automatisch angelegte Routen
-!Erklärung ...
 
-Verweis auf link:https://manual.my-agrirouter.com/de/manual/latest/group.html#standard-gruppe-agrar-software[Standard Gruppe "Agrar-Software"]
+Die ein- und abgehenden Routen sowie das Routing der beiden xref:introduction.adoc#standard-gruppen[Standard-Gruppen] werden vom System vorgegeben und können nicht geändert werden.
 
-Verweis auf link:https://manual.my-agrirouter.com/de/manual/latest/group.html#standard-gruppe-maschinen[Standard Gruppe "Maschinen"]
+#TODO#
+Sollen/können diese Routen beschrieben werden? Frage ist für jour fixe erfasst.
 
-== Automatisch angelegten Routen ändern
-!Erklärung ...
+#TODO#
+Diese Routen können nicht bearbeitet werden. Du kannst nur den Gruppen neue Mitglieder hinzufügen oder entfernen.
 
-Verweis auf link:https://manual.my-agrirouter.com/de/manual/latest/group.html#gruppenmitglieder-verwalten[Gruppenmitglieder verwalten]
+== Abgehende Routen
+Über eine abgehende Route sendest du Daten von einem Endpunkt oder einer Gruppe an einen Empfänger.
 
-== Route anlegen
-Die Routen von Maschinen, Agrarsoftware, Telemetrie-Einheiten und verbundenen Konten im Kontrollzentrum -> Endpunkteliste
-Die Routen von Gruppen im Kontrollzentrum -> Gruppenliste
+* Wie du eine abgehende Route für einen Endpunkt anlegst, bearbeitest und löscht, erfährst du hier...
+* Wie du eine abgehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du hier...
 
-== Route bearbeiten
+== Eingehende Routen
+Über eine eingehende Route empfängt der Endpunkt oder die Gruppe Daten von einem Sender.
 
-== Route löschen
+* Wie du eine eingehende Route für einen Endpunkt anlegst, bearbeitest und löscht, erfährst du hier...
+* Wie du eine eingehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du hier...
 
-== von Maschine zur Maschine
-!Erklärung ...
+== Häufig verwendete Routen
 
-== von Agrar-Software zur Agrar-Software
-!Erklärung ... 
+=== ...Maschine zu Maschine
 
-== von Kommunikationseinheit zur Agrar-Software
-!Erklärung ...
+=== ...Agrarsoftware zu Agrarsoftware
 
-== Aktivierung von manuell angelegten Routen
-!Erklärung ...
+=== ...Telemetrie-Einheit zu Agrarsoftware
 
-[NOTE]
-====
-Aktivierung der Routen kann bis zu 2,5 Minuten dauern!
-====
-
-.Aktivierung der Routen
-image::routing_activation.png[Aktivierung der Routen]
