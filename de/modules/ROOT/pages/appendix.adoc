@@ -16,10 +16,10 @@ Wir haben die DDIs zur besseren Übersichtlichkeit in Kategorien geordnet:
 #TODO#
 Du benötigst diese Info, wenn...
 
-== Guidance and Geo Data
+== GPS Positionsdaten und Guidance-Informationen
 
-Data related to geographical and guidance information.
-GPS Geo-Position (North and East Coordinates) where the telemetry data was measured or logged.
+GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die Telemetriedaten gemessen oder protokolliert wurden.
+Daten mit Bezug zu geografischen und Guidance.Informationen.
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -73,8 +73,8 @@ GPS Geo-Position (North and East Coordinates) where the telemetry data was measu
 |632 |Setpoint Tramline Condensed Work State (241-256) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
 |=======================================================================================
 
-== General Work Data
-Task and Lifetime Counter or average values (Counters that are not relevant for Application and or yield) 
+== Allgemeine Prozessdaten
+Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für Ausbringung und/oder Ertrag nicht relevant sind).
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -135,9 +135,9 @@ Task and Lifetime Counter or average values (Counters that are not relevant for 
 |602 |Lifetime Total Distance Street |General Work Data |Entire Total Distance on the street of the device lifetime
 |=======================================================================================
 
-== Fuel and Exhaust Fluid Consumption Data
+== Kraftstoff und Harnstofflösung
 
-Data related what a machine consumpt of fuel and Exhaust Fluid (Energy overall)
+Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von Maschinen (Gesamtenergieverbrauch).
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -164,9 +164,9 @@ Data related what a machine consumpt of fuel and Exhaust Fluid (Energy overall)
 |491 |Fuel Percentage Level |Fuel and Exhaust Fluid Consumption Data |The actual level of the machine fuel tank in percent.
 |=======================================================================================
 
-== Machine Data
+== Maschineneigenschaften
 
-Data related to the machine characteristics (not process relevant)
+Nicht prozessrelevante Daten zu den Maschineneigenschaften.
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -284,9 +284,9 @@ Data related to the machine characteristics (not process relevant)
 |643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
 |=======================================================================================
 
-== Application Data
+== Ausbringung
 
-Data related what is applied to the field (e.g. fertilizier, seeds, plant protection, dry matter,...)
+Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, Pflanzenschutzmittel, Trockenmasse, usw.).
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -402,9 +402,9 @@ Data related what is applied to the field (e.g. fertilizier, seeds, plant protec
 |49152 |Setpoint Droplet Size |Application Data |The setpoint for droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
 |=======================================================================================
 
-== Crop and Yield Data
+== Ertragsdaten
 
-Properties of harvested material
+Menge und Eigenschaften des Erntegutes
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -491,9 +491,9 @@ Properties of harvested material
 |654 |Last Bale Wrapping Film Layers |Crop and Yield Data |Wrapping film layers in the most recently produced bale
 |=======================================================================================
 
-== Process Data
+== Prozessdaten
 
-Data related to the main working process of the machine 
+Daten über den Hauptarbeitsprozess der Maschine.
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -701,9 +701,9 @@ Data related to the main working process of the machine
 |584 |Actual Frequency  |Process Data |Actual Frequency of Device Element specified as Hz
 |=======================================================================================
 
-== Environment Data
+== Umgebungsbedingungen
 
-Data related to the Environment (wheater data)
+Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit).
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -722,9 +722,9 @@ Data related to the Environment (wheater data)
 |587 |Previous Rainfall |Environment Data |DDI to document past rainfall conditions.
 |=======================================================================================
 
-== Basic Data
+== Basisdaten
 
-Fundamental values that are relevant for the whole system
+Grundlegende Werte, die für das gesamte System relevant sind.
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -755,9 +755,9 @@ Fundamental values that are relevant for the whole system
 |57343 |Request Default Process Data |Basic Data |Request Default Process Data. This DDE is the highest ISO assigned entity.  The range above this number is reserved for manufacture specific DDE's.
 |=======================================================================================
 
-== Machine Data (only PGN Data)
+== Maschinendaten (nur PGN)
 
-Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-Speed, etc.
+Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. Hubwerksposition, Zapfwellendrehzahl, etc.
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -765,9 +765,9 @@ Machine data related to PGN (Parameter Group Number); e.g. Hitch Position, PTO-S
 |57342 |PGN Based Data |Machine Data (only PGN Data) |This DDI is used in the XML files to identify PGN based data.
 |=======================================================================================
 
-== Proprietary Data
+== Proprietäre Daten
 
-Manufacturer specific data (not part of the standard)
+Herstellerspezifische Daten (nicht Bestandteil des Standards).
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -776,15 +776,15 @@ Manufacturer specific data (not part of the standard)
 |65535 |Reserved |Proprietary Data |Reserved
 |=======================================================================================
 
-== Soil Data
+== Bodendaten
 
-Conditions and sensor data about soil
+Bedingungen und Sensordaten zur Bodenbeschaffenheit.
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
-|468 |Soil Snow/Frozen Condtion |Soil Data |DDI to document the soil snow / frozen condition.
-|469 |Estimated Soil Water Condtion |Soil Data |DDI to document the estimated soil water condition.
+|468 |Soil Snow/Frozen Condition |Soil Data |DDI to document the soil snow / frozen condition.
+|469 |Estimated Soil Water Condition |Soil Data |DDI to document the estimated soil water condition.
 |470 |Soil Compaction |Soil Data |DDI to document the soil compaction.
 |550 |Ground Cover |Soil Data |The Ground Cover as an amount of soil that is covered by plants
 |655 |Electrical Apparent Soil Conductivity |Soil Data |Electrical conductivity also called the EC-Value.
