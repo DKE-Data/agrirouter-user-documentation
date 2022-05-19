@@ -3,18 +3,25 @@
 
 = Anhang A, DDI
 
-Im Folgenden findest du eine Auswahl von DDIs (Data Dictionary Identifier), die im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht sind.
-Eine DDI ist ein in der ISOBUS-Norm ISO 11783 definierter Maschinen- oder Prozessparameter.
+Viele Maschinen können während der Feldarbeit laufend anfallende Maschinen-, Positions- und Prozessparameter in Echtzeit versenden.
 
 Es gibt über 600 solcher Parameter, z.B. 
 
 * Soll- und Istwerte in den Auftragsdaten
 * Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten
 
-Wir haben die DDIs zur besseren Übersichtlichkeit in Kategorien geordnet:
+Wir haben die Parameter zur besseren Übersicht in 12 Kategorien zusammengefasst.
 
-#TODO#
-Du benötigst diese Info beim Routing von telemetriefähigen Endpunkten, wo man ja nuir diese Kategorien sehen kann. Diese Kategorien sind aber auf der VDE Seite nicht zu finden!
+Wenn du Routen für Endpunkte oder Gruppen erstellst, die Echtzeitdaten verarbeiten können, kannst du wählen, welche Kategorien ausgetauscht werden wählst du aus 12 Kategorien aus, nicht aus 600 Parametern. Damit du die richtige Kategorie wählen kannst, folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter.
+
+[NOTE]
+====
+Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + 
+Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht.
+====
+
+
+musst dann nur aus 12 Kategorien wählen, nicht aus 600 DDIs.
 
 == GPS Positionsdaten und Guidance-Informationen
 
