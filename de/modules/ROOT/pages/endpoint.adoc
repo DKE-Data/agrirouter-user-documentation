@@ -163,8 +163,11 @@ In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 * Details zum Endpunkt und dem Postfach
 * Fähigkeiten des Endpunktes
 // Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
+* die in einem verbundenen Konto sichtbaren Maschinen
 
-Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,Empfangen von>>, <<gruppen,Gruppen>>, <<details,Details>> und <<fähigkeiten,Fähigkeiten>> unterteilt.
+Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,Empfangen von>>, <<gruppen,Gruppen>>, <<details,Details>>, <<fähigkeiten,Fähigkeiten>> und <<externe-maschinen,Externe Maschinen>> unterteilt.
+
+NOTE: Die Zahl der angezeigten Reiter hängt vom Endpunkt-Typ ab. So wird etwa der Reiter `Externe Maschinen` nur bei verbundenen Konten angezeigt.
 
 === Senden an
 Der Reiter enthält eine Liste der Empfänger.
@@ -287,6 +290,13 @@ Aktualisiere, wenn du das Postfach auf eingehende oder verarbeitete Nachrichten 
 === Fähigkeiten
 Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen kann. + 
 Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht geändert werden.
+
+=== Externe Maschinen
+Dieser Reiter wird nur bei Endpunkten vom Typ `Verbundenes Konto` angezeigt.
+
+Im Reiter werden alle Maschinen angezeigt, die
+* zum verbundenen Konto gehören und
+* Echtzeitdaten verarbeiten können.
 
 
 == Endpunkt bearbeiten
