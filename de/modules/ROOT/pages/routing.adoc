@@ -7,7 +7,12 @@ Eine xref:introduction.adoc#route[Route] ist die Verbindung zwischen zwei Endpun
 
 Das Routing regelt den Datenverkehr auf den Routen.
 
-IMPORTANT: Der agrirouter transportiert Daten, bearbeitet oder speichert sie aber nicht.
+[IMPORTANT]
+====
+Der agrirouter transportiert Daten, bearbeitet oder speichert sie aber nicht. + 
+
+Eine Ausnahme bilden Daten, die nicht zugestellt werden können, z.B. weil der Empfänger offline ist. Der agrirouter puffert diese Daten für 4 Wochen. Ist der Empfänger während der gesamten Zeit nicht erreichbar, werden die Daten gelöscht.
+====
 
 In diesem Abschnitt erfährst du
 
