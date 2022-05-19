@@ -118,11 +118,12 @@ Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:
 . Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter.statuspage.io^] .
 [.result]#Der Systemmonitor wird angezeigt.#
 . Klicke das Icon *_Ausklappen_* image:ar_foldout.icon.png[add, 30, 30] im Abschnitt `agrirouter Production`.
-[.result]#Der Systemstatus der letzten 90 Tage wird grafisch dargestellt.#
+[.result]#Der aktuelle Systemstatus wird angezeigt image:one_bk.icon.png[one, 30, 30].#
+[.result]#Eine Zusammenfassung der letzten 90 Tage wird grafisch dargestellt image:two_bk.icon.png[two, 30, 30].#
 
-image::ar_sysmon.png[Systemmonitor]
+image::ar_sysmon.legend.png[Systemmonitor]
 
-NOTE: Die Daten, die nicht versendet werden können, während der agrirouter offline ist, gehen nicht verloren. Sie werden im Postausgang des Endpunktes gespeichert und automatisch versendet, wenn der agrirouter wieder online geht.
+IMPORTANT: Daten, die nicht versendet werden können, während der agrirouter offline ist, gehen nicht verloren. Sie werden im Endpunkt bzw. im agrirouter gespeichert und automatisch versendet, wenn der agrirouter wieder verfügbar ist.
 
 
 Diese Systemfunktionen werden vom Monitor überwacht:
