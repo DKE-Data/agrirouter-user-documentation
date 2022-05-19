@@ -3,7 +3,7 @@
 
 = Anhang A, DDI
 
-Viele Maschinen können während der Feldarbeit laufend anfallende Maschinen-, Positions- und Prozessparameter in Echtzeit versenden.
+Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und Prozessparameter in Echtzeit versenden.
 
 Es gibt über 600 solcher Parameter, z.B. 
 
@@ -14,13 +14,13 @@ Wir haben die Parameter zur besseren Übersicht in 12 Kategorien zusammengefasst
 Wie in den Abschnitten xref:endpoint.adoc#detailansicht[Endpunkt] bzw. xref:group.adoc#detailansicht[Gruppe] beschrieben, wählst du bei der Erstellung von Routen eine oder mehrere Kategorien aus.
 [.result]#Alle der gewählten Kategorie zugeordneten Parameter können dann zwischen den Endpunkten ausgetauscht werden.#
 
-Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:
-
 [NOTE]
 ====
 Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + 
 Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht.
 ====
+
+Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:
 
 == GPS Positionsdaten und Guidance-Informationen
 
