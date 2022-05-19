@@ -26,7 +26,7 @@ Wenn du dich am agrirouter anmeldest, wird deine persönliche Startseite, das <<
 Du kannst die Ansicht deines Dashboards einrichten.
 [.result]#Ändere die Ansicht, wie im Kapitel xref:account.adoc#einstellungen[Einstellungen] beschrieben.#
 
-Maschinen und Agrarsoftware können Daten austauschen, wenn du sie im agrirouter als <<Endpunkt,Endpunkte>> registrierst.
+Maschinen und Agrarsoftware können Daten austauschen, wenn du sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.
 [.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] und xref:endpoint.adoc#agrarsoftware-verbinden[Agrarsoftware verbinden] beschrieben.#
 
 Das <<Route,Routing>> legt fest, welche Daten ein Endpunkt sendet und/oder empfängt.
@@ -55,7 +55,7 @@ Wenn du dich unter https://goto.my-agrirouter.com/app[my-agrirouter.com^] angeme
 image::ar_dashboard.legend.png[agrirouter Dashboard]
 
 === Endpunkt
-Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
+Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird dem agrirouter ein Endpunkt des passenden Typs hinzugefügt.
 Es gibt folgende Endpunkt-Typen:
 
 [unordered.stack]
