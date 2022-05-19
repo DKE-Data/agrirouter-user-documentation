@@ -29,10 +29,16 @@ image::ar_pairing-invite.png[Pairing invite]
 [start=4]
 . Klicke den Button *_Einladung versenden_*.
 [.result]#Die Einladung wird an das andere Konto gesendet.#
-[.result]#Die Einladung wird im Reiter `Offene Einladungen` angezeigt, bis sie vom Empfänger angenommen wird.#
---
+[.result]#Die Einladung wird im Reiter `Offene Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#
 
-NOTE: Wenn der Kontoinhaber deine Einladung annimmt, erhälst du eine E-Mail.
+* Nimmt der Kontoinhaber die Einladung an, dann gilt:
+[.result]#Du erhälst eine E-Mail.#
+[.result]#Die beiden Konten sind miteinander verbunden.#
+[.result]#Das Konto wird in den Reiter `Verbunden` verschoben.#
+[.result]#Das Konto wird der Endpunkteliste hinzugefügt.#
+
+
+--
 
 [NOTE]
 ====
@@ -59,7 +65,8 @@ In der Kachel `Konten verbinden` werden in der Zeile `Eingehend` die Einladungen
 . Klicke den Button *_Einladung annehmen_*.
 [.result]#Die beiden Konten sind miteinander verbunden.#
 [.result]#Das Konto wird in den Reiter `Verbunden` verschoben.#
-[.result]#Der Inhaber des anderen Kontos wird mit einer E-Mail darüber informiert, dass du seine Einladung angenommen hast.#
+[.result]#Das Konto wird der Endpunkteliste hinzugefügt.#
+[.result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, dass du seine Einladung angenommen hast.#
 
 [NOTE]
 ====
@@ -80,6 +87,7 @@ Du kannst die Verbindung zu einem anderen Konto löschen.
 [.result]#Der Listeneintrag wird grün eingefärbt.#
 . Klicke den Button *_Verbindung aufheben_*.
 [.result]#Die beiden Konten sind nicht mehr miteinander verbunden.#
+[.result]#Das Konto wird aus der Endpunkteliste entfernt.#
 [.result]#Es werden keine Daten mehr zwischen den Konten ausgetauscht.#
 --
 
