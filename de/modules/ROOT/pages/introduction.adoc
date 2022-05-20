@@ -31,15 +31,14 @@ Du kannst die Ansicht deines Dashboards einrichten.
 Maschinen und Agrarsoftware können Daten austauschen, wenn du sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.
 [.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] und xref:endpoint.adoc#agrarsoftware-verbinden[Agrarsoftware verbinden] beschrieben.#
 
-Das <<Route,Routing>> legt fest, welche Daten ein Endpunkt sendet und/oder empfängt.
+Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt sendet und/oder empfängt.
 [.result]#Soll der Endpunkt Daten versenden, folge der Anleitung im Kapitel xref:endpoint.adoc#senden-an[Senden an].#
 [.result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint.adoc#empfangen-von[Empfangen von].#
 
-Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du das Routing nur für die Gruppe und nicht für jedes Mitglied der Gruppe einrichten.
+Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du nur für die Gruppe - und nicht für jedes Mitglied der Gruppe - Routen erstellen.
 [.result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügen] beschrieben.#
 [.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel xref:group.adoc#senden-an[Senden an].#
 [.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im Kapitel xref:group.adoc#empfangen-von[Empfangen von].#
-[.result]#Beispiele für häufig verwendete Routen findest du xref:routing.adoc[hier...].#
 
 == Grundlagen
 Es folgen in alphabetischer Reihenfolge einige grundlegende Begriffe und Konzepte, die du kennen solltest, wenn du den agrirouter nutzt.
