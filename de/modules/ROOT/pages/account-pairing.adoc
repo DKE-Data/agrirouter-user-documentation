@@ -91,8 +91,16 @@ Du kannst die Verbindung zu einem anderen Konto beenden.
 [.result]#Es werden keine Daten mehr zwischen den Konten ausgetauscht.#
 --
 
-== Route freischalten
+== Datenaustausch
+Inzwischen weißt du: ohne Route kein Datenaustausch.
+Erstelle also auch für das verbundene Konto Routen.
 
+=== Route erstellen
+Routen für verbundene Konten werden in der Endpunkteliste erstellt und verwaltet.
+Im Abschnitt xref:endpoint.adoc#senden-an[Senden an] erfährst du, wie das verbundene Konto Daten an deine Endpunkte und Gruppen senden kann.
+Im Abschnitt xref:endpoint.adoc#empfangen-von[Empfangen von] an erfährst du, wie das verbundene Konto Daten von deinen Endpunkten und Gruppen empfangen kann.
+
+=== Route freischalten
 Damit miteinander verbundene Konten Daten austauschen können, musst du die Routen freischalten:
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
