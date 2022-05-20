@@ -81,8 +81,10 @@ image::ar_registration-code.png[Code]
 [.result]#Die Endpunkteliste wird angezeigt.#
 
 [TIP]
+====
 Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. + 
 Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken.
+====
 
 [start=4]
 . Gebe den Registrierungscode an der Telemetrie-Einheit ein.
@@ -199,7 +201,9 @@ Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt:
 [.result]#Der Empfänger wird hinzugefügt.#
 
 NOTE: Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom Empfänger verarbeitet werden können.
+
 NOTE: Der neue Empfänger ist sofort in der Endpunkteliste sichtbar. Es kann jedoch bis zu 2 Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten an den Empfänger gesendet werden können.
+
 IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Echtzeitdaten verarbeiten können.
 
 ==== Empfänger bearbeiten
@@ -251,7 +255,9 @@ Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt:
 [.result]#Der Sender wird hinzugefügt.#
 
 NOTE: Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom Endpunkt verarbeitet werden können.
+
 NOTE: Der neue Sender ist sofort in der Endpunkteliste sichtbar. Es kann jedoch bis zu 2 Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten vom Sender empfangen werden können.
+
 IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte verfügbar, die Echtzeitdaten verarbeiten können.
 
 ==== Sender bearbeiten
@@ -377,4 +383,5 @@ image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
 --
 
 TIP: Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um die Diagnoseinformationen in die Zwischenablage zu kopieren.
+
 TIP: Klicke xref:support.adoc#support[diesen Link] für weitere Informationen zu Service & Support.
