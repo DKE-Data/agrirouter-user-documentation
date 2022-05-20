@@ -102,8 +102,8 @@ NOTE: Bei der Erstellung einer Route werden dir nur die Nachrichten(typen) zur W
 === Route
 Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
 
-Das Routing regelt den Datenverkehr auf den Routen.
-Du definierst
+Die Route regelt den Datenverkehr zwischen Sender und Empfänger.
+Du legst fest
 
 * zwischen welchen Endpunkten Daten ausgetauscht werden
 * in welche Richtung die Daten fließen
@@ -112,10 +112,9 @@ Du definierst
 
 [NOTE]
 ====
-Du musst für jeden Endpunkt, jede Gruppe und jedes verbundene Konto das Routing einrichten.
-Ohne Routing können Endpunkte keine Nachrichten austauschen.
+Erstelle eingehende und/oder abgehende Routen für jeden Endpunkt, jede Gruppe und jedes verbundene Konto.
+Ohne Route kein Datenaustausch.
 ====
-
 
 === Standard-Gruppen
 
