@@ -170,9 +170,11 @@ Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,Emp
 NOTE: Die Zahl der angezeigten Reiter hängt vom Endpunkt-Typ ab. So wird etwa der Reiter `Externe Maschinen` nur bei verbundenen Konten angezeigt.
 
 === Senden an
-Der Reiter enthält eine Liste der Empfänger.
-Sender sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt.
-Du verwaltest abgehende Routen und Sende-Regeln.
+Der Reiter enthält eine Liste der Empfänger. + 
+Empfänger
+
+* befinden sich am Ende einer abgehenden Route
+* sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt
 
 Du kannst
 
@@ -182,7 +184,7 @@ Du kannst
 NOTE: Die Liste der Empfänger ist auch bei einem neuen Endpunkt nicht leer. Der neue Endpunkt ist automatisch Mitglied einer Standard-Gruppe, die in der Liste der Empfänger angezeigt wird.
 
 ==== Empfänger hinzufügen
-Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt:
+Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt oder eine Gruppe:
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
@@ -222,8 +224,10 @@ IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte
 
 === Empfangen von
 Der Reiter enthält eine Liste der Sender.
-Sender sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt.
-Du verwaltest eingehende Routen und Empfangs-Regeln.
+Sender
+
+* befinden sich am Anfang einer eingehenden Route
+* sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt
 
 Du kannst
 
@@ -233,7 +237,7 @@ Du kannst
 NOTE: Die Liste der Sender ist auch bei einem neuen Endpunkt nicht leer. Der neue Endpunkt ist automatisch Mitglied einer Standard-Gruppe, die in der Liste der Sender angezeigt wird.
 
 ==== Sender hinzufügen
-Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt:
+Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt oder einer Gruppe:
 
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
