@@ -4,8 +4,16 @@
 = Routing
 
 Eine xref:introduction.adoc#route[Route] ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
+[.result]#Mit der Route legst du fest, wer Nachrichten austauscht.#
 
 Das Routing regelt den Datenverkehr auf den Routen.
+[.result]#Mit dem Routing legst du fest, welche Nachrichten ausgetauscht werden.#
+
+[NOTE]
+====
+Ohne Routing können Endpunkte keine Nachrichten austauschen.
+Richte für jeden Endpunkt, jede Gruppe und jedes verbundene Konto das Routing ein.
+====
 
 [IMPORTANT]
 ====

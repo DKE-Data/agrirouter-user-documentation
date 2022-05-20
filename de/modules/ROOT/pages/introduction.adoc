@@ -110,7 +110,12 @@ Du definierst
 * welche Nachrichten ausgetauscht werden
 * ob und welche Echtzeitdaten ausgetauscht werden
 
-NOTE: Ohne eine Route können Endpunkte keine Nachrichten austauschen.
+[NOTE]
+====
+Du musst für jeden Endpunkt, jede Gruppe und jedes verbundene Konto das Routing einrichten.
+Ohne Routing können Endpunkte keine Nachrichten austauschen.
+====
+
 
 === Standard-Gruppen
 
