@@ -95,8 +95,10 @@ Du kannst die Verbindung zu einem anderen Konto beenden.
 Inzwischen weißt du: ohne Route kein Datenaustausch! + 
 Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in *_beiden_* Konten Routen erstellt werden:
 
-* Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen.
-* Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen.
+* Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet. + 
+Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen.
+* Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen. + 
+Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen.
 
 === Route erstellen
 Routen für verbundene Konten werden in der Endpunkteliste erstellt und verwaltet:
