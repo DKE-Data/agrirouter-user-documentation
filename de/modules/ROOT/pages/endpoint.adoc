@@ -67,15 +67,11 @@ image::ar_endpoint-item.legend.png[Endpoint list item, 250, float=right]
 --
 
 === Maschine verbinden
-Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter. In der Endpunkteliste werden die Telemetrie-Einheit und die Maschine angezeigt. Du kannst den Namen der Listeneinträge ändern.
-
-////
-NOTE: Eine Ausnahme bilden ISOBUS-Maschinen. Es wird die Maschine in der Endpunkteliste angezeigt, nicht die Telemetrie-Einheit.
-////
+Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter und wird der Endpunkteliste hinzugefügt.
 
 . Klicke den Button *_+ Telemetrie-Verbindung_*.
 [.result]#Das Fenster `Telemetrie-Verbindung auswählen` wird angezeigt.#
-. Wähle die Telemetrie-Verbindung.
+. Wähle die Telemetrie-Einheit.
 [.result]#Das Meldungsfenster `Registrierungscode` wird angezeigt:#
 
 image::ar_registration-code.png[Code]
@@ -91,10 +87,12 @@ Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code 
 [start=4]
 . Gebe den Registrierungscode an der Telemetrie-Einheit ein.
 . Klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].
-[.result]#Die Telemetrie-Einheit und die Maschine werden in der Endpunkteliste angezeigt.#
+[.result]#Die Telemetrie-Einheit wird der Endpunkteliste hinzugefügt.#
 . Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben.
 
 NOTE: Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
+
+IMPORTANT: Handelt es sich um eine ISOBUS-Maschine, wird diese ebenfalls der Endpunkteliste hinzugefügt. Damit können ISOBUS-Maschinen beim Routing als Sender oder Empfänger ausgewählt werden.
 
 === Agrarsoftware verbinden
 Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:
@@ -294,9 +292,10 @@ Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht ge
 === Externe Maschinen
 Dieser Reiter wird nur bei Endpunkten vom Typ `Verbundenes Konto` angezeigt.
 
-Im Reiter werden alle Maschinen angezeigt, die
-* zum verbundenen Konto gehören und
-* Echtzeitdaten verarbeiten können.
+Im Reiter werden alle Maschinen angezeigt,
+
+* die zum verbundenen Konto gehören und
+* die Echtzeitdaten verarbeiten können.
 
 
 == Endpunkt bearbeiten
