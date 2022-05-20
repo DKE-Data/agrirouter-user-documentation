@@ -97,8 +97,11 @@ Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,Emp
 
 
 === Senden an
-Der Reiter enthält eine Liste der Empfänger.
-Empfänger sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden.
+Der Reiter enthält eine Liste der Empfänger. + 
+Empfänger
+
+* befinden sich am Ende einer abgehenden Route
+* sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden
 
 Du kannst
 
@@ -144,8 +147,11 @@ IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte
 
 
 === Empfangen von
-Der Reiter enthält eine Liste der Sender.
-Sender sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden.
+Der Reiter enthält eine Liste der Sender. + 
+Sender
+
+* befinden sich am Anfang einer eingehenden Route
+* sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden
 
 Du kannst
 
