@@ -1,84 +1,155 @@
 :imagesdir: _images/
+:icons: font
 
 = Service & Support
 
-== Support kontaktieren
+In diesem Abschnitt erfährst du,
+
+* wie du im Help Center einen Fehlerbericht oder eine Anfrage erstellst
+* über welche E-Mail-Adresse und Telefonnummern du unser Support-Team erreichst
+* wie du deinen Bildschirminhalt mit uns teilst
+* wie du prüfst, ob der agrirouter verfügbar ist
+
+== Support
+
+Unser Support-Team hilft, wenn du eine Frage zur Bedienung hast oder bei der Nutzung das agrirouter ein Problem auftaucht.
 
 [NOTE]
 ====
-Über folgende Kanäle kann unser support Team kontaktiert werden.
+Falls du ein Problem mit einem Endpunkt hast, benötigen wir die Diagnoseinformationen des Endpunktes:
+
+* agrirouter Konto-ID
+* Endpunkt-ID
+* Endpunktsoftware-ID
+* Endpunktsoftware-Version-ID
+
+Diese Daten findest du in den Support-Informationen des Endpunktes:
+
+[.float-group]
+--
+image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
+
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
+[.result]#Das Kontrollzentrum wird geöffnet.#
+[.result]#Links wird die Endpunkteliste angezeigt.#
+[.result]#Rechts wird die Detailansicht angezeigt.#
+. Wähle in der Endpunkteliste den Endpunkt.
+. Klicke das Icon *_Mehr_* über der Detailansicht.
+[.result]#Eine Auswahlliste wird angezeigt.#
+. Wähle das Icon *_Support Informationen anzeigen_* image:ar_info.icon.png[Supportinformationen, 30, 30].
+[.result]#Das Meldungsfenster *_Support-Information_* wird angezeigt.#
+--
+
 ====
 
-[cols="2,4",options="header",]
-|=======================================================================================
-|Kontakt per |Kontaktdetails
-|Help Center |https://agrirouter.atlassian.net/servicedesk/customer/portals
-|Email Adresse |support@my-agrirouter.com
-|Telefon in Deutsch |+49 541 200 690 220
-|Telefon in Englisch |+49 541 200 690 230
-|Telefon in Französisch|+49 541 200 690 240
-|=======================================================================================
+
+=== Fehlerbericht senden
+Im Help Center kannst du uns eine allgemeine Anfrage oder einen Fehlerbericht senden.
 
 [TIP]
 ====
-In dringenden Fällen, bitte kontaktiere unser support Team einfach per Telefon.
+Wir empfehlen, dass du im Help Center ein Benutzerkonto einrichtest.
+In diesem werden deine Anfragen inkl. unserer Antworten gespeichert; du kannst deine Anfragen mit anderen Benutzern teilen.
+
+. Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
+[.result]#Das Help Center wird angezeigt.#
+. Klicke den Button *_Einloggen_*.
+[.result]#Das Formular `Im Help Center einloggen` wird angezeigt.#
+. Klicke den Button *_Anmelden_*.
+[.result]#Das Formular `Anmelden` wird angezeigt.#
+. Gebe deine E-Mail-Adresse ein und klicke *_Link senden_*.
+[.result]#Du erhälst eine E-Mail mit dem Aktivierungslink.#
+. Klicke auf den Aktivierungslink.
+[.result]#Das Formular `Anmelden` wird angezeigt.#
+. Gebe deinen Namen und ein Passwort ein und klicke *_Anmelden_*.
+[.result]#Die Startseite des Help Center wird angezeigt.#
+
 ====
 
-.Help Center
-image::support_help_center.png[Help Center]
+. Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
+[.result]#Das Help Center wird angezeigt.#
+. Klicke den Button *_Einloggen_* und melde dich mit deinen Benutzerdaten an.
+[.result]#Die Startseite des Help Center wird angezeigt.#
+. Wähle *_agrirouter Störungsmeldung_* um einen Fehlerbericht zu senden.
+. Wähle *_Allgemeine Anfrage zu agrirouter_* um eine Frage, zusätzliche Information oder einen Feature-Wunsch zu senden.
+[.result]#Ein Eingabeformular wird angezeigt.#
+. Fülle das Formular aus und klicke *_Senden_*.
+[.result]#Die Anfrage wird mit dem Status `Wartet auf Support` in deiner Anfrageliste gespeichert.#
 
-== Relevante Support Informationen
-!Erklärung ...
+TIP: Das Help Center hat eine Suchfunktion, mit der du Hilfe zu häufig angefragten Stichwörtern erhälst.
 
-.Endpunkt Support Informationen finden
-image::endpoint_support_view.png[Endpunkt Support Informationen finden]
+=== E-Mail-Support
+Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:support@my-agrirouter.com[support@my-agrirouter.com].
 
-.Endpunkt Support Informationen anzeigen
-image::endpoint_support_info_button.png[Endpunkt Support Informationen anzeigen]
+=== Telefonsupport
+In dringenden Fällen kannst du unser Support-Team anrufen:
 
-.Endpunkt Support Informationen ablesen
-image::endpoint_support_info.png[Endpunkt Support Informationen ablesen]
-
-.Endpunkt Support Informationen in den Zwischenspeicher kopieren
-image::endpoint_support_copy.png[Endpunkt Support Informationen in den Zwischenspeicher kopieren]
-
-.Support direkt kontaktieren
-image::endpoint_support_contact.png[Support direkt kontaktieren]
-
-== Service und Status Monitoring
-
-Das aktuelle System Status kann unter folgender URL: https://agrirouter.statuspage.io/ angesehen werden.
-
-=== Service Definition
 [cols="2,4",options="header",]
 |=======================================================================================
-|Service |Beschreibung
-|User Interface Service |Monitoring if the login in the user interface is possible.
-|Onboarding  Service |Monitoring if it is possible to create a registration code and onboard a device or software application to agrirouter.
-|Capability Message Service |Monitoring if it is possible to send a capability message to agrirouter including a confirmation from agrirouter.
-|Content Message Service |Monitoring if it is possible to send a content message to another endpoint and receiving the same massage as a recipient.
+|Sprache |Telefonnummer
+|Deutsch |+49 541 200 690 220
+|Englisch |+49 541 200 690 230
+|Französisch|+49 541 200 690 240
 |=======================================================================================
 
-=== System Status Definition
+[IMPORTANT]
+====
+Unsere Hotline ist an Werktagen von 9 bis 18 Uhrfootnote:[https://www.timezones.de/germany/berlin/berlin.html[Zeitzone Europa/Berlin^]] erreichbar.
+====
+
+
+=== Fernwartung mit TeamViewer
+Wenn du Probleme mit der grafischen Benutzeroberfläche des agrirouter hast oder du in deiner Agrarsoftware die Funktion `Mit agrirouter verbinden` nicht findest, kannst du deinen Bildschirminhalt mit unserem Support teilen.
+Nutze dazu TeamViewer. Informationen zu TeamViewer und die Installationsdatei findest du im Internet unter https://www.teamviewer.com/[www.teamviewer.com^].
+
+. Starte TeamViewer.
+[.result]#Die Startseite von TeamViewer wird angezeigt.#
+. Rufe unseren Support an und teile ihm deine ID und dein Passwort mit.
+
+NOTE: ID und Passwort findest du auf der Startseite von TeamViewer unter der Überschrift `Fernsteuerung zulassen`.
+
+== Service
+
+=== Systemmonitor
+
+agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + 
+Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:
+
+. Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter.statuspage.io^] .
+[.result]#Der Systemmonitor wird angezeigt.#
+. Klicke das Icon *_Ausklappen_* image:ar_foldout.icon.png[add, 30, 30] im Abschnitt `agrirouter Production`.
+[.result]#Der aktuelle Systemstatus wird angezeigt image:one_bk.icon.png[one, 30, 30].#
+[.result]#Eine Zusammenfassung der letzten 90 Tage wird grafisch dargestellt image:two_bk.icon.png[two, 30, 30].#
+
+image::ar_sysmon.legend.png[Systemmonitor]
+
+IMPORTANT: Daten, die nicht versendet werden können, während der agrirouter offline ist, gehen nicht verloren. Sie werden im Endpunkt bzw. im agrirouter gespeichert und automatisch versendet, wenn der agrirouter wieder verfügbar ist.
+
+
+Diese Systemfunktionen werden vom Monitor überwacht:
+
 [cols="2,4",options="header",]
 |=======================================================================================
-|System Status |Beschreibung
-|operational |The component is currently being worked on.
-|under maintenance |The component is currently being worked on.
-|degraded performance |The components are working but are slow or otherwise impacted in a minor way. The component response time is longer than expected.
-|partial outage |The components are completely broken for a subset of customers but is working for the other.
-|major outage |The components are completely unavailable.
+|Systemfunktion |Beschreibung
+|User Interface |Ist die Anmeldung am Benutzerkonto möglich?
+|Onboarding Service |Kann ein Endpunkt hinzugefügt und ein Registrierungscode erzeugt werden?
+|Capability Message Service |Kann ein Endpunkt seine Fähigkeiten im agrirouter registrieren?
+|Content Message Service |Können Endpunkte Daten austauschen?
 |=======================================================================================
 
-.System Status
-image::support_system_status.png[System Status]
+Dies sind die möglichen Systemstati und ihre Bedeutung:
 
-== Fernwartung mit TeamViewer
-!Erklärung ...
+[cols="2,4",options="header",]
+|=======================================================================================
+|Systemstatus |Beschreibung
+|operational |Die Systemfunktion ist voll verfügbar.
+|under maintenance |Die Systemfunktion wird aktuell gewartet und ist nicht verfügbar.
+|degraded performance |Die Systemfunktion ist eingeschränkt verfügbar. Das System antwortet langsamer als erwartet.
+|partial outage |Die Systemfunktion steht nicht mehr allen Benutzer zur Verfügung.
+|major outage |Die Systemfunktion ist nicht verfügbar.
+|=======================================================================================
 
-.Fernwartung mit TeamViewer
-image::support_teamviewer.png[Fernwartung mit TeamViewer]
-
+////
 == Fehlerbild und -behebung
 !Erklärung ...
 
@@ -91,3 +162,4 @@ image::support_teamviewer.png[Fernwartung mit TeamViewer]
 |Fall 4 | abcefg.
 |Fall 5 | abcefg.
 |=======================================================================================
+////

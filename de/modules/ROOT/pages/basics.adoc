@@ -1,71 +1,154 @@
-= Grundlagen
 :imagesdir: _images/
+:icons: font
 
-== Grundbegriffe
+= Einführung
 
-Telemetrie Plattform ... 
+Der agrirouter ist ein internetbasiertes und herstellerunabhängiges Portal zum Austausch von Daten zwischen Maschine und Agrarsoftware.
+Die Bedienung ist einfach und intuitiv gehalten; du solltest jedoch vor der Ersteinrichtung den https://my-agrirouter.com/en/agrirouter/quick-start-guide[Quick Start Guide^] und bei der Inbetriebnahme und weiteren Nutzung dieses Online-Handbuch lesen.
 
-Kommunikationseinheit ...
- 
-Farming Software ...
+== Über diese Anleitung
 
-Maschine ...
+Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der Inbetriebnahme und Nutzung des agrirouter:
 
-Endpunkt ...
+Zur Nutzung des agrirouter benötigst du ein Benutzerkonto:
+[.result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account.adoc[Konto] beschrieben.#
 
-Route ...
+Wenn du dich am agrirouter anmeldest, wird deine persönliche Startseite, das <<Dashboard>>, angezeigt:
+[.result]#Über das Dashboard hast du Zugriff auf alle Funktionen des agrirouter.#
 
-Standard Agrar-Software Gruppe = Alle Endpunkte von Agrar-Software Lösungen und Telemetrie-Plattformen werden automatisch dieser Standard-Gruppe hinzugefügt. 
-Die Routen zum Austausch von Daten sind bereits angelegt und können nicht verändert werden. 
-Indem du Mitglieder dieser Gruppe entfernst oder hinzufügst kannst du den Datenaustausch beeinflussen.
+Du kannst die Ansicht deines Dashboards einrichten.
+[.result]#Ändere die Ansicht, wie im Kapitel xref:account.adoc#einstellungen[Einstellungen] beschrieben.#
 
-Standard Maschinen Gruppe = Alle Endpunkte von neuen Telemetrie-Verbindungen und verbundene Maschinen werden automatisch dieser Standard-Gruppe hinzugefügt. 
-Die Routen zum Austausch von Daten sind bereits angelegt und können nicht verändert werden. 
-Indem du Mitglieder dieser Gruppe entfernst oder hinzufügst kannst du den Datenaustausch beeinflussen.
+Maschinen und Agrarsoftware können Daten austauschen, wenn du sie im agrirouter als <<Endpunkt,Endpunkte>> registrierst.
+[.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] und xref:endpoint.adoc#agrarsoftware-verbinden[Agrarsoftware verbinden] beschrieben.#
 
-== Grundlegende Konzepte
+Das <<Route,Routing>> legt fest, welche Daten ein Endpunkt sendet und/oder empfängt.
+[.result]#Soll der Endpunkt Daten versenden, folge der Anleitung im Kapitel xref:endpoint.adoc#senden-an[Senden an].#
+[.result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint.adoc#empfangen-von[Empfangen von].#
 
-Sender - Empfänger Modell ...
+Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du das Routing nur für die Gruppe und nicht für jedes Mitglied der Gruppe einrichten.
+[.result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügen] beschrieben.#
+[.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel xref:group.adoc#senden-an[Senden an].#
+[.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im Kapitel xref:group.adoc#empfangen-von[Empfangen von].#
+[.result]#Beispiele für häufig verwendete Routen findest du xref:routing.adoc[hier...].#
 
-Inbetriebnahme eines ECO-Systems ...
+== Grundlagen
+Es folgen in alphabetischer Reihenfolge einige grundlegende Begriffe und Konzepte, die du kennen solltest, wenn du den agrirouter nutzt.
 
-Maschine verbinden ...
+=== Dashboard
+Wenn du dich unter https://goto.my-agrirouter.com/[my-agrirouter.com^] angemeldet hast, wird das Dashboard angezeigt, deine persönliche agrirouter Startseite.
+Über das Dashboard hast du Zugriff auf alle Funktionen des agrirouter:
 
-Agrar-Software verbinden ...
+. Im *_Kontrollzentrum_* verwaltest du die Endpunkte und das Routing.
+. In *_Konten verbinden_* verbindest du dich mit den Konten anderer agrirouter-Benutzer.
+. In *_Lernen & Support_* bekommst du Hilfe bei der Nutzung von agrirouter.
+. Dein Konto verwaltest du in der *_Kontoverwaltung_*.
+. Die Darstellung des Dashboard stellst du im *_Profil_* ein.
 
-Kommunikationseinheit verbinden ...
+image::ar_dashboard.legend.png[agrirouter Dashboard]
 
-== Nachrichten Formate
+=== Endpunkt
+Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein Endpunkt des passenden Typs angelegt.
+Es gibt folgende Endpunkt-Typen:
 
-Je nach Endpunkt stehen dir zum Datenaustausch verschiedene Nachrichtenformate zur Verfügung:
+[unordered.stack]
+Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]
 
-* Task Data (ISO11783 z.B. Auftragsdaten oder Applikationskarten)
-* Telemetriedaten
-* Shape (z.B. Grenzlinien)
-* Bild- und Videodaten
-* Dokumente (z.B. PDF Auftragsberichte)
+Maschine:: Eine angehängte, gezogene oder selbstfahrende landwirtschaftliche Maschine, die mit einer Telemetrie-Einheit verbunden ist und eine Device Description bereitstellen kann. Die Maschine kann, muss aber nicht ISOBUS-kompatibel sein.
 
-Der agrirouter vergleicht, welche Nachrichtenformate die gewählten Endpunkte verarbeiten können und zeigt ausschließlich diese zur Auswahl an. 
-Dadurch wird sichergestellt, dass Daten nicht zu einem Endpunkt transportiert werden, die er nicht verarbeiten kann.
+Agrarsoftware:: Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
 
-.Nachrichten Formate
-image::message_formats.png[Nachrichten Formate]
+Verbundenes Konto:: Das Konto eines anderen Benutzers.
 
-== Telemetrieparameter
-!Erklärung ...
+Externe Maschine:: Maschine, die zu einem verbundenen Konto gehört.
 
-Die einzelnen Telemetrieparameter Definitionen nach *"ISOBUS Data Dictionary according to ISO 11783-11"* Standart können unter folgenden URL: https://www.isobus.net/isobus/dDEntity eingesehen werden.
+image::ar_overview.png[Overview]
 
-== Telemetrieparameter Kategorien
-!Erklärung ...
+Jeder Endpunkt kann Daten senden und empfangen.
+Die Endpunkte verknüpfst Du im agrirouter so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen.
+////
+(=> Kapitel xref:routing.adoc[Routing]).
+////
 
-[NOTE]
-====
-In der agrirouter Benutzeroberfläche werden die Telemetrieparameter Kategorien automatisch nach Alpahbet sortiert.
-====
+=== Gruppe
+Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + 
+Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe.
 
-Telemetrieparameter Kategorien:
+Gruppen erstellst und verwaltest du im Kontrollzentrum. 
+Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts befindet sich die Detailansicht image:two_bk.icon.png[two, 30, 30].
 
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
+[.result]#Das Kontrollzentrum wird angezeigt.#
+. Klicke den Button *_Gruppen_*.
+[.result]#Links wird die Gruppenliste angezeigt.#
+[.result]#Rechts wird die Detailansicht angezeigt.#
+
+image::ar_group-view.legend.png[Groups legend]
+
+=== Kontrollzentrum
+Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und Routen image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- bzw. die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe angezeigt werden.
+
+image::ar_control-center.legend.png[Control Center Overview]
+
+=== Nachrichten(typen)
+Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:
+
+Auftragsdaten:: ISOBUS Auftragsdaten, Applikationskarten
+Echtzeitdaten:: Maschinen-, Positions- und Prozessdaten
+Shape:: Feldgrenzen im Shape-Format
+Mediadaten:: Bilder, Videos
+Dokumente:: Berichte im pdf-Format
+
+NOTE: Bei der Erstellung einer Route werden dir nur die Nachrichten(typen) zur Wahl angeboten, die von Sender und Empfänger verarbeitet werden können.
+
+=== Route
+Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
+
+Das Routing regelt den Datenverkehr auf den Routen.
+Du definierst
+
+* zwischen welchen Endpunkten Daten ausgetauscht werden
+* in welche Richtung die Daten fließen
+* welche Nachrichten ausgetauscht werden
+* ob und welche Echtzeitdaten ausgetauscht werden
+
+NOTE: Ohne eine Route können Endpunkte keine Nachrichten austauschen.
+
+=== Standard-Gruppen
+
+Im agrirouter gibt es zwei vordefinierte Standard-Gruppen, die du nicht löschen oder bearbeiten kannst:
+
+* Maschinen-Gruppe
+* Agrarsoftware-Gruppe
+
+Jeder Endpunkt, den du hinzufügst, ist automatisch Mitglied in einer der beiden Standard-Gruppen:
+
+* Telemetrie-Einheiten und Maschinen sind Mitglied in der Maschinen-Gruppe
+* Agrarsoftware und Hersteller-Plattformen sind Mitglied in der Agrarsoftware-Gruppe
+
+Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: + 
+Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden.
+
+=== Telemetriedaten
+Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. agrirouter unterstützt über 600 Datentypen, die in 12 Kategorien aufgeteilt sind:
+
+image::ar_overview-telemetry.png[12 Kategorien der Echtzeitdaten]
+
+== Konzepte
+
+=== Sender - Empfänger Modell ...
+
+=== Inbetriebnahme eines ECO-Systems ...
+
+=== Maschine verbinden ...
+
+=== Agrar-Software verbinden ...
+
+=== Kommunikationseinheit verbinden ...
+
+////
+
+== Telemetrieparameter Kategorien:
 
 [cols="2,4",options="header",]
 |=======================================================================================
@@ -85,19 +168,6 @@ Telemetrieparameter Kategorien:
 |link:https://manual.my-agrirouter.com/de/manual/latest/appendix.html#soil-data[Soil Data] |Conditions and sensor data about soil 
 |=======================================================================================
 
-== Dashboard 
-!Review alter Text ...
-
-Nachdem du dich bei my-agrirouter.com eingeloggt hast, erscheint deine persönliche agrirouter Startseite, die auch Dashboard (englisch für Armaturenbrett) genannt wird. 
-Von hier aus gelangst du zu den verschiedenen Bereichen deines persönlichen agrirouters. 
-
-.agrirouter Dashboard
-image::dashboard.png[agrirouter Dashboard]
-
-Du kannst zum Beispiel im Kontrollzentrum festlegen, welche deiner Maschinen oder welche Software welche Daten wohin senden soll. 
-Mit einem Klick auf „Konten verbinden“ kannst du deine angeschlossenen Konten sehen. 
-Unter „Lernen & Support“ kommst du zu diesem Hilfeportal, der agrirouter Akademie, und zu weiteren Support-Funktionen. 
-Dein Konto kannst du unter der Kachel „Kontoverwaltung“ managen.
 
 == Mobile Navigation
 !Erklärung ...
@@ -119,3 +189,5 @@ image::notification_center_prio.png[Ansicht nach Priorität]
 
 == Sprache der Benutzeroberfläche
 !Erklärung ...
+
+////

@@ -1,65 +1,217 @@
-= Konto
 :imagesdir: _images/
 :icons: font
 
-== Konto erstellen
+= Konto
+
 Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
 
-. Öffne die Internetadresse https://goto.my-agrirouter.com/um/register/user[my-agrirouter.com].
-* Das Formular _Benutzerregistrierung_ wird angezeigt.
-. Fülle die Pflichtfelder aus und klicke den Button _Registrieren_.
-* Du erhälst eine E-Mail mit dem Aktivierungslink.
-. Klicke in der E-Mail den Button _ACCOUNT AKTIVIEREN_.
-* Das Formular _Benutzerkonto aktivieren_ wird angezeigt.
-. Vergebe ein Kennwort und klicke den Button _Sichern_.
+In diesem Abschnitt erfährst du
 
-TIP: Das Eingabefeld _Beschreibung der Firma_ im Formular _Benutzerregistrierung_ ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
+* wie du ein Konto erstellst und deine Profildaten bearbeitest
+* wie du die Ansicht des xref:introduction.adoc#dashboard[Dashboard] anpassen kannst
 
-== Kontodaten ändern
-Du kannst alle bei der Registrierung gemachten Angaben nachträglich ändern.
 
-. Klicke die Kachel _Kontoverwaltung_.
-* Die _Kontoverwaltung_ wird angezeigt.
-. Um die Angaben zum Ansprechpartner zu ändern, klicke den Button _Bearbeiten_ im Abschnitt Angaben zum Ansprechpartner.
-* Das Formular _Daten Ansprechpartner bearbeiten_ wird angezeigt.
-. Gebe die neuen Werte ein und klicke auf _Bestätigen_.
-. Um die Angaben zur Firma zu ändern, klicke den Button _Bearbeiten_ im Abschnitt Angaben zur Firma.
-* Das Formular _Daten der Firma bearbeiten_ wird angezeigt.
-. Gebe die neuen Werte ein und klicke auf _Bestätigen_.
-. Um deine E-Mail-Adresse zu ändern, klicke den Button _Email-Adresse ändern_ im Abschnitt Angaben zum Ansprechpartner.
-* Das Formular _Email-Adresse ändern_ wird angezeigt.
-. Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke auf _Bestätigen_.
-. Klicke auf das Icon _Startseite_ und kehre in das Dashboard zurück.
+////
+Eine nummerierte Liste kann aufgetrennt werden. Eine Liste kann bei einer beliebigen Nummer gestartet werden.
+
+. Schritt 1.
+. Schritt 2.
+
+//~
+
+[start=2]
+. Nochmal Schritt 2.
+
+////
+
+////
+
+Automatische Anchors im selben Dokument referenzieren: <<benutzerkonto-erstellen, Mein optionaler Linktext>>
+
+Anchor in anderem Dokument referenzieren: xref:group#mitglieder[Mein optionaler Linktext]
+
+////
+
+
+== Benutzerkonto erstellen
+
+////
+Syntax für einen Rahmen:
+-- = einfacher Block, ohne Optik
+---- = Block mit dünnem Rahmen
+==== = Block mit dickem Rahmen
+////
+
+
+[.float-group]
+--
+image::ar_register-select.png[Select Register, 200, float=right]
+
+. Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
+. Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].
+[.result]#Eine Auswahlliste wird angezeigt.#
+. Wähle `Registrieren`.
+[.result]#Das Formular `Benutzerregistrierung` wird angezeigt.#
+. Fülle die mit einem roten Sternchen markierten Pflichtfelder aus und klicke den Button *_Registrieren_*.
+[.result]#Du erhälst eine E-Mail mit dem Aktivierungslink.#
+. Klicke in der E-Mail den Button *_ACCOUNT AKTIVIEREN_*.
+[.result]#Das Formular `Benutzerkonto aktivieren` wird angezeigt:#
+--
+
+image::ar_activation-form-filled-in.png[Activate form]
+
+[start=6]
+. Vergebe ein Kennwort und klicke den Button *_Sichern_*.
+[.result]#Ein Meldungsfenster wird angezeigt.#
+. Klicke *_Weiter_*.
+[.result]#Das Dashboard wird angezeigt.#
+
+[comment]
+Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
+TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
+
+IMPORTANT: Notiere E-Mail-Adresse und Passwort. Diese benötigst du, um dich am agrirouter anzumelden.
+
+
+== Anmelden
+
+[.float-group]
+--
+image::ar_logon-select.png[Select Log on, 200, float=right]
+
+. Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
+. Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].
+[.result]#Eine Auswahlliste wird angezeigt.#
+. Wähle `Login`.
+[.result]#Das Formular `Anmelden` wird angezeigt.#
+. Gebe E-Mail-Adresse und Passwort ein.
+. Aktiviere die Checkbox "_Angemeldet bleiben_".
+--
+
+image::ar_logon.png[Log on form]
+
+[start=6]
+. Klicke den Button *_Anmelden_*.
+[.result]#Das Dashboard wird angezeigt.#
+
+[TIP]
+====
+Um das Dashboard zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:
+
+. Öffne die https://goto.my-agrirouter.com/app[die Anmeldeseite] wie oben beschrieben.
+. Aktiviere die Checkbox "_Angemeldet bleiben_" und melde dich an.
+. Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [.underline]#ohne# dich abzumelden.
+[.result]#Wenn du das nächste Mal https://goto.my-agrirouter.com/app[die Anmeldeseite] öffnest, wird sofort das Dashboard angezeigt.#
+====
+
+== Benutzerdaten ändern
+
+. Klicke die Kachel *_Kontoverwaltung_*.
+[.result]#Die `Kontoverwaltung` wird angezeigt:# + 
+
+image::ar_account-mgmt.png[Account management]
+
+[start=2]
+. Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zum Ansprechpartner`.
+[.result]#Das Formular `Daten Ansprechpartner bearbeiten` wird angezeigt.#
+. Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*.
+. Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.
+[.result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#
+. Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*.
+. Klicke den Button *_Email-Adresse ändern_* im Abschnitt `Angaben zum Ansprechpartner`.
+[.result]#Das Formular `Email-Adresse ändern` wird angezeigt.#
+. Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke den Button *_Bestätigen_*.
+. Klicke den Button *_Startseite_*.
+[.result]#Das Dashboard wird angezeigt.#
+
+NOTE: Verwende bei der nächsten Anmeldung die neue E-Mail-Adresse.
+
 
 == Konto löschen
-. Klicke den Button _Konto löschen_.
-* Ein Meldungsfenster wird angezeigt.
-. Klicke den Button _OK_.
-* Das Konto wird gelöscht.
+Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:
 
-== Einstellungen ändern
-Das Erscheinungsbild der Benutzeroberfläche, der Inhalt der Startseite und die Darstellung der Benachrichtigungen können eingestellt werden.
+[.float-group]
+--
+image::ar_account-mgmt-tile.png[Account Management Tile, 200, float=right]
 
-. Klicke auf das Icon _Profil_.
-. Klicke auf das Icon _Einstellungen_.
-* Das Fenster _Einstellungen_ wird angezeigt.
-. Nehme alle Änderungen vor und klicke erst dann den Button _Sichern_.
+. Klicke die Kachel *_Kontoverwaltung_*.
+[.result]#Die `Kontoverwaltung` wird angezeigt.#
+. Klicke den Button *_Konto löschen_*.
+[.result]#Ein Meldungsfenster wird angezeigt.#
+. Klicke den Button *_OK_*.
+[.result]#Das Formular `Bestätigung` wird angezeigt.#
+--
 
-=== Benutzeroberfläche einstellen
-Im Reiter _Theme_ kannst du zwischen einem dunklen und einem hellen Erstellungsbild wählen.
-Im Reiter _Anzeigeeinstellungen_ kannst Du die Animationen ausschalten und die Größe der Bedienelemente ändern.
+[start=4]
+. Gebe dein Passwort ein und klicke den Button *_Bestätigen_*.
+[.result]#Das Konto wird gelöscht.#
+[.result]#Ein Meldungsfenster wird angezeigt.#
+. Klicke den Button *_OK_*.
 
-. Klicke den Button _Erscheinungsbild_.
-. Wähle ein Theme und stelle die Anzeige ein.
+image::ar_account-delete-success.png[Account deleted]
 
-=== Startseite einstellen
-Du kannst wählen, ob auf dem Dashboard alle Kacheln angezeigt werden, oder nur die Kacheln der jeweils aktiven Gruppe.
 
-Klicke den Button _Startseite_.
-Wähle die Ansicht des Dashboards.
+WARNING: Alle Einstellungen und Benutzerdaten sowie alle Endpunkte und deren Postfächer werden gelöscht und können nicht wieder hergestellt werden.
 
-=== Benachrichtigungen einstellen
-Du kannst...
+== Einstellungen
+Ansicht und Inhalt des Dashboard und die Darstellung von Benachrichtigungen können eingestellt werden.
 
-. Klicke den Button _Benachrichtigungen_.
-. Aktiviere die gewünschten Optionen.
+[.float-group]
+--
+image::ar_profile-menue.png[Profile menue, 150, float=right]
+
+. Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].
+[.result]#Eine Auswahlliste wird angezeigt.#
+. Wähle *_Einstellungen_* image:ar_settings.icon.png[logon, 30, 30].
+[.result]#Das Fenster `Einstellungen` wird angezegt.#
+[.result]#Links befindet sich die Liste der Einstellungen, rechts die Details zum gewählten Listeneintrag.#
+. Ändere die Einstellungen wie in den folgenden Kapiteln beschrieben und klicke dann den Button *_Sichern_*:
+--
+
+image::ar_settings-page.png[Settings]
+
+
+=== Ansicht
+Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche. + 
+Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein und aktivierst die Animationen.
+
+
+. Klicke den Button *_Erscheinungsbild_*.
+. Klicke den Reiter `Theme` und wähle das Design.
+. Klicke den Reiter `Anzeigeeinstellungen`.
+[.result]#Die Optionen werden angezeigt.#
+. Schalte *_Große Interaktionselemente_* an.
+[.result]#Die Icons, Buttons und Kacheln werden in der maximalen Größe angezeigt.#
+. Wähle in der Auswahlliste *_Animation_* die Option `Voll`.
+
+[TIP]
+====
+Wähle auf einem leistungsschwachen PC, Laptop oder Tablet in der Auswahlliste *_Animation_* die Option `Minimal`.
+
+Schalte auf Geräten mit kleinem Bildschirm *_Große Interaktionselemente_* aus.
+====
+
+=== Startseite
+Das Dashboard ist in 4 Reiter aufgeteilt.
+
+Zeige die Inhalte aller Reiter auf einer Seite an wie folgt:
+
+. Klicke den Button *_Startseite_*.
+. Wähle *_Sämtlichen Inhalt anzeigen_*.
+
+NOTE: Dies ist die empfohlene Einstellung.
+
+Zeige den Inhalt des gewählten Reiters an wie folgt:
+
+. Klicke den Button *_Startseite_*.
+. Wähle *_Eine Gruppe auf einmal anzeigen_*.
+
+=== Benachrichtigungen
+Diese Einstellungen werden vom Programm nicht verwendet.
+
+=== Sprache und Region
+Die Sprache stellst Du in der `Kontoverwaltung` im Abschnitt `Angaben zum Ansprechpartner` ein.
+
+* Gehe vor wie im Kapitel `Benutzerdaten` beschrieben.
+
+Region, Datum- und Zeitformat können nicht eingestellt werden.

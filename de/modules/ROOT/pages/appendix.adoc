@@ -1,5 +1,31 @@
+:imagesdir: _images/
+:icons: font
 
-== Guidance and Geo Data
+= Anhang A, DDI
+
+Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und Prozessparameter in Echtzeit versenden.
+
+Es gibt über 600 solcher Parameter, z.B. 
+
+* Soll- und Istwerte in den Auftragsdaten
+* Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten
+
+Wir haben die Parameter zur besseren Übersicht in 12 Kategorien zusammengefasst.
+Wie in den Abschnitten xref:endpoint.adoc#detailansicht[Endpunkt] bzw. xref:group.adoc#detailansicht[Gruppe] beschrieben, wählst du bei der Erstellung von Routen eine oder mehrere Kategorien aus.
+[.result]#Alle der gewählten Kategorie zugeordneten Parameter können dann zwischen den Endpunkten ausgetauscht werden.#
+
+[NOTE]
+====
+Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + 
+Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht.
+====
+
+Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:
+
+== GPS Positionsdaten und Guidance-Informationen
+
+GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die Telemetriedaten gemessen oder protokolliert wurden.
+Daten mit Bezug zu geografischen und Guidance.Informationen.
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -53,7 +79,8 @@
 |632 |Setpoint Tramline Condensed Work State (241-256) |Guidance and Geo Data |The Setpoint Tramline Condensed Work State DDIs are the control command counterparts to the Actual Tramline Condensed Work States DDIs.
 |=======================================================================================
 
-== General Work Data
+== Allgemeine Prozessdaten
+Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für Ausbringung und/oder Ertrag nicht relevant sind).
 
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
@@ -114,7 +141,10 @@
 |602 |Lifetime Total Distance Street |General Work Data |Entire Total Distance on the street of the device lifetime
 |=======================================================================================
 
-== Fuel and Exhaust Fluid Consumption Data
+== Kraftstoff und Harnstofflösung
+
+Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von Maschinen (Gesamtenergieverbrauch).
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -140,7 +170,10 @@
 |491 |Fuel Percentage Level |Fuel and Exhaust Fluid Consumption Data |The actual level of the machine fuel tank in percent.
 |=======================================================================================
 
-== Machine Data
+== Maschineneigenschaften
+
+Nicht prozessrelevante Daten zu den Maschineneigenschaften.
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -257,7 +290,10 @@
 |643 |Actual Tire Temperature |Machine Data |Actual Tire Temperature is the measured temperature in the tire during operation.
 |=======================================================================================
 
-== Application Data
+== Ausbringung
+
+Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, Pflanzenschutzmittel, Trockenmasse, usw.).
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -372,7 +408,10 @@
 |49152 |Setpoint Droplet Size |Application Data |The setpoint for droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
 |=======================================================================================
 
-== Crop and Yield Data
+== Ertragsdaten
+
+Menge und Eigenschaften des Erntegutes
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -458,7 +497,10 @@
 |654 |Last Bale Wrapping Film Layers |Crop and Yield Data |Wrapping film layers in the most recently produced bale
 |=======================================================================================
 
-== Process Data
+== Prozessdaten
+
+Daten über den Hauptarbeitsprozess der Maschine.
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -665,7 +707,10 @@
 |584 |Actual Frequency  |Process Data |Actual Frequency of Device Element specified as Hz
 |=======================================================================================
 
-== Environment Data
+== Umgebungsbedingungen
+
+Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit).
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -683,7 +728,10 @@
 |587 |Previous Rainfall |Environment Data |DDI to document past rainfall conditions.
 |=======================================================================================
 
-== Basic Data
+== Basisdaten
+
+Grundlegende Werte, die für das gesamte System relevant sind.
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -713,14 +761,20 @@
 |57343 |Request Default Process Data |Basic Data |Request Default Process Data. This DDE is the highest ISO assigned entity.  The range above this number is reserved for manufacture specific DDE's.
 |=======================================================================================
 
-== Machine Data (only PGN Data)
+== Maschinendaten (nur PGN)
+
+Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. Hubwerksposition, Zapfwellendrehzahl, etc.
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
 |57342 |PGN Based Data |Machine Data (only PGN Data) |This DDI is used in the XML files to identify PGN based data.
 |=======================================================================================
 
-== Proprietary Data
+== Proprietäre Daten
+
+Herstellerspezifische Daten (nicht Bestandteil des Standards).
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
@@ -728,12 +782,15 @@
 |65535 |Reserved |Proprietary Data |Reserved
 |=======================================================================================
 
-== Soil Data
+== Bodendaten
+
+Bedingungen und Sensordaten zur Bodenbeschaffenheit.
+
 [cols="1,3,3,4",options="header",]
 |=======================================================================================
 |DDI ID| DDI |Kategorie |Beschreibung
-|468 |Soil Snow/Frozen Condtion |Soil Data |DDI to document the soil snow / frozen condition.
-|469 |Estimated Soil Water Condtion |Soil Data |DDI to document the estimated soil water condition.
+|468 |Soil Snow/Frozen Condition |Soil Data |DDI to document the soil snow / frozen condition.
+|469 |Estimated Soil Water Condition |Soil Data |DDI to document the estimated soil water condition.
 |470 |Soil Compaction |Soil Data |DDI to document the soil compaction.
 |550 |Ground Cover |Soil Data |The Ground Cover as an amount of soil that is covered by plants
 |655 |Electrical Apparent Soil Conductivity |Soil Data |Electrical conductivity also called the EC-Value.
