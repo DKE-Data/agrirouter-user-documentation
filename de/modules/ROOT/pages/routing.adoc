@@ -48,9 +48,9 @@ Die eingehenden und abgehenden Routen der beiden xref:introduction.adoc#standard
 * Wie du eine eingehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du xref:group.adoc#empfangen-von[hier...]
 
 == Häufig verwendete Routen
-Im Folgenden stellen wir Dir von Benutzern häufig eingesetzte Routen vor, jeweils mit einer Schritt für Schritt Anleitung zur Einrichtung der Route.
+Im Folgenden stellen wir Dir von Benutzern häufig eingesetzte Routen vor, jeweils mit einer schrittweisen Anleitung zur Einrichtung.
 
-=== Alle an alle
+=== Alle senden alles an alle
 Mit diesem Routing senden alle Endpunkte alle verfügbaren Daten an alle anderen Endpunkte.
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
@@ -63,8 +63,9 @@ Mit diesem Routing senden alle Endpunkte alle verfügbaren Daten an alle anderen
 . Gebe als Namen `Alle` und optional eine kurze Beschreibung ein.
 . Klicke den Button *_Bestätigen_*.
 [.result]#Die Gruppenliste wird angezeigt.#
-. Wähle in der Gruppenliste die neue Gruppe.
+. Wähle in der Gruppenliste die Gruppe `Alle`.
 [.result]#Die Detailansicht wird angezeigt.#
+. Wähle den Reiter `Senden an`.
 . Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
 [.result]#Das Formular `Neues Routing` wird angezeigt.#
 . Klicke in das Eingabefeld *_Empfänger_*.
