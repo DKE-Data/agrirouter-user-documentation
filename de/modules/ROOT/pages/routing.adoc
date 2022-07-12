@@ -47,3 +47,49 @@ Die eingehenden und abgehenden Routen der beiden xref:introduction.adoc#standard
 * Wie du eine eingehende Route für einen Endpunkt anlegst, bearbeitest und löscht, erfährst du xref:endpoint.adoc#empfangen-von[hier...]
 * Wie du eine eingehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du xref:group.adoc#empfangen-von[hier...]
 
+== Häufig verwendete Routen
+Im Folgenden stellen wir Dir von Benutzern häufig eingesetzte Routen vor, jeweils mit einer schrittweisen Anleitung zur Einrichtung.
+
+=== Alle senden alles an alle
+Mit diesem Routing senden alle Endpunkte alle verfügbaren Daten an alle anderen Endpunkte.
+
+. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
+[.result]#Das Kontrollzentrum wird angezeigt.#
+. Klicke den Button *_Gruppen_*.
+[.result]#Links wird die Gruppenliste angezeigt.#
+[.result]#Rechts wird die Detailansicht angezeigt.#
+. Klicke den Button *_+ Gruppe_*.
+[.result]#Das Fenster `Neue Gruppe` wird angezeigt.#
+. Gebe als Namen `Alle` und optional eine kurze Beschreibung ein.
+. Klicke den Button *_Bestätigen_*.
+[.result]#Die Gruppenliste wird angezeigt.#
+. Wähle in der Gruppenliste die Gruppe `Alle`.
+[.result]#Die Detailansicht wird angezeigt.#
+. Wähle den Reiter `Senden an`.
+. Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke in das Eingabefeld *_Empfänger_*.
+[.result]#Die Auswahlliste `Endpunkt auswählen` wird angezeigt.#
+. Wähle die Gruppe `Alle`.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke in das Eingabefeld *_Nachrichtenformate_*.
+[.result]#Die Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#
+. Wähle alle Nachrichtenformate und klicke *_Bestätigen_*.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.
+[.result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#
+. Wähle alle Kategorien und klicke *_Bestätigen_*.
+[.result]#Das Formular `Neues Routing` wird angezeigt.#
+. Klicke den Button *_Bestätigen_*.
+[.result]#Die Gruppe `Alle` wird als Sender und Empfänger hinzugefügt.#
+. Wähle den Reiter `Mitglieder`.
+. Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].
+[.result]#Das Formular `Mitglieder auswählen` wird angezeigt.#
+. Wähle alle Endpunkte und klicke *_Bestätigen_*.
+[.result]#Alle Endpunkte werden der Gruppe `Alle` hinzugefügt.#
+
+[NOTE]
+====
+Dem agrirouter neu hinzugefügte Endpunkte werden nicht automatisch in die Gruppe `Alle` aufgenommen. + 
+[.result]#Denke daran, neue Endpunkte der Gruppe `Alle` hinzuzufügen.#
+
