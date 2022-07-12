@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-11 11:32+0200\n"
-"PO-Revision-Date: 2022-07-12 06:45+0000\n"
+"PO-Revision-Date: 2022-07-12 08:11+0000\n"
 "Last-Translator: Weblate Admin <admin@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: de/antora.yml:0 de/antora-playbook.yml:0
 #, no-wrap
 msgid "agrirouter Bedienungsanleitung"
-msgstr "agrirouter Bedienungsanleitung"
+msgstr "agrirouter Operating Manual"
 
 #. type: Hash Value: content sources start_path
 #: de/antora-playbook.yml:0
@@ -64,7 +64,7 @@ msgstr "xref:routing.adoc[Routing]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:7
 msgid "xref:account-pairing.adoc[Konto verbinden]"
-msgstr "xref:account-pairing.adoc[Konto verbinden]"
+msgstr "xref:account-pairing.adoc[Pair account]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:8
@@ -93,29 +93,31 @@ msgid ""
 "Du kannst dein Konto mit den Konten anderer Nutzer verbinden.  Das "
 "verbundene Konto kann Daten von dir empfangen und Daten an dich senden."
 msgstr ""
+"You can pair your account with the accounts of other users. The paired "
+"account can receive data from you and send data to you."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:9
 #: de/modules/ROOT/pages/account.adoc:9 de/modules/ROOT/pages/endpoint.adoc:9
 #: de/modules/ROOT/pages/group.adoc:10 de/modules/ROOT/pages/routing.adoc:26
 msgid "In diesem Abschnitt erfährst du"
-msgstr ""
+msgstr "In this section you will learn"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:11
 msgid "wie du dein Konto mit einem anderen Konto verbindest"
-msgstr ""
+msgstr "how to pair your account with another account"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:12
 msgid "wie du den Datenaustausch mit dem anderen Konto aktivierst"
-msgstr ""
+msgstr "how to activate data exchange with the other account"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:14
 #, no-wrap
 msgid "Einladung versenden"
-msgstr ""
+msgstr "Send invitation"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:17
@@ -124,12 +126,14 @@ msgid ""
 "Kontoinhaber eine Einladung.  Dazu benötigst du die E-Mail-Adresse des "
 "Kontos."
 msgstr ""
+"To connect your account with another account, you send an invitation to the "
+"account owner. For this, you need to know the e-mail address of that account."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:20
 #, no-wrap
 msgid "Pairing tile"
-msgstr ""
+msgstr "Pairing tile"
 
 #. type: Target for macro image
 #: de/modules/ROOT/pages/account-pairing.adoc:20
@@ -145,6 +149,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
+"In the dashboard, click the tile *_Account Pairing_*. [.result]#The window `"
+"Account pairing` is shown.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -152,17 +158,18 @@ msgid ""
 "Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-"
 "Adresse_* ein."
 msgstr ""
+"Enter the e-mail address of the other account into the input field *_Email_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:26
 msgid "Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein."
-msgstr ""
+msgstr "Enter a freely choosable name into the input field *_Nickname_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:27
 #, no-wrap
 msgid "Pairing invite"
-msgstr ""
+msgstr "Pairing invite"
 
 #. type: Target for macro image
 #: de/modules/ROOT/pages/account-pairing.adoc:27
@@ -177,6 +184,9 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
+"Click the button *_Send invite_*. [.result]#The invitiation is sent to the "
+"other account.# [.result]#The invitiation is shown in the tab `Pending "
+"invites` until it is being accepted by the other account's owner.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:39
@@ -186,6 +196,10 @@ msgid ""
 "result]#Das Konto wird in den Reiter `Verbunden` verschoben.# [.result]#Das "
 "Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
+"If the other account's owner accepts the invitation, then: [.result]#You "
+"will receive an e-mail.# [.result]#The accounts are paired with each other.# "
+"[.result]#The account will be moved to the tab `Paired`.# [.result]#The "
+"account will be added to the endpoints list.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:46
