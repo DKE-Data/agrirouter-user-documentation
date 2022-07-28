@@ -118,18 +118,3 @@ Damit miteinander verbundene Konten Daten austauschen können, musst du die Rout
 
 TIP: Wenn du temporär keine Daten mit dem verbundenen Konto austauschen möchtest, schalte den *_Datenfluss_* auf `AUS`.
 Für eine dauerhafte Trennung vom verbundenen Konto, <<verbindung-beenden,beende die Verbindung>>.
-
-////
-[NOTE]
-====
-Auch Agrarsoftware eines verbundenen Kontos kann Nachrichten von dir empfangen.
-Dazu muss der Kontoinhaber des verbundenen Kontos in den Einstellungen der Agrarsoftware die Nachrichten auswählen, die diese empfangen soll. Der Eintrag in den Einstellungen heißt meist `Subscriptions`.
-Meist sind diese Einstellungen standardmäßig gesetzt.
-====
-
-Daten, die zu einem angeschlossenen Konto fließen, werden immer mit dem Status „Published“ versehen. 
-Man kann sich dies wie eine Wurfsendung vorstellen, die an alle Empfänger zugestellt wird, die die Nachrichten empfangen möchten. 
-Verbundene Accounts können untereinander nicht die Endpunkte des anderen Accounts einsehen, 
-außer ein Account Inhaber hat bestimmte Maschinen für einen oder mehrere verbundene Accounts freigegeben. 
-So kann z.B. ein Lohnunternehmer nur die GPS-Position und den Arbeitsstaus eines Feldhäckslers einem verbundenen Kunden Account freigeben. 
-////
