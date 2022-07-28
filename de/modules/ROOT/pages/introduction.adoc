@@ -26,23 +26,24 @@ Wenn du dich am agrirouter anmeldest, wird deine persönliche Startseite, das <<
 [.result]#Über das Dashboard hast du Zugriff auf alle Funktionen des agrirouter.#
 
 Du kannst die Ansicht deines Dashboards einrichten.
-[.result]#Ändere die Ansicht, wie im Kapitel xref:account.adoc#einstellungen[Einstellungen] beschrieben.#
+[.result]#Ändere die Ansicht, wie im Kapitel xref:account.adoc#settings[Einstellungen] beschrieben.#
 
 Maschinen und Agrarsoftware können Daten austauschen, wenn du sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.
-[.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] und xref:endpoint.adoc#agrarsoftware-verbinden[Agrarsoftware verbinden] beschrieben.#
+[.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint.adoc#connect-machine[Maschine verbinden] und xref:endpoint.adoc#connect-software[Agrarsoftware verbinden] beschrieben.#
 
 Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt sendet und/oder empfängt.
-[.result]#Soll der Endpunkt Daten versenden, folge der Anleitung im Kapitel xref:endpoint.adoc#senden-an[Senden an].#
-[.result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint.adoc#empfangen-von[Empfangen von].#
+[.result]#Soll der Endpunkt Daten versenden, folge der Anleitung im Kapitel xref:endpoint.adoc#send-to[Senden an].#
+[.result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint.adoc#receive-from[Empfangen von].#
 
 Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du nur für die Gruppe -- und nicht für jedes Mitglied der Gruppe -- Routen erstellen.
-[.result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügen] beschrieben.#
-[.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel xref:group.adoc#senden-an[Senden an].#
-[.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im Kapitel xref:group.adoc#empfangen-von[Empfangen von].#
+[.result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#add-group[Gruppe hinzufügen] beschrieben.#
+[.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel xref:group.adoc#send-to[Senden an].#
+[.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im Kapitel xref:group.adoc#receive-from[Empfangen von].#
 
 == Grundlagen
 Es folgen in alphabetischer Reihenfolge einige grundlegende Begriffe und Konzepte, die du kennen solltest, wenn du den agrirouter nutzt.
 
+[#dashboard]
 === Dashboard
 Wenn du dich unter https://goto.my-agrirouter.com/app[my-agrirouter.com^] angemeldet hast, wird das Dashboard angezeigt, deine persönliche agrirouter Startseite.
 Über das Dashboard hast du Zugriff auf alle Funktionen des agrirouter:
@@ -55,6 +56,7 @@ Wenn du dich unter https://goto.my-agrirouter.com/app[my-agrirouter.com^] angeme
 
 image::ar_dashboard.legend.png[agrirouter Dashboard]
 
+[#endpoint]
 === Endpunkt
 Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird dem agrirouter ein Endpunkt des passenden Typs hinzugefügt.
 Es gibt folgende Endpunkt-Typen:
@@ -75,6 +77,7 @@ image::ar_overview.png[Overview]
 Jeder Endpunkt kann Daten senden und empfangen.
 Die Endpunkte verknüpfst Du mit <<Route,Routen>> so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen.
 
+[#group]
 === Gruppe
 Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + 
 Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe.
@@ -84,6 +87,7 @@ Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts 
 
 image::ar_group-view.legend.png[Groups legend]
 
+[#control-center]
 === Kontrollzentrum
 Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und Routen image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- bzw. die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe angezeigt werden.
 
@@ -100,6 +104,7 @@ Dokumente:: Berichte im pdf-Format
 
 NOTE: Bei der Erstellung einer Route werden dir nur die Nachrichten(typen) zur Wahl angeboten, die von Sender und Empfänger verarbeitet werden können.
 
+[#route]
 === Route
 Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
 
@@ -117,6 +122,7 @@ Erstelle eingehende und/oder abgehende Routen für jeden Endpunkt, jede Gruppe u
 Ohne Route kein Datenaustausch.
 ====
 
+[#default-groups]
 === Standard-Gruppen
 
 Im agrirouter gibt es zwei vordefinierte Standard-Gruppen:

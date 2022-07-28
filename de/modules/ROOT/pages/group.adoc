@@ -3,7 +3,7 @@
 
 = Gruppe
 
-Fasse Endpunkte in xref:introduction.adoc#gruppe[Gruppen] zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + 
+Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + 
 Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe.
 
 In diesem Abschnitt erfährst du
@@ -13,7 +13,7 @@ In diesem Abschnitt erfährst du
 * wie du xref:introduction.adoc#route[die Routen] für die Gruppe erstellst
 
 == Das Kontrollzentrum
-Öffne das xref:introduction.adoc#kontrollzentrum[Kontrollzentrum], um eine Gruppe hinzuzufügen und zu verwalten:
+Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine Gruppe hinzuzufügen und zu verwalten:
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
 [.result]#Das Kontrollzentrum wird angezeigt.#
@@ -58,6 +58,7 @@ image::ar_group-item.legend.png[Group list, 250, float=right]
 
 --
 
+[#add-group]
 === Gruppe hinzufügen
 
 . Klicke den Button *_+ Gruppe_*.
@@ -88,14 +89,14 @@ Wenn deine neu erstellte Gruppe nicht in der Liste erscheint, aktualisiere die L
 . Klicke das Icon *_Aktualisieren_*  image:ar_refresh.icon.png[refresh, 30, 30] über der Gruppenliste.
 [.result]#Die Gruppenliste wird aktualisiert.#
 
-
+[#detail-view]
 == Detailansicht
 In der Detailansicht sind alle Informationen zur Gruppe zusammengefasst.
 Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe austauschen und fügst der Gruppe Mitglieder hinzu.
 
 Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt.
 
-
+[#send-to]
 === Senden an
 Der Reiter enthält eine Liste der Empfänger. + 
 Empfänger
@@ -146,7 +147,7 @@ IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte
 . Bestätige die Abfrage mit *_OK_*.
 [.result]#Der Empfänger erthält keine Nachrichten mehr von der Gruppe.#
 
-
+[#receive-from]
 === Empfangen von
 Der Reiter enthält eine Liste der Sender. + 
 Sender
@@ -202,7 +203,7 @@ Der Reiter enthält eine Liste der Mitglieder der Gruppe.
 
 Du kannst Mitglieder hinzufügen image:ar_add.icon.png[add, 30, 30] und entfernen image:ar_delete.icon.png[delete, 30, 30]
 
-NOTE: Um ein Mitglied der Gruppe zu bearbeiten, öffne die Endpunkteliste, wähle und bearbeite xref:endpoint.adoc#endpunkt-bearbeiten[den Endpunkt] und xref:endpoint.adoc#senden-an[das Routing].
+NOTE: Um ein Mitglied der Gruppe zu bearbeiten, öffne die Endpunkteliste, wähle und bearbeite xref:endpoint.adoc#edit-endpoint[den Endpunkt] und xref:endpoint.adoc#send-to[das Routing].
 
 ==== Mitglied hinzufügen
 Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der Gruppenliste hinzufügen.

@@ -3,7 +3,7 @@
 
 = Endpunkte
 
-Für jede Maschine und Agrarsoftware, die über den agrirouter Daten austauschen soll, musst du einen xref:introduction.adoc#endpunkt[Endpunkt] hinzufügen.
+Für jede Maschine und Agrarsoftware, die über den agrirouter Daten austauschen soll, musst du einen xref:introduction.adoc#endpoint[Endpunkt] hinzufügen.
 
 In diesem Abschnitt erfährst du
 
@@ -11,7 +11,7 @@ In diesem Abschnitt erfährst du
 * wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst
 
 == Das Kontrollzentrum
-Öffne das xref:introduction.adoc#kontrollzentrum[Kontrollzentrum], um einen Endpunkt hinzuzufügen und zu verwalten:
+Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um einen Endpunkt hinzuzufügen und zu verwalten:
 
 . Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
 [.result]#Das Kontrollzentrum wird geöffnet.#
@@ -66,6 +66,7 @@ image::ar_endpoint-item.legend.png[Endpoint list item, 250, float=right]
 
 --
 
+[#connect-machine]
 === Maschine verbinden
 Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter und wird der Endpunkteliste hinzugefügt.
 
@@ -96,6 +97,7 @@ NOTE: Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrie
 
 IMPORTANT: Handelt es sich um eine ISOBUS-Maschine, wird diese ebenfalls der Endpunkteliste hinzugefügt. Damit können ISOBUS-Maschinen beim Routing als Sender oder Empfänger ausgewählt werden.
 
+[#connect-software]
 === Agrarsoftware verbinden
 Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:
 
@@ -156,6 +158,7 @@ Aktualisiere die Endpunkteliste, wenn der gesuchte Endpunkt nicht eingetragen is
 . Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30] über der Endpunkteliste.
 [.result]#Die Endpunkteliste wird aktualisiert.#
 
+[#detail-view]
 == Detailansicht
 In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
@@ -169,6 +172,7 @@ Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,Emp
 
 NOTE: Die Zahl der angezeigten Reiter hängt vom Endpunkt-Typ ab. So wird etwa der Reiter `Externe Maschinen` nur bei verbundenen Konten angezeigt.
 
+[#send-to]
 === Senden an
 Der Reiter enthält eine Liste der Empfänger. + 
 Empfänger
@@ -221,7 +225,7 @@ IMPORTANT: Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte
 . Bestätige die Abfrage mit *_OK_*.
 [.result]#Der Empfänger wird gelöscht.#
 
-
+[#receive-from]
 === Empfangen von
 Der Reiter enthält eine Liste der Sender.
 Sender
@@ -307,7 +311,7 @@ Im Reiter werden alle Maschinen angezeigt,
 * die zum verbundenen Konto gehören und
 * die Echtzeitdaten verarbeiten können.
 
-
+[#edit-endpoint]
 == Endpunkt bearbeiten
 Du kannst
 

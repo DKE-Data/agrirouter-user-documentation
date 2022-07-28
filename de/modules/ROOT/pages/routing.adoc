@@ -30,7 +30,7 @@ In diesem Abschnitt erfährst du
 
 == Automatisch angelegte Routen
 
-Die eingehenden und abgehenden Routen der beiden xref:introduction.adoc#standard-gruppen[Standard-Gruppen] werden vom System vorgegeben und können nicht geändert werden:
+Die eingehenden und abgehenden Routen der beiden xref:introduction.adoc#default-groups[Standard-Gruppen] werden vom System vorgegeben und können nicht geändert werden:
 
 * Mitglieder der Agrarsoftware-Gruppe senden alle Daten, d.h. alle Nachrichten und Echtzeitdaten, an alle Mitglieder der Maschinen-Gruppe
 * Mitglieder der Maschinen-Gruppe senden alle Daten, d.h. alle Nachrichten und Echtzeitdaten, an alle Mitglieder der Agrarsoftware-Gruppe
@@ -38,14 +38,14 @@ Die eingehenden und abgehenden Routen der beiden xref:introduction.adoc#standard
 == Abgehende Routen
 Über eine abgehende Route sendest du Daten von einem Endpunkt oder einer Gruppe an einen Empfänger.
 
-* Wie du eine abgehende Route für einen Endpunkt anlegst, bearbeitest und löscht, erfährst du xref:endpoint.adoc#senden-an[hier...]
-* Wie du eine abgehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du xref:group.adoc#senden-an[hier...]
+* Wie du eine abgehende Route für einen Endpunkt anlegst, bearbeitest und löscht, erfährst du xref:endpoint.adoc#send-to[hier...]
+* Wie du eine abgehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du xref:group.adoc#send-to[hier...]
 
 == Eingehende Routen
 Über eine eingehende Route empfängt der Endpunkt oder die Gruppe Daten von einem Sender.
 
-* Wie du eine eingehende Route für einen Endpunkt anlegst, bearbeitest und löscht, erfährst du xref:endpoint.adoc#empfangen-von[hier...]
-* Wie du eine eingehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du xref:group.adoc#empfangen-von[hier...]
+* Wie du eine eingehende Route für einen Endpunkt anlegst, bearbeitest und löscht, erfährst du xref:endpoint.adoc#receive-from[hier...]
+* Wie du eine eingehende Route für eine Gruppe anlegst, bearbeitest und löscht, erfährst du xref:group.adoc#receive-from[hier...]
 
 == Häufig verwendete Routen
 Im Folgenden stellen wir Dir von Benutzern häufig eingesetzte Routen vor, jeweils mit einer schrittweisen Anleitung zur Einrichtung.
