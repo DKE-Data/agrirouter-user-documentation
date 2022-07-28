@@ -1,63 +1,40 @@
-# French translations for PACKAGE package
-# Copyright (C) 2021 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2021.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-07-27 12:53+0200\n"
-"PO-Revision-Date: 2021-11-24 21:23+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2022-07-11 11:32+0200\n"
+"PO-Revision-Date: 2022-07-12 09:58+0000\n"
+"Last-Translator: Weblate Admin <admin@dke-data.com>\n"
+"Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
+"agrirouter/user-manual/fr@formal/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  account-pairing.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  account.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  antora-playbook.yml.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  antora.yml.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  basics.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  endpoint.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  group.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  introduction.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  nav.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  routing.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"#-#-#-#-#  support.adoc.fr.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1\n"
 
 #. type: Hash Value: site title
 #: de/antora.yml:0 de/antora-playbook.yml:0
-#, fuzzy, no-wrap
-#| msgid "agrirouter user manual"
+#, no-wrap
 msgid "agrirouter Bedienungsanleitung"
-msgstr "agrirouter mode d'emploi"
+msgstr ""
 
 #. type: Hash Value: content sources start_path
 #: de/antora-playbook.yml:0
-#, fuzzy, no-wrap
-#| msgid "en/"
+#, no-wrap
 msgid "de/"
-msgstr "fr/"
+msgstr ""
 
 #. type: Hash Value: site url
 #: de/antora-playbook.yml:0
-#, fuzzy, no-wrap
-#| msgid "en/"
+#, no-wrap
 msgid "/de"
-msgstr "fr/"
+msgstr ""
 
 #. type: Content of: <div><div><div>
 #: de/supplemental-ui/partials/header-menu.hbs:4
@@ -86,7 +63,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:4
 msgid "xref:endpoint.adoc[Endpunkt]"
-msgstr ""
+msgstr "xref:endpoint.adoc[Point de terminaison]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:5
@@ -180,8 +157,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
 msgid ""
-"Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-"
-"Adresse_* ein."
+"Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld "
+"*_Email-Adresse_* ein."
 msgstr ""
 
 #. type: Plain text
@@ -207,9 +184,9 @@ msgstr ""
 #: de/modules/ROOT/pages/account-pairing.adoc:39
 msgid ""
 "Nimmt der Kontoinhaber die Einladung an, dann gilt: [.result]#Du erhälst "
-"eine E-Mail.# [.result]#Die beiden Konten sind miteinander verbunden.# [."
-"result]#Das Konto wird in den Reiter `Verbunden` verschoben.# [.result]#Das "
-"Konto wird der Endpunkteliste hinzugefügt.#"
+"eine E-Mail.# [.result]#Die beiden Konten sind miteinander verbunden.# "
+"[.result]#Das Konto wird in den Reiter `Verbunden` verschoben.# "
+"[.result]#Das Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
 
 #. type: delimited block =
@@ -264,8 +241,8 @@ msgstr ""
 msgid ""
 "Klicke den Button *_Einladung annehmen_*.  [.result]#Die beiden Konten sind "
 "miteinander verbunden.# [.result]#Das Konto wird in den Reiter `Verbunden` "
-"verschoben.# [.result]#Das Konto wird der Endpunkteliste hinzugefügt.# [."
-"result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, "
+"verschoben.# [.result]#Das Konto wird der Endpunkteliste hinzugefügt.# "
+"[.result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, "
 "dass du seine Einladung angenommen hast.#"
 msgstr ""
 
@@ -318,8 +295,8 @@ msgstr ""
 #: de/modules/ROOT/pages/account-pairing.adoc:97
 msgid ""
 "Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der "
-"Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [."
-"underline]#beiden# Konten Routen erstellt werden:"
+"Datenaustausch mit einem verbundenen Konto funktioniert, müssen in "
+"[.underline]#beiden# Konten Routen erstellt werden:"
 msgstr ""
 
 #. type: Plain text
@@ -461,15 +438,15 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:51 de/modules/ROOT/pages/account.adoc:83
 msgid ""
-"Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter."
-"com^]."
+"Öffne im Browser die Internetadresse "
+"https://my-agrirouter.com[my-agrirouter.com^]."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:53 de/modules/ROOT/pages/account.adoc:85
 msgid ""
-"Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].  [."
-"result]#Eine Auswahlliste wird angezeigt.#"
+"Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].  "
+"[.result]#Eine Auswahlliste wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -587,10 +564,10 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:108
 msgid ""
-"Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [."
-"underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal https://"
-"goto.my-agrirouter.com/app[die Anmeldeseite] öffnest, wird sofort das "
-"Dashboard angezeigt.#"
+"Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite "
+"[.underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal "
+"https://goto.my-agrirouter.com/app[die Anmeldeseite] öffnest, wird sofort "
+"das Dashboard angezeigt.#"
 msgstr ""
 
 #. type: Title ==
@@ -629,8 +606,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:123
 msgid ""
-"Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.  [."
-"result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#"
+"Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.  "
+"[.result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -649,9 +626,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:129
-msgid ""
-"Klicke den Button *_Startseite_*.  [.result]#Das Dashboard wird angezeigt.#"
+#: de/modules/ROOT/pages/account.adoc:126
+msgid "Klicke den Button *_Startseite_*.  [.result]#Das Dashboard wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -744,16 +720,16 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:168
 msgid ""
-"Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].  [."
-"result]#Eine Auswahlliste wird angezeigt.#"
+"Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].  "
+"[.result]#Eine Auswahlliste wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:171
 msgid ""
-"Wähle *_Einstellungen_* image:ar_settings.icon.png[logon, 30, 30].  [."
-"result]#Das Fenster `Einstellungen` wird angezegt.# [.result]#Links befindet "
-"sich die Liste der Einstellungen, rechts die Details zum gewählten "
+"Wähle *_Einstellungen_* image:ar_settings.icon.png[logon, 30, 30].  "
+"[.result]#Das Fenster `Einstellungen` wird angezegt.# [.result]#Links "
+"befindet sich die Liste der Einstellungen, rechts die Details zum gewählten "
 "Listeneintrag.#"
 msgstr ""
 
@@ -935,11 +911,12 @@ msgstr ""
 #: de/modules/ROOT/pages/appendix.adoc:16
 msgid ""
 "Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
-"zusammengefasst.  Wie in den Abschnitten xref:endpoint."
-"adoc#detailansicht[Endpunkt] bzw. xref:group.adoc#detailansicht[Gruppe] "
-"beschrieben, wählst du bei der Erstellung von Routen eine oder mehrere "
-"Kategorien aus.  [.result]#Alle der gewählten Kategorie zugeordneten "
-"Parameter können dann zwischen den Endpunkten ausgetauscht werden.#"
+"zusammengefasst.  Wie in den Abschnitten "
+"xref:endpoint.adoc#detailansicht[Endpunkt] "
+"bzw. xref:group.adoc#detailansicht[Gruppe] beschrieben, wählst du bei der "
+"Erstellung von Routen eine oder mehrere Kategorien aus.  [.result]#Alle der "
+"gewählten Kategorie zugeordneten Parameter können dann zwischen den "
+"Endpunkten ausgetauscht werden.#"
 msgstr ""
 
 #. type: delimited block =
@@ -953,8 +930,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix.adoc:24
-msgid ""
-"Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
+msgid "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
 msgstr ""
 
 #. type: Title ==
@@ -13426,8 +13402,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix.adoc:767
 msgid ""
-"Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
-"Hubwerksposition, Zapfwellendrehzahl, etc."
+"Maschinendaten, die zur PGN (Parameter Group Number) gehören; "
+"z.B. Hubwerksposition, Zapfwellendrehzahl, etc."
 msgstr ""
 
 #. type: Table
@@ -13627,9 +13603,10 @@ msgid ""
 "Der agrirouter ist ein internetbasiertes und herstellerunabhängiges Portal "
 "zum Austausch von Daten zwischen Maschine und Agrarsoftware.  Die Bedienung "
 "ist einfach und intuitiv gehalten; du solltest jedoch vor der "
-"Ersteinrichtung den https://my-agrirouter.com/en/agrirouter/quick-start-"
-"guide[Quick Start Guide^] und bei der Inbetriebnahme und weiteren Nutzung "
-"dieses Online-Handbuch lesen."
+"Ersteinrichtung den "
+"https://my-agrirouter.com/en/agrirouter/quick-start-guide[Quick Start "
+"Guide^] und bei der Inbetriebnahme und weiteren Nutzung dieses "
+"Online-Handbuch lesen."
 msgstr ""
 
 #. type: Title ==
@@ -13651,9 +13628,9 @@ msgstr ""
 #: de/modules/ROOT/pages/basics.adoc:15
 #: de/modules/ROOT/pages/introduction.adoc:24
 msgid ""
-"Zur Nutzung des agrirouter benötigst du ein Benutzerkonto: [."
-"result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account."
-"adoc[Konto] beschrieben.#"
+"Zur Nutzung des agrirouter benötigst du ein Benutzerkonto: "
+"[.result]#Erstelle und verwalte dein Konto, wie im Kapitel "
+"xref:account.adoc[Konto] beschrieben.#"
 msgstr ""
 
 #. type: Plain text
@@ -13679,9 +13656,10 @@ msgstr ""
 msgid ""
 "Maschinen und Agrarsoftware können Daten austauschen, wenn du sie im "
 "agrirouter als <<Endpunkt,Endpunkte>> registrierst.  [.result]#Füge "
-"Endpunkte hinzu, wie in den Kapiteln xref:endpoint.adoc#maschine-"
-"verbinden[Maschine verbinden] und xref:endpoint.adoc#agrarsoftware-"
-"verbinden[Agrarsoftware verbinden] beschrieben.#"
+"Endpunkte hinzu, wie in den Kapiteln "
+"xref:endpoint.adoc#maschine-verbinden[Maschine verbinden] und "
+"xref:endpoint.adoc#agrarsoftware-verbinden[Agrarsoftware verbinden] "
+"beschrieben.#"
 msgstr ""
 
 #. type: Plain text
@@ -13690,21 +13668,22 @@ msgid ""
 "Das <<Route,Routing>> legt fest, welche Daten ein Endpunkt sendet und/oder "
 "empfängt.  [.result]#Soll der Endpunkt Daten versenden, folge der Anleitung "
 "im Kapitel xref:endpoint.adoc#senden-an[Senden an].# [.result]#Soll der "
-"Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint."
-"adoc#empfangen-von[Empfangen von].#"
+"Endpunkt Daten empfangen, folge der Anleitung im Kapitel "
+"xref:endpoint.adoc#empfangen-von[Empfangen von].#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:34
 msgid ""
 "Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du das Routing "
-"nur für die Gruppe und nicht für jedes Mitglied der Gruppe einrichten.  [."
-"result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#gruppe-"
-"hinzufügen[Gruppe hinzufügen] beschrieben.# [.result]#Soll die Gruppe Daten "
-"versenden, folge der Anleitung im Kapitel xref:group.adoc#senden-an[Senden "
-"an].# [.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im "
-"Kapitel xref:group.adoc#empfangen-von[Empfangen von].# [.result]#Beispiele "
-"für häufig verwendete Routen findest du xref:routing.adoc[hier...].#"
+"nur für die Gruppe und nicht für jedes Mitglied der Gruppe einrichten.  "
+"[.result]#Füge eine Gruppe hinzu, wie im Kapitel "
+"xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügen] beschrieben.# "
+"[.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel "
+"xref:group.adoc#senden-an[Senden an].# [.result]#Soll die Gruppe Daten "
+"empfangen, folge der Anleitung im Kapitel "
+"xref:group.adoc#empfangen-von[Empfangen von].# [.result]#Beispiele für "
+"häufig verwendete Routen findest du xref:routing.adoc[hier...].#"
 msgstr ""
 
 #. type: Title ==
@@ -13748,15 +13727,14 @@ msgstr ""
 #: de/modules/ROOT/pages/basics.adoc:44
 #: de/modules/ROOT/pages/introduction.adoc:52
 msgid ""
-"In *_Konten verbinden_* verbindest du dich mit den Konten anderer agrirouter-"
-"Benutzer."
+"In *_Konten verbinden_* verbindest du dich mit den Konten anderer "
+"agrirouter-Benutzer."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:45
 #: de/modules/ROOT/pages/introduction.adoc:53
-msgid ""
-"In *_Lernen & Support_* bekommst du Hilfe bei der Nutzung von agrirouter."
+msgid "In *_Lernen & Support_* bekommst du Hilfe bei der Nutzung von agrirouter."
 msgstr ""
 
 #. type: Plain text
@@ -13774,17 +13752,16 @@ msgstr ""
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:48
 #: de/modules/ROOT/pages/introduction.adoc:56
-#, fuzzy, no-wrap
-#| msgid "agrirouter User Manual"
+#, no-wrap
 msgid "agrirouter Dashboard"
-msgstr "agrirouter mode d'emploi"
+msgstr ""
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:50
 #: de/modules/ROOT/pages/introduction.adoc:58
 #, no-wrap
 msgid "Endpunkt"
-msgstr ""
+msgstr "Point de terminaison"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:53
@@ -13807,8 +13784,8 @@ msgstr ""
 msgid ""
 "Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur "
 "Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit "
-"agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/"
-"telemetrieverbindungen[hier...^]"
+"agrirouter-Schnittstelle findest du "
+"https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]"
 msgstr ""
 
 #. type: Labeled list
@@ -13943,13 +13920,13 @@ msgstr ""
 #: de/modules/ROOT/pages/basics.adoc:90
 #: de/modules/ROOT/pages/introduction.adoc:89
 msgid ""
-"Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon."
-"png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und Routen "
-"image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden "
-"sich die Endpunkte- bzw. die Gruppenliste image:four_bk.icon.png[four, 30, "
-"30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, "
-"30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe "
-"angezeigt werden."
+"Im Kontrollzentrum erstellst und verwaltest du Endpunkte "
+"image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, "
+"30] und Routen image:three_bk.icon.png[three, 30, 30]. Links im "
+"Kontrollzentrum befinden sich die Endpunkte- bzw. die Gruppenliste "
+"image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht "
+"image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten "
+"Endpunkt bzw. zur gewählten Gruppe angezeigt werden."
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -13969,8 +13946,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:95
 #: de/modules/ROOT/pages/introduction.adoc:94
-msgid ""
-"Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:"
+msgid "Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:"
 msgstr ""
 
 #. type: Labeled list
@@ -14132,16 +14108,15 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:127
 #: de/modules/ROOT/pages/introduction.adoc:133
-msgid ""
-"Telemetrie-Einheiten und Maschinen sind Mitglied in der Maschinen-Gruppe"
+msgid "Telemetrie-Einheiten und Maschinen sind Mitglied in der Maschinen-Gruppe"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:128
 #: de/modules/ROOT/pages/introduction.adoc:134
 msgid ""
-"Agrarsoftware und Hersteller-Plattformen sind Mitglied in der Agrarsoftware-"
-"Gruppe"
+"Agrarsoftware und Hersteller-Plattformen sind Mitglied in der "
+"Agrarsoftware-Gruppe"
 msgstr ""
 
 #. type: Plain text
@@ -14163,9 +14138,9 @@ msgstr ""
 #: de/modules/ROOT/pages/basics.adoc:134
 msgid ""
 "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der "
-"Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. "
-"agrirouter unterstützt über 600 Datentypen, die in 12 Kategorien aufgeteilt "
-"sind:"
+"Feldarbeit laufend anfallende Maschinen- , Positions- und "
+"Prozessdaten. agrirouter unterstützt über 600 Datentypen, die in 12 "
+"Kategorien aufgeteilt sind:"
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -14232,8 +14207,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:12
-msgid ""
-"wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst"
+msgid "wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst"
 msgstr ""
 
 #. type: Title ==
@@ -14272,8 +14246,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:28
-msgid ""
-"Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+msgid "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
 msgstr ""
 
 #. type: Plain text
@@ -14363,9 +14336,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:71
 msgid ""
-"Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-"
-"Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter "
-"und wird der Endpunkteliste hinzugefügt."
+"Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine "
+"Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem "
+"agrirouter und wird der Endpunkteliste hinzugefügt."
 msgstr ""
 
 #. type: Plain text
@@ -14399,8 +14372,8 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:87
 msgid ""
 "Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den "
-"Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:"
-"ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
+"Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* "
+"image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
 msgstr ""
 
 #. type: Plain text
@@ -14411,9 +14384,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:93
 msgid ""
-"Klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh."
-"icon.png[refresh, 30, 30].  [.result]#Die Telemetrie-Einheit wird der "
-"Endpunkteliste hinzugefügt.#"
+"Klicke in der Endpunkteliste das Icon *_Aktualisieren_* "
+"image:ar_refresh.icon.png[refresh, 30, 30].  [.result]#Die "
+"Telemetrie-Einheit wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14444,8 +14417,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:101
-msgid ""
-"Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:"
+msgid "Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:"
 msgstr ""
 
 #. type: Plain text
@@ -14465,17 +14437,17 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:107
 msgid ""
 "Öffne das Kontrollzentrum im agrirouter und klicke in der Endpunkteliste das "
-"Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].  [."
-"result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#"
+"Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].  "
+"[.result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:109
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
-"Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. "
-"Weitere Informationen findest du in der Bedienungsanleitung der "
-"Agrarsoftware."
+"Fällen anders) findest du meist in den Einstellungen der "
+"Agrarsoftware. Weitere Informationen findest du in der Bedienungsanleitung "
+"der Agrarsoftware."
 msgstr ""
 
 #. type: Plain text
@@ -14501,15 +14473,16 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:117
 msgid ""
-"Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_search.icon."
-"png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
+"Klicke das Icon *_Suchen_* über der Endpunkteliste "
+"image:ar_search.icon.png[search, 30, 30].  [.result]#Der Cursor blinkt im "
+"Eingabefeld *_Suchen_*.#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
 msgid ""
-"Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.  [."
-"result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#"
+"Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.  "
+"[.result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#"
 msgstr ""
 
 #. type: Plain text
@@ -14542,8 +14515,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:131
-msgid ""
-"Ein Endpunkt kann den Status `Aktiv`, `Deaktiviert` oder `Blockiert` haben."
+msgid "Ein Endpunkt kann den Status `Aktiv`, `Deaktiviert` oder `Blockiert` haben."
 msgstr ""
 
 #. type: Labeled list
@@ -14570,9 +14542,9 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:139
 #: de/modules/ROOT/pages/endpoint.adoc:148
 msgid ""
-"Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_filter."
-"icon.png[filter, 30, 30].  [.result]#Die Auswahlliste `Filtern nach` wird "
-"angezeigt.#"
+"Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* "
+"image:ar_filter.icon.png[filter, 30, 30].  [.result]#Die Auswahlliste "
+"`Filtern nach` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14634,8 +14606,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:161
-msgid ""
-"In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:"
+msgid "In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:"
 msgstr ""
 
 #. type: Plain text
@@ -14664,9 +14635,10 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:169
 msgid ""
-"Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,"
-"Empfangen von>>, <<gruppen,Gruppen>>, <<details,Details>>, <<fähigkeiten,"
-"Fähigkeiten>> und <<externe-maschinen,Externe Maschinen>> unterteilt."
+"Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, "
+"<<empfangen-von,Empfangen von>>, <<gruppen,Gruppen>>, <<details,Details>>, "
+"<<fähigkeiten,Fähigkeiten>> und <<externe-maschinen,Externe Maschinen>> "
+"unterteilt."
 msgstr ""
 
 #. type: Plain text
@@ -14708,9 +14680,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:182 de/modules/ROOT/pages/group.adoc:109
 msgid ""
-"Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
-"ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
-"30, 30]"
+"Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten "
+"image:ar_edit.icon.png[edit, 30, 30] und löschen "
+"image:ar_delete.icon.png[delete, 30, 30]"
 msgstr ""
 
 #. type: Plain text
@@ -14744,8 +14716,8 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:244 de/modules/ROOT/pages/group.adoc:117
 #: de/modules/ROOT/pages/group.adoc:167
 msgid ""
-"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
-"result]#Das Formular `Neues Routing` wird angezeigt.#"
+"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  "
+"[.result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14758,7 +14730,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195 de/modules/ROOT/pages/group.adoc:121
 msgid ""
-"Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+"Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird "
+"angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14782,8 +14755,8 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:256 de/modules/ROOT/pages/group.adoc:127
 #: de/modules/ROOT/pages/group.adoc:177
 msgid ""
-"Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
-"result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
+"Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  "
+"[.result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14797,7 +14770,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:204 de/modules/ROOT/pages/group.adoc:131
 msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird hinzugefügt.#"
+"Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird "
+"hinzugefügt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14835,14 +14809,15 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:271 de/modules/ROOT/pages/group.adoc:140
 #: de/modules/ROOT/pages/group.adoc:190
 msgid ""
-"Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].  [."
-"result]#Das Formular `Routing bearbeiten` wird angezeigt.#"
+"Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].  "
+"[.result]#Das Formular `Routing bearbeiten` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:216 de/modules/ROOT/pages/group.adoc:141
 msgid ""
-"Ändere die Eigenschaften des Empfängers und klicke den Button *_Bestätigen_*."
+"Ändere die Eigenschaften des Empfängers und klicke den Button "
+"*_Bestätigen_*."
 msgstr ""
 
 #. type: Title ====
@@ -14856,14 +14831,13 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:277 de/modules/ROOT/pages/group.adoc:146
 #: de/modules/ROOT/pages/group.adoc:196 de/modules/ROOT/pages/group.adoc:219
 msgid ""
-"Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].  [."
-"result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#"
+"Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].  "
+"[.result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:223
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Der Empfänger wird gelöscht.#"
+msgid "Bestätige die Abfrage mit *_OK_*.  [.result]#Der Empfänger wird gelöscht.#"
 msgstr ""
 
 #. type: Title ===
@@ -14890,9 +14864,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:235 de/modules/ROOT/pages/group.adoc:160
 msgid ""
-"Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
-"ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
-"30, 30]"
+"Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten "
+"image:ar_edit.icon.png[edit, 30, 30] und löschen "
+"image:ar_delete.icon.png[delete, 30, 30]"
 msgstr ""
 
 #. type: Plain text
@@ -14930,8 +14904,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:248 de/modules/ROOT/pages/group.adoc:171
-msgid ""
-"Wähle den Sender.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+msgid "Wähle den Sender.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14944,8 +14917,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:254
 #: de/modules/ROOT/pages/endpoint.adoc:260 de/modules/ROOT/pages/group.adoc:181
-msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Der Sender wird hinzugefügt.#"
+msgid "Klicke den Button *_Bestätigen_*.  [.result]#Der Sender wird hinzugefügt.#"
 msgstr ""
 
 #. type: Plain text
@@ -14971,8 +14943,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:272 de/modules/ROOT/pages/group.adoc:191
-msgid ""
-"Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
+msgid "Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
 msgstr ""
 
 #. type: Title ====
@@ -15015,15 +14986,16 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:291
 msgid ""
 "Die Abschnitte `Letzte verarbeitete Nachricht` und `Letzte abgeholte "
-"Nachricht` enthalten Meta-Informationen zur letzten versendeten bzw. "
-"empfangenen Nachricht. Der Nachrichteninhalt wird nicht angezeigt."
+"Nachricht` enthalten Meta-Informationen zur letzten versendeten "
+"bzw. empfangenen Nachricht. Der Nachrichteninhalt wird nicht angezeigt."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:294
 msgid ""
 "Die Daten im Reiter werden nicht automatisch aktualisiert.  Aktualisiere, "
-"wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:"
+"wenn du das Postfach auf eingehende oder verarbeitete Nachrichten "
+"überwachst:"
 msgstr ""
 
 #. type: Plain text
@@ -15055,8 +15027,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:304
-msgid ""
-"Dieser Reiter wird nur bei Endpunkten vom Typ `Verbundenes Konto` angezeigt."
+msgid "Dieser Reiter wird nur bei Endpunkten vom Typ `Verbundenes Konto` angezeigt."
 msgstr ""
 
 #. type: Plain text
@@ -15144,8 +15115,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:332
-msgid ""
-"Wenn der Endpunkt keine Nachrichten mehr verarbeiten soll, deaktiviere ihn:"
+msgid "Wenn der Endpunkt keine Nachrichten mehr verarbeiten soll, deaktiviere ihn:"
 msgstr ""
 
 #. type: Plain text
@@ -15157,15 +15127,14 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:340
-msgid ""
-"Wenn der Endpunkt Nachrichten empfangen oder versenden soll, aktiviere ihn:"
+msgid "Wenn der Endpunkt Nachrichten empfangen oder versenden soll, aktiviere ihn:"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:345
 msgid ""
-"Setze den Schalter *_Aktiv_* auf `AN`.  [.result]#Der Endpunkt ist aktiviert."
-"#"
+"Setze den Schalter *_Aktiv_* auf `AN`.  [.result]#Der Endpunkt ist "
+"aktiviert.#"
 msgstr ""
 
 #. type: Title ===
@@ -15188,15 +15157,15 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:357 de/modules/ROOT/pages/group.adoc:245
 msgid ""
-"Klicke den Button *_Löschen_*.  [.result]#Ein Meldungsfenster wird angezeigt."
-"#"
+"Klicke den Button *_Löschen_*.  [.result]#Ein Meldungsfenster wird "
+"angezeigt.#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:361
 msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Der Endpunkt wird gelöscht.# [."
-"result]#Der Endpunkt wird aus der Endpunkteliste entfernt.# [.result]#Alle "
+"Bestätige die Abfrage mit *_OK_*.  [.result]#Der Endpunkt wird gelöscht.# "
+"[.result]#Der Endpunkt wird aus der Endpunkteliste entfernt.# [.result]#Alle "
 "zum Endpunkt gehörenden Daten werden gelöscht.#"
 msgstr ""
 
@@ -15251,9 +15220,9 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:385
 #: de/modules/ROOT/pages/support.adoc:41
 msgid ""
-"Wähle das Icon *_Support Informationen anzeigen_* image:ar_info.icon."
-"png[Supportinformationen, 30, 30].  [.result]#Das Meldungsfenster *_Support-"
-"Information_* wird angezeigt.#"
+"Wähle das Icon *_Support Informationen anzeigen_* "
+"image:ar_info.icon.png[Supportinformationen, 30, 30].  [.result]#Das "
+"Meldungsfenster *_Support-Information_* wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -15283,10 +15252,10 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:8
 msgid ""
-"Fasse Endpunkte in xref:introduction.adoc#gruppe[Gruppen] zusammen, z.B. "
-"nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:"
-"introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für "
-"alle Mitglieder der Gruppe."
+"Fasse Endpunkte in xref:introduction.adoc#gruppe[Gruppen] zusammen, "
+"z.B. nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das "
+"xref:introduction.adoc#route[Routing], das du für die Gruppe einstellst, "
+"gilt für alle Mitglieder der Gruppe."
 msgstr ""
 
 #. type: Plain text
@@ -15301,8 +15270,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:14
-msgid ""
-"wie du xref:introduction.adoc#route[die Routen] für die Gruppe erstellst"
+msgid "wie du xref:introduction.adoc#route[die Routen] für die Gruppe erstellst"
 msgstr ""
 
 #. type: Plain text
@@ -15320,8 +15288,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:32
-msgid ""
-"Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+msgid "Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
 msgstr ""
 
 #. type: Plain text
@@ -15347,14 +15314,13 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/group.adoc:45
 msgid ""
-"Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[burger, 30, 30].  [."
-"result]#Die Endpunkteliste wird angezeigt.#"
+"Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[burger, 30, 30].  "
+"[.result]#Die Endpunkteliste wird angezeigt.#"
 msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/group.adoc:47
-msgid ""
-"Klicke den Button *_Gruppen_*.  [.result]#Die Gruppenliste wird angezeigt.#"
+msgid "Klicke den Button *_Gruppen_*.  [.result]#Die Gruppenliste wird angezeigt.#"
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -15389,8 +15355,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:68
 msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Die Gruppenliste wird angezeigt."
-"#"
+"Klicke den Button *_Bestätigen_*.  [.result]#Die Gruppenliste wird "
+"angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -15408,22 +15374,22 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:73
-msgid ""
-"Wenn die Gruppenliste viele Einträge enthält, kannst Du eine Gruppe suchen:"
+msgid "Wenn die Gruppenliste viele Einträge enthält, kannst Du eine Gruppe suchen:"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:76
 msgid ""
-"Klicke das Icon *_Suchen_* über der Gruppenliste image:ar_search.icon."
-"png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
+"Klicke das Icon *_Suchen_* über der Gruppenliste "
+"image:ar_search.icon.png[search, 30, 30].  [.result]#Der Cursor blinkt im "
+"Eingabefeld *_Suchen_*.#"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:78
 msgid ""
-"Gebe den Namen oder Teile des Namens der gesuchten Gruppe ein.  [."
-"result]#Bereits beim Tippen wird die Gruppenliste aktualisiert.#"
+"Gebe den Namen oder Teile des Namens der gesuchten Gruppe ein.  "
+"[.result]#Bereits beim Tippen wird die Gruppenliste aktualisiert.#"
 msgstr ""
 
 #. type: Plain text
@@ -15458,20 +15424,18 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:97
 msgid ""
-"Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,"
-"Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt."
+"Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, "
+"<<empfangen-von,Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:105
-msgid ""
-"sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden"
+msgid "sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:110
-msgid ""
-"definieren, welche Nachrichten die Empfänger von der Gruppe erhalten sollen"
+msgid "definieren, welche Nachrichten die Empfänger von der Gruppe erhalten sollen"
 msgstr ""
 
 #. type: Plain text
@@ -15517,8 +15481,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:156
-msgid ""
-"sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden"
+msgid "sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden"
 msgstr ""
 
 #. type: Plain text
@@ -15577,8 +15540,8 @@ msgstr ""
 #: de/modules/ROOT/pages/group.adoc:206
 msgid ""
 "Um ein Mitglied der Gruppe zu bearbeiten, öffne die Endpunkteliste, wähle "
-"und bearbeite xref:endpoint.adoc#endpunkt-bearbeiten[den Endpunkt] und xref:"
-"endpoint.adoc#senden-an[das Routing]."
+"und bearbeite xref:endpoint.adoc#endpunkt-bearbeiten[den Endpunkt] und "
+"xref:endpoint.adoc#senden-an[das Routing]."
 msgstr ""
 
 #. type: Title ====
@@ -15597,8 +15560,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:212
 msgid ""
-"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
-"result]#Das Formular `Mitglieder auswählen` wird angezeigt.#"
+"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  "
+"[.result]#Das Formular `Mitglieder auswählen` wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -15749,10 +15712,10 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:37
 msgid ""
-"Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt sendet und/"
-"oder empfängt.  [.result]#Soll der Endpunkt Daten versenden, folge der "
-"Anleitung im Kapitel xref:endpoint.adoc#senden-an[Senden an].# [."
-"result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel "
+"Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt sendet "
+"und/oder empfängt.  [.result]#Soll der Endpunkt Daten versenden, folge der "
+"Anleitung im Kapitel xref:endpoint.adoc#senden-an[Senden an].# "
+"[.result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel "
 "xref:endpoint.adoc#empfangen-von[Empfangen von].#"
 msgstr ""
 
@@ -15760,12 +15723,13 @@ msgstr ""
 #: de/modules/ROOT/pages/introduction.adoc:42
 msgid ""
 "Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du nur für die "
-"Gruppe -- und nicht für jedes Mitglied der Gruppe -- Routen erstellen.  [."
-"result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#gruppe-"
-"hinzufügen[Gruppe hinzufügen] beschrieben.# [.result]#Soll die Gruppe Daten "
-"versenden, folge der Anleitung im Kapitel xref:group.adoc#senden-an[Senden "
-"an].# [.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im "
-"Kapitel xref:group.adoc#empfangen-von[Empfangen von].#"
+"Gruppe -- und nicht für jedes Mitglied der Gruppe -- Routen erstellen.  "
+"[.result]#Füge eine Gruppe hinzu, wie im Kapitel "
+"xref:group.adoc#gruppe-hinzufügen[Gruppe hinzufügen] beschrieben.# "
+"[.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel "
+"xref:group.adoc#senden-an[Senden an].# [.result]#Soll die Gruppe Daten "
+"empfangen, folge der Anleitung im Kapitel "
+"xref:group.adoc#empfangen-von[Empfangen von].#"
 msgstr ""
 
 #. type: Plain text
@@ -15782,8 +15746,8 @@ msgstr ""
 msgid ""
 "Sender und Empfänger von Daten werden über den agrirouter miteinander "
 "verbunden. Für jeden verbundenen Sender und Empfänger wird dem agrirouter "
-"ein Endpunkt des passenden Typs hinzugefügt.  Es gibt folgende Endpunkt-"
-"Typen:"
+"ein Endpunkt des passenden Typs hinzugefügt.  Es gibt folgende "
+"Endpunkt-Typen:"
 msgstr ""
 
 #. type: Plain text
@@ -15834,9 +15798,9 @@ msgstr ""
 #: de/modules/ROOT/pages/introduction.adoc:142
 msgid ""
 "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der "
-"Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. "
-"agrirouter unterstützt über xref:appendix.adoc[600 Datentypen], die in 12 "
-"Kategorien aufgeteilt sind:"
+"Feldarbeit laufend anfallende Maschinen- , Positions- und "
+"Prozessdaten. agrirouter unterstützt über xref:appendix.adoc[600 "
+"Datentypen], die in 12 Kategorien aufgeteilt sind:"
 msgstr ""
 
 #. type: Title =
@@ -15871,9 +15835,9 @@ msgstr ""
 #: de/modules/ROOT/pages/routing.adoc:23
 msgid ""
 "Eine Ausnahme bilden Daten, die nicht zugestellt werden können, z.B. weil "
-"der Empfänger offline ist. Der agrirouter puffert diese Daten für 4 Wochen. "
-"Ist der Empfänger während der gesamten Zeit nicht erreichbar, werden die "
-"Daten gelöscht."
+"der Empfänger offline ist. Der agrirouter puffert diese Daten für 4 "
+"Wochen. Ist der Empfänger während der gesamten Zeit nicht erreichbar, werden "
+"die Daten gelöscht."
 msgstr ""
 
 #. type: Plain text
@@ -15895,9 +15859,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:34
 msgid ""
-"Die eingehenden und abgehenden Routen der beiden xref:introduction."
-"adoc#standard-gruppen[Standard-Gruppen] werden vom System vorgegeben und "
-"können nicht geändert werden:"
+"Die eingehenden und abgehenden Routen der beiden "
+"xref:introduction.adoc#standard-gruppen[Standard-Gruppen] werden vom System "
+"vorgegeben und können nicht geändert werden:"
 msgstr ""
 
 #. type: Plain text
@@ -16087,7 +16051,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:10
 msgid ""
-"über welche E-Mail-Adresse und Telefonnummern du unser Support-Team erreichst"
+"über welche E-Mail-Adresse und Telefonnummern du unser Support-Team "
+"erreichst"
 msgstr ""
 
 #. type: Plain text
@@ -16181,8 +16146,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:56 de/modules/ROOT/pages/support.adoc:71
 msgid ""
-"Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/"
-"customer/portals/[Help Center^] .  [.result]#Das Help Center wird angezeigt.#"
+"Öffne die Internetadresse "
+"https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] "
+".  [.result]#Das Help Center wird angezeigt.#"
 msgstr ""
 
 #. type: delimited block =
@@ -16216,8 +16182,8 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:66
 msgid ""
-"Gebe deinen Namen und ein Passwort ein und klicke *_Anmelden_*.  [."
-"result]#Die Startseite des Help Center wird angezeigt.#"
+"Gebe deinen Namen und ein Passwort ein und klicke *_Anmelden_*.  "
+"[.result]#Die Startseite des Help Center wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -16263,8 +16229,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:83
 msgid ""
-"Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
-"support@my-agrirouter.com[support@my-agrirouter.com]."
+"Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an "
+"mailto:support@my-agrirouter.com[support@my-agrirouter.com]."
 msgstr ""
 
 #. type: Title ===
@@ -16329,8 +16295,9 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:98
 msgid ""
-"Unsere Hotline ist an Werktagen von 9 bis 18 Uhrfootnote:[https://www."
-"timezones.de/germany/berlin/berlin.html[Zeitzone Europa/Berlin^]] erreichbar."
+"Unsere Hotline ist an Werktagen von 9 bis 18 "
+"Uhrfootnote:[https://www.timezones.de/germany/berlin/berlin.html[Zeitzone "
+"Europa/Berlin^]] erreichbar."
 msgstr ""
 
 #. type: Title ===
@@ -16346,14 +16313,13 @@ msgid ""
 "oder du in deiner Agrarsoftware die Funktion `Mit agrirouter verbinden` "
 "nicht findest, kannst du deinen Bildschirminhalt mit unserem Support "
 "teilen.  Nutze dazu TeamViewer. Informationen zu TeamViewer und die "
-"Installationsdatei findest du im Internet unter https://www.teamviewer.com/"
-"[www.teamviewer.com^]."
+"Installationsdatei findest du im Internet unter "
+"https://www.teamviewer.com/[www.teamviewer.com^]."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:107
-msgid ""
-"Starte TeamViewer.  [.result]#Die Startseite von TeamViewer wird angezeigt.#"
+msgid "Starte TeamViewer.  [.result]#Die Startseite von TeamViewer wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -16393,8 +16359,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:120
 msgid ""
-"Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter."
-"statuspage.io^] .  [.result]#Der Systemmonitor wird angezeigt.#"
+"Öffne die Internetadresse "
+"https://agrirouter.statuspage.io[agrirouter.statuspage.io^] .  [.result]#Der "
+"Systemmonitor wird angezeigt.#"
 msgstr ""
 
 #. type: Plain text
@@ -16403,8 +16370,8 @@ msgid ""
 "Klicke das Icon *_Ausklappen_* image:ar_foldout.icon.png[add, 30, 30] im "
 "Abschnitt `agrirouter Production`.  [.result]#Der aktuelle Systemstatus wird "
 "angezeigt image:one_bk.icon.png[one, 30, 30].# [.result]#Eine "
-"Zusammenfassung der letzten 90 Tage wird grafisch dargestellt image:two_bk."
-"icon.png[two, 30, 30].#"
+"Zusammenfassung der letzten 90 Tage wird grafisch dargestellt "
+"image:two_bk.icon.png[two, 30, 30].#"
 msgstr ""
 
 #. type: Plain text
@@ -16545,6 +16512,3 @@ msgstr ""
 #, no-wrap
 msgid "Die Systemfunktion ist nicht verfügbar."
 msgstr ""
-
-#~ msgid "/en"
-#~ msgstr "/fr"

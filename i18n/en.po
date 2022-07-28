@@ -6,21 +6,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-07-27 12:53+0200\n"
-"PO-Revision-Date: 2021-12-14 09:53+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2022-07-11 11:32+0200\n"
+"PO-Revision-Date: 2022-07-13 12:00+0000\n"
+"Last-Translator: Weblate Admin <admin@dke-data.com>\n"
+"Language-Team: English <https://weblate.my-agrirouter.com/projects/"
+"agrirouter/user-manual/en/>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1\n"
 
 #. type: Hash Value: site title
 #: de/antora.yml:0 de/antora-playbook.yml:0
 #, no-wrap
 msgid "agrirouter Bedienungsanleitung"
-msgstr "agrirouter Bedienungsanleitung"
+msgstr "agrirouter Operating Manual"
 
 #. type: Hash Value: content sources start_path
 #: de/antora-playbook.yml:0
@@ -30,10 +32,9 @@ msgstr "en/"
 
 #. type: Hash Value: site url
 #: de/antora-playbook.yml:0
-#, fuzzy, no-wrap
-#| msgid "de/"
+#, no-wrap
 msgid "/de"
-msgstr "en/"
+msgstr "/en"
 
 #. type: Content of: <div><div><div>
 #: de/supplemental-ui/partials/header-menu.hbs:4
@@ -51,66 +52,54 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:2
-#, fuzzy
-#| msgid "xref:introduction.adoc[Introduction]"
 msgid "xref:introduction.adoc[Einführung]"
 msgstr "xref:introduction.adoc[Introduction]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:3
-#, fuzzy
-#| msgid "xref:account.adoc[Account]"
 msgid "xref:account.adoc[Konto]"
 msgstr "xref:account.adoc[Account]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:4
-#, fuzzy
-#| msgid "xref:endpoint.adoc[Endpoint]"
 msgid "xref:endpoint.adoc[Endpunkt]"
 msgstr "xref:endpoint.adoc[Endpoint]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:5
-#, fuzzy
-#| msgid "xref:group.adoc[Group]"
 msgid "xref:group.adoc[Gruppe]"
 msgstr "xref:group.adoc[Group]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:6
-#, fuzzy
-#| msgid "xref:routing.adoc[Routing]"
 msgid "xref:routing.adoc[Routen]"
 msgstr "xref:routing.adoc[Routing]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:7
 msgid "xref:account-pairing.adoc[Konto verbinden]"
-msgstr "xref:account-pairing.adoc[Konto verbinden]"
+msgstr "xref:account-pairing.adoc[Account pairing]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:8
-#, fuzzy
-#| msgid "xref:support.adoc[Support]"
 msgid "xref:support.adoc[Service & Support]"
-msgstr "xref:support.adoc[Support]"
+msgstr "xref:support.adoc[Service & Support]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:10
 msgid "Anhang"
-msgstr ""
+msgstr "Appendix"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:10
 msgid "xref:appendix.adoc[DDI's Definition]"
-msgstr ""
+msgstr "xref:appendix.adoc[DDI Definition]"
 
 #. type: Title =
 #: de/modules/ROOT/pages/account-pairing.adoc:1
 #, no-wrap
 msgid "Konto verbinden"
-msgstr ""
+msgstr "Pair account"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:7
@@ -118,29 +107,31 @@ msgid ""
 "Du kannst dein Konto mit den Konten anderer Nutzer verbinden.  Das "
 "verbundene Konto kann Daten von dir empfangen und Daten an dich senden."
 msgstr ""
+"You can pair your account with the accounts of other users. The paired "
+"account can receive data from you and send data to you."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:9
 #: de/modules/ROOT/pages/account.adoc:9 de/modules/ROOT/pages/endpoint.adoc:9
 #: de/modules/ROOT/pages/group.adoc:10 de/modules/ROOT/pages/routing.adoc:26
 msgid "In diesem Abschnitt erfährst du"
-msgstr ""
+msgstr "In this section you will learn"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:11
 msgid "wie du dein Konto mit einem anderen Konto verbindest"
-msgstr ""
+msgstr "how to pair your account with another account"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:12
 msgid "wie du den Datenaustausch mit dem anderen Konto aktivierst"
-msgstr ""
+msgstr "how to activate data exchange with the other account"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:14
 #, no-wrap
 msgid "Einladung versenden"
-msgstr ""
+msgstr "Send invitation"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:17
@@ -149,12 +140,14 @@ msgid ""
 "Kontoinhaber eine Einladung.  Dazu benötigst du die E-Mail-Adresse des "
 "Kontos."
 msgstr ""
+"To connect your account with another account, you send an invitation to the "
+"account owner. For this, you need to know the e-mail address of that account."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:20
 #, no-wrap
 msgid "Pairing tile"
-msgstr ""
+msgstr "Pairing tile"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:24
@@ -164,6 +157,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
+"In the dashboard, click the tile *_Account Pairing_*. [.result]#The window `"
+"Account pairing` is shown.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -171,17 +166,18 @@ msgid ""
 "Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-"
 "Adresse_* ein."
 msgstr ""
+"Enter the e-mail address of the other account into the input field *_Email_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:26
 msgid "Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein."
-msgstr ""
+msgstr "Enter a freely choosable name into the input field *_Nickname_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:27
 #, no-wrap
 msgid "Pairing invite"
-msgstr ""
+msgstr "Pairing invite"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:33
@@ -190,6 +186,9 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
+"Click the button *_Send invite_*. [.result]#The invitiation is sent to the "
+"other account.# [.result]#The invitiation is shown in the tab `Pending "
+"invites` until it is being accepted by the other account's owner.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:39
@@ -199,6 +198,10 @@ msgid ""
 "result]#Das Konto wird in den Reiter `Verbunden` verschoben.# [.result]#Das "
 "Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
+"If the other account's owner accepts the invitation, then: [.result]#You "
+"will receive an e-mail.# [.result]#The accounts are paired with each other.# "
+"[.result]#The account will be moved to the tab `Paired`.# [.result]#The "
+"account will be added to the endpoints list.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:46
@@ -206,6 +209,7 @@ msgid ""
 "Du kannst eine Einladung zurücknehmen, wenn der Empfänger sie noch nicht "
 "angenommen hat. +"
 msgstr ""
+"You can cancel the invitation, if the receipient hasn't accepted it yet. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:49
@@ -595,11 +599,10 @@ msgid ""
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/account.adoc:115
-#, fuzzy, no-wrap
-#| msgid "Account pairing"
+#: de/modules/ROOT/pages/account.adoc:112
+#, no-wrap
 msgid "Account management"
-msgstr "Account pairing"
+msgstr "Account management"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:120
@@ -699,11 +702,10 @@ msgid "Klicke den Button *_OK_*."
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/account.adoc:154
-#, fuzzy, no-wrap
-#| msgid "Account"
+#: de/modules/ROOT/pages/account.adoc:151
+#, no-wrap
 msgid "Account deleted"
-msgstr "Account"
+msgstr "Account deleted"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:158
