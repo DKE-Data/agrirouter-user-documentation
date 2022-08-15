@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-04 13:28+0000\n"
-"Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
+"PO-Revision-Date: 2022-08-15 18:14+0000\n"
+"Last-Translator: Agrar Uebersetzer 2 <agrolinguainfo@agrolingua.com>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/fr@formal/>\n"
 "Language: fr\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: de/antora.yml:0 de/antora-playbook.yml:0
 #, no-wrap
 msgid "agrirouter Bedienungsanleitung"
-msgstr ""
+msgstr "Manuel d'utilisation agrirouter"
 
 #. type: Hash Value: content sources start_path
 #: de/antora-playbook.yml:0
@@ -42,6 +42,8 @@ msgid ""
 "<span class=\"control\"> <a class=\"button\" href=\"https://my-agrirouter.com"
 "\">Website</a> </span>"
 msgstr ""
+"<span class=\"control\"> <a class=\"button\" href=\"https://my-agrirouter."
+"com\">Site internet</a> </span>"
 
 #. type: Content of: <div><div><div>
 #: de/supplemental-ui/partials/header-menu.hbs:9
@@ -49,16 +51,18 @@ msgid ""
 "<span class=\"control\"> <a class=\"button is-primary\" href=\"https://goto."
 "my-agrirouter.com\">agrirouter</a> </span>"
 msgstr ""
+"<span class=\"control\"> <a class=\"button is-primary\" href=\"https://goto."
+"my-agrirouter.com\">agrirouter</a> </span>"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:2
 msgid "xref:introduction.adoc[Einführung]"
-msgstr ""
+msgstr "xref:introduction.adoc[Introduction]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:3
 msgid "xref:account.adoc[Konto]"
-msgstr ""
+msgstr "xref:account.adoc[Compte]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:4
@@ -68,12 +72,12 @@ msgstr "xref:endpoint.adoc[Point de terminaison]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:5
 msgid "xref:group.adoc[Gruppe]"
-msgstr ""
+msgstr "xref:group.adoc[Groupe]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:6
 msgid "xref:routing.adoc[Routen]"
-msgstr ""
+msgstr "xref:routing.adoc[Routes]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:7
@@ -83,17 +87,17 @@ msgstr "xref:account-pairing.adoc[Connecter un compte]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:8
 msgid "xref:support.adoc[Service & Support]"
-msgstr ""
+msgstr "xref:support.adoc[Services & Assistance]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:10
 msgid "Anhang"
-msgstr ""
+msgstr "Annexe"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:10
 msgid "xref:appendix/ddis.adoc[DDI-Definition]"
-msgstr ""
+msgstr "xref:appendix/ddis.adoc[Définition DDI]"
 
 #. type: Title =
 #: de/modules/ROOT/pages/account-pairing.adoc:1
@@ -107,29 +111,32 @@ msgid ""
 "Du kannst dein Konto mit den Konten anderer Nutzer verbinden.  Das "
 "verbundene Konto kann Daten von dir empfangen und Daten an dich senden."
 msgstr ""
+"Vous pouvez connecter votre compte à ceux d'autres utilisateurs.  Une fois "
+"connecté, un compte peut recevoir des données de votre part ainsi que vous "
+"envoyer les siennes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:9
 #: de/modules/ROOT/pages/account.adoc:9 de/modules/ROOT/pages/endpoint.adoc:9
 #: de/modules/ROOT/pages/group.adoc:10 de/modules/ROOT/pages/routing.adoc:26
 msgid "In diesem Abschnitt erfährst du"
-msgstr ""
+msgstr "Dans cette section, vous apprendrez"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:11
 msgid "wie du dein Konto mit einem anderen Konto verbindest"
-msgstr ""
+msgstr "comment connecter votre compte à un autre compte"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:12
 msgid "wie du den Datenaustausch mit dem anderen Konto aktivierst"
-msgstr ""
+msgstr "comment activer l'échange de données avec cet autre compte"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:14
 #, no-wrap
 msgid "Einladung versenden"
-msgstr ""
+msgstr "Envoyer une invitation"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:17
@@ -138,6 +145,9 @@ msgid ""
 "Kontoinhaber eine Einladung.  Dazu benötigst du die E-Mail-Adresse des "
 "Kontos."
 msgstr ""
+"Pour connecter votre compte à un autre compte, vous devez envoyer une "
+"invitation au titulaire du compte.  Pour cela, vous avez besoin de l'adresse "
+"e-mail reliée à son compte."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:20
@@ -153,24 +163,26 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
+"Dans le tableau de bord, cliquez sur la vignette *_Connecter des comptes_*.  "
+"[.result]#La fenêtre \"Appairage du compte\" s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
 msgid ""
 "Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-"
 "Adresse_* ein."
-msgstr ""
+msgstr "Saisissez l'e-mail de l'autre compte dans le champ *_Adresse e-mail_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:26
 msgid "Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein."
-msgstr ""
+msgstr "Saisissez le nom de votre choix dans le champ *_Surnom_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:27
 #, no-wrap
 msgid "Pairing invite"
-msgstr ""
+msgstr "Invitation d'appairage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:33
@@ -179,6 +191,10 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
+"Cliquez sur le bouton *_Envoyer l'invitation_*.  [.result]#L'invitation sera "
+"envoyée à l'autre compte.# [.result]#L'invitation sera affichée dans "
+"l'onglet \"Invitations envoyées\" jusqu'à ce qu'elle soit acceptée par le "
+"titulaire du compte.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:39
@@ -188,6 +204,10 @@ msgid ""
 "result]#Das Konto wird in den Reiter `Verbunden` verschoben.# [.result]#Das "
 "Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
+"Si le titulaire du compte accepte l'invitation [.result]#vous recevez un "
+"e-mail.# [.result]#Les deux comptes sont connectés.# [.result]#Le compte est "
+"déplacé dans l'onglet \"Appairés\".# [.result]#Le compte est ajouté à la "
+"liste de points de terminaison.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:46
@@ -195,6 +215,8 @@ msgid ""
 "Du kannst eine Einladung zurücknehmen, wenn der Empfänger sie noch nicht "
 "angenommen hat. +"
 msgstr ""
+"Vous pouvez annuler une invitation si le destinataire ne l'a pas encore "
+"acceptée. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:49
@@ -202,23 +224,25 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
+"Sélectionnez l'invitation dans l'onglet \"Invitations envoyées\".  [.result]#"
+"L'entrée de la liste est surlignée en vert.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:50
 msgid "Klicke den Button *_Einladung aufheben_*."
-msgstr ""
+msgstr "Cliquez sur le bouton *_Annuler l'invitation_*."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:52
 #, no-wrap
 msgid "Einladung erhalten"
-msgstr ""
+msgstr "Recevoir une invitation"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:56
 #, no-wrap
 msgid "Incoming invitation"
-msgstr ""
+msgstr "Invitation reçue"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:59
@@ -228,6 +252,10 @@ msgid ""
 "werden in der Zeile `Eingehend` die Einladungen angezeigt, die du erhalten "
 "und noch nicht bearbeitet hast."
 msgstr ""
+"La procédure décrite ci-dessus fonctionne également dans l'autre sens : vous "
+"pouvez être invité par un autre compte.  Dans la vignette \"Connecter des "
+"comptes\", la ligne \"Reçu(s)\" affiche les invitations que vous avez reçues "
+"et que vous n'avez pas encore traitées."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:65
@@ -235,6 +263,8 @@ msgid ""
 "Wähle im Reiter `Empfangene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
+"Sélectionnez l'invitation dans l'onglet \"Invitations reçues\".  [.result]#"
+"L'entrée de la liste est surlignée en vert.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:70
@@ -245,6 +275,11 @@ msgid ""
 "result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, "
 "dass du seine Einladung angenommen hast.#"
 msgstr ""
+"Cliquez sur le bouton *_Accepter l'invitation_*.  [.result]#Les deux comptes "
+"sont connectés.# [.result]#Le compte est déplacé dans l'onglet \"Connecté(s)"
+"\".# [.result]#Le compte est ajouté à la liste des points de terminaison.# [."
+"result]#Le titulaire du compte reçoit un e-mail l'informant que vous avez "
+"accepté son invitation.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:74
@@ -252,22 +287,24 @@ msgid ""
 "Um die Einladung abzulehnen, klicke im Schritt 3 den Button *_Einladung "
 "ablehnen_*."
 msgstr ""
+"Pour refuser l'invitation, cliquez sur le bouton *_Refuser l'invitation_* à "
+"l'étape 3."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:76
 msgid "[.result]#Die beiden Konten werden nicht miteinander verbunden.#"
-msgstr ""
+msgstr "[.result]#Les deux comptes ne seront pas connectés.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:78
 #, no-wrap
 msgid "Verbindung beenden"
-msgstr ""
+msgstr "Arrêter l'appairage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:80
 msgid "Du kannst die Verbindung zu einem anderen Konto beenden."
-msgstr ""
+msgstr "Vous pouvez mettre fin à une connexion à un autre compte."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:88
@@ -275,6 +312,8 @@ msgid ""
 "Wähle im Reiter `Verbunden` das Konto.  [.result]#Der Listeneintrag wird "
 "grün eingefärbt.#"
 msgstr ""
+"Sélectionnez le compte dans l'onglet \"Connecté(s)\".  [.result]#L'entrée de "
+"la liste est surlignée en vert.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:92
@@ -284,12 +323,15 @@ msgid ""
 "Endpunkteliste entfernt.# [.result]#Es werden keine Daten mehr zwischen den "
 "Konten ausgetauscht.#"
 msgstr ""
+"Cliquez sur le bouton *_Déconnecter_*.  [.result]#Les deux comptes ne sont "
+"plus connectés.# [.result]#Le compte est supprimé de la liste des points de "
+"terminaison.# [.result]#Les comptes ne peuvent plus s'échanger de données.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:94
 #, no-wrap
 msgid "Datenaustausch"
-msgstr ""
+msgstr "Échange de données"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:97
@@ -298,6 +340,9 @@ msgid ""
 "Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [."
 "underline]#beiden# Konten Routen erstellt werden:"
 msgstr ""
+"Vous savez maintenant que sans route, pas d'échange de données possible ! + "
+"Pour que l'échange de données avec un compte connecté fonctionne, des routes "
+"doivent être créées dans [.underline]#les deux# comptes :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:100
@@ -306,6 +351,10 @@ msgid ""
 "Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger "
 "ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
 msgstr ""
+"Les itinéraires sortants sur votre compte déterminent lesquels de vos points "
+"de terminaison envoient des données au compte connecté. + Pour que les "
+"données parviennent au destinataire, le propriétaire de l'autre compte doit "
+"créer des itinéraires entrants."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:102
@@ -314,12 +363,16 @@ msgid ""
 "Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, "
 "muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
 msgstr ""
+"Les itinéraires entrants sur votre compte déterminent lesquels de vos points "
+"de terminaison reçoivent des données du compte connecté. + Pour que vous "
+"puissiez recevoir des données, le propriétaire de l'autre compte doit créer "
+"des itinéraires sortants."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
 #, no-wrap
 msgid "Route erstellen"
-msgstr ""
+msgstr "Créer un itinéraire"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:105
@@ -327,6 +380,8 @@ msgid ""
 "Routen für verbundene Konten werden in der Endpunkteliste erstellt und "
 "verwaltet:"
 msgstr ""
+"Les itinéraires des comptes connectés sont créés et gérés dans la liste des "
+"points de terminaison :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:107
@@ -334,6 +389,9 @@ msgid ""
 "Im Abschnitt xref:endpoint.adoc#senden-an[Senden an] erfährst du, wie das "
 "verbundene Konto Daten an deine Endpunkte und Gruppen senden kann."
 msgstr ""
+"Consultez la section xref:endpoint.adoc#Envoyer-à[Envoyer à] pour savoir "
+"comment le compte connecté peut envoyer des données à vos points de "
+"terminaison et groupes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:108
@@ -342,6 +400,9 @@ msgid ""
 "wie das verbundene Konto Daten von deinen Endpunkten und Gruppen empfangen "
 "kann."
 msgstr ""
+"Consultez la section xref:endpoint.adoc#recevoir-de[Recevoir de] pour savoir "
+"comment le compte connecté peut recevoir des données de vos points d'accès "
+"et groupes."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:109
@@ -355,6 +416,8 @@ msgid ""
 "Damit miteinander verbundene Konten Daten austauschen können, musst du die "
 "Routen freischalten:"
 msgstr ""
+"Pour que les comptes connectés puissent échanger des données, vous devez "
+"activer les itinéraires :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:114
@@ -362,6 +425,9 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
 "`Kontrollzentrum` wird geöffnet und die Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Cliquez sur la vignette *_Centre de contrôle_* sur le tableau de bord.   [."
+"result]#Le \"Centre de contrôle\" s'ouvre et la liste des points de "
+"terminaison s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:116
@@ -369,6 +435,8 @@ msgid ""
 "Wähle in der Endpunkteliste das verbundene Konto.  [.result]#Rechts werden "
 "die Details des Kontos angezeigt.#"
 msgstr ""
+"Sélectionnez le compte connecté dans la liste des points de terminaison.   [."
+"result]#Les détails du compte s'affichent sur la droite.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:118
@@ -376,6 +444,8 @@ msgid ""
 "Setze den Schalter *_Datenfluss_* auf `EIN`.  [.result]#Die beiden Konten "
 "können Daten austauschen.#"
 msgstr ""
+"Réglez l'interrupteur *_Flux de données_* sur \"ON\".   [Les deux comptes "
+"peuvent échanger des données.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:121
@@ -384,22 +454,26 @@ msgid ""
 "schalte den *_Datenfluss_* auf `AUS`.  Für eine dauerhafte Trennung vom "
 "verbundenen Konto, <<verbindung-beenden,beende die Verbindung>>."
 msgstr ""
+"Si vous souhaitez temporairement arrêter l'échanger de données avec le "
+"compte connecté, réglez *_Flux de données_* sur \"OFF\".  Pour déconnecter "
+"de manière permanente un compte connecté, consultez <<arreter-l-appairage, "
+"Arrêter l'appairage>>."
 
 #. type: Title =
 #: de/modules/ROOT/pages/account.adoc:4
 #, no-wrap
 msgid "Konto"
-msgstr ""
+msgstr "Compte"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:7
 msgid "Zur Nutzung des agrirouter benötigst du ein Benutzerkonto."
-msgstr ""
+msgstr "Pour utiliser agrirouter, vous avez besoin d'un compte utilisateur."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:11
 msgid "wie du ein Konto erstellst und deine Profildaten bearbeitest"
-msgstr ""
+msgstr "comment créer un compte et modifier les données de votre profil"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:12
@@ -407,6 +481,8 @@ msgid ""
 "wie du die Ansicht des xref:introduction.adoc#dashboard[Dashboard] anpassen "
 "kannst"
 msgstr ""
+"comment personnaliser l'affichage du xref:introduction.adoc#dashboard["
+"Tableau de bord]"
 
 #
 #
@@ -427,7 +503,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:36
 #, no-wrap
 msgid "Benutzerkonto erstellen"
-msgstr ""
+msgstr "Créer un compte utilisateur"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:48 de/modules/ROOT/pages/group.adoc:28
@@ -441,6 +517,8 @@ msgid ""
 "Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter."
 "com^]."
 msgstr ""
+"Dans votre navigateur, tapez l'adresse https://my-agrirouter.com[my-"
+"agrirouter.com^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:53 de/modules/ROOT/pages/account.adoc:85
@@ -448,6 +526,8 @@ msgid ""
 "Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].  [."
 "result]#Eine Auswahlliste wird angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône *_Se connecter_* image:ar_logon.icon.png[logon, 30, 30]"
+".  [.result]#Une liste de choix s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:55
@@ -455,6 +535,8 @@ msgid ""
 "Wähle *_Registrieren_*.  [.result]#Das Formular `Benutzerregistrierung` wird "
 "angezeigt.#"
 msgstr ""
+"Sélectionnez *_S'enregistrer_*.  [.result]#Le formulaire \"Enregistrement "
+"d'un utilisateur\" s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:57
