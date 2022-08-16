@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-15 18:14+0000\n"
+"PO-Revision-Date: 2022-08-16 18:14+0000\n"
 "Last-Translator: Agrar Uebersetzer 2 <agrolinguainfo@agrolingua.com>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/fr@formal/>\n"
@@ -408,7 +408,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account-pairing.adoc:109
 #, no-wrap
 msgid "Route freischalten"
-msgstr ""
+msgstr "Activer un itinéraire"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:111
@@ -552,12 +552,14 @@ msgid ""
 "Klicke in der E-Mail den Button *_ACCOUNT AKTIVIEREN_*.  [.result]#Das "
 "Formular `Benutzerkonto aktivieren` wird angezeigt:#"
 msgstr ""
+"Cliquez sur le bouton *_ACTIVER LE COMPTE_* donné dans l'e-mail.  [.result]#"
+"Le formulaire \"Activer un compte utilisateur\" s'affiche :#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:61
 #, no-wrap
 msgid "Activate form"
-msgstr ""
+msgstr "Activer le formulaire"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:66
@@ -565,11 +567,13 @@ msgid ""
 "Vergebe ein Kennwort und klicke den Button *_Sichern_*.  [.result]#Ein "
 "Meldungsfenster wird angezeigt.#"
 msgstr ""
+"Saisissez un mot de passe et cliquez sur le bouton *_Confirmer_*.  [.result]#"
+"Une boite de dialogue s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:68
 msgid "Klicke *_Weiter_*.  [.result]#Das Dashboard wird angezeigt.#"
-msgstr ""
+msgstr "Cliquez sur *_Suivant_*.  [.result]#Le tableau de bord s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:72
@@ -587,28 +591,32 @@ msgid ""
 "Notiere E-Mail-Adresse und Passwort. Diese benötigst du, um dich am "
 "agrirouter anzumelden."
 msgstr ""
+"Notez votre adresse e-mail et votre mot de passe. Vous en aurez besoin pour "
+"vous connecter à l'agrirouter."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:76
 #, no-wrap
 msgid "Anmelden"
-msgstr ""
+msgstr "Ouvrir une session"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:80
 #, no-wrap
 msgid "Select Log on"
-msgstr ""
+msgstr "Sélectionner Connexion"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:87
 msgid "Wähle *_Login_*.  [.result]#Das Formular `Anmelden` wird angezeigt.#"
 msgstr ""
+"Sélectionnez *_Se connecter_*.  [.result]#Le formulaire \"Ouvrir une "
+"session\" s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:88
 msgid "Gebe E-Mail-Adresse und Passwort ein."
-msgstr ""
+msgstr "Saisissez votre adresse e-mail et votre mot de passe."
 
 #. Removed upon 1st. Review:
 #. . Aktiviere die Checkbox "_Angemeldet bleiben_".
@@ -616,13 +624,14 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:94
 #, no-wrap
 msgid "Log on form"
-msgstr ""
+msgstr "Formulaire de connexion"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:99
 msgid ""
 "Klicke den Button *_Anmelden_*.  [.result]#Das Dashboard wird angezeigt.#"
 msgstr ""
+"Cliquez sur *_Ouvrir une session_*.  [.result]#Le tableau de bord s'affiche.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:103
@@ -630,6 +639,8 @@ msgid ""
 "Um das Dashboard zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe "
 "vor wie folgt:"
 msgstr ""
+"Pour accéder à votre tableau de bord sans avoir à saisir vos données "
+"utilisateur, procédez de la manière suivante :"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:105
@@ -637,11 +648,13 @@ msgid ""
 "Öffne die https://goto.my-agrirouter.com/app[die Anmeldeseite] wie oben "
 "beschrieben."
 msgstr ""
+"Allez à https://goto.my-agrirouter.com/app[la page de connexion] comme "
+"décrit ci-dessus."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:106
 msgid "Aktiviere die Checkbox \"_Angemeldet bleiben_\" und melde dich an."
-msgstr ""
+msgstr "Cochez la case \"_Rester connecté_\" et connectez-vous."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:108
@@ -651,12 +664,16 @@ msgid ""
 "goto.my-agrirouter.com/app[die Anmeldeseite] öffnest, wird sofort das "
 "Dashboard angezeigt.#"
 msgstr ""
+"Lorsque vous avez terminé d'utiliser votre tableau de bord, fermez la page "
+"internet [.underline]#sans# vous déconnecter. [La prochaine fois que vous "
+"consulterez https://goto.my-agrirouter.com/app [la page de connexion], le "
+"tableau de bord s'affichera immédiatement."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:110
 #, no-wrap
 msgid "Benutzerdaten ändern"
-msgstr ""
+msgstr "Modifier les données utilisateur"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:114
@@ -664,12 +681,14 @@ msgid ""
 "Klicke die Kachel *_Kontoverwaltung_*.  [.result]#Die `Kontoverwaltung` wird "
 "angezeigt:# +"
 msgstr ""
+"Cliquez sur la vignette *_Administration du compte_*.  [.result]#La page "
+"\"administration du compte\" s'affiche :# +"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:115
 #, no-wrap
 msgid "Account management"
-msgstr ""
+msgstr "Gestion du compte"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:120
@@ -678,12 +697,15 @@ msgid ""
 "Ansprechpartner`.  [.result]#Das Formular `Daten Ansprechpartner bearbeiten` "
 "wird angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Modifier_* dans la section \"Informations sur la "
+"personne de contact\".  [.result]#Le formulaire \"Modifier les données de la "
+"personne de contact\" s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:121
 #: de/modules/ROOT/pages/account.adoc:124
 msgid "Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*."
-msgstr ""
+msgstr "Saisissez les nouvelles données et cliquez sur le bouton *_Valider_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:123
@@ -691,6 +713,9 @@ msgid ""
 "Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.  [."
 "result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Modifier_* dans la section \"Informations sur la "
+"société\".  [.result]#Le formulaire \"Modifier les données de la société\" "
+"s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:126
@@ -699,6 +724,9 @@ msgid ""
 "Ansprechpartner`.  [.result]#Das Formular `Email-Adresse ändern` wird "
 "angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Modifier l'adresse e-mail_* dans la section "
+"\"Informations sur le contact\".  [.result]#Le formulaire \"Modifier "
+"l'adresse e-mail\" s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:127
@@ -706,28 +734,32 @@ msgid ""
 "Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke den Button "
 "*_Bestätigen_*."
 msgstr ""
+"Saisissez l'e-mail dans les deux champs de saisie puis cliquez sur le bouton "
+"*_Confirmer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:129
 msgid ""
 "Klicke den Button *_Startseite_*.  [.result]#Das Dashboard wird angezeigt.#"
 msgstr ""
+"Cliquez sur *_Page d'accueil_*.  [.result]#Le tableau de bord s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:131
 msgid "Verwende bei der nächsten Anmeldung die neue E-Mail-Adresse."
-msgstr ""
+msgstr "Utilisez la nouvelle adresse e-mail lors de votre prochaine connexion."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:133
 #, no-wrap
 msgid "Konto löschen"
-msgstr ""
+msgstr "Supprimer un compte"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:135
 msgid "Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:"
 msgstr ""
+"Pour supprimer votre compte utilisateur lorsque vous n'en avez plus besoin :"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:138
@@ -741,6 +773,8 @@ msgid ""
 "Klicke die Kachel *_Kontoverwaltung_*.  [.result]#Die `Kontoverwaltung` wird "
 "angezeigt.#"
 msgstr ""
+"Cliquez sur la vignette *_Administration du compte_*.  [.result]#La page "
+"\"administration du compte\" s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:144
@@ -748,6 +782,8 @@ msgid ""
 "Klicke den Button *_Konto löschen_*.  [.result]#Ein Meldungsfenster wird "
 "angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Supprimer un compte_*.  [.result]#Une boite de "
+"dialogue s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:146
@@ -755,6 +791,8 @@ msgid ""
 "Klicke den Button *_OK_*.  [.result]#Das Formular `Bestätigung` wird "
 "angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_OK_*.  [.result]#Le formulaire \"Confirmation\" "
+"s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:152
@@ -762,17 +800,20 @@ msgid ""
 "Gebe dein Passwort ein und klicke den Button *_Bestätigen_*.  [.result]#Das "
 "Konto wird gelöscht.# [.result]#Ein Meldungsfenster wird angezeigt.#"
 msgstr ""
+"Saisissez votre mot de passe et cliquez sur le bouton *_Confirmer_*.  [."
+"result]#Le compte sera supprimé.# [.result]#Une boite de dialogue "
+"s'affichera.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:153
 msgid "Klicke den Button *_OK_*."
-msgstr ""
+msgstr "Cliquez sur le bouton *_OK_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:154
 #, no-wrap
 msgid "Account deleted"
-msgstr ""
+msgstr "Compte supprimé"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:158
@@ -780,12 +821,15 @@ msgid ""
 "Alle Einstellungen und Benutzerdaten sowie alle Endpunkte und deren "
 "Postfächer werden gelöscht und können nicht wieder hergestellt werden."
 msgstr ""
+"Tous les paramètres et données utilisateur, ainsi que tous les points de "
+"terminaison et leurs boîtes aux lettres, sont supprimés et ne peuvent pas "
+"être restaurés."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:159
 #, no-wrap
 msgid "Einstellungen"
-msgstr ""
+msgstr "Paramètres"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:161
@@ -793,6 +837,8 @@ msgid ""
 "Ansicht und Inhalt des Dashboard und die Darstellung von Benachrichtigungen "
 "können eingestellt werden."
 msgstr ""
+"L'affichage et le contenu du tableau de bord ainsi que l'affichage des "
+"notifications peuvent être modifiés."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:164
@@ -806,6 +852,8 @@ msgid ""
 "Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].  [."
 "result]#Eine Auswahlliste wird angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône *_Profil_* image:ar_profile.icon.png[logon, 30, 30].  [."
+"result]#Une liste de choix s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:171
@@ -815,6 +863,10 @@ msgid ""
 "sich die Liste der Einstellungen, rechts die Details zum gewählten "
 "Listeneintrag.#"
 msgstr ""
+"Sélectionnez *_Paramètres_* image:ar_settings.icon.png[logon, 30, 30].  [."
+"result]#La fenêtre `Paramètres` s'affiche.# [.result]#La liste des "
+"paramètres se trouve à gauche, les détails de l'entrée sélectionnée à "
+"droite.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:172
@@ -822,18 +874,20 @@ msgid ""
 "Ändere die Einstellungen wie in den folgenden Kapiteln beschrieben und "
 "klicke dann den Button *_Sichern_*:"
 msgstr ""
+"Modifiez les paramètres comme décrit dans les chapitres suivants, puis "
+"cliquez sur le bouton *_Sauvegarder_* :"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:174
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:177
 #, no-wrap
 msgid "Ansicht"
-msgstr ""
+msgstr "Affichage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:180
@@ -842,16 +896,19 @@ msgid ""
 "Benutzeroberfläche. + Im Reiter `Anzeigeeinstellungen` stellst du die Größe "
 "der Bedienelemente ein und aktivierst die Animationen."
 msgstr ""
+"Dans l'onglet `Thème`, vous pouvez choisir entre un design clair ou sombre "
+"pour l'interface utilisateur. + Dans l'onglet `Paramètres d'affichage`, vous "
+"pouvez régler la taille des commandes et activer les animations."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:183
 msgid "Klicke den Button *_Erscheinungsbild_*."
-msgstr ""
+msgstr "Cliquez sur le bouton *_Apparence_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:184
 msgid "Klicke den Reiter `Theme` und wähle das Design."
-msgstr ""
+msgstr "Cliquez sur l'onglet `Thème` et choisissez le thème souhaité."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:186
@@ -859,6 +916,8 @@ msgid ""
 "Klicke den Reiter `Anzeigeeinstellungen`.  [.result]#Die Optionen werden "
 "angezeigt.#"
 msgstr ""
+"Cliquez sur l'onglet `Paramètres d'affichage`.  [.result]#[Les options "
+"s'affichent.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:188
@@ -866,6 +925,8 @@ msgid ""
 "Schalte *_Große Interaktionselemente_* an.  [.result]#Die Icons, Buttons und "
 "Kacheln werden in der maximalen Größe angezeigt.#"
 msgstr ""
+"Activez *_Éléments d'interaction grande taille_*.  [.result]#Les icônes, "
+"boutons et vignettes sont affichés à la taille maximale.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:189
@@ -878,6 +939,8 @@ msgid ""
 "Wähle auf einem leistungsschwachen PC, Laptop oder Tablet in der "
 "Auswahlliste *_Animation_* die Option `Minimal`."
 msgstr ""
+"Sur un PC, un ordinateur portable ou une tablette peu performant(e), "
+"choisissez `Minimum` dans la liste de choix *_Animation_*."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:195
@@ -885,33 +948,36 @@ msgid ""
 "Schalte auf Geräten mit kleinem Bildschirm *_Große Interaktionselemente_* "
 "aus."
 msgstr ""
+"Désactivez *_Éléments d'interaction grande taille_* sur les appareils dotés "
+"d'un petit écran."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:197
 #, no-wrap
 msgid "Startseite"
-msgstr ""
+msgstr "Page d'accueil"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:199
 msgid "Das Dashboard ist in 4 Reiter aufgeteilt."
-msgstr ""
+msgstr "Le tableau de bord est partagé en 4 onglets."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:201
 msgid "Zeige die Inhalte aller Reiter auf einer Seite an wie folgt:"
 msgstr ""
+"Affichez le contenu de tous les onglets d'une page de la manière suivante :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:203
 #: de/modules/ROOT/pages/account.adoc:210
 msgid "Klicke den Button *_Startseite_*."
-msgstr ""
+msgstr "Cliquez sur le bouton *_Page d'accueil_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:204
 msgid "Wähle *_Sämtlichen Inhalt anzeigen_*."
-msgstr ""
+msgstr "Sélectionnez *_Afficher tout le contenu_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:206
@@ -921,29 +987,29 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:208
 msgid "Zeige den Inhalt des gewählten Reiters an wie folgt:"
-msgstr ""
+msgstr "Affichez le contenu de l'onglet sélectionné comme suit :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:211
 msgid "Wähle *_Eine Gruppe auf einmal anzeigen_*."
-msgstr ""
+msgstr "Sélectionnez *_Afficher un groupe à la fois_*."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:212
 #, no-wrap
 msgid "Benachrichtigungen"
-msgstr ""
+msgstr "Notifications"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:214
 msgid "Diese Einstellungen werden vom Programm nicht verwendet."
-msgstr ""
+msgstr "Ces paramètres ne sont pas utilisés par le programme."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:215
 #, no-wrap
 msgid "Sprache und Region"
-msgstr ""
+msgstr "Langue et région"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:217
@@ -951,23 +1017,27 @@ msgid ""
 "Die Sprache stellst Du in der `Kontoverwaltung` im Abschnitt `Angaben zum "
 "Ansprechpartner` ein."
 msgstr ""
+"Vous pouvez définir la langue dans la section `Informations sur le contact` "
+"de l`administration du compte`."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:219
 msgid "Gehe vor wie im Kapitel `Benutzerdaten` beschrieben."
-msgstr ""
+msgstr "Procédez comme décrit dans le chapitre `Données utilisateur`."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:220
 msgid "Region, Datum- und Zeitformat können nicht eingestellt werden."
 msgstr ""
+"La région ainsi que le format de la date et de l'heure ne peuvent pas être "
+"modifiés."
 
 #. type: Title =
 #: de/modules/ROOT/pages/basics.adoc:4
 #: de/modules/ROOT/pages/introduction.adoc:4
 #, no-wrap
 msgid "Einführung"
-msgstr ""
+msgstr "Introduction"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:8
