@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-17 11:14+0000\n"
+"PO-Revision-Date: 2022-08-22 19:14+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -82,7 +82,7 @@ msgstr "xref:routing.adoc[Routing]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:7
 msgid "xref:account-pairing.adoc[Konto verbinden]"
-msgstr "xref:account-pairing.adoc[Account linking]"
+msgstr "xref:account-pairing.adoc[Account pairing]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:8
@@ -103,7 +103,7 @@ msgstr "xref:appendix/ddis.adoc[DDI Definition]"
 #: de/modules/ROOT/pages/account-pairing.adoc:1
 #, no-wrap
 msgid "Konto verbinden"
-msgstr "Account linking"
+msgstr "Account pairing"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:7
@@ -111,7 +111,7 @@ msgid ""
 "Du kannst dein Konto mit den Konten anderer Nutzer verbinden.  Das "
 "verbundene Konto kann Daten von dir empfangen und Daten an dich senden."
 msgstr ""
-"You can link your account with those of other users. A linked account can "
+"You can pair your account with those of other users.  A paired account can "
 "receive data from you and send data to you in return."
 
 #. type: Plain text
@@ -124,18 +124,18 @@ msgstr "In this section you will learn"
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:11
 msgid "wie du dein Konto mit einem anderen Konto verbindest"
-msgstr "how to link your account with another account"
+msgstr "How to pair your account with another account"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:12
 msgid "wie du den Datenaustausch mit dem anderen Konto aktivierst"
-msgstr "how to activate data sharing with another account"
+msgstr "How to activate data sharing with another account"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:14
 #, no-wrap
 msgid "Einladung versenden"
-msgstr "Sending an invitation"
+msgstr "Send an invite"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:17
@@ -144,8 +144,8 @@ msgid ""
 "Kontoinhaber eine Einladung.  Dazu benötigst du die E-Mail-Adresse des "
 "Kontos."
 msgstr ""
-"To link your account with another, you send an invitation to the account "
-"owner.  To do this, you need to know the email address of the account."
+"To pair your account with another, you send an invite to the account owner.  "
+"To do this, you need to know the email address of the account."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:20
@@ -162,8 +162,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
-"In the dashboard, click the tile *_Account Pairing_*. [.result]#The window `"
-"Account pairing` is shown.#"
+"In the dashboard, click on the *_Account pairing_* tile.  [.result]#The `"
+"Account pairing` window is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -192,9 +192,9 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
-"Click the button *_Send invite_*. [.result]#The invitiation is sent to the "
-"other account.# [.result]#The invitiation is shown in the tab `Pending "
-"invites` until it is being accepted by the other account's owner.#"
+"Click the *_Send invite_* button.  [.result]#The invite is sent to the other "
+"account.# [.result]#The invite will be displayed in the `Pending invites` "
+"tab until it has been accepted by the owner of the other account.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:39
@@ -204,10 +204,10 @@ msgid ""
 "result]#Das Konto wird in den Reiter `Verbunden` verschoben.# [.result]#Das "
 "Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
-"If the other account's owner accepts the invitation, then: [.result]#You "
-"will receive an e-mail.# [.result]#The accounts are paired with each other.# "
-"[.result]#The account will be moved to the tab `Paired`.# [.result]#The "
-"account will be added to the endpoints list.#"
+"If the owner of the other account accepts the invite: [.result]#You receive "
+"an email.# [.result]#The accounts are paired with one other.# [.result]#The "
+"account is moved to the `Paired` tab.# [.result]#The account is added to the "
+"endpoints list.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:46
@@ -215,7 +215,7 @@ msgid ""
 "Du kannst eine Einladung zurücknehmen, wenn der Empfänger sie noch nicht "
 "angenommen hat. +"
 msgstr ""
-"You can cancel the invitation, if the receipient hasn't accepted it yet. +"
+"You can withdraw an invite provided the recipient has not yet accepted it. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:49
@@ -223,25 +223,25 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-"In the `Open invitations` tab, select the invitation.  [.result]#The list "
-"entry will be colored green.#"
+"Select the invite in the `Open invites` tab.  [.result]#The list entry will "
+"be colored green.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:50
 msgid "Klicke den Button *_Einladung aufheben_*."
-msgstr "Click the *_Uninvite_* button."
+msgstr "Click on the *_Uninvite_* button."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:52
 #, no-wrap
 msgid "Einladung erhalten"
-msgstr ""
+msgstr "Receive an invite"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:56
 #, no-wrap
 msgid "Incoming invitation"
-msgstr ""
+msgstr "Incoming invite"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:59
@@ -251,6 +251,9 @@ msgid ""
 "werden in der Zeile `Eingehend` die Einladungen angezeigt, die du erhalten "
 "und noch nicht bearbeitet hast."
 msgstr ""
+"The procedure described above also works in reverse – you can be invited by "
+"another account.  The `Incoming` line of the `Account pairing` tile displays "
+"the invites you have received but not yet processed."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:65
@@ -258,6 +261,8 @@ msgid ""
 "Wähle im Reiter `Empfangene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
+"Select the invite in the `Incoming invites` tab.  [.result]#The list entry "
+"will be colored green.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:70
@@ -268,6 +273,10 @@ msgid ""
 "result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, "
 "dass du seine Einladung angenommen hast.#"
 msgstr ""
+"Click on the *_Accept invite_* button.  [.result]#The two accounts are "
+"paired with one another.# [.result]#The account is moved to the 'Paired' "
+"tab.# [.result]#The account is added to the endpoints list.# [.result]#The "
+"account owner is informed by email that you have accepted their invitation.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:74
@@ -275,22 +284,23 @@ msgid ""
 "Um die Einladung abzulehnen, klicke im Schritt 3 den Button *_Einladung "
 "ablehnen_*."
 msgstr ""
+"To decline the invite, click on the *_Decline invite_* button in step 3."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:76
 msgid "[.result]#Die beiden Konten werden nicht miteinander verbunden.#"
-msgstr ""
+msgstr "[.result]#The two accounts are not paired with one other.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:78
 #, no-wrap
 msgid "Verbindung beenden"
-msgstr ""
+msgstr "Stop pairing"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:80
 msgid "Du kannst die Verbindung zu einem anderen Konto beenden."
-msgstr ""
+msgstr "You can stop pairing with another account."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:88
@@ -298,6 +308,8 @@ msgid ""
 "Wähle im Reiter `Verbunden` das Konto.  [.result]#Der Listeneintrag wird "
 "grün eingefärbt.#"
 msgstr ""
+"Select the account in the `Paired` tab.  [.result]#The list entry is colored "
+"green.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:92
@@ -307,12 +319,15 @@ msgid ""
 "Endpunkteliste entfernt.# [.result]#Es werden keine Daten mehr zwischen den "
 "Konten ausgetauscht.#"
 msgstr ""
+"Click on the *_Remove pairing_* button.  [.result]#The two accounts are no "
+"longer paired with one another.# [.result]#The account is removed from the "
+"endpoint list.# [.result]#No further data is shared between the accounts.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:94
 #, no-wrap
 msgid "Datenaustausch"
-msgstr ""
+msgstr "Data sharing"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:97
@@ -321,6 +336,9 @@ msgid ""
 "Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [."
 "underline]#beiden# Konten Routen erstellt werden:"
 msgstr ""
+"You've probably realised by now: there's no data sharing without routes! + "
+"For data sharing to work with a paired account, routes must be created in [."
+"underline]#both# accounts:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:100
@@ -329,6 +347,9 @@ msgid ""
 "Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger "
 "ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
 msgstr ""
+"Outbound routes in your account specify which of your endpoints send data to "
+"the paired account. + To ensure that the data reaches the recipient, the "
+"owner of the other account must create inbound routes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:102
@@ -337,12 +358,15 @@ msgid ""
 "Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, "
 "muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
 msgstr ""
+"Inbound routes in your account specify which of your endpoints receive data "
+"from the paired account. + For you to receive data, the owner of the other "
+"account must create outbound routes."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
 #, no-wrap
 msgid "Route erstellen"
-msgstr ""
+msgstr "Create a route"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:105
@@ -350,6 +374,7 @@ msgid ""
 "Routen für verbundene Konten werden in der Endpunkteliste erstellt und "
 "verwaltet:"
 msgstr ""
+"Routes for paired accounts are created and managed in the endpoint list:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:107
@@ -357,6 +382,8 @@ msgid ""
 "Im Abschnitt xref:endpoint.adoc#senden-an[Senden an] erfährst du, wie das "
 "verbundene Konto Daten an deine Endpunkte und Gruppen senden kann."
 msgstr ""
+"The xref:endpoint.adoc#send-to[Send to] section explains how the paired "
+"account can send data to your endpoints and groups."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:108
@@ -365,12 +392,14 @@ msgid ""
 "wie das verbundene Konto Daten von deinen Endpunkten und Gruppen empfangen "
 "kann."
 msgstr ""
+"The xref:endpoint.adoc#receive-from[Receive from] section explains how the "
+"paired account can receive data from your endpoints and groups."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:109
 #, no-wrap
 msgid "Route freischalten"
-msgstr ""
+msgstr "Activate a route"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:111
@@ -378,6 +407,7 @@ msgid ""
 "Damit miteinander verbundene Konten Daten austauschen können, musst du die "
 "Routen freischalten:"
 msgstr ""
+"In order for paired accounts to share data, you need to activate the routes:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:114
@@ -385,6 +415,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
 "`Kontrollzentrum` wird geöffnet und die Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Click on the *_Control Center_* tile in the dashboard.  [.result]#The `"
+"Control Center` is opened and the endpoint list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:116
@@ -392,6 +424,8 @@ msgid ""
 "Wähle in der Endpunkteliste das verbundene Konto.  [.result]#Rechts werden "
 "die Details des Kontos angezeigt.#"
 msgstr ""
+"Select the paired account from the endpoint list.  [.result]#The account "
+"details are displayed on the right.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:118
@@ -399,6 +433,8 @@ msgid ""
 "Setze den Schalter *_Datenfluss_* auf `EIN`.  [.result]#Die beiden Konten "
 "können Daten austauschen.#"
 msgstr ""
+"Toggle the *_Data flow_* switch to `ON`.  [.result]#The two accounts can "
+"share data.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:121
@@ -407,29 +443,32 @@ msgid ""
 "schalte den *_Datenfluss_* auf `AUS`.  Für eine dauerhafte Trennung vom "
 "verbundenen Konto, <<verbindung-beenden,beende die Verbindung>>."
 msgstr ""
+"To temporarily pause data sharing with the paired account, toggle the *_Data "
+"flow_* switch to `OFF`.  To permanently disconnect from the paired account, "
+"<<stop-pairing,stop pairing>>."
 
 #. type: Title =
 #: de/modules/ROOT/pages/account.adoc:4
 #, no-wrap
 msgid "Konto"
-msgstr ""
+msgstr "Account"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:7
 msgid "Zur Nutzung des agrirouter benötigst du ein Benutzerkonto."
-msgstr ""
+msgstr "To use agrirouter, you need a user account."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:11
 msgid "wie du ein Konto erstellst und deine Profildaten bearbeitest"
-msgstr ""
+msgstr "How to create an account and edit your profile data"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:12
 msgid ""
 "wie du die Ansicht des xref:introduction.adoc#dashboard[Dashboard] anpassen "
 "kannst"
-msgstr ""
+msgstr "How to customise the xref:introduction.adoc#dashboard[Dashboard] view"
 
 #
 #
@@ -450,13 +489,13 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:36
 #, no-wrap
 msgid "Benutzerkonto erstellen"
-msgstr ""
+msgstr "Create a user account"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:48 de/modules/ROOT/pages/group.adoc:28
 #, no-wrap
 msgid "Select Register"
-msgstr ""
+msgstr "Select Register"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:51 de/modules/ROOT/pages/account.adoc:83
@@ -464,6 +503,8 @@ msgid ""
 "Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter."
 "com^]."
 msgstr ""
+"In your internet browser, navigate to https://my-agrirouter.com[my-agrirouter"
+".com^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:53 de/modules/ROOT/pages/account.adoc:85
@@ -471,6 +512,8 @@ msgid ""
 "Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].  [."
 "result]#Eine Auswahlliste wird angezeigt.#"
 msgstr ""
+"Click on the *_Login_* image:ar_logon.icon.png[logon, 30, 30] icon.  [."
+"result]#A drop-down list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:55
@@ -478,6 +521,7 @@ msgid ""
 "Wähle *_Registrieren_*.  [.result]#Das Formular `Benutzerregistrierung` wird "
 "angezeigt.#"
 msgstr ""
+"Select *_Register_*.  [.result]#The `User registration` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:57
@@ -486,6 +530,9 @@ msgid ""
 "den Button *_Registrieren_*.  [.result]#Du erhälst eine E-Mail mit dem "
 "Aktivierungslink.#"
 msgstr ""
+"Fill in the mandatory fields marked with a red asterisk then click on the "
+"*_Register_* button.  [.result]#You receive an email with the activation "
+"link.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:59
@@ -493,12 +540,14 @@ msgid ""
 "Klicke in der E-Mail den Button *_ACCOUNT AKTIVIEREN_*.  [.result]#Das "
 "Formular `Benutzerkonto aktivieren` wird angezeigt:#"
 msgstr ""
+"Click on the *_ACTIVATE ACCOUNT_* button in the email.  [.result]#The "
+"'Activate user account' form is displayed:#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:61
 #, no-wrap
 msgid "Activate form"
-msgstr ""
+msgstr "Activation form"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:66
@@ -506,11 +555,13 @@ msgid ""
 "Vergebe ein Kennwort und klicke den Button *_Sichern_*.  [.result]#Ein "
 "Meldungsfenster wird angezeigt.#"
 msgstr ""
+"Enter a password and click on the *_Save_* button.  [.result]#A message "
+"window is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:68
 msgid "Klicke *_Weiter_*.  [.result]#Das Dashboard wird angezeigt.#"
-msgstr ""
+msgstr "Click on *_Next_*.  [.result]#The dashboard is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:72
@@ -521,6 +572,11 @@ msgid ""
 "empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn "
 "andere Kunden dich suchen."
 msgstr ""
+"The description is a standard SAP field, but the content is not used or "
+"displayed anywhere in agrirouter. TIP: The *_Company description_* input "
+"field in the `User registration` form is not a mandatory field. We recommend "
+"entering TODO TEXT because the field will be displayed when other customers "
+"search for you."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:74
@@ -528,28 +584,30 @@ msgid ""
 "Notiere E-Mail-Adresse und Passwort. Diese benötigst du, um dich am "
 "agrirouter anzumelden."
 msgstr ""
+"Make a note of the email address and password. You will need this to log in "
+"to agrirouter."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:76
 #, no-wrap
 msgid "Anmelden"
-msgstr ""
+msgstr "Login"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:80
 #, no-wrap
 msgid "Select Log on"
-msgstr ""
+msgstr "Select Login"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:87
 msgid "Wähle *_Login_*.  [.result]#Das Formular `Anmelden` wird angezeigt.#"
-msgstr ""
+msgstr "Select *_Login_*.  [.result]#The `Login` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:88
 msgid "Gebe E-Mail-Adresse und Passwort ein."
-msgstr ""
+msgstr "Enter your email address and password."
 
 #. Removed upon 1st. Review:
 #. . Aktiviere die Checkbox "_Angemeldet bleiben_".
@@ -557,13 +615,13 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:94
 #, no-wrap
 msgid "Log on form"
-msgstr ""
+msgstr "Login form"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:99
 msgid ""
 "Klicke den Button *_Anmelden_*.  [.result]#Das Dashboard wird angezeigt.#"
-msgstr ""
+msgstr "Click on the *_Login_* button.  [.result]#The dashboard is displayed.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:103
@@ -571,6 +629,8 @@ msgid ""
 "Um das Dashboard zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe "
 "vor wie folgt:"
 msgstr ""
+"To open the dashboard without having to enter your user data, do the "
+"following:"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:105
@@ -578,11 +638,12 @@ msgid ""
 "Öffne die https://goto.my-agrirouter.com/app[die Anmeldeseite] wie oben "
 "beschrieben."
 msgstr ""
+"Open https://goto.my-agrirouter.com/app [the login page] as described above."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:106
 msgid "Aktiviere die Checkbox \"_Angemeldet bleiben_\" und melde dich an."
-msgstr ""
+msgstr "Activate the \"_Stay logged in_\" checkbox and log in."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:108
@@ -592,12 +653,16 @@ msgid ""
 "goto.my-agrirouter.com/app[die Anmeldeseite] öffnest, wird sofort das "
 "Dashboard angezeigt.#"
 msgstr ""
+"When you have finished working in the dashboard, close the web page [."
+"underline]#without# logging out.  [.result]#The next time you open "
+"https://goto.my-agrirouter.com/app[the login page], the dashboard will be "
+"displayed straight away.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:110
 #, no-wrap
 msgid "Benutzerdaten ändern"
-msgstr ""
+msgstr "Change user data"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:114
@@ -605,6 +670,8 @@ msgid ""
 "Klicke die Kachel *_Kontoverwaltung_*.  [.result]#Die `Kontoverwaltung` wird "
 "angezeigt:# +"
 msgstr ""
+"Click on the *_Account management_* tile.  [.result]#The 'Account "
+"management' section is displayed:# +"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:115
@@ -619,12 +686,14 @@ msgid ""
 "Ansprechpartner`.  [.result]#Das Formular `Daten Ansprechpartner bearbeiten` "
 "wird angezeigt.#"
 msgstr ""
+"Click on the *_Edit_* button in the `Contact information` section.  [."
+"result]#The `Edit contact information` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:121
 #: de/modules/ROOT/pages/account.adoc:124
 msgid "Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*."
-msgstr ""
+msgstr "Update the entries and click on the *_Confirm_* button."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:123
@@ -632,6 +701,8 @@ msgid ""
 "Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.  [."
 "result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#"
 msgstr ""
+"Click on the *_Edit_* button in the `Company information` section.  [."
+"result]#The `Edit company information` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:126
@@ -640,6 +711,8 @@ msgid ""
 "Ansprechpartner`.  [.result]#Das Formular `Email-Adresse ändern` wird "
 "angezeigt.#"
 msgstr ""
+"Click on the *_Change email address_* button in the `Contact information` "
+"section.  [.result]#The `Change email address` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:127
@@ -647,34 +720,37 @@ msgid ""
 "Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke den Button "
 "*_Bestätigen_*."
 msgstr ""
+"Enter the email address in both input fields and click on the *_Confirm_* "
+"button."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:129
 msgid ""
 "Klicke den Button *_Startseite_*.  [.result]#Das Dashboard wird angezeigt.#"
 msgstr ""
+"Click on the *_Start_page_* button.  [.result]#The dashboard is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:131
 msgid "Verwende bei der nächsten Anmeldung die neue E-Mail-Adresse."
-msgstr ""
+msgstr "Use the new email address next time you log in."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:133
 #, no-wrap
 msgid "Konto löschen"
-msgstr ""
+msgstr "Delete account"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:135
 msgid "Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:"
-msgstr ""
+msgstr "Delete the user account if you don't need it anymore:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:138
 #, no-wrap
 msgid "Account Management Tile"
-msgstr ""
+msgstr "Account Management tile"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:142
@@ -682,6 +758,8 @@ msgid ""
 "Klicke die Kachel *_Kontoverwaltung_*.  [.result]#Die `Kontoverwaltung` wird "
 "angezeigt.#"
 msgstr ""
+"Click on the *_Account management_* tile.  [.result]#The 'Account "
+"management' section is displayed:#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:144
@@ -689,6 +767,8 @@ msgid ""
 "Klicke den Button *_Konto löschen_*.  [.result]#Ein Meldungsfenster wird "
 "angezeigt.#"
 msgstr ""
+"Click on the *_Delete account_* button.  [.result]#A message window will be "
+"displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:146
@@ -696,6 +776,7 @@ msgid ""
 "Klicke den Button *_OK_*.  [.result]#Das Formular `Bestätigung` wird "
 "angezeigt.#"
 msgstr ""
+"Click on the *_OK_* button.  [.result]#The `Confirmation` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:152
@@ -703,6 +784,8 @@ msgid ""
 "Gebe dein Passwort ein und klicke den Button *_Bestätigen_*.  [.result]#Das "
 "Konto wird gelöscht.# [.result]#Ein Meldungsfenster wird angezeigt.#"
 msgstr ""
+"Enter your password and click on the *_Confirm_* button.  [.result]#The "
+"account is deleted.# [.result]#A message window is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:153
