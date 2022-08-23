@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-23 13:14+0000\n"
+"PO-Revision-Date: 2022-08-23 19:14+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -1655,49 +1655,49 @@ msgstr ""
 #: de/modules/ROOT/pages/introduction.adoc:143
 #, no-wrap
 msgid "12 Kategorien der Echtzeitdaten"
-msgstr ""
+msgstr "12 real-time data categories"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/basics.adoc:137
 #, no-wrap
 msgid "Konzepte"
-msgstr ""
+msgstr "Concepts"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:139
 #, no-wrap
 msgid "Sender - Empfänger Modell ..."
-msgstr ""
+msgstr "Sender/receiver model"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:141
 #, no-wrap
 msgid "Inbetriebnahme eines ECO-Systems ..."
-msgstr ""
+msgstr "Using an ECO system for the first time"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:143
 #, no-wrap
 msgid "Maschine verbinden ..."
-msgstr ""
+msgstr "Pair a machine"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:145
 #, no-wrap
 msgid "Agrar-Software verbinden ..."
-msgstr ""
+msgstr "Pair agricultural software"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:147
 #, no-wrap
 msgid "Kommunikationseinheit verbinden ..."
-msgstr ""
+msgstr "Pair a communication unit"
 
 #. type: Title =
 #: de/modules/ROOT/pages/endpoint.adoc:4
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Endpunkte"
-msgstr "Endpoint"
+msgstr "Endpoints"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:7
@@ -1706,23 +1706,26 @@ msgid ""
 "austauschen soll, musst du einen xref:introduction.adoc#endpunkt[Endpunkt] "
 "hinzufügen."
 msgstr ""
+"For every machine and agricultural software solution you want use to share "
+"data via agrirouter, you need to add an xref:introduction."
+"adoc#endpoint[endpoint]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:11
 msgid "wie du einen Endpunkt hinzufügst, bearbeitest und löscht"
-msgstr ""
+msgstr "How to add, edit, and delete an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:12
 msgid ""
 "wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst"
-msgstr ""
+msgstr "How to create xref:introduction.adoc#route[the routes] for an endpoint"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:13 de/modules/ROOT/pages/group.adoc:15
 #, no-wrap
 msgid "Das Kontrollzentrum"
-msgstr ""
+msgstr "The Control Center"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:15
@@ -1730,6 +1733,8 @@ msgid ""
 "Öffne das xref:introduction.adoc#kontrollzentrum[Kontrollzentrum], um einen "
 "Endpunkt hinzuzufügen und zu verwalten:"
 msgstr ""
+"Open the xref:introduction.adoc#control-center[Control Center] to add and "
+"manage an endpoint:"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:20
@@ -1739,60 +1744,63 @@ msgid ""
 "Kontrollzentrum wird geöffnet.# [.result]#Links wird die Endpunkteliste "
 "angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
 msgstr ""
+"In the Dashboard, click on the *_Control Center_* tile.  [.result]#The "
+"Control Center is opened.# [.result]#The endpoint list is displayed on the "
+"left.# [.result]#The detail view is displayed on the right.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:21
 #, no-wrap
 msgid "Endpunkteliste"
-msgstr ""
+msgstr "Endpoint list"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:24
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Endpoint list"
-msgstr "Endpoint"
+msgstr "Endpoint list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:28
 msgid ""
 "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
-msgstr ""
+msgstr "The endpoint list is alphabetically ordered by name. + You can:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:30
 msgid "einen Endpunkt hinzufügen,"
-msgstr ""
+msgstr "Add an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:31
 msgid "die Endpunkteliste filtern,"
-msgstr ""
+msgstr "Filter the endpoint list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:32
 msgid "einen Endpunkt suchen,"
-msgstr ""
+msgstr "Search for an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:33
 msgid "die Endpunkteliste aktualisieren."
-msgstr ""
+msgstr "Refresh the endpoint list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:36
 msgid "Öffne die Endpunkteliste wie folgt:"
-msgstr ""
+msgstr "To open the endpoint list:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:39
 #, no-wrap
 msgid "Control Center Tile"
-msgstr ""
+msgstr "Control Center tile"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:50
 msgid "Auf einem Tablet öffnest du die Endpunkteliste über das Burger-Menü:"
-msgstr ""
+msgstr "On a tablet, the endpoint list can be opened via the burger menu:"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:53
@@ -1800,47 +1808,49 @@ msgid ""
 "Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[Burger menue, 30, "
 "30].  [.result]#Die Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Click on the *_burger menu_* image:ar_burger.icon.png[Burger menue, 30, 30] "
+"icon.  [.result]#The endpoint list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:57 de/modules/ROOT/pages/group.adoc:51
 msgid "Ein Listeneintrag besteht aus"
-msgstr ""
+msgstr "A list entry consists of:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:60
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Endpoint list item"
-msgstr "Endpoint"
+msgstr "Endpoint list item"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:63 de/modules/ROOT/pages/group.adoc:57
 msgid "Namen"
-msgstr ""
+msgstr "Name"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/endpoint.adoc:64
 #: de/modules/ROOT/pages/endpoint.adoc:129
 #, no-wrap
 msgid "Typ"
-msgstr ""
+msgstr "Type"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:65
 msgid "Maschinenklasse (optional)"
-msgstr ""
+msgstr "Machine class (optional)"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/endpoint.adoc:66
 #: de/modules/ROOT/pages/endpoint.adoc:130
 #, no-wrap
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:69
 #, no-wrap
 msgid "Maschine verbinden"
-msgstr ""
+msgstr "Machine pairing"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:71
@@ -1849,6 +1859,9 @@ msgid ""
 "Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter "
 "und wird der Endpunkteliste hinzugefügt."
 msgstr ""
+"To communicate externally, a machine requires a telemetry unit. The "
+"telemetry unit pairs the machine with agrirouter and is added to the "
+"endpoint list."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:74
@@ -1856,6 +1869,8 @@ msgid ""
 "Klicke den Button *_+ Telemetrie-Verbindung_*.  [.result]#Das Fenster "
 "`Telemetrie-Verbindung auswählen` wird angezeigt.#"
 msgstr ""
+"Click on the *_+ Telemetry pairing_* button.  [.result]#The `Select "
+"telemetry pairing` window is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:76
@@ -1863,12 +1878,14 @@ msgid ""
 "Wähle die Telemetrie-Einheit.  [.result]#Das Meldungsfenster "
 "`Registrierungscode` wird angezeigt:#"
 msgstr ""
+"Select the telemetry unit.  [.result]#The `Registration code` pop-up is "
+"displayed:#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:77
 #, no-wrap
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:82
@@ -1876,6 +1893,8 @@ msgid ""
 "Notiere den Registrierungscode und klicke *_Schließen_*.  [.result]#Die "
 "Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Make a note of the registration code and click *_Close_*.  [.result]#The "
+"endpoint list is displayed.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:87
@@ -1884,11 +1903,14 @@ msgid ""
 "Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:"
 "ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
 msgstr ""
+"Click on the *_Copy_* image:ar_copy.icon.png[copy, 30, 30] icon to copy the "
+"code to the clipboard. + Click on the *_Print_* image:ar_print.icon.png["
+"print, 30, 30] icon to print out the code."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:91
 msgid "Gebe den Registrierungscode an der Telemetrie-Einheit ein."
-msgstr ""
+msgstr "Enter the registration code on the telemetry unit."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:93
@@ -1897,11 +1919,14 @@ msgid ""
 "icon.png[refresh, 30, 30].  [.result]#Die Telemetrie-Einheit wird der "
 "Endpunkteliste hinzugefügt.#"
 msgstr ""
+"In the endpoint list, click on the *_Refresh_* image:ar_refresh.icon.png["
+"refresh, 30, 30] icon.  [.result]#The telemetry unit is added to the "
+"endpoint list.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:94
 msgid "Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben."
-msgstr ""
+msgstr "Alter the name as described in the `Edit endpoint` section."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:96
@@ -1909,6 +1934,8 @@ msgid ""
 "Lese in der Bedienungsanleitung des Herstellers nach, wie du den "
 "Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
+"Refer to the manufacturer's manual on how to enter the registration code on "
+"the telemetry unit."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:98
@@ -1917,23 +1944,26 @@ msgid ""
 "Endpunkteliste hinzugefügt. Damit können ISOBUS-Maschinen beim Routing als "
 "Sender oder Empfänger ausgewählt werden."
 msgstr ""
+"If the machine is an ISOBUS machine, it is also added to the end point list. "
+"This allows ISOBUS machines to be selected as either senders or receivers "
+"for routing purposes."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:99
 #, no-wrap
 msgid "Agrarsoftware verbinden"
-msgstr ""
+msgstr "Pairing agricultural software"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:101
 msgid ""
 "Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:"
-msgstr ""
+msgstr "To pair an agricultural software platform to agrirouter:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:103
 msgid "Starte die Agrarsoftware."
-msgstr ""
+msgstr "Launch the agricultural software"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:105
@@ -1942,6 +1972,9 @@ msgid ""
 "Benutzerdaten deines agrirouter-Kontos ein.  [.result]#Die Agrarsoftware "
 "verbindet sich mit dem agrirouter.#"
 msgstr ""
+"Execute the *_Connect to agrirouter_* function and enter the user "
+"credentials for your agrirouter account.  [.result]#The agricultural "
+"software platform pairs with agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:107
@@ -1950,6 +1983,9 @@ msgid ""
 "Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].  [."
 "result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#"
 msgstr ""
+"Open the Control Center in agrirouter and click on the *_Refresh_* "
+"image:ar_refresh.icon.png[refresh, 30, 30] icon in the endpoints list.  [."
+"result]#The agricultural software is displayed in the endpoints list.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:109
