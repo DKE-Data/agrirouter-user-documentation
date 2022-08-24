@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-23 19:14+0000\n"
+"PO-Revision-Date: 2022-08-24 13:14+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -1995,6 +1995,10 @@ msgid ""
 "Weitere Informationen findest du in der Bedienungsanleitung der "
 "Agrarsoftware."
 msgstr ""
+"The *_Connect to agrirouter_* function (the description differs in some "
+"cases) can usually be found in the settings of the agricultural software. "
+"Further information can be found in the user manual of the agricultural "
+"software."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:111
@@ -2002,12 +2006,14 @@ msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]"
 msgstr ""
+"For a complete list of agricultural software solutions with an agrirouter "
+"interface, see https://agrirouter.com/en/marketplace/apps/[here...^]"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:112
 #, no-wrap
 msgid "Endpunkt suchen"
-msgstr ""
+msgstr "Search for an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
@@ -2015,6 +2021,8 @@ msgid ""
 "Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt "
 "suchen:"
 msgstr ""
+"If your endpoint list contains numerous entries, you can search for an "
+"endpoint:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:117
@@ -2022,6 +2030,9 @@ msgid ""
 "Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_search.icon."
 "png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
 msgstr ""
+"Click the *_Search_* icon above the endpoint list image:ar_search.icon.png["
+"search, 30, 30].  [.result]#The cursor flashes in the *_Search_* input "
+"field.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
@@ -2029,11 +2040,13 @@ msgid ""
 "Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.  [."
 "result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#"
 msgstr ""
+"Enter the name or machine class of the endpoint you are looking for.  [."
+"result]#The endpoint list refreshes as you type.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:121 de/modules/ROOT/pages/group.adoc:80
 msgid "Mache die Suche rückgängig wie folgt:"
-msgstr ""
+msgstr "To cancel your search:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:124
@@ -2041,34 +2054,36 @@ msgid ""
 "Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem "
 "Eingabefeld *_Suchen_*.  [.result]#Alle Endpunkte werden angezeigt.#"
 msgstr ""
+"Click the image:ar_revert.icon.png[revert, 30, 30] icon to the right of the "
+"*_Search_* input field.  [.result]#All endpoints are displayed.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:125
 #, no-wrap
 msgid "Liste filtern"
-msgstr ""
+msgstr "Filter the list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:127
 msgid "Die Liste kann nach vorgegebenen Kriterien gefiltert werden:"
-msgstr ""
+msgstr "The list can be filtered using the specified criteria:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:130
 msgid "Die im Abschnitt `Endpunkt-Typ` beschriebenen Typen."
-msgstr ""
+msgstr "The types described in the `Endpoint type` section."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:131
 msgid ""
 "Ein Endpunkt kann den Status `Aktiv`, `Deaktiviert` oder `Blockiert` haben."
-msgstr ""
+msgstr "An endpoint can be set to `Active`, `Disabled` or `Blocked`."
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/endpoint.adoc:131
 #, no-wrap
 msgid "Maschinenklasse"
-msgstr ""
+msgstr "Machine class"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:132
@@ -2077,12 +2092,15 @@ msgid ""
 "zugeordnet. Diese gibt an, um welche Art landwirtschaftliche Maschine es "
 "sich handelt, z.B. Dünger, Spritze, etc. ... ."
 msgstr ""
+"A `Machine` type endpoint is automatically assigned a machine class. This "
+"indicates the type of agricultural machine it is, e.g. fertiliser spreader, "
+"sprayer, etc."
 
 #. -
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:136
 msgid "Filtere die Liste wie folgt:"
-msgstr ""
+msgstr "To filter the list:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:139
@@ -2092,6 +2110,9 @@ msgid ""
 "icon.png[filter, 30, 30].  [.result]#Die Auswahlliste `Filtern nach` wird "
 "angezeigt.#"
 msgstr ""
+"Click the *_Filter endpoint_* image:ar_filter.icon.png[filter, 30, 30] icon "
+"in the endpoint list.  [.result]#The `Filter by` drop-down list is "
+"displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:141
@@ -2099,6 +2120,8 @@ msgid ""
 "Wähle eine Kategorie.  [.result]#Die Auswahlliste `Filtern nach: "
 "<Kategorie>` wird angezeigt.#"
 msgstr ""
+"Select a category.  [.result]#The `Filter by: <Category>` drop-down list is "
+"displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:143
@@ -2106,11 +2129,13 @@ msgid ""
 "Wähle eine Option und bestätige mit *_OK_*.  [.result]#Die gefilterte "
 "Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Choose an option and confirm by pressing *_OK_*.  [.result]#The filtered "
+"endpoint list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:145
 msgid "Setze den Filter zurück wie folgt:"
-msgstr ""
+msgstr "To reset the filter:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:150
@@ -2118,17 +2143,19 @@ msgid ""
 "Klicke das Icon *_Alle Filter zurücksetzen_*.  [.result]#Die Auswahlliste "
 "`Filtern nach` wird angezeigt.#"
 msgstr ""
+"Click the *_Reset all filters_* icon.  [.result]#The `Filter by` drop-down "
+"list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:152
 msgid "Klicke *_OK_*.  [.result]#Alle Endpunkte werden angezeigt.#"
-msgstr ""
+msgstr "Click *_OK_*.  [.result]#All endpoints are displayed.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:153 de/modules/ROOT/pages/group.adoc:85
 #, no-wrap
 msgid "Liste aktualisieren"
-msgstr ""
+msgstr "Refresh the list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:155
@@ -2136,6 +2163,7 @@ msgid ""
 "Aktualisiere die Endpunkteliste, wenn der gesuchte Endpunkt nicht "
 "eingetragen ist:"
 msgstr ""
+"Refresh the endpoint list if the endpoint you are looking for is not entered:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:158
@@ -2143,18 +2171,21 @@ msgid ""
 "Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30] "
 "über der Endpunkteliste.  [.result]#Die Endpunkteliste wird aktualisiert.#"
 msgstr ""
+"Click the *_Refresh_* image:ar_refresh.icon.png[refresh, 30, 30] icon above "
+"the endpoint list.  [.result]#The endpoint list is refreshed.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:159 de/modules/ROOT/pages/group.adoc:92
 #, no-wrap
 msgid "Detailansicht"
-msgstr ""
+msgstr "Detail view"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:161
 msgid ""
 "In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:"
 msgstr ""
+"The detail view provides a summary of all the information about an endpoint:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:163
@@ -2162,22 +2193,24 @@ msgid ""
 "das Routing, d.h. verbundene Endpunkte und Gruppen und die Regeln des "
 "Datenaustausches"
 msgstr ""
+"Its routing, i.e. its paired endpoints and groups, and their data sharing "
+"rules"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:164
 msgid "Details zum Endpunkt und dem Postfach"
-msgstr ""
+msgstr "Information about the endpoint and its mailbox"
 
 #.  Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:165
 msgid "Fähigkeiten des Endpunktes"
-msgstr ""
+msgstr "Capabilities of the endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:167
 msgid "die in einem verbundenen Konto sichtbaren Maschinen"
-msgstr ""
+msgstr "The machines that are visible in a paired account"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:169
@@ -2186,6 +2219,9 @@ msgid ""
 "Empfangen von>>, <<gruppen,Gruppen>>, <<details,Details>>, <<fähigkeiten,"
 "Fähigkeiten>> und <<externe-maschinen,Externe Maschinen>> unterteilt."
 msgstr ""
+"The detail view is divided into several tabs: <<send-to,Send to>>, <<receive-"
+"from,Receive from>>, <<groups,Groups>>, <<details,Details>>, "
+"<<capabilities,Capabilities>>, and <<external-machines,External machines>>."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:171
@@ -2193,27 +2229,29 @@ msgid ""
 "Die Zahl der angezeigten Reiter hängt vom Endpunkt-Typ ab. So wird etwa der "
 "Reiter `Externe Maschinen` nur bei verbundenen Konten angezeigt."
 msgstr ""
+"The number of tabs shown depends on the endpoint type. For example, the `"
+"External machines` tab is only displayed for paired accounts."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:172 de/modules/ROOT/pages/group.adoc:99
 #, no-wrap
 msgid "Senden an"
-msgstr ""
+msgstr "Send to"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:175 de/modules/ROOT/pages/group.adoc:102
 msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
-msgstr ""
+msgstr "This tab contains a list of the recipients. + Recipients"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:177 de/modules/ROOT/pages/group.adoc:104
 msgid "befinden sich am Ende einer abgehenden Route"
-msgstr ""
+msgstr "Are located at the end of an outbound route"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:178
 msgid "sind Endpunkte und Gruppen, an welche der Endpunkt Daten sendet"
-msgstr ""
+msgstr "Are endpoints and groups to which the endpoint sends data"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:180
@@ -2221,7 +2259,7 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:313 de/modules/ROOT/pages/group.adoc:107
 #: de/modules/ROOT/pages/group.adoc:158 de/modules/ROOT/pages/group.adoc:226
 msgid "Du kannst"
-msgstr ""
+msgstr "You can"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:182 de/modules/ROOT/pages/group.adoc:109
@@ -2230,11 +2268,13 @@ msgid ""
 "ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
 "30, 30]"
 msgstr ""
+"Add image:ar_add.icon.png[add, 30, 30], edit image:ar_edit.icon.png[edit, "
+"30, 30], and delete image:ar_delete.icon.png[delete, 30, 30] recipients"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:183
 msgid "definieren, welche Nachrichten der Endpunkt an den Empfänger sendet"
-msgstr ""
+msgstr "Define the types of messages the endpoint sends to the recipient"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:185
@@ -2243,19 +2283,22 @@ msgid ""
 "neue Endpunkt ist automatisch Mitglied einer Standard-Gruppe, die in der "
 "Liste der Empfänger angezeigt wird."
 msgstr ""
+"The list of recipients is not empty even with a new endpoint. The new "
+"endpoint is automatically a member of a default group that is displayed in "
+"the list of recipients."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:186 de/modules/ROOT/pages/group.adoc:112
 #, no-wrap
 msgid "Empfänger hinzufügen"
-msgstr ""
+msgstr "Add a recipient"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:188
 msgid ""
 "Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt "
 "oder eine Gruppe:"
-msgstr ""
+msgstr "You create the route for sending data to another endpoint or group:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:191
@@ -2265,6 +2308,8 @@ msgid ""
 "Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
 "result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
+"Click the *_Add_* image:ar_add.icon.png[add, 30, 30] icon.  [.result]#The `"
+"New routing` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:193 de/modules/ROOT/pages/group.adoc:119
@@ -2272,12 +2317,14 @@ msgid ""
 "Klicke in das Eingabefeld *_Empfänger_*.  [.result]#Die Auswahlliste "
 "`Endpunkt auswählen` wird angezeigt.#"
 msgstr ""
+"Click on the *_Recipient_* input field.  [.result]#The `Select endpoint` "
+"drop-down list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195 de/modules/ROOT/pages/group.adoc:121
 msgid ""
 "Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
+msgstr "Choose the recipient.  [.result]#The `New routing` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:197
@@ -2287,6 +2334,8 @@ msgid ""
 "Klicke in das Eingabefeld *_Nachrichtenformate_*.  [.result]#Die "
 "Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#"
 msgstr ""
+"Click on the *_Message formats_* input field.  [.result]#The `Select message "
+"formats` drop-down list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:198
@@ -2294,6 +2343,7 @@ msgid ""
 "Wähle die Nachrichten, die der Empfänger erhalten soll und klicke "
 "*_Bestätigen_*."
 msgstr ""
+"Select the messages you want the recipient to receive and click *_Confirm_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:200
@@ -2303,6 +2353,8 @@ msgid ""
 "Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
 "result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
 msgstr ""
+"Click on the *_Telemetry parameter categories_* input field.  [.result]#The `"
+"Telemetry parameter categories` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:202
@@ -2311,12 +2363,14 @@ msgid ""
 "Wähle eine oder mehrere Kategorien und klicke Bestätigen.  [.result]#Das "
 "Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
+"Click one or more categories then click confirm.  [.result]#The `New routing`"
+" form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:204 de/modules/ROOT/pages/group.adoc:131
 msgid ""
 "Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird hinzugefügt.#"
-msgstr ""
+msgstr "Click the *_Confirm_* button.  [.result]#The recipient is added.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:206
@@ -2324,6 +2378,8 @@ msgid ""
 "Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom "
 "Empfänger verarbeitet werden können."
 msgstr ""
+"When creating the route, you will only have the option to choose messages "
+"that can be processed by the recipient."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:208
@@ -2332,6 +2388,9 @@ msgid ""
 "bis zu 2 Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten an den "
 "Empfänger gesendet werden können."
 msgstr ""
+"The new recipient is immediately visible in the endpoint list. However, it "
+"can take up to 2 minutes for the route to be ready for operation, i.e. data "
+"can be sent to the recipient."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:210
@@ -2341,12 +2400,14 @@ msgid ""
 "Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte "
 "verfügbar, die Echtzeitdaten verarbeiten können."
 msgstr ""
+"The `Telemetry parameter categories` form is only available for endpoints "
+"that can process real-time data."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:211 de/modules/ROOT/pages/group.adoc:136
 #, no-wrap
 msgid "Empfänger bearbeiten"
-msgstr ""
+msgstr "Edit a recipient"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:215
@@ -2356,18 +2417,21 @@ msgid ""
 "Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].  [."
 "result]#Das Formular `Routing bearbeiten` wird angezeigt.#"
 msgstr ""
+"Click the *_Edit_* image:ar_edit.icon.png[edit, 30, 30] icon.  [.result]#The "
+"`Edit routing` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:216 de/modules/ROOT/pages/group.adoc:141
 msgid ""
 "Ändere die Eigenschaften des Empfängers und klicke den Button *_Bestätigen_*."
 msgstr ""
+"Adjust the properties of the recipient and click the *_Confirm_* button."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:217 de/modules/ROOT/pages/group.adoc:142
 #, no-wrap
 msgid "Empfänger löschen"
-msgstr ""
+msgstr "Delete a recipient"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:221
@@ -2377,33 +2441,36 @@ msgid ""
 "Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].  [."
 "result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#"
 msgstr ""
+"Click the *_Delete_* image:ar_delete.icon.png[delete, 30, 30] icon.  [."
+"result]#The `Confirm` pop-up is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:223
 msgid ""
 "Bestätige die Abfrage mit *_OK_*.  [.result]#Der Empfänger wird gelöscht.#"
 msgstr ""
+"Confirm the query by clicking *_OK_*.  [.result]#The recipient is deleted.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:225 de/modules/ROOT/pages/group.adoc:150
 #, no-wrap
 msgid "Empfangen von"
-msgstr ""
+msgstr "Receive from"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:228
 msgid "Der Reiter enthält eine Liste der Sender.  Sender"
-msgstr ""
+msgstr "This tab contains a list of your senders.  Senders"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:230 de/modules/ROOT/pages/group.adoc:155
 msgid "befinden sich am Anfang einer eingehenden Route"
-msgstr ""
+msgstr "Are located at the beginning of an inbound route"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:231
 msgid "sind Endpunkte und Gruppen, von denen der Endpunkt Daten empfängt"
-msgstr ""
+msgstr "Are endpoints and groups from which the endpoint receives data"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:235 de/modules/ROOT/pages/group.adoc:160
@@ -2412,11 +2479,13 @@ msgid ""
 "ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
 "30, 30]"
 msgstr ""
+"Add image:ar_add.icon.png[add, 30, 30], edit image:ar_edit.icon.png[edit, "
+"30, 30], and delete image:ar_delete.icon.png[delete, 30, 30] senders"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:236
 msgid "definieren, welche Nachrichten der Endpunkt vom Sender empfängt"
-msgstr ""
+msgstr "Define the types of messages the endpoint receives from the sender"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:238
@@ -2425,19 +2494,22 @@ msgid ""
 "Endpunkt ist automatisch Mitglied einer Standard-Gruppe, die in der Liste "
 "der Sender angezeigt wird."
 msgstr ""
+"The list of senders is not empty even with a new endpoint. The new endpoint "
+"is automatically a member of a default group that is displayed in the list "
+"of senders."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:239 de/modules/ROOT/pages/group.adoc:162
 #, no-wrap
 msgid "Sender hinzufügen"
-msgstr ""
+msgstr "Add a sender"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:241
 msgid ""
 "Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt "
 "oder einer Gruppe:"
-msgstr ""
+msgstr "You create the route for receiving data from another endpoint or group:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:246 de/modules/ROOT/pages/group.adoc:169
@@ -2445,12 +2517,14 @@ msgid ""
 "Klicke in das Eingabefeld *_Sender_*.  [.result]#Die Auswahlliste `Endpunkt "
 "auswählen` wird angezeigt.#"
 msgstr ""
+"Click into the *_Sender_* input field.  [.result]#The `Select endpoint` drop-"
+"down list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:248 de/modules/ROOT/pages/group.adoc:171
 msgid ""
 "Wähle den Sender.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
+msgstr "Choose the sender.  [.result]#The `New routing` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:252
@@ -2458,13 +2532,15 @@ msgid ""
 "Wähle die Nachrichten, die der Sender senden soll und klicke "
 "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
+"Select the messages you want the sender to send and click *_Confirm_*.  [."
+"result]#The 'New routing' form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:254
 #: de/modules/ROOT/pages/endpoint.adoc:260 de/modules/ROOT/pages/group.adoc:181
 msgid ""
 "Klicke den Button *_Bestätigen_*.  [.result]#Der Sender wird hinzugefügt.#"
-msgstr ""
+msgstr "Click the *_Confirm_* button.  [.result]#The sender is added.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:262
@@ -2472,6 +2548,8 @@ msgid ""
 "Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom Endpunkt "
 "verarbeitet werden können."
 msgstr ""
+"When creating the route, you will only have the option to choose messages "
+"that can be processed by the endpoint."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:264
@@ -2480,35 +2558,39 @@ msgid ""
 "bis zu 2 Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten vom "
 "Sender empfangen werden können."
 msgstr ""
+"The new sender is immediately visible in the endpoint list. However, it can "
+"take up to 2 minutes for the route to be ready for operation, i.e. data can "
+"be received from the sender."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:267 de/modules/ROOT/pages/group.adoc:186
 #, no-wrap
 msgid "Sender bearbeiten"
-msgstr ""
+msgstr "Edit a sender"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:272 de/modules/ROOT/pages/group.adoc:191
 msgid ""
 "Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
-msgstr ""
+msgstr "Adjust the properties of the sender and click the *_Confirm_* button."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:273 de/modules/ROOT/pages/group.adoc:192
 #, no-wrap
 msgid "Sender löschen"
-msgstr ""
+msgstr "Delete a sender"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:279
 msgid "Bestätige die Abfrage mit *_OK_*.  [.result]#Der Sender wird gelöscht.#"
 msgstr ""
+"Confirm the query by clicking *_OK_*.  [.result]#The sender is deleted.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:282
 #, no-wrap
 msgid "Gruppen"
-msgstr ""
+msgstr "Groups"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:286
@@ -2517,17 +2599,20 @@ msgid ""
 "Jeder neue Endpunkt ist automatisch Mitglied in einer der Standard-Gruppen.  "
 "xref:routing.adoc[Klicke diesen Link] und erfahre mehr über Gruppen."
 msgstr ""
+"This tab contains a list of groups to which the endpoint belongs.  Each new "
+"endpoint automatically becomes a member of one of the default groups.  "
+"xref:routing.adoc[Click this link] to learn more about groups."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:287
 #, no-wrap
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:289
 msgid "Der Reiter enthält Informationen zum Endpunkt und zum Postfach."
-msgstr ""
+msgstr "This tab contains information about the endpoint and its mailbox."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:291
@@ -2536,6 +2621,9 @@ msgid ""
 "Nachricht` enthalten Meta-Informationen zur letzten versendeten bzw. "
 "empfangenen Nachricht. Der Nachrichteninhalt wird nicht angezeigt."
 msgstr ""
+"The `Last processed message` and `Last retrieved message` sections contain "
+"meta information about the last sent and last received messages. The message "
+"content is not displayed."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:294
@@ -2543,6 +2631,8 @@ msgid ""
 "Die Daten im Reiter werden nicht automatisch aktualisiert.  Aktualisiere, "
 "wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:"
 msgstr ""
+"The data in the tab is not updated automatically.  Refresh it when you check "
+"the mailbox for incoming or processed messages:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:297
@@ -2550,12 +2640,14 @@ msgid ""
 "Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, "
 "30].  [.result]#Der Reiter `Details` wird aktualisiert.#"
 msgstr ""
+"Click the *_Refresh_* image:ar_refresh.icon.png[refresh, 30, 30] icon.  [."
+"result]#The `Details` tab is updated.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:298
 #, no-wrap
 msgid "Fähigkeiten"
-msgstr ""
+msgstr "Capabilities"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:301
@@ -2564,70 +2656,72 @@ msgid ""
 "kann. + Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und "
 "können nicht geändert werden."
 msgstr ""
+"This tab contains a list of message types the endpoint can send and receive. "
+"+ The supported messages are preset by the endpoint and cannot be changed."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:302
 #, no-wrap
 msgid "Externe Maschinen"
-msgstr ""
+msgstr "External machines"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:304
 msgid ""
 "Dieser Reiter wird nur bei Endpunkten vom Typ `Verbundenes Konto` angezeigt."
-msgstr ""
+msgstr "This tab is only displayed for `Paired account` endpoints."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:306
 msgid "Im Reiter werden alle Maschinen angezeigt,"
-msgstr ""
+msgstr "The tab displays all machines that:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:308
 msgid "die zum verbundenen Konto gehören und"
-msgstr ""
+msgstr "Belong to the paired account, and"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:309
 msgid "die Echtzeitdaten verarbeiten können."
-msgstr ""
+msgstr "Can process real-time data"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:311
 #, no-wrap
 msgid "Endpunkt bearbeiten"
-msgstr ""
+msgstr "Edit an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:315
 msgid "Name und Beschreibung des Endpunktes ändern,"
-msgstr ""
+msgstr "Change the name and description of an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:316
 msgid "den Endpunkt deaktivieren,"
-msgstr ""
+msgstr "Disable an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:317
 msgid "den Endpunkt löschen,"
-msgstr ""
+msgstr "Delete an endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:318
 msgid "die Diagnoseinformationen eines Endpunktes abfragen."
-msgstr ""
+msgstr "Query the diagnostic information about an endpoint"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:319
 #, no-wrap
 msgid "Name und Beschreibung ändern"
-msgstr ""
+msgstr "Change the name and description"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:321
 msgid "Ändere Name und Beschreibung des Endpunktes wie folgt:"
-msgstr ""
+msgstr "To change the name and description of an endpoint:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:324
@@ -2638,6 +2732,8 @@ msgid ""
 "Wähle den Endpunkt in der Endpunkteliste.  [.result]#Im rechten Bereich des "
 "Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#"
 msgstr ""
+"Select the endpoint from the endpoint list.  [.result]#The detail view of "
+"the endpoint is displayed on the right-hand side of the Control Center.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:326
@@ -2645,6 +2741,7 @@ msgid ""
 "Klicke den Button *_Bearbeiten_*.  [.result]#Das Formular `Endpunkt "
 "bearbeiten` wird angezeigt.#"
 msgstr ""
+"Click the *_Edit_* button.  [.result]#The `Edit endpoint` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:329
@@ -2653,18 +2750,22 @@ msgid ""
 "Endpunkteliste wird der neue Name angezeigt.# [.result]#Im Reiter `Details` "
 "der Detailansicht wird die neue Beschreibung angezeigt.#"
 msgstr ""
+"Enter the name and description and click *_Confirm_*.  [.result]#The new "
+"name is displayed in the endpoint list.# [.result]#The new description is "
+"displayed in the `Details` tab of the detail view.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:330
 #, no-wrap
 msgid "Deaktivieren"
-msgstr ""
+msgstr "Disable"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:332
 msgid ""
 "Wenn der Endpunkt keine Nachrichten mehr verarbeiten soll, deaktiviere ihn:"
 msgstr ""
+"If you no longer want the endpoint to process messages, you can disable it:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:338
@@ -2672,12 +2773,15 @@ msgid ""
 "Setze den Schalter *_Aktiv_* auf `AUS`.  [.result]#Der Endpunkt ist "
 "deaktiviert.# [.result]#Der Endpunkt bleibt in der Endpunkteliste sichtbar.#"
 msgstr ""
+"Toggle the *_Active_* switch to `OFF`.  [.result]#The endpoint is disabled.# "
+"[.result]#The endpoint remains visible in the endpoint list.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:340
 msgid ""
 "Wenn der Endpunkt Nachrichten empfangen oder versenden soll, aktiviere ihn:"
 msgstr ""
+"If you want the endpoint to receive or send messages, you can activate it:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:345
