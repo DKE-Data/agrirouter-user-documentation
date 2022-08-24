@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-16 18:14+0000\n"
+"PO-Revision-Date: 2022-08-24 18:14+0000\n"
 "Last-Translator: Agrar Uebersetzer 2 <agrolinguainfo@agrolingua.com>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/fr@formal/>\n"
@@ -545,6 +545,9 @@ msgid ""
 "den Button *_Registrieren_*.  [.result]#Du erhälst eine E-Mail mit dem "
 "Aktivierungslink.#"
 msgstr ""
+"Remplissez les champs obligatoires marqués d'un astérisque rouge et cliquez "
+"sur le bouton *_S'inscrire_*.  [.result]#Vous recevrez un e-mail avec le "
+"lien d'activation.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:59
@@ -931,7 +934,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:189
 msgid "Wähle in der Auswahlliste *_Animation_* die Option `Voll`."
-msgstr ""
+msgstr "Dans la liste déroulante *_Animation_*, choisissez l'option `Complète`."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:193
@@ -1049,13 +1052,19 @@ msgid ""
 "guide[Quick Start Guide^] und bei der Inbetriebnahme und weiteren Nutzung "
 "dieses Online-Handbuch lesen."
 msgstr ""
+"Agrirouter est un portail en ligne indépendant des fabricants conçu pour les "
+"échanges de données entre machines et logiciels agricoles.  Son utilisation "
+"est simple et intuitive, mais il est recommandé de lire le https://my-"
+"agrirouter.com/en/agrirouter/quick-start-guide[Guide de démarrage rapide^] "
+"avant sa configuration initiale, ainsi que ce manuel en ligne lors de sa "
+"mise en service et de son utilisation ultérieure."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/basics.adoc:9
 #: de/modules/ROOT/pages/introduction.adoc:13
 #, no-wrap
 msgid "Über diese Anleitung"
-msgstr ""
+msgstr "À propos de ce guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:12
@@ -1064,6 +1073,8 @@ msgid ""
 "Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der "
 "Inbetriebnahme und Nutzung des agrirouter:"
 msgstr ""
+"Le manuel en ligne vous aide à mettre en service et utiliser l'agrirouter "
+"grâce à des chapitres classés par thème :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:15
@@ -1073,6 +1084,9 @@ msgid ""
 "result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account."
 "adoc[Konto] beschrieben.#"
 msgstr ""
+"Pour utiliser Agrirouter, vous avez besoin d'un compte utilisateur : [."
+"result]#Créez et gérez votre compte comme indiqué dans le chapitre "
+"xref:account.adoc[Compte].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:18
@@ -1082,6 +1096,9 @@ msgid ""
 "<<Dashboard>>, angezeigt: [.result]#Über das Dashboard hast du Zugriff auf "
 "alle Funktionen des agrirouter.#"
 msgstr ""
+"Lorsque vous vous connectez à Agrirouter, votre page d'accueil personnelle, "
+"le << Tableau de bord>>, s'affiche : [.result]#Ce tableau de bord vous "
+"permet d'accéder à toutes les fonctionnalités de l'agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:21
@@ -1091,6 +1108,9 @@ msgid ""
 "Ansicht, wie im Kapitel xref:account.adoc#einstellungen[Einstellungen] "
 "beschrieben.#"
 msgstr ""
+"Vous pouvez personnaliser l'affichage de votre tableau de bord.  [.result]#"
+"Modifiez l'affichage comme indiqué au chapitre xref:account."
+"adoc#réglages[Paramètres].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:24
@@ -1101,6 +1121,12 @@ msgid ""
 "verbinden[Maschine verbinden] und xref:endpoint.adoc#agrarsoftware-"
 "verbinden[Agrarsoftware verbinden] beschrieben.#"
 msgstr ""
+"Les machines et les logiciels agricoles peuvent échanger des données si vous "
+"les enregistrez dans Agrirouter comme <<Point de terminaison,Points de "
+"terminaison>>.  [.result]#Ajoutez des points de terminaison comme indiqué "
+"dans les chapitres xref:endpoint.adoc#connecter-machine[Connecter une "
+"machine] et xref:endpoint.adoc#connecter-logiciel-agricole[Connecter un "
+"logiciel agricole].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:28
@@ -1111,6 +1137,12 @@ msgid ""
 "Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint."
 "adoc#empfangen-von[Empfangen von].#"
 msgstr ""
+"Une <<Route>> détermine quelles sont les données qu'un point de terminaison "
+"envoie et/ou reçoit.  [.result]#Si le point de terminaison doit envoyer des "
+"données, suivez les instructions du chapitre xref:endpoint.adoc#envoyer-vers["
+"Envoyer vers].# [.result]#Si le point de terminaison doit recevoir des "
+"données, suivez les instructions du chapitre xref:endpoint.adoc#recevoir-de["
+"Recevoir de].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:34
@@ -1130,7 +1162,7 @@ msgstr ""
 #: de/modules/ROOT/pages/introduction.adoc:43
 #, no-wrap
 msgid "Grundlagen"
-msgstr ""
+msgstr "Principes fondamentaux"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:37
@@ -1139,13 +1171,15 @@ msgid ""
 "Es folgen in alphabetischer Reihenfolge einige grundlegende Begriffe und "
 "Konzepte, die du kennen solltest, wenn du den agrirouter nutzt."
 msgstr ""
+"Voici, par ordre alphabétique, quelques termes et concepts de base que vous "
+"devrez connaître pour utiliser agrirouter."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:38
 #: de/modules/ROOT/pages/introduction.adoc:46
 #, no-wrap
 msgid "Dashboard"
-msgstr ""
+msgstr "Tableau de bord"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:41
@@ -1155,12 +1189,18 @@ msgid ""
 "Startseite.  Über das Dashboard hast du Zugriff auf alle Funktionen des "
 "agrirouter:"
 msgstr ""
+"Une fois que vous vous êtes connecté à https://goto.my-agrirouter.com/[my-"
+"agrirouter.com^], vous verrez apparaître le tableau de bord, votre page "
+"d'accueil personnelle pour agrirouter.  Le tableau de bord vous permet "
+"d'accéder à toutes les fonctionnalités d'agrirouter :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:43
 #: de/modules/ROOT/pages/introduction.adoc:51
 msgid "Im *_Kontrollzentrum_* verwaltest du die Endpunkte und das Routing."
 msgstr ""
+"Dans le *_Centre de contrôle_*, vous pouvez gérer les points de terminaison "
+"et le routage."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:44
@@ -1169,6 +1209,8 @@ msgid ""
 "In *_Konten verbinden_* verbindest du dich mit den Konten anderer agrirouter-"
 "Benutzer."
 msgstr ""
+"Dans *_Connecter un compte_*, vous découvrirez comment appairer le compte "
+"d'autres utilisateurs agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:45
@@ -1176,25 +1218,27 @@ msgstr ""
 msgid ""
 "In *_Lernen & Support_* bekommst du Hilfe bei der Nutzung von agrirouter."
 msgstr ""
+"Dans *_Service & Assistance_*, vous pouvez demander de l'aide pour "
+"l'utilisation d'agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:46
 #: de/modules/ROOT/pages/introduction.adoc:54
 msgid "Dein Konto verwaltest du in der *_Kontoverwaltung_*."
-msgstr ""
+msgstr "Vous pouvez gérez votre compte grâce à *_Gestion de compte_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:47
 #: de/modules/ROOT/pages/introduction.adoc:55
 msgid "Die Darstellung des Dashboard stellst du im *_Profil_* ein."
-msgstr ""
+msgstr "Vous pouvez modifier l'affichage du tableau de bord dans *_Profil_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:48
 #: de/modules/ROOT/pages/introduction.adoc:56
 #, no-wrap
 msgid "agrirouter Dashboard"
-msgstr ""
+msgstr "Tableau de bord agrirouter"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:50
@@ -1210,13 +1254,17 @@ msgid ""
 "verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein "
 "Endpunkt des passenden Typs angelegt.  Es gibt folgende Endpunkt-Typen:"
 msgstr ""
+"Les émetteurs et les récepteurs de données sont reliés entre eux via "
+"l'agrirouter. Pour chaque émetteur et récepteur connecté, un point de "
+"terminaison du type adapté est créé dans agrirouter.  Voici les types de "
+"points de terminaison existants :"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:55
 #: de/modules/ROOT/pages/introduction.adoc:63
 #, no-wrap
 msgid "Telemetrie-Einheit"
-msgstr ""
+msgstr "Unité de télémétrie"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:56
@@ -1227,13 +1275,17 @@ msgid ""
 "agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/"
 "telemetrieverbindungen[hier...^]"
 msgstr ""
+"Il s'agit généralement d'un dispositif installé sur un tracteur ou une "
+"machine pour la transmission des données. Vous trouverez une liste complète "
+"des unités de télémétrie avec une interface agrirouter sur https://my-"
+"agrirouter.com/marketplace/telemetrieverbindungen[ici...^]"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:57
 #: de/modules/ROOT/pages/introduction.adoc:65
 #, no-wrap
 msgid "Maschine"
-msgstr ""
+msgstr "Machine"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:58
@@ -1244,13 +1296,16 @@ msgid ""
 "bereitstellen kann. Die Maschine kann, muss aber nicht ISOBUS-kompatibel "
 "sein."
 msgstr ""
+"Une machine agricole attelée, tractée ou automotrice, connectée à une unité "
+"de télémétrie et capable de fournir une Device Description. La machine peut "
+"être compatible ISOBUS, mais cela n'est pas obligatoire."
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:59
 #: de/modules/ROOT/pages/introduction.adoc:67
 #, no-wrap
 msgid "Agrarsoftware"
-msgstr ""
+msgstr "Logiciel agricole"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:60
@@ -1261,39 +1316,44 @@ msgid ""
 "vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du "
 "https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]"
 msgstr ""
+"Fichiers de parcelles, applications pour les agriculteurs et entrepreneurs, "
+"logiciels de gestion des données spécifiques aux fabricants et bien plus "
+"encore. Vous trouverez une liste complète des logiciels agricoles avec une "
+"interface agrirouter https://my-agrirouter.com/marketplace/"
+"agrarsoftware[ici...^]"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:61
 #: de/modules/ROOT/pages/introduction.adoc:69
 #, no-wrap
 msgid "Verbundenes Konto"
-msgstr ""
+msgstr "Compte appairé"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:62
 #: de/modules/ROOT/pages/introduction.adoc:70
 msgid "Das Konto eines anderen Benutzers."
-msgstr ""
+msgstr "Le compte d'un autre utilisateur."
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:63
 #: de/modules/ROOT/pages/introduction.adoc:71
 #, no-wrap
 msgid "Externe Maschine"
-msgstr ""
+msgstr "Machine externe"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:64
 #: de/modules/ROOT/pages/introduction.adoc:72
 msgid "Maschine, die zu einem verbundenen Konto gehört."
-msgstr ""
+msgstr "Machine appartenant à un compte appairé."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:65
 #: de/modules/ROOT/pages/introduction.adoc:73
 #, no-wrap
 msgid "Overview"
-msgstr ""
+msgstr "Aperçu"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:69
@@ -1302,13 +1362,17 @@ msgid ""
 "im agrirouter so miteinander, dass die Daten des Senders an die gewünschten "
 "Empfänger gelangen."
 msgstr ""
+"Chaque point de terminaison peut envoyer et recevoir des données.  Vous "
+"devez configurer les points de terminaison entre eux dans agrirouter de "
+"manière à ce que les données de l'émetteur parviennent aux destinataires "
+"souhaités."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:73 de/modules/ROOT/pages/group.adoc:4
 #: de/modules/ROOT/pages/introduction.adoc:78
 #, no-wrap
 msgid "Gruppe"
-msgstr ""
+msgstr "Groupe"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:76
@@ -1318,6 +1382,9 @@ msgid ""
 "Maßnahme. + Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt "
 "für alle Mitglieder der Gruppe."
 msgstr ""
+"Vous pouvez regrouper les points de terminaison en groupes, par exemple par "
+"fabricant, type de machine ou tâche. + L'avantage : la route que vous "
+"définissez pour le groupe s'applique à tous les membres du groupe."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:79
@@ -1327,6 +1394,9 @@ msgid ""
 "die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts befindet sich "
 "die Detailansicht image:two_bk.icon.png[two, 30, 30]."
 msgstr ""
+"Vous créez et gérez les groupes dans le centre de contrôle.  À gauche se "
+"trouve la liste des groupes image:one_bk.icon.png[one, 30, 30], à droite se "
+"trouve la vue détaillée image:two_bk.icon.png[two, 30, 30]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:82 de/modules/ROOT/pages/group.adoc:20
@@ -1334,6 +1404,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
 "Kontrollzentrum wird angezeigt.#"
 msgstr ""
+"Cliquez sur la vignette *_Centre de contrôle_* dans le tableau de bord.  [."
+"result]#Le centre de contrôle s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:85 de/modules/ROOT/pages/group.adoc:23
@@ -1341,20 +1413,22 @@ msgid ""
 "Klicke den Button *_Gruppen_*.  [.result]#Links wird die Gruppenliste "
 "angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Groupes_*.  [.result]#La liste des groupes s'affiche "
+"à gauche.# [.result]#La vue détaillée s'affiche à droite.#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:86
 #: de/modules/ROOT/pages/introduction.adoc:85
 #, no-wrap
 msgid "Groups legend"
-msgstr ""
+msgstr "Légende des groupes"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:88
 #: de/modules/ROOT/pages/introduction.adoc:87
 #, no-wrap
 msgid "Kontrollzentrum"
-msgstr ""
+msgstr "Centre de contrôle"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:90
@@ -1368,20 +1442,27 @@ msgid ""
 "30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe "
 "angezeigt werden."
 msgstr ""
+"Dans le centre de contrôle, vous créez et gérez les points de terminaison "
+"image:one_bk.icon.png[one, 30, 30], les groupes image:two_bk.icon.png[two, "
+"30, 30] et les routes image:three_bk.icon.png[three, 30, 30]. À gauche du "
+"centre de contrôle se trouve la liste des points de terminaison ou des "
+"groupes image:four_bk.icon.png[four, 30, 30], à droite se trouve la vue "
+"détaillée image:five_bk.icon.png[five, 30, 30], qui affiche des informations "
+"sur le point de terminaison ou le groupe sélectionné."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:91
 #: de/modules/ROOT/pages/introduction.adoc:90
 #, no-wrap
 msgid "Control Center Overview"
-msgstr ""
+msgstr "Aperçu du centre de contrôle"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:93
 #: de/modules/ROOT/pages/introduction.adoc:92
 #, no-wrap
 msgid "Nachrichten(typen)"
-msgstr ""
+msgstr "Messages (types)"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:95
@@ -1389,32 +1470,34 @@ msgstr ""
 msgid ""
 "Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:"
 msgstr ""
+"Les messages du type suivant peuvent être échangés entre les points de "
+"terminaison :"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:96
 #: de/modules/ROOT/pages/introduction.adoc:95
 #, no-wrap
 msgid "Auftragsdaten"
-msgstr ""
+msgstr "Données de la commande"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:97
 #: de/modules/ROOT/pages/introduction.adoc:96
 msgid "ISOBUS Auftragsdaten, Applikationskarten"
-msgstr ""
+msgstr "Données de commande ISOBUS, cartes d'application"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:97
 #: de/modules/ROOT/pages/introduction.adoc:96
 #, no-wrap
 msgid "Echtzeitdaten"
-msgstr ""
+msgstr "Données en temps réel"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:98
 #: de/modules/ROOT/pages/introduction.adoc:97
 msgid "Maschinen-, Positions- und Prozessdaten"
-msgstr ""
+msgstr "Données de machine, d'emplacement et de processus"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:98
@@ -1427,33 +1510,33 @@ msgstr ""
 #: de/modules/ROOT/pages/basics.adoc:99
 #: de/modules/ROOT/pages/introduction.adoc:98
 msgid "Feldgrenzen im Shape-Format"
-msgstr ""
+msgstr "Limites de champ au format Shape"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:99
 #: de/modules/ROOT/pages/introduction.adoc:98
 #, no-wrap
 msgid "Mediadaten"
-msgstr ""
+msgstr "Données médias"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:100
 #: de/modules/ROOT/pages/introduction.adoc:99
 msgid "Bilder, Videos"
-msgstr ""
+msgstr "Images, vidéos"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:100
 #: de/modules/ROOT/pages/introduction.adoc:99
 #, no-wrap
 msgid "Dokumente"
-msgstr ""
+msgstr "Documents"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:101
 #: de/modules/ROOT/pages/introduction.adoc:100
 msgid "Berichte im pdf-Format"
-msgstr ""
+msgstr "Rapports au format pdf"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:103
@@ -1462,13 +1545,15 @@ msgid ""
 "Bei der Erstellung einer Route werden dir nur die Nachrichten(typen) zur "
 "Wahl angeboten, die von Sender und Empfänger verarbeitet werden können."
 msgstr ""
+"Lors de la création d'une route, seuls les (types de) messages pouvant être "
+"traités par l'expéditeur et le destinataire vous sont proposés."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:104
 #: de/modules/ROOT/pages/introduction.adoc:103
 #, no-wrap
 msgid "Route"
-msgstr ""
+msgstr "Route"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:106
@@ -1477,47 +1562,51 @@ msgid ""
 "Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route "
 "fließen die Daten vom Sender zum Empfänger."
 msgstr ""
+"Une route correspond à la connexion entre deux points de terminaison, "
+"c'est-à-dire que les données circulent selon la route déterminée entre "
+"l'émetteur et le récepteur."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:109
 msgid "Das Routing regelt den Datenverkehr auf den Routen.  Du definierst"
-msgstr ""
+msgstr "Le routage régule le trafic sur les routes.  Vous définissez"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:111
 #: de/modules/ROOT/pages/introduction.adoc:110
 msgid "zwischen welchen Endpunkten Daten ausgetauscht werden"
-msgstr ""
+msgstr "les points de terminaison entre lesquels les données sont échangées"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:112
 #: de/modules/ROOT/pages/introduction.adoc:111
 msgid "in welche Richtung die Daten fließen"
-msgstr ""
+msgstr "la direction dans laquelle les données circulent"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:113
 #: de/modules/ROOT/pages/introduction.adoc:112
 msgid "welche Nachrichten ausgetauscht werden"
-msgstr ""
+msgstr "quels messages sont échangés"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:114
 #: de/modules/ROOT/pages/introduction.adoc:113
 msgid "ob und welche Echtzeitdaten ausgetauscht werden"
-msgstr ""
+msgstr "si des données en temps réel sont échangées, et lesquelles"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:116
 msgid "Ohne eine Route können Endpunkte keine Nachrichten austauschen."
 msgstr ""
+"Sans route, les points de terminaison ne peuvent pas s'échanger de messages."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:117
 #: de/modules/ROOT/pages/introduction.adoc:120
 #, no-wrap
 msgid "Standard-Gruppen"
-msgstr ""
+msgstr "Groupes par défaut"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:120
@@ -1525,18 +1614,20 @@ msgid ""
 "Im agrirouter gibt es zwei vordefinierte Standard-Gruppen, die du nicht "
 "löschen oder bearbeiten kannst:"
 msgstr ""
+"Dans agrirouter, vous pouvez trouver deux groupes prédéfinis par défaut que "
+"vous ne pourrez ni supprimer ni modifier :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:122
 #: de/modules/ROOT/pages/introduction.adoc:125
 msgid "Maschinen-Gruppe"
-msgstr ""
+msgstr "Groupe des machines"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:123
 #: de/modules/ROOT/pages/introduction.adoc:126
 msgid "Agrarsoftware-Gruppe"
-msgstr ""
+msgstr "Groupe des logiciels agricoles"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:125
@@ -1545,6 +1636,8 @@ msgid ""
 "Jeder Endpunkt, den du hinzufügst, ist automatisch Mitglied in einer der "
 "beiden Standard-Gruppen:"
 msgstr ""
+"Chaque point de terminaison que vous ajoutez est automatiquement ajouté de "
+"l'un des deux groupes par défaut :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:127
@@ -1552,6 +1645,7 @@ msgstr ""
 msgid ""
 "Telemetrie-Einheiten und Maschinen sind Mitglied in der Maschinen-Gruppe"
 msgstr ""
+"Les unités de télémétrie et les machines sont membres du groupe des machines"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:128
@@ -1560,6 +1654,8 @@ msgid ""
 "Agrarsoftware und Hersteller-Plattformen sind Mitglied in der Agrarsoftware-"
 "Gruppe"
 msgstr ""
+"Les logiciels agricoles et les plateformes de fabricants sont membres du "
+"groupe Logiciels agricoles"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:131
@@ -1568,13 +1664,17 @@ msgid ""
 "+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
 "ohne weiteren Konfigurationsaufwand Daten empfangen und senden."
 msgstr ""
+"Les groupes par défaut permettent de mettre en service rapidement "
+"l'agrirouter : + Pour les deux groupes, le routage est déjà défini. Les "
+"nouveaux points de terminaison peuvent recevoir et envoyer des données sans "
+"configuration supplémentaire."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:132
 #: de/modules/ROOT/pages/introduction.adoc:140
 #, no-wrap
 msgid "Telemetriedaten"
-msgstr ""
+msgstr "Données télémétriques"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:134
@@ -1584,55 +1684,59 @@ msgid ""
 "agrirouter unterstützt über 600 Datentypen, die in 12 Kategorien aufgeteilt "
 "sind:"
 msgstr ""
+"De nombreuses machines peuvent fournir des données en temps réel, c'est-à-"
+"dire des données de machine, d'emplacement et de processus générées en "
+"continu durant le travail aux champs. Agrirouter supporte plus de 600 types "
+"de données, répartis en 12 catégories :"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:135
 #: de/modules/ROOT/pages/introduction.adoc:143
 #, no-wrap
 msgid "12 Kategorien der Echtzeitdaten"
-msgstr ""
+msgstr "12 catégories de données en temps réel"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/basics.adoc:137
 #, no-wrap
 msgid "Konzepte"
-msgstr ""
+msgstr "Concepts"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:139
 #, no-wrap
 msgid "Sender - Empfänger Modell ..."
-msgstr ""
+msgstr "Modèle Émetteur - récepteur ..."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:141
 #, no-wrap
 msgid "Inbetriebnahme eines ECO-Systems ..."
-msgstr ""
+msgstr "Mise en service d'un système ECO ..."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:143
 #, no-wrap
 msgid "Maschine verbinden ..."
-msgstr ""
+msgstr "Connecter la machine ..."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:145
 #, no-wrap
 msgid "Agrar-Software verbinden ..."
-msgstr ""
+msgstr "Connecter le logiciel agricole ..."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:147
 #, no-wrap
 msgid "Kommunikationseinheit verbinden ..."
-msgstr ""
+msgstr "Connecter l'unité de communication ..."
 
 #. type: Title =
 #: de/modules/ROOT/pages/endpoint.adoc:4
 #, no-wrap
 msgid "Endpunkte"
-msgstr ""
+msgstr "Points de terminaison"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:7
@@ -1641,23 +1745,28 @@ msgid ""
 "austauschen soll, musst du einen xref:introduction.adoc#endpunkt[Endpunkt] "
 "hinzufügen."
 msgstr ""
+"Pour chaque machine et logiciel agricole qui doit échanger des données via "
+"l'agrirouter, vous devez ajouter un xref:introduction.adoc#endpoint[Point de "
+"terminaison]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:11
 msgid "wie du einen Endpunkt hinzufügst, bearbeitest und löscht"
-msgstr ""
+msgstr "comment ajouter, modifier et supprimer un point de terminaison"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:12
 msgid ""
 "wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst"
 msgstr ""
+"comment créer xref:introduction.adoc#route[des routes] pour le point de "
+"terminaison"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:13 de/modules/ROOT/pages/group.adoc:15
 #, no-wrap
 msgid "Das Kontrollzentrum"
-msgstr ""
+msgstr "Le centre de contrôle"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:15
@@ -1665,6 +1774,8 @@ msgid ""
 "Öffne das xref:introduction.adoc#kontrollzentrum[Kontrollzentrum], um einen "
 "Endpunkt hinzuzufügen und zu verwalten:"
 msgstr ""
+"Ouvrez le xref:introduction.adoc#centre de contrôle[Centre de contrôle] pour "
+"ajouter et modifier un point de terminaison :"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:20
@@ -1674,49 +1785,55 @@ msgid ""
 "Kontrollzentrum wird geöffnet.# [.result]#Links wird die Endpunkteliste "
 "angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
 msgstr ""
+"Cliquez sur la vignette *_Centre de contrôle_* dans le tableau de bord.  [."
+"result]#Le centre de contrôle s'ouvre.# [.result]#La liste des points de "
+"terminaison s'affiche à gauche.# [.result]#La vue détaillée s'affiche à "
+"droite.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:21
 #, no-wrap
 msgid "Endpunkteliste"
-msgstr ""
+msgstr "Liste des points de terminaison"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:24
 #, no-wrap
 msgid "Endpoint list"
-msgstr ""
+msgstr "Liste d'un point de terminaison"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:28
 msgid ""
 "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
 msgstr ""
+"La liste des points de terminaison est triée par ordre alphabétique en "
+"fonction du nom. + Vous pouvez"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:30
 msgid "einen Endpunkt hinzufügen,"
-msgstr ""
+msgstr "ajouter un point de terminaison,"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:31
 msgid "die Endpunkteliste filtern,"
-msgstr ""
+msgstr "filtrer la liste des points de terminaison,"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:32
 msgid "einen Endpunkt suchen,"
-msgstr ""
+msgstr "rechercher un point de terminaison,"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:33
 msgid "die Endpunkteliste aktualisieren."
-msgstr ""
+msgstr "mettre à jour la liste des points de terminaison."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:36
 msgid "Öffne die Endpunkteliste wie folgt:"
-msgstr ""
+msgstr "Ouvrez la liste des points de terminaison comme suit :"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:39
@@ -1728,6 +1845,8 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:50
 msgid "Auf einem Tablet öffnest du die Endpunkteliste über das Burger-Menü:"
 msgstr ""
+"Sur une tablette, vous pouvez accéder à la liste des points de terminaison "
+"via le menu à tiroir :"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:53
@@ -1735,47 +1854,49 @@ msgid ""
 "Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[Burger menue, 30, "
 "30].  [.result]#Die Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône *_Menu à tiroir_* image:ar_burger.icon.png[Burger menue, "
+"30, 30].  [.result]#La liste des points de terminaison s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:57 de/modules/ROOT/pages/group.adoc:51
 msgid "Ein Listeneintrag besteht aus"
-msgstr ""
+msgstr "Une entrée de liste se compose de"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:60
 #, no-wrap
 msgid "Endpoint list item"
-msgstr ""
+msgstr "Élément de la liste des points de terminaison"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:63 de/modules/ROOT/pages/group.adoc:57
 msgid "Namen"
-msgstr ""
+msgstr "Noms"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/endpoint.adoc:64
 #: de/modules/ROOT/pages/endpoint.adoc:129
 #, no-wrap
 msgid "Typ"
-msgstr ""
+msgstr "Type"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:65
 msgid "Maschinenklasse (optional)"
-msgstr ""
+msgstr "Classe de machine (optionnel)"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/endpoint.adoc:66
 #: de/modules/ROOT/pages/endpoint.adoc:130
 #, no-wrap
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:69
 #, no-wrap
 msgid "Maschine verbinden"
-msgstr ""
+msgstr "Connecter la machine"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:71
@@ -1784,6 +1905,9 @@ msgid ""
 "Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter "
 "und wird der Endpunkteliste hinzugefügt."
 msgstr ""
+"Une machine a besoin d'une unité de télémétrie pour communiquer avec le "
+"monde extérieur. L'unité de télémétrie qui connecte la machine à agrirouter "
+"est ajoutée à la liste des points de terminaison."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:74
@@ -1791,6 +1915,8 @@ msgid ""
 "Klicke den Button *_+ Telemetrie-Verbindung_*.  [.result]#Das Fenster "
 "`Telemetrie-Verbindung auswählen` wird angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_+ Connexion télémétrie_*.  [La fenêtre `Sélectionner "
+"une connexion de télémétrie` s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:76
@@ -1798,12 +1924,14 @@ msgid ""
 "Wähle die Telemetrie-Einheit.  [.result]#Das Meldungsfenster "
 "`Registrierungscode` wird angezeigt:#"
 msgstr ""
+"Sélectionnez l'unité de télémétrie.  [.result]#La boîte de dialogue `Code "
+"d'enregistrement` s'affiche :#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:77
 #, no-wrap
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:82
@@ -1811,6 +1939,8 @@ msgid ""
 "Notiere den Registrierungscode und klicke *_Schließen_*.  [.result]#Die "
 "Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Notez le code d'enregistrement et cliquez sur *_Fermer_*.  [.result]#La "
+"liste des points de terminaison s'affiche.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:87
@@ -1819,11 +1949,14 @@ msgid ""
 "Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:"
 "ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
 msgstr ""
+"Cliquez sur l'icône *_Copier_* image:ar_copy.icon.png[copy, 30, 30] pour "
+"copier le code dans le presse-papiers. + Cliquez sur l'icône *_Imprimer_* "
+"image:ar_print.icon.png[print, 30, 30] pour imprimer le code."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:91
 msgid "Gebe den Registrierungscode an der Telemetrie-Einheit ein."
-msgstr ""
+msgstr "Saisissez le code d'enregistrement sur l'unité de télémétrie."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:93
@@ -1832,11 +1965,16 @@ msgid ""
 "icon.png[refresh, 30, 30].  [.result]#Die Telemetrie-Einheit wird der "
 "Endpunkteliste hinzugefügt.#"
 msgstr ""
+"Dans la liste des points de terminaison, cliquez sur l'icône *_Actualiser_* "
+"image:ar_refresh.icon.png[refresh, 30, 30].  [.result]#L'unité de télémétrie "
+"est ajoutée à la liste des points de terminaison.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:94
 msgid "Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben."
 msgstr ""
+"Modifier le nom comme indiqué dans la section `Modifier le point de "
+"terminaison`."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:96
@@ -1844,6 +1982,8 @@ msgid ""
 "Lese in der Bedienungsanleitung des Herstellers nach, wie du den "
 "Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
+"Consultez le manuel d'utilisation du fabricant pour connaître la procédure "
+"de saisie du code d'enregistrement sur l'unité de télémétrie."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:98
@@ -1852,23 +1992,26 @@ msgid ""
 "Endpunkteliste hinzugefügt. Damit können ISOBUS-Maschinen beim Routing als "
 "Sender oder Empfänger ausgewählt werden."
 msgstr ""
+"S'il s'agit d'une machine ISOBUS, elle est également ajoutée à la liste des "
+"points de terminaison. Les machines ISOBUS peuvent ainsi être sélectionnées "
+"comme émetteur ou récepteur lors du routage."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:99
 #, no-wrap
 msgid "Agrarsoftware verbinden"
-msgstr ""
+msgstr "Connecter le logiciel agricole"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:101
 msgid ""
 "Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:"
-msgstr ""
+msgstr "Pour connecter un logiciel agricole à agrirouter, procédez comme suit :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:103
 msgid "Starte die Agrarsoftware."
-msgstr ""
+msgstr "Démarrez le logiciel agricole."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:105
@@ -1877,6 +2020,9 @@ msgid ""
 "Benutzerdaten deines agrirouter-Kontos ein.  [.result]#Die Agrarsoftware "
 "verbindet sich mit dem agrirouter.#"
 msgstr ""
+"Exécutez la fonction *_Connecter à agrirouter_* et saisissez les données "
+"utilisateur de votre compte agrirouter.  [.result]#Le logiciel agricole se "
+"connecte à agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:107
@@ -1885,6 +2031,10 @@ msgid ""
 "Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].  [."
 "result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#"
 msgstr ""
+"Ouvrez le centre de contrôle d'agrirouter et cliquez sur l'icône "
+"*_Actualiser_* image:ar_refresh.icon.png[refresh, 30, 30] dans la liste des "
+"points de terminaison.  [.result]#Le logiciel agricole est affiché dans la "
+"liste des points de terminaison.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:109
@@ -1894,6 +2044,9 @@ msgid ""
 "Weitere Informationen findest du in der Bedienungsanleitung der "
 "Agrarsoftware."
 msgstr ""
+"La fonction *_Connecter à agrirouter_* (son nom peut varier en fonction de "
+"l'appareil) se trouve généralement dans les paramètres du logiciel agricole. "
+"Pour plus d'informations, consultez le mode d'emploi du logiciel agricole."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:111
@@ -1901,12 +2054,15 @@ msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]"
 msgstr ""
+"Vous trouverez une liste complète des logiciels agricoles dotés d'une "
+"interface agrirouter https://my-agrirouter.com/marketplace/"
+"agrarsoftware[ici...^]"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:112
 #, no-wrap
 msgid "Endpunkt suchen"
-msgstr ""
+msgstr "Rechercher un point de terminaison"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
@@ -1914,6 +2070,8 @@ msgid ""
 "Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt "
 "suchen:"
 msgstr ""
+"Si la liste des points de terminaison contient beaucoup d'entrées, vous "
+"pouvez faire une recherche :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:117
@@ -1921,6 +2079,9 @@ msgid ""
 "Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_search.icon."
 "png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
 msgstr ""
+"Cliquez sur l'icône *_Rechercher_* au-dessus de la liste des points de "
+"terminaison image:ar_search.icon.png[search, 30, 30].  [.result]#Le curseur "
+"clignote dans le champ de saisie *_Search_*.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
@@ -1928,11 +2089,14 @@ msgid ""
 "Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.  [."
 "result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#"
 msgstr ""
+"Entrez le nom ou la classe de machine du point de terminaison recherché.  [."
+"result]#La liste des points de terminaison est actualisée dès que vous "
+"commencez à écrire.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:121 de/modules/ROOT/pages/group.adoc:80
 msgid "Mache die Suche rückgängig wie folgt:"
-msgstr ""
+msgstr "Annulez la recherche comme suit :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:124
@@ -1940,34 +2104,39 @@ msgid ""
 "Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem "
 "Eingabefeld *_Suchen_*.  [.result]#Alle Endpunkte werden angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône image:ar_revert.icon.png[revert, 30, 30] à droite de la "
+"zone de saisie *_Rechercher_*.  [.result]#Tous les points de terminaison "
+"s'affichent.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:125
 #, no-wrap
 msgid "Liste filtern"
-msgstr ""
+msgstr "Filtrer la liste"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:127
 msgid "Die Liste kann nach vorgegebenen Kriterien gefiltert werden:"
-msgstr ""
+msgstr "La liste peut être filtrée selon des critères prédéfinis :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:130
 msgid "Die im Abschnitt `Endpunkt-Typ` beschriebenen Typen."
-msgstr ""
+msgstr "Les types décrits dans la section `Types de point de terminaison`."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:131
 msgid ""
 "Ein Endpunkt kann den Status `Aktiv`, `Deaktiviert` oder `Blockiert` haben."
 msgstr ""
+"Un point de terminaison peut avoir le statut `Actif`, `Désactivé` ou "
+"`Bloqué`."
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/endpoint.adoc:131
 #, no-wrap
 msgid "Maschinenklasse"
-msgstr ""
+msgstr "Catégorie de machine"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:132
@@ -1976,12 +2145,15 @@ msgid ""
 "zugeordnet. Diese gibt an, um welche Art landwirtschaftliche Maschine es "
 "sich handelt, z.B. Dünger, Spritze, etc. ... ."
 msgstr ""
+"Une catégorie de machine est automatiquement attribuée à un point de "
+"terminaison de type `Machine`. Celle-ci indique de quel type de machine "
+"agricole il s'agit, par exemple un épandeur, un pulvérisateur, etc ..."
 
 #. -
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:136
 msgid "Filtere die Liste wie folgt:"
-msgstr ""
+msgstr "Filtrez la liste comme suit :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:139
