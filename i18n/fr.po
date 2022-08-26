@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-25 19:14+0000\n"
+"PO-Revision-Date: 2022-08-26 13:14+0000\n"
 "Last-Translator: Agrar Uebersetzer 2 <agrolinguainfo@agrolingua.com>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/fr@formal/>\n"
@@ -153,7 +153,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account-pairing.adoc:20
 #, no-wrap
 msgid "Pairing tile"
-msgstr ""
+msgstr "Vignette d'appairage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:24
@@ -509,7 +509,7 @@ msgstr "Créer un compte utilisateur"
 #: de/modules/ROOT/pages/account.adoc:48 de/modules/ROOT/pages/group.adoc:28
 #, no-wrap
 msgid "Select Register"
-msgstr ""
+msgstr "Sélectionner S'inscrire"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:51 de/modules/ROOT/pages/account.adoc:83
@@ -587,6 +587,11 @@ msgid ""
 "empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn "
 "andere Kunden dich suchen."
 msgstr ""
+"La description est un champ standard SAP, mais son contenu n'est utilisé ou "
+"affiché nulle part dans agrirouter ASTUCE : Le champ *_Description de la "
+"société_* du formulaire `Inscription de l'utilisateur` n'est pas un champ "
+"obligatoire. Il est recommandé de saisir TODO TEXT, car ce champ sera "
+"affiché lorsque d'autres clients vous chercheront."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:74
@@ -670,7 +675,7 @@ msgstr ""
 "Lorsque vous avez terminé d'utiliser votre tableau de bord, fermez la page "
 "internet [.underline]#sans# vous déconnecter. [La prochaine fois que vous "
 "consulterez https://goto.my-agrirouter.com/app [la page de connexion], le "
-"tableau de bord s'affichera immédiatement."
+"tableau de bord s'affichera immédiatement.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:110
@@ -768,7 +773,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:138
 #, no-wrap
 msgid "Account Management Tile"
-msgstr ""
+msgstr "Vignette de gestion des comptes"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:142
@@ -847,7 +852,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:164
 #, no-wrap
 msgid "Profile menue"
-msgstr ""
+msgstr "Menu des profils"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:168
@@ -882,7 +887,7 @@ msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:174
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -985,7 +990,7 @@ msgstr "Sélectionnez *_Afficher tout le contenu_*."
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:206
 msgid "Dies ist die empfohlene Einstellung."
-msgstr ""
+msgstr "Il s'agit du paramètre recommandé."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:208
@@ -1156,6 +1161,15 @@ msgid ""
 "Kapitel xref:group.adoc#empfangen-von[Empfangen von].# [.result]#Beispiele "
 "für häufig verwendete Routen findest du xref:routing.adoc[hier...].#"
 msgstr ""
+"Si vous regroupez des points de terminaison dans <<groupe, Groupes>>, vous "
+"devez configurer le routage uniquement pour le groupe et non pour chaque "
+"membre du groupe.  [.result]#Ajoutez un groupe, comme indiqué au chapitre "
+"xref:group.adoc#groupe-ajouter[Ajouter un groupe].# [.result]#Si le groupe "
+"doit envoyer des données, suivez les instructions du chapitre xref:group.adoc"
+"#envoyer-vers[Envoyer vers].# [.result]#Si le groupe doit recevoir des "
+"données, suivez les instructions du chapitre xref:group.adoc#recevoir-de["
+"Recevoir de].# [.result]#Vous trouverez des exemples de routes fréquemment "
+"utilisées xref:routing.adoc[ici...].#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/basics.adoc:35
@@ -1839,7 +1853,7 @@ msgstr "Ouvrez la liste des points de terminaison comme suit :"
 #: de/modules/ROOT/pages/endpoint.adoc:39
 #, no-wrap
 msgid "Control Center Tile"
-msgstr ""
+msgstr "Vignette du centre de contrôle"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:50
@@ -3383,12 +3397,16 @@ msgid ""
 "und bearbeite xref:endpoint.adoc#endpunkt-bearbeiten[den Endpunkt] und xref:"
 "endpoint.adoc#senden-an[das Routing]."
 msgstr ""
+"Pour modifier un membre du groupe, ouvrez la liste des points de "
+"terminaison, sélectionnez et modifiez xref:endpoint.adoc#modifier-point-de-"
+"terminaison[le point de terminaison] et xref:endpoint.adoc#envoyer-vers[la "
+"route]."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/group.adoc:207
 #, no-wrap
 msgid "Mitglied hinzufügen"
-msgstr ""
+msgstr "Ajouter un membre"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:209
@@ -3396,6 +3414,8 @@ msgid ""
 "Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der "
 "Gruppenliste hinzufügen."
 msgstr ""
+"Vous pouvez ajouter un point de terminaison au groupe à partir de la liste "
+"des points de terminaison, ou des groupes à partir de la liste des groupes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:212
@@ -3403,6 +3423,8 @@ msgid ""
 "Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
 "result]#Das Formular `Mitglieder auswählen` wird angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône *_Ajouter_* image:ar_add.icon.png[add, 30, 30].  [."
+"result]#Le formulaire `Sélectionner les membres` s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:214
@@ -3410,12 +3432,14 @@ msgid ""
 "Wähle das neue Mitglied und klicke *_Bestätigen_*.  [.result]#Das Mitglied "
 "wird hinzugefügt.#"
 msgstr ""
+"Sélectionnez le nouveau membre, puis cliquez sur *_Valider_*.  [.result]#Le "
+"membre est ajouté.#"
 
 #. type: Title ====
 #: de/modules/ROOT/pages/group.adoc:215
 #, no-wrap
 msgid "Mitglied entfernen"
-msgstr ""
+msgstr "Supprimer un membre"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:221
@@ -3423,6 +3447,7 @@ msgid ""
 "Bestätige die Abfrage mit *_OK_*.  [.result]#Das Mitglied wird aus der "
 "Gruppe entfernt.#"
 msgstr ""
+"Confirmez en cliquant sur *_OK_*.  [.result]#Le membre est retiré du groupe.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:223
@@ -3430,27 +3455,30 @@ msgid ""
 "Das Mitglied wird aus der Gruppe entfernt, aber nicht gelöscht. Endpunkte "
 "und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste."
 msgstr ""
+"Le membre est retiré du groupe, mais pas supprimé. Vous pouvez supprimez des "
+"points de terminaison ou des groupes dans la liste des points de terminaison "
+"ou des groupes."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/group.adoc:224
 #, no-wrap
 msgid "Gruppe bearbeiten"
-msgstr ""
+msgstr "Modifier le groupe"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:228
 msgid "den Name der Gruppe ändern,"
-msgstr ""
+msgstr "modifier le nom du groupe,"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:229
 msgid "die Beschreibung ändern."
-msgstr ""
+msgstr "modifier la description."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:231
 msgid "Bearbeite die Gruppe wie folgt:"
-msgstr ""
+msgstr "Modifiez le groupe comme suit :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:234
@@ -3458,6 +3486,9 @@ msgid ""
 "Wähle die Gruppe in der Gruppenliste.  [.result]#Im rechten Bereich des "
 "Kontrollzentrums wird die Detailansicht der Gruppe angezeigt.#"
 msgstr ""
+"Sélectionnez le point de terminaison dans la liste.  [.result]#La vue "
+"détaillée du point de terminaison s'affiche dans la partie droite du centre "
+"de contrôle.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:236
@@ -3465,6 +3496,8 @@ msgid ""
 "Klicke den Button *_Bearbeiten_*.  [.result]#Das Formular `Gruppe "
 "bearbeiten` wird angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Modifier_*.  [.result]#Le formulaire `Modifier le "
+"groupe` s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:239
@@ -3473,11 +3506,14 @@ msgid ""
 "Gruppenliste wird der neue Name angezeigt.# [.result]#In der Detailansicht "
 "der Gruppe wird die neue Beschreibung angezeigt.#"
 msgstr ""
+"Modifiez le nom et la description, puis cliquez sur *_Valider_*.  [.result]#"
+"Le nouveau nom s'affiche dans la liste des groupes.# [.result]#La nouvelle "
+"description s'affiche dans la vue détaillée du groupe.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:242
 msgid "Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:"
-msgstr ""
+msgstr "Si un groupe n'est plus nécessaire, supprimez-le :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:248
@@ -3486,6 +3522,9 @@ msgid ""
 "alle Mitgliedschaften der Gruppe werden gelöscht.# [.result]#Die Gruppe wird "
 "aus der Gruppenliste entfernt.#"
 msgstr ""
+"Confirmez en cliquant sur *_OK_*.  [.result]#Le groupe, toutes les routes et "
+"toutes les membres du groupe seront supprimés.# [.result]#Le groupe sera "
+"retiré de la liste des groupes.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:250
@@ -3493,6 +3532,8 @@ msgid ""
 "Es wird nur die Gruppe gelöscht; die Mitglieder bleiben mit dem agrirouter "
 "verbunden und werden in der Endpunkteliste angezeigt."
 msgstr ""
+"Seul le groupe est supprimé ; les membres restent connectés à agrirouter et "
+"sont affichés dans la liste des points de terminaison."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:253
@@ -3500,6 +3541,8 @@ msgid ""
 "Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen "
 "wir die Diagnoseinformationen der Gruppe:"
 msgstr ""
+"Lorsque vous soumettez une demande à notre service d'assistance à propos "
+"d'un groupe, nous avons besoin des informations de diagnostic de ce groupe :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:258
@@ -3507,6 +3550,8 @@ msgid ""
 "Wähle das Icon *_Support Informationen anzeigen_*.  [.result]#Das "
 "Meldungsfenster *_Support-Information_* wird angezeigt.#"
 msgstr ""
+"Sélectionnez l'icône *_Afficher les informations d'assistance_*.  [.result]#"
+"La boîte de dialogue *_Informations d'assistance_* s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:8
@@ -3516,6 +3561,10 @@ msgid ""
 "Maschine und Maschine. Oder zwischen Agrarsoftware und Agrarsoftware. Du "
 "hast die Wahl."
 msgstr ""
+"Agrirouter est un portail en ligne, indépendant des fabricants, conçu pour "
+"les échanges de données entre machines et logiciels agricoles.  Ou d'une "
+"machine à une autre. Ou encore d'un logiciel agricole à un autre. Vous avez "
+"le choix !"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:10
@@ -3523,6 +3572,8 @@ msgid ""
 "Die Bedienung ist einfach und intuitiv, die Inbetriebnahme ist in ein paar "
 "Schritten erledigt."
 msgstr ""
+"Son utilisation est simple et intuitive, et sa mise en service peut être "
+"réalisée en quelques étapes seulement."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:12
@@ -3530,6 +3581,8 @@ msgid ""
 "Nach der Einrichtung arbeitet der agrirouter automatisch im Hintergrund. Du "
 "meldest dich nur noch am agrirouter an, um Änderungen vorzunehmen."
 msgstr ""
+"Après sa configuration, agrirouter fonctionne automatiquement en arrière-"
+"plan. Il vous suffit de vous y connecter pour effectuer des modifications."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/introduction.adoc:20
@@ -3538,6 +3591,9 @@ msgid ""
 "lese den https://my-agrirouter.com/en/agrirouter/quick-start-guide[Quick "
 "Start Guide^]."
 msgstr ""
+"Si vous souhaitez créer rapidement un compte afin d'échanger vos premières "
+"données, lisez le https://my-agrirouter.com/en/agrirouter/quick-start-guide["
+"Guide de démarrage rapide^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:33
@@ -3548,6 +3604,12 @@ msgid ""
 "verbinden] und xref:endpoint.adoc#agrarsoftware-verbinden[Agrarsoftware "
 "verbinden] beschrieben.#"
 msgstr ""
+"Les machines et logiciels agricoles peuvent échanger des données si vous les "
+"enregistrez dans agrirouter comme <<Point de terminaison,Points de "
+"terminaison>>.  [.result]#Ajoutez des points de terminaison comme indiqué "
+"dans les chapitres xref:endpoint.adoc#connecter-machine[Connecter une "
+"machine] et xref:endpoint.adoc#connecter-logiciel-agricole[Connecter un "
+"logiciel agricole].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:37
@@ -3558,6 +3620,12 @@ msgid ""
 "result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel "
 "xref:endpoint.adoc#empfangen-von[Empfangen von].#"
 msgstr ""
+"Une <<Route>> détermine quelles sont les données qu'un point de terminaison "
+"envoie et/ou reçoit.  [.result]#Si le point de terminaison doit envoyer des "
+"données, suivez les instructions du chapitre xref:endpoint.adoc#envoyer-vers["
+"Envoyer vers].# [.result]#Si le point de terminaison doit recevoir des "
+"données, suivez les instructions du chapitre xref:endpoint.adoc#recevoir-de["
+"Recevoir de].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:42
@@ -3570,6 +3638,14 @@ msgid ""
 "an].# [.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im "
 "Kapitel xref:group.adoc#empfangen-von[Empfangen von].#"
 msgstr ""
+"Si vous regroupez des points de terminaison dans <<Groupe, Groupes>>, vous "
+"ne devez configurer les routes que pour le groupe, et non pour chaque membre "
+"du groupe.  [.result]#Ajoutez un groupe, comme décrit dans le chapitre "
+"xref:group.adoc#groupe-ajouter[ajouter un groupe].# [.result]#Si le groupe "
+"doit envoyer des données, suivez les instructions du chapitre xref:group."
+"adoc#envoyer-à[Envoyer vers].# [.result]#Si le groupe doit recevoir des "
+"données, suivez les instructions du chapitre xref:group.adoc#recevoir-de["
+"Recevoir de].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:49
@@ -3579,6 +3655,10 @@ msgid ""
 "Startseite.  Über das Dashboard hast du Zugriff auf alle Funktionen des "
 "agrirouter:"
 msgstr ""
+"Une fois que vous vous êtes connecté à https://goto.my-agrirouter.com/[my-"
+"agrirouter.com^], vous verrez apparaître le tableau de bord, votre page "
+"d'accueil personnelle agrirouter.  Le tableau de bord vous permet d'accéder "
+"à toutes les fonctionnalités d'agrirouter :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:61
@@ -3588,6 +3668,10 @@ msgid ""
 "ein Endpunkt des passenden Typs hinzugefügt.  Es gibt folgende Endpunkt-"
 "Typen:"
 msgstr ""
+"Les émetteurs et les destinataires de données sont reliés entre eux via "
+"agrirouter. Pour chaque émetteur et destinataire connecté, un point de "
+"terminaison du type correspondant est créé dans agrirouter.   Les types de "
+"points de terminaison sont les suivants :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:77
@@ -3596,6 +3680,10 @@ msgid ""
 "mit <<Route,Routen>> so miteinander, dass die Daten des Senders an die "
 "gewünschten Empfänger gelangen."
 msgstr ""
+"Chaque point de terminaison peut envoyer et recevoir des données.  Vous "
+"devez configurer les points de terminaison entre eux avec des <<Routes>> "
+"dans agrirouter, afin que les données de l'émetteur parviennent aux "
+"destinataires souhaités."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:108
@@ -3603,6 +3691,8 @@ msgid ""
 "Die Route regelt den Datenverkehr zwischen Sender und Empfänger.  Du legst "
 "fest"
 msgstr ""
+"La route gère la circulation des données entre l'émetteur et le "
+"destinataire.  Vous définissez"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/introduction.adoc:118
@@ -3611,11 +3701,13 @@ msgid ""
 "Erstelle eingehende und/oder abgehende Routen für jeden Endpunkt, jede "
 "Gruppe und jedes verbundene Konto.  Ohne Route kein Datenaustausch."
 msgstr ""
+"Créez des routes entrantes et/ou sortantes pour chaque point de terminaison, "
+"groupe et compte connecté.  Sans route, pas d'échange de données."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:123
 msgid "Im agrirouter gibt es zwei vordefinierte Standard-Gruppen:"
-msgstr ""
+msgstr "Agrirouter dispose de deux groupes par défaut prédéfinis :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:129
@@ -3624,6 +3716,10 @@ msgid ""
 "+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
 "ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
 msgstr ""
+"Les groupes par défaut permettent de mettre en service rapidement "
+"l'agrirouter : : + Pour les deux groupes, le routage est déjà défini. Les "
+"nouveaux points de terminaison peuvent recevoir et envoyer des données sans "
+"configuration supplémentaire. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/introduction.adoc:138
@@ -3632,6 +3728,8 @@ msgid ""
 "Routing kann nicht geändert und die beiden Gruppen können nicht gelöscht "
 "werden."
 msgstr ""
+"Vous pouvez ajouter des membres ou en supprimer. Le routage défini ne peut "
+"pas être modifié et les deux groupes ne peuvent pas être supprimés."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:142
@@ -3641,12 +3739,16 @@ msgid ""
 "agrirouter unterstützt über xref:appendix.adoc[600 Datentypen], die in 12 "
 "Kategorien aufgeteilt sind:"
 msgstr ""
+"De nombreuses machines peuvent fournir des données en temps réel, c'est-à-"
+"dire des données de machine, d'emplacement et de processus générées en "
+"continu durant le travail aux champs. Agrirouter supporte plus de "
+"xref:appendix.adoc[600 types de données], répartis en 12 catégories :"
 
 #. type: Title =
 #: de/modules/ROOT/pages/routing.adoc:4
 #, no-wrap
 msgid "Routing"
-msgstr ""
+msgstr "Routage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:8
@@ -3655,6 +3757,10 @@ msgid ""
 "Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.  "
 "[.result]#Mit der Route legst du fest, wer Nachrichten austauscht.#"
 msgstr ""
+"Une xref:introduction.adoc#route[Route] correspond à la connexion entre deux "
+"points de terminaison, c'est-à-dire le chemin que les données suivent pour "
+"partir de l'émetteur et arriver au destinataire.  [.result]#Avec le routage, "
+"vous déterminez qui échange des messages.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:11
@@ -3662,6 +3768,8 @@ msgid ""
 "Das Routing regelt den Datenverkehr auf den Routen.  [.result]#Mit dem "
 "Routing legst du fest, welche Nachrichten ausgetauscht werden.#"
 msgstr ""
+"Le routage régule la circulation des données sur les routes.  [.result]#Avec "
+"le routage, vous déterminez quels messages sont échangés.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/routing.adoc:21
@@ -3669,6 +3777,8 @@ msgid ""
 "Der agrirouter transportiert Daten, bearbeitet oder speichert sie aber "
 "nicht. +"
 msgstr ""
+"Agrirouter transporte des données, mais ne les traite pas et ne les stocke "
+"pas. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/routing.adoc:23
@@ -3678,22 +3788,26 @@ msgid ""
 "Ist der Empfänger während der gesamten Zeit nicht erreichbar, werden die "
 "Daten gelöscht."
 msgstr ""
+"Les données qui ne peuvent pas être délivrées, par exemple parce que le "
+"destinataire est hors ligne, sont cependant une exception. Agrirouter met "
+"ces données en mémoire tampon pendant 4 semaines. Si le destinataire n'est "
+"pas joignable pendant toute cette période, les données sont supprimées."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:28
 msgid "wann und welche Routen automatisch angelegt werden"
-msgstr ""
+msgstr "quand et quels routes sont créés automatiquement"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:29
 msgid "an Beispielen, wie du eine Route anlegst"
-msgstr ""
+msgstr "comment créer une route à l'aide d'exemples"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:31
 #, no-wrap
 msgid "Automatisch angelegte Routen"
-msgstr ""
+msgstr "Routes créés automatiquement"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:34
@@ -3702,6 +3816,9 @@ msgid ""
 "adoc#standard-gruppen[Standard-Gruppen] werden vom System vorgegeben und "
 "können nicht geändert werden:"
 msgstr ""
+"Les routes entrantes et sortantes des deux xref:introduction."
+"adoc#groupesstandards[groupes par défaut] sont prédéfinies par le système et "
+"ne peuvent pas être modifiées :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:36
@@ -3709,6 +3826,9 @@ msgid ""
 "Mitglieder der Agrarsoftware-Gruppe senden alle Daten, d.h. alle Nachrichten "
 "und Echtzeitdaten, an alle Mitglieder der Maschinen-Gruppe"
 msgstr ""
+"Les membres du groupe Logiciels agricoles envoient toutes les données, "
+"c'est-à-dire tous les messages et les données en temps réel, à tous les "
+"membres du groupe Machines"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:37
@@ -3716,12 +3836,15 @@ msgid ""
 "Mitglieder der Maschinen-Gruppe senden alle Daten, d.h. alle Nachrichten und "
 "Echtzeitdaten, an alle Mitglieder der Agrarsoftware-Gruppe"
 msgstr ""
+"Les membres du groupe Machines envoient toutes les données, c'est-à-dire "
+"tous les messages et les données en temps réel, à tous les membres du groupe "
+"Logiciels agricoles"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:38
 #, no-wrap
 msgid "Abgehende Routen"
-msgstr ""
+msgstr "Routes sortantes"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:40
@@ -3729,6 +3852,8 @@ msgid ""
 "Über eine abgehende Route sendest du Daten von einem Endpunkt oder einer "
 "Gruppe an einen Empfänger."
 msgstr ""
+"Une route sortante vous permet d'envoyer des données d'un point de "
+"terminaison ou d'un groupe à un destinataire."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:42
@@ -3736,6 +3861,8 @@ msgid ""
 "Wie du eine abgehende Route für einen Endpunkt anlegst, bearbeitest und "
 "löscht, erfährst du xref:endpoint.adoc#senden-an[hier...]"
 msgstr ""
+"Découvrez comment créer, modifier et supprimer une route sortante pour un "
+"point de terminaison xref:endpoint.adoc#envoyer-vers[ici...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:43
@@ -3743,12 +3870,14 @@ msgid ""
 "Wie du eine abgehende Route für eine Gruppe anlegst, bearbeitest und löscht, "
 "erfährst du xref:group.adoc#senden-an[hier...]"
 msgstr ""
+"Découvrez comment créer, modifier et supprimer une route sortante pour un "
+"groupe xref:group.adoc#envoyer-vers[ici...]"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:44
 #, no-wrap
 msgid "Eingehende Routen"
-msgstr ""
+msgstr "Routes entrantes"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:46
@@ -3756,6 +3885,8 @@ msgid ""
 "Über eine eingehende Route empfängt der Endpunkt oder die Gruppe Daten von "
 "einem Sender."
 msgstr ""
+"Grâce à une route entrant, le point de terminaison ou le groupe reçoit des "
+"données d'un émetteur."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:48
@@ -3763,6 +3894,8 @@ msgid ""
 "Wie du eine eingehende Route für einen Endpunkt anlegst, bearbeitest und "
 "löscht, erfährst du xref:endpoint.adoc#empfangen-von[hier...]"
 msgstr ""
+"Découvrez comment créer, modifier et supprimer une route entrante pour un "
+"point de terminaison xref:endpoint.adoc#recevoir-de[ici...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:49
@@ -3770,12 +3903,14 @@ msgid ""
 "Wie du eine eingehende Route für eine Gruppe anlegst, bearbeitest und "
 "löscht, erfährst du xref:group.adoc#empfangen-von[hier...]"
 msgstr ""
+"Découvrez comment créer, modifier et supprimer une route entrante pour un "
+"groupe xref:group.adoc#recevoir-de[ici...]"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:50
 #, no-wrap
 msgid "Häufig verwendete Routen"
-msgstr ""
+msgstr "Routes fréquemment utilisées"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:52
@@ -3783,12 +3918,14 @@ msgid ""
 "Im Folgenden stellen wir Dir von Benutzern häufig eingesetzte Routen vor, "
 "jeweils mit einer schrittweisen Anleitung zur Einrichtung."
 msgstr ""
+"Nous vous présentons ci-dessous des routes fréquemment utilisés par les "
+"utilisateurs, ainsi que des instructions étape par étape pour les configurer."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/routing.adoc:53
 #, no-wrap
 msgid "Jeder sendet an jeden"
-msgstr ""
+msgstr "Tous les membres envoient à tous les membres"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:55
@@ -3796,6 +3933,8 @@ msgid ""
 "Mit diesem Routing sendet jeder Endpunkt alle verfügbaren Daten an jeden "
 "anderen Endpunkt."
 msgstr ""
+"Avec ce routage, chaque point de terminaison envoie toutes les données "
+"disponibles à chaque autre point de terminaison."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:58
@@ -3803,11 +3942,13 @@ msgid ""
 "Klicke im Reiter `Gruppen` im `Kontrollzentrum` den Button *_+ Gruppe_*.  [."
 "result]#Das Fenster `Neue Gruppe` wird angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_+ Groupe_* dans l'onglet `Groupes` du `Centre de "
+"contrôle`.  [La fenêtre `Nouveau groupe` s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:59
 msgid "Gebe den Namen `Alle` ein und klicke *_Bestätigen_*."
-msgstr ""
+msgstr "Saisissez le nom `Tous`, puis cliquez sur *_Valider_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:61
@@ -3816,11 +3957,15 @@ msgid ""
 "*_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [.result]#Das Formular "
 "`Neues Routing` wird angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône *_Ajouter_* image:ar_add.icon.png[add, 30, 30] dans "
+"l'onglet `Envoyer vers` de la vue détaillée du groupe.  [.result]#Le "
+"formulaire `Nouveau routage` s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:62
 msgid "Klicke in das Eingabefeld *_Empfänger_* und wähle die Gruppe `Alle`."
 msgstr ""
+"Cliquez dans le champ *_Destinataire_* et sélectionnez le groupe `Tous`."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:63
@@ -3828,6 +3973,8 @@ msgid ""
 "Klicke in das Eingabefeld *_Nachrichtenformate_*, wähle alle "
 "Nachrichtenformate und klicke *_Bestätigen_*."
 msgstr ""
+"Cliquez dans le champ *_Formats des messages_*, sélectionnez tous les "
+"formats de messages et cliquez sur *_Valider_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:65
@@ -3836,6 +3983,9 @@ msgid ""
 "Kategorien und klicke *_Bestätigen_*.  [.result]#Das Formular `Neues "
 "Routing` wird angezeigt.#"
 msgstr ""
+"Cliquez dans le champ *_Catégories des paramètres de télémétrie_*, "
+"sélectionnez toutes les catégories et cliquez sur *_Valider_*.  [.result]#Le "
+"formulaire `Nouveau routage` s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:67
@@ -3843,6 +3993,8 @@ msgid ""
 "Klicke den Button *_Bestätigen_*.  [.result]#Die Gruppe `Alle` wird als "
 "Sender und Empfänger hinzugefügt.#"
 msgstr ""
+"Cliquez sur le bouton *_Valider_*.  [.result]#Le groupe `Tous` est ajouté "
+"comme émetteur et destinataire.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:69
@@ -3851,6 +4003,9 @@ msgid ""
 "*_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [.result]#Das Formular "
 "`Mitglieder auswählen` wird angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône *_Ajouter_* image:ar_add.icon.png[add, 30, 30] dans "
+"l'onglet `Membres` de la vue détaillée du groupe.  [.result]#Le formulaire `"
+"Sélectionner des membres` s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:71
@@ -3858,6 +4013,8 @@ msgid ""
 "Wähle alle Endpunkte und klicke *_Bestätigen_*.  [.result]#Alle Endpunkte "
 "werden der Gruppe `Alle` hinzugefügt.#"
 msgstr ""
+"Sélectionnez tous les points de terminaison et cliquez sur *_Valider_*.  ["
+"Tous les points de terminaison sont ajoutés au groupe `Tous`.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/routing.adoc:75
@@ -3865,49 +4022,55 @@ msgid ""
 "Dem agrirouter neu hinzugefügte Endpunkte werden nicht automatisch in die "
 "Gruppe `Alle` aufgenommen. +"
 msgstr ""
+"Les nouveaux points de terminaison ajoutés sur agrirouter ne sont pas "
+"automatiquement inclus dans le groupe `Tous`. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/routing.adoc:77
 msgid "[.result]#Denke daran, neue Endpunkte der Gruppe `Alle` hinzuzufügen.#"
 msgstr ""
+"[.result]#N'oubliez d'ajouter les nouveaux points de terminaison au groupe "
+"`Tous`.#"
 
 #. type: Title =
 #: de/modules/ROOT/pages/support.adoc:4
 #, no-wrap
 msgid "Service & Support"
-msgstr ""
+msgstr "Maintenance & Assistance"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:7
 msgid "In diesem Abschnitt erfährst du,"
-msgstr ""
+msgstr "Dans cette section, vous apprendrez :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:9
 msgid "wie du im Help Center einen Fehlerbericht oder eine Anfrage erstellst"
-msgstr ""
+msgstr "comment créer un rapport d'erreur ou une demande dans le centre d'aide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:10
 msgid ""
 "über welche E-Mail-Adresse und Telefonnummern du unser Support-Team erreichst"
 msgstr ""
+"l'adresse e-mail et les numéros de téléphone auxquels vous pouvez contacter "
+"notre équipe d'assistance"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:11
 msgid "wie du deinen Bildschirminhalt mit uns teilst"
-msgstr ""
+msgstr "comment partager votre écran avec nous"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:12
 msgid "wie du prüfst, ob der agrirouter verfügbar ist"
-msgstr ""
+msgstr "comment vérifier si agrirouter est disponible"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/support.adoc:13
 #, no-wrap
 msgid "Support"
-msgstr ""
+msgstr "Assistance"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:16
@@ -3915,6 +4078,9 @@ msgid ""
 "Unser Support-Team hilft, wenn du eine Frage zur Bedienung hast oder bei der "
 "Nutzung das agrirouter ein Problem auftaucht."
 msgstr ""
+"Notre équipe d'assistance vous accompagne si vous avez une question sur "
+"l'utilisation ou si vous rencontrez un problème lors de l'utilisation "
+"d'agrirouter."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:20
@@ -3922,36 +4088,40 @@ msgid ""
 "Falls du ein Problem mit einem Endpunkt hast, benötigen wir die "
 "Diagnoseinformationen des Endpunktes:"
 msgstr ""
+"Si vous rencontrez un problème avec un point de terminaison, nous avons "
+"besoin des informations de diagnostic du point de terminaison :"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:22
 msgid "agrirouter Konto-ID"
-msgstr ""
+msgstr "ID de compte agrirouter"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:23
 msgid "Endpunkt-ID"
-msgstr ""
+msgstr "ID du point de terminaison"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:24
 msgid "Endpunktsoftware-ID"
-msgstr ""
+msgstr "ID du logiciel du point de terminaison"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:25
 msgid "Endpunktsoftware-Version-ID"
-msgstr ""
+msgstr "ID de version du logiciel du point de terminaison"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:27
 msgid "Diese Daten findest du in den Support-Informationen des Endpunktes:"
 msgstr ""
+"Vous trouverez ces données dans les informations d'assistance du point de "
+"terminaison :"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:37
 msgid "Wähle in der Endpunkteliste den Endpunkt."
-msgstr ""
+msgstr "Sélectionnez le point de terminaison dans la liste."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:39
@@ -3959,12 +4129,14 @@ msgid ""
 "Klicke das Icon *_Mehr_* über der Detailansicht.  [.result]#Eine "
 "Auswahlliste wird angezeigt.#"
 msgstr ""
+"Cliquez sur l'icône *_Plus_* au-dessus de la vue détaillée.  [.result]#Une "
+"liste de sélection s'affiche.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/support.adoc:46
 #, no-wrap
 msgid "Fehlerbericht senden"
-msgstr ""
+msgstr "Envoyer un rapport d'erreur"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:48
@@ -3972,6 +4144,8 @@ msgid ""
 "Im Help Center kannst du uns eine allgemeine Anfrage oder einen "
 "Fehlerbericht senden."
 msgstr ""
+"Dans le centre d'aide, vous pouvez nous envoyer une demande ou un rapport "
+"d'erreur."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:53
@@ -3980,6 +4154,9 @@ msgid ""
 "diesem werden deine Anfragen inkl. unserer Antworten gespeichert; du kannst "
 "deine Anfragen mit anderen Benutzern teilen."
 msgstr ""
+"Nous vous recommandons de créer un compte utilisateur dans le centre "
+"d'aide.  Celui-ci conservera vos demandes, y compris nos réponses ; vous "
+"pourrez également partager vos demandes avec d'autres utilisateurs."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:56 de/modules/ROOT/pages/support.adoc:71
@@ -3987,6 +4164,8 @@ msgid ""
 "Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/"
 "customer/portals/[Help Center^] .  [.result]#Das Help Center wird angezeigt.#"
 msgstr ""
+"Ouvrez l'adresse internet https://agrirouter.atlassian.net/servicedesk/"
+"customer/portals/[Centre d'aide^] .  [.result]#Le centre d'aide s'affiche.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:58
@@ -3994,6 +4173,8 @@ msgid ""
 "Klicke den Button *_Einloggen_*.  [.result]#Das Formular `Im Help Center "
 "einloggen` wird angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Se connecter_*.  [.result]#Le formulaire `Se "
+"connecter au centre d'aide` s'affiche.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:60
@@ -4001,6 +4182,8 @@ msgid ""
 "Klicke den Button *_Anmelden_*.  [.result]#Das Formular `Anmelden` wird "
 "angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_S'inscrire_*.  [Le formulaire `S'inscrire` "
+"s'affiche.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:62
@@ -4008,6 +4191,8 @@ msgid ""
 "Gebe deine E-Mail-Adresse ein und klicke *_Link senden_*.  [.result]#Du "
 "erhälst eine E-Mail mit dem Aktivierungslink.#"
 msgstr ""
+"Saisissez votre adresse e-mail, puis cliquez sur *_Envoyer le lien_*.  [."
+"result]#Vous recevrez un e-mail avec le lien d'activation.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:64
@@ -4015,6 +4200,8 @@ msgid ""
 "Klicke auf den Aktivierungslink.  [.result]#Das Formular `Anmelden` wird "
 "angezeigt.#"
 msgstr ""
+"Cliquez sur le lien d'activation.  [.result]#Le formulaire `S'inscrire` "
+"s'affiche.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:66
@@ -4022,6 +4209,8 @@ msgid ""
 "Gebe deinen Namen und ein Passwort ein und klicke *_Anmelden_*.  [."
 "result]#Die Startseite des Help Center wird angezeigt.#"
 msgstr ""
+"Saisissez votre nom et un mot de passe, puis cliquez sur *_S'inscrire_*.  [."
+"result]#La page d'accueil du centre d'aide s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:73
@@ -4029,11 +4218,15 @@ msgid ""
 "Klicke den Button *_Einloggen_* und melde dich mit deinen Benutzerdaten an.  "
 "[.result]#Die Startseite des Help Center wird angezeigt.#"
 msgstr ""
+"Cliquez sur le bouton *_Se connecter_* et connectez-vous avec vos données "
+"d'utilisateur.  [.result]#La page d'accueil du centre d'aide s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:74
 msgid "Wähle *_agrirouter Störungsmeldung_* um einen Fehlerbericht zu senden."
 msgstr ""
+"Sélectionnez *_Envoyer un message d'erreur agrirouter_* pour envoyer un "
+"rapport d'erreur."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:76
@@ -4042,6 +4235,9 @@ msgid ""
 "Information oder einen Feature-Wunsch zu senden.  [.result]#Ein "
 "Eingabeformular wird angezeigt.#"
 msgstr ""
+"Sélectionnez *_Demande concernant agrirouter_* pour envoyer une question, "
+"demander des informations supplémentaires ou des fonctionnalités.  [.result]#"
+"Un formulaire de saisie s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:78
@@ -4049,6 +4245,9 @@ msgid ""
 "Fülle das Formular aus und klicke *_Senden_*.  [.result]#Die Anfrage wird "
 "mit dem Status `Wartet auf Support` in deiner Anfrageliste gespeichert.#"
 msgstr ""
+"Remplissez le formulaire et cliquez sur *_Envoyer_*.  [.result]#La demande "
+"est enregistrée dans votre liste de demandes avec le statut `En attente de "
+"traitement`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:80
@@ -4056,12 +4255,14 @@ msgid ""
 "Das Help Center hat eine Suchfunktion, mit der du Hilfe zu häufig "
 "angefragten Stichwörtern erhälst."
 msgstr ""
+"Le centre d'aide dispose d'une fonction de recherche qui vous permet "
+"d'obtenir de l'aide sur des mots-clés fréquemment demandés."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/support.adoc:81
 #, no-wrap
 msgid "E-Mail-Support"
-msgstr ""
+msgstr "Assistance par e-mail"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:83
@@ -4069,65 +4270,67 @@ msgid ""
 "Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
 "support@my-agrirouter.com[support@my-agrirouter.com]."
 msgstr ""
+"Si vous ne pouvez pas utiliser le centre d'aide, écrivez à mailto:support@my-"
+"agrirouter.com[support@my-agrirouter.com]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/support.adoc:84
 #, no-wrap
 msgid "Telefonsupport"
-msgstr ""
+msgstr "Assistance téléphonique"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:86
 msgid "In dringenden Fällen kannst du unser Support-Team anrufen:"
-msgstr ""
+msgstr "En cas d'urgence, vous pouvez appeler notre équipe d'assistance :"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:89
 #, no-wrap
 msgid "Sprache"
-msgstr ""
+msgstr "Langue"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:90
 #, no-wrap
 msgid "Telefonnummer"
-msgstr ""
+msgstr "Numéro de téléphone"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:90
 #, no-wrap
 msgid "Deutsch"
-msgstr ""
+msgstr "Allemand"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:91
 #, no-wrap
 msgid "+49 541 200 690 220"
-msgstr ""
+msgstr "+49 541 200 690 220"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:91
 #, no-wrap
 msgid "Englisch"
-msgstr ""
+msgstr "Anglais"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:92
 #, no-wrap
 msgid "+49 541 200 690 230"
-msgstr ""
+msgstr "+49 541 200 690 230"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:92
 #, no-wrap
 msgid "Französisc"
-msgstr ""
+msgstr "Français"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:93
 #, no-wrap
 msgid "+49 541 200 690 240"
-msgstr ""
+msgstr "+49 541 200 690 240"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:98
@@ -4135,12 +4338,15 @@ msgid ""
 "Unsere Hotline ist an Werktagen von 9 bis 18 Uhrfootnote:[https://www."
 "timezones.de/germany/berlin/berlin.html[Zeitzone Europa/Berlin^]] erreichbar."
 msgstr ""
+"Notre hotline est accessible les jours ouvrables de 9 h à 18 hfootnote "
+":[https://www.timezones.de/germany/berlin/berlin.html[Fuseau horaire Europe/"
+"Berlin^]]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/support.adoc:101
 #, no-wrap
 msgid "Fernwartung mit TeamViewer"
-msgstr ""
+msgstr "Assistance à distance avec TeamViewer"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:104
@@ -4152,17 +4358,26 @@ msgid ""
 "Installationsdatei findest du im Internet unter https://www.teamviewer.com/"
 "[www.teamviewer.com^]."
 msgstr ""
+"Si vous avez des problèmes avec l'interface graphique d'agrirouter ou si "
+"vous ne trouvez pas la fonction `Se connecter à agrirouter` dans votre "
+"logiciel agricole, vous pouvez partager le contenu de votre écran avec notre "
+"équipe d'assistance.  Vous devrez utiliser TeamViewer pour cela. Vous "
+"trouverez des informations sur TeamViewer et le fichier d'installation à "
+"l'adresse https://www.teamviewer.com/[www.teamviewer.com^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:107
 msgid ""
 "Starte TeamViewer.  [.result]#Die Startseite von TeamViewer wird angezeigt.#"
 msgstr ""
+"Démarrez TeamViewer.  [.result]#La page d'accueil de TeamViewer s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:108
 msgid "Rufe unseren Support an und teile ihm deine ID und dein Passwort mit."
 msgstr ""
+"Appelez notre service d'assistance et communiquez-lui votre identifiant et "
+"votre mot de passe."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:110
@@ -4170,19 +4385,21 @@ msgid ""
 "ID und Passwort findest du auf der Startseite von TeamViewer unter der "
 "Überschrift `Fernsteuerung zulassen`."
 msgstr ""
+"Vous trouverez votre identifiant et votre mot de passe sur la page d'accueil "
+"de TeamViewer, sous le titre `Autoriser contrôle à distance`."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/support.adoc:111
 #, no-wrap
 msgid "Service"
-msgstr ""
+msgstr "Maintenance"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/support.adoc:113
 #: de/modules/ROOT/pages/support.adoc:124
 #, no-wrap
 msgid "Systemmonitor"
-msgstr ""
+msgstr "Moniteur système"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:117
@@ -4192,6 +4409,11 @@ msgid ""
 "Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + "
 "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
 msgstr ""
+"Agrirouter garantit une disponibilité de 99,5%. Il est donc très rare "
+"qu'agrirouter soit hors ligne, par exemple en raison de travaux de "
+"maintenance ou d'une panne. Les points de terminaison ne peuvent alors plus "
+"envoyer ou recevoir de données. + Le moniteur système indique si agrirouter "
+"est disponible :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:120
@@ -4199,6 +4421,8 @@ msgid ""
 "Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter."
 "statuspage.io^] .  [.result]#Der Systemmonitor wird angezeigt.#"
 msgstr ""
+"Accédez à l'adresse https://agrirouter.statuspage.io[agrirouter.statuspage."
+"io^] .  [.result]#Le moniteur système s'affiche.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:123
@@ -4209,6 +4433,11 @@ msgid ""
 "Zusammenfassung der letzten 90 Tage wird grafisch dargestellt image:two_bk."
 "icon.png[two, 30, 30].#"
 msgstr ""
+"Cliquez sur l'icône *_Déployer_* image:ar_foldout.icon.png[add, 30, 30] dans "
+"la section `Production agrirouter`.  [.result]#L'état actuel du système "
+"s'affiche image:one_bk.icon.png[one, 30, 30].# [.result]#Un résumé des 90 "
+"derniers jours est affiché sur forme de graphique image:two_bk.icon.png[two, "
+"30, 30].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:127
@@ -4218,149 +4447,159 @@ msgid ""
 "gespeichert und automatisch versendet, wenn der agrirouter wieder verfügbar "
 "ist."
 msgstr ""
+"Les données qui ne peuvent pas être envoyées lorsqu'agrirouter est hors "
+"ligne ne sont pas perdues. Elles sont stockées dans le point de terminaison "
+"ou dans agrirouter et envoyées automatiquement lorsque ce dernier est à "
+"nouveau disponible."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:130
 msgid "Diese Systemfunktionen werden vom Monitor überwacht:"
-msgstr ""
+msgstr "Les fonctions système suivantes sont surveillées par le moniteur :"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:133
 #, no-wrap
 msgid "Systemfunktion"
-msgstr ""
+msgstr "Fonctionnement du système"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:134
 #: de/modules/ROOT/pages/support.adoc:145
 #, no-wrap
 msgid "Beschreibung"
-msgstr ""
+msgstr "Description"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:134
 #, no-wrap
 msgid "User Interface"
-msgstr ""
+msgstr "Interface utilisateur"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:135
 #, no-wrap
 msgid "Ist die Anmeldung am Benutzerkonto möglich?"
-msgstr ""
+msgstr "Est-il possible de se connecter au compte utilisateur ?"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:135
 #, no-wrap
 msgid "Onboarding Service"
-msgstr ""
+msgstr "Service d'intégration"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:136
 #, no-wrap
 msgid "Kann ein Endpunkt hinzugefügt und ein Registrierungscode erzeugt werden?"
 msgstr ""
+"Est-il possible d'ajouter un point de terminaison et de générer un code "
+"d'enregistrement ?"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:136
 #, no-wrap
 msgid "Capability Message Service"
-msgstr ""
+msgstr "Service de messages de capacité"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:137
 #, no-wrap
 msgid "Kann ein Endpunkt seine Fähigkeiten im agrirouter registrieren?"
 msgstr ""
+"Un point de terminaison peut-il enregistrer ses capacités dans agrirouter ?"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:137
 #, no-wrap
 msgid "Content Message Service"
-msgstr ""
+msgstr "Service de messagerie de contenu"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:138
 #, no-wrap
 msgid "Können Endpunkte Daten austauschen?"
-msgstr ""
+msgstr "Les points de terminaison peuvent-ils échanger des données ?"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:141
 msgid "Dies sind die möglichen Systemstati und ihre Bedeutung:"
-msgstr ""
+msgstr "Voici les états possibles du système ainsi que leur signification :"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:144
 #, no-wrap
 msgid "Systemstatus"
-msgstr ""
+msgstr "État du système"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:145
 #, no-wrap
 msgid "operational"
-msgstr ""
+msgstr "opérationnel"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:146
 #, no-wrap
 msgid "Die Systemfunktion ist voll verfügbar."
-msgstr ""
+msgstr "La fonction système est entièrement disponible."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:146
 #, no-wrap
 msgid "under maintenance"
-msgstr ""
+msgstr "en cours de maintenance"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:147
 #, no-wrap
 msgid "Die Systemfunktion wird aktuell gewartet und ist nicht verfügbar."
 msgstr ""
+"La fonction système est en cours de maintenance et n'est pas disponible."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:147
 #, no-wrap
 msgid "degraded performance"
-msgstr ""
+msgstr "performance diminuée"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:148
 #, no-wrap
 msgid "Die Systemfunktion ist eingeschränkt verfügbar. Das System antwortet langsamer als erwartet."
 msgstr ""
+"La fonction système est disponible de manière limitée. Le système répond "
+"plus lentement que prévu."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:148
 #, no-wrap
 msgid "partial outage"
-msgstr ""
+msgstr "panne partielle"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:149
 #, no-wrap
 msgid "Die Systemfunktion steht nicht mehr allen Benutzer zur Verfügung."
-msgstr ""
+msgstr "La fonction système n'est plus disponible pour tous les utilisateurs."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:149
 #, no-wrap
 msgid "major outage"
-msgstr ""
+msgstr "panne majeure"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:150
 #, no-wrap
 msgid "Die Systemfunktion ist nicht verfügbar."
-msgstr ""
+msgstr "La fonction système n'est pas disponible."
 
 #. type: Title =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:4
 #, no-wrap
 msgid "Anhang A, DDIs"
-msgstr ""
+msgstr "Annexe A, DDIs"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:7
@@ -4368,21 +4607,25 @@ msgid ""
 "Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
 "Prozessparameter in Echtzeit versenden."
 msgstr ""
+"De nombreuses machines peuvent envoyer des paramètres de machine, "
+"d'emplacement et de processus en temps réel durant les travaux aux champs."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:9
 msgid "Es gibt über 600 solcher Parameter, z.B."
-msgstr ""
+msgstr "Il existe plus de 600 paramètres de ce type, par exemple :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:11
 msgid "Soll- und Istwerte in den Auftragsdaten"
-msgstr ""
+msgstr "Valeurs théoriques et réelles dans les données de commande"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:12
 msgid "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
 msgstr ""
+"Consommation de carburant, vitesse ou niveau de carburant dans les données "
+"de la machine"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:16
@@ -4394,6 +4637,12 @@ msgid ""
 "Kategorien aus.  [.result]#Alle der gewählten Kategorie zugeordneten "
 "Parameter können dann zwischen den Endpunkten ausgetauscht werden.#"
 msgstr ""
+"Nous avons regroupé les paramètres en 12 catégories pour plus de clarté.  "
+"Comme décrit dans les sections xref:endpoint.adoc#detail view[Point de "
+"terminaison] ou xref:group.adoc#detail view[Groupe], vous choisissez une ou "
+"plusieurs catégories lorsque vous créez des routes.  [.result]#Tous les "
+"paramètres associés à la catégorie sélectionnée peuvent alors être échangés "
+"entre les points de terminaison.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:21
@@ -4403,18 +4652,24 @@ msgid ""
 "sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] "
 "veröffentlicht."
 msgstr ""
+"Les paramètres de machine, d'emplacement et de processus sont définis dans "
+"la norme ISOBUS ISO 11783, où ils sont appelés DDI (Identifiant du "
+"dictionnaire de données). + Les DDI sont publiés dans le https://www.isobus."
+"net/isobus/dDEntity[Dictionnaire de données ISOBUS^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:24
 msgid ""
 "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
 msgstr ""
+"Vous trouverez ci-dessous une liste de toutes les catégories et des "
+"paramètres qui leur sont associés :"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:25
 #, no-wrap
 msgid "GPS Positionsdaten und Guidance-Informationen"
-msgstr ""
+msgstr "Données de position GPS et informations de guidage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:29
@@ -4423,12 +4678,15 @@ msgid ""
 "gemessen oder protokolliert wurden.  Daten mit Bezug zu geografischen und "
 "Guidance.Informationen."
 msgstr ""
+"Données de position GPS (coordonnées nord et est) où les données "
+"télémétriques ont été mesurées ou enregistrées.  Données relatives aux "
+"informations géographiques et de guidage."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:32
 #, no-wrap
 msgid "Allgemeine Prozessdaten"
-msgstr ""
+msgstr "Données générales du processus"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:34
@@ -4436,12 +4694,14 @@ msgid ""
 "Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
 "Ausbringung und/oder Ertrag nicht relevant sind)."
 msgstr ""
+"Compteurs de commandes et de durée de vie ou moyennes (compteurs non "
+"pertinents pour le rendement et/ou la production)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:37
 #, no-wrap
 msgid "Kraftstoff und Harnstofflösung"
-msgstr ""
+msgstr "Carburant et solution d'urée"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:40
@@ -4449,23 +4709,26 @@ msgid ""
 "Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
 "Maschinen (Gesamtenergieverbrauch)."
 msgstr ""
+"Données relatives à la consommation de carburant et de solution d'urée des "
+"machines (consommation totale d'énergie)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:43
 #, no-wrap
 msgid "Maschineneigenschaften"
-msgstr ""
+msgstr "Caractéristiques de la machine"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:46
 msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
 msgstr ""
+"Données non liées au processus concernant les caractéristiques de la machine."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:49
 #, no-wrap
 msgid "Ausbringung"
-msgstr ""
+msgstr "Épandage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:52
@@ -4473,56 +4736,60 @@ msgid ""
 "Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
 "Pflanzenschutzmittel, Trockenmasse, usw.)."
 msgstr ""
+"Données relatives à l'épandage sur le champ (par exemple, engrais, semences, "
+"produits phytosanitaires, matière sèche, etc.)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:56
 #, no-wrap
 msgid "Ertragsdaten"
-msgstr ""
+msgstr "Données de rendement"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:59
 msgid "Menge und Eigenschaften des Erntegutes"
-msgstr ""
+msgstr "Quantité et caractéristiques de la récolte"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:62
 #, no-wrap
 msgid "Prozessdaten"
-msgstr ""
+msgstr "Données de processus"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:65
 msgid "Daten über den Hauptarbeitsprozess der Maschine."
-msgstr ""
+msgstr "Données sur le processus de travail principal de la machine."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:68
 #, no-wrap
 msgid "Umgebungsbedingungen"
-msgstr ""
+msgstr "Conditions environnementales"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:71
 msgid "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
 msgstr ""
+"Données liées aux conditions environnementales (par exemple, vitesse du "
+"vent)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:74
 #, no-wrap
 msgid "Basisdaten"
-msgstr ""
+msgstr "Données de base"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:77
 msgid "Grundlegende Werte, die für das gesamte System relevant sind."
-msgstr ""
+msgstr "Valeurs de base pertinentes pour l'ensemble du système."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:80
 #, no-wrap
 msgid "Maschinendaten (nur PGN)"
-msgstr ""
+msgstr "Données machine (PGN uniquement)"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:83
@@ -4530,25 +4797,27 @@ msgid ""
 "Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
 "Hubwerksposition, Zapfwellendrehzahl, etc."
 msgstr ""
+"Données machine concernant le PGN (Parameter Group Number) ; par exemple, "
+"position du relevage, vitesse de rotation de la prise de force, etc."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:86
 #, no-wrap
 msgid "Proprietäre Daten"
-msgstr ""
+msgstr "Données propriétaires"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:89
 msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
-msgstr ""
+msgstr "Données spécifiques au fabricant (ne font pas partie de la norme)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:92
 #, no-wrap
 msgid "Bodendaten"
-msgstr ""
+msgstr "Données sur les sols"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:95
 msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
-msgstr ""
+msgstr "Conditions et données des capteurs sur la nature du sol."
