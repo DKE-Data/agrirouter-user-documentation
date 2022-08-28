@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-26 21:14+0000\n"
+"PO-Revision-Date: 2022-08-28 13:14+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -811,7 +811,7 @@ msgid ""
 "Ansicht und Inhalt des Dashboard und die Darstellung von Benachrichtigungen "
 "können eingestellt werden."
 msgstr ""
-"The dashboard display and contents, and the way notifications are displayed "
+"The dashboard display and contents, and the notification display settings "
 "can be adjusted in the settings."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -826,7 +826,7 @@ msgid ""
 "Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].  [."
 "result]#Eine Auswahlliste wird angezeigt.#"
 msgstr ""
-"Click on the *_Profile_* image:ar_profile.icon.png[logon, 30, 30] icon.  [."
+"Click the *_Profile_* image:ar_profile.icon.png[logon, 30, 30] icon.  [."
 "result]#A drop-down list is displayed.#"
 
 #. type: Plain text
@@ -838,9 +838,8 @@ msgid ""
 "Listeneintrag.#"
 msgstr ""
 "Select *_Settings_* image:ar_settings.icon.png[logon, 30, 30].  [.result]#"
-"The `Settings` window is displayed.# [.result]#The list of settings is "
-"located on the left and the details for the selected list entry are on the "
-"right.#"
+"The `Settings` window is displayed.# [.result]#The settings list is located "
+"on the left and the selected list entry details are on the right.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:172
@@ -848,7 +847,7 @@ msgid ""
 "Ändere die Einstellungen wie in den folgenden Kapiteln beschrieben und "
 "klicke dann den Button *_Sichern_*:"
 msgstr ""
-"Alter the settings as described in the following chapters, then click the "
+"Adjust the settings as described in the following chapters, then click the "
 "*_Save_* button:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -877,12 +876,12 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:183
 msgid "Klicke den Button *_Erscheinungsbild_*."
-msgstr "Click on the *_Appearance_* button."
+msgstr "Click the *_Appearance_* button."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:184
 msgid "Klicke den Reiter `Theme` und wähle das Design."
-msgstr "Click on the `Theme` tab and choose a design."
+msgstr "Click the `Theme` tab and choose a design."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:186
@@ -890,7 +889,7 @@ msgid ""
 "Klicke den Reiter `Anzeigeeinstellungen`.  [.result]#Die Optionen werden "
 "angezeigt.#"
 msgstr ""
-"Click on the `Display settings` tab.  [.result]#The options are displayed.#"
+"Click the `Display settings` tab.  [.result]#The options are displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:188
@@ -898,7 +897,7 @@ msgid ""
 "Schalte *_Große Interaktionselemente_* an.  [.result]#Die Icons, Buttons und "
 "Kacheln werden in der maximalen Größe angezeigt.#"
 msgstr ""
-"Turn on *_Large interaction elements_*.  [.result]#The icons, buttons and "
+"Turn on *_Large interaction elements_*.  [.result]#The icons, buttons, and "
 "tiles are displayed in the maximum size.#"
 
 #. type: Plain text
@@ -931,20 +930,19 @@ msgstr "Homepage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:199
-#, fuzzy
 msgid "Das Dashboard ist in 4 Reiter aufgeteilt."
 msgstr "The dashboard is divided into 4 tabs."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:201
 msgid "Zeige die Inhalte aller Reiter auf einer Seite an wie folgt:"
-msgstr "Display the contents of all tabs on one page as follows:"
+msgstr "To display the contents of all tabs on one page:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:203
 #: de/modules/ROOT/pages/account.adoc:210
 msgid "Klicke den Button *_Startseite_*."
-msgstr "Click on the *_Homepage_* button."
+msgstr "Click the *_Homepage_* button."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:204
@@ -959,7 +957,7 @@ msgstr "This is the recommended setting."
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:208
 msgid "Zeige den Inhalt des gewählten Reiters an wie folgt:"
-msgstr "Display the contents of the selected tab as follows:"
+msgstr "To display the contents of the selected tab:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:211
@@ -990,7 +988,7 @@ msgid ""
 "Ansprechpartner` ein."
 msgstr ""
 "You can set the language in the `Contact details` section of the `Account "
-"management` area."
+"administration` area."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:219
@@ -1000,8 +998,7 @@ msgstr "Proceed as described in the `User information` chapter."
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:220
 msgid "Region, Datum- und Zeitformat können nicht eingestellt werden."
-msgstr ""
-"The region, date format, and time format cannot be adjusted in the settings."
+msgstr "The region, date format, and time format cannot be set."
 
 #. type: Title =
 #: de/modules/ROOT/pages/basics.adoc:4
@@ -1020,12 +1017,11 @@ msgid ""
 "guide[Quick Start Guide^] und bei der Inbetriebnahme und weiteren Nutzung "
 "dieses Online-Handbuch lesen."
 msgstr ""
-"agrirouter is an internet-based, manufacturer-independent portal for sharing "
-"data between machines and agricultural software.  It is designed to be "
-"simple and intuitive to use, however, we recommend reading the https://my-"
-"agrirouter.com/en/agrirouter/quick-start-guide[Quick Start Guide^] before "
-"initial setup, and this online manual during initial operation and "
-"thereafter."
+"agrirouter is a web-based, manufacturer-independent portal for sharing data "
+"between machines and agricultural software.  It is designed to be simple and "
+"intuitive to use, however, we do recommend reading our https://my-agrirouter."
+"com/en/agrirouter/quick-start-guide[Quick Start Guide^] before initial "
+"setup, and this online manual during initial and ongoing operation."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/basics.adoc:9
@@ -1041,8 +1037,8 @@ msgid ""
 "Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der "
 "Inbetriebnahme und Nutzung des agrirouter:"
 msgstr ""
-"The online manual contains various chapters arranged by topic to help you "
-"set up and use the agrirouter system:"
+"This online manual contains various chapters arranged by topic to help you "
+"get set up and running with the agrirouter system:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:15
@@ -1119,7 +1115,7 @@ msgid ""
 "Kapitel xref:group.adoc#empfangen-von[Empfangen von].# [.result]#Beispiele "
 "für häufig verwendete Routen findest du xref:routing.adoc[hier...].#"
 msgstr ""
-"If you group endpoints together in a <<Group, Groups>>, you only need to set "
+"If you group endpoints together into <<Group, Groups>>, you only need to set "
 "up a route for the group and not for each member of the group.  [.result]#"
 "Add a group as described in the xref:group.adoc#add-group[Add a group] "
 "chapter.# [.result]#If you want the group to send data, follow the "
@@ -1191,7 +1187,7 @@ msgstr "*_Learning & support_* is where you can get help using agrirouter."
 #: de/modules/ROOT/pages/basics.adoc:46
 #: de/modules/ROOT/pages/introduction.adoc:54
 msgid "Dein Konto verwaltest du in der *_Kontoverwaltung_*."
-msgstr "Your account is managed in the *_Account management_* area."
+msgstr "Your account is managed in the *_Account administration_* area."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:47
@@ -1220,9 +1216,9 @@ msgid ""
 "verbunden. Für jeden verbundenen Sender und Empfänger wird im agrirouter ein "
 "Endpunkt des passenden Typs angelegt.  Es gibt folgende Endpunkt-Typen:"
 msgstr ""
-"Senders and receivers of data are paired with one another via agrirouter. "
-"For each paired sender and receiver, a corresponding endpoint is created in "
-"the agrirouter.  The available endpoint types are as follows:"
+"Senders and recipients of data are paired with one another via agrirouter. "
+"For each paired sender and recipient, a corresponding endpoint is created in "
+"agrirouter.  The types of endpoint available are:"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:55
@@ -1365,8 +1361,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
 "Kontrollzentrum wird angezeigt.#"
 msgstr ""
-"Click on the *_Control Center_* tile in the Dashboard.  [.result]#The "
-"Control Center is displayed.#"
+"Click the *_Control Center_* tile in the Dashboard.  [.result]#The Control "
+"Center is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:85 de/modules/ROOT/pages/group.adoc:23
@@ -1374,8 +1370,8 @@ msgid ""
 "Klicke den Button *_Gruppen_*.  [.result]#Links wird die Gruppenliste "
 "angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
 msgstr ""
-"Click on the *_Groups_* button.  [.result]#The group list is displayed on "
-"the left.# [.result]#The detail view is displayed on the right.#"
+"Click the *_Groups_* button.  [.result]#The group list is displayed on the "
+"left.# [.result]#The detail view is displayed on the right.#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:86
@@ -1403,12 +1399,13 @@ msgid ""
 "30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe "
 "angezeigt werden."
 msgstr ""
-"The Control Center is where you manage endpoints image:one_bk.icon.png[one, "
-"30, 30], groups image:two_bk.icon.png[two, 30, 30], and routes image:three_bk"
-".icon.png[three, 30, 30]. The endpoint or groups list image:four_bk.icon.png["
-"four, 30, 30] is located on the left in the Control Center, and the detail "
-"view image:five_bk.icon.png[five, 30, 30], which displays information on the "
-"selected endpoint or group, is located on the right."
+"The Control Center is where you create and manage endpoints image:one_bk.icon"
+".png[one, 30, 30], groups image:two_bk.icon.png[two, 30, 30], and routes "
+"image:three_bk.icon.png[three, 30, 30]. The endpoint or group list "
+"image:four_bk.icon.png[four, 30, 30] is located on the left in the Control "
+"Center, and the detail view image:five_bk.icon.png[five, 30, 30], which "
+"displays information on the selected endpoint or group, is located on the "
+"right."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:91
@@ -1504,7 +1501,7 @@ msgid ""
 "Wahl angeboten, die von Sender und Empfänger verarbeitet werden können."
 msgstr ""
 "When creating a route, you are only given the option to choose the types of "
-"message that can be processed by the sender and receiver."
+"message that can be processed by the sender and recipient."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:104
@@ -1521,7 +1518,7 @@ msgid ""
 "fließen die Daten vom Sender zum Empfänger."
 msgstr ""
 "A route is a pairing between two endpoints, meaning that data flows from the "
-"sender to the receiver via a route."
+"sender to the recipient via a route."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:109
@@ -1562,7 +1559,7 @@ msgstr "Without a route, endpoints cannot exchange messages."
 #: de/modules/ROOT/pages/introduction.adoc:120
 #, no-wrap
 msgid "Standard-Gruppen"
-msgstr "Standard groups"
+msgstr "Default groups"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:120
@@ -1570,8 +1567,8 @@ msgid ""
 "Im agrirouter gibt es zwei vordefinierte Standard-Gruppen, die du nicht "
 "löschen oder bearbeiten kannst:"
 msgstr ""
-"There are two default standard groups in agrirouter that cannot be deleted "
-"or edited:"
+"There are two pre-defined default groups in agrirouter that cannot be "
+"deleted or edited:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:122
@@ -1593,7 +1590,7 @@ msgid ""
 "beiden Standard-Gruppen:"
 msgstr ""
 "Each endpoint that you add automatically becomes a member of one of the two "
-"standard groups:"
+"default groups:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:127
@@ -1619,7 +1616,7 @@ msgid ""
 "+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
 "ohne weiteren Konfigurationsaufwand Daten empfangen und senden."
 msgstr ""
-"The standard groups enable you to quickly get set up and running with "
+"The default groups enable you to quickly get set up and running with "
 "agrirouter: + The routing is pre-defined for both groups. New endpoints can "
 "send and receive data without you spending any more time on configuration."
 
@@ -1659,31 +1656,31 @@ msgstr "Concepts"
 #: de/modules/ROOT/pages/basics.adoc:139
 #, no-wrap
 msgid "Sender - Empfänger Modell ..."
-msgstr "Sender/receiver model"
+msgstr "Sender – recipient model"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:141
 #, no-wrap
 msgid "Inbetriebnahme eines ECO-Systems ..."
-msgstr "Using an ECO system for the first time"
+msgstr "ECO system implementation"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:143
 #, no-wrap
 msgid "Maschine verbinden ..."
-msgstr "Pair a machine"
+msgstr "Pairing a machine"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:145
 #, no-wrap
 msgid "Agrar-Software verbinden ..."
-msgstr "Pair agricultural software"
+msgstr "Pairing agricultural software"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:147
 #, no-wrap
 msgid "Kommunikationseinheit verbinden ..."
-msgstr "Pair a communication unit"
+msgstr "Pairing a communication unit"
 
 #. type: Title =
 #: de/modules/ROOT/pages/endpoint.adoc:4
@@ -1698,9 +1695,8 @@ msgid ""
 "austauschen soll, musst du einen xref:introduction.adoc#endpunkt[Endpunkt] "
 "hinzufügen."
 msgstr ""
-"For every machine and agricultural software solution you want use to share "
-"data via agrirouter, you need to add an xref:introduction."
-"adoc#endpoint[endpoint]."
+"For every machine and agricultural software solution you want to share data "
+"via agrirouter, you need to add an xref:introduction.adoc#endpoint[endpoint]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:11
@@ -1711,7 +1707,7 @@ msgstr "How to add, edit, and delete an endpoint"
 #: de/modules/ROOT/pages/endpoint.adoc:12
 msgid ""
 "wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst"
-msgstr "How to create xref:introduction.adoc#route[the routes] for an endpoint"
+msgstr "How to create xref:introduction.adoc#route[routes] for an endpoint"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:13 de/modules/ROOT/pages/group.adoc:15
@@ -1736,9 +1732,9 @@ msgid ""
 "Kontrollzentrum wird geöffnet.# [.result]#Links wird die Endpunkteliste "
 "angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
 msgstr ""
-"In the Dashboard, click on the *_Control Center_* tile.  [.result]#The "
-"Control Center is opened.# [.result]#The endpoint list is displayed on the "
-"left.# [.result]#The detail view is displayed on the right.#"
+"In the Dashboard, click the *_Control Center_* tile.  [.result]#The Control "
+"Center is opened.# [.result]#The endpoint list is displayed on the left.# [."
+"result]#The detail view is displayed on the right.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:21
@@ -1800,7 +1796,7 @@ msgid ""
 "Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[Burger menue, 30, "
 "30].  [.result]#Die Endpunkteliste wird angezeigt.#"
 msgstr ""
-"Click on the *_burger menu_* image:ar_burger.icon.png[Burger menue, 30, 30] "
+"Click the *_burger menu_* image:ar_burger.icon.png[Burger menue, 30, 30] "
 "icon.  [.result]#The endpoint list is displayed.#"
 
 #. type: Plain text
@@ -1861,8 +1857,8 @@ msgid ""
 "Klicke den Button *_+ Telemetrie-Verbindung_*.  [.result]#Das Fenster "
 "`Telemetrie-Verbindung auswählen` wird angezeigt.#"
 msgstr ""
-"Click on the *_+ Telemetry pairing_* button.  [.result]#The `Select "
-"telemetry pairing` window is displayed.#"
+"Click the *_+ Telemetry pairing_* button.  [.result]#The `Select telemetry "
+"pairing` window is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:76
@@ -1885,7 +1881,7 @@ msgid ""
 "Notiere den Registrierungscode und klicke *_Schließen_*.  [.result]#Die "
 "Endpunkteliste wird angezeigt.#"
 msgstr ""
-"Make a note of the registration code and click *_Close_*.  [.result]#The "
+"Make a note of the registration code, then click *_Close_*.  [.result]#The "
 "endpoint list is displayed.#"
 
 #. type: delimited block =
@@ -1895,9 +1891,9 @@ msgid ""
 "Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:"
 "ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
 msgstr ""
-"Click on the *_Copy_* image:ar_copy.icon.png[copy, 30, 30] icon to copy the "
-"code to the clipboard. + Click on the *_Print_* image:ar_print.icon.png["
-"print, 30, 30] icon to print out the code."
+"Click the *_Copy_* image:ar_copy.icon.png[copy, 30, 30] icon to copy the "
+"code to the clipboard. + Click the *_Print_* image:ar_print.icon.png[print, "
+"30, 30] icon to print out the code."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:91
@@ -1911,14 +1907,14 @@ msgid ""
 "icon.png[refresh, 30, 30].  [.result]#Die Telemetrie-Einheit wird der "
 "Endpunkteliste hinzugefügt.#"
 msgstr ""
-"In the endpoint list, click on the *_Refresh_* image:ar_refresh.icon.png["
+"In the endpoint list, click the *_Refresh_* image:ar_refresh.icon.png["
 "refresh, 30, 30] icon.  [.result]#The telemetry unit is added to the "
 "endpoint list.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:94
 msgid "Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben."
-msgstr "Alter the name as described in the `Edit endpoint` section."
+msgstr "Change the name as described in the `Edit endpoint` section."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:96
@@ -1937,7 +1933,7 @@ msgid ""
 "Sender oder Empfänger ausgewählt werden."
 msgstr ""
 "If the machine is an ISOBUS machine, it is also added to the end point list. "
-"This allows ISOBUS machines to be selected as either senders or receivers "
+"This allows ISOBUS machines to be selected as either senders or recipients "
 "for routing purposes."
 
 #. type: Title ===
@@ -1950,7 +1946,7 @@ msgstr "Pairing agricultural software"
 #: de/modules/ROOT/pages/endpoint.adoc:101
 msgid ""
 "Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:"
-msgstr "To pair an agricultural software platform to agrirouter:"
+msgstr "To pair an agricultural software solution with agrirouter:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:103
@@ -1964,9 +1960,9 @@ msgid ""
 "Benutzerdaten deines agrirouter-Kontos ein.  [.result]#Die Agrarsoftware "
 "verbindet sich mit dem agrirouter.#"
 msgstr ""
-"Execute the *_Connect to agrirouter_* function and enter the user "
-"credentials for your agrirouter account.  [.result]#The agricultural "
-"software platform pairs with agrirouter.#"
+"Execute the *_Pair with agrirouter_* function and enter the user credentials "
+"for your agrirouter account.  [.result]#The agricultural software solution "
+"pairs with agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:107
@@ -1975,9 +1971,9 @@ msgid ""
 "Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].  [."
 "result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#"
 msgstr ""
-"Open the Control Center in agrirouter and click on the *_Refresh_* "
-"image:ar_refresh.icon.png[refresh, 30, 30] icon in the endpoints list.  [."
-"result]#The agricultural software is displayed in the endpoints list.#"
+"Open the Control Center in agrirouter and click the *_Refresh_* "
+"image:ar_refresh.icon.png[refresh, 30, 30] icon in the endpoint list.  [."
+"result]#The agricultural software is displayed in the endpoint list.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:109
@@ -1987,10 +1983,9 @@ msgid ""
 "Weitere Informationen findest du in der Bedienungsanleitung der "
 "Agrarsoftware."
 msgstr ""
-"The *_Connect to agrirouter_* function (the description differs in some "
-"cases) can usually be found in the settings of the agricultural software. "
-"Further information can be found in the user manual of the agricultural "
-"software."
+"The *_Pair with agrirouter_* function (description may differ in some cases) "
+"can usually be found in the agricultural software settings. Further "
+"information can be found in the agricultural software user manual."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:111
@@ -1999,7 +1994,7 @@ msgid ""
 "findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]"
 msgstr ""
 "For a complete list of agricultural software solutions with an agrirouter "
-"interface, see https://agrirouter.com/en/marketplace/apps/[here...^]"
+"interface, see https://agrirouter.com/en/marketplace/apps/[here^]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:112
@@ -2022,9 +2017,8 @@ msgid ""
 "Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_search.icon."
 "png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
 msgstr ""
-"Click the *_Search_* icon above the endpoint list image:ar_search.icon.png["
-"search, 30, 30].  [.result]#The cursor flashes in the *_Search_* input "
-"field.#"
+"Click the *_Search_* image:ar_search.icon.png[search, 30, 30] icon above the "
+"endpoint list.  [.result]#The cursor flashes in the *_Search_* input field.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
@@ -2032,8 +2026,8 @@ msgid ""
 "Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.  [."
 "result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#"
 msgstr ""
-"Enter the name or machine class of the endpoint you are looking for.  [."
-"result]#The endpoint list refreshes as you type.#"
+"Enter the name or machine class of the endpoint you are searching for.  [."
+"result]#The endpoint list updates as you type.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:121 de/modules/ROOT/pages/group.adoc:80
@@ -2084,7 +2078,7 @@ msgid ""
 "zugeordnet. Diese gibt an, um welche Art landwirtschaftliche Maschine es "
 "sich handelt, z.B. Dünger, Spritze, etc. ... ."
 msgstr ""
-"A `Machine` type endpoint is automatically assigned a machine class. This "
+"A `Machine` endpoint type is automatically assigned a machine class. This "
 "indicates the type of agricultural machine it is, e.g. fertiliser spreader, "
 "sprayer, etc."
 
@@ -2121,7 +2115,7 @@ msgid ""
 "Wähle eine Option und bestätige mit *_OK_*.  [.result]#Die gefilterte "
 "Endpunkteliste wird angezeigt.#"
 msgstr ""
-"Choose an option and confirm by pressing *_OK_*.  [.result]#The filtered "
+"Choose an option, then confirm by pressing *_OK_*.  [.result]#The filtered "
 "endpoint list is displayed.#"
 
 #. type: Plain text
@@ -2290,7 +2284,7 @@ msgstr "Add a recipient"
 msgid ""
 "Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt "
 "oder eine Gruppe:"
-msgstr "You create the route for sending data to another endpoint or group:"
+msgstr "Create a route to send data to another endpoint or a group:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:191
@@ -2309,7 +2303,7 @@ msgid ""
 "Klicke in das Eingabefeld *_Empfänger_*.  [.result]#Die Auswahlliste "
 "`Endpunkt auswählen` wird angezeigt.#"
 msgstr ""
-"Click on the *_Recipient_* input field.  [.result]#The `Select endpoint` "
+"Click into the *_Recipient_* input field.  [.result]#The `Select endpoint` "
 "drop-down list is displayed.#"
 
 #. type: Plain text
@@ -2326,8 +2320,8 @@ msgid ""
 "Klicke in das Eingabefeld *_Nachrichtenformate_*.  [.result]#Die "
 "Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#"
 msgstr ""
-"Click on the *_Message formats_* input field.  [.result]#The `Select message "
-"formats` drop-down list is displayed.#"
+"Click into the *_Message formats_* input field.  [.result]#The `Select "
+"message formats` drop-down list is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:198
@@ -2335,7 +2329,8 @@ msgid ""
 "Wähle die Nachrichten, die der Empfänger erhalten soll und klicke "
 "*_Bestätigen_*."
 msgstr ""
-"Select the messages you want the recipient to receive and click *_Confirm_*."
+"Select the messages you want the recipient to receive, then click "
+"*_Confirm_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:200
@@ -2345,8 +2340,8 @@ msgid ""
 "Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
 "result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
 msgstr ""
-"Click on the *_Telemetry parameter categories_* input field.  [.result]#The `"
-"Telemetry parameter categories` form is displayed.#"
+"Click into the *_Telemetry parameter categories_* input field.  [.result]#"
+"The `Telemetry parameter categories` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:202
@@ -2355,8 +2350,8 @@ msgid ""
 "Wähle eine oder mehrere Kategorien und klicke Bestätigen.  [.result]#Das "
 "Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
-"Click one or more categories then click confirm.  [.result]#The `New routing`"
-" form is displayed.#"
+"Select one or more categories, then click *_Confirm_*.  [.result]#The `New "
+"routing` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:204 de/modules/ROOT/pages/group.adoc:131
@@ -2417,7 +2412,7 @@ msgstr ""
 msgid ""
 "Ändere die Eigenschaften des Empfängers und klicke den Button *_Bestätigen_*."
 msgstr ""
-"Adjust the properties of the recipient and click the *_Confirm_* button."
+"Adjust the properties of the recipient, then click the *_Confirm_* button."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:217 de/modules/ROOT/pages/group.adoc:142
@@ -2501,7 +2496,7 @@ msgstr "Add a sender"
 msgid ""
 "Du erstellst die Route für den Empfang von Daten von einem anderen Endpunkt "
 "oder einer Gruppe:"
-msgstr "You create the route for receiving data from another endpoint or group:"
+msgstr "Create a route to receive data from another endpoint or a group:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:246 de/modules/ROOT/pages/group.adoc:169
@@ -2524,7 +2519,7 @@ msgid ""
 "Wähle die Nachrichten, die der Sender senden soll und klicke "
 "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
-"Select the messages you want the sender to send and click *_Confirm_*.  [."
+"Select the messages you want the sender to send, then click *_Confirm_*.  [."
 "result]#The 'New routing' form is displayed.#"
 
 #. type: Plain text
@@ -2564,7 +2559,7 @@ msgstr "Edit a sender"
 #: de/modules/ROOT/pages/endpoint.adoc:272 de/modules/ROOT/pages/group.adoc:191
 msgid ""
 "Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
-msgstr "Adjust the properties of the sender and click the *_Confirm_* button."
+msgstr "Adjust the properties of the sender, then click the *_Confirm_* button."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:273 de/modules/ROOT/pages/group.adoc:192
@@ -2623,8 +2618,8 @@ msgid ""
 "Die Daten im Reiter werden nicht automatisch aktualisiert.  Aktualisiere, "
 "wenn du das Postfach auf eingehende oder verarbeitete Nachrichten überwachst:"
 msgstr ""
-"The data in the tab is not updated automatically.  Refresh it when you check "
-"the mailbox for incoming or processed messages:"
+"The data in the tab is not automatically refreshed.  Refresh it when you "
+"check the mailbox for incoming or processed messages:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:297
@@ -2661,7 +2656,7 @@ msgstr "External machines"
 #: de/modules/ROOT/pages/endpoint.adoc:304
 msgid ""
 "Dieser Reiter wird nur bei Endpunkten vom Typ `Verbundenes Konto` angezeigt."
-msgstr "This tab is only displayed for `Paired account` endpoints."
+msgstr "This tab is only displayed for `Paired account` endpoint types."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:306
@@ -2742,7 +2737,7 @@ msgid ""
 "Endpunkteliste wird der neue Name angezeigt.# [.result]#Im Reiter `Details` "
 "der Detailansicht wird die neue Beschreibung angezeigt.#"
 msgstr ""
-"Enter the name and description and click *_Confirm_*.  [.result]#The new "
+"Enter the name and description, then click *_Confirm_*.  [.result]#The new "
 "name is displayed in the endpoint list.# [.result]#The new description is "
 "displayed in the `Details` tab of the detail view.#"
 
@@ -2781,7 +2776,7 @@ msgid ""
 "Setze den Schalter *_Aktiv_* auf `AN`.  [.result]#Der Endpunkt ist aktiviert."
 "#"
 msgstr ""
-"Toggle the *_Active_* switch to `ON`.  [.result]#The endpoint is enabled.#"
+"Toggle the *_Active_* switch to `ON`.  [.result]#The endpoint is activated.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:346 de/modules/ROOT/pages/group.adoc:240
@@ -3023,7 +3018,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:66
 msgid "Gebe den Namen und optional eine kurze Beschreibung ein."
-msgstr "Enter the name and, if applicable, a short description."
+msgstr "Enter the name and an optional short description."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:68
@@ -3038,8 +3033,8 @@ msgid ""
 "Wenn du viele Gruppen hast, empfiehlt es sich, eine erklärende Beschreibung "
 "einzugeben. Diese wird in der Detailansicht angezeigt."
 msgstr ""
-"If you have a large number of groups, it is advisable to enter a "
-"description. This will be displayed in the detail view."
+"If you have a large number of groups, we recommend entering a description. "
+"This is displayed in the detail view."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/group.adoc:71
@@ -3138,7 +3133,7 @@ msgstr ""
 msgid ""
 "Du erstellst die Route für den Versand von Daten an eine andere Gruppe oder "
 "einen Endpunkt:"
-msgstr "You create the route for sending data to another group or endpoint:"
+msgstr "Create a route to send data to another group or an endpoint:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:125
@@ -3200,7 +3195,7 @@ msgstr ""
 msgid ""
 "Du erstellst die Route für den Empfang von Daten von einer anderen Gruppe "
 "oder einem Endpunkt:"
-msgstr "You create the route for receiving data from another group or endpoint:"
+msgstr "Create a route to receive data from another group or an endpoint:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:175
