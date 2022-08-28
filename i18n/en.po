@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-28 13:14+0000\n"
+"PO-Revision-Date: 2022-08-28 15:42+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -681,8 +681,8 @@ msgid ""
 "Ansprechpartner`.  [.result]#Das Formular `Daten Ansprechpartner bearbeiten` "
 "wird angezeigt.#"
 msgstr ""
-"Click on the *_Edit_* button in the `Contact information` section.  [."
-"result]#The `Edit contact information` form is displayed.#"
+"Click the *_Edit_* button in the `Contact information` section.  [.result]#"
+"The `Edit contact information` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:121
@@ -696,8 +696,8 @@ msgid ""
 "Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.  [."
 "result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#"
 msgstr ""
-"Click on the *_Edit_* button in the `Company information` section.  [."
-"result]#The `Edit company information` form is displayed.#"
+"Click the *_Edit_* button in the `Company information` section.  [.result]#"
+"The `Edit company information` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:126
@@ -1083,10 +1083,11 @@ msgid ""
 "verbinden[Maschine verbinden] und xref:endpoint.adoc#agrarsoftware-"
 "verbinden[Agrarsoftware verbinden] beschrieben.#"
 msgstr ""
-"Machines and farm software platforms can share data with one another if you "
-"register them in agrirouter as <<Endpoint,Endpoints>>.  [.result]#Add "
+"Machines and agricultural software platforms can share data with one another "
+"if you register them in agrirouter as <<Endpoint,Endpoints>>.  [.result]#Add "
 "endpoints as described in the xref:endpoint.adoc#pair-machine[Pair machine] "
-"and xref:endpoint.adoc#pair-farm-software[Pair farm software] chapters.#"
+"and xref:endpoint.adoc#pair-farm-software[Pair agricultural software] "
+"chapters.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:28
@@ -1265,7 +1266,7 @@ msgstr ""
 #: de/modules/ROOT/pages/introduction.adoc:67
 #, no-wrap
 msgid "Agrarsoftware"
-msgstr "Farm software"
+msgstr "Agricultural software"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:60
@@ -1278,8 +1279,8 @@ msgid ""
 msgstr ""
 "Field catalogues, apps for farmers and agricultural contractors, "
 "manufacturer-specific data management software and much more besides. A "
-"complete list of farm software solutions with an agrirouter interface can be "
-"found https://agrirouter.com/en/marketplace/apps[here^]."
+"complete list of agricultural software solutions with an agrirouter "
+"interface can be found https://agrirouter.com/en/marketplace/apps[here^]."
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:61
@@ -2520,7 +2521,7 @@ msgid ""
 "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
 "Select the messages you want the sender to send, then click *_Confirm_*.  [."
-"result]#The 'New routing' form is displayed.#"
+"result]#The `New routing` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:254
@@ -3065,8 +3066,8 @@ msgid ""
 "Gebe den Namen oder Teile des Namens der gesuchten Gruppe ein.  [."
 "result]#Bereits beim Tippen wird die Gruppenliste aktualisiert.#"
 msgstr ""
-"Enter all or part of the name of the group you are searching for.  [.result]#"
-"The group list updates as you type.#"
+"Enter the name – in full or in part – of the group you are searching for.  [."
+"result]#The group list updates as you type.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:83
@@ -3102,9 +3103,9 @@ msgid ""
 "Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe "
 "austauschen und fügst der Gruppe Mitglieder hinzu."
 msgstr ""
-"The detail view provides a summary of all the information on a group.  This "
-"is where you can manage the endpoints and groups that share data with the "
-"group, and add members to the group."
+"The detail view provides a summary of all the information about a group.  "
+"This is where you can manage the endpoints and groups that share data with "
+"the group, and add members to the group."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:97
@@ -3112,8 +3113,8 @@ msgid ""
 "Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,"
 "Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt."
 msgstr ""
-"The detail view is divided into several tabs: <<send-to,Send to>>, <<receive-"
-"from,Receive from>>, and <<members,Members>>."
+"The detail view is divided into the following tabs: <<send-to,Send to>>, "
+"<<receive-from,Receive from>>, and <<members,Members>>."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:105
@@ -3150,7 +3151,7 @@ msgid ""
 "Wähle eine oder mehrere Kategorien und klicke *_Bestätigen_*.  [.result]#Das "
 "Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
-"Choose one or more categories then click *_Confirm_*.  [.result]#The `New "
+"Choose one or more categories, then click *_Confirm_*.  [.result]#The `New "
 "routing` form is displayed.#"
 
 #. type: Plain text
@@ -3203,8 +3204,8 @@ msgid ""
 "Wähle die Nachrichtenformate, die der Sender senden soll und klicke "
 "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
-"Choose the message formats you want the sender to send then click *_Confirm_*"
-".  [.result]#The `New routing` form is displayed.#"
+"Choose the message formats you want the sender to send, then click "
+"*_Confirm_*.  [.result]#The `New routing` form is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:183
@@ -3268,8 +3269,8 @@ msgid ""
 "Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der "
 "Gruppenliste hinzufügen."
 msgstr ""
-"You can add endpoints to the group from the endpoints list and groups from "
-"the groups list."
+"You can add endpoints to a group from the endpoint list and groups from the "
+"group list."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:212
@@ -3286,7 +3287,7 @@ msgid ""
 "Wähle das neue Mitglied und klicke *_Bestätigen_*.  [.result]#Das Mitglied "
 "wird hinzugefügt.#"
 msgstr ""
-"Select the new member then click *_Confirm_*.  [.result]#The member is "
+"Select the new member, then click *_Confirm_*.  [.result]#The member is "
 "added.#"
 
 #. type: Title ====
@@ -3358,7 +3359,7 @@ msgid ""
 "Gruppenliste wird der neue Name angezeigt.# [.result]#In der Detailansicht "
 "der Gruppe wird die neue Beschreibung angezeigt.#"
 msgstr ""
-"Change the name and description and click *_Confirm_*.  [.result]#The new "
+"Change the name and description, then click *_Confirm_*.  [.result]#The new "
 "name is displayed in the group list.# [.result]#The new description is "
 "displayed in the group detail view.#"
 
@@ -3414,8 +3415,8 @@ msgid ""
 "hast die Wahl."
 msgstr ""
 "agrirouter is a web-based, cross-manufacturer portal for sharing data "
-"between machines and agricultural software systems.  Or between machines. Or "
-"between agricultural software systems. You decide."
+"between machines and agricultural software systems, between machines, and "
+"between agricultural software systems – you decide."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:10
@@ -3455,11 +3456,11 @@ msgid ""
 "verbinden] und xref:endpoint.adoc#agrarsoftware-verbinden[Agrarsoftware "
 "verbinden] beschrieben.#"
 msgstr ""
-"Machines and agricultural software platforms can share data once you have "
-"added them to agrirouter as an <<endpoint,endpoints>>.  [.result]#Add "
-"endpoints as described in the xref:endpoint.adoc#pair-machine[Pair a machine]"
-" and xref:endpoint.adoc#pair-agricultural-software[Pair agricultural "
-"software] chapters.#"
+"Machines and agricultural software can share data once you have added them "
+"to agrirouter as <<endpoint,endpoints>>.  [.result]#Add endpoints as "
+"described in the xref:endpoint.adoc#pair-machine[Pair a machine] and "
+"xref:endpoint.adoc#pair-agricultural-software[Pair agricultural software] "
+"chapters.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:37
@@ -3487,7 +3488,7 @@ msgid ""
 "an].# [.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im "
 "Kapitel xref:group.adoc#empfangen-von[Empfangen von].#"
 msgstr ""
-"If you group endpoints together in <<Group, groups>>, you only need to set "
+"If you group endpoints together into <<Group, groups>>, you only need to set "
 "up routes for the group and not for each member of the group.  [.result]#Add "
 "a group as described in the xref:group.adoc#add-group[Add a group] chapter.# "
 "[.result]#If you want the group to send data, follow the instructions in the "
@@ -3560,8 +3561,8 @@ msgid ""
 "+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
 "ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
 msgstr ""
-"The default groups enable you to quickly set up and start using agrirouter: +"
-" The routing is pre-defined for both groups. New endpoints can send and "
+"The default groups enable you to quickly get agrirouter up and running: + "
+"The routing is pre-defined for both groups. New endpoints can send and "
 "receive data without you spending any more time on configuration. +"
 
 #. type: delimited block =
@@ -3635,7 +3636,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:28
 msgid "wann und welche Routen automatisch angelegt werden"
-msgstr "Which routes are created automatically and when"
+msgstr "Which routes are created automatically, and when"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:29
@@ -3698,7 +3699,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#senden-an[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an outbound route for an endpoint, "
-"see xref:endpoint.adoc#send-to[here]"
+"see xref:endpoint.adoc#send-to[here]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:43
@@ -3707,7 +3708,7 @@ msgid ""
 "erfährst du xref:group.adoc#senden-an[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an outbound route for a group, see "
-"xref:group.adoc#send-to[here]"
+"xref:group.adoc#send-to[here]."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:44
@@ -3729,7 +3730,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#empfangen-von[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an inbound route for an endpoint, "
-"see xref:endpoint.adoc#receive-from[here]"
+"see xref:endpoint.adoc#receive-from[here]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:49
@@ -3738,7 +3739,7 @@ msgid ""
 "löscht, erfährst du xref:group.adoc#empfangen-von[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an inbound route for a group, see "
-"xref:group.adoc#receive-from[here]"
+"xref:group.adoc#receive-from[here]."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:50
@@ -3782,7 +3783,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:59
 msgid "Gebe den Namen `Alle` ein und klicke *_Bestätigen_*."
-msgstr "Enter the name `All` then click *_Confirm_*."
+msgstr "Enter the name `All`, then click *_Confirm_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:61
@@ -3846,8 +3847,8 @@ msgid ""
 "Wähle alle Endpunkte und klicke *_Bestätigen_*.  [.result]#Alle Endpunkte "
 "werden der Gruppe `Alle` hinzugefügt.#"
 msgstr ""
-"Select all the endpoints and click *_Confirm_*.  [.result]#All endpoints are "
-"added to the `All` group.#"
+"Select all the endpoints, then click *_Confirm_*.  [.result]#All endpoints "
+"are added to the `All` group.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/routing.adoc:75
@@ -3949,7 +3950,7 @@ msgstr "You can find this data within the endpoint's support information:"
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:37
 msgid "Wähle in der Endpunkteliste den Endpunkt."
-msgstr "Select the end point from the end point list"
+msgstr "Select the endpoint from the endpoint list"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:39
@@ -3981,7 +3982,7 @@ msgid ""
 "deine Anfragen mit anderen Benutzern teilen."
 msgstr ""
 "We recommend that you create a user account in the Help Center.  Your "
-"requests – including our answers – will be stored in this account, and you "
+"requests – including our answers – will be stored in this account and you "
 "will be able to share your requests with other users."
 
 #. type: Plain text
@@ -4016,7 +4017,7 @@ msgid ""
 "Gebe deine E-Mail-Adresse ein und klicke *_Link senden_*.  [.result]#Du "
 "erhälst eine E-Mail mit dem Aktivierungslink.#"
 msgstr ""
-"Enter your email address and click *_Send link_*.  [.result]#You are sent an "
+"Enter your email address and click *_Send link_*.  [.result]#You receive an "
 "email containing an activation link.#"
 
 #. type: delimited block =
@@ -4025,7 +4026,7 @@ msgid ""
 "Klicke auf den Aktivierungslink.  [.result]#Das Formular `Anmelden` wird "
 "angezeigt.#"
 msgstr ""
-"Click on the activation link.  [.result]#The `Register` form is displayed.#"
+"Click the activation link.  [.result]#The `Register` form is displayed.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:66
@@ -4179,9 +4180,9 @@ msgid ""
 msgstr ""
 "If you are experiencing problems with the agrirouter user interface display "
 "or can't find the `Connect to agrirouter` function in your agricultural "
-"software platform, you can share your screen content with our support team.  "
-"We use TeamViewer for this. Information about TeamViewer can be found online "
-"at https://www.teamviewer.com/[www.teamviewer.com^], along with the software "
+"software, you can share your screen content with our support team.  We use "
+"TeamViewer for this. Information about TeamViewer can be found online at "
+"https://www.teamviewer.com/[www.teamviewer.com^], along with the software "
 "installation file."
 
 #. type: Plain text
@@ -4201,7 +4202,7 @@ msgid ""
 "ID und Passwort findest du auf der Startseite von TeamViewer unter der "
 "Überschrift `Fernsteuerung zulassen`."
 msgstr ""
-"Your ID and password are located under the 'Allow remote control' heading on "
+"Your ID and password are located under the `Allow remote control` heading on "
 "the TeamViewer homepage."
 
 #. type: Title ==
@@ -4225,10 +4226,10 @@ msgid ""
 "Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + "
 "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
 msgstr ""
-"agrirouter guarantees an uptime of 99.5%. So the platform is only offline on "
-"very rare occasions, e.g. due to maintenance work or a fault. During these "
-"times, endpoints are unable to send or receive data. + The platform "
-"monitoring portal shows whether the agrirouter is available:"
+"agrirouter guarantees an uptime of 99.5%. That means the platform is only "
+"offline on very rare occasions, e.g. due to maintenance work or a fault. "
+"During these times, endpoints are unable to send or receive data. + The "
+"platform monitoring portal shows whether the agrirouter is available:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:120
@@ -4236,7 +4237,7 @@ msgid ""
 "Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter."
 "statuspage.io^] .  [.result]#Der Systemmonitor wird angezeigt.#"
 msgstr ""
-"In your browser, navigate to https://agrirouter.statuspage.io[agrirouter."
+"In your web browser, navigate to https://agrirouter.statuspage.io[agrirouter."
 "statuspage.io^] .  [.result]#The platform monitoring portal is displayed.#"
 
 #. type: Plain text
@@ -4251,8 +4252,7 @@ msgstr ""
 "Click the *_Expand_* image:ar_foldout.icon.png[add, 30, 30] icon in the `"
 "agrirouter Production` section.  [.result]#The current system status is "
 "displayed image:one_bk.icon.png[one, 30, 30].# [.result]#A summary of the "
-"last 90 days is displayed in a graphical format image:two_bk.icon.png[two, "
-"30, 30].#"
+"last 90 days is graphically displayed image:two_bk.icon.png[two, 30, 30].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:127
@@ -4294,7 +4294,7 @@ msgstr "User interface"
 #: de/modules/ROOT/pages/support.adoc:135
 #, no-wrap
 msgid "Ist die Anmeldung am Benutzerkonto möglich?"
-msgstr "Is it possible to log in to the user account?"
+msgstr "Is it possible to login to the user account?"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:135
@@ -4446,8 +4446,8 @@ msgid ""
 "Kategorien aus.  [.result]#Alle der gewählten Kategorie zugeordneten "
 "Parameter können dann zwischen den Endpunkten ausgetauscht werden.#"
 msgstr ""
-"We have grouped the parameters into 12 categories for a better overview.  As "
-"described in the xref:endpoint.adoc#detailview[endpoint] and xref:group."
+"We have summarised the parameters into 12 categories for a better overview.  "
+"As described in the xref:endpoint.adoc#detailview[endpoint] and xref:group."
 "adoc#detailview[group] sections, you select one or more categories when "
 "creating routes.  [.result]#All parameters associated with the selected "
 "category can then be shared between endpoints.#"
@@ -4469,8 +4469,7 @@ msgstr ""
 #: de/modules/ROOT/pages/appendix/ddis.adoc:24
 msgid ""
 "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
-msgstr ""
-"Below is a list of all the categories and the parameters assigned to them:"
+msgstr "Below is a list of all the categories and their assigned parameters:"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:25
@@ -4485,7 +4484,7 @@ msgid ""
 "gemessen oder protokolliert wurden.  Daten mit Bezug zu geografischen und "
 "Guidance.Informationen."
 msgstr ""
-"GPS position data (north and east coordinates) for the position where "
+"GPS data (north and east coordinates) for the position at which the "
 "telemetry data was measured or logged.  Data related to geographic and "
 "guidance information."
 
