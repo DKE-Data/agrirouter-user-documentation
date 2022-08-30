@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-28 15:42+0000\n"
+"PO-Revision-Date: 2022-08-30 10:14+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -111,7 +111,7 @@ msgid ""
 "Du kannst dein Konto mit den Konten anderer Nutzer verbinden.  Das "
 "verbundene Konto kann Daten von dir empfangen und Daten an dich senden."
 msgstr ""
-"You can pair your account with those of other users.  A paired account can "
+"You can pair your account with those of other users. A paired account can "
 "receive data from you and send data to you in return."
 
 #. type: Plain text
@@ -144,7 +144,7 @@ msgid ""
 "Kontoinhaber eine Einladung.  Dazu benötigst du die E-Mail-Adresse des "
 "Kontos."
 msgstr ""
-"To pair your account with another, you send an invite to the account owner.  "
+"To pair your account with another, you send an invite to the account owner. "
 "To do this, you need to know the email address of the account."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
@@ -162,8 +162,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
-"In the dashboard, click the *_Account pairing_* tile.  [.result]#The `"
-"Account pairing` window is displayed.#"
+"In the dashboard, click the *_Account pairing_* tile. [.result]#The `Account "
+"pairing` window is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -192,7 +192,7 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
-"Click the *_Send invite_* button.  [.result]#The invite is sent to the other "
+"Click the *_Send invite_* button. [.result]#The invite is sent to the other "
 "account.# [.result]#The invite is displayed in the `Pending invites` tab "
 "until it has been accepted by the owner of the other account.#"
 
@@ -223,7 +223,7 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-"Select the invite in the `Pending invites` tab.  [.result]#The list entry "
+"Select the invite in the `Pending invites` tab. [.result]#The list entry "
 "turns green.#"
 
 #. type: delimited block =
@@ -252,7 +252,7 @@ msgid ""
 "und noch nicht bearbeitet hast."
 msgstr ""
 "The procedure described above also works in reverse – you can be invited by "
-"another account.  The `Incoming` line of the `Account pairing` tile displays "
+"another account. The `Incoming` line of the `Account pairing` tile displays "
 "the invites you have received but not yet processed."
 
 #. type: Plain text
@@ -261,7 +261,7 @@ msgid ""
 "Wähle im Reiter `Empfangene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-"Select the invite in the `Incoming invites` tab.  [.result]#The list entry "
+"Select the invite in the `Incoming invites` tab. [.result]#The list entry "
 "turns green.#"
 
 #. type: Plain text
@@ -273,7 +273,7 @@ msgid ""
 "result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, "
 "dass du seine Einladung angenommen hast.#"
 msgstr ""
-"Click the *_Accept invite_* button.  [.result]#The two accounts are paired "
+"Click the *_Accept invite_* button.[.result]#The two accounts are paired "
 "with one another.# [.result]#The account is moved to the `Paired` tab.# [."
 "result]#The account is added to the endpoint list.# [.result]#The account "
 "owner is informed by email that you have accepted their invitation.#"
@@ -307,7 +307,7 @@ msgid ""
 "Wähle im Reiter `Verbunden` das Konto.  [.result]#Der Listeneintrag wird "
 "grün eingefärbt.#"
 msgstr ""
-"Select the account in the `Paired` tab.  [.result]#The list entry turns "
+"Select the account in the `Paired` tab. [.result]#The list entry turns "
 "green.#"
 
 #. type: Plain text
@@ -381,7 +381,7 @@ msgid ""
 "Im Abschnitt xref:endpoint.adoc#senden-an[Senden an] erfährst du, wie das "
 "verbundene Konto Daten an deine Endpunkte und Gruppen senden kann."
 msgstr ""
-"The xref:endpoint.adoc#send-to[Send to] section explains how the paired "
+"The xref:endpoint.adoc#senden-an[Send to] section explains how the paired "
 "account can send data to your endpoints and groups."
 
 #. type: Plain text
@@ -391,7 +391,7 @@ msgid ""
 "wie das verbundene Konto Daten von deinen Endpunkten und Gruppen empfangen "
 "kann."
 msgstr ""
-"The xref:endpoint.adoc#receive-from[Receive from] section explains how the "
+"The xref:endpoint.adoc#empfangen-von[Receive from] section explains how the "
 "paired account can receive data from your endpoints and groups."
 
 #. type: Title ===
@@ -1017,8 +1017,8 @@ msgid ""
 "guide[Quick Start Guide^] und bei der Inbetriebnahme und weiteren Nutzung "
 "dieses Online-Handbuch lesen."
 msgstr ""
-"agrirouter is a web-based, manufacturer-independent portal for sharing data "
-"between machines and agricultural software.  It is designed to be simple and "
+"Agrirouter is a web-based, manufacturer-independent portal for sharing data "
+"between machines and agricultural software. It is designed to be simple and "
 "intuitive to use, however, we do recommend reading our https://my-agrirouter."
 "com/en/agrirouter/quick-start-guide[Quick Start Guide^] before initial "
 "setup, and this online manual during initial and ongoing operation."
@@ -1072,7 +1072,7 @@ msgid ""
 "beschrieben.#"
 msgstr ""
 "You can set up your own dashboard display.  [.result]#Adjust the display as "
-"described in the xref:account.adoc#settings[Settings] chapter.#"
+"described in the xref:account.adoc#einstellungen[Settings] chapter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:24
@@ -1085,9 +1085,9 @@ msgid ""
 msgstr ""
 "Machines and agricultural software platforms can share data with one another "
 "if you register them in agrirouter as <<Endpoint,Endpoints>>.  [.result]#Add "
-"endpoints as described in the xref:endpoint.adoc#pair-machine[Pair machine] "
-"and xref:endpoint.adoc#pair-farm-software[Pair agricultural software] "
-"chapters.#"
+"endpoints as described in the xref:endpoint.adoc#maschine-verbinden[Pair "
+"machine] and xref:endpoint.adoc#agrarsoftware-verbinden[Pair agricultural "
+"software] chapters.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:28
@@ -1100,9 +1100,9 @@ msgid ""
 msgstr ""
 "The <<Route,Routing>> specifies which data an endpoint sends and/or "
 "receives.  [.result]#If you want the endpoint to send data, follow the "
-"instructions in the xref:endpoint.adoc#send-to[Send to] chapter.# [.result]#"
-"If you want the endpoint to receive data, follow the instructions in the "
-"xref:endpoint.adoc#receive-from[Receive from] chapter.#"
+"instructions in the xref:endpoint.adoc#senden-an[Send to] chapter.# [."
+"result]#If you want the endpoint to receive data, follow the instructions in "
+"the xref:endpoint.adoc#empfangen-von[Receive from] chapter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:34
@@ -1239,7 +1239,7 @@ msgid ""
 msgstr ""
 "Usually a device installed on the tractor or the machine to transmit data. A "
 "complete list of telemetry units with an agrirouter interface can be found "
-"https://agrirouter.com/en/marketplace/telemetryconnection[here^]."
+"https://agrirouter.com/en/marketplace/telemetryconnection[here...^]"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:57
@@ -1280,7 +1280,7 @@ msgstr ""
 "Field catalogues, apps for farmers and agricultural contractors, "
 "manufacturer-specific data management software and much more besides. A "
 "complete list of agricultural software solutions with an agrirouter "
-"interface can be found https://agrirouter.com/en/marketplace/apps[here^]."
+"interface can be found https://agrirouter.com/en/marketplace/apps[here...^]"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:61
@@ -1669,19 +1669,19 @@ msgstr "ECO system implementation"
 #: de/modules/ROOT/pages/basics.adoc:143
 #, no-wrap
 msgid "Maschine verbinden ..."
-msgstr "Pairing a machine"
+msgstr "Pairing a machine ..."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:145
 #, no-wrap
 msgid "Agrar-Software verbinden ..."
-msgstr "Pairing agricultural software"
+msgstr "Pairing agricultural software ..."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:147
 #, no-wrap
 msgid "Kommunikationseinheit verbinden ..."
-msgstr "Pairing a communication unit"
+msgstr "Pairing a communication unit ..."
 
 #. type: Title =
 #: de/modules/ROOT/pages/endpoint.adoc:4
@@ -1773,7 +1773,7 @@ msgstr "Search for an endpoint"
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:33
 msgid "die Endpunkteliste aktualisieren."
-msgstr "Refresh the endpoint list"
+msgstr "Refresh the endpoint list."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:36
@@ -1952,7 +1952,7 @@ msgstr "To pair an agricultural software solution with agrirouter:"
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:103
 msgid "Starte die Agrarsoftware."
-msgstr "Launch the agricultural software"
+msgstr "Launch the agricultural software."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:105
@@ -1995,7 +1995,7 @@ msgid ""
 "findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]"
 msgstr ""
 "For a complete list of agricultural software solutions with an agrirouter "
-"interface, see https://agrirouter.com/en/marketplace/apps/[here^]."
+"interface, see https://agrirouter.com/en/marketplace/apps/[here...^]"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:112
@@ -2662,7 +2662,7 @@ msgstr "This tab is only displayed for `Paired account` endpoint types."
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:306
 msgid "Im Reiter werden alle Maschinen angezeigt,"
-msgstr "The tab displays all machines that:"
+msgstr "The tab displays all machines that,"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:308
@@ -3414,7 +3414,7 @@ msgid ""
 "Maschine und Maschine. Oder zwischen Agrarsoftware und Agrarsoftware. Du "
 "hast die Wahl."
 msgstr ""
-"agrirouter is a web-based, cross-manufacturer portal for sharing data "
+"Agrirouter is a web-based, cross-manufacturer portal for sharing data "
 "between machines and agricultural software systems, between machines, and "
 "between agricultural software systems – you decide."
 
@@ -3536,7 +3536,7 @@ msgid ""
 "Die Route regelt den Datenverkehr zwischen Sender und Empfänger.  Du legst "
 "fest"
 msgstr ""
-"The route controls how data is shared between the sender and recipient.  You "
+"The route controls how data is shared between the sender and recipient. You "
 "specify:"
 
 #. type: delimited block =
@@ -3699,7 +3699,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#senden-an[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an outbound route for an endpoint, "
-"see xref:endpoint.adoc#send-to[here]."
+"see xref:endpoint.adoc#send-to[here...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:43
@@ -3708,7 +3708,7 @@ msgid ""
 "erfährst du xref:group.adoc#senden-an[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an outbound route for a group, see "
-"xref:group.adoc#send-to[here]."
+"xref:group.adoc#send-to[here...]"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:44
@@ -3730,7 +3730,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#empfangen-von[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an inbound route for an endpoint, "
-"see xref:endpoint.adoc#receive-from[here]."
+"see xref:endpoint.adoc#receive-from[here...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:49
@@ -3739,7 +3739,7 @@ msgid ""
 "löscht, erfährst du xref:group.adoc#empfangen-von[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an inbound route for a group, see "
-"xref:group.adoc#receive-from[here]."
+"xref:group.adoc#receive-from[here...]"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:50
