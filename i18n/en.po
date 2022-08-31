@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-31 10:14+0000\n"
+"PO-Revision-Date: 2022-08-31 16:14+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -1219,7 +1219,7 @@ msgid ""
 msgstr ""
 "Senders and recipients of data are paired with one another via agrirouter. "
 "For each paired sender and recipient, a corresponding endpoint is created in "
-"agrirouter.  The types of endpoint available are:"
+"agrirouter.  The types of endpoints available are:"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:55
@@ -1323,7 +1323,7 @@ msgid ""
 "Empfänger gelangen."
 msgstr ""
 "All endpoints can send and receive data.  You pair the endpoints in "
-"agrirouter so that the Sender's data reaches the intended Recipient."
+"agrirouter so that the sender's data reaches the intended recipient."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:73 de/modules/ROOT/pages/group.adoc:4
@@ -1427,7 +1427,7 @@ msgstr "Messages (types)"
 #: de/modules/ROOT/pages/introduction.adoc:94
 msgid ""
 "Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:"
-msgstr "The following types of message can be exchanged between endpoints:"
+msgstr "The following types of messages can be exchanged between endpoints:"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:96
@@ -1466,7 +1466,7 @@ msgstr "Shape files"
 #: de/modules/ROOT/pages/basics.adoc:99
 #: de/modules/ROOT/pages/introduction.adoc:98
 msgid "Feldgrenzen im Shape-Format"
-msgstr "Field boundaries in Shape format"
+msgstr "Field boundaries in shape format"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/basics.adoc:99
@@ -1502,7 +1502,7 @@ msgid ""
 "Wahl angeboten, die von Sender und Empfänger verarbeitet werden können."
 msgstr ""
 "When creating a route, you are only given the option to choose the types of "
-"message that can be processed by the sender and recipient."
+"messages that can be processed by the sender and recipient."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:104
@@ -1542,7 +1542,7 @@ msgstr "The direction in which the data flows"
 #: de/modules/ROOT/pages/basics.adoc:113
 #: de/modules/ROOT/pages/introduction.adoc:112
 msgid "welche Nachrichten ausgetauscht werden"
-msgstr "What types of message are to be shared"
+msgstr "What types of messages are to be shared"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:114
@@ -1617,9 +1617,9 @@ msgid ""
 "+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
 "ohne weiteren Konfigurationsaufwand Daten empfangen und senden."
 msgstr ""
-"The default groups enable you to quickly get set up and running with "
-"agrirouter: + The routing is pre-defined for both groups. New endpoints can "
-"send and receive data without you spending any more time on configuration."
+"The default groups enable you to quickly get agrirouter up and running: + "
+"The routing is pre-defined for both groups. New endpoints can send and "
+"receive data without you spending any more time on configuration."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/basics.adoc:132
@@ -1638,7 +1638,7 @@ msgid ""
 msgstr ""
 "Many machines are able to provide real-time data, i.e. data on machines, "
 "positions, and processes that is continuously generated while working on the "
-"field. agrirouter supports over 600 data types divided into 12 categories:"
+"field. Agrirouter supports over 600 data types divided into 12 categories:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/basics.adoc:135
@@ -1697,7 +1697,7 @@ msgid ""
 "hinzufügen."
 msgstr ""
 "For every machine and agricultural software solution you want to share data "
-"via agrirouter, you need to add an xref:introduction.adoc#endpoint[endpoint]."
+"via agrirouter, you need to add an xref:introduction.adoc#endpunkt[endpoint]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:11
@@ -1722,7 +1722,7 @@ msgid ""
 "Öffne das xref:introduction.adoc#kontrollzentrum[Kontrollzentrum], um einen "
 "Endpunkt hinzuzufügen und zu verwalten:"
 msgstr ""
-"Open the xref:introduction.adoc#control-center[Control Center] to add and "
+"Open the xref:introduction.adoc#kontrollzentrum[Control Center] to add and "
 "manage an endpoint:"
 
 #. type: delimited block =
@@ -2443,7 +2443,7 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:225 de/modules/ROOT/pages/group.adoc:150
 #, no-wrap
 msgid "Empfangen von"
-msgstr "Receive from"
+msgstr "Received from"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:228
@@ -2662,7 +2662,7 @@ msgstr "This tab is only displayed for `Paired account` endpoint types."
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:306
 msgid "Im Reiter werden alle Maschinen angezeigt,"
-msgstr "The tab displays all machines that,"
+msgstr "The tab displays all machines that:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:308
@@ -2850,8 +2850,8 @@ msgid ""
 "Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen "
 "wir die Diagnoseinformationen des Endpunktes:"
 msgstr ""
-"When you submit a support request for an endpoint, you'll need provide the "
-"endpoint's diagnostic information:"
+"When you submit a support request for an endpoint, you'll need to provide "
+"the endpoint's diagnostic information:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:379
@@ -2913,7 +2913,7 @@ msgid ""
 "introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für "
 "alle Mitglieder der Gruppe."
 msgstr ""
-"Group endpoints together into xref:introduction.adoc#group[groups], e.g. by "
+"Group endpoints together into xref:introduction.adoc#gruppe[groups], e.g. by "
 "manufacturer, machine type or activity. + The advantage: The "
 "xref:introduction.adoc#route[routing] you set for the group applies to all "
 "members of the group."
@@ -2940,7 +2940,7 @@ msgid ""
 "Öffne das xref:introduction.adoc#kontrollzentrum[Kontrollzentrum], um eine "
 "Gruppe hinzuzufügen und zu verwalten:"
 msgstr ""
-"To add or manage a group, open the xref:introduction.adoc#control-center["
+"To add or manage a group, open the xref:introduction.adoc#kontrollzentrum["
 "Control Center]:"
 
 #. type: Title ==
@@ -3254,8 +3254,8 @@ msgid ""
 "und bearbeite xref:endpoint.adoc#endpunkt-bearbeiten[den Endpunkt] und xref:"
 "endpoint.adoc#senden-an[das Routing]."
 msgstr ""
-"To edit a group member, select and edit xref:endpoint.adoc#edit-endpoint[the "
-"endpoint] and xref:endpoint.adoc#send-to[the routing]."
+"To edit a group member, select and edit xref:endpoint.adoc#endpunkt-"
+"bearbeiten[the endpoint] and xref:endpoint.adoc#senden-an[the routing]."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/group.adoc:207
@@ -3394,7 +3394,7 @@ msgid ""
 "Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen "
 "wir die Diagnoseinformationen der Gruppe:"
 msgstr ""
-"When you submit a support request for a group, you'll need provide the "
+"When you submit a support request for a group, you'll need to provide the "
 "group's diagnostic information:"
 
 #. type: Plain text
@@ -3415,8 +3415,8 @@ msgid ""
 "hast die Wahl."
 msgstr ""
 "Agrirouter is a web-based, cross-manufacturer portal for sharing data "
-"between machines and agricultural software systems, between machines, and "
-"between agricultural software systems – you decide."
+"between machines, agricultural software systems, or a combination of the two "
+"– you decide."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:10
@@ -3458,8 +3458,8 @@ msgid ""
 msgstr ""
 "Machines and agricultural software can share data once you have added them "
 "to agrirouter as <<endpoint,endpoints>>.  [.result]#Add endpoints as "
-"described in the xref:endpoint.adoc#pair-machine[Pair a machine] and "
-"xref:endpoint.adoc#pair-agricultural-software[Pair agricultural software] "
+"described in the xref:endpoint.adoc#maschine-verbinden[Pair a machine] and "
+"xref:endpoint.adoc#agrarsoftware-verbinden[Pair agricultural software] "
 "chapters.#"
 
 #. type: Plain text
@@ -3473,9 +3473,9 @@ msgid ""
 msgstr ""
 "Use <<Route,routes>> to specify which data an endpoint sends and/or "
 "receives.  [.result]#If you want the endpoint to send data, follow the "
-"instructions in the xref:endpoint.adoc#send-to[Send to] chapter.# [.result]#"
-"If you want the endpoint to receive data, follow the instructions in the "
-"xref:endpoint.adoc#receive-from[Receive from] chapter.#"
+"instructions in the xref:endpoint.adoc#senden-an[Send to] chapter.# [."
+"result]#If you want the endpoint to receive data, follow the instructions in "
+"the xref:endpoint.adoc#empfangen-von[Receive from] chapter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:42
@@ -3490,11 +3490,11 @@ msgid ""
 msgstr ""
 "If you group endpoints together into <<Group, groups>>, you only need to set "
 "up routes for the group and not for each member of the group.  [.result]#Add "
-"a group as described in the xref:group.adoc#add-group[Add a group] chapter.# "
-"[.result]#If you want the group to send data, follow the instructions in the "
-"xref:group.adoc#send-to[Send to] chapter.# [.result]#If you want the group "
-"to receive data, follow the instructions in the xref:group.adoc#receive-from["
-"Receive from] chapter.#"
+"a group as described in the xref:group.adoc#gruppe-hinzufügen[Add a group] "
+"chapter.# [.result]#If you want the group to send data, follow the "
+"instructions in the xref:group.adoc#senden-an[Send to] chapter.# [.result]#"
+"If you want the group to receive data, follow the instructions in the "
+"xref:group.adoc#empfangen-von[Receive from] chapter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:49
@@ -3585,7 +3585,7 @@ msgid ""
 msgstr ""
 "Many machines are able to provide real-time data, i.e. data on machines, "
 "positions, and processes that is continuously generated while working on the "
-"field. agrirouter supports over xref:appendix.adoc[600 data types] divided "
+"field. Agrirouter supports over xref:appendix.adoc[600 data types] divided "
 "into 12 categories:"
 
 #. type: Title =
@@ -3619,7 +3619,7 @@ msgstr ""
 msgid ""
 "Der agrirouter transportiert Daten, bearbeitet oder speichert sie aber "
 "nicht. +"
-msgstr "agrirouter transports data but it does not edit or store it. +"
+msgstr "Agrirouter transports data but it does not edit or store it. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/routing.adoc:23
@@ -3630,7 +3630,7 @@ msgid ""
 "Daten gelöscht."
 msgstr ""
 "This excludes data that cannot be delivered, e.g. because the recipient is "
-"offline. agrirouter buffers this data for 4 weeks. If the recipient cannot "
+"offline. Agrirouter buffers this data for 4 weeks. If the recipient cannot "
 "be reached for the entire time, the data is deleted."
 
 #. type: Plain text
@@ -3656,8 +3656,8 @@ msgid ""
 "adoc#standard-gruppen[Standard-Gruppen] werden vom System vorgegeben und "
 "können nicht geändert werden:"
 msgstr ""
-"The inbound and outbound routes of the two xref:introduction.adoc#default-"
-"groups[default groups] are set by the system and cannot be changed:"
+"The inbound and outbound routes of the two xref:introduction.adoc#standard-"
+"gruppen[default groups] are set by the system and cannot be changed:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:36
@@ -3699,7 +3699,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#senden-an[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an outbound route for an endpoint, "
-"see xref:endpoint.adoc#send-to[here...]"
+"see xref:endpoint.adoc#senden-an[here...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:43
@@ -3708,7 +3708,7 @@ msgid ""
 "erfährst du xref:group.adoc#senden-an[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an outbound route for a group, see "
-"xref:group.adoc#send-to[here...]"
+"xref:group.adoc#senden-an[here...]"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:44
@@ -3730,7 +3730,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#empfangen-von[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an inbound route for an endpoint, "
-"see xref:endpoint.adoc#receive-from[here...]"
+"see xref:endpoint.adoc#empfangen-von[here...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:49
@@ -3739,7 +3739,7 @@ msgid ""
 "löscht, erfährst du xref:group.adoc#empfangen-von[hier...]"
 msgstr ""
 "To learn how to create, edit, and delete an inbound route for a group, see "
-"xref:group.adoc#receive-from[here...]"
+"xref:group.adoc#empfangen-von[here...]"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:50
@@ -3925,7 +3925,7 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:22
 msgid "agrirouter Konto-ID"
-msgstr "agrirouter account ID"
+msgstr "Agrirouter account ID"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:23
@@ -4226,7 +4226,7 @@ msgid ""
 "Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + "
 "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
 msgstr ""
-"agrirouter guarantees an uptime of 99.5%. That means the platform is only "
+"Agrirouter guarantees an uptime of 99.5%. That means the platform is only "
 "offline on very rare occasions, e.g. due to maintenance work or a fault. "
 "During these times, endpoints are unable to send or receive data. + The "
 "platform monitoring portal shows whether the agrirouter is available:"
@@ -4447,8 +4447,8 @@ msgid ""
 "Parameter können dann zwischen den Endpunkten ausgetauscht werden.#"
 msgstr ""
 "We have summarised the parameters into 12 categories for a better overview.  "
-"As described in the xref:endpoint.adoc#detailview[endpoint] and xref:group."
-"adoc#detailview[group] sections, you select one or more categories when "
+"As described in the xref:endpoint.adoc#detailansicht[endpoint] and xref:group"
+".adoc#detailansicht[group] sections, you select one or more categories when "
 "creating routes.  [.result]#All parameters associated with the selected "
 "category can then be shared between endpoints.#"
 
