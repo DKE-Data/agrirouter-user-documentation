@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-07-28 10:09+0200\n"
-"PO-Revision-Date: 2022-08-30 10:14+0000\n"
+"PO-Revision-Date: 2022-08-31 10:14+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: de/antora.yml:0 de/antora-playbook.yml:0
 #, no-wrap
 msgid "agrirouter Bedienungsanleitung"
-msgstr "agrirouter User Manual"
+msgstr "Agrirouter User Manual"
 
 #. type: Hash Value: content sources start_path
 #: de/antora-playbook.yml:0
@@ -111,7 +111,7 @@ msgid ""
 "Du kannst dein Konto mit den Konten anderer Nutzer verbinden.  Das "
 "verbundene Konto kann Daten von dir empfangen und Daten an dich senden."
 msgstr ""
-"You can pair your account with those of other users. A paired account can "
+"You can pair your account with those of other users.  A paired account can "
 "receive data from you and send data to you in return."
 
 #. type: Plain text
@@ -162,8 +162,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
-"In the dashboard, click the *_Account pairing_* tile. [.result]#The `Account "
-"pairing` window is displayed.#"
+"In the dashboard, click the *_Account pairing_* tile.  [.result]#The `"
+"Account pairing` window is displayed.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -192,7 +192,7 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
-"Click the *_Send invite_* button. [.result]#The invite is sent to the other "
+"Click the *_Send invite_* button.  [.result]#The invite is sent to the other "
 "account.# [.result]#The invite is displayed in the `Pending invites` tab "
 "until it has been accepted by the owner of the other account.#"
 
@@ -223,7 +223,7 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-"Select the invite in the `Pending invites` tab. [.result]#The list entry "
+"Select the invite in the `Pending invites` tab.  [.result]#The list entry "
 "turns green.#"
 
 #. type: delimited block =
@@ -261,7 +261,7 @@ msgid ""
 "Wähle im Reiter `Empfangene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-"Select the invite in the `Incoming invites` tab. [.result]#The list entry "
+"Select the invite in the `Incoming invites` tab.  [.result]#The list entry "
 "turns green.#"
 
 #. type: Plain text
@@ -273,7 +273,7 @@ msgid ""
 "result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, "
 "dass du seine Einladung angenommen hast.#"
 msgstr ""
-"Click the *_Accept invite_* button.[.result]#The two accounts are paired "
+"Click the *_Accept invite_* button.  [.result]#The two accounts are paired "
 "with one another.# [.result]#The account is moved to the `Paired` tab.# [."
 "result]#The account is added to the endpoint list.# [.result]#The account "
 "owner is informed by email that you have accepted their invitation.#"
@@ -307,7 +307,7 @@ msgid ""
 "Wähle im Reiter `Verbunden` das Konto.  [.result]#Der Listeneintrag wird "
 "grün eingefärbt.#"
 msgstr ""
-"Select the account in the `Paired` tab. [.result]#The list entry turns "
+"Select the account in the `Paired` tab.  [.result]#The list entry turns "
 "green.#"
 
 #. type: Plain text
@@ -1038,7 +1038,7 @@ msgid ""
 "Inbetriebnahme und Nutzung des agrirouter:"
 msgstr ""
 "This online manual contains various chapters arranged by topic to help you "
-"get set up and running with the agrirouter system:"
+"get the agrirouter system up and running:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/basics.adoc:15
@@ -1118,12 +1118,12 @@ msgid ""
 msgstr ""
 "If you group endpoints together into <<Group, Groups>>, you only need to set "
 "up a route for the group and not for each member of the group.  [.result]#"
-"Add a group as described in the xref:group.adoc#add-group[Add a group] "
-"chapter.# [.result]#If you want the group to send data, follow the "
-"instructions in the xref:group.adoc#send-to[Send to] chapter.# [.result]#If "
-"you want the group to receive data, follow the instructions in the xref:group"
-".adoc#receive-from[Receive from] chapter.# [.result]#Examples of commonly "
-"used routes can be found xref:routing.adoc[here].#"
+"Add a group as described in the xref:group.adoc#gruppe-hinzufügen[Add a "
+"group] chapter.# [.result]#If you want the group to send data, follow the "
+"instructions in the xref:group.adoc#senden-an[Send to] chapter.# [.result]#"
+"If you want the group to receive data, follow the instructions in the "
+"xref:group.adoc#empfangen-von[Receive from] chapter.# [.result]#Examples of "
+"commonly used routes can be found xref:routing.adoc[here...].#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/basics.adoc:35
