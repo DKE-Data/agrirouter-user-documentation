@@ -6,16 +6,15 @@
   "license": "Apache-2.0",
   "scripts": {
     "validate-xrefs": "for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora --generator @antora/xref-validator ./antora-playbook.yml; cd ..; done",
-    "translate": "po4a po4a.conf; for LNG in en fr it ru; do cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; done",
-    "build": "for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora generate antora-playbook.yml --to-dir ../build/$LNG; cd ..; done; cp index.html build/",
+    "translate": "po4a po4a.conf; for LNG in en fr it ru; do cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; cp -nrT de/modules/ROOT/partials/ $LNG/modules/ROOT/partials; done",
+    "build": "for LNG in de en fr it ru; do cd $LNG; $(npm bin)/antora generate antora-playbook.yml --to-dir ../build/$LNG || exit; cd ..; done; cp index.html build/",
     "generate-images": "node scripts/generate_images.js"
   },
   "dependencies": {
-    "@antora/cli": "3.0.1",
-    "@antora/lunr-extension": "^1.0.0-alpha.5",
-    "@antora/site-generator-default": "3.0.1",
-    "@antora/xref-validator": "https://gitlab.com/antora/xref-validator#main",
-    "asciidoctor-kroki": "^0.14.0"
+    "@antora/cli": "3.1.0",
+    "@antora/lunr-extension": "1.0.0-alpha.8",
+    "@antora/site-generator-default": "3.1.0",
+    "asciidoctor-kroki": "^0.16.0"
   },
   "devDependencies": {
     "got": "^12.0.1",
