@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-09-02 12:25+0200\n"
+"POT-Creation-Date: 2022-09-06 09:21+0200\n"
 "PO-Revision-Date: 2022-09-02 10:54+0000\n"
 "Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
@@ -2581,8 +2581,8 @@ msgid ""
 "Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine "
 "Gruppe hinzuzufügen und zu verwalten:"
 msgstr ""
-"Pour ajouter et modifier un groupe, accédez au xref:introduction.adoc"
-"#control-center[Centre de contrôle] :"
+"Pour ajouter et modifier un groupe, accédez au xref:introduction."
+"adoc#control-center[Centre de contrôle] :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:20
@@ -3179,8 +3179,8 @@ msgid ""
 "Ansicht, wie im Kapitel xref:account.adoc#settings[Einstellungen] "
 "beschrieben.#"
 msgstr ""
-"Vous pouvez personnaliser l'affichage de votre tableau de bord.  [.result]#"
-"Modifiez l'affichage comme indiqué au chapitre xref:account."
+"Vous pouvez personnaliser l'affichage de votre tableau de bord.  [."
+"result]#Modifiez l'affichage comme indiqué au chapitre xref:account."
 "adoc#settings[Paramètres].#"
 
 #. type: Plain text
@@ -3209,10 +3209,10 @@ msgid ""
 msgstr ""
 "Un <<Routage>> détermine quelles sont les données qu'un point de terminaison "
 "envoie et/ou reçoit.  [.result]#Si le point de terminaison doit envoyer des "
-"données, suivez les instructions du chapitre xref:endpoint.adoc#send-to["
-"Envoyer à].# [.result]#Si le point de terminaison doit recevoir des données, "
-"suivez les instructions du chapitre xref:endpoint.adoc#receive-from[Recevoir "
-"de].#"
+"données, suivez les instructions du chapitre xref:endpoint.adoc#send-"
+"to[Envoyer à].# [.result]#Si le point de terminaison doit recevoir des "
+"données, suivez les instructions du chapitre xref:endpoint.adoc#receive-"
+"from[Recevoir de].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:42
@@ -3227,11 +3227,12 @@ msgid ""
 msgstr ""
 "Si vous regroupez des points de terminaison dans <<Groupe, Groupes>>, vous "
 "ne devez configurer les routes que pour le groupe, et non pour chaque membre "
-"du groupe.  [.result]#Ajoutez un groupe, comme indiqué au chapitre xref:group"
-".adoc#add-group[Ajouter un groupe].# [.result]#Si le groupe doit envoyer des "
-"données, suivez les instructions du chapitre xref:group.adoc#send-to[Envoyer "
-"vers].# [.result]#Si le groupe doit recevoir des données, suivez les "
-"instructions du chapitre xref:group.adoc#receive-from[Recevoir de].#"
+"du groupe.  [.result]#Ajoutez un groupe, comme indiqué au chapitre xref:"
+"group.adoc#add-group[Ajouter un groupe].# [.result]#Si le groupe doit "
+"envoyer des données, suivez les instructions du chapitre xref:group."
+"adoc#send-to[Envoyer vers].# [.result]#Si le groupe doit recevoir des "
+"données, suivez les instructions du chapitre xref:group.adoc#receive-"
+"from[Recevoir de].#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/introduction.adoc:43
@@ -3691,11 +3692,17 @@ msgstr "Données télémétriques"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:148
+#, fuzzy
+#| msgid ""
+#| "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während "
+#| "der Feldarbeit laufend anfallende Maschinen- , Positions- und "
+#| "Prozessdaten. agrirouter unterstützt über xref:appendix.adoc[600 "
+#| "Datentypen], die in 12 Kategorien aufgeteilt sind:"
 msgid ""
 "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der "
 "Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. "
-"agrirouter unterstützt über xref:appendix.adoc[600 Datentypen], die in 12 "
-"Kategorien aufgeteilt sind:"
+"agrirouter unterstützt über xref:appendix/ddis.adoc[600 Datentypen], die in "
+"12 Kategorien aufgeteilt sind:"
 msgstr ""
 "De nombreuses machines peuvent fournir des données en temps réel, c'est-à-"
 "dire des données de machine, d'emplacement et de processus générées en "
@@ -4287,8 +4294,9 @@ msgstr "+49 541 200 690 230"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:93
-#, no-wrap
-msgid "Französisc"
+#, fuzzy, no-wrap
+#| msgid "Französisc"
+msgid "Französisch"
 msgstr "Français"
 
 #. type: Table

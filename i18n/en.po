@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-09-02 12:25+0200\n"
+"POT-Creation-Date: 2022-09-06 09:21+0200\n"
 "PO-Revision-Date: 2022-09-05 07:48+0000\n"
 "Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
@@ -2450,8 +2450,8 @@ msgid ""
 "Mitglieder der Gruppe."
 msgstr ""
 "Group endpoints together into xref:introduction.adoc#group[groups], e.g. by "
-"manufacturer, machine type or activity. + The advantage: The "
-"xref:introduction.adoc#route[routing] you set for the group applies to all "
+"manufacturer, machine type or activity. + The advantage: The xref:"
+"introduction.adoc#route[routing] you set for the group applies to all "
 "members of the group."
 
 #. type: Plain text
@@ -2476,8 +2476,8 @@ msgid ""
 "Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine "
 "Gruppe hinzuzufügen und zu verwalten:"
 msgstr ""
-"To add or manage a group, open the xref:introduction.adoc#control-center["
-"Control Center]:"
+"To add or manage a group, open the xref:introduction.adoc#control-"
+"center[Control Center]:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:20
@@ -3064,8 +3064,8 @@ msgid ""
 msgstr ""
 "Machines and agricultural software can share data once you have added them "
 "to agrirouter as <<endpoint,endpoints>>.  [.result]#Add endpoints as "
-"described in the xref:endpoint.adoc#connect-machine[Pair a machine] and "
-"xref:endpoint.adoc#connect-software[Pair agricultural software] chapters.#"
+"described in the xref:endpoint.adoc#connect-machine[Pair a machine] and xref:"
+"endpoint.adoc#connect-software[Pair agricultural software] chapters.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:37
@@ -3078,9 +3078,9 @@ msgid ""
 msgstr ""
 "Use <<Route,routes>> to specify which data an endpoint sends and/or "
 "receives.  [.result]#If you want the endpoint to send data, follow the "
-"instructions in the xref:endpoint.adoc#send-to[Send to] chapter.# [.result]#"
-"If you want the endpoint to receive data, follow the instructions in the "
-"xref:endpoint.adoc#receive-from[Receive from] chapter.#"
+"instructions in the xref:endpoint.adoc#send-to[Send to] chapter.# [."
+"result]#If you want the endpoint to receive data, follow the instructions in "
+"the xref:endpoint.adoc#receive-from[Receive from] chapter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:42
@@ -3098,8 +3098,8 @@ msgstr ""
 "a group as described in the xref:group.adoc#add-group[Add a group] chapter.# "
 "[.result]#If you want the group to send data, follow the instructions in the "
 "xref:group.adoc#send-to[Send to] chapter.# [.result]#If you want the group "
-"to receive data, follow the instructions in the xref:group.adoc#receive-from["
-"Receive from] chapter.#"
+"to receive data, follow the instructions in the xref:group.adoc#receive-"
+"from[Receive from] chapter.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/introduction.adoc:43
@@ -3543,11 +3543,17 @@ msgstr "Telemetry data"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:148
+#, fuzzy
+#| msgid ""
+#| "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während "
+#| "der Feldarbeit laufend anfallende Maschinen- , Positions- und "
+#| "Prozessdaten. agrirouter unterstützt über xref:appendix.adoc[600 "
+#| "Datentypen], die in 12 Kategorien aufgeteilt sind:"
 msgid ""
 "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der "
 "Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. "
-"agrirouter unterstützt über xref:appendix.adoc[600 Datentypen], die in 12 "
-"Kategorien aufgeteilt sind:"
+"agrirouter unterstützt über xref:appendix/ddis.adoc[600 Datentypen], die in "
+"12 Kategorien aufgeteilt sind:"
 msgstr ""
 "Many machines are able to provide real-time data, i.e. data on machines, "
 "positions, and processes that is continuously generated while working on the "
@@ -4115,8 +4121,9 @@ msgstr "+49 541 200 690 230"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:93
-#, no-wrap
-msgid "Französisc"
+#, fuzzy, no-wrap
+#| msgid "Französisc"
+msgid "Französisch"
 msgstr "French"
 
 #. type: Table
