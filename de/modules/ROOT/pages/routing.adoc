@@ -17,7 +17,7 @@ Ohne Route kein Datenaustausch.
 
 [NOTE]
 ====
-Der agrirouter transportiert Daten, bearbeitet oder speichert sie aber nicht. + 
+Der agrirouter transportiert Daten, bearbeitet oder speichert sie aber nicht. +
 
 Eine Ausnahme bilden Daten, die nicht zugestellt werden können, z.B. weil der Empfänger offline ist. Der agrirouter puffert diese Daten für 4 Wochen. Ist der Empfänger während der gesamten Zeit nicht erreichbar, werden die Daten gelöscht.
 ====
@@ -71,7 +71,7 @@ Mit diesem Routing sendet jeder Endpunkt alle verfügbaren Daten an jeden andere
 
 [NOTE]
 ====
-Dem agrirouter neu hinzugefügte Endpunkte werden nicht automatisch in die Gruppe `Alle` aufgenommen. + 
+Dem agrirouter neu hinzugefügte Endpunkte werden nicht automatisch in die Gruppe `Alle` aufgenommen. +
 
 [.result]#Denke daran, neue Endpunkte der Gruppe `Alle` hinzuzufügen.#
 ====
