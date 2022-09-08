@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-09-07 12:04+0200\n"
+"POT-Creation-Date: 2022-09-08 16:03+0200\n"
 "PO-Revision-Date: 2022-09-07 10:23+0000\n"
 "Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
@@ -540,36 +540,30 @@ msgstr "Data sharing"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:97
+#, fuzzy, no-wrap
+#| msgid "Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
 msgid ""
-"Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der "
-"Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [."
-"underline]#beiden# Konten Routen erstellt werden:"
-msgstr ""
-"You've probably realised by now: there's no data sharing without routes! + "
-"For data sharing to work with a paired account, routes must be created in [."
-"underline]#both# accounts:"
+"Inzwischen weißt du: ohne Route kein Datenaustausch!\n"
+"Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
+msgstr "You've probably realised by now: there's no data sharing without routes! + For data sharing to work with a paired account, routes must be created in [.underline]#both# accounts:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:100
+#, fuzzy, no-wrap
+#| msgid "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
 msgid ""
-"Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte "
-"Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger "
-"ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
-msgstr ""
-"Outbound routes in your account specify which of your endpoints send data to "
-"the paired account. + For the recipient to receive the data, the owner of "
-"the other account must create inbound routes."
+"Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet.\n"
+"Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
+msgstr "Outbound routes in your account specify which of your endpoints send data to the paired account. + For the recipient to receive the data, the owner of the other account must create inbound routes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:102
+#, fuzzy, no-wrap
+#| msgid "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
 msgid ""
-"Mit eingehenden Routen in deinem Konto legst du fest, welche deiner "
-"Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, "
-"muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
-msgstr ""
-"Inbound routes in your account specify which of your endpoints receive data "
-"from the paired account. + For you to receive data, the owner of the other "
-"account must create outbound routes."
+"Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen.\n"
+"Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
+msgstr "Inbound routes in your account specify which of your endpoints receive data from the paired account. + For you to receive data, the owner of the other account must create outbound routes."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
@@ -1075,14 +1069,12 @@ msgstr "Display"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:181
+#, fuzzy, no-wrap
+#| msgid "Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche. + Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein und aktivierst die Animationen."
 msgid ""
-"Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der "
-"Benutzeroberfläche. + Im Reiter `Anzeigeeinstellungen` stellst du die Größe "
-"der Bedienelemente ein und aktivierst die Animationen."
-msgstr ""
-"In the `Theme` tab, you can choose between a light or dark user interface "
-"design. + In the `Display settings` tab, you can set the size of the "
-"controls and activate animations."
+"Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche.\n"
+"Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein und aktivierst die Animationen."
+msgstr "In the `Theme` tab, you can choose between a light or dark user interface design. + In the `Display settings` tab, you can set the size of the controls and activate animations."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:184
@@ -1279,8 +1271,11 @@ msgstr "Endpoint list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:28
+#, fuzzy, no-wrap
+#| msgid "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
 msgid ""
-"Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+"Die Endpunkteliste ist anhand des Namens alphabetisch sortiert.\n"
+"Du kannst"
 msgstr "The endpoint list is alphabetically ordered by name. + You can:"
 
 #. type: Plain text
@@ -1415,14 +1410,12 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:88
+#, fuzzy, no-wrap
+#| msgid "Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
 msgid ""
-"Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den "
-"Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:"
-"ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
-msgstr ""
-"Click the *_Copy_* image:ar_copy.icon.png[copy, 30, 30] icon to copy the "
-"code to the clipboard. + Click the *_Print_* image:ar_print.icon.png[print, "
-"30, 30] icon to print out the code."
+"Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
+"Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
+msgstr "Click the *_Copy_* image:ar_copy.icon.png[copy, 30, 30] icon to copy the code to the clipboard. + Click the *_Print_* image:ar_print.icon.png[print, 30, 30] icon to print out the code."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:92
@@ -1755,7 +1748,11 @@ msgstr "Send to"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:179 de/modules/ROOT/pages/group.adoc:103
-msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
+#, fuzzy, no-wrap
+#| msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
+msgid ""
+"Der Reiter enthält eine Liste der Empfänger.\n"
+"Empfänger"
 msgstr "This tab contains a list of the recipients. + Recipients"
 
 #. type: Plain text
@@ -2168,13 +2165,12 @@ msgstr "Capabilities"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:305
+#, fuzzy, no-wrap
+#| msgid "Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen kann. + Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht geändert werden."
 msgid ""
-"Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen "
-"kann. + Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und "
-"können nicht geändert werden."
-msgstr ""
-"This tab contains a list of message types the endpoint can send and receive. "
-"+ The supported messages are preset by the endpoint and cannot be changed."
+"Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen kann.\n"
+"Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht geändert werden."
+msgstr "This tab contains a list of message types the endpoint can send and receive. + The supported messages are preset by the endpoint and cannot be changed."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:306
@@ -2443,16 +2439,12 @@ msgstr "Group"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:8
+#, fuzzy, no-wrap
+#| msgid "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
 msgid ""
-"Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach "
-"Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:introduction."
-"adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle "
-"Mitglieder der Gruppe."
-msgstr ""
-"Group endpoints together into xref:introduction.adoc#group[groups], e.g. by "
-"manufacturer, machine type or activity. + The advantage: The xref:"
-"introduction.adoc#route[routing] you set for the group applies to all "
-"members of the group."
+"Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme.\n"
+"Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
+msgstr "Group endpoints together into xref:introduction.adoc#group[groups], e.g. by manufacturer, machine type or activity. + The advantage: The xref:introduction.adoc#route[routing] you set for the group applies to all members of the group."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:12
@@ -2505,8 +2497,11 @@ msgstr "Group list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:32
+#, fuzzy, no-wrap
+#| msgid "Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
 msgid ""
-"Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+"Die Gruppenliste ist anhand des Namens alphabetisch sortiert.\n"
+"Du kannst"
 msgstr "The group list is alphabetically ordered by name. + You can:"
 
 #. type: Plain text
@@ -2730,8 +2725,12 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:154
-msgid "Der Reiter enthält eine Liste der Sender. + Sender"
-msgstr "This tab contains a list of your senders. + Senders"
+#, fuzzy, no-wrap
+#| msgid "Der Reiter enthält eine Liste der Sender.  Sender"
+msgid ""
+"Der Reiter enthält eine Liste der Sender.\n"
+"Sender"
+msgstr "This tab contains a list of your senders.  Senders"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:157
@@ -3283,14 +3282,12 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:84
+#, fuzzy, no-wrap
+#| msgid "Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
 msgid ""
-"Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder "
-"Maßnahme. + Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt "
-"für alle Mitglieder der Gruppe."
-msgstr ""
-"Group endpoints together, e.g. by manufacturer, machine type or activity. + "
-"The advantage: The routing you set for the group applies to all members of "
-"the group."
+"Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme.\n"
+"Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
+msgstr "Group endpoints together, e.g. by manufacturer, machine type or activity. + The advantage: The routing you set for the group applies to all members of the group."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:87
@@ -3492,14 +3489,12 @@ msgstr "Agricultural software group"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:135
+#, fuzzy, no-wrap
+#| msgid "Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: + Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
 msgid ""
-"Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: "
-"+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
-"ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
-msgstr ""
-"The default groups enable you to quickly get agrirouter up and running: + "
-"The routing is pre-defined for both groups. New endpoints can send and "
-"receive data without you spending any more time on configuration. +"
+"Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter:\n"
+"Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
+msgstr "The default groups enable you to quickly get agrirouter up and running: + The routing is pre-defined for both groups. New endpoints can send and receive data without you spending any more time on configuration. +"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:137
@@ -4131,9 +4126,9 @@ msgid ""
 "Unsere Hotline ist an Werktagen von 9 bis 18 Uhr{empty}footnote:[https://www."
 "timezones.de/germany/berlin/berlin.html[Zeitzone Europa/Berlin^]] erreichbar."
 msgstr ""
-"Our hotline is available on weekdays from 9 AM to 6 "
-"PM{empty}footnote:[https://www.timezones.de/germany/berlin/berlin.html["
-"Central Europe/Berlin time zone^]]."
+"Our hotline is available on weekdays from 9 AM to 6 PM{empty}footnote:"
+"[https://www.timezones.de/germany/berlin/berlin.html[Central Europe/Berlin "
+"time zone^]]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/support.adoc:102
@@ -4193,16 +4188,12 @@ msgstr "System monitoring"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:118
+#, fuzzy, no-wrap
+#| msgid "agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
 msgid ""
-"agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der "
-"agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer "
-"Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + "
+"agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen.\n"
 "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
-msgstr ""
-"Agrirouter guarantees an uptime of 99.5%. That means the platform is only "
-"offline on very rare occasions, e.g. due to maintenance work or a fault. "
-"During these times, endpoints are unable to send or receive data. + The "
-"platform monitoring portal shows whether the agrirouter is available:"
+msgstr "Agrirouter guarantees an uptime of 99.5%. That means the platform is only offline on very rare occasions, e.g. due to maintenance work or a fault. During these times, endpoints are unable to send or receive data. + The platform monitoring portal shows whether the agrirouter is available:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:121
@@ -4424,16 +4415,12 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:21
+#, fuzzy, no-wrap
+#| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
 msgid ""
-"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO "
-"11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs "
-"sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] "
-"veröffentlicht."
-msgstr ""
-"Machine, position, and process parameters are defined in the ISOBUS standard "
-"ISO 11783, where they are referred to as DDIs (Data Dictionary Identifiers). "
-"+ The DDIs are published in the https://www.isobus.net/isobus/"
-"dDEntity[ISOBUS Data Dictionary^]."
+"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
+"Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+msgstr "Machine, position, and process parameters are defined in the ISOBUS standard ISO 11783, where they are referred to as DDIs (Data Dictionary Identifiers). + The DDIs are published in the https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:24
@@ -4594,6 +4581,9 @@ msgstr "Soil data"
 #: de/modules/ROOT/pages/appendix/ddis.adoc:95
 msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
 msgstr "Soil condition and sensor data."
+
+#~ msgid "Der Reiter enthält eine Liste der Sender. + Sender"
+#~ msgstr "This tab contains a list of your senders. + Senders"
 
 #~ msgid ""
 #~ "Der agrirouter ist ein internetbasiertes und herstellerunabhängiges "
