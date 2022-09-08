@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-09-07 10:37+0000\n"
+"PO-Revision-Date: 2022-09-08 14:10+0000\n"
 "Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/fr@formal/>\n"
@@ -546,30 +546,38 @@ msgstr "Échange de données"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:97
-#, fuzzy, no-wrap
-#| msgid "Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
+#, no-wrap
 msgid ""
 "Inzwischen weißt du: ohne Route kein Datenaustausch!\n"
 "Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
-msgstr "Vous savez maintenant que sans routage, pas d'échange de données possible ! + Pour que l'échange de données avec un compte connecté fonctionne, des routages doivent être créées dans [.underline]#les deux# comptes :"
+msgstr ""
+"Vous savez maintenant que sans routage, pas d'échange de données possible !\n"
+"Pour que l'échange de données avec un compte connecté fonctionne, des "
+"routages doivent être créées dans [.underline]#les deux# comptes :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:100
-#, fuzzy, no-wrap
-#| msgid "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
+#, no-wrap
 msgid ""
 "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet.\n"
 "Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
-msgstr "Les routages sortants de votre compte déterminent lesquels de vos points de terminaison envoient des données au compte appairé. + Pour que les données parviennent au destinataire, le propriétaire de l'autre compte doit créer des routages entrants."
+msgstr ""
+"Les routages sortants de votre compte déterminent lesquels de vos points de "
+"terminaison envoient des données au compte appairé.\n"
+"Pour que les données parviennent au destinataire, le propriétaire de l'autre "
+"compte doit créer des routages entrants."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:102
-#, fuzzy, no-wrap
-#| msgid "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
+#, no-wrap
 msgid ""
 "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen.\n"
 "Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
-msgstr "Les routages entrants de votre compte déterminent lesquels de vos points de terminaison reçoivent des données du compte connecté. + Pour que vous puissiez recevoir des données, le propriétaire de l'autre compte doit créer des routages sortants."
+msgstr ""
+"Les routages entrants de votre compte déterminent lesquels de vos points de "
+"terminaison reçoivent des données du compte connecté.\n"
+"Pour que vous puissiez recevoir des données, le propriétaire de l'autre "
+"compte doit créer des routages sortants."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
@@ -1100,12 +1108,15 @@ msgstr "Affichage"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:181
-#, fuzzy, no-wrap
-#| msgid "Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche. + Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein und aktivierst die Animationen."
+#, no-wrap
 msgid ""
 "Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche.\n"
 "Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein und aktivierst die Animationen."
-msgstr "Dans l'onglet `Thème`, vous pouvez choisir entre un design clair ou sombre pour l'interface utilisateur. + Dans l'onglet `Options d'affichage`, vous pouvez régler la taille des commandes et activer les animations."
+msgstr ""
+"Dans l'onglet `Thème`, vous pouvez choisir entre un design clair ou sombre "
+"pour l'interface utilisateur.\n"
+"Dans l'onglet `Options d'affichage`, vous pouvez régler la taille des "
+"commandes et activer les animations."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:184
@@ -1312,12 +1323,14 @@ msgstr "Liste d'un point de terminaison"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:28
-#, fuzzy, no-wrap
-#| msgid "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+#, no-wrap
 msgid ""
 "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert.\n"
 "Du kannst"
-msgstr "La liste des points de terminaison est triée par ordre alphabétique en fonction du nom. + Vous pouvez"
+msgstr ""
+"La liste des points de terminaison est triée par ordre alphabétique en "
+"fonction du nom.\n"
+"Vous pouvez"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:30
@@ -1453,12 +1466,15 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:88
-#, fuzzy, no-wrap
-#| msgid "Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
+#, no-wrap
 msgid ""
 "Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
 "Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
-msgstr "Cliquez sur l'icône *_Copier_* image:ar_copy.icon.png[copy, 30, 30] pour copier le code dans le presse-papiers. + Cliquez sur l'icône *_Imprimer_* image:ar_print.icon.png[print, 30, 30] pour imprimer le code."
+msgstr ""
+"Cliquez sur l'icône *_Copier_* image:ar_copy.icon.png[copy, 30, 30] pour "
+"copier le code dans le presse-papiers.\n"
+"Cliquez sur l'icône *_Imprimer_* image:ar_print.icon.png[print, 30, 30] pour "
+"imprimer le code."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:92
@@ -1806,12 +1822,13 @@ msgstr "Envoyer à"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:179 de/modules/ROOT/pages/group.adoc:103
-#, fuzzy, no-wrap
-#| msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
+#, no-wrap
 msgid ""
 "Der Reiter enthält eine Liste der Empfänger.\n"
 "Empfänger"
-msgstr "L'onglet contient la liste des destinataires. + Les destinataires"
+msgstr ""
+"L'onglet contient la liste des destinataires.\n"
+"Les destinataires"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:181 de/modules/ROOT/pages/group.adoc:105
@@ -2247,12 +2264,15 @@ msgstr "Capacités"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:305
-#, fuzzy, no-wrap
-#| msgid "Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen kann. + Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht geändert werden."
+#, no-wrap
 msgid ""
 "Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen kann.\n"
 "Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht geändert werden."
-msgstr "L'onglet contient les messages que le point de terminaison peut envoyer et recevoir. + Les messages pris en charge sont prédéfinis par le point de terminaison et ne peuvent pas être modifiés."
+msgstr ""
+"L'onglet contient les messages que le point de terminaison peut envoyer et "
+"recevoir.\n"
+"Les messages pris en charge sont prédéfinis par le point de terminaison et "
+"ne peuvent pas être modifiés."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:306
@@ -2538,12 +2558,15 @@ msgstr "Groupe"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:8
-#, fuzzy, no-wrap
-#| msgid "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
+#, no-wrap
 msgid ""
 "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme.\n"
 "Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
-msgstr "Regroupez les points de terminaison dans xref:introduction.adoc#group[Groupes], par exemple par fabricant, type de machine ou tâche. + L'avantage : le xref:introduction.adoc#route[Routage] que vous définissez pour le groupe s'applique à tous les membres du groupe."
+msgstr ""
+"Regroupez les points de terminaison dans xref:introduction."
+"adoc#group[Groupes], par exemple par fabricant, type de machine ou tâche.\n"
+"L'avantage : le xref:introduction.adoc#route[Routage] que vous définissez "
+"pour le groupe s'applique à tous les membres du groupe."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:12
@@ -2597,12 +2620,14 @@ msgstr "Liste des groupes"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:32
-#, fuzzy, no-wrap
-#| msgid "Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+#, no-wrap
 msgid ""
 "Die Gruppenliste ist anhand des Namens alphabetisch sortiert.\n"
 "Du kannst"
-msgstr "La liste des groupes est triée par ordre alphabétique en fonction de leurs noms. + Vous pouvez"
+msgstr ""
+"La liste des groupes est triée par ordre alphabétique en fonction de leurs "
+"noms.\n"
+"Vous pouvez"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:34
@@ -2838,12 +2863,13 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:154
-#, fuzzy, no-wrap
-#| msgid "Der Reiter enthält eine Liste der Sender.  Sender"
+#, no-wrap
 msgid ""
 "Der Reiter enthält eine Liste der Sender.\n"
 "Sender"
-msgstr "L'onglet contient la liste des expéditeurs.  Les expéditeurs"
+msgstr ""
+"L'onglet contient la liste des expéditeurs.\n"
+"Les expéditeurs"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:157
@@ -3418,12 +3444,15 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:84
-#, fuzzy, no-wrap
-#| msgid "Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
+#, no-wrap
 msgid ""
 "Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme.\n"
 "Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
-msgstr "Vous pouvez regrouper les points de terminaison en groupes, par exemple par fabricant, type de machine ou tâche. + L'avantage : le routage que vous définissez pour le groupe s'applique à tous les membres du groupe."
+msgstr ""
+"Vous pouvez regrouper les points de terminaison en groupes, par exemple par "
+"fabricant, type de machine ou tâche.\n"
+"L'avantage : le routage que vous définissez pour le groupe s'applique à tous "
+"les membres du groupe."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:87
@@ -3629,12 +3658,16 @@ msgstr "Groupe Logiciels agricoles"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:135
-#, fuzzy, no-wrap
-#| msgid "Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: + Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
+#, no-wrap
 msgid ""
 "Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter:\n"
 "Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
-msgstr "Les groupes par défaut permettent de mettre en service rapidement agrirouter : + Pour les deux groupes, le routage est déjà défini. Les nouveaux points de terminaison peuvent recevoir et envoyer des données sans configuration supplémentaire. +"
+msgstr ""
+"Les groupes par défaut permettent de mettre en service rapidement agrirouter "
+":\n"
+"Pour les deux groupes, le routage est déjà défini. Les nouveaux points de "
+"terminaison peuvent recevoir et envoyer des données sans configuration "
+"supplémentaire. +"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:137
@@ -4356,12 +4389,16 @@ msgstr "Moniteur système"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:118
-#, fuzzy, no-wrap
-#| msgid "agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
+#, no-wrap
 msgid ""
 "agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen.\n"
 "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
-msgstr "agrirouter garantit une disponibilité de 99,5%. Il est donc très rare qu'agrirouter soit hors ligne, par exemple en raison de travaux de maintenance ou d'une panne. Les points de terminaison ne peuvent alors plus envoyer ou recevoir de données. + Le moniteur système indique si agrirouter est disponible :"
+msgstr ""
+"agrirouter garantit une disponibilité de 99,5%. Il est donc très rare "
+"qu'agrirouter soit hors ligne, par exemple en raison de travaux de "
+"maintenance ou d'une panne. Les points de terminaison ne peuvent alors plus "
+"envoyer ou recevoir de données.\n"
+"Le moniteur système indique si agrirouter est disponible :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:121
@@ -4588,12 +4625,16 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:21
-#, fuzzy, no-wrap
-#| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+#, no-wrap
 msgid ""
 "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
 "Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
-msgstr "Les paramètres de machine, d'emplacement et de processus sont définis dans la norme ISOBUS ISO 11783, où ils sont appelés DDI (Identifiant du dictionnaire de données). + Les DDI sont publiés dans le https://www.isobus.net/isobus/dDEntity[Dictionnaire de données ISOBUS^]."
+msgstr ""
+"Les paramètres de machine, d'emplacement et de processus sont définis dans "
+"la norme ISOBUS ISO 11783, où ils sont appelés DDI (Identifiant du "
+"dictionnaire de données).\n"
+"Les DDI sont publiés dans le https://www.isobus.net/isobus/dDEntity["
+"Dictionnaire de données ISOBUS^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:24
