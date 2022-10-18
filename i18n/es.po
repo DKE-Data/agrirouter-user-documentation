@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-10-18 08:46+0000\n"
+"PO-Revision-Date: 2022-10-18 11:15+0000\n"
 "Last-Translator: Agrar Uebersetzer 2 <agrolinguainfo@agrolingua.com>\n"
 "Language-Team: Spanish <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/es/>\n"
@@ -68,7 +68,7 @@ msgstr "fuente"
 
 #. type: Hash Value: asciidoc attributes idseparator
 #: de/antora-playbook.yml:0
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-"
 msgstr "-"
 
@@ -86,7 +86,7 @@ msgstr "verdadero"
 
 #. type: Hash Value: asciidoc attributes kroki-plantuml-include
 #: de/antora-playbook.yml:0
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "style.puml"
 msgstr "style.puml"
 
@@ -206,7 +206,7 @@ msgstr "Advertencia"
 
 #. type: Array Element: asciidoc extensions
 #: de/antora-playbook.yml:0
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "asciidoctor-kroki"
 msgstr "asciidoctor-kroki"
 
@@ -298,7 +298,7 @@ msgstr "xref:routing.adoc[Enrutamiento]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:7
 msgid "xref:account-pairing.adoc[Konto verbinden]"
-msgstr "xref:account-pairing.adoc[Asociar cuenta]"
+msgstr "xref:account-pairing.adoc[Vincular cuenta]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:8
@@ -363,7 +363,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account-pairing.adoc:20
 #, no-wrap
 msgid "Pairing tile"
-msgstr "Emparejando icono"
+msgstr "Icono de vinculación"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:24
@@ -382,17 +382,19 @@ msgid ""
 "Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld "
 "*_Email-Adresse_* ein."
 msgstr ""
+"Introduce la dirección de correo electrónico de la otra cuenta en el campo *"
+"_Dirección de correo electrónico_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:26
 msgid "Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein."
-msgstr ""
+msgstr "Introduce el nombre que prefieras en el campo *_Alias_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:27
 #, no-wrap
 msgid "Pairing invite"
-msgstr ""
+msgstr "Invitación para vinculación"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:33
@@ -401,6 +403,9 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
+"Haz clic en el botón *_Enviar invitación_*.  [.result]#La invitación será "
+"enviada a la otra cuenta.# [.result]#La invitación se mostrará en la pestaña "
+"`Invitaciones pendientes` hasta que el titular de la cuenta la acepte.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:39
@@ -410,13 +415,17 @@ msgid ""
 "[.result]#Das Konto wird in den Reiter `Verbunden` verschoben.# "
 "[.result]#Das Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
+"Si el titular de la cuenta la acepta: [.result]#Recibirás un correo "
+"electrónico.# [.result]#Las dos cuentas quedarán vinculadas entre sí.# [."
+"result]#La cuenta pasará a la pestaña `Vinculados`.# [.result]#La cuenta se "
+"añadirá a la lista de puntos de conexión.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:46
 msgid ""
 "Du kannst eine Einladung zurücknehmen, wenn der Empfänger sie noch nicht "
 "angenommen hat. +"
-msgstr ""
+msgstr "Puedes retirar la invitación si el destinatario aún no la ha aceptado.+"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:49
@@ -424,23 +433,25 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
+"En la pestaña `Invitaciones pendientes`, selecciona la invitación.  [."
+"result]#La entrada de la lista aparecerá en verde.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:50
 msgid "Klicke den Button *_Einladung aufheben_*."
-msgstr ""
+msgstr "Haz clic en el botón *_Cancelar invitación_*."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:52
 #, no-wrap
 msgid "Einladung erhalten"
-msgstr ""
+msgstr "Recibir una invitación"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:56
 #, no-wrap
 msgid "Incoming invitation"
-msgstr ""
+msgstr "Invitación entrante"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:59
@@ -450,6 +461,10 @@ msgid ""
 "werden in der Zeile `Eingehend` die Einladungen angezeigt, die du erhalten "
 "und noch nicht bearbeitet hast."
 msgstr ""
+"El procedimiento anteriormente descrito también funciona en sentido inverso: "
+"puedes recibir una invitación de otra cuenta.  En el icono `Vincular cuentas`"
+", línea `Entrantes`, se muestran las invitaciones que has recibido y que aún "
+"no has procesado."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:65
@@ -457,6 +472,8 @@ msgid ""
 "Wähle im Reiter `Empfangene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
+"En la pestaña `Invitaciones recibidas`, selecciona la invitación.  [.result]#"
+"La entrada de la lista se mostrará en verde.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:70
