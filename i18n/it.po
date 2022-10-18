@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-10-18 19:15+0000\n"
+"PO-Revision-Date: 2022-10-18 22:15+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/it/>\n"
@@ -279,12 +279,12 @@ msgstr "xref:introduction.adoc[Introduzione]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:3
 msgid "xref:account.adoc[Konto]"
-msgstr "xref:account.adoc[Conto]"
+msgstr "xref:account.adoc[Account]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:4
 msgid "xref:endpoint.adoc[Endpunkt]"
-msgstr "xref:endpoint.adoc[Punto finale]"
+msgstr "xref:endpoint.adoc[Endpoint]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:5
@@ -364,7 +364,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account-pairing.adoc:20
 #, no-wrap
 msgid "Pairing tile"
-msgstr "Icona di collegamento"
+msgstr "Riquadro di associazione"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:24
@@ -374,6 +374,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
+"Nel pannello di controllo, fai clic sul riquadro *_Collegamento di account_*"
+".  [.result]#Viene visualizzata la finestra `Collegamento di account`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -381,17 +383,19 @@ msgid ""
 "Gebe die E-Mail-Adresse des anderen Kontos in das Eingabefeld *_Email-"
 "Adresse_* ein."
 msgstr ""
+"Inserire l'indirizzo e-mail dell'altro account nel campo *_Indirizzo "
+"e-mail_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:26
 msgid "Gebe einen frei wählbaren Namen in das Eingabefeld *_Nickname_* ein."
-msgstr ""
+msgstr "Inserire un nome a scelta nel campo *_Nickname_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account-pairing.adoc:27
 #, no-wrap
 msgid "Pairing invite"
-msgstr ""
+msgstr "Invito per l'associazione"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:33
@@ -400,6 +404,9 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
+"Fai clic sul pulsante *_Inviare un invito_*.  [.result]#L'invito verrà "
+"inviato all'altro account.# [.result]#L'invito viene visualizzato nella "
+"scheda `Inviti aperti` finché non viene accettato dal titolare dell'account.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:39
@@ -409,6 +416,10 @@ msgid ""
 "result]#Das Konto wird in den Reiter `Verbunden` verschoben.# [.result]#Das "
 "Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
+"Se il titolare dell'account accetta l'invito: [.result]#Ricevi un'e-mail.# [."
+"result]#I due account sono collegati.# [.result]#L'account viene spostato "
+"nella scheda `Collegato`.# [.result]#L'account viene aggiunto all'elenco "
+"degli endpoint.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:46
@@ -416,6 +427,8 @@ msgid ""
 "Du kannst eine Einladung zurücknehmen, wenn der Empfänger sie noch nicht "
 "angenommen hat. +"
 msgstr ""
+"È possibile ritirare un invito se il destinatario non lo ha ancora "
+"accettato. +"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:49
@@ -423,6 +436,8 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
+"Selezionare l'invito nella scheda `Inviti aperti`.  [.result]#La voce "
+"dell'elenco apparirà verde.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:50
