@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-10-19 21:15+0000\n"
+"PO-Revision-Date: 2022-10-19 23:15+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/it/>\n"
@@ -1481,11 +1481,14 @@ msgid ""
 "icon.png[refresh, 30, 30].  [.result]#Die Telemetrie-Einheit wird der "
 "Endpunkteliste hinzugefügt.#"
 msgstr ""
+"Fai clic sull'icona *_Aggiorna_* nell'elenco degli endpoint image:ar_refresh."
+"icon.png[refresh, 30, 30].  [.result]#L'unità di telemetria è stata aggiunta "
+"all'elenco degli endpoint.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:95
 msgid "Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben."
-msgstr ""
+msgstr "Modifica il nome come descritto nella sezione `Modificare endpoint`."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:97
@@ -1493,6 +1496,8 @@ msgid ""
 "Lese in der Bedienungsanleitung des Herstellers nach, wie du den "
 "Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
+"Consulta il manuale di istruzioni del fabbricante per sapere come inserire "
+"il codice di registrazione sull'unità di telemetria."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:99
@@ -1501,23 +1506,26 @@ msgid ""
 "Endpunkteliste hinzugefügt. Damit können ISOBUS-Maschinen beim Routing als "
 "Sender oder Empfänger ausgewählt werden."
 msgstr ""
+"Se si tratta di una macchina ISOBUS, viene aggiunta anch'esssa all'elenco "
+"degli endpoint. Ciò consente di selezionare le macchine ISOBUS come mittenti "
+"o destinatari durante i percorsi di trasferimento."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:101
 #, no-wrap
 msgid "Agrarsoftware verbinden"
-msgstr ""
+msgstr "Collegare software per l'agricoltura"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:103
 msgid ""
 "Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:"
-msgstr ""
+msgstr "Per collegare un software per l'agricoltura con agrirouter:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:105
 msgid "Starte die Agrarsoftware."
-msgstr ""
+msgstr "Avviare il software per l'agricoltura."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:107
@@ -1526,6 +1534,9 @@ msgid ""
 "Benutzerdaten deines agrirouter-Kontos ein.  [.result]#Die Agrarsoftware "
 "verbindet sich mit dem agrirouter.#"
 msgstr ""
+"Esegui la funzione *_Collega agrirouter_* e inserisci i dati dell'utente del "
+"proprio account agrirouter.  [.result]#Il software per l'agricoltura si "
+"collegherà ad agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:109
@@ -1534,6 +1545,10 @@ msgid ""
 "Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].  [."
 "result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#"
 msgstr ""
+"Apri il centro di controllo di agrirouter e fai clic sull'icona *_Aggiorna_* "
+"nell'elenco degli endpoint. image:ar_refresh.icon.png[refresh, 30, 30].  [."
+"result]#Il software per l'agricoltura verrà visualizzato nell'elenco degli "
+"endpoint.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:111
@@ -1543,6 +1558,10 @@ msgid ""
 "Weitere Informationen findest du in der Bedienungsanleitung der "
 "Agrarsoftware."
 msgstr ""
+"La funzione *_Collega agrirouter_* (il nome è variabile) si trova "
+"solitamente nelle impostazioni del software per l'agricoltura. Per ulteriori "
+"informazioni, consulta il manuale di istruzioni del software per "
+"l'agricoltura."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:113
@@ -1550,12 +1569,15 @@ msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]"
 msgstr ""
+"Un elenco completo dei software per l'agricoltura con interfaccia agrirouter "
+"è disponibile su https://my-agrirouter.com/marketplace/"
+"agrarsoftware[qui...^]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:114
 #, no-wrap
 msgid "Endpunkt suchen"
-msgstr ""
+msgstr "Cerca endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:116
@@ -1563,6 +1585,8 @@ msgid ""
 "Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt "
 "suchen:"
 msgstr ""
+"Se l'elenco degli endpoint contiene molte voci, è possibile cercare un "
+"singolo endpoint:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
@@ -1570,6 +1594,8 @@ msgid ""
 "Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_search.icon."
 "png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
 msgstr ""
+"Fai clic sull'icona *_Cerca_* sull'elenco degli endpoint image:ar_search.icon"
+".png[search, 30, 30].  [.result]#Il cursore lampeggia nel campo *_Cerca_*.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:121
@@ -1577,11 +1603,14 @@ msgid ""
 "Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.  [."
 "result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#"
 msgstr ""
+"Immetti il nome o la categoria di macchina dell'endpoint che desideri "
+"trovare.  [.result]#L'elenco degli endpoint verrà aggiornato mentre digiti "
+"la ricerca.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:123 de/modules/ROOT/pages/group.adoc:81
 msgid "Mache die Suche rückgängig wie folgt:"
-msgstr ""
+msgstr "Per annullare la ricerca:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:126
@@ -1589,34 +1618,38 @@ msgid ""
 "Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem "
 "Eingabefeld *_Suchen_*.  [.result]#Alle Endpunkte werden angezeigt.#"
 msgstr ""
+"Fai clic sull'icona image:ar_revert.icon.png[revert, 30, 30] a destra del "
+"campo *_Cerca_*..  [.result]#Verranno visualizzati tutti gli endpoint.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:127
 #, no-wrap
 msgid "Liste filtern"
-msgstr ""
+msgstr "Filtra l'elenco"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:129
 msgid "Die Liste kann nach vorgegebenen Kriterien gefiltert werden:"
-msgstr ""
+msgstr "L'elenco può essere filtrato in base a criteri predefiniti:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:132
 msgid "Die im Abschnitt `Endpunkt-Typ` beschriebenen Typen."
-msgstr ""
+msgstr "Le tipologie descritte nella sezione `Tipi di endpoint`."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:133
 msgid ""
 "Ein Endpunkt kann den Status `Aktiv`, `Deaktiviert` oder `Blockiert` haben."
 msgstr ""
+"Un endpoint può essere impostato su uno stato `Attivo`, `Disabilitato` o "
+"`Bloccato`."
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/endpoint.adoc:133
 #, no-wrap
 msgid "Maschinenklasse"
-msgstr ""
+msgstr "Categoria di macchina"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:134
