@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-10-19 21:15+0000\n"
+"PO-Revision-Date: 2022-10-21 00:15+0000\n"
 "Last-Translator: Project Manager <cvanrens@agrolingua.com>\n"
 "Language-Team: Portuguese <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/pt/>\n"
@@ -303,7 +303,7 @@ msgstr "xref:account-pairing.adoc[Conectar conta]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:8
 msgid "xref:support.adoc[Service & Support]"
-msgstr "xref:support.adoc[Serviço e suporte]"
+msgstr "xref:support.adoc[Serviço e assistência]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:10
@@ -1069,7 +1069,7 @@ msgid ""
 "befindet sich die Liste der Einstellungen, rechts die Details zum gewählten "
 "Listeneintrag.#"
 msgstr ""
-"Selecione *_Einstellungen_* image:ar_settings.icon.png[logon, 30, 30].  [."
+"Selecione *_Definições_* image:ar_settings.icon.png[logon, 30, 30].  [."
 "result]#É exibida a janela `Definições`.# [.result]#A lista de definições "
 "situa-se à esquerda e os detalhes da entrada da lista selecionada à direita.#"
 
@@ -2434,8 +2434,8 @@ msgid ""
 "Wenn du zu einem Endpunkt eine Anfrage an unseren Support stellst, benötigen "
 "wir die Diagnoseinformationen des Endpunktes:"
 msgstr ""
-"Quando apresenta um pedido de apoio para um ponto final, terá de fornecer as "
-"informações de diagnóstico do ponto final:"
+"Quando apresenta um pedido de assistência para um ponto final, terá de "
+"fornecer as informações de diagnóstico do ponto final:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:383
@@ -2457,9 +2457,9 @@ msgid ""
 "image:ar_info.icon.png[Supportinformationen, 30, 30].  [.result]#Das "
 "Meldungsfenster *_Support-Information_* wird angezeigt.#"
 msgstr ""
-"Selecione o ícone*_Mostrar informação de suporte_* image:ar_info.icon.png["
-"Supportinformationen, 30, 30].  [.result]#É exibida a caixa de diálogo *"
-"_Informação de suporte_*.#"
+"Selecione o ícone*_Mostrar informação de assistência_* image:ar_info.icon."
+"png[Supportinformationen, 30, 30].  [.result]#É exibida a caixa de diálogo *"
+"_Informação de assistência_*.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:390 de/modules/ROOT/pages/group.adoc:260
@@ -2470,8 +2470,8 @@ msgstr "Clique no ícone *_Copiar para área de transferência_*."
 #: de/modules/ROOT/pages/endpoint.adoc:391 de/modules/ROOT/pages/group.adoc:260
 msgid "Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support."
 msgstr ""
-"Copie a informação de diagnóstico para um e-mail a enviar para o nosso "
-"suporte."
+"Copie a informação de diagnóstico para um e-mail a enviar para a nossa "
+"assistência."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:394
@@ -2489,7 +2489,7 @@ msgid ""
 "Service & Support."
 msgstr ""
 "Clique em xref:support.adoc#support[este link] para mais informações sobre "
-"Serviço & Apoio."
+"Serviço & Assistência."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/group.adoc:4
@@ -3009,6 +3009,8 @@ msgid ""
 "Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen "
 "wir die Diagnoseinformationen der Gruppe:"
 msgstr ""
+"Se submeter um pedido de assistência para um grupo, terá de fornecer a "
+"informação de diagnóstico do grupo:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:259
@@ -3016,12 +3018,14 @@ msgid ""
 "Wähle das Icon *_Support Informationen anzeigen_*.  [.result]#Das "
 "Meldungsfenster *_Support-Information_* wird angezeigt.#"
 msgstr ""
+"Selecione o ícone *_Exibir informação de assistência_*.  [.result]#É exibida "
+"a caixa de diálogo *_Informação de assistência_*.#"
 
 #. type: Title =
 #: de/modules/ROOT/pages/introduction.adoc:4
 #, no-wrap
 msgid "Einführung"
-msgstr ""
+msgstr "Introdução"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:8
@@ -3031,6 +3035,9 @@ msgid ""
 "Maschine und Maschine. Oder zwischen Agrarsoftware und Agrarsoftware. Du "
 "hast die Wahl."
 msgstr ""
+"O agrirouter é um portal na Internet, independente do fabricante, para a "
+"partilha de dados entre máquinas, sistemas de software agrícola, ou uma "
+"combinação dos dois – a escolha é sua."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:10
@@ -3038,6 +3045,8 @@ msgid ""
 "Die Bedienung ist einfach und intuitiv, die Inbetriebnahme ist in ein paar "
 "Schritten erledigt."
 msgstr ""
+"O funcionamento é simples e intuitivo, a inicialização é feita em poucas "
+"etapas."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:12
@@ -3045,12 +3054,14 @@ msgid ""
 "Nach der Einrichtung arbeitet der agrirouter automatisch im Hintergrund. Du "
 "meldest dich nur noch am agrirouter an, um Änderungen vorzunehmen."
 msgstr ""
+"Após a configuração, o agrirouter trabalha automaticamente em segundo plano. "
+"Basta iniciar sessão no agrirouter para fazer alterações."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/introduction.adoc:13
 #, no-wrap
 msgid "Über diese Anleitung"
-msgstr ""
+msgstr "Acerca deste manual"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:16
@@ -3058,6 +3069,8 @@ msgid ""
 "Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der "
 "Inbetriebnahme und Nutzung des agrirouter:"
 msgstr ""
+"Este manual em linha contém vários capítulos organizados por tópico para o "
+"ajudar a colocar o agrirouter em funcionamento:"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/introduction.adoc:20
@@ -3066,6 +3079,9 @@ msgid ""
 "lese den https://my-agrirouter.com/en/agrirouter/quick-start-guide[Quick "
 "Start Guide^]."
 msgstr ""
+"Para criar rapidamente uma conta e começar a partilhar dados, sugerimos a "
+"leitura do nosso https://my-agrirouter.com/en/agrirouter/quick-start-guide["
+"Guia de Início Rápido^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:24
@@ -3074,6 +3090,8 @@ msgid ""
 "[.result]#Erstelle und verwalte dein Konto, wie im Kapitel "
 "xref:account.adoc[Konto] beschrieben.#"
 msgstr ""
+"Para utilizar o agrirouter precisa de uma conta de utilizador: [.result]#"
+"Crie e gira a sua conta como descrito no capítulo xref:account.adoc[Conta].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:27
@@ -3082,6 +3100,9 @@ msgid ""
 "<<Dashboard>>, angezeigt: [.result]#Über das Dashboard hast du Zugriff auf "
 "alle Funktionen des agrirouter.#"
 msgstr ""
+"Ao iniciar sessão no agrirouter, a sua página inicial pessoal, <<Painel de "
+"controlo>>, é exibida: [.result]#O painel de controlo dá-lhe acesso a todas "
+"as funções do agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:30
@@ -3090,6 +3111,8 @@ msgid ""
 "Ansicht, wie im Kapitel xref:account.adoc#settings[Einstellungen] "
 "beschrieben.#"
 msgstr ""
+"Pode configurar a vista do seu painel de controlo.  [.result]#Altere a vista "
+"como descrito no capítulo xref:account.adoc#settings[Definições].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:33
@@ -3100,6 +3123,11 @@ msgid ""
 "verbinden] und xref:endpoint.adoc#connect-software[Agrarsoftware verbinden] "
 "beschrieben.#"
 msgstr ""
+"As máquinas e o software agrícola podem partilhar dados a partir do momento "
+"em que os adiciona ao agrirouter como <<Ponto final,Pontos finais>>.  [."
+"result]#Adicione pontos finais como descrito nos capítulos xref:endpoint.adoc"
+"#connect-machine[Conectar máquina] e xref:endpoint.adoc#connect-software["
+"Conectar software agrícola].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:37
