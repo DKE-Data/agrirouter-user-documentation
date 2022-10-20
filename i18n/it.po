@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-10-19 23:15+0000\n"
+"PO-Revision-Date: 2022-10-20 12:15+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/it/>\n"
@@ -331,7 +331,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:9 de/modules/ROOT/pages/endpoint.adoc:9
 #: de/modules/ROOT/pages/group.adoc:10 de/modules/ROOT/pages/routing.adoc:26
 msgid "In diesem Abschnitt erfährst du"
-msgstr "In questa sezione ti spiegamo come:"
+msgstr "In questa sezione ti spieghiamo come:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:11
@@ -1268,13 +1268,13 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:11
 msgid "wie du einen Endpunkt hinzufügst, bearbeitest und löscht"
-msgstr "come aggiungere, modificare ed eliminare un endpoint"
+msgstr "aggiungere, modificare ed eliminare un endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:12
 msgid ""
 "wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst"
-msgstr "come creare xref:introduction.adoc#route[percorsi] per l'endpoint"
+msgstr "creare xref:introduction.adoc#route[percorsi] per l'endpoint"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:13 de/modules/ROOT/pages/group.adoc:15
@@ -1658,12 +1658,15 @@ msgid ""
 "zugeordnet. Diese gibt an, um welche Art landwirtschaftliche Maschine es "
 "sich handelt, z.B. Dünger, Spritze, etc. ... ."
 msgstr ""
+"Un endpoint di tipo `Macchina`viene assegnato automaticamente a una "
+"categoria di macchine. Indica il tipo di macchina agricola, ad esempio un "
+"spandiconcime, un'irroratrice, ecc."
 
 #. -
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:138
 msgid "Filtere die Liste wie folgt:"
-msgstr ""
+msgstr "Per filtrare la lista:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:141
@@ -1673,6 +1676,9 @@ msgid ""
 "icon.png[filter, 30, 30].  [.result]#Die Auswahlliste `Filtern nach` wird "
 "angezeigt.#"
 msgstr ""
+"Fai clic sull'icona *_Filtra endpoint_* nell'elenco degli endpoint. "
+"image:ar_filter.icon.png[filter, 30, 30].  [.result]#Verrà visualizzato "
+"l'elenco a discesa `Filtra per`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:143
@@ -1680,6 +1686,8 @@ msgid ""
 "Wähle eine Kategorie.  [.result]#Die Auswahlliste `Filtern nach: "
 "<Kategorie>` wird angezeigt.#"
 msgstr ""
+"Seleziona una categoria.  [.result]#Verrà visualizzato l'elenco a discesa `"
+"Filtra per: <Categoria>`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:145
@@ -1687,11 +1695,13 @@ msgid ""
 "Wähle eine Option und bestätige mit *_OK_*.  [.result]#Die gefilterte "
 "Endpunkteliste wird angezeigt.#"
 msgstr ""
+"Seleziona un'opzione e conferma con *_OK_*.  [.result]#Verrà visualizzato "
+"l'elenco degli endpoint filtrato.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:147
 msgid "Setze den Filter zurück wie folgt:"
-msgstr ""
+msgstr "Per reimpostare il filtro:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:152
@@ -1699,17 +1709,20 @@ msgid ""
 "Klicke das Icon *_Alle Filter zurücksetzen_*.  [.result]#Die Auswahlliste "
 "`Filtern nach` wird angezeigt.#"
 msgstr ""
+"Fai clic sull'icona *_Reimposta tutti i filtri_*.  [.result]#Verrà "
+"visualizzato l'elenco a discesa ` Filtra per`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:154
 msgid "Klicke *_OK_*.  [.result]#Alle Endpunkte werden angezeigt.#"
 msgstr ""
+"Fai clic su *_OK_*.  [.result]#Verranno visualizzati tutti gli endpoint.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:155 de/modules/ROOT/pages/group.adoc:86
 #, no-wrap
 msgid "Liste aktualisieren"
-msgstr ""
+msgstr "Aggiornare l'elenco"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:157
@@ -1717,6 +1730,8 @@ msgid ""
 "Aktualisiere die Endpunkteliste, wenn der gesuchte Endpunkt nicht "
 "eingetragen ist:"
 msgstr ""
+"Aggiorna l'elenco degli endpoint se l'endpoint che hai cercato non è stato "
+"inserito:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:160
@@ -1724,18 +1739,23 @@ msgid ""
 "Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30] "
 "über der Endpunkteliste.  [.result]#Die Endpunkteliste wird aktualisiert.#"
 msgstr ""
+"Fai clic sull'icona *_Aggiorna_* image:ar_refresh.icon.png[refresh, 30, 30] "
+"sull'elenco degli endpoint.  [.result]#L'elenco degli endpoint verrà "
+"aggiornato.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:162 de/modules/ROOT/pages/group.adoc:93
 #, no-wrap
 msgid "Detailansicht"
-msgstr ""
+msgstr "Visualizzazione dettagli"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:164
 msgid ""
 "In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:"
 msgstr ""
+"Per aggiornare l'elenco degli endpoint se l'endpoint che hai cercato non è "
+"stato inserito:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:166
@@ -1743,22 +1763,24 @@ msgid ""
 "das Routing, d.h. verbundene Endpunkte und Gruppen und die Regeln des "
 "Datenaustausches"
 msgstr ""
+"i percorsi di trasferimento, cioè gli endpoint, i gruppi collegati e le "
+"regole di scambio dei dati"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:167
 msgid "Details zum Endpunkt und dem Postfach"
-msgstr ""
+msgstr "Dettagli dell'endpoint e della cassetta postale"
 
 #.  Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:168
 msgid "Fähigkeiten des Endpunktes"
-msgstr ""
+msgstr "Funzionalità dell'endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:170
 msgid "die in einem verbundenen Konto sichtbaren Maschinen"
-msgstr ""
+msgstr "le macchine visibili in un account associato"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:172
@@ -1767,6 +1789,9 @@ msgid ""
 "Empfangen von>>, <<gruppen,Gruppen>>, <<details,Details>>, <<fähigkeiten,"
 "Fähigkeiten>> und <<externe-maschinen,Externe Maschinen>> unterteilt."
 msgstr ""
+"La visualizzazione dettagli è suddivisa nelle schede <<invio-a, Invio a>>, "
+"<<ricevere-da, Ricevere da>>, <<gruppi, Gruppi>>, <<dettagli, Dettagli>>, "
+"<<funzionalità, Funzionalità>> e <<macchine-esterne, Macchine esterne>>."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:174
@@ -1774,12 +1799,15 @@ msgid ""
 "Die Zahl der angezeigten Reiter hängt vom Endpunkt-Typ ab. So wird etwa der "
 "Reiter `Externe Maschinen` nur bei verbundenen Konten angezeigt."
 msgstr ""
+"Il numero di schede visualizzate dipende dal tipo di endpoint. Ad esempio, "
+"la scheda `Macchine esterne` viene visualizzata solo per gli account "
+"associati."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:176 de/modules/ROOT/pages/group.adoc:100
 #, no-wrap
 msgid "Senden an"
-msgstr ""
+msgstr "Inviare a"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:179 de/modules/ROOT/pages/group.adoc:103
@@ -1788,16 +1816,18 @@ msgid ""
 "Der Reiter enthält eine Liste der Empfänger.\n"
 "Empfänger"
 msgstr ""
+"La scheda contiene un elenco di destinatari.\n"
+"Destinatario"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:181 de/modules/ROOT/pages/group.adoc:105
 msgid "befinden sich am Ende einer abgehenden Route"
-msgstr ""
+msgstr "si trovano alla fine di un percorso in uscita"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:182
 msgid "sind Endpunkte und Gruppen, an welche der Endpunkt Daten sendet"
-msgstr ""
+msgstr "sono gli endpoint e i gruppi ai quali l'endpoint invia i dati"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:184
@@ -1805,7 +1835,7 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:317 de/modules/ROOT/pages/group.adoc:108
 #: de/modules/ROOT/pages/group.adoc:159 de/modules/ROOT/pages/group.adoc:227
 msgid "Du kannst"
-msgstr ""
+msgstr "È possibile:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:186 de/modules/ROOT/pages/group.adoc:110
@@ -1814,11 +1844,14 @@ msgid ""
 "ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
 "30, 30]"
 msgstr ""
+"Aggiungere image:ar_add.icon.png[add, 30, 30], modificare image:ar_edit.icon."
+"png[edit, 30, 30] ed eliminare image:ar_delete.icon.png[delete, 30, 30] "
+"destinatari"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:187
 msgid "definieren, welche Nachrichten der Endpunkt an den Empfänger sendet"
-msgstr ""
+msgstr "definire quali messaggi l'endpoint invia al destinatario"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:189
@@ -1827,12 +1860,15 @@ msgid ""
 "neue Endpunkt ist automatisch Mitglied einer Standard-Gruppe, die in der "
 "Liste der Empfänger angezeigt wird."
 msgstr ""
+"L'elenco dei destinatari non rimane vuoto anche con un nuovo endpoint. Il "
+"nuovo endpoint è automaticamente incluso in un gruppo standard che viene "
+"visualizzato nell'elenco dei destinatari."
 
 #. type: Title ====
 #: de/modules/ROOT/pages/endpoint.adoc:190 de/modules/ROOT/pages/group.adoc:113
 #, no-wrap
 msgid "Empfänger hinzufügen"
-msgstr ""
+msgstr "Aggiungere un destinatario"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:192
@@ -1840,6 +1876,8 @@ msgid ""
 "Du erstellst die Route für den Versand von Daten an einen anderen Endpunkt "
 "oder eine Gruppe:"
 msgstr ""
+"É possibile creare il percorso per inviare i dati a un altro endpoint o "
+"gruppo:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195
@@ -1849,6 +1887,8 @@ msgid ""
 "Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
 "result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
+"Fai clic sull'icona *_Aggiungi_* image:ar_add.icon.png[add, 30, 30].  [."
+"result]#Verrà visualizzato il modulo `Nuovo percorso di trasferimento`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:197 de/modules/ROOT/pages/group.adoc:120
@@ -1856,12 +1896,16 @@ msgid ""
 "Klicke in das Eingabefeld *_Empfänger_*.  [.result]#Die Auswahlliste "
 "`Endpunkt auswählen` wird angezeigt.#"
 msgstr ""
+"Fai clic nel campo *_Destinatario_*.  [.result]#Verrà visualizzato l'elenco "
+"a discesa `Seleziona endpoint`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:199 de/modules/ROOT/pages/group.adoc:122
 msgid ""
 "Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
+"Seleziona il destinatario.  [.result]#Verrà visualizzato il modulo `Nuovo "
+"percorso di trasferimento`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:201
@@ -1871,6 +1915,8 @@ msgid ""
 "Klicke in das Eingabefeld *_Nachrichtenformate_*.  [.result]#Die "
 "Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#"
 msgstr ""
+"Fai clic nel campo *_Formati dei messaggi_*.  [.result]#Verrà visualizzato "
+"l'elenco a discesa `Seleziona i formati dei messaggi`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:202
@@ -1878,6 +1924,8 @@ msgid ""
 "Wähle die Nachrichten, die der Empfänger erhalten soll und klicke "
 "*_Bestätigen_*."
 msgstr ""
+"Seleziona i messaggi che desideri che il destinatario riceva e fai clic su "
+"*_Conferma_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:204
@@ -1887,6 +1935,8 @@ msgid ""
 "Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
 "result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
 msgstr ""
+"Fai clic nel campo *_Categorie di parametri di telemetria_*.  [.result]#"
+"Verrà visualizzato il modulo `Categorie di parametri di telemetria`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:206
@@ -1895,12 +1945,16 @@ msgid ""
 "Wähle eine oder mehrere Kategorien und klicke Bestätigen.  [.result]#Das "
 "Formular `Neues Routing` wird angezeigt.#"
 msgstr ""
+"Seleziona una o più categorie e fare clic su *_Conferma_*\".  [.result]#"
+"Verrà visualizzato il modulo `Nuovo percorso di trasferimento`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:208 de/modules/ROOT/pages/group.adoc:132
 msgid ""
 "Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird hinzugefügt.#"
 msgstr ""
+"Fai clic sul pulsante *_Conferma_*.  [.result]#Verrà aggiunto il "
+"destinatario.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:210
@@ -1908,6 +1962,8 @@ msgid ""
 "Beim Anlegen der Route werden nur Nachrichten angeboten, welche vom "
 "Empfänger verarbeitet werden können."
 msgstr ""
+"Quando si crea il percorso, vengono proposti solo i messaggi che possono "
+"essere elaborati dal destinatario."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:212
@@ -1916,6 +1972,10 @@ msgid ""
 "bis zu 2 Minuten dauern, bis die Route betriebsbereit ist, d.h. Daten an den "
 "Empfänger gesendet werden können."
 msgstr ""
+"Il nuovo destinatario è immediatamente visibile nell'elenco degli endpoint. "
+"Tuttavia, possono essere necessari fino a 2 minuti prima che il percorso sia "
+"pronto per l'uso, ovvero prima che i dati possano essere inviati al "
+"destinatario."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:214
