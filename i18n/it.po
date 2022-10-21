@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-10-21 19:15+0000\n"
+"PO-Revision-Date: 2022-10-21 22:06+0000\n"
 "Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/it/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: de/antora.yml:0 de/antora-playbook.yml:0
 #, no-wrap
 msgid "agrirouter Bedienungsanleitung"
-msgstr "Manuale di istruzione agrirouter"
+msgstr "Manuale per l'utente agrirouter"
 
 #. type: Array Element: antora extensions
 #: de/antora-playbook.yml:0
@@ -263,7 +263,6 @@ msgstr ""
 
 #. type: Content of: <div><div><div>
 #: de/supplemental-ui/partials/header-menu.hbs:9
-#, fuzzy
 msgid ""
 "<span class=\"control\"> <a class=\"button is-primary\" href=\"https://goto."
 "my-agrirouter.com\">agrirouter</a> </span>"
@@ -635,9 +634,9 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
 "`Kontrollzentrum` wird geöffnet und die Endpunkteliste wird angezeigt.#"
 msgstr ""
-"Fai clic sul sul riquadro *_Centro di controllo_* nel pannello di "
-"controllo.  [.result]#Si aprirà il `Centro di controllo` e verrà "
-"visualizzato l'elenco degli endpoint.#"
+"Fai clic sul riquadro *_Centro di controllo_* nel pannello di controllo.  [."
+"result]#Si aprirà il `Centro di controllo` e verrà visualizzato l'elenco "
+"degli endpoint.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:116
@@ -1496,8 +1495,8 @@ msgid ""
 "Lese in der Bedienungsanleitung des Herstellers nach, wie du den "
 "Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
-"Consulta il manuale di istruzioni del fabbricante per sapere come inserire "
-"il codice di registrazione sull'unità di telemetria."
+"Consulta il manuale per l'utente del fabbricante per sapere come inserire il "
+"codice di registrazione sull'unità di telemetria."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:99
@@ -1560,7 +1559,7 @@ msgid ""
 msgstr ""
 "La funzione *_Collega agrirouter_* (il nome è variabile) si trova "
 "solitamente nelle impostazioni del software per l'agricoltura. Per ulteriori "
-"informazioni, consulta il manuale di istruzioni del software per "
+"informazioni, consulta il manuale per l'utente del software per "
 "l'agricoltura."
 
 #. type: Plain text
@@ -1570,8 +1569,7 @@ msgid ""
 "findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]"
 msgstr ""
 "Un elenco completo dei software per l'agricoltura con interfaccia agrirouter "
-"è disponibile su https://my-agrirouter.com/marketplace/"
-"agrarsoftware[qui...^]."
+"è disponibile su https://my-agrirouter.com/marketplace/agrarsoftware[qui...^]"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:114
@@ -2905,7 +2903,7 @@ msgid ""
 "entfernen image:ar_delete.icon.png[delete, 30, 30]"
 msgstr ""
 "È possibile aggiungere immagine:ar_add.icon.png[add, 30, 30] e rimuovere "
-"immagine:ar_delete.icon.png[delete, 30, 30] membri."
+"immagine:ar_delete.icon.png[delete, 30, 30] membri"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:207
@@ -3206,9 +3204,9 @@ msgid ""
 "xref:group.adoc#receive-from[Empfangen von].#"
 msgstr ""
 "Quando riunisci gli endpoint in <<gruppo, gruppi>>, è necessario creare "
-"percorsi solo per il gruppo e non per ogni membro del gruppo.  [result]#"
+"percorsi solo per il gruppo e non per ogni membro del gruppo.  [.result]#"
 "Aggiungi un gruppo come descritto nel capitolo xref:group.adoc#add-group["
-"Aggiungi gruppo].#[result]#Se il gruppo deve inviare dati, segui le "
+"Aggiungi gruppo].#[.result]#Se il gruppo deve inviare dati, segui le "
 "istruzioni del capitolo  xref:group.adoc#send-to[Invia a].# [.result]#Se il "
 "gruppo deve ricevere dati, segui le istruzioni del capitolo xref:group.adoc"
 "#receive-from[Ricevere da].#"
@@ -3325,7 +3323,7 @@ msgstr ""
 "Generalmente la trasmissione dei dati avviene tramite un dispositivo "
 "installato sul trattore o sulla macchina . Un elenco completo delle unità di "
 "telemetria con interfaccia agrirouter è disponibile https://my-agrirouter."
-"com/marketplace/telemetrieverbindungen[qui...^]."
+"com/marketplace/telemetrieverbindungen[qui...^]"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:67
@@ -3480,12 +3478,12 @@ msgstr "È possibile scambiare i seguenti tipi di messaggi tra gli endpoint:"
 #: de/modules/ROOT/pages/introduction.adoc:99
 #, no-wrap
 msgid "Auftragsdaten"
-msgstr "Informazioni sugli ordini"
+msgstr "Informazioni sulle attività"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:100
 msgid "ISOBUS Auftragsdaten, Applikationskarten"
-msgstr "Informazioni sugli ordini ISOBUS, mapping applicazioni"
+msgstr "Informazioni sulle attività ISOBUS, mapping applicazioni"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:100
@@ -3639,10 +3637,9 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:139
-#, fuzzy
 msgid ""
 "Telemetrie-Einheiten und Maschinen sind Mitglied in der Maschinen-Gruppe"
-msgstr "Le unità di telemetria e le macchine sono membri del gruppo Macchine."
+msgstr "Le unità di telemetria e le macchine sono membri del gruppo Macchine"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:140
@@ -3680,8 +3677,8 @@ msgid ""
 msgstr ""
 "Molte macchine sono in grado di fornire dati in tempo reale, ovvero dati "
 "relativi a macchine, posizioni e processi generati in modo continuativo "
-"durante il lavoro nei campi. agrirouter supporta xref:appendix/ddis.adoc[600 "
-"tipi di dati], suddivisi in 12 categorie:"
+"durante la lavorazione del terreno. agrirouter supporta xref:appendix/ddis."
+"adoc[600 tipi di dati], suddivisi in 12 categorie:"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/introduction.adoc:149
@@ -4450,90 +4447,92 @@ msgstr "Un endpoint può registrare le proprie funzionalità in agrirouter?"
 #: de/modules/ROOT/pages/support.adoc:138
 #, no-wrap
 msgid "Content Message Service"
-msgstr ""
+msgstr "Servizio messaggi di contenuto"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:139
 #, no-wrap
 msgid "Können Endpunkte Daten austauschen?"
-msgstr ""
+msgstr "Gli endpoint possono scambiare dati?"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:142
 msgid "Dies sind die möglichen Systemstati und ihre Bedeutung:"
-msgstr ""
+msgstr "I possibili stati del sistema e il loro significato:"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:145
 #, no-wrap
 msgid "Systemstatus"
-msgstr ""
+msgstr "Stato del sistema"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:146
 #, no-wrap
 msgid "operational"
-msgstr ""
+msgstr "operativo"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:147
 #, no-wrap
 msgid "Die Systemfunktion ist voll verfügbar."
-msgstr ""
+msgstr "Il sistema è pienamente operativo."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:147
 #, no-wrap
 msgid "under maintenance"
-msgstr ""
+msgstr "in manutenzione"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:148
 #, no-wrap
 msgid "Die Systemfunktion wird aktuell gewartet und ist nicht verfügbar."
-msgstr ""
+msgstr "Il sistema è in manutenzione e non è disponibile."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:148
 #, no-wrap
 msgid "degraded performance"
-msgstr ""
+msgstr "prestazioni ridotte"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:149
 #, no-wrap
 msgid "Die Systemfunktion ist eingeschränkt verfügbar. Das System antwortet langsamer als erwartet."
 msgstr ""
+"Il sistema opera con una disponibilità limitata. Il sistema risponde più "
+"lentamente del previsto."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:149
 #, no-wrap
 msgid "partial outage"
-msgstr ""
+msgstr "interruzione parziale"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:150
 #, no-wrap
 msgid "Die Systemfunktion steht nicht mehr allen Benutzer zur Verfügung."
-msgstr ""
+msgstr "Il sistema non funziona per tutti gli utenti."
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:150
 #, no-wrap
 msgid "major outage"
-msgstr ""
+msgstr "grave interruzione"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:151
 #, no-wrap
 msgid "Die Systemfunktion ist nicht verfügbar."
-msgstr ""
+msgstr "Il sistema non è disponibile."
 
 #. type: Title =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:4
 #, no-wrap
 msgid "Anhang A, DDIs"
-msgstr ""
+msgstr "Appendice A, DDI"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:7
@@ -4541,21 +4540,25 @@ msgid ""
 "Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
 "Prozessparameter in Echtzeit versenden."
 msgstr ""
+"Molte macchine possono inviare i parametri della macchina, della posizione e "
+"del processo in tempo reale mentre lavorano il terreno."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:9
 msgid "Es gibt über 600 solcher Parameter, z.B."
-msgstr ""
+msgstr "Esistono più di 600 parametri di questo tipo, ad es."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:11
 msgid "Soll- und Istwerte in den Auftragsdaten"
-msgstr ""
+msgstr "Valori teorici e valori effettivi nelle informazioni sulle attività"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:12
 msgid "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
 msgstr ""
+"Consumo di carburante, velocità o livello del serbatoio nei dati della "
+"macchina"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:16
@@ -4567,6 +4570,12 @@ msgid ""
 "result]#Alle der gewählten Kategorie zugeordneten Parameter können dann "
 "zwischen den Endpunkten ausgetauscht werden.#"
 msgstr ""
+"Al fine di fornire una panoramica migliore, abbiamo raggruppato i parametri "
+"in 12 categorie.  Come descritto nelle sezioni xref:endpoint.adoc#detail-"
+"view[Endpoint] e xref:group.adoc#detail-view[Gruppi], durante la creazione "
+"dei percorsi si selezionano una o più categorie.  [.result]#Tutti i "
+"parametri assegnati alla categoria selezionata possono quindi essere "
+"scambiati tra gli endpoint.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:21
@@ -4575,18 +4584,24 @@ msgid ""
 "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
 "Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
 msgstr ""
+"I parametri della macchina, della posizione e del processo sono definiti "
+"sulla base della norma ISOBUS 11783 e sono denominati \"DDI\" (Data "
+"Dictionary Identifier, Identificatore del dizionario dei dati).\n"
+"I DDI sono pubblicati nel https://www.isobus.net/isobus/dDEntity[Dizionario "
+"dei dati ISOBUS^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:24
 msgid ""
 "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
 msgstr ""
+"Di seguito sono elencate tutte le categorie e i parametri ad esse assegnati:"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:25
 #, no-wrap
 msgid "GPS Positionsdaten und Guidance-Informationen"
-msgstr ""
+msgstr "Dati sulla posizione GPS e informazioni di guida"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:29
@@ -4595,12 +4610,15 @@ msgid ""
 "gemessen oder protokolliert wurden.  Daten mit Bezug zu geografischen und "
 "Guidance.Informationen."
 msgstr ""
+"Dati sulla posizione GPS (coordinate nord ed est) in cui sono stati misurati "
+"o registrati i dati di telemetria.  Dati relativi a informazioni geografiche "
+"e di orientamento."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:32
 #, no-wrap
 msgid "Allgemeine Prozessdaten"
-msgstr ""
+msgstr "Dati generali del processo"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:34
@@ -4608,12 +4626,14 @@ msgid ""
 "Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
 "Ausbringung und/oder Ertrag nicht relevant sind)."
 msgstr ""
+"Contatori di attività e vita utile o valori medi (contatori che non sono "
+"rilevanti per la spandimento agronomico e/o la resa)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:37
 #, no-wrap
 msgid "Kraftstoff und Harnstofflösung"
-msgstr ""
+msgstr "Carburante e soluzione di urea"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:40
@@ -4621,23 +4641,26 @@ msgid ""
 "Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
 "Maschinen (Gesamtenergieverbrauch)."
 msgstr ""
+"Dati relativi al consumo di carburante e di soluzione di urea delle macchine "
+"(consumo energetico totale)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:43
 #, no-wrap
 msgid "Maschineneigenschaften"
-msgstr ""
+msgstr "Caratteristiche della macchina"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:46
 msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
 msgstr ""
+"Dati non rilevanti per il processo sulle caratteristiche della macchina."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:49
 #, no-wrap
 msgid "Ausbringung"
-msgstr ""
+msgstr "Produzione"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:52
@@ -4645,56 +4668,59 @@ msgid ""
 "Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
 "Pflanzenschutzmittel, Trockenmasse, usw.)."
 msgstr ""
+"Dati sullo spandimento agronomico nel terreno (ad esempio, concime, sementi, "
+"prodotti fitosanitari, sostanza secca, ecc.)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:56
 #, no-wrap
 msgid "Ertragsdaten"
-msgstr ""
+msgstr "Dati sulla resa"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:59
 msgid "Menge und Eigenschaften des Erntegutes"
-msgstr ""
+msgstr "Quantità e caratteristiche del raccolto"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:62
 #, no-wrap
 msgid "Prozessdaten"
-msgstr ""
+msgstr "Dati di processo"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:65
 msgid "Daten über den Hauptarbeitsprozess der Maschine."
-msgstr ""
+msgstr "Dati sul principale processo di lavoro della macchina."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:68
 #, no-wrap
 msgid "Umgebungsbedingungen"
-msgstr ""
+msgstr "Condizioni ambientali"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:71
 msgid "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
 msgstr ""
+"Dati relativi alle condizioni ambientali (ad esempio, la velocità del vento)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:74
 #, no-wrap
 msgid "Basisdaten"
-msgstr ""
+msgstr "Dati di base"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:77
 msgid "Grundlegende Werte, die für das gesamte System relevant sind."
-msgstr ""
+msgstr "Valori fondamentali rilevanti per l'intero sistema."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:80
 #, no-wrap
 msgid "Maschinendaten (nur PGN)"
-msgstr ""
+msgstr "Dati della macchina (solo PGN)"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:83
@@ -4702,28 +4728,31 @@ msgid ""
 "Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
 "Hubwerksposition, Zapfwellendrehzahl, etc."
 msgstr ""
+"Dati della macchina appartenenti al PGN (Parameter Group Number, Numero del "
+"gruppo di parametri); ad esempio, posizione del dispositivo di sollevamento, "
+"velocità della presa di forza, ecc."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:86
 #, no-wrap
 msgid "Proprietäre Daten"
-msgstr ""
+msgstr "Dati in formato proprietario"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:89
 msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
-msgstr ""
+msgstr "Dati specifici del fabbricante (non sono inclusi nella norma)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/appendix/ddis.adoc:92
 #, no-wrap
 msgid "Bodendaten"
-msgstr ""
+msgstr "Dati sul suolo"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:95
 msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
-msgstr ""
+msgstr "Condizioni e dati dei sensori relativi alle proprietà del suolo."
 
 #~ msgid "/en"
 #~ msgstr "/it"
