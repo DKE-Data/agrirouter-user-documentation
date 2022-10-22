@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-08 16:03+0200\n"
-"PO-Revision-Date: 2022-10-21 23:15+0000\n"
+"PO-Revision-Date: 2022-10-22 10:15+0000\n"
 "Last-Translator: Agrar Uebersetzer 2 <agrolinguainfo@agrolingua.com>\n"
 "Language-Team: Spanish <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/es/>\n"
@@ -3212,6 +3212,11 @@ msgid ""
 "der Endpunkt Daten empfangen, folge der Anleitung im Kapitel "
 "xref:endpoint.adoc#receive-from[Empfangen von].#"
 msgstr ""
+"Utiliza <<Ruta,Rutas>> para indicar qué datos deseas que envíe y/o reciba un "
+"determinado punto de conexión.  [.result]#Si deseas que el punto de conexión "
+"envíe datos, sigue las instrucciones del capítulo xref:endpoint.adoc#send-to["
+"Enviar a].# [.result]#Si deseas que el punto de conexión reciba datos, sigue "
+"las instrucciones del capítulo xref:endpoint.adoc#receive-from[Recibir de].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:42
@@ -3225,12 +3230,19 @@ msgid ""
 "empfangen, folge der Anleitung im Kapitel "
 "xref:group.adoc#receive-from[Empfangen von].#"
 msgstr ""
+"Si agrupas varios puntos de conexión en <<Grupo, Grupos>>, solo deberás "
+"crear rutas para todo el grupo, y no para cada miembro del grupo.  [.result]#"
+"Añade un grupo tal como se explica en el capítulo xref:group.adoc#add-group["
+"Añadir grupos].# [.result]#Si deseas que el grupo envíe datos, sigue las "
+"instrucciones del capítulo xref:group.adoc#send-to[Enviar a].# [.result]#Si "
+"deseas que el grupo reciba datos, sigue las instrucciones del capítulo "
+"xref:group.adoc#receive-from[Recibir de].#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/introduction.adoc:43
 #, no-wrap
 msgid "Grundlagen"
-msgstr ""
+msgstr "Principios fundamentales"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:45
@@ -3238,12 +3250,14 @@ msgid ""
 "Es folgen in alphabetischer Reihenfolge einige grundlegende Begriffe und "
 "Konzepte, die du kennen solltest, wenn du den agrirouter nutzt."
 msgstr ""
+"A continuación se muestran en orden alfabético algunos términos y conceptos "
+"básicos que deberías conocer si usas el agrirouter."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/introduction.adoc:47
 #, no-wrap
 msgid "Dashboard"
-msgstr ""
+msgstr "Panel de control"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:50
@@ -3253,11 +3267,17 @@ msgid ""
 "Startseite.  Über das Dashboard hast du Zugriff auf alle Funktionen des "
 "agrirouter:"
 msgstr ""
+"Si has iniciado sesión en https://goto.my-agrirouter.com/app[my-agrirouter."
+"com^], se mostrará el panel de control, tu página de inicio personal del "
+"agrirouter.  A través del panel de control tendrás acceso a todas las "
+"funciones del agrirouter:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:52
 msgid "Im *_Kontrollzentrum_* verwaltest du die Endpunkte und das Routing."
 msgstr ""
+"En el *_Centro de control_* podrás administrar los puntos de conexión y el "
+"enrutamiento."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:53
@@ -3265,33 +3285,37 @@ msgid ""
 "In *_Konten verbinden_* verbindest du dich mit den Konten anderer "
 "agrirouter-Benutzer."
 msgstr ""
+"En la sección *_Vincular cuentas_* puedes conectar tu cuenta a las cuentas "
+"de otros usuarios del agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:54
 msgid "In *_Lernen & Support_* bekommst du Hilfe bei der Nutzung von agrirouter."
 msgstr ""
+"En la sección *_Formación y asistencia_* encontrarás ayuda relativa al uso "
+"del agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:55
 msgid "Dein Konto verwaltest du in der *_Kontoverwaltung_*."
-msgstr ""
+msgstr "Puedes administrar tu cuenta en la sección *_Gestión de la cuenta_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:56
 msgid "Die Darstellung des Dashboard stellst du im *_Profil_* ein."
-msgstr ""
+msgstr "Puedes configurar la visualización del panel de control en *_Perfil_*."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/introduction.adoc:57
 #, no-wrap
 msgid "agrirouter Dashboard"
-msgstr ""
+msgstr "Panel de control del agrirouter"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/introduction.adoc:60
 #, no-wrap
 msgid "Endpunkt"
-msgstr ""
+msgstr "Punto de conexión"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:63
