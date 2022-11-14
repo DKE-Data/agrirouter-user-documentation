@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-10-26 17:11+0200\n"
-"PO-Revision-Date: 2022-10-26 10:15+0000\n"
-"Last-Translator: Carla van Rens <info@agrar-uebersetzer.de>\n"
+"POT-Creation-Date: 2022-09-08 16:03+0200\n"
+"PO-Revision-Date: 2022-11-14 10:05+0000\n"
+"Last-Translator: Felix Lammers <f.lammers@dke-data.com>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/it/>\n"
 "Language: it\n"
@@ -2564,7 +2564,7 @@ msgid ""
 "Service & Support."
 msgstr ""
 "Fai clic su xref:support.adoc#support[questo link] per ulteriori "
-"informazioni sui servizi di assistenza e supporto."
+"informazioni sui servizi di Assistenza e Supporto."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/group.adoc:4
@@ -2587,10 +2587,17 @@ msgid ""
 "adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle "
 "Mitglieder der Gruppe."
 msgstr ""
+<<<<<<< HEAD
 "È possibile raggruppare gli endpoint in xref:introduction."
 "adoc#group[gruppi]: ad esempio, per fabbricante, tipo di macchina o misura.\n"
 "Il vantaggio: il xref:introduction.adoc#route[percorso di trasferimento] "
 "impostato per il gruppo sarà valido per tutti i membri del gruppo."
+=======
+"È possibile raggruppare gli endpoint in xref:introduction.adoc#group[gruppi]:"
+" ad esempio, per fabbricante, tipo di macchina o azione.\n"
+"Il vantaggio: il xref:introduction.adoc#route[percorso di trasferimento] che "
+"imposti per il gruppo sarà valido per tutti i membri del gruppo."
+>>>>>>> weblate/main
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:12
@@ -2614,7 +2621,7 @@ msgid ""
 "Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine "
 "Gruppe hinzuzufügen und zu verwalten:"
 msgstr ""
-"Apri il xref:introduction.adoc#control-center[centro di controllo] per "
+"Apri il xref:introduction.adoc#control-center[Centro di controllo] per "
 "aggiungere e gestire un gruppo:"
 
 #. type: Plain text
@@ -2657,17 +2664,17 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:34
 msgid "eine Gruppe hinzufügen,"
-msgstr "aggiungere un gruppo"
+msgstr "aggiungere un gruppo,"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:35
 msgid "eine Gruppe suchen,"
-msgstr "cercare un gruppo"
+msgstr "cercare un gruppo,"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:36
 msgid "die Gruppenliste aktualisieren."
-msgstr "aggiornare l'elenco dei gruppi"
+msgstr "aggiornare l'elenco dei gruppi."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/group.adoc:42
@@ -2878,16 +2885,26 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:154
+<<<<<<< HEAD
 #, fuzzy
 #| msgid "Der Reiter enthält eine Liste der Sender.  Sender"
 msgid "Der Reiter enthält eine Liste der Sender. + Sender"
 msgstr "La scheda contiene un elenco dei mittenti.  I mittenti:"
+=======
+#, no-wrap
+msgid ""
+"Der Reiter enthält eine Liste der Sender.\n"
+"Sender"
+msgstr ""
+"La scheda contiene un elenco dei mittenti.\n"
+"I mittenti:"
+>>>>>>> weblate/main
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:157
 msgid ""
 "sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden"
-msgstr "sono endpoint e gruppi che inviano dati ai membri del gruppo"
+msgstr "sono endpoints e gruppi che inviano dati ai membri del gruppo"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:162
@@ -2900,8 +2917,7 @@ msgid ""
 "Du erstellst die Route für den Empfang von Daten von einer anderen Gruppe "
 "oder einem Endpunkt:"
 msgstr ""
-"È possibile creare un percorso per ricevere i dati da un altro gruppo o "
-"endpoint:"
+"Puoi creare un percorso per ricevere i dati da un altro gruppo o endpoint:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:176
@@ -2950,8 +2966,13 @@ msgid ""
 "Du kannst Mitglieder hinzufügen image:ar_add.icon.png[add, 30, 30] und "
 "entfernen image:ar_delete.icon.png[delete, 30, 30]"
 msgstr ""
+<<<<<<< HEAD
 "È possibile aggiungere image:ar_add.icon.png[add, 30, 30] e rimuovere image:"
 "ar_delete.icon.png[delete, 30, 30] membri"
+=======
+"Puoi aggiungere image:ar_add.icon.png[add, 30, 30] e rimuovere "
+"image:ar_delete.icon.png[delete, 30, 30] membri"
+>>>>>>> weblate/main
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:207
@@ -2976,8 +2997,8 @@ msgid ""
 "Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der "
 "Gruppenliste hinzufügen."
 msgstr ""
-"È possibile aggiungere al gruppo gli endpoint dall'elenco degli endpoint e i "
-"gruppi dall'elenco dei gruppi."
+"Puoi aggiungere al gruppo gli endpoint dall'elenco degli endpoint e i gruppi "
+"dall'elenco dei gruppi."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:213
@@ -3036,7 +3057,7 @@ msgstr "modificare il nome del gruppo"
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:230
 msgid "die Beschreibung ändern."
-msgstr "modificare la descrizione"
+msgstr "modificare la descrizione."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:232
@@ -3075,7 +3096,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:243
 msgid "Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:"
-msgstr "È possibile eliminare un gruppo se non è più necessario:"
+msgstr "Puoi eliminare un gruppo se non è più necessario:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:249
@@ -3235,7 +3256,7 @@ msgid ""
 "der Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint."
 "adoc#receive-from[Empfangen von].#"
 msgstr ""
-"Utilizza <<percorso,percorsi>> per specificare quali dati invia e/o riceve "
+"Utilizza <<Percorso,Percorsi>> per specificare quali dati invia e/o riceve "
 "un endpoint.  [.result]#Se desideri che l'endpoint invii dati, segui le "
 "istruzioni del capitolo xref:endpoint.adoc#send-to[Inviare a].# [.result]#Se "
 "desideri che l'endpoint riceva dati, segui le istruzioni del capitolo xref:"
@@ -3371,7 +3392,7 @@ msgstr ""
 "Generalmente la trasmissione dei dati avviene tramite un dispositivo "
 "installato sul trattore o sulla macchina . Un elenco completo delle unità di "
 "telemetria con interfaccia agrirouter è disponibile https://my-agrirouter."
-"com/marketplace/telemetrieverbindungen[qui.^]"
+"com/marketplace/telemetrieverbindungen[qui...^]"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:67
@@ -3409,7 +3430,7 @@ msgstr ""
 "contoterzisti, software specifici realizzati dai fabbricanti per la gestione "
 "dei dati e molto altro ancora. Un elenco completo dei software per "
 "l'agricoltura con interfaccia agrirouter è disponibile https://my-agrirouter."
-"com/marketplace/agrarsoftware[qui.^]"
+"com/marketplace/agrarsoftware[qui...^]"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:71
@@ -3447,7 +3468,7 @@ msgid ""
 "gewünschten Empfänger gelangen."
 msgstr ""
 "Ogni endpoint può inviare e ricevere dati.  È possibile collegare gli "
-"endpoint con <<percorso,percorsi>> in modo che i dati del mittente "
+"endpoint con <<Percorso,percorsi>> in modo che i dati del mittente "
 "raggiungano i destinatari desiderati."
 
 #. type: Plain text
@@ -3464,7 +3485,7 @@ msgid ""
 "für alle Mitglieder der Gruppe."
 msgstr ""
 "È possibile raggruppare gli endpoint in gruppi: ad esempio, per fabbricante, "
-"tipo di macchina o misura.\n"
+"tipo di macchina o azione.\n"
 "Il vantaggio: il percorso di trasferimento impostato per il gruppo sarà "
 "valido per tutti i membri del gruppo."
 
@@ -3526,7 +3547,7 @@ msgstr "Messaggi (tipi)"
 #: de/modules/ROOT/pages/introduction.adoc:98
 msgid ""
 "Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:"
-msgstr "È possibile scambiare i seguenti tipi di messaggi tra gli endpoint:"
+msgstr "Puoi scambiare i seguenti tipi di messaggi tra gli endpoint:"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:99
@@ -3559,7 +3580,7 @@ msgstr "Shapefile"
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:102
 msgid "Feldgrenzen im Shape-Format"
-msgstr "Limiti del campo in formato vettoriale Shapefile"
+msgstr "Limiti del campo in formato Shapefile"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:102
@@ -3570,7 +3591,7 @@ msgstr "Dati multimediali"
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:103
 msgid "Bilder, Videos"
-msgstr "Immagini, video"
+msgstr "Immagini, videos"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:103
@@ -3589,7 +3610,7 @@ msgid ""
 "Bei der Erstellung einer Route werden dir nur die Nachrichten(typen) zur "
 "Wahl angeboten, die von Sender und Empfänger verarbeitet werden können."
 msgstr ""
-"Quando si crea una percorso, è possibile scegliere solo i tipi di messaggi "
+"Quando si crea una percorso, è possibile scegliere solo i (tipi di) messaggi "
 "che possono essere elaborati dal mittente e dal destinatario."
 
 #. type: Title ===
@@ -3661,7 +3682,7 @@ msgstr "Agrirouter offre due gruppi standard predefiniti:"
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:131
 msgid "Maschinen-Gruppe"
-msgstr "Gruppo Macchine"
+msgstr "Gruppo macchine"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:132
@@ -3708,7 +3729,7 @@ msgid ""
 "Gruppe"
 msgstr ""
 "I software per l'agricoltura e le piattaforme per i fabbricanti sono membri "
-"del gruppo Software per l'agricoltura"
+"del gruppo software per l'agricoltura"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/introduction.adoc:144
@@ -3860,7 +3881,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#send-to[hier...]"
 msgstr ""
 "Scopri come creare, modificare ed eliminare un percorso in uscita per un "
-"endpoint xref:endpoint.adoc#send-to[qui.]"
+"endpoint xref:endpoint.adoc#send-to[qui...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:43
@@ -3893,7 +3914,7 @@ msgid ""
 "löscht, erfährst du xref:endpoint.adoc#receive-from[hier...]"
 msgstr ""
 "Scopri come creare, modificare ed eliminare un percorso in entrata per un "
-"endpoint xref:endpoint.adoc#receive-from[qui.]"
+"endpoint xref:endpoint.adoc#receive-from[qui...]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:49
@@ -3902,7 +3923,7 @@ msgid ""
 "löscht, erfährst du xref:group.adoc#receive-from[hier...]"
 msgstr ""
 "Scopri come creare, modificare ed eliminare un percorso in entrata per un "
-"gruppo xref:group.adoc#receive-from[qui.]"
+"gruppo xref:group.adoc#receive-from[qui...]"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:50
@@ -4032,7 +4053,7 @@ msgstr "[.result]#Ricorda di aggiungere nuovi endpoint al gruppo `Tutti`.#"
 #: de/modules/ROOT/pages/support.adoc:4
 #, no-wrap
 msgid "Service & Support"
-msgstr "Assistenza e supporto"
+msgstr "Assistenza e Supporto"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:7
@@ -4044,7 +4065,7 @@ msgstr "In questa sezione ti spiegamo:"
 msgid "wie du im Help Center einen Fehlerbericht oder eine Anfrage erstellst"
 msgstr ""
 "come segnalare un errore o inviare una richiesta di supporto nel Centro "
-"assistenza"
+"Assistenza"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:10
@@ -4162,8 +4183,8 @@ msgid ""
 "customer/portals/[Help Center^] .  [.result]#Das Help Center wird angezeigt.#"
 msgstr ""
 "Apri l'indirizzo Internet del https://agrirouter.atlassian.net/servicedesk/"
-"customer/portals/[Centro assistenza^].  [.result]#Verrà visualizzato il "
-"Centro assistenza.#"
+"customer/portals/[Centro Assistenza^].  [.result]#Verrà visualizzato il "
+"Centro Assistenza.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:59
@@ -4171,8 +4192,13 @@ msgid ""
 "Klicke den Button *_Einloggen_*.  [.result]#Das Formular `Im Help Center "
 "einloggen` wird angezeigt.#"
 msgstr ""
+<<<<<<< HEAD
 "Fai clic sul pulsante *_Accedi_*.  [.result]#Verrà visualizzato il modulo "
 "`Accedere al Centro assistenza`.#"
+=======
+"Fai clic sul pulsante *_Accedi_*.  [.result]#Verrà visualizzato il modulo `"
+"Accedere al Centro Assistenza`.#"
+>>>>>>> weblate/main
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:61
@@ -4208,7 +4234,7 @@ msgid ""
 "result]#Die Startseite des Help Center wird angezeigt.#"
 msgstr ""
 "Immetti il nome e la password e fai clic su *_Accedi_*.  [result]#Verrà "
-"visualizzata la pagina iniziale del Centro assistenza.#"
+"visualizzata la pagina iniziale del Centro Assistenza.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:74
@@ -4251,7 +4277,7 @@ msgid ""
 "Das Help Center hat eine Suchfunktion, mit der du Hilfe zu häufig "
 "angefragten Stichwörtern erhälst."
 msgstr ""
-"Il Centro assistenza dispone di una funzione di ricerca per parole chiave in "
+"Il Centro Assistenza dispone di una funzione di ricerca per parole chiave in "
 "grado di facilitare gli argomenti più richiesti dagli utenti."
 
 #. type: Title ===
@@ -4266,7 +4292,7 @@ msgid ""
 "Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
 "support@my-agrirouter.com[support@my-agrirouter.com]."
 msgstr ""
-"Se non sei in grado di utilizzare il Centro assistenza, invia un'e-mail a "
+"Se non sei in grado di utilizzare il Centro Assistenza, invia un'e-mail a "
 "mailto:support@my-agrirouter.com[support@my-agrirouter.com]."
 
 #. type: Title ===
@@ -4538,7 +4564,7 @@ msgstr "Stato del sistema"
 #: de/modules/ROOT/pages/support.adoc:146
 #, no-wrap
 msgid "operational"
-msgstr "Operativo"
+msgstr "operativo"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:147
@@ -4550,7 +4576,7 @@ msgstr "Il sistema è pienamente operativo."
 #: de/modules/ROOT/pages/support.adoc:147
 #, no-wrap
 msgid "under maintenance"
-msgstr "In manutenzione"
+msgstr "in manutenzione"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:148
@@ -4562,7 +4588,7 @@ msgstr "Il sistema è in manutenzione e non è disponibile."
 #: de/modules/ROOT/pages/support.adoc:148
 #, no-wrap
 msgid "degraded performance"
-msgstr "Prestazioni ridotte"
+msgstr "prestazioni ridotte"
 
 #. type: Table
 #: de/modules/ROOT/pages/support.adoc:149
