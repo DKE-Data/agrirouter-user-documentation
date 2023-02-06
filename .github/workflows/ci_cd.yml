@@ -33,7 +33,7 @@ jobs:
       # install po4a (replace by stable tag after v0.66 release / we need PR #331)
       - name: Install po4a from github
         run: |
-          git clone https://github.com/mquinson/po4a.git ~/po4a
+          git clone --branch v0.66 https://github.com/mquinson/po4a.git ~/po4a
           ls -la ~/po4a
           echo "$HOME/po4a" >> $GITHUB_PATH
           echo "PERLLIB=$HOME/po4a/lib" >> $GITHUB_ENV
