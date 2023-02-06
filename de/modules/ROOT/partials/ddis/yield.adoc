@@ -70,12 +70,12 @@
 |537 |Lifetime Applied Preservative |Crop and Yield Data |The total applied volume of preservative in the lifetime of the machine
 |538 |Average Applied Preservative Per Yield Mass |Crop and Yield Data |The average volume per mass for this task.
 |549 |Last Bale Average Bale Compression Plunger Load (N) |Crop and Yield Data |The average bale compression plunger load for the most recently produced bale expressed as newton.
-|644 |Binding Method |Crop and Yield Data |Specification of the methode used to bind bales: 0=unknown (default), 1= Mesh, 2= Twine, 3=Film
+|644 |Binding Method |Crop and Yield Data |Specification of the method used to bind bales. The value definitions represent a set of flags. The flag values are: 0 = unknown (default) 1 = Mesh 2 = Twine 3 = Film 4 = Twine & Mesh 5 = Twine & Film 6 and higher are are reserved for future assignments
 |645 |Last Bale number of knives |Crop and Yield Data |Number of cutting knives used in the most recently produced bale
-|646 |Last Bale Twine Consumption |Crop and Yield Data |Binding twine consumption in the most recently produced bale
-|647 |Last Bale Mesh Consumption |Crop and Yield Data |Binding mesh consumption in the most recently produced bale
-|648 |Last Bale Film Consumption |Crop and Yield Data |Binding film consumption in the most recently produced bale
-|649 |Last Bale Film Stretching |Crop and Yield Data |Binding film stretching in the most recently produced bale
+|646 |Last Bale Twine Binding Consumption |Crop and Yield Data |Binding twine consumption in the most recently produced bale
+|647 |Last Bale Binding Mesh Consumption |Crop and Yield Data |Binding mesh consumption in the most recently produced bale
+|648 |Last Bale Binding Film Consumption |Crop and Yield Data |Binding film consumption in the most recently produced bale
+|649 |Last Bale Binding Film Stretching |Crop and Yield Data |Binding film stretching in the most recently produced bale
 |650 |Last Bale Wrapping Film Width |Crop and Yield Data |Wrapping film width in the most recently produced bale
 |651 |Last Bale Wrapping Film Consumption |Crop and Yield Data |Wrapping film consumption in the most recently produced bale
 |652 |Last Bale Wrapping Film Stretching |Crop and Yield Data |Wrapping film stretching in the most recently produced bale
