@@ -106,8 +106,37 @@
 |636 |Minimum Volume per distance Application Rate |Application Data |Minimum Application Rate specified as volume per distance
 |637 |Maximum Volume per distance Application Rate |Application Data |Maximum Application Rate specified as volume per distance
 |32768 |Maximum Droplet Size |Application Data |The maximum droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|32769 |Maximum Crop Grade Diameter |Application Data |Maximum crop diameter in mm, measured with crop specific methods
+|32770 |Maximum Crop Grade Length |Application Data |Maximum crop length in mm, measured with crop specific methods
+|32771 |Maximum Crop Contamination Mass per Area |Application Data |Maximum absolut mass of contamination in yield by dirt or foreign material per area
+|32772 |Maximum Crop Contamination Mass per Time |Application Data |Maximum mass of contamination in yield by dirt or foreign material per time
 |36864 |Minimum Droplet Size |Application Data |The minimum droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|36865 |Minimum Crop Grade Diameter |Application Data |Minimum crop diameter in mm, measured with crop specific methods
+|36866 |Minimum Crop Grade Length |Application Data |Minimum crop length in mm, measured with crop specific methods
+|36867 |Minimum Crop Contamination Mass per Area |Application Data |Minimum absolut mass of contamination in yield by dirt or foreign material per area
+|36868 |Minimum Crop Contamination Mass per Time |Application Data |Minimum mass of contamination in yield by dirt or foreign material per time
 |40960 |Default Droplet Size |Application Data |The default droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|40961 |Default Crop Grade Diameter |Application Data |Default crop diameter in mm, measured with crop specific methods
+|40962 |Default Crop Grade Length |Application Data |Default crop length in mm, measured with crop specific methods
+|40963 |Default Crop Contamination Mass per Area |Application Data |Default absolut mass of contamination in yield by dirt or foreign material per area
+|40964 |Default Crop Contamination Mass per Time |Application Data |Default mass of contamination in yield by dirt or foreign material per time
 |45056 |Actual Droplet Size |Application Data |The actual droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|45057 |Actual Crop Grade Diameter  |Application Data |Actual crop diameter in mm, measured with crop specific methods
+|45058 |Actual Crop Grade Length |Application Data |Actual crop length in mm, measured with crop specific methods
+|45059 |Actual Crop Contamination Mass per Area |Application Data |Absolut mass of contamination in yield by dirt or foreign material per area, see also DDI 100.
+|45060 |Actual Crop Contamination Mass per Time |Application Data |Absolut mass of contamination in yield by dirt or foreign material per time
 |49152 |Setpoint Droplet Size |Application Data |The setpoint for droplet size. 0 = Unknown, 1 = Extremely Fine - XF, 2 = Very Fine - VF, 3 = Fine - F, 4 = Medium - M, 5 = Coarse - C, 6 = Very Coarse - VC, 7 = Extremely Coarse - XC, 8 = Ultra Coarse - UC, 9-254 = Reserved, 255 = No Droplet Size Available.
+|49153 |Setpoint Crop Grade Diameter |Application Data |Setpoint crop diameter in mm, measured with crop specific methods
+|49154 |Setpoint Crop Grade Length |Application Data |Setpoint crop length in mm, measured with crop specific methods
+|49155 |Setpoint Crop Contamination Mass per Area |Application Data |Setpoint of the absolut mass of contamination in yield by dirt or foreign material per area
+|49156 |Setpoint Crop Contamination Mass per Time |Application Data |Setpoint of the mass of contamination in yield by dirt or foreign material per time
+
+
+
+
+
+
+
+
+
 |=======================================================================================
