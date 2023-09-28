@@ -56,7 +56,7 @@ image::interactive_agrirouter/xarvio/xarvio-connect-agrirouter-4-de.png[Select R
 
 Wenn du in deinem agrirouter-Konto einen neuen Endpunkt, wie bspw. ein Terminal hinzugefügt hast, musst du dieses nicht extra innerhalb des xarvio FIELD MANAGER aktualisieren. Die Software aktualisiert die Endpunkte ganz automatisch.
 
-[NOTE]
+[IMPORTANT]
 ====
 In manchen Fällen kann es bis zu 30 Minuten dauern, bis der Endpunkt innerhalb des xarvio FIELD MANAGER aktualisiert ist. Sollte es länger dauern, probiere dein <<connect-agrirouter,agrirouter-Konto neu zu verbinden>> oder melde dich beim https://www.xarvio.com/de/de/support.html[xarvio Support,window="_blank"]. 
 ====
@@ -79,7 +79,7 @@ image::interactive_agrirouter/xarvio/xarvio-export-map-1-de.png[Select Register,
 . Klicke auf *_Senden oder herunterladen_*.
 . Wähle dann im folgenden Fenster die Option *_agrirouter_* aus.
 
-[NOTE]
+[IMPORTANT]
 ====
 Solltest du kein Terminal als Endpunkt in deinem agrirouter Profil eingetragen haben, leitet dich die Software zurück auf das Menü für *_verbundene Apps_*. Um das Problem zu lösen, solltest du zuerst ein Terminal als xref:endpoint.adoc[Endpunkt, window="_blank"] im agrirouter verbinden.
 ====
@@ -94,7 +94,7 @@ image::interactive_agrirouter//xarvio/xarvio-export-map-2-de.png[Select Register
 . Fertig! Die Applikationskarte sollte auf deinem Terminal angekommen sein.
 --
 
-[NOTE]
+[TIP]
 ====
 Wenn du Applikationskarten für mehrere Felder nutzen möchtest, solltest du sie nicht einzeln exportieren, sondern die Anleitung im nächsten Abschnitt befolgen!
 ====
@@ -106,7 +106,7 @@ image::interactive_agrirouter//xarvio/xarvio-export-several-maps-de.png[Select R
 
 In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal an eine Maschine zu senden. Folge hierzu den Schritten aus <<export-maps,Applikationskarten exportieren>> und wähle bei Schritt 3 gleich mehrere Aufgaben aus.
 
-[NOTE]
+[TIP]
 ====
 Es können nur mehrere Aufgaben des gleichen Typs ausgewählt werden (z.B. Düngung)!
 ====

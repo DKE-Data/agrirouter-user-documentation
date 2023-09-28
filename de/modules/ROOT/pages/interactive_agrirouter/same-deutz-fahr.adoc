@@ -58,15 +58,19 @@ image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.4-de.png[
 Falls du noch kein agrirouter-Konto hast, erfährst du link:https://agrirouter.com/de/agrirouter/quick-start-guide/agrirouter-konto-einrichten/[hier, window="_blank"], wie du eines erstellst.
 ====
 
-image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.5-de.png[Select Register, 800]
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.5-de.png[Select Register, 400]
 
 [start=8]
-. Wenn du nicht bereits mit deinem Browser in deinem agrirouter-Konto eingeloggt bist, gib im sich öffnenden Fenster deine agrirouter Login-Daten ein.
-. Klicke auf *_VERBINDEN_*.
+. Du wirst jetzt auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter Profil angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
+--
 
 War die Verknüpfung erfolgreich, kommt eine Erfolgsmeldung und der Account wird in der Liste angezeigt. Dein SDF-Datenplattform-Konto ist jetzt mit deinem agrirouter-Konto verbunden. Im nächsten Schritt müssen die Maschinen dem agrirouter-Konto zugeordnet werden.
 
-[NOTE]
+[TIP]
 ====
 Über einen Klick auf das blau hinterlegte + können weitere agrirouter-Konten verbunden werden.
 ====
@@ -151,7 +155,7 @@ image::interactive_agrirouter/same-deutz-fahr/sdf-import-maps-de.png[Select Regi
 
 Sobald das System die Aufgabe(n) heruntergeladen hat, zeigt es sie in einer Liste an. Wenn du eine Aufgabe auswählst und die grüne Taste drückst, kannst du die Aufgabe direkt in den iMonitor importieren. Drückst du die rote Taste, werden die Aufgaben nur in der *_Download_*-Seite gespeichert und nicht in den iMonitor importiert.
 
-[NOTE]
+[IMPORTANT]
 ====
 Bei alten Software-Versionen werden beim Importieren von Aufgabendaten von USB-Sticks die alten Aktivitäten auf dem iMonitor gelöscht, sobald neue Aufgabendaten importiert werden. Außerdem ist die Aufgabe, sobald sie importiert wurde, nicht mehr in der Daten Management App vorhanden. Melde dich bei deinem Same-Deutz-Fahr-Händler für nähere Informationen.
 ====
@@ -162,7 +166,7 @@ Aus dem Terminal (iMonitor) können Dateien exportiert und an agrirouter gesende
 
 [.float-group]
 
-[NOTE]
+[IMPORTANT]
 ====
 Bei alten Software-Versionen können mehrere Schritte für den Export von Applikationskarten vom Terminal nötig sein. Melde dich bei deinem Same-Deutz-Fahr-Händler für nähere Informationen.
 ====

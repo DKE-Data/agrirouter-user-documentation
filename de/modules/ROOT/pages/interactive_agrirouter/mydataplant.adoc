@@ -6,7 +6,7 @@ Mit der Farm Management Software MyDataPlant kannst du Daten vom agrirouter empf
 * Endpunkte-Liste aktualisieren
 * Export von Soll-Applikationskarten
 * Mehrere Applikationskarten an eine Maschine senden
-* agrirouter Kontrollzentrum aufrufen
+* agrirouter Kontrollzentrum aufrufen (Test)
 
 == Verbindung mit dem agrirouter herstellen
 
@@ -28,7 +28,7 @@ image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-1-de-s.
 image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-2-de.png[Select Register, 400]
 
 [start=3]
-. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf verbinden und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt. 
+. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt. 
 --
 
 [.float-group]
@@ -58,7 +58,7 @@ image::interactive_agrirouter/mydataplant/mydataplant-update-endpoints-de.png[Se
 
 Mit dem agrirouter kannst du drahtlos Applikationskarten von MyDataPlant an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine Applikationskarte erstellt hast.
 
-[NOTE]
+[TIP]
 ====
 Beachte bei der Erstellung einer Applikationskarte immer auf die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder cm Pflanzenabstand).
 ====
@@ -84,7 +84,7 @@ image::interactive_agrirouter/mydataplant/mydataplant-export-maps-2-de.png[Selec
 . Klicke auf *_WEITER_*.
 --
 
-[NOTE]
+[IMPORTANT]
 ====
 Sollte dein gewünschter Endpunkt nicht angezeigt werden, solltest du über Endpunkte aktualisieren die aktuellsten Informationen deines agrirouter-Kontos abrufen.
 ====

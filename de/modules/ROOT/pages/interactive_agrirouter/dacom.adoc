@@ -1,0 +1,154 @@
+= Interaktion mit DACOM
+
+Mit der Farm Management Software DACOM kannst du Daten über den agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Onlineverbindung überprüfen
+* Endpunkte-Liste aktualisieren
+* Export von Soll-Applikationskarten
+* Import von Ist-Applikationskarten & Telemetriedaten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um über dein DACOM-Konto Daten vom agrirouter empfangen und senden zu können, benötigst du eine Cloudfarm Lizenz. Welche Lizenzen von DACOM angeboten werden, erfährst du auf der https://www.dacom.nl/de/produkte/cloudfarm/#pricing[DACOM-Website, window="_blank"] oder über den https://www.dacom.nl/de/service/[DACOM-Kundensupport, window="_blank"]. Sobald du eine entsprechende Lizenz erworben hast, kannst du eine Verbindung herstellen.
+
+[IMPORTANT]
+====
+Um DACOM mit deinem agrirouter-Konto verbinden zu können, musst du eine https://https://www.dacom.nl/de/produkte/cloudfarm/#pricing[Cloudfarm Lizenz, window="_blank"] erwerben!
+====
+
+. Logge dich in dein https://dacom.farm/accounts/login/[DACOM-Konto, window="_blank"] ein.
+
+image::interactive_agrirouter/dacom/dacom-connect-agrirouter-1-de.png[Select Register, 800]
+
+[start=2]
+. Wähle auf der linken Seitenleiste die Option *_Cloudfarm_*.
+. Klicke auf das *_+ Symbol_*.
+. Wähle im Dropdown Menü *_Mit dem agrirouter verbinden_* aus.
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/dacom/dacom-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=5]
+. Nun erscheint ein neues Fenster. Dort klickst du auf den Button *_Autorisieren_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/dacom/dacom-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=6]
+. Du wirst jetzt auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter Profil angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
+--
+
+[start=7]
+. Fertig, du kannst nun Dateien zwischen deinem DACOM-Konto und dem agrirouter austauschen.
+
+== Onlineverbindung überprüfen
+Um zu überprüfen, ob eine Verbindung zum agrirouter besteht, musst du die Schritte 1 - 4 des Kapitels <<connect-agrirouter,Verbindung zum agrirouter herstellen>> befolgen. Wurde erfolgreich eine Verbindung hergestellt, solltest du folgendes Fenster sehen.
+
+image::interactive_agrirouter/dacom/dacom-check-connection-1-de.png[Select Register, 800]
+
+. Anhand der Account ID, die unter *_Aktuell verbundenes Kundenkonto_* angezeigt wird, kannst du erkennen, welches agrirouter-Konto aktuell verbunden ist.
+. Über den Button *_Zugangsberechtigung erneuern_*, kannst du deine Berechtigung aktualisieren.
+
+[NOTE]
+====
+Deine *_agrirouter Account ID_* findest du in der https://manual.agrirouter.com/de/manual/latest/account.html#benutzerdaten-%C3%A4ndern[Kontoverwaltung, window="_blank"].
+====
+
+== Endpunkte aktualisieren
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/dacom/dacom-update-endpoints-1-de.png[Select Register, 400]
+
+. Um deine Endpunkte zu überprüfen, klickst du in der linken Seitenleiste auf *_Mein Betrieb._*
+. Wähle im Dropdown Menü *_Maschinen_*.
+. Du siehst jetzt alle verbundenen Endpunkte anhand einer Kachel. Das kleine *_agrirouter Logo_* in der linken unteren Ecke der Kachel zeigt an, ob der Endpunkt über den agrirouter abgerufen wurde.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/dacom/dacom-update-endpoints-2-de.png[Select Register, 400]
+
+[start=4]
+. Wenn du auf eine der Kacheln klickst, siehst im unteren Bereich des *_Fahrzeug bearbeiten_* Menüs den Hinweis, dass die Maschine über den agrirouter gefunden wurde.
+--
+
+== Export von Applikationskarten
+Mit dem agrirouter kannst du drahtlos Applikationskarten von DACOM an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine Applikationskarte erstellt hast.
+
+[TIP]
+====
+Beachte bei der Erstellung einer Applikationskarte immer auf die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder cm Pflanzenabstand).
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/dacom/dacom-export-maps-1-de.png[Select Register, 400]
+
+. Klicke in der linken Seitenleiste auf *_Mein Betrieb._*
+. Wähle *_Maschinen_* aus.
+. Klicke auf die Kachel einer Maschine, die mit dem agrirouter verbunden ist.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/dacom/dacom-export-maps-2-de.png[Select Register, 400]
+
+[start=4]
+. Im unteren Bereich des Menüs *_Fahrzeug bearbeiten_* findest du eine Checkbox mit der Bezeichnung *_Plan automatisch schicken_*. Ist diese Checkbox ausgewählt, werden alle Applikationskarten, die du speicherst, automatisch an diese Maschine bzw. diesen Endpunkt gesendet.
+--
+
+
+[NOTE]
+====
+Bei DACOM werden deine Applikationskarten automatisch immer direkt an alle Endpunkte gesendet, die über eine https://manual.agrirouter.com/de/manual/latest/routing.html[Route, window="_blank"] mit dem agrirouter verbunden sind. 
+====
+
+=== Mehrere Karten an eine Maschine senden
+
+Manchmal kann es Sinn machen, mehrere Applikationskarten zusammen an einen Endpunkt zu senden. Hierzu werden die Applikationskarten in einem Auftrag zusammengefasst. Wie das funktioniert, erfährst du im Folgenden.
+
+image::interactive_agrirouter/dacom/dacom-export-several-maps-1-de.png[Select Register, 800]
+
+. Klicke in der linken Seitenleiste auf *_Aufzeichnen_*.
+. Wähle mindestens 2 Applikationskarten aus, indem du die *_Checkboxen_* markierst.
+. Klicke *_Auftrag_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/dacom/dacom-export-several-maps-2-de.png[Select Register, 400]
+
+[start=4]
+. Ein neues Fenster wird, geöffnet. Trage dort den Namen des Auftrags ein.
+. Klicke *_speichern_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/dacom/dacom-export-several-maps-3-de.png[Select Register, 400]
+
+[start=6]
+. Jetzt kannst du über die Pfeiltaste auf der rechten Seite der Auftragskachel die Option *_Alle Aufgaben ausführen_* wählen, um sie gleichzeitig an deine Endpunkte zu senden.
+--
+
+== Import von IST-Applikationskarten (As-Applied Maps) & Telemetriedaten
+Wenn du mit deiner Maschine eine As-Applied-Map erstellst oder andere Telemetriedaten, wie bspw. den Kraftstoffverbrauch, aufzeichnest, empfängst du diese automatisch über den agrirouter in deinem DACOM-Konto.
+
+image::interactive_agrirouter/dacom/dacom-import-maps-1-de.png[Select Register, 800]
+
+. Klicke hierzu einfach in der linken Seitenleiste auf *_Cloudfarm_*.
+. Du siehst dann rechts neben der linken Seitenleiste alle Informationen, die du in der letzten Zeit über den agrirouter und andere Quellen empfangen hast.

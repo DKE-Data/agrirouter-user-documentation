@@ -44,14 +44,14 @@ image::interactive_agrirouter/trimble/connect-agrirouter-trimble-3-de.png[Select
 
 Um zu überprüfen, ob eine aktive Verbindung zwischen deinem Trimble-Konto und dem agrirouter besteht, sind folgende Schritte notwendig:
 
-image::interactive_agrirouter/trimble/check-connection-trimbles-de.png[Select Register, 800]
+image::interactive_agrirouter/trimble/check-connection-trimble-de.png[Select Register, 800]
 
 . Wähle auf der Startseite die Option Datenübertragung
 . Wähle das Symbol für *_Einstellungen_* in der Seitenleiste links.
 . Öffne das Menü für die *_API-VERBINDUNDEN_*.
 . Dir wird angezeigt, ob eine aktive Verbindungen mit deinem agrirouter-Konto besteht. Unter *_Zuletzt synchronisiert_* siehst du, wann die Daten das letzte Mal aktualisiert wurden.
 
-[NOTE]
+[TIP]
 ====
 Beim Aufbau einer Verbindung mit agrirouter werden keine Aufgaben gesendet, da das Routing eingerichtet werden muss, bevor etwas an agrirouter gesendet wird. Sobald das Routing eingerichtet ist, können alle historischen Aufgaben (IST-Applikationskarten) manuell gesendet werden.
 ====
@@ -77,7 +77,7 @@ image::interactive_agrirouter/trimble/export-maps-trimble-2-de.png[Select Regist
 === Automatischer Export
 So richtest du das automatische Senden von Aufgaben ein.
 
-[NOTE]
+[TIP]
 ====
 Neue und geänderte Aufgaben werden alle 24 Stunden um 0:00 UTC exportiert, oder alle 5 Minuten, wenn der Nutzer eingeloggt ist.
 ====
@@ -99,7 +99,7 @@ image::interactive_agrirouter/trimble/automatic-export-trimble-2-de.png[Select R
 == Import von Soll-Applikationskarten
 Wenn du Applikationskarten von deiner Farm-Management-Software an dein Trimble-Terminal senden möchtest, empfängst du sie automatisch auch in deinem Trimble-Konto. Du kannst Applikationskarten aber auch von deiner Farm-Management-Software nur an dein Trimble Konto schicken.
 
-[NOTE]
+[TIP]
 ====
 Sobald ein Nutzer angemeldet ist, prüft Trimble automatisch ob neue Dateien des agrirouters empfangen wurden.
 ====
