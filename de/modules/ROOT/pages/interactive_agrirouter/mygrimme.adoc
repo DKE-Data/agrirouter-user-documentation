@@ -1,0 +1,67 @@
+= Interaktion mit Grimme-Maschinen
+
+Deine Grimme Telemetrieeinheit muss mit dem agrirouter verbunden sein, um drahtlos Telemetriedaten an dein Farm-Management-System und die myGrimme Platform senden zu können. In diesem Abschnitt erfährst du, wie du deine Grimme Maschine mit dem agrirouter verbindest.
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+image::interactive_agrirouter/mygrimme/mygrimme-connect-agrirouter-1-de.png[Select Register, 800]
+
+1. Logge dich in dein link:https://my.grimme.com/de[myGrimme-Konto, window="_blank"].
+2. Wähle auf der Startseite unter Konnektivität die Schaltfläche *_agrirouter_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mygrimme/mygrimme-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=3]
+. Im folgenden Fenster klickst du auf *_JETZT VERBINDEN_*.
+. Wenn du mit deinem Browser nicht in dein agrirouter-Konto eingeloggt bist, wirst du nun aufgefordet, dich dort einzuloggen.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/mygrimme/mygrimme-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=5]
+. Klicke im folgenden Fenster auf *_VERBINDEN_*.
+. Dein agrirouter-Konto ist nun mit deinem myGrimme-Konto verbunden. Wähle jetzt aus, welche deiner Maschinen Daten über den agrirouter senden und empfangen sollen.
+--
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mygrimme/mygrimme-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=7]
+. Setze einen Haken bei den Maschinen, die du mit dem agrirouter verbinden möchtest oder bei *_Alle auswählen_*.
+. Klicke auf *_SPEICHERN_*.
+--
+
+### Überprüfung der Online-Verbindung
+
+Um festzustellen, ob deine Grimme-Maschine mit dem agrirouter verbunden ist und Daten über den agrirouter sendet, musst du zwei Punkte überprüfen.
+
+image::interactive_agrirouter/mygrimme/mygrimme-check-connection-1-de.png[Select Register, 800]
+
+. Auf der Startseite deines myGrimme-Kontos bekommst du einen Überblick über deinen Fuhrpark. Wird angezeigt, dass die Maschine ***Online*** ist, ist sie bereit Daten zu senden und zu empfangen.
+. Wähle nun die Schaltfläche *_agrirouter_*.
+
+image::interactive_agrirouter/mygrimme/mygrimme-check-connection-2-de.png[Select Register, 800]
+
+[start=3]
+
+. Im dieser Ansicht sind alle Maschinen, die mit dem agrirouter verbunden sind, über einen Haken gekennzeichnet.
+. Ist deine Maschine *_Online und mit dem agrirouter verbunden_*, besteht eine aktive Verbindung. In diesem Beispiel ist das für den VARITRON 470 der Fall.
+
+## Import von Applikationskarten
+
+Wenn du über dein Farm-Management-System Applikationskarten an deine Grimme-Maschine gesendet hast, kannst du diese über dein Terminal in der Maschine abrufen. Wie das funktioniert, erfährst du xref:interactive_agrirouter/cci-terminals.adoc#importmaps[hier].
+
+## Export von Ist-Applikationskarten (As Applied Maps)
+
+Sobald eine Maschine eingeschaltet ist und über die myGrimme Plattform mit dem agrirouter verbunden ist, werden alle Daten Live über den agrirouter an andere Endpunkte wie bspw. Farm-Management-Systeme gesendet. Zu den gesendeten Daten gehören Ist-Applikationskarten, sowie weitere Telemetriedaten wie Kraftstoffverbrauch, Rodetiefe oder Fahrtgeschwindigkeit. Wie du einstellst, an welche Endpunkte der agrirouter deine Live-Daten weiterleiten soll, erfährst du xref:introduction.adoc#route[hier].
+

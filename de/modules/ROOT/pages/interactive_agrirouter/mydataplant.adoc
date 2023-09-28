@@ -1,0 +1,129 @@
+= Interaktion mit MyDataplant
+
+Mit der Farm Management Software MyDataPlant kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Endpunkte-Liste aktualisieren
+* Export von Soll-Applikationskarten
+* Mehrere Applikationskarten an eine Maschine senden
+* agrirouter Kontrollzentrum aufrufen
+
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten von MyDataPlant über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem MyDataPlant-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-1-de-s.png[Select Register, 200]
+
+. Logge dich in dein link:https://portal.mydataplant.com/#/fields[MyDataPlant-Konto, window="_blank"] ein und klicke in der Seitenleiste auf das Symbol für *Nutzerprofil*.
+. Klicke im unteren Bereich der Seite auf *_agrirouter verbinden_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=3]
+. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf verbinden und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt. 
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=4]
+. Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. Applikationskarten von MyDataPlant über den agrirouter an dein Terminal senden. 
+--
+
+== Endpunkte-Liste aktualisieren
+
+Wenn du eine neue Maschine als neuen Endpunkt über dein agrirouter-Konto hinzugefügt hast, muss die Endpunkte-Liste aktualisiert werden, damit diese in MyDataPlant angezeigt wird. 
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-update-endpoints-de.png[Select Register, 200]
+
+. Um die Endpunkte-Liste zu aktualisieren, wählst du das Symbol für *_Nutzerprofil_* in der Seitenleiste.
+. Im unteren Bereich des Menüs klickst du dann *_Endpunkte aktualisieren_*.
+--
+
+[#export-maps]
+== Export von Applikationskarten
+
+Mit dem agrirouter kannst du drahtlos Applikationskarten von MyDataPlant an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine Applikationskarte erstellt hast.
+
+[NOTE]
+====
+Beachte bei der Erstellung einer Applikationskarte immer auf die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder cm Pflanzenabstand).
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-export-maps-1-de.png[Select Register, 400]
+
+. Erzeuge eine Applikationskarte und klicke auf der Seitenleiste auf das Symbol für *_Export-Manager_*.
+. Wähle die Applikationskarte aus, die du exportieren möchtest.
+. Klicke auf *_WEITER_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/mydataplant/mydataplant-export-maps-2-de.png[Select Register, 400]
+
+[start=4]
+. Wähle unter *_Ziele auswählen_* den agrirouter aus.
+. Unter *_Endpunkte auswählen_*, kannst du nun die Maschine oder das Terminal auswählen, an welche du die Applikationskarten exportieren möchtest.
+. Klicke auf *_WEITER_*.
+--
+
+[NOTE]
+====
+Sollte dein gewünschter Endpunkt nicht angezeigt werden, solltest du über Endpunkte aktualisieren die aktuellsten Informationen deines agrirouter-Kontos abrufen.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-export-maps-3-de.png[Select Register, 400]
+
+[start=7]
+. In diesem Schritt kannst du die Informationen für deinen Auftrag noch einmal überprüfen. Achte darauf, dass deine Angaben zu den Anforderungen der Maschine passen, an welche du die Applikationskarte senden möchtest.
+. Klicke auf *_EXPORTIEREN_*.
+. Fertig.  Du solltest jetzt eine Meldung sehen, die dich auffordert, die Inbox deines Terminals zu überprüfen.
+--
+
+== Mehrere Applikationskarten an eine Maschine senden
+
+In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal an eine Maschine zu schicken. Bspw., wenn Saatgut und Düngemittel gleichzeitig ausgebracht werden sollen.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-export-several-maps-de.png[Select Register, 400]
+
+. Wähle in der linken Seitenleiste das Symbol für den *_Export-Manager_*.
+. Wähle die Applikationskarten aus, die du exportieren möchtest.
+. Verfahre weiter, wie bereits unter <<export-maps,Export von Applikationskarten>> beschrieben.
+--
+
+== agrirouter Kontrollzentrum aufrufen
+
+Um neue Endpunkte, wie beispielsweise ein Terminal, hinzuzufügen, sollte das agrirouter Kontrollzentrum geöffnet werden. Im Folgenden erfährst du, wie das agrirouter Kontrollzentrum über MyDataPlant aufrufen kannst.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-agrirouter-login-de.png[Select Register, 400]
+
+. Wähle auf der linken Seitenleiste das Symbol für *_Nutzerprofil_*.
+. Klicke auf das Symbol rechts neben dem Schriftzug *_agrirouter_*.
+. Nun erscheint das Anmeldefenster des agrirouter Kontrollzentrums. Gib deine E-Mail und dein Passwort ein und klicke auf *_anmelden_*.
+--

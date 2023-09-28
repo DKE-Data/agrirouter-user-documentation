@@ -1,0 +1,122 @@
+= Interaktion mit KRONE Telemetrieeinheiten
+
+Deine KRONE Telemetrieeinheit muss mit dem agrirouter verbunden sein, um drahtlos Telemetriedaten an dein Farm-Management-System senden zu können. In diesem Abschnitt erfährst du, wie du verschiedene KRONE Telemtrieeinheiten mit dem agrirouter verbindest.
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Deine KRONE Produkte können auf drei verschiedene Arten mit dem agrirouter verbunden werden. Je nach dem, für welche Option du dich entscheidest, funktioniert die Verbindungsherstellung unterschiedlich:
+
+* Verbindung über KRONE SmartConnect Solar
+* Verbindung über KRONE SmartConnect 300/500
+* Verbindung über ein CCI Terminal
+
+Im Folgenden erfährst du, wie du Schritt für Schritt eine Verbindung zum agrirouter mit deiner gewählten Option herstellst.
+
+=== Verbindung über KRONE SmartConnect Solar
+
+Die Telemetrieeinheit von KRONE ist eine autarke und flexible Lösung für die digitale Datenerfassung und -übertragung. Diese Daten können drahtlos an die KRONE Smart Telematics Plattform und den agrirouter übertragen werden. Die Telemetrieeinheit ist flexibel einsetzbar und kann an allen Maschinen angebracht werden, unabhängig vom Hersteller. Sie eignet sich besonders für Maschinen ohne eigene Elektronik oder für Mietmaschinen, die nur temporär genutzt werden.
+
+[NOTE]
+====
+In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, window="_blank"] ist der Smart Telematics Service noch nicht freigeschaltet. Wähle hierzu unter Service die Option Smart Telematics aus und folge dem Prozess.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/krone/krone-s-connect-agrirouter-1-de.png[Select Register, 200]
+
+
+. Bringe die Krone SmartConnect Solar Box auf der gewünschten Maschine an.
+. Logge dich auf link:https://mykrone.green/[mykrone.green Konto, window="_blank"] mit deinem Nutzerprofil ein.
+. Wähle auf der Seitenleiste links den Punkt *_Services_*.
+. Klicke auf die Option *_Smart Telematics_*.
+--
+
+image::interactive_agrirouter/krone/krone-s-connect-agrirouter-2-de.png[Select Register, 800]
+
+[start=5]
+
+. Wähle im Reiter oben *_Benutzereinstellungen_*.
+. Klicke unter agrirouter Einstellungen auf den Button *_VERBINDEN_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/krone/krone-s-connect-agrirouter-3-de.png[Select Register, 400]
+
+
+[start=7]
+. Wenn du nicht bereits über denselben Browser in deinem agrirouter Profil eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten einzugeben. Gib deine E-Mail und dein Passwort ein und klicke dann auf *_Anmelden_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/krone/krone-s-connect-agrirouter-4-de.png[Select Register, 400]
+
+
+[start=8]
+. Klicke im folgenden Fenster auf *_VERBINDEN_*, damit dein agrirouter Profil mit deinem mykrone.green Profil verbunden wird.
+--
+
+[NOTE]
+====
+Nun hast du die Verbindung mit dem agrirouter und der Smart Telematics Plattform hergestellt. Um Daten von deiner Krone SmartConnect Solar Box über den agrirouter auf deinem Farm-Management-System empfangen zu können, musst du deine Krone SmartConnect Solar Box noch mit der Smart Telematics Plattform verbinden.
+====
+
+image::interactive_agrirouter/krone/krone-s-connect-agrirouter-5-de.png[Select Register, 800]
+
+[start=9]
+. Wähle im Reiter oben *_KSC Solar_*.
+. Klicke auf den Button *_NEUE KSC SOLAR VERBINDEN_*.
+
+image::interactive_agrirouter/krone/krone-s-connect-agrirouter-6-de.png[Select Register, 800]
+
+[start=11]
+. Gib den Produkt-Code deiner Krone SmartConnect Solar Box ein. 
+
+[NOTE]
+====
+Der Produkt-Code des Krone SmartConnect Solar befindet sich auf dem Typenschild der Telemetrieinheit. 
+====
+
+[start=12]
+. Klicke auf *_KSC SOLAR VERBINDEN_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/krone/krone-s-connect-agrirouter-7-de.png[Select Register, 400]
+
+
+[start=13]
+. Über einen Klick auf *_MASCHINE VERKNÜPFEN_* kannst du das Krone SmartConnect Solar noch der Maschine zuordnen, auf der es angebracht ist.
+. Fertig. Alle Informationen, die dein Krone SmartConnect Solar sammelt, werden nun automatisch an alle Endpunkte geschickt, die in deinem agrirouter-Profil eingebunden sind. 
+--
+
+=== Verbindung über Krone SmartConnect 300/500
+
+Die integrierten Telemetrieeinheiten Krone SmartConnect 300 und 500 von KRONE vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind mit dem BUS-System verbunden und erfassen Daten in Echtzeit. Diese Daten werden an KRONE Smart Telematics und den agrirouter gesendet.
+
+. Zündung der Maschine aktivieren und nach ca. 30 Sekunden baut KRONE SmartConnect ein WLAN-Signal auf.
+. Greife das WLAN mit deinem Smartphone/Tablet/PC auf.
+. Das Passwort steht auf der Box und im Terminal der Selbstfahrer unter Einstellungen > Remote-Service.
+. Gebe *_box.krone.de_* in dein Endgerät ein, um in das folgende Menü zu gelangen.
+
+image::interactive_agrirouter/krone/krone-35-connect-agrirouter-1-de.png[Select Register, 800]
+
+[start=5]
+. Wähle innerhalb der Kategorie Onlinedienste die Option agrirouter.
+
+image::interactive_agrirouter/krone/krone-35-connect-agrirouter-2-de.png[Select Register, 800]
+
+[start=6]
+. Klicke auf den Schalter rechts neben *_agrirouter_*.
+. Gebe deinen agrirouter  Registrierungscode ein und klicke auf *_SPEICHERN_*.
+. Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect 300/500 sendet nun durchgehend alle gesammelten Daten an den agrirouter.
+
+=== Verbindung über ein CCI-Terminal
+
+Für eine Großzahl der KRONE Maschinen kann ein CCI-Terminal verwendet werden, welches über einen ISOBUS Anschluss Maschinendaten ausliest. Wie du dein CCI-Terminal mit dem agrirouter verbindest, findest du im Kapitel xref:interactive_agrirouter/cci-terminals.adoc[CCI-Terminal mit dem agrirouter verbinden].

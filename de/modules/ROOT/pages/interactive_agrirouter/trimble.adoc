@@ -1,0 +1,112 @@
+= Interaktion mit Trimble
+
+Mit der Farm Management Software von Trimble kannst du Daten über den agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Online Verbindung überprüfen
+* Export von Soll-Applikationskarten
+* Import von Ist-Applikationskarten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten von deinem Trimble-Konto über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem Trimble-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+image::interactive_agrirouter/trimble/connect-agrirouter-trimble-1-de.png[Select Register, 800]
+
+1. Logge dich über link:https://trimbleag.com[Trimble, window="_blank"] auf deinem Trimble-Konto ein.
+2. Wähle auf der Startseite die Option *_Datenübertragung_*.
+3. Wähle *_Einstellungen_* in der Seitenleiste links.
+4. Öffne das Menü für die *_API-VERBINDUNDEN_*.
+5. Klicke auf den Button *_+KONTO HINZUFÜGEN_* und wähle im Dropdownmenü die Option *_agrirouter_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/trimble/connect-agrirouter-trimble-2-de.png[Select Register, 400]
+
+[start=6]
+. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/trimble/connect-agrirouter-trimble-3-de.png[Select Register, 400]
+
+[start=7]
+. Klicke OK, um zu bestätigen, dass du den Hinweis gelesen hast.
+. Melde dich im link:https://goto.my-agrirouter.com/app[agrirouter Control Center, window="_blank"] an und vervollständige dort das link:https://manual.agrirouter.com/de/manual/latest/routing.html[Routing, window="_blank"]
+--
+
+[#check-connection]
+== Online Verbindung überprüfen
+
+Um zu überprüfen, ob eine aktive Verbindung zwischen deinem Trimble-Konto und dem agrirouter besteht, sind folgende Schritte notwendig:
+
+image::interactive_agrirouter/trimble/check-connection-trimbles-de.png[Select Register, 800]
+
+. Wähle auf der Startseite die Option Datenübertragung
+. Wähle das Symbol für *_Einstellungen_* in der Seitenleiste links.
+. Öffne das Menü für die *_API-VERBINDUNDEN_*.
+. Dir wird angezeigt, ob eine aktive Verbindungen mit deinem agrirouter-Konto besteht. Unter *_Zuletzt synchronisiert_* siehst du, wann die Daten das letzte Mal aktualisiert wurden.
+
+[NOTE]
+====
+Beim Aufbau einer Verbindung mit agrirouter werden keine Aufgaben gesendet, da das Routing eingerichtet werden muss, bevor etwas an agrirouter gesendet wird. Sobald das Routing eingerichtet ist, können alle historischen Aufgaben (IST-Applikationskarten) manuell gesendet werden.
+====
+
+image::interactive_agrirouter/trimble/export-maps-trimble-1-de.png[Select Register, 800]
+
+. Wähle auf der Startseite die Option *_Feld_*.
+. Wähle *_Ausrüstungsaktivität_* in der Seitenleiste links.
+. Durch einen Klick auf das Kästchen auf der linken Seite der Aufgabenliste kannst du nun alle Aufgaben auswählen, die du exportieren möchtest.
+. Klicke auf *_EXPORT_* und wähle im Dropdownmenü *_agrirouter_* aus.
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/trimble/export-maps-trimble-2-de.png[Select Register, 400]
+
+[start=5]
+. Wähle die mit dem agrirouter verbundenen Endpunkte, an die du die Aufgaben exportieren möchtest.
+. Klicke auf *_SEND_*.
+--
+
+=== Automatischer Export
+So richtest du das automatische Senden von Aufgaben ein.
+
+[NOTE]
+====
+Neue und geänderte Aufgaben werden alle 24 Stunden um 0:00 UTC exportiert, oder alle 5 Minuten, wenn der Nutzer eingeloggt ist.
+====
+
+image::interactive_agrirouter/trimble/automatic-export-trimble-1-de.png[Select Register, 800]
+
+. Wähle auf der Startseite die Option *_Datenübertragung_*.
+. Wähle *_Einstellungen_* in der Seitenleiste links.
+. Öffne das Menü für die *_API-VERBINDUNDEN_*.
+. Klicke auf das Zahnrad-Symbol, rechts neben dem agrirouter Logo und wähle im Dropdown-Menü *_Einstellungen_*.
+
+image::interactive_agrirouter/trimble/automatic-export-trimble-2-de.png[Select Register, 800]
+
+[start=5]
+. Setze durch Klick auf das Kästchen einen Haken über dem Satz “*Automatically download all messages from agrirouter every 24 hours*”.
+. Wähle die Endpunkte aus, an die alle Aufgaben automatisch gesendet werden sollen.
+. Klicke auf *_SPEICHERN_*.
+
+== Import von Soll-Applikationskarten
+Wenn du Applikationskarten von deiner Farm-Management-Software an dein Trimble-Terminal senden möchtest, empfängst du sie automatisch auch in deinem Trimble-Konto. Du kannst Applikationskarten aber auch von deiner Farm-Management-Software nur an dein Trimble Konto schicken.
+
+[NOTE]
+====
+Sobald ein Nutzer angemeldet ist, prüft Trimble automatisch ob neue Dateien des agrirouters empfangen wurden.
+====
+
+image::interactive_agrirouter/trimble/import-maps-trimble-de.png[Select Register, 800]
+
+1. Damit du Dateien von deiner Farm-Management-Software empfangen kannst, musst du vorher eine link:https://manual.agrirouter.com/de/manual/latest/routing.html[Route im agrirouter Control Center herstellen, window="_blank"].
+2. Wähle auf der Startseite die Option *_Feld_*.
+3. Wähle *_Ausrüstungsaktivität_* in der Seitenleiste links.
+4. Nun siehst du alle Applikationskarten, die vom Drittanbieter auf dein Trimble-Konto gesendet wurden.
