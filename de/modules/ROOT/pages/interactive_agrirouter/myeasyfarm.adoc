@@ -1,0 +1,147 @@
+= Interaktion mit MyEasyFarm
+
+Mit der Farm Management Software MyEasyFarm kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Endpunkte-Liste aktualisieren
+* Export von Soll-Applikationskarten
+* Import von Ist-Applikationskarten und Telemetriedaten
+
+
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten von MyEasyFarm über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem MyDataPlant-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+Bevor du anfangen kannst, musst du dich über die link:https://app.myeasyfarm.com/login[MyEasyFarm-Website, window="_blank"] in dein MyEasyFarm-Konto einloggen.
+
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-connect-agrirouter-1-de.png[Select Register, 800]
+
+. Klicke auf das Stecker-Icon, welches das Menü *_Ihre Verknüpfungenliste_* aufruft.
+. Suche dann aus der Liste der verfügbaren Verknüpfungen den agrirouter heraus und klicke *__DKE DATA AGRIROUTER HINZUFÜGEN_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=3]
+. Wähle im Menüpunkt *_Verknüpfung hinzufügen_* den Button *_ZUGANGSANFRAGE_*.
+. Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto eingeloggt sein, wirst du nun aufgefordert dich einzuloggen.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=5]
+. KLicke auf *_VERBINDEN_*
+. Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. Applikationskarten von MyEasyFarm über den agrirouter an dein Terminal senden. 
+--
+
+[TIP]
+====
+Die Verbindung zum agrirouter in den ersten 30 Tagen kostenlos und wird danach standardmäßig deaktiviert. Möchtest du die agrirouter-Verbindung weiterhin nutzen, wird ein kostenpflichtiges Abonnements fällig.
+====
+
+== Endpunkte-Liste aktualisieren
+
+MyEasyFarm aktualisiert die Endpunkte Liste automatisch. Wenn du einen neuen Endpunkt, wie bspw. eine Maschine, über den agrirouter hinzufügst, erscheint dieser spätestens einige Minuten später auch auf deinem MyEasyFarm-Konto.
+
+[TIP]
+====
+Wenn du eine neue Maschine hinzufügst und diese über MyEasyFarm einsehen möchtest, achte darauf, dass der Schalter *_IMPORTED EQUIPMENT_* image:interactive_agrirouter/myeasyfarm/myeasyfarm-imported-equipment-button.png[Select Register ,100, 100]. im oberen Bereich der Seite aktiviert ist.
+====
+
+== Export von Soll-Applikationskarten
+Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder Pflanzenschutz) kannst du deine Applikationskarte über den agrirouter drahtlos an dein Terminal senden.
+
+[TIP]
+====
+Beachte bei der Erstellung einer Applikationskarte immer auf die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder %).
+====
+
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-export-maps-1-de.png[Select Register, 800]
+
+. Wähle in der Seitenleiste links den Unterpunkt *_Aufgaben_*.
+. Falls du noch keine Aufgabe erstellt hast, klicke auf *_AUFGABEN HINZUFÜGEN_*  und folge dem Prozess.
+. Wähle durch einen Klick auf das Kästchen links die Aufgabe aus, die du exportieren möchtest.
+. Klicke auf *_EXPORTIEREN_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-export-maps-2-de.png[Select Register, 400]
+
+[start=5]
+. Wähle unter *_Export_* im Dropdown-Menü die Option *_Nach Agrirouter exportieren_*.
+. Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest.
+. Klicke auf *_EXPORTIEREN_*.
+--
+
+=== Mehrere Aufgaben an einen Endpunkt senden
+
+In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal an eine Maschine zu senden. Bspw., wenn Saatgut und Düngemittel gleichzeitig ausgebracht werden sollen.
+
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-export-several-maps-1-de.png[Select Register, 800]
+
+. Wähle in der Seitenleiste links den Unterpunkt *_Aufgaben_*.
+. Falls du noch keine Aufgabe erstellt hast, klicke auf *_AUFGABEN HINZUFÜGEN_*  und folge dem Prozess.
+. Wähle durch einen Klick auf das Kästchen links alle Aufgaben aus, die du exportieren möchtest.
+. Folge der Anleitung Export von Soll-Applikationskarten ab Schritt 4.
+
+== Import von Ist-Applikationskarten & Telemetriedaten
+
+Nach der Ausbringung von bspw. Saatgut können Ausbringkarten (As-Applied-Maps) auch vom Terminal über den agrirouter an dein MyEasyFarm-Konto gesendet werden. Dasselbe gilt für alle weiteren Daten, die mit deinem Equipment erstellt werden. Wie diese abgerufen werden können, erfährst du im Folgenden.
+
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-import-maps-1-de.png[Select Register, 800]
+
+. Wähle den Unterpunkt *_Übersicht_* in der Seitenleiste links.
+. Klicke rechts auf *_IMPORT FILE_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-import-maps-2-de.png[Select Register, 400]
+
+[start=3]
+. Nun öffnet sich das Fenster ISOBUS-Datei importieren. Wähle hier die Option *_IMPORT AUS AGRIROUTER_*.
+--
+
+NOTE: Wenn du dein agrirouter-Konto noch nicht mit deinem MyEasyFarm-Konto verbunden hast, wird dir die Option *_IMPORT AUS AGRIROUTER_* nicht angezeigt. <<connect-agrirouter,Verbinde dein agrirouter-Konto>>, um das Problem zu beheben.
+
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-import-maps-3-de.png[Select Register, 800]
+
+[start=4]
+. Im folgenden Fenster siehst du alle Dateien, die über den agrirouter an dein MyEasyFarm-Konto gesendet wurden. Um eine Datei zu importieren, klicke auf den Namen der Datei.
+
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-import-maps-4-de.png[Select Register, 800]
+
+[start=5]
+. Um eine Datei zu importieren, müssen fehlende Datenpunkte (z.B. Schlag, Mitarbeiter, …) nachträglich eingetragen werden. Klicke hierzu auf *_UPDATE & IMPORT_*.
+
+TIP: Bevor du eine Aufgabe importierst, solltest du bereits deine Feldgrenzen, Mitarbeiter und Fahrzeuge hinzugefügt haben.
+
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-import-maps-5-de.png[Select Register, 800]
+
+[start=6]
+
+. Auf der rechten Bildschirmhälfte siehst du allgemeine Informationen, die mit deiner Aufgabe übermittelt wurden. Diese Informationen kannst du optional abändern bzw. korrigieren. 
+. Klicke, nachdem du die allgemeinen Informationen bearbeitet hast, auf *_AKTUALISIERUNG_*.
+. Auf der linken Bildschirmhälfte kannst du fehlenden Informationen nachtragen. Klicke hierzu auf die entsprechende Aufgabe wie bspw. Tillage oder Seeding und wähle die passende Maschine etc. aus dem Dropdown Menü aus.
+
+TIP: Standardmäßig werden nur die relevantesten Optionen einer Aufgabe angezeigt. Wenn du detailliertere Informationen sehen willst, wähle SHOW ALL IMPORT OPTIONS im oberen Bereich der Seite.
+
+[start=9]
+. Klicke auf *_UPDATE & IMPORT_*, um den Vorgang abzuschließen
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/myeasyfarm/myeasyfarm-import-maps-6-de.png[Select Register, 400]
+
+[start=10]
+. Anhand des grün hinterlegten Hinweis *_IMPORTED_*, erkennst du, dass der Import erfolgreich war.
+--
+
+TIP: Deine importierten Aufgaben findest du in jetzt in der linken Seitenleiste unter *_Maßnahmen_* und bei *_Equipment, Mitarbeitern_* oder *_Schlägen_*, denen die Aufgabe zugeordnet ist.

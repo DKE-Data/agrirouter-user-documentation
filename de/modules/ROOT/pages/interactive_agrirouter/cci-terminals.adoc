@@ -7,165 +7,122 @@ Dein CCI-Terminal muss mit dem agrirouter verbunden sein, um drahtlos Dateien wi
 * Applikationskarten im- und exportierst
 * Telemetriedaten sendest
 
-[#connect-internet]
-== Internetverbindung herstellen
-Das CCI-Terminal kann auf zwei Arten mit dem Internet verbunden werden. Es handelt sich dabei um die Verbindungen über einen SmartConnect Adapter, bei dem sich das Terminal direkt über den Adapter mit dem Internet verbindet, und dem W10 Adapter. Letzterer kann sich über einen Hotspot, bspw. das eigene Mobiltelefon, mit dem Internet verbinden.
+== Verbindung mit dem agrirouter herstellen
 
-=== SmartConnect aktivieren
-Das SmartConnect ist eine multifunktionale externe Ergänzung zum Terminal und stellt u.a. die Internetverbindung bereit:
+Um Applikationskarten von MyDataPlant über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem MyDataPlant-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
 
-. Schließe das SmartConnect an das Terminal an.
-. Das Terminal verbindet sich automatisch mit dem SmartConnect.
-. Die Verbindung ins Internet wird aufgebaut.
-. Die Symbole in der Statusbar geben Auskunft über Status und Qualität der Verbindung.
-
-=== Mit einem WLAN-Hotspot verbinden
-Die Internetverbindung kann kostengünstig mit dem neuen WLAN Adapter W10 hergestellt werden. Das CCI-Terminal verbindet sich über WLAN Netzwerke mit dem Internet. Über die mobile Hotspot Funktion von Smartphones steht auch auf dem Acker eine Internetverbindung zur Verfügung. Dies erleichtert den Einstieg in die digitale Landwirtschaft, der Datentarif für das Smartphone kann auch für den Austausch der Maschinendaten genutzt werden.
 
 [.float-group]
 --
 [.right]
-image::interactive_agrirouter/cci-terminals/w10-adapter-plug-connection.png[Select Register, 400]
+image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-1-de-s.png[Select Register, 200]
 
-. Schließe den WLAN Adapter W10 an dem Steckverbinder 3 oder 4 an.
+. Logge dich in dein link:https://portal.mydataplant.com/#/fields[MyDataPlant-Konto, window="_blank"] ein und klicke in der Seitenleiste auf das Symbol für *Nutzerprofil*.
+. Klicke im unteren Bereich der Seite auf *_agrirouter verbinden_*.
 --
 
 [.float-group]
 --
 [.left]
-image::interactive_agrirouter/cci-terminals/cci-terminals-settings.png[Select Register, 400, margin: 10px]
+image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-2-de.png[Select Register, 400]
 
-[start=2]
-. Wähle auf dem Startbildschirm des Terminals die Option *_Einstellungen_*.
-. Unter Einstellungen, wähle die Option *_System_*.
+[start=3]
+. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt. 
 --
 
 [.float-group]
 --
-image::interactive_agrirouter/cci-terminals/internet-connection.png[Select Register, 400, float=right]
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-connect-agrirouter-3-de.png[Select Register, 400]
 
 [start=4]
-. Im Abschnitt Netzwerkeinstellungen wählst du nun die Option *_Internet_*, damit das Menü für Internetoptionen geöffnet wird.
+. Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. Applikationskarten von MyDataPlant über den agrirouter an dein Terminal senden. 
 --
+
+== Endpunkte-Liste aktualisieren
+
+Wenn du eine neue Maschine als neuen Endpunkt über dein agrirouter-Konto hinzugefügt hast, muss die Endpunkte-Liste aktualisiert werden, damit diese in MyDataPlant angezeigt wird. 
 
 [.float-group]
 --
-image::interactive_agrirouter/cci-terminals/established-internet-connection.png[Select Register, 400, float=left]
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-update-endpoints-de.png[Select Register, 200]
 
-[start=5]
-. Drücke die Schaltfläche *_WLAN_*, um eine Auswahlliste an verfügbaren WLAN-Netzwerken angezeigt zu bekommen. 
-. Wähle ein WLAN-Netzwerk aus, gebe das Passwort ein und bestätige deine Angabe.
-. Das Terminal verbindet sich nun mit dem WLAN und die Symbole in der Statusbar geben Auskunft über Status und Qualität der Verbindung. 
+. Um die Endpunkte-Liste zu aktualisieren, wählst du das Symbol für *_Nutzerprofil_* in der Seitenleiste.
+. Im unteren Bereich des Menüs klickst du dann *_Endpunkte aktualisieren_*.
 --
 
-[#connect-agrirouter]
-== agrirouter verbinden
+[#export-maps]
+== Export von Applikationskarten
 
-Damit du Aufträge senden und empfangen kannst, musst du dein Terminal zuerst mit dem agrirouter verbinden. In diesem Abschnitt erfährst du, wie du mit wenigen Schritten eine Verbindung zwischen dem agrirouter in deinem Terminal herstellst.
-
-[NOTE]
-====
-Um den agrirouter mit deinem Terminal zu verbinden, müssen folgende Voraussetzungen erfüllt sein:
-
-. Du hast bereits ein agrirouter link:https://manual.agrirouter.com/de/manual/latest/account.html[Konto, window="_blank"] erstellt.
-. Der Registrierungscode für das Terminal ist dir bekannt.
-. Dein Terminal ist mit dem <<connect-internet,Internet verbunden>>.
-
-====
-
-image::interactive_agrirouter/cci-terminals/cci-terminal-agrirouter-connection.png[Select Register, 800]
-
-[.float-group]
---
-image::interactive_agrirouter/cci-terminals/cci-terminal-globe.png[Select Register, 50, float=left]
-
-. Wähle auf dem Startbildschirm des Terminals die Option *_Einstellungen_*.
---
-
-[.float-group]
---
-image::interactive_agrirouter/cci-terminals/cci-terminal-chip.png[Select Register, 50, float=left]
-
-[start=2] 
-. Unter den Einstellungen wählst du die Option *_System_*.
---
-
-[.float-group]
---
-image::interactive_agrirouter/cci-terminals/cci-terminal-agrirouter.png[Select Register, 50, float=left]
-
-[start=3] 
-. Im Abschnitt Netzwerkeinstellungen wählst du nun die Option *_agrirouter_*, damit das agrirouter-Menü geöffnet wird.
---
-
-[.float-group]
---
-image::interactive_agrirouter/cci-terminals/cci-terminal-text.png[Select Register, 50, float=left]
-
-[start=4] 
-. Wähle nun die Option *_Registrierungscode_* und gib im Anschluss unter Beachtung der Groß- und Kleinschreibung deinen Registrierungscode ein. Bestätige deine Angabe mit *_Weiter_*.
---
-
-[.float-group]
---
-image::interactive_agrirouter/cci-terminals/cci-terminal-agrirouter.png[Select Register, 50, float=left]
-
-[start=5] 
-. Nun kann die Schaltfläche agrirouter bedient werden. Aktiviere mit einem Klick auf die Schaltfläche agrirouter die Verbindung. Mit einem weiteren Klick kannst du die Verbindung auch wieder trennen.
---
-
-[.float-group]
---
-image::interactive_agrirouter/cci-terminals/cci-terminal-globe.png[Select Register, 50, float=left]
-
-[start=6]
-. Stelle sicher, dass dein Terminal mit dem Internet verbunden ist.
---
-
-[.float-group]
---
-image::interactive_agrirouter/cci-terminals/cci-terminal-check.png[Select Register, 50, float=left]
-
-[start=7] 
-. Im Infobereich wird nun die aktive Verbindung angezeigt und die Inbetriebnahme des agrirouters ist abgeschlossen.
---
+Mit dem agrirouter kannst du drahtlos Applikationskarten von MyDataPlant an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine Applikationskarte erstellt hast.
 
 [TIP]
 ====
-Der Registrierungscode muss nur einmal eingegeben werden.
+Beachte bei der Erstellung einer Applikationskarte immer auf die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder cm Pflanzenabstand).
 ====
 
-== Kontrolle der Online-Verbindung
-Um zu überprüfen, ob du mit dem agrirouter verbunden bist, führst du folgende Schritte durch:
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-export-maps-1-de.png[Select Register, 400]
 
-. Wähle *_Einstellungen_* auf dem Startbildschirm der Terminals.
-. Klicke auf die Option *_System_*.
-. Im Abschnitt Netzwerkeinstellungen klickst du nun auf *_agrirouter_*.
-. Siehst du das grüne Häkchen, wie auf der folgenden Abbildung angezeigt, bist du mit dem agrirouter verbunden. Sollte das nicht der Fall sein, führe alle Schritte des Kapitels <<connect-agrirouter,agrirouter verbinden>> aus.
+. Erzeuge eine Applikationskarte und klicke auf der Seitenleiste auf das Symbol für *_Export-Manager_*.
+. Wähle die Applikationskarte aus, die du exportieren möchtest.
+. Klicke auf *_WEITER_*.
+--
 
-image::interactive_agrirouter/cci-terminals/check-connection-agrirouter-cci-1-de.png[Select Register, 800,]
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/mydataplant/mydataplant-export-maps-2-de.png[Select Register, 400]
 
-[#importmaps]
-== Import von Applikationskarten
+[start=4]
+. Wähle unter *_Ziele auswählen_* den agrirouter aus.
+. Unter *_Endpunkte auswählen_*, kannst du nun die Maschine oder das Terminal auswählen, an welche du die Applikationskarten exportieren möchtest.
+. Klicke auf *_WEITER_*.
+--
 
-Um Applikationskarten über das Terminal nutzen zu können, müssen diese vorerst über ein Farm Management System erstellt und an den agrirouter gesendet werden. Wie du von deinem Farm Management System aus Daten an den agrirouter senden kannst, erfährst du hier.
+[IMPORTANT]
+====
+Sollte dein gewünschter Endpunkt nicht angezeigt werden, solltest du über Endpunkte aktualisieren die aktuellsten Informationen deines agrirouter-Kontos abrufen.
+====
 
-image::interactive_agrirouter/cci-terminals/cci-terminal-new-order.png[Select Register, 800,]
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-export-maps-3-de.png[Select Register, 400]
 
-. Nachdem du über dein Farm Management System einen neuen Auftrag an dein Terminal gesendet hast, erscheint nach maximal 5 Minuten ein Fenster, welches darauf hinweist, dass ein neuer Auftrag zum Import bereitsteht.
+[start=7]
+. In diesem Schritt kannst du die Informationen für deinen Auftrag noch einmal überprüfen. Achte darauf, dass deine Angaben zu den Anforderungen der Maschine passen, an welche du die Applikationskarte senden möchtest.
+. Klicke auf *_EXPORTIEREN_*.
+. Fertig.  Du solltest jetzt eine Meldung sehen, die dich auffordert, die Inbox deines Terminals zu überprüfen.
+--
 
-IMPORTANT: Wenn du keine Meldung über dein Terminal bekommst, kannst du alternativ deinen Posteingang manuell überprüfen. Wähle hierzu im Bereich Netzwerkeinstellungen die Option agrirouter und und öffne den Posteingang.
+== Mehrere Applikationskarten an eine Maschine senden
 
+In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal an eine Maschine zu schicken. Bspw., wenn Saatgut und Düngemittel gleichzeitig ausgebracht werden sollen.
 
-[start=2] 
-. Wählt man nun im Posteingang den gewünschten Auftrag, wird dieser über einen Klick auf den “Play-Button” geladen. Nun ist die Karte hinterlegt und kann visuell überprüft werden. Danach kann die gewünschte Aussaat-, Düngung- oder Pflanzenschutzmaßnahme durchgeführt werden. Eine Anpassung der hinterlegten Aussaatmengen ist dann allerdings nur noch prozentual möglich.
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-export-several-maps-de.png[Select Register, 400]
 
-== Export von IST-Applikationskarten (As-Applied Karten)
+. Wähle in der linken Seitenleiste das Symbol für den *_Export-Manager_*.
+. Wähle die Applikationskarten aus, die du exportieren möchtest.
+. Verfahre weiter, wie bereits unter <<export-maps,Export von Applikationskarten>> beschrieben.
+--
 
-Um As-Applied Karten von deinem Terminal über den agrirouter an dein Farm-Management-System zu senden, musst du im agrirouter Menü, die Option Postausgang wählen. Wie du zum agrirouter Menü gelangst, siehst du in den Punkten 1-3 im Kapitel <<connect-agrirouter,agrirouter verbinden>>.
+== agrirouter Kontrollzentrum aufrufen
 
-image::interactive_agrirouter/cci-terminals/export-application-maps-cci-1-de.png[Select Register, 800,]
+Um neue Endpunkte, wie beispielsweise ein Terminal, hinzuzufügen, sollte das agrirouter Kontrollzentrum geöffnet werden. Im Folgenden erfährst du, wie das agrirouter Kontrollzentrum über MyDataPlant aufrufen kannst.
 
-. Wähle die Option *_Inbox_* bzw. *_Postausgang_*. Hier sind alle Dateien enthalten, die noch nicht an den agrirotuer versendet werden konnten.
-. Klicke die Schaltfläche mit der Datei, die du exportieren möchtest, und halte diese gedrückt.
-. Es wird dir nun ein Kontextmenü angezeigt. Wähle in diesem Kontextmenü die Option *_Upload_*. Nun wird die Datei über den agrirouter an die von dir ausgewählten Endpunkte versendet.
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/mydataplant/mydataplant-agrirouter-login-de.png[Select Register, 400]
+
+. Wähle auf der linken Seitenleiste das Symbol für *_Nutzerprofil_*.
+. Klicke auf das Symbol rechts neben dem Schriftzug *_agrirouter_*.
+. Nun erscheint das Anmeldefenster des agrirouter Kontrollzentrums. Gib deine E-Mail und dein Passwort ein und klicke auf *_anmelden_*.
+--

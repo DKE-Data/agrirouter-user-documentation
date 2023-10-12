@@ -1,0 +1,113 @@
+
+= Interaktion mit myAmaRouter
+
+Dein AmaTron 4  Terminal der Marke AMAZONE muss mit dem agrirouter verbunden sein, um drahtlos Dateien wie Applikationskarten von deinem Farm-Management-System empfangen zu können. Es ist auch möglich, IST-Applikationskarten (As-Applied-Karten) oder andere Telemetriedaten von deinem Terminal über den agrirouter an dein Farm-Mananagement-System zu senden. In diesem Abschnitt erfährst du, wie du:
+
+* dein AmaTron 4 Terminal mit dem Internet verbindest.
+* Applikationskarten importierst.
+* Telemetriedaten und IST-Applikationskarten exportierst.
+
+== Verbindung mit dem agrirouter herstellen
+In diesem Abschnitt erfährst du, wie du dein AmaTron 4 Terminal mit dem agrirouter verbindest. Bevor du mit der Verbindungsherstellung beginnen kannst, solltest du sicherstellen, dass folgende Dinge vorliegen:
+
+* AmaTron 4 Terminal
+* WLAN Adapter
+* AmaTron 4 Connect Lizenz
+* myAmaRouter App auf dem Smartphone
+
+[IMPORTANT]
+====
+Das AmaTron 4 Terminal, sowie den dazugehörigen WLAN Adapter und die Amatron 4 Connect Lizenz bekommst du bei deinem link:https://amazone.de/de-de/erleben-erwerben/erwerben/ansprechpartner-vertrieb/haendlersuche[AMAZONE Händler, window="_blank"]. Die myAmaRouter App kannst du im link:https://play.google.com/store/apps/details?id=de.amazone.iom.agrirouter[Google Playstore, window="_blank"] oder im link:https://apps.apple.com/de/app/myamarouter/id1479666048[Apple App Store, window="_blank"] herunterladen.
+====
+
+[TIP]
+====
+Für eine optionale Displayerweiterung kannst du die AmaTron 4 Twin App im link:https://play.google.com/store/apps/details?id=de.amazone.iom.amatronx[Google Playstore, window="_blank"] oder im link:https://apps.apple.com/de/app/amatron-twin/id1457549008[Apple App Store, window="_blank"] auf dein Tablet herunterladen. Für nähere Informationen zur Installation des Ger
+====
+[#internet-connection]
+=== Herstellung der Internetverbindung
+Liegen alle Geräte, Lizenzen und Apps vor, die du benötigst, kannst du beginnen, indem du dein Terminal mit dem Internet verbindest.
+
+. Stelle sicher, dass auf deinem AmaTron 4 Terminal die Software-Version NW216-H.042 oder eine neuere installiert ist.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/amazone/amazone-connect-agrirouter-1-de.png[Select Register, 400]
+
+[start=2]
+. Stecke den WLAN-Adapter in den dafür vorgesehenen USB-Port auf der linken Seite des Terminals.
+--
+
+Im nächsten Schritt stellst du über dein Smartphone oder Tablet eine Online-Verbindung für dein AmaTron 4 Terminal her.
+
+image::interactive_agrirouter/amazone/amazone-connect-agrirouter-2-de.png[Select Register, 800]
+
+[start=3]
+. Wähle auf deinem Terminal nun die Option *_Setup_* image:interactive_agrirouter/amazone/amazone-setup-icon.png[Select Register ,25, 25].
+. Klicke auf *_Netzwerk_*.
+. Aktiviere *_WLAN verwenden_*.
+. Klicke auf *_Modus_*.
+. Wähle *_Zugangspunkt_*.
+. Klicke auf das *_Häkchen_*, um die Eingabe zu bestätigen.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/amazone/amazone-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=9]
+. Nimm dein Smartphone oder Tablet zur Hand und gehe zu den *_WLAN-Einstellungen_*.
+. Aktiviere die *_WLAN-Funktion_*.
+. Verbinde dich mit dem WLAN namens *_AmaTron 4_*.
+--
+
+=== Aufbau der agrirouter-Verbindung
+
+Dein AmaTron 4 Terminal ist jetzt mit dem Internet verbunden. Im folgenden Schritt wird die Verbindung zum agrirouter aufgebaut.
+
+. Logge dich in dein link:https://my-agrirouter.accounts.ondemand.com/[agrirouter-Konto, window="_blank"] ein.
+
+[NOTE]
+====
+Wenn du noch kein agrirouter-Konto hast, erfährst du link:https://manual.agrirouter.com/de/manual/latest/account.html#benutzerkonto-erstellen[hier], wie du eines erstellst.
+====
+
+[start=2]
+. Füge dein AmaTron 4 Terminal als Endpunkt hinzu. Wie das funktioniert, erfährst du link:https://manual.agrirouter.com/de/manual/latest/endpoint.html#connect-machine[hier].
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/amazone/amazone-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=3]
+. Notiere deinen Registrierungscode
+--
+
+image::interactive_agrirouter/amazone/amazone-connect-agrirouter-5-de.png[Select Register, 800]
+
+[start=4]
+. Nimm dein Smartphone oder Tablet zur Hand, auf dem die myAmaRouter-App installiert ist und öffne sie.
+. Klicke auf *_Code aktualisieren_*.
+. Gib den *_Registrierungscode_* ein, den du dir in Schritt 3 notiert hast.
+. Klicke auf *_Verbindung herstellen_*.
+. Klicke auf *_Fortsetzen_*. 
+. Falls du noch keine <<internet-connection,WLAN-Verbindung>> von deinem Smartphone zu deinem AmaTron 4 hergestellt hast, solltest du diesen Schritt jetzt vornehmen.
+
+== Import von Applikationskarten
+Um über den agrirouter SOLL-Applikationskarten von deinem Farm-Management-System auf deinem Terminal zu empfangen, sind nur wenige Schritte notwendig.
+
+image::interactive_agrirouter/amazone/amazone-import-maps-1-de.png[Select Register, 800]
+
+. Sende die gewünschte(n) Applikationskarte(n) über dein FMIS an deinen AmaTron 4 Endpunkt.
+. Klicke auf deinem Smartphone in der myAmaRouter App auf *_Daten an Terminal übertragen_*.
+. Klicke im Pop-up-Fenster auf deinem Terminal auf das *_Häkchen_*, um die eingehenden Daten zu akzeptieren.
+
+== Export von IST-Applikationskarten & Telemetriedaten
+Um IST-Applikationskarten (As-Applied Karten) oder andere Daten von deinem Terminal über den agrirouter an dein Farm-Management-System zu senden, sind nur 2 einfache Schritte notwendig.
+
+image::interactive_agrirouter/amazone/amazone-export-maps-1-de.png[Select Register, 800]
+
+. Klicke auf deinem Smartphone in der myAmaRouter App auf *_Daten vom Terminal abrufen_*.
+. Klicke im Pop-up-Fenster auf deinem Terminal auf das *_Häkchen_*, um die Daten zu exportieren.
