@@ -1,0 +1,64 @@
+
+= Interaktion mit LEMKEN iQblue
+
+LEMKEN iQblue connect ist ein System, das den Datenaustausch zwischen einer LEMKEN-Maschine bzw. dem Terminal und dem Anbaugerät ermöglicht. LEMKEN iQblue connect erfüllt die Funktionalitäten eines Datenloggers, was bedeutet, dass es Telemetriedaten über den agrirouter an ein Farm-Management-System senden, aber keine Aufgaben empfangen kann. Grundsätzlich nutzt LEMKEN iQblue connect zur Kommunikation ein CCI-Terminal. Welche Funktionen das CCI-Terminal hat und wie verschiedenste Funktionen mit dem agrirouter umgesetzt werden können, erfährst du im Kapitel zu xref:interactive_agrirouter/cci-terminals.adoc#cci-terminals[CCI-Terminals].
+
+In diesem Kapitel erfährst du, wie du:
+
+* dein Terminal mit dem agrirouter verbindest.
+* Telemetriedaten exportieren kannst.
+
+== Verbindung mit dem agrirouter herstellen
+. Erstelle ein link:https://manual.agrirouter.com/de/manual/latest/account.html#benutzerkonto-erstellen[agrirouter-Konto, window="_blank"].
+. Verbinde LEMKEN iQblue connect als eine link:https://manual.agrirouter.com/de/manual/latest/endpoint.html#connect-machine[Maschine] mit deinem agrirouter-Konto und *_notiere dir den Registrierungscode_*.
+. Im nächsten Schritt muss der Code in dein ISOBUS-Terminal eingegeben werden.
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/lemken/lemken-connect-agrirouter-1-de.png[Select Register, 400]
+
+[start=4]
+. Wähle dazu im Home Bildschirm das Zahnrad für *_Einstellungen_*.
+. Klicke dann auf *_System_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/lemken/lemken-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=6]
+. Wähle die Option *_agrirouter_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/lemken/lemken-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=7]
+. Klicke auf *_Registration Code_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/lemken/lemken-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=8]
+. Gib den *_Registrierungscode_* ein, den du in Schritt 2 generiert hast.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/lemken/lemken-connect-agrirouter-5-de.png[Select Register, 400]
+
+[start=9]
+. Erscheint der *_grüne Haken_*, ist dein Terminal mit deinem agrirouter verbunden.
+--
+
+== Export von Telemetriedaten
+Um Telemetriedaten und IST-Applikationskarten von LEMKEN iQblue über den agrirouter an dein Farm-Management System zu senden, muss nichts weiter getan werden. LEMKEN iQblue sendet die Daten automatisch an den agrirouter. Um zu bestimmten, an welche Endpunkte LEMKEN iQblue Daten sendet, musst du eine link:https://manual.agrirouter.com/de/manual/latest/routing.html[Route, window="_blank"] in deinem agrirouter-Konto einrichten.
