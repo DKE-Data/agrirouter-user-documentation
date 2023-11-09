@@ -1,0 +1,162 @@
+= NEXT Farming Solution Guide
+
+Mit der Farm Management Software NEXT Farming kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Endpunkte-Liste aktualisieren
+* Export von Applikationskarten
+* Import von Applikationskarten
+* Verarbeitung von Telemetriedaten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten von NEXT Farming über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem NEXT Farming-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/nextfarming/nextfarming-connect-agrirouter-1-de.png[Select Register, 400]
+
+. Logge dich über die link:https://mein.nextfarming.de/j_security_check[NEXT Farming Login-Seite, window="_blank"] in dein Konto ein.
+. Wähle dann in der linken Seitenleiste die Option *_Module, Apps & Services_*.
+. Klicke auf die Kachel *_NEXT Machine Management_*.
+. Nun wirst du aufgefordert, deinen Code einzugeben, der zur Verbindung von Maschinen über den agrirouter nötig ist. Diesen Code erhältst du von deinem Maschinenhersteller oder du kannst ihn direkt online in diesem Schritt kaufen.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/nextfarming/nextfarming-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=5]
+. Klicke jetzt auf den Button *_Mit agrirouter verbinden_* und gib im Anschluss die Anmeldeinformationen für deinen agrirouter-Account ein.
+--
+
+[TIP]
+====
+Falls du bereits mit deinem Browser in deinen agrirouter-Account eingeloggt bist, wirst du automatisch verknüpft und deine Anmeldedaten nicht abgefragt.
+====
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/nextfarming/nextfarming-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=6]
+. Nun siehst du eine Auflistung der von dir gekauften Lizenzen. Jede Lizenz entspricht einem Endpunkt. Wenn du auf das Dropdown Menü klickst, werden dir alle Endpunkte angezeigt, die mit deinem agrirouter-Account verknüpft sind. Wähle den Endpunkt aus, den du mit deinem NEXT Farming-Account verbinden möchtest.
+. Mit einem Klick auf *_Weiter_* ist die Verbindung zwischen Endpunkt und agrirouter hergestellt.
+--
+
+[TIP]
+====
+Wurde eine Lizenz mit einem Endpunkt verknüpft, kann man über diese Lizenz keinen weiteren Endpunkt verknüpfen. Um eine Verknüpfung rückgängig zu machen, musst du den link:https://www.nextfarming.de/kontakt/support/[NEXT Farming Support kontaktieren, window="_blank"].
+====
+
+== Endpunkte aktualisieren
+
+Wenn du in deinem agrirouter Profil einen neuen Endpunkt, wie bspw. ein Terminal hinzugefügt hast, musst du diesen  wie unter <<connect-agrirouter,Verbindung mit dem agrirouter herstellen>> beschrieben, mit deinem NEXT Farming-Account verknüpfen. Die Daten werden bei jeder neuen Verknüpfung aktualisiert. Möchtest du überprüfen, wie aktuell die agrirouter-Informationen sind, die in deinem NEXT Farming-Acount angezeigt werden, führe folgende Schritte aus:
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/nextfarming/nextfarming-update-endpoints-de.png[Select Register, 400]
+
+. Wähle in der Seitenleiste links *_Machine Management_*.
+. Wähle den Unterpunkt *_Live Ansicht_*.
+. Klicke auf das *_agrirouter Logo_* in der rechten unteren Ecke.
+--
+
+[#export-maps]
+== Applikationskarten exportieren
+
+Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder Pflanzenschutz) kannst du deine Applikationskarte über den agrirouter drahtlos an dein Terminal senden. 
+
+[TIP]
+====
+Beachte bei der Erstellung einer Applikationskarte immer die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder %).
+====
+
+In NEXT Farming gibt es drei Wege, Applikationskarten an ein Terminal zu senden.
+
+* Über das Erstellen einer Maßnahme
+* Über Machine Management > Daten senden
+* Über das Applikationkskartencenter
+
+Wie sich die drei Optionen voneinander unterscheiden, erfährst du über das link:https://www.nextfarming.de/hilfe/[ Informationsportal von NEXT Farming, window="_blank"]. Wenn du bspw. Applikationskarten über das Applikationskartencenter versenden möchtest, gehst du wie folgt vor:
+
+image::interactive_agrirouter/nextfarming/nextfarming-export-maps-1-de.png[Select Register, 800]
+
+. Wähle das *_Applikationskartencenter_* aus der linken Seitenleiste.
+. Klicke auf *_Applikationskartenverwaltung_*.
+. Wähle eine oder mehrere Applikationskarten aus, indem du im Kästchen links neben der Bezeichnung einen Haken setzt.
+. Klicke auf *_Senden über agrirouter_*.
+
+image::interactive_agrirouter/nextfarming/nextfarming-export-maps-2-de.png[Select Register, 800]
+
+[start=5]
+. Egal für welche der drei Optionen du dich entscheidest, um eine Applikationskarten zu senden, am Ende wirst du das folgende Fenster angezeigt bekommen. Voraussetzung hierfür ist, dass du einen Endpunkt über den agrirouter verbunden hast.
+. Wähle aus dem *_Dropdown Menü_* den Endpunkt, an den du deine Applikationskarte senden möchtest.
+. Klicke auf *_Senden_*.
+
+[TIP]
+====
+Es wird empfohlen, immer den neuesten ISO-XML-Standard als Exportformat zu wählen, wenn das Terminal diesen unterstützt. Im Normalfall wird der neueste Standard automatisch ausgewählt.
+====
+
+== Eine Karte an mehrere Endpunkte senden
+
+image::interactive_agrirouter/nextfarming/nextfarming-export-several-maps-de.png[Select Register, 800]
+
+. Führe alle Schritte des Kapitels <<export-maps, Applikationskarten exportieren>> aus.
+. Setze im *_Dropdown Menü_* bei allen Endpunkten, an die du deine Applikationskarte senden möchtest, einen Haken oder wähle *_an alle Endpunkte senden_* aus.
+. Klicke auf *_Senden_*.
+
+== Mehrere Karten an einen Endpunkt senden
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/nextfarming/nextfarming-export-several-maps-1-de.png[Select Register, 400]
+
+. Wähle in der Seitenleiste links *_Machine Management_*.
+. Klicke auf den Unterpunkt *_Daten senden_*.
+--
+
+image::interactive_agrirouter/nextfarming/nextfarming-export-several-maps-2-de.png[Select Register, 800]
+
+[start=3]
+1. Setze im nächsten Fenster bei den Dateitypen einen Haken, die du an deinen Endpunkt senden möchtest.
+2. Klicke auf *_Weiter_*.
+
+image::interactive_agrirouter/nextfarming/nextfarming-export-several-maps-3-de.png[Select Register, 800]
+
+[start=5]
+1. Nun setzt du in der Liste links bei den Maßnahmen einen Haken, die du an dein Terminal senden möchtest.
+2. Klicke auf den *_Pfeil nach rechts_*.
+3. Klicke auf *_Weiter_*.
+4. Verfahre weiter, wie unter <<export-maps,Applikationskarten exportieren>> beschrieben.
+
+== Applikationskarten importieren
+
+Nach der Ausbringung von bspw. Saatgut können Applikationskarten auch vom Terminal über den agrirouter an deinen NEXT Farming-Account gesendet werden. Wie diese abgerufen werden können, erfährst du im Folgenden.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/nextfarming/nextfarming-import-maps-de.png[Select Register, 400]
+
+1. Wähle in der Seitenleiste links *_Machine Management_*.
+2. Klicke auf den Unterpunkt *_Daten verarbeiten_*.
+3. Wähle jetzt den Zeitraum aus, in dem du die Daten über dein Terminal an NEXT Farming gesendet hast oder klicke auf *_Letzte Datensätze laden_*
+4. Nun siehst du importierte Ausbringkarten (As-Applied-Maps) und kannst diese weiter verarbeiten.
+--
+
+== Verarbeitung von Telemetriedaten
+
+image::interactive_agrirouter/nextfarming/nextfarming-process-data-de.png[Select Register, 800]
+
+. Wähle in der Seitenleiste links *_Machine Management_*.
+. Klicke auf den Unterpunkt *_Live Ansicht_*.
+. Jetzt wird dir eine Auswahl der Maschinen angezeigt, die Telemetriedaten über den agrirouter senden. Wähle die Maschine aus, deren Telemetriedaten du abrufen möchtest, und verarbeite diese nach Belieben weiter.

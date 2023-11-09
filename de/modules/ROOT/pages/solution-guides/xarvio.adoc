@@ -1,0 +1,144 @@
+= xarvio FIELD MANAGER Solution Guide
+
+Mit der Farm Management Software xarvio FIELD MANAGER kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Endpunkte-Liste aktualisieren
+* Export von Soll-Applikationskarten
+* Import von Ist-Applikationskarten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten vom xarvio FIELD MANAGER über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem xarvio-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/xarvio/xarvio-connect-agrirouter-1-de.png[Select Register, 200]
+
+1. Logge dich über die link:https://fm.xarvio.com/de/de_de/login[xarvio Login Seite,window="_blank"] in dein Konto ein.
+2. Halte deine Maus über das *_Profil-Symbol_* in der rechten oberen Ecke.
+3. Wähle dann die Option *_Verbundene Apps_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/xarvio/xarvio-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=4]
+. Du siehst nun mehrere Apps, mit denen du dein xarvio-Konto verbinden kannst. Wähle *_Verbindung zu agrirouter_*.
+. Im nächsten Schritt wirst du nach der Erlaubnis gefragt, auf dein agrirouter-Konto zugreifen zu können. Wähle hier *_Weiter_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter//xarvio/xarvio-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=6]
+. Wenn du nicht bereits über denselben Browser in deinem agrirouter-Konto eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten einzugeben. Gib deine E-Mail und dein Passwort ein und klicke dann auf *_Anmelden_*.  
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/xarvio/xarvio-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=7]
+. Klicke im folgenden Fenster auf *_VERBINDEN_*, damit dein agrirouter-Konto mit deinem xarvio-Konto verbunden wird.
+. Dein xarvio FIELD MANAGER Konto ist nun mit deinem agrirouter-Konto verbunden.
+--
+
+[#update-endpoints]
+== Endpunkte-Liste aktualisieren
+
+Wenn du in deinem agrirouter-Konto einen neuen Endpunkt, wie bspw. ein Terminal hinzugefügt hast, musst du dieses nicht extra innerhalb des xarvio FIELD MANAGER aktualisieren. Die Software aktualisiert die Endpunkte ganz automatisch.
+
+[IMPORTANT]
+====
+In manchen Fällen kann es bis zu 30 Minuten dauern, bis der Endpunkt innerhalb des xarvio FIELD MANAGER aktualisiert ist. Sollte es länger dauern, probiere dein <<connect-agrirouter,agrirouter-Konto neu zu verbinden>> oder melde dich beim https://www.xarvio.com/de/de/support.html[xarvio Support,window="_blank"]. 
+====
+
+[#export-maps]
+== Export von Applikationskarten
+
+Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder Pflanzenschutz) im xarvio FIELD MANAGER kannst du deine Applikationskarte über den agrirouter drahtlos an dein Terminal senden.
+
+[TIP]
+====
+Beachte bei der Erstellung einer Applikationskarte immer auf die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder %).
+====
+
+image::interactive_agrirouter/xarvio/xarvio-export-map-1-de.png[Select Register, 800]
+
+. Klicke hierzu in der Kopfleiste des xarvio FIELD MANAGERs auf *_Aufgaben_*.
+. Falls noch keine Maßnahme hinzugefügt wurde, klicke auf *_Maßnahmen hinzufügen_* und folge den Anweisungen.
+. Wähle die *_Aufgabe_* aus, die du an dein Terminal senden möchtest.
+. Klicke auf *_Senden oder herunterladen_*.
+. Wähle dann im folgenden Fenster die Option *_agrirouter_* aus.
+
+[IMPORTANT]
+====
+Solltest du kein Terminal als Endpunkt in deinem agrirouter Profil eingetragen haben, leitet dich die Software zurück auf das Menü für *_verbundene Apps_*. Um das Problem zu lösen, solltest du zuerst ein Terminal als xref:endpoint.adoc[Endpunkt, window="_blank"] im agrirouter verbinden.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter//xarvio/xarvio-export-map-2-de.png[Select Register, 400]
+
+[start=6]
+. Wähle im nächsten Fenster den Endpunkt aus, an den du die Applikationskarte senden möchtest und klicke auf *_Karte senden_*.
+. Fertig! Die Applikationskarte sollte auf deinem Terminal angekommen sein.
+--
+
+[TIP]
+====
+Wenn du Applikationskarten für mehrere Felder nutzen möchtest, solltest du sie nicht einzeln exportieren, sondern die Anleitung im nächsten Abschnitt befolgen!
+====
+
+[#send-several-maps]
+
+=== Mehrere Applikationskarten an ein Terminal senden
+image::interactive_agrirouter//xarvio/xarvio-export-several-maps-de.png[Select Register, 800]
+
+In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal an eine Maschine zu senden. Folge hierzu den Schritten aus <<export-maps,Applikationskarten exportieren>> und wähle bei Schritt 3 gleich mehrere Aufgaben aus.
+
+[TIP]
+====
+Es können nur mehrere Aufgaben des gleichen Typs ausgewählt werden (z.B. Düngung)!
+====
+
+[#import-maps]
+== Import von Applikationskarten
+
+Nach der Ausbringung von bspw. Saatgut können Istwertkarten vom Terminal über den agrirouter an den xarvio FIELD MANAGER gesendet werden. Wie diese abgerufen werden können, erfährst du im Folgenden.
+
+image::interactive_agrirouter//xarvio/xarvio-import-map-1-de.png[Select Register, 800]
+
+. Wähle zuerst in der Kopfleiste den Punkt *_Analyse_*.
+. Klicke unten rechts auf den Button *_Kartenimport_*.
+
+image::interactive_agrirouter//xarvio/xarvio-import-map-2-de.png[Select Register, 800]
+
+[start=3]
+
+. Wenn du nun den Reiter *_Alle Dateien_* auswählst, findest du anhand der Spalte *_Quelle_* alle Dateien, die über den agrirouter an deinen xarvio FIELD MANAGER gesendet hast.
+. Klicke bei der gewünschten Datei auf die drei Punkte auf der rechten Seite und wähle *_Neue Karte erstellen_*.
+
+image::interactive_agrirouter//xarvio/xarvio-import-map-3-de.png[Select Register, 800]
+
+[start=5]
+. Deine Datei erscheint nun unter dem im Bereich *_Unverarbeitete Karten_*.
+. Falls der Applikationskarte noch keine Aufgabe hinzugefügt wurde, wähle aus dem Dropdown-Menü die passende Aufgabe aus.
+. Wähle das Kästchen auf der linken Seite bei den Karten aus, die du importieren möchtest.
+. Klicke auf *_Karten verarbeiten_*.
+
+image::interactive_agrirouter//xarvio/xarvio-import-map-4-de.png[Select Register, 800]
+
+[start=9]
+. Die importierte(n) Karte(n) findest du im Bereich *_Analyse_*.
+. Wähle im *_Dropdown_* Menü oben links das entsprechende Feld aus.
+. Klicke auf den entsprechenden Kartentyp. 

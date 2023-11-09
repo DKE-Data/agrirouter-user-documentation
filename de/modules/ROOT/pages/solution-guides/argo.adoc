@@ -1,0 +1,142 @@
+== ARGO Traktoren Solution Guide
+
+Diese Anleitung ist für Maschinen von *_ARGO-Traktoren_*. Hierunter fallen Maschinen der Marke *_Landini_* und *_McCormick_*. Deine Maschine muss mit dem agrirouter verbunden sein, um drahtlos Dateien über den agrirouter austauschen zu können. In diesem Abschnitt erfährst du, wie du:
+
+* den agrirouter mit dem ARGO Fleet Management Portal verbindest.
+* eine Maschine hinzufügst.
+* dein Terminal mit dem agrirouter verbindest.
+
+[#connect-internet]
+== Verbindung zum agrirouter herstellen
+
+Um mit deiner ARGO Maschine Daten über den agrirouter austauschen zu können, musst du die folgenden Schritte befolgen.
+
+image::interactive_agrirouter/argo/argo-connect-agrirouter-1-de.png[Select Register, 800]
+
+. Logge dich in das link:https://argofleet.argotractors.com/#/auth/login[ARGO Fleet Management Portal, window="_blank"] ein. 
+
+[IMPORTANT]
+====
+In Schritt 1 ist explizit das *ARGO Fleet Management Portal* gemeint. Nicht das Landini Fleet Portal oder das McCormick Fleet Portal.
+====
+
+[start=2]
+. Wähle in der linken Seitenleiste *_AgriRouter_* und klicke auf *_REGISTRY_*.
+
+image::interactive_agrirouter/argo/argo-connect-agrirouter-2-de.png[Select Register, 800]
+
+[start=3]
+
+. Wähle Activate *_AgriRouter Integration_*.
+. Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto eingeloggt sein, wirst du nun aufgefordert dich einzuloggen
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/argo/argo-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=5]
+. Klicke auf *_CONNECT_*.
+. Jetzt besteht eine Verbindung zwischen deinem agrirouter-Konto und deinem Argo Fleet Management Konto.
+--
+
+== Hinzufügen einer Maschine
+Um eine bestimmte Maschine auswählen zu können, die über den agrirouter Daten senden und empfangen soll, muss die zuerst hinzugefügt werden.
+
+image::interactive_agrirouter/argo/argo-add-machine-1-de.png[Select Register, 800]
+
+. Klicke in der linken Seitenleiste auf *_AgriRouter_*.
+. Klicke auf das *_+ Icon_*, um eine Maschine hinzuzufügen.
+. Füge die benötigten Informationen hinzu und klicke auf das *_Speichern-Icon_*.
+
+image::interactive_agrirouter/argo/argo-add-machine-2-de.png[Select Register, 800]
+
+[start=4]
+. Wähle die Maschine aus, die du im letzten Schritt hinzugefügt hast.
+. Klicke auf das *_On-Board_* Symbol, um mit dem Agrirouter On-Boarding fortzufahren.
+
+image::interactive_agrirouter/argo/argo-add-machine-3-de.png[Select Register, 800]
+
+[start=6]
+. Der On-Boarding-Vorgang ist abgeschlossen, wenn neben dem Fahrzeug der grüne Punkt erscheint.
+
+== Terminal (X25) mit dem agrirouter verbinden
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/argo/argo-connect-terminal-1-de.png[Select Register, 400]
+
+. Vom X25-Terminal aus klickst du auf das Symbol für CLOUD BASED SERVICES (Disabled).
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/argo/argo-connect-terminal-2-de.png[Select Register, 400]
+
+[start=2]
+. Wähle im nächsten Fenster die Option *_AgriRouter_* und klicke auf *_OK_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/argo/argo-connect-terminal-3-de.png[Select Register, 400]
+
+[start=3]
+. Die Verbindung ist bestätigt, wenn das Symbol bei CLOUD BASED SERVICES grün wird (Verbunden).
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/argo/argo-connect-terminal-4-de.png[Select Register, 400]
+
+[start=4]
+. Logge dich jetzt online auf deinem https://my-agrirouter.accounts.ondemand.com/[agrirouter-Konto, window="_blank"] ein und https://manual.agrirouter.com/de/manual/latest/endpoint.html#connect-machine[füge das Terminal als einen neuen Endpunkt (Horizon ARGO) hinzu, window="_blank"].
+. Notiere dir im letzten Schritt den Registrierungscode.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/argo/argo-connect-terminal-5-de.png[Select Register, 400]
+
+[start=5]
+. Klicke in deinem X25 Terminal auf *_System Setup_* und dann auf *_AGRIROUTER_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/argo/argo-connect-terminal-6-de.png[Select Register, 400]
+
+[start=7]
+. Klicke auf *_CODE_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/argo/argo-connect-terminal-7-de.png[Select Register, 400]
+
+[start=8]
+. Gib den *_Registrierungscode_* ein, den du dir unter Schritt 5 notiert hast.
+. Klicke auf den *_grünen Haken_*, um die Eingabe zu bestätigen.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/argo/argo-connect-terminal-8-de.png[Select Register, 400]
+
+[start=10]
+1. Klicke auf *_OK_*. 
+2. Du hast nun erfolgreich eine Verbindung zwischen deiner ARGO-Traktoren Maschine und dem agrirouter hergestellt. Du kannst nun drahtlos Daten von bspw. deinem Farm-Management-System über den agrirouter an deine Maschine senden.
+--
+
+[NOTE]
+====
+Wenn du während des Prozesses Unterstützung benötigst, kannst du dich bei deinem lokalen Händler melden.
+====

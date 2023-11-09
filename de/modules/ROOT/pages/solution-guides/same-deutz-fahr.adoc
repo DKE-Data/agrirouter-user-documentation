@@ -1,0 +1,181 @@
+= Same-Deutz-Fahr Datenplattform Solution Guide
+
+image::interactive_agrirouter/same-deutz-fahr/introduction-sdf-1-de.png[Select Register, 800]
+
+Diese Anleitung enthält alle Informationen, die du benötigst, um die Same-Deutz-Fahr (SDF) Datenmanagement-App über den agrirouter zu nutzen. Du erfährst Schritt für Schritt, wie du den Datenaustausch zwischen einem SDF-Traktor und einem FMIs über den agrirouter einrichten und starten kannst. Diese Punkte werden im Folgenden behandelt:
+
+* SDF Datenplattform mit dem agrirouter verbinden
+* Online Verbindung kontrollieren
+* Import von Soll-Applikationskarten
+* Export von Ist-Applikationskarten 
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+Bevor du beginnst, überprüfe bitte, ob deine Maschine die folgenden Mindestanforderungen erfüllt: 
+
+* Die Maschine ist mit ISOBUS ausgestattet
+* iMonitor 3 mit der Softwareversion 4.04.62.7 oder höher montiert
+* iMonitor 8": eine Task Data + Advanced Mode-Lizenz erforderlich
+* iMonitor 12": keine zusätzliche Lizenz erforderlich CTM (Communication Telematic Module) montiert mit mindestens einem aktiven Dienst (SDF Fleet Management oder Data Traffic Package)
+* GPS-Empfänger montiert
+
+=== Einrichtung der SDF Datenplattform
+. Logge dich in dein Profil der link:https://www.sdf-dataplatform.com/[SDF-Datenplattform, window="_blank"] ein, wenn du bereits ein Profil erstellt hast. Falls nicht, klicke auf *Register* und folge dem Registrierungsprozess.
+
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.1-de.png[Select Register, 800]
+
+[start=2]
+
+. Ist der Registrierungs- oder Loginprozess abgeschlossen, wähle den Menüpunkt *_FAHRZEUGE_* in der linken Seitenleiste.
+. Klicke anschließend auf *_Fahrzeug hinzufügen_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.2-de.png[Select Register, 400]
+
+[start=4]
+. Folge nun dem Prozess, um ein neues Fahrzeug hinzuzufügen.
+--
+
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.3-de.png[Select Register, 800]
+
+[start=5]
+. Wähle auf der linken Seitenleiste den Menüpunkt *_DATA MANAGEMENT_*.
+. Klicke auf den Button *_Konto Verknüpfen_*.
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.4-de.png[Select Register, 400]
+
+[start=7]
+. Gib die E-Mail deines agrirouter-Kontos ein und klicke auf *_Hinzufügen_*.
+--
+
+[NOTE]
+====
+Falls du noch kein agrirouter-Konto hast, erfährst du link:https://agrirouter.com/de/agrirouter/quick-start-guide/agrirouter-konto-einrichten/[hier, window="_blank"], wie du eines erstellst.
+====
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.5-de.png[Select Register, 400]
+
+[start=8]
+. Du wirst jetzt auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter Profil angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
+--
+
+War die Verknüpfung erfolgreich, kommt eine Erfolgsmeldung und der Account wird in der Liste angezeigt. Dein SDF-Datenplattform-Konto ist jetzt mit deinem agrirouter-Konto verbunden. Im nächsten Schritt müssen die Maschinen dem agrirouter-Konto zugeordnet werden.
+
+[TIP]
+====
+Über einen Klick auf das blau hinterlegte + können weitere agrirouter-Konten verbunden werden.
+====
+
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.6-de.png[Select Register, 800]
+
+[start=10]
+. Klicke auf das blau hinterlegte Link-Symbol, um eine deiner Maschinen zu verbinden.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-1.7-de.png[Select Register, 400]
+
+[start=11]
+. Wähle die Maschine aus, die du verbinden möchtest.
+. Klicke auf *_Verbinden Sie_*.
+--
+
+Die Einrichtung der SDF Datenplattform ist hiermit abgeschlossen. Um von deiner Maschine über den agrirouter Daten an dein Farm-Management-System zu senden, muss noch dein Terminal (iMonitor) mit deinem SDF-Datenplattform-Konto verbunden werden.
+
+=== Einrichtung des Terminals (iMonitor)
+
+Unter diesem Abschnitt erfährst du, wie du deine Maschine mit der SDF Datenplattform verbindest, um Daten von deiner Maschine über den agrirouter an deine Farm-Management-Software zu senden. 
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-2.1-de.png[Select Register, 400]
+
+. Über einen Klick auf die Wolke in der linken Seitenleiste öffnet sich das SDF-Datenmanagement.
+. Gib hier die Anmeldedaten deines SDF-Datenmanagement-Kontos ein.
+. Bestätige deine Anmeldung über einen Klick auf die Pfeiltaste.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-2.2-de.png[Select Register, 400]
+
+[start=4]
+. Im nächsten Schritt gibst du die VIN Nummer der Maschine ein, die du verbinden möchtest.
+. Bestätige die Eingabe über die Pfeiltaste
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-connect-agrirouter-2.3-de.png[Select Register, 400]
+
+[start=6]
+. Überprüfe nun, ob das korrekte agrirouter-Konto angezeigt wird und wähle es aus.
+. Bestätige deine Auswahl, indem du auf den Button mit dem Häkchen klickst.
+--
+
+== Kontrolle der Online-Verbindung
+
+Um zu kontrollieren, ob eine Verbindung zum agrirouter besteht, führst du folgende Schritte durch:
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-check-connectivity-de.png[Select Register, 400]
+
+. Klicke auf die *_Wolke_* in der linken Seitenleiste.
+. Wähle in der rechten Seitenleiste das Symbol für *_Profil_* aus.
+. Findest du jetzt die E-Mail-Adresse deines agrirouter-Profils blau hinterlegt, mit einem blauen Punkt daneben unter der Überschrift *_AGRIROUTER ACCOUNT_*, besteht eine Verbindung.
+--
+
+== Import von Soll-Applikationskarten (Soll-Ausbringkarten)
+Um Dateien, die du bspw. von deinem Farm-Management-System an deine Maschine geschickt hast, herunterladen zu können, solltest du wie folgt vorgehen:
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-import-maps-de.png[Select Register, 400]
+
+. Klicke auf die *_Wolke_* in der linken Seitenleiste
+. Wähle das Symbol für *_Aufgaben_*  in der rechten Seitenleiste
+. Klicke auf den *_DOWNLOAD_* Button
+--
+
+Sobald das System die Aufgabe(n) heruntergeladen hat, zeigt es sie in einer Liste an. Wenn du eine Aufgabe auswählst und die grüne Taste drückst, kannst du die Aufgabe direkt in den iMonitor importieren. Drückst du die rote Taste, werden die Aufgaben nur in der *_Download_*-Seite gespeichert und nicht in den iMonitor importiert.
+
+[IMPORTANT]
+====
+Bei alten Software-Versionen werden beim Importieren von Aufgabendaten von USB-Sticks die alten Aktivitäten auf dem iMonitor gelöscht, sobald neue Aufgabendaten importiert werden. Außerdem ist die Aufgabe, sobald sie importiert wurde, nicht mehr in der Daten Management App vorhanden. Melde dich bei deinem Same-Deutz-Fahr-Händler für nähere Informationen.
+====
+
+== Export von Ist-Applikationskarten (As Applied Maps / Reale Ausbringkarten)
+
+Aus dem Terminal (iMonitor) können Dateien exportiert und an agrirouter gesendet werden. Dies sind die zu befolgenden Schritte:
+
+[.float-group]
+
+[IMPORTANT]
+====
+Bei alten Software-Versionen können mehrere Schritte für den Export von Applikationskarten vom Terminal nötig sein. Melde dich bei deinem Same-Deutz-Fahr-Händler für nähere Informationen.
+====
+
+--
+[.right]
+image::interactive_agrirouter/same-deutz-fahr/sdf-export-maps-3-de.png[Select Register, 400]
+
+. Wähle in der linken Seitenleiste die *_Wolke_*.
+. Klicke dann in der rechten Seitenleiste auf das Symbol für *_Aufgaben_*.
+. Hier findest du alle Ist-Applikationskarten in einer Liste. Klicke auf die Aufgabendatei, die du exportieren möchtest, und bestätige im Pop-Up Fenster mit einem Klick auf *_OK_*, um den Export zu bestätigen.
+--

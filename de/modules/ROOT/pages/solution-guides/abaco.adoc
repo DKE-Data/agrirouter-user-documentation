@@ -1,0 +1,150 @@
+= ABACO Farmer Solution Guide
+
+Mit der Farm Management Software ABACO Farmer kannst du Daten über den agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Endpunkte-Liste aktualisieren
+* Onlineverbindung überprüfen
+* Export von Soll-Applikationskarten
+* Import von Ist-Applikationskarten & Telemetriedaten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Daten von ABACO über den agrirouter senden und empfagen zu können, muss zuerst eine Verbindung zwischen deinem MyDataPlant-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+Bevor du anfangen kannst, musst du dich über die https://www.abacofarmer.com/en/[ABACO Website, window="_blank"] in dein Konto einloggen.
+
+image::interactive_agrirouter/abaco/abaco-connect-agrirouter-1-de.png[Select Register, 800]
+
+. Klicke in der Menüleiste auf *_Monitoring_* und wähle *_Sensors_* aus.
+. Klicke auf das *_Zahnrad_* rechts, um zur Sensor-Konfiguration zu kommen.
+
+image::interactive_agrirouter/abaco/abaco-connect-agrirouter-2-de.png[Select Register, 800]
+
+[start=3]
+. Innerhalb der Sensors configuration section, wählst du *_Insert new sensors_* über das *_+ Icon_* aus.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/abaco/abaco-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=4]
+. Danach öffnet sich ein neues Fenster mit einem Dropdown Menü. Wähle *_agrirouter_* aus.
+. Klicke auf *_Continue to agrirouter_*.
+. Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto eingeloggt sein, wirst du nun aufgefordert dich einzuloggen.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/abaco/abaco-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=7]
+.  Klicke auf *_VERBINDEN_*.
+. Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. Applikationskarten von ABACO Farmer über den agrirouter an dein Terminal senden.
+--
+
+=== Onlineverbindung überprüfen
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/abaco/abaco-check-online-connection-1-de.png[Select Register, 400]
+
+Um zu überprüfen, ob eine aktive Onlineverbindung zum agrirouter besteht, klickst du in der Menüleiste auf *_Monitoring > Sensors_*. Siehst du nun einen grünen Punkt wie auf der Grafik rechts, ist dein agrirouter-Konto mit deinem ABACO Farmer Konto verbunden.
+--
+
+=== Endpunkteliste aktualisieren
+
+Wenn du in deinem agrirouter-Konto einen neuen Endpunkt, wie bspw. ein Terminal hinzugefügt hast, musst du dieses nicht extra innerhalb des ABACO Farmer Kontos aktualisieren. Die Software aktualisiert die Endpunkte ganz automatisch.
+
+== Export von Applikationskarten
+Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder Pflanzenschutz) in ABACO Farmer kannst du deine Applikationskarte über den agrirouter drahtlos an dein Terminal senden.
+
+[TIP]
+====
+Beachte bei der Erstellung einer Applikationskarte immer auf die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder %).
+====
+
+image::interactive_agrirouter/abaco/abaco-export-maps-1-de.png[Select Register, 800]
+
+. Wähle *_Monitoring_* in der Menüleiste und klicke auf *_Models and maps_*.
+. Durchlaufe alle Schritte, um eine Applikationskarte (Recipe) zu erstellen. 
+. Klicke auf den Button *_Send to Agrirouter_*.
+
+[TIP]
+====
+Es kann eine Weile dauern, bis ein Shapefile deiner Datei erstellt wurde. Erst wenn das Shapefile fertig erstellt ist, wird dir die Option *_Send to Agrirouter_* angezeigt.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/abaco/abaco-export-maps-2-de.png[Select Register, 400]
+
+[start=4]
+. Wähle nun entweder eine Maschine aus oder setze einen Haken bei der ersten Option *_InOut-Tool_*. Letzteres bedeutet, dass die Applikationskarte an alle Endpunkte geschickt wird, die über den agrirouter verbunden sind.
+. Klicke auf *_Send to Agrirouter_*.
+. Wenn die Meldung image:interactive_agrirouter/abaco/abaco-export-maps-3-de.png[Select Register, 200, 100] am oberen Bildschirmrand erscheint, war der Export deiner Applikationskarte erfolgreich.
+--
+
+== Import von Ist-Applikationskarten & Telemetriedaten
+
+=== Maschinen hinzufügen
+
+Bevor Daten von Equipment wie Maschinen importiert werden können, müssen die Maschinen als IOT Service hinzugefügt werden.  
+
+image::interactive_agrirouter/abaco/abaco-add-machine-1-de.png[Select Register, 800]
+
+. Wähle in der Menüleiste den Punkt *_Assets_* und klicke dann auf *_Equipments_*.
+. Klicke auf der rechten Seite auf das *_Download Symbol_* und wähle dann *_Open IOT services_*.
+
+image::interactive_agrirouter/abaco/abaco-add-machine-2-de.png[Select Register, 800]
+
+[start=3]
+. Klicke auf das Symbol für *_Add IOT service_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/abaco/abaco-add-machine-3-de.png[Select Register, 400]
+
+[start=4]
+. Im nächsten Fenster wählst du *_AGRIROUTER_MIDDLEWARE_* unter *_Service_* aus.
+. Unter external_endpoint_id trägst du die Endpoint ID der Maschine ein. https://manual.agrirouter.com/de/manual/latest/endpoint.html[So findest du die Endpoint ID, window="_blank"].
+. Nachdem du auch die Consumer ID deines Fahrzeugs eingetragen hast, klickst du auf *_Save and close_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/abaco/abaco-add-machine-4-de.png[Select Register, 400]
+
+[start=7]
+. Deine Maschine ist nun über den agrirouter zu deiner ABACO Farmer Software hinzugefügt worden. Sobald du einen Datensatz über deine Maschine an den agrirouter schickst, kommt dieser automatisch in ABACO Farmer an.
+--
+
+=== Maschinendaten abrufen
+Um Einblick in die von der Maschine gesendeten Daten zu bekommen, kannst du die Maschinendaten über die Option *_Assets_* in der oberen Menüleiste abrufen. Alternativ kannst du ein neues Dashboard erstellen.
+
+image::interactive_agrirouter/abaco/abaco-show-data-1-de.png[Select Register, 800]
+
+. Wähle in der Menüleiste die Option *_Dashboard_*.
+. Klicke auf *_Add dashboard_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/abaco/abaco-show-data-2-de.png[Select Register, 400]
+
+[start=3]
+. Gebe nun die gewünschten Informationen ein und wähle aus, welche Daten du abrufen möchtest und klicke dann auf *_+ Add_*.
+--
+
+image::interactive_agrirouter/abaco/abaco-show-data-3-de.png[Select Register, 800]
+
+[start=4]
+. Indem du jetzt einzelne Datenpunkte in der Liste auswählst, kannst du die generierten Daten einsehen. In diesem Beispiel wurden die Fahrspuren eines Traktors ausgewählt.
+
