@@ -1,0 +1,68 @@
+= MyEasyFarm Solution Guide
+
+Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Maschinen hinzufügen
+* Einsicht in die Maschinendaten
+
+
+== Verbindung mit dem agrirouter herstellen
+
+Um Daten von deinem Terminal über den agrirouter drahtlos an FAMRPILOT senden zu können, muss zuerst eine Verbindung zwischen deinem FARMPILOT-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+Bevor du anfangen kannst, musst du dich über die link:https://portal.farmpilot.de/[FARMPILOT-Website, window="_blank"] in dein Konto einloggen.
+
+image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-1-de.png[Select Register, 800]
+
+. Klicke im FARMPILOT Portal auf *_Verwaltung_*.
+. Klicke auf *_Partner_*.
+. Klicke auf *_+ NEU_* und wähle *_agrirouter_* aus.
+. Klicke auf *Verbinden mit agrirouter*.
+. Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto eingeloggt sein, wirst du nun aufgefordert dich einzuloggen.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=6]
+. Klicke auf *_VERBINDEN_*.
+--
+
+image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-3-de.png[Select Register, 800]
+
+[start=7]
+. In deinem FARMPILOT-Konto ist nun eine neue Partnerverknüpfung angelegt.
+
+
+== Maschinen hinzufügen
+
+Damit du alle Vorzüge von agrirouter und FARMPILOT optimal nutzen kannst, ist es essenziell die Maschinenverknüpfung in FARMPILOT einzurichten.
+
+[TIP]
+====
+Du kannst beliebig viele Maschinen an dein agrirouter-Konto anschließen. Die Verbindung erfolgt immer über die Telemetrieeinheit deiner Maschine. Wie das für die einzelnen Maschinen funktioniert, ist unter dem Punkt *_Telemetrieeinheiten_* in der Seitenleiste links aufgeführt.
+====
+
+Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen werden. Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf der Maschine, welches FARMPILOT installiert hat, mit der Referenzmaschine verknüpft werden.
+
+image::interactive_agrirouter/farmpilot/farmpilot-add-machine-1-de.png[Select Register, 800]
+
+. Klicke in der Seitenleiste links auf *_Fahrzeuge_* und wähle *_Maschinen_*.
+. Klicke auf das entsprechende Tablet und wähle die Telemetrieeinheit bzw. das Terminal agrirouter als Referenzmaschine aus.
+
+== Einsicht in die Maschinendaten
+
+Die Maschinendaten werden live in der Maschinenübersicht sowie in der Auswertung unter der auftragsbezogenen Auswertung und im Autologging angezeigt.
+
+Beim Anklicken eines Fahrzeugs in der Maschinenliste auf der rechten Seite öffnen sich mehrere Tabs. Der zweite Tab unter diesem Symbol image:interactive_agrirouter/farmpilot/farmpilot-icon.png[30, 30] zeigt die Live-Daten der Maschine an.
+
+Die Ansicht in der Auswertung am Beispiel des Autologgings einer Maschine könnte so aussehen:
+
+image::interactive_agrirouter/farmpilot/farmpilot-machine-data-1-de.png[Select Register, 800]
+
+[TIP]
+====
+Solltest du weitere Fragen bezüglich agrirouter und FARMPILOT haben, wende dich bitte an das FARMPILOT-Team unter team@farmpilot.de oder telefonisch unter +49(0)5241/80-40753.
+====

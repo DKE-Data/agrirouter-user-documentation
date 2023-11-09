@@ -1,13 +1,13 @@
 = AGCO TaskDoc Server Solution Guide
 
-Deine Maschine aus dem Hause AGCO müssen mit dem agrirouter verbunden sein, um drahtlos Dateien mit dem agrirouter austauschen zu können. In diesem Abschnitt erfährst du, wie du:
+Mit deiner Maschine aus dem Hause AGCO ist es möglich, drahtlos Dateien über den agrirouter mit deinem Farm-Management-System austauschen zu können. In diesem Abschnitt erfährst du, wie du:
 
 * den agrirouter mit deinem TaskDoc Server Konto verbindest.
 * eine Maschine innerhalb des TaskDoc Servers mit dem agrirouter verbindest.
 
 [#connect-agrirouter]
 == Verbindung mit dem agrirouter herstellen
-Um mit deiner Maschine aus dem Hause AGCO Daten über den agrirouter austauschen zu können, musst du zuerst die folgenden Schritte befolgen.
+Um mit deiner Maschine aus dem Hause AGCO Daten über den agrirouter austauschen zu können, musst du zuerst die folgenden Schritte befolgen:
 
 [IMPORTANT]
 ====
@@ -47,13 +47,13 @@ image::interactive_agrirouter/taskdoc-server/agco-connect-agrirouter-4-de.png[Se
 
 [start=6]
 . Klicke auf *_Mit dem agrirouter verbinden_*.
-. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, klickst du im neuen Fenster auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
+. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist du bereits angemeldet, klickst du im neuen Fenster auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
 . Ist die Verbindung hergestellt, kann der Tab geschlossen werden.
 --
 
 [TIP]
 ====
-Für eine erfolgreiche Verbindung von Telemetrie und agrirouter, muss auch dein Fahrzeug im TaskDoc Server mit dem agrirouter verbunden werden. Dies wird im nächsten Kapitel beschrieben.
+Für eine erfolgreiche Verbindung von Maschine und agrirouter, muss auch deine Maschine als Fahrzeug im TaskDoc Server mit dem agrirouter verbunden werden. Dies wird im nächsten Kapitel beschrieben.
 ====
 
 == Maschinen mit dem agrirouter verbinden
@@ -74,7 +74,7 @@ image::interactive_agrirouter/taskdoc-server/agco-connect-machine-2-de.png[Selec
 [start=2]
 . Wähle die Maschine, die mit dem agrirouter verbunden werden soll.
 . Wähle dann im Untermenü *_agrirouter Verbindung_*.
-. Klicke auf *_Onboard Vehicle_*.
+. Klicke auf *_Fahrzeug aufnehmen_* (Abb. engl. "Onboard Vehicle").
 --
 
 [TIP]

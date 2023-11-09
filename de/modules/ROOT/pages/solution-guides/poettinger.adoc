@@ -1,0 +1,115 @@
+= Interaktion mit Pöttinger CONNECT
+
+Pöttinger CONNECT ist eine Telemetrieeinheit, die mit dem Jobrechner des PÖTTINGER Anbaugerätes verbunden wird. Die Hardware enthält einen Datalogger, GPS Empfänger (1-2 m Genauigkeit), eine SIM-Karte für den Datentransport über das Mobilfunknetz und einen TASK Controller Master. Mit Pöttinger CONNECT können Daten über den agrirouter an ein Farm-Management-System gesendet und von ihm empfangen werden. In diesem Abschnitt erfährst du, wie du:
+
+* Pöttinger CONNECT mit dem agrirouter verbindest
+* Applikationskarten und Aufgaben Im- und Exportierst
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Die Internetverbindung kann kostengünstig mit dem neuen WLAN Adapter W10 hergestellt werden. Das CCI-Terminal verbindet sich über WLAN Netzwerke mit dem Internet. Über die mobile Hotspot Funktion von Smartphones steht auch auf dem Acker eine Internetverbindung zur Verfügung. Dies erleichtert den Einstieg in die digitale Landwirtschaft, der Datentarif für das Smartphone kann auch für den Austausch der Maschinendaten genutzt werden.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/poettinger/poettinger-connect-agrirouter-1-de.png[Select Register, 400]
+
+. Erstelle ein link:https://manual.agrirouter.com/de/manual/latest/account.html#benutzerkonto-erstellen[agrirouter-Konto, window="_blank"].
+. Verbinde Pöttinger Connect als eine link:https://manual.agrirouter.com/de/manual/latest/endpoint.html#connect-machine[Maschine, window="blank"] mit deinem agrirouter-Konto und notiere dir den Registrierungscode.
+. Im nächsten Schritt muss der Code in dein ISOBUS-Terminal eingegeben werden.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/poettinger/poettinger-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=4]
+. Wähle im Home-Bildschirm deines Terminals im Bereich *_Verbindung_* das *_Zahnrad_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/poettinger/poettinger-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=5]
+. Klicke jetzt im oberen Bereich in das Eingabefeld *_Agrirouter register code_* und gebe deinen Registrierungscode ein.
+. Wurde erfolgreich eine Verbindung hergestellt, siehst du jetzt deine *_Cloud Key_*, gefolgt von einem grünen Haken.
+--
+
+[TIP]
+====
+Der Cloud Key bestätigt die Verbindung zum agrirouter. Jeder Cloud Key ist individuell und sichert den Datenaustausch nur zwischen den beiden miteinander verbundenen Geräten.
+====
+
+== Export von IST-Applikationskarten & Telemetriedaten
+
+Die Pöttinger Connect Telemetrieeinheit kann verschiedene Daten über den agrirouter an dein Farm-Management-System exportieren. Als Beispiel für diese Daten können das Gewicht eines Rundballens, der Feuchtigkeitsgehalt eines Rundballens oder Aussaatmengen genannt werden. Der Export von diesen Daten kann in Echtzeit geschehen oder erst nach Abschluss einer Aufgabe.
+
+[#realtime-export]
+=== Export der Daten in Echtzeit
+Wählst du diese Funktion, werden alle Telemetriedaten durchgehend live an dein Farm-Management-System gesendet.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/poettinger/poettinger-export-maps-1-de.png[Select Register, 400]
+
+. Wähle im Home-Bildschirm deines Terminals im Bereich *_Verbindung_* das *_Zahnrad_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/poettinger/poettinger-export-maps-2-de.png[Select Register, 400]
+
+[start=2]
+. Leuchtet unter *_Live log data transfer_* im Button *_EFDI_* ein grüner Haken, werden die Daten alle 30 Sekunden an den agrirouter gesendet. Durch einen Klick auf den Button kann diese Funktion ein oder ausgeschaltet werden. 
+--
+
+=== Export der Daten nach Abschluss eines Auftrags
+Wählst du diese Funktion, werden alle Telemetriedaten durchgehend erst nach Abschluss eines Auftrags (Task) an dein Farm-Management-System gesendet.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/poettinger/poettinger-export-maps-3-de.png[Select Register, 400]
+
+. Wähle wie unter Schritt 1 von <<realtime-export,Export der Daten in Echtzeit>> im Home-Bildschirm deines Terminals im Bereich *_Connection_* das *_Zahnrad_*.
+. Sollte nun der grüne Haken im Button EFDI unter *_Live log data transfer_* leuchten, klicke ihn einmal an. 
+. Jetzt sollte, wie auf der Darstellung rechts gezeigt, der *_EFDI-Button_* ausgegraut sein. Das bedeutet, dass keine Echtzeit-Daten an den agrirouter gesendet werden.
+. Wird nun eine Aufgabe abgeschlossen, werden die gesammelten Daten dieser Aufgabe auf einmal an den agrirouter gesendet.
+--
+
+== Import von Applikationskarten
+
+Deine Pöttinger CONNECT Telemtrieeinheit kann auch Applikationskarten empfangen, die du vorher auf deinem Farm-Management-System generiert hast. Wie du diese im Terminal abrufst, erfährst du im Folgenden.
+
+[TIP]
+====
+Voraussetzung für den Empfang von Applikationskarten ist, dass sowohl deine Pöttinger-CONNECT Einheit, als auch dein Farm-Management System mit dem agrirouter verbunden sind und eine link:https://manual.agrirouter.com/de/manual/latest/routing.html[Route, window="blank"] zwischen den beiden Endpunkten erstellt wurde. Auf dem link:https://my-agrirouter.com/marketplace/agrarsoftware/[agrirouter Marktplatz, window="blank"] siehst du, welche Farm-Management-Systeme agrirouter kompatibel sind.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/poettinger/poettinger-import-maps-1-de.png[Select Register, 400]
+
+. Sende eine Applikationskarte von deinem Farm-Management-System an deine Pöttinger Connect Telemetrieeinheit. Wie das für jedes System einzeln funktioniert, erfährst du, indem du in der Seitenleiste links den Punkt *_Farm-Management-Software_* auswählst.
+. Im ISOBUS Terminal wird der Erhalt eines neuen Datensatzes durch eine Zahl am Glockensymbol gekennzeichnet.
+. Klicke auf den Reiter *_Tasks_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/poettinger/poettinger-import-maps-2-de.png[Select Register, 400]
+
+[start=4]
+. Hier erscheinen nun die gesendeten Applikationskarten als einzelne Tasks. 
+. Wähle eine der Tasks aus.
+. Klicke im Bereich rechts auf den Button *_Start_*,  um die Aufgabe zu beginnen.
+. Klicke auf *_Stop_* um die Aufgabe zu beenden.
+--
