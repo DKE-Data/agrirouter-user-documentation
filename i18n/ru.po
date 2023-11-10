@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-11-10 09:56+0100\n"
+"POT-Creation-Date: 2023-11-10 10:56+0100\n"
 "PO-Revision-Date: 2022-11-14 10:05+0000\n"
 "Last-Translator: Felix Lammers <f.lammers@dke-data.com>\n"
 "Language-Team: Russian <https://weblate.my-agrirouter.com/projects/"
@@ -754,6 +754,194 @@ msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:48 de/modules/ROOT/pages/group.adoc:28
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:24
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:34
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:44
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:56
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:76
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:81
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:93
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:102
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:111
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:128
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:133
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:151
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:163
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:177
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:182
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:19
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:28
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:37
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:50
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:69
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:79
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:95
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:110
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:124
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:19
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:27
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:36
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:44
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:67
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:71
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:78
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:86
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:94
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:102
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:110
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:118
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:138
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:145
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:161
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:19
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:30
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:45
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:64
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:89
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:96
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:110
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:121
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:127
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:133
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:148
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:158
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:14
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:26
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:36
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:46
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:52
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:58
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:68
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:76
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:85
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:94
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:104
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:113
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:122
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:132
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:20
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:30
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:39
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:48
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:57
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:16
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:27
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:33
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:50
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:63
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:15
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:26
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:35
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:47
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:59
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:70
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:85
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:92
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:107
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:18
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:28
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:38
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:47
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:74
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:90
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:105
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:119
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:124
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:131
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:139
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:8
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:16
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:26
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:37
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:48
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:53
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:28
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:37
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:47
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:57
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:69
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:75
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:91
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:108
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:113
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:3
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:25
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:35
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:41
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:50
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:65
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:78
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:86
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:102
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:112
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:122
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:136
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:149
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:176
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:42
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:54
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:71
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:85
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:99
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:104
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:112
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:123
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:132
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:140
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:146
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:16
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:26
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:35
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:58
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:66
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:78
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:98
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:108
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:23
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:34
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:43
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:55
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:70
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:80
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:97
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:107
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:123
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:132
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:142
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:151
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:38
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:46
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:59
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:84
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:90
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:103
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:112
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:12
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:23
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:32
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:45
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:21
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:27
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:36
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:46
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:64
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:72
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:17
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:25
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:35
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:64
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:74
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:86
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:97
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:105
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:113
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:118
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:125
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:141
 #, no-wrap
 msgid "Select Register"
 msgstr ""
@@ -4145,6 +4333,4589 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:95
 msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:1
+#, no-wrap
+msgid "xFarm Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:4
+msgid ""
+"Mit der Farm Management Software xFarm kannst du Daten über den agrirouter "
+"empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen "
+"werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:6
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:12
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:6
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:11
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:6
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:12
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:11
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:6
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:10
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:6
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:11
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:6
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:11
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:6
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:6
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:13
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:6
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:12
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:9
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:6
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:12
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:11
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:9
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:9
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:6
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:11
+#, no-wrap
+msgid "Verbindung mit dem agrirouter herstellen"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:7
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:7
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:43
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:7
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:7
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:55
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:7
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:8
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:7
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:47
+#, no-wrap
+msgid "Endpunkte-Liste aktualisieren"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:8
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:8
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:8
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:8
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:9
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:9
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:8
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:56
+#, no-wrap
+msgid "Export von Soll-Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:9
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:9
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:9
+msgid "Import von Ist-Applikationskarten"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:10
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:10
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:156
+#, no-wrap
+msgid "Verarbeitung von Telemetriedaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:15
+msgid ""
+"Um über dein xFarm-Konto Daten vom agrirouter empfangen und senden zu "
+"können, benötigst du eine entsprechende Lizenz. Welche Lizenzen eine "
+"agrirouter Verbindung beinhalten erfährst du auf der https://xfarm.ag/"
+"packages/?lang=en[xFarm Website, window=\"_blank\"] oder über den https://"
+"xfarm.ag/contacts/?lang=en[xFarm Kundensupport, window=\"_blank\"]. Sobald "
+"du eine entsprechende Lizenz erworben hast, kannst du eine Verbindung "
+"herstellen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:19
+msgid ""
+"Um xFarm mit deinem agrirouter-Konto verbinden zu können, musst du eine "
+"entsprechende https://xfarm.ag/packages/?lang=en[Lizenz] erwerben!"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:27
+msgid ""
+"Logge dich in dein https://app.xfarm.ag/[xFarm-Konto, window=\"_blank\"] ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:28
+msgid "Klicke im oberen rechten Eck auf deinen Namen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:29
+msgid "Wähle *_Einstellungen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:38
+msgid ""
+"Unter Unternehmenseinstellungen wählst du den Unterpunkt *_Verbindungen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:39
+msgid "Klicke in der agrirouter Kachel auf Agrirouter *_Verbinden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:48
+msgid ""
+"Wenn du nicht bereits über denselben Browser in deinem agrirouter-Konto "
+"eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten einzugeben "
+"und dich anzumelden. Klicke im folgenden Fenster auf *_VERBINDEN_*."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:50
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:8
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:49
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:7
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:52
+#, no-wrap
+msgid "Onlineverbindung überprüfen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:52
+msgid ""
+"Um zu überprüfen, ob eine Verbindung zum agrirouter besteht, musst du die "
+"Schritte 1 - 4 des Kapitels <<#connect-agrirouter,Verbindung zum agrirouter "
+"herstellen>> befolgen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:59
+msgid ""
+"Überprüfe, ob bei der Kachel für *_Agrirouter_* der Status *_Verbunden_* "
+"angezeigt wird. Ist das der Fall, besteht eine aktive Verbindung."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:62
+msgid "## Endpunkte aktualisieren"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:64
+msgid ""
+"Solange du xFarm mit deinem agrirouter-Konto verbunden hast, werden neu "
+"hinzugefügte Endpunkte des agrirouters automatisch in der xFarm Software "
+"aktualisiert. Du kannst die Endpunkte, die bspw. eine Telemetrieeinheit wie "
+"ein Terminal sein können, mit deinen Maschinen verknüpfen. DAs funktioniert "
+"auf zwei Weisen:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:66
+msgid "Über das Maschinen-Menü, oder"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:67
+msgid "Über den Task Viewer"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:69
+msgid "Wie das funktioniert, erfährst du im Folgenden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:73
+msgid ""
+"xFarm aktualisiert die Endpunkte deines agrirouter-Kontos automatisch. Du "
+"kannst sie lediglich mit einer Maschine auf deinem Maschinenpark verknüpfen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:76
+msgid "### Über das Maschinen Menü"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:79
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:180
+msgid "Wähle in der Seitenleiste links die Option *_Maschinen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:80
+msgid ""
+"Klicke nun auf *_Maschinenpark_*, und wähle Maschine, die du verbinden "
+"möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:85
+msgid "Klicke auf den Button *_Gerät anschließen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:86
+msgid "Wähle die Option *_Agrirouter_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:87
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:132
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:139
+msgid "Klicke auf *_Weiter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:89
+msgid "### Über den Task-Viewer"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:96
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:166
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:200
+msgid "Wähle in der Seitenleiste links die Option *_Task Viewer_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:97
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:167
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:201
+msgid "Klicke im oberen Bereich auf *_Task_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:106
+msgid ""
+"Du findest im unteren Bereich unter *_Devices_* nun alle Endpunkte, die "
+"verbunden sind, denen aber noch keine Maschine zugeordnet ist. Klicke bei "
+"dem Endpunkt, den du mit einer Maschine verbinden möchtest, auf "
+"*_Abgleichen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:115
+msgid ""
+"Wähle nun die Maschine aus, mit der du den Endpunkt verbinden möchtest oder "
+"erstelle eine neue."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:116
+msgid "Klicke auf *_Abgleichen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:120
+msgid "## Export von Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:122
+msgid ""
+"Mit dem agrirouter kannst du drahtlos Applikationskarten von xFarm an deine "
+"Maschinen bzw. Endpunkte senden. Voraussetzung hierfür ist, dass du bereits "
+"eine Applikationskarte erstellt hast."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:126
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:64
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:92
+msgid ""
+"Beachte bei der Erstellung einer Applikationskarte immer auf die "
+"Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, "
+"Körner/ha, oder cm Pflanzenabstand)."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:131
+msgid "Wähle in der Seitenleiste links die Option *_Aktivitäten_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:132
+msgid ""
+"Klicke in der Tabelle auf die Aufgabe bzw. Applikationskarte, die du "
+"exportieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:137
+msgid "Klicke am unteren Bildschirmrand auf die Option *_An Maschine senden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:138
+msgid ""
+"Wähle im Dropdown-Menü unter *_Anbieter auswählen_* die Option "
+"***AGRIROUTER*** aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:139
+msgid ""
+"Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* die Maschine aus, "
+"an welche du die Applikationskarte senden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:140
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:156
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:102
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:115
+msgid "Klicke auf *_Senden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:141
+msgid ""
+"Nun erscheint am oberen Bildschirmrand eine Meldung, die dir anzeigt, dass "
+"deine Aufgabe erfolgreich an deine Maschine gesendet wurde."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:143
+msgid "### Eine Applikationskarte an mehrere Endpunkte senden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:145
+msgid ""
+"Manchmal kann es Sinn machen, eine Applikationskarte direkt an mehrere "
+"Endpunkte zu senden. Bspw., wenn bei Arbeitsbeginn nicht klar ist, welcher "
+"Fahrer als erstes bereit für eine bestimmte Aufgabe ist. Wie das "
+"funktioniert, erfährst du im Folgenden:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:147
+msgid ""
+"Führe die Schritte 1 - 4 des Kapitels <<exportmaps,Export von "
+"Applikationskarten>> aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:155
+msgid ""
+"Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* alle Maschinen oder "
+"Werkzeuge aus, an die due die Applikationskarte senden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:157
+msgid ""
+"Nun erscheint am oberen Bildschirmrand eine Meldung, die dir anzeigt, dass "
+"deine Aufgabe erfolgreich an deine Endpunkte gesendet wurde."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:160
+msgid "## Import von Applikationskarten (As-Applied-Karten)"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:162
+msgid ""
+"Nach der Ausbringung von bspw. Saatgut können Applikationskarten auch vom "
+"Terminal über den agrirouter an dein xFarm-Konto gesendet werden. Wie diese "
+"abgerufen werden können, erfährst du im Folgenden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:168
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:202
+msgid ""
+"Wähle im Dropdown-Menü unter *_Anbieter auswählen_* die Option "
+"*_AGRIROUTER_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:169
+msgid ""
+"Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* die Maschine aus, "
+"von welchen du As-Applied-Karten abrufen möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:170
+msgid ""
+"Klicke in der Aufgabenliste bei den Dateien, die du importieren möchtest, "
+"auf das Download-Symbol."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:173
+msgid ""
+"## Verarbeitung von Telemetriedaten In diesem Abschnitt erfährst du, wie du "
+"mit xFarm Telemetriedaten, die über den agrirouter gesendet wurden, abrufen "
+"kannst. Du kannst Telemetriedaten über den Menüpunkt *_Maschinen_* oder den "
+"*_Task-Viewer_* abrufen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:176
+msgid ""
+"### Über das Maschinen-Menü Das Maschinen-Menü ist die einfachste Option, "
+"auf Maschinendaten zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle "
+"Maschinendaten (Aufgaben, Telemetrie usw.) von allen "
+"Datenaustauschplattformen sehen, nicht nur die des agrirouters. Deshalb "
+"musst du im Folgenden an keiner Stelle explizit eine agrirouter-Option "
+"auswählen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:181
+msgid ""
+"Klicke nun auf *_Maschinenpark_* und wähle die Maschine, von der du die "
+"Telemetriedaten abrufen möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:186
+msgid "Klicke nun den Reiter *_Report_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:187
+msgid "Wähle das Datum, von welchem du die Telemetriedaten abrufen möchtest."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:191
+msgid ""
+"Der grüne Kreis im Kalender zeigt an, von welchen Daten Telemetriedaten "
+"verfügbar sind."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:195
+msgid "Klicke auf *_Ansehen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+msgid "### Über den Task Viewer"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+msgid ""
+"Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* die Maschine oder "
+"das Werkzeug aus, von welchen du die Telemetriedaten abrufen möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+msgid ""
+"In der Aufgabenliste erkennst du die Telemtriedaten daran, dass die zip-"
+"Datei den Namenszusatz *_telemetry_* hat."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:1
+#, no-wrap
+msgid "MyDataplant Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:4
+msgid ""
+"Mit der Farm Management Software MyDataPlant kannst du Daten vom agrirouter "
+"empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen "
+"werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:9
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:103
+#, no-wrap
+msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:10
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:117
+#, no-wrap
+msgid "agrirouter Kontrollzentrum aufrufen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:14
+msgid ""
+"Um Applikationskarten von MyDataPlant über den agrirouter an dein Terminal "
+"senden zu können, muss zuerst eine Verbindung zwischen deinem MyDataPlant-"
+"Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
+"wenigen, einfachen Schritten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:22
+msgid ""
+"Logge dich in dein link:https://portal.mydataplant.com/#/fields[MyDataPlant-"
+"Konto, window=\"_blank\"] ein und klicke in der Seitenleiste auf das Symbol "
+"für *Nutzerprofil*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:23
+msgid "Klicke im unteren Bereich der Seite auf *_agrirouter verbinden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:32
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:30
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:36
+msgid ""
+"Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser "
+"noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst "
+"anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. "
+"Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem "
+"agrirouter-Konto hergestellt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:41
+msgid ""
+"Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. "
+"Applikationskarten von MyDataPlant über den agrirouter an dein Terminal "
+"senden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:46
+msgid ""
+"Wenn du eine neue Maschine als neuen Endpunkt über dein agrirouter-Konto "
+"hinzugefügt hast, muss die Endpunkte-Liste aktualisiert werden, damit diese "
+"in MyDataPlant angezeigt wird."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:53
+msgid ""
+"Um die Endpunkte-Liste zu aktualisieren, wählst du das Symbol für "
+"*_Nutzerprofil_* in der Seitenleiste."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:54
+msgid ""
+"Im unteren Bereich des Menüs klickst du dann *_Endpunkte aktualisieren_*."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:57
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:8
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:65
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:63
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:86
+#, no-wrap
+msgid "Export von Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:60
+msgid ""
+"Mit dem agrirouter kannst du drahtlos Applikationskarten von MyDataPlant an "
+"deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du "
+"bereits eine Applikationskarte erstellt hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:72
+msgid ""
+"Erzeuge eine Applikationskarte und klicke auf der Seitenleiste auf das "
+"Symbol für *_Export-Manager_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:73
+msgid "Wähle die Applikationskarte aus, die du exportieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:74
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:85
+msgid "Klicke auf *_WEITER_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:83
+msgid "Wähle unter *_Ziele auswählen_* den agrirouter aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:84
+msgid ""
+"Unter *_Endpunkte auswählen_*, kannst du nun die Maschine oder das Terminal "
+"auswählen, an welche du die Applikationskarten exportieren möchtest."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:90
+msgid ""
+"Sollte dein gewünschter Endpunkt nicht angezeigt werden, solltest du über "
+"Endpunkte aktualisieren die aktuellsten Informationen deines agrirouter-"
+"Kontos abrufen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:99
+msgid ""
+"In diesem Schritt kannst du die Informationen für deinen Auftrag noch einmal "
+"überprüfen. Achte darauf, dass deine Angaben zu den Anforderungen der "
+"Maschine passen, an welche du die Applikationskarte senden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:100
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:70
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:80
+msgid "Klicke auf *_EXPORTIEREN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:101
+msgid ""
+"Fertig.  Du solltest jetzt eine Meldung sehen, die dich auffordert, die "
+"Inbox deines Terminals zu überprüfen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:106
+msgid ""
+"In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal "
+"an eine Maschine zu schicken. Bspw., wenn Saatgut und Düngemittel "
+"gleichzeitig ausgebracht werden sollen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:113
+msgid "Wähle in der linken Seitenleiste das Symbol für den *_Export-Manager_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:114
+msgid "Wähle die Applikationskarten aus, die du exportieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:115
+msgid ""
+"Verfahre weiter, wie bereits unter <<export-maps,Export von "
+"Applikationskarten>> beschrieben."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:120
+msgid ""
+"Um neue Endpunkte, wie beispielsweise ein Terminal, hinzuzufügen, sollte das "
+"agrirouter Kontrollzentrum geöffnet werden. Im Folgenden erfährst du, wie "
+"das agrirouter Kontrollzentrum über MyDataPlant aufrufen kannst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:127
+msgid "Wähle auf der linken Seitenleiste das Symbol für *_Nutzerprofil_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:128
+msgid "Klicke auf das Symbol rechts neben dem Schriftzug *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:129
+msgid ""
+"Nun erscheint das Anmeldefenster des agrirouter Kontrollzentrums. Gib deine "
+"E-Mail und dein Passwort ein und klicke auf *_anmelden_*."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:1
+#, no-wrap
+msgid "CCI-Terminal Solution Guides"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:4
+msgid ""
+"Dein CCI-Terminal muss mit dem agrirouter verbunden sein, um über ihn "
+"Dateien wie Applikationskarten von deinem Farm-Management-System empfangen "
+"zu können. In diesem Abschnitt erfährst du, wie du:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:6
+msgid "dein CCI-Terminal mit dem Internet verbindest"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:7
+msgid "den Datenaustausch mit dem agrirouter aktivierst"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:8
+msgid "Die Onlineverbindung überprüfst"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:9
+msgid "Applikationskarten Im- und Exportierst"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:10
+msgid "Telemetriedaten sendest"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:12
+#, no-wrap
+msgid "Internetverbindung herstellen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:15
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:12
+msgid ""
+"Die Internetverbindung kann kostengünstig mit dem neuen WLAN Adapter W10 "
+"hergestellt werden. Das CCI-Terminal verbindet sich über WLAN Netzwerke mit "
+"dem Internet. Über die mobile Hotspot Funktion von Smartphones steht auch "
+"auf dem Acker eine Internetverbindung zur Verfügung. Dies erleichtert den "
+"Einstieg in die digitale Landwirtschaft, der Datentarif für das Smartphone "
+"kann auch für den Austausch der Maschinendaten genutzt werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:22
+msgid "Schließe den WLAN Adapter W10 an dem Steckverbinder 3 oder 4 an."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:31
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:74
+msgid ""
+"Wähle auf dem Startbildschirm des Terminals die Option *_Einstellungen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:32
+msgid "Unter Einstellungen, wähle die Option *_System_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:40
+msgid ""
+"Im Abschnitt Netzwerkeinstellungen wählst du nun die Option *_Internet_*, "
+"damit das Menü für Internetoptionen geöffnet wird."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:48
+msgid ""
+"Drücke die Schaltfläche *_WLAN_*, um eine Auswahlliste an verfügbaren WLAN-"
+"Netzwerken angezeigt zu bekommen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:49
+msgid ""
+"Wähle ein WLAN-Netzwerk aus, gebe das Passwort ein und bestätige deine "
+"Angabe."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:50
+msgid ""
+"Das Terminal verbindet sich nun mit dem WLAN und die Symbole in der "
+"Statusbar geben Auskunft über Status und Qualität der Verbindung."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:53
+#, fuzzy, no-wrap
+#| msgid "agrirouter User Manual"
+msgid "agrirouter verbinden"
+msgstr "agrirouter Руководство по эксплуатации"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:56
+msgid ""
+"Damit du Aufträge senden und empfangen kannst, musst du dein Terminal zuerst "
+"mit dem agrirouter verbinden. In diesem Abschnitt erfährst du, wie du mit "
+"wenigen Schritten eine Verbindung zwischen dem agrirouter in deinem Terminal "
+"herstellst."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:60
+msgid ""
+"Um den agrirouter mit deinem Terminal zu verbinden, müssen folgende "
+"Voraussetzungen erfüllt sein:"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:62
+msgid "Du hast bereits ein agrirouter xref:account.adoc[Konto] erstellt."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:63
+msgid "Der Registrierungscode für das Terminal ist dir bekannt."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:64
+msgid "Dein Terminal ist mit dem <<connect-internet,Internet verbunden>>."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:81
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:155
+msgid "[start=2]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:82
+msgid "Unter den Einstellungen wählst du die Option *_System_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:89
+msgid "[start=3]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:90
+msgid ""
+"Im Abschnitt Netzwerkeinstellungen wählst du nun die Option *_agrirouter_*, "
+"damit das agrirouter-Menü geöffnet wird."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:97
+msgid "[start=4]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:98
+msgid ""
+"Wähle nun die Option *_Registrierungscode_* und gib im Anschluss unter "
+"Beachtung der Groß- und Kleinschreibung deinen Registrierungscode ein. "
+"Bestätige deine Angabe mit *_Weiter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:105
+msgid "[start=5]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:106
+msgid ""
+"Nun kann die Schaltfläche agrirouter bedient werden. Aktiviere mit einem "
+"Klick auf die Schaltfläche agrirouter die Verbindung. Mit einem weiteren "
+"Klick kannst du die Verbindung auch wieder trennen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:114
+msgid "Stelle sicher, dass dein Terminal mit dem Internet verbunden ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:121
+msgid "[start=7]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:122
+msgid ""
+"Im Infobereich wird nun die aktive Verbindung angezeigt und die "
+"Inbetriebnahme des agrirouters ist abgeschlossen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:127
+msgid "Der Registrierungscode muss nur einmal eingegeben werden."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:129
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:129
+#, no-wrap
+msgid "Kontrolle der Online-Verbindung"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:132
+msgid ""
+"Um zu überprüfen, ob du mit dem agrirouter verbunden bist, führst du "
+"foglende SChritte durch:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:134
+msgid "Wähle *_Einstellungen_* auf dem Startbildschirm des Terminals."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:135
+msgid "Klicke auf die Option *_System_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:136
+msgid "Im Abschnitt Netzwerkeinstellungen klickst du nun auf *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:137
+msgid ""
+"Siehst du das grüne Häckchen, wie auf der folgenden Abbildung angezeigt, "
+"bist du mit dem agrirouter verbunden. Sollte das nicht der Fall sein, führe "
+"alle Schritte des Kapitels <<connect-agrirouter,agrirouter verbinden>> aus."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:141
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:9
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:115
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:86
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:100
+#, no-wrap
+msgid "Import von Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:144
+msgid ""
+"Um Applikationskarten über das Terminal nutzen zu können, müssen diese "
+"vorerst über ein Farm Management System erstellt und an den agrirouter "
+"gesendet werden. Wie du von deinem Farm Management System aus Daten an den "
+"agrirouter senden kannst, erfährst du hier."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:148
+msgid ""
+"Nachdem du über dein Farm Management System einen neuen Auftrag an dein "
+"Terminal gesendet hast, erscheint nach maximal 5 Minuten ein Fenster, "
+"welches darauf hinweist, dass ein neuer Auftrag zum Import bereitsteht."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:152
+msgid ""
+"Wenn du keine Meldung über dein Terminal bekommst, kannst du alternativ "
+"deinen Posteingang manuell überprüfen. Wähle hierzu im Bereich "
+"Netzwerkeinstellungen die Option agrirouter und und öffne den Posteingang."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:156
+msgid ""
+"Wählt man nun im Posteingang den gewünschten Auftrag, wird dieser über einen "
+"Klick auf den “Play-Button” geladen. Nun ist die Karte hinterlegt und kann "
+"visuell überprüft werden. Danach kann die gewünschte Aussaat-, Düngung- oder "
+"Pflanzenschutzmaßnahme durchgeführt werden. Eine Anpassung der hinterlegten "
+"Aussaatmengen ist dann allerdings nur noch prozentual möglich."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:157
+#, no-wrap
+msgid "Export von IST-Applikationskarten (As-Applied-Karten)"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:160
+msgid ""
+"Um As-Applied-Karten von deinem Terminal über den agrirouter an dein Farm-"
+"Management-System zu senden, musst du im agrirouter-Menü die Option "
+"*_Postausgang_* wählen. Wie du zum agrirouter-Menü gelangst, siehst du in "
+"den Punkten 1-3 im Kapitel <<connect-agrirouter,agrirouter verbinden>>."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:164
+msgid ""
+"Wähle die Option *_Inbox_* bzw. *_Postausgang_*. Hier sind alle Dateien "
+"entahlten, die noch nicht an den agrirouter versendet werden konnten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:165
+msgid ""
+"Klicke auf die Schaltfläche mit der Datei, die du exportieren möchtest, und "
+"halte diese gedrückt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:165
+msgid ""
+"Es wird nun ein Kontextmenü angezeigt. Wähle dort die Option *_Upload_*. Nun "
+"wird die Datei über den agrirouter an die von dir ausgewählten Endpunkte "
+"versandt."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:1
+#, no-wrap
+msgid "NEXT Farming Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:4
+msgid ""
+"Mit der Farm Management Software NEXT Farming kannst du Daten vom agrirouter "
+"empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen "
+"werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:15
+msgid ""
+"Um Applikationskarten von NEXT Farming über den agrirouter an dein Terminal "
+"senden zu können, muss zuerst eine Verbindung zwischen deinem NEXT Farming-"
+"Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
+"wenigen, einfachen Schritten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:22
+msgid ""
+"Logge dich über die link:https://mein.nextfarming.de/j_security_check[NEXT "
+"Farming Login-Seite, window=\"_blank\"] in dein Konto ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:23
+msgid ""
+"Wähle dann in der linken Seitenleiste die Option *_Module, Apps & Services_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:24
+msgid "Klicke auf die Kachel *_NEXT Machine Management_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:25
+msgid ""
+"Nun wirst du aufgefordert, deinen Code einzugeben, der zur Verbindung von "
+"Maschinen über den agrirouter nötig ist. Diesen Code erhältst du von deinem "
+"Maschinenhersteller oder du kannst ihn direkt online in diesem Schritt "
+"kaufen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:34
+msgid ""
+"Klicke jetzt auf den Button *_Mit agrirouter verbinden_* und gib im "
+"Anschluss die Anmeldeinformationen für deinen agrirouter-Account ein."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:39
+msgid ""
+"Falls du bereits mit deinem Browser in deinen agrirouter-Account eingeloggt "
+"bist, wirst du automatisch verknüpft und deine Anmeldedaten nicht abgefragt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:49
+msgid ""
+"Nun siehst du eine Auflistung der von dir gekauften Lizenzen. Jede Lizenz "
+"entspricht einem Endpunkt. Wenn du auf das Dropdown Menü klickst, werden dir "
+"alle Endpunkte angezeigt, die mit deinem agrirouter-Account verknüpft sind. "
+"Wähle den Endpunkt aus, den du mit deinem NEXT Farming-Account verbinden "
+"möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:50
+msgid ""
+"Mit einem Klick auf *_Weiter_* ist die Verbindung zwischen Endpunkt und "
+"agrirouter hergestellt."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:55
+msgid ""
+"Wurde eine Lizenz mit einem Endpunkt verknüpft, kann man über diese Lizenz "
+"keinen weiteren Endpunkt verknüpfen. Um eine Verknüpfung rückgängig zu "
+"machen, musst du den link:https://www.nextfarming.de/kontakt/support/[NEXT "
+"Farming Support kontaktieren, window=\"_blank\"]."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:57
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:65
+#, no-wrap
+msgid "Endpunkte aktualisieren"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:60
+msgid ""
+"Wenn du in deinem agrirouter Profil einen neuen Endpunkt, wie bspw. ein "
+"Terminal hinzugefügt hast, musst du diesen wie unter <<connect-agrirouter,"
+"Verbindung mit dem agrirouter herstellen>> beschrieben, mit deinem NEXT "
+"Farming-Account verknüpfen. Die Daten werden bei jeder neuen Verknüpfung "
+"aktualisiert. Möchtest du überprüfen, wie aktuell die agrirouter-"
+"Informationen sind, die in deinem NEXT Farming-Acount angezeigt werden, "
+"führe folgende Schritte aus:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:67
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:124
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:151
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:161
+msgid "Wähle in der Seitenleiste links *_Machine Management_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:68
+msgid "Wähle den Unterpunkt *_Live Ansicht_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:69
+msgid "Klicke auf das *_agrirouter Logo_* in der rechten unteren Ecke."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:72
+#, no-wrap
+msgid "Applikationskarten exportieren"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:75
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:58
+msgid ""
+"Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder "
+"Pflanzenschutz) kannst du deine Applikationskarte über den agrirouter "
+"drahtlos an dein Terminal senden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:79
+msgid ""
+"Beachte bei der Erstellung einer Applikationskarte immer die Anforderungen "
+"der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder "
+"%)."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:82
+msgid ""
+"In NEXT Farming gibt es drei Wege, Applikationskarten an ein Terminal zu "
+"senden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:84
+msgid "Über das Erstellen einer Maßnahme"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:85
+msgid "Über Machine Management > Daten senden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:86
+msgid "Über das Applikationkskartencenter"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:88
+msgid ""
+"Wie sich die drei Optionen voneinander unterscheiden, erfährst du über das "
+"link:https://www.nextfarming.de/hilfe/[ Informationsportal von NEXT Farming, "
+"window=\"_blank\"]. Wenn du bspw. Applikationskarten über das "
+"Applikationskartencenter versenden möchtest, gehst du wie folgt vor:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:92
+msgid "Wähle das *_Applikationskartencenter_* aus der linken Seitenleiste."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:93
+msgid "Klicke auf *_Applikationskartenverwaltung_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:94
+msgid ""
+"Wähle eine oder mehrere Applikationskarten aus, indem du im Kästchen links "
+"neben der Bezeichnung einen Haken setzt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:95
+msgid "Klicke auf *_Senden über agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:100
+msgid ""
+"Egal für welche der drei Optionen du dich entscheidest, um eine "
+"Applikationskarten zu senden, am Ende wirst du das folgende Fenster "
+"angezeigt bekommen. Voraussetzung hierfür ist, dass du einen Endpunkt über "
+"den agrirouter verbunden hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:101
+msgid ""
+"Wähle aus dem *_Dropdown Menü_* den Endpunkt, an den du deine "
+"Applikationskarte senden möchtest."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:106
+msgid ""
+"Es wird empfohlen, immer den neuesten ISO-XML-Standard als Exportformat zu "
+"wählen, wenn das Terminal diesen unterstützt. Im Normalfall wird der neueste "
+"Standard automatisch ausgewählt."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:108
+#, no-wrap
+msgid "Eine Karte an mehrere Endpunkte senden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:113
+msgid ""
+"Führe alle Schritte des Kapitels <<export-maps, Applikationskarten "
+"exportieren>> aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:114
+msgid ""
+"Setze im *_Dropdown Menü_* bei allen Endpunkten, an die du deine "
+"Applikationskarte senden möchtest, einen Haken oder wähle *_an alle "
+"Endpunkte senden_* aus."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:116
+#, no-wrap
+msgid "Mehrere Karten an einen Endpunkt senden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:125
+msgid "Klicke auf den Unterpunkt *_Daten senden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:131
+msgid ""
+"Setze im nächsten Fenster bei den Dateitypen einen Haken, die du an deinen "
+"Endpunkt senden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:137
+msgid ""
+"Nun setzt du in der Liste links bei den Maßnahmen einen Haken, die du an "
+"dein Terminal senden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:138
+msgid "Klicke auf den *_Pfeil nach rechts_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:140
+msgid ""
+"Verfahre weiter, wie unter <<export-maps,Applikationskarten exportieren>> "
+"beschrieben."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:141
+#, no-wrap
+msgid "Applikationskarten importieren"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:144
+msgid ""
+"Nach der Ausbringung von bspw. Saatgut können Applikationskarten auch vom "
+"Terminal über den agrirouter an deinen NEXT Farming-Account gesendet werden. "
+"Wie diese abgerufen werden können, erfährst du im Folgenden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:152
+msgid "Klicke auf den Unterpunkt *_Daten verarbeiten_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:153
+msgid ""
+"Wähle jetzt den Zeitraum aus, in dem du die Daten über dein Terminal an NEXT "
+"Farming gesendet hast oder klicke auf *_Letzte Datensätze laden_*"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:154
+msgid ""
+"Nun siehst du importierte Ausbringkarten (As-Applied-Maps) und kannst diese "
+"weiter verarbeiten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:162
+msgid "Klicke auf den Unterpunkt *_Live Ansicht_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/next-farming.adoc:162
+msgid ""
+"Jetzt wird dir eine Auswahl der Maschinen angezeigt, die Telemetriedaten "
+"über den agrirouter senden. Wähle die Maschine aus, deren Telemetriedaten du "
+"abrufen möchtest, und verarbeite diese nach Belieben weiter."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:1
+#, no-wrap
+msgid "ARGO Traktoren Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:4
+msgid ""
+"Diese Anleitung ist für Maschinen von *_ARGO-Traktoren_*. Hierunter fallen "
+"Maschinen der Marke *_Landini_* und *_McCormick_*. Deine Maschine muss mit "
+"dem agrirouter verbunden sein, um drahtlos Dateien über den agrirouter "
+"austauschen zu können. In diesem Abschnitt erfährst du, wie du:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:6
+msgid "den agrirouter mit dem ARGO Fleet Management Portal verbindest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:7
+msgid "eine Maschine hinzufügst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:8
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:9
+msgid "dein Terminal mit dem agrirouter verbindest."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:10
+#, no-wrap
+msgid "Verbindung zum agrirouter herstellen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:13
+msgid ""
+"Um mit deiner ARGO Maschine Daten über den agrirouter austauschen zu können, "
+"musst du die folgenden Schritte befolgen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:17
+msgid ""
+"Logge dich in das link:https://argofleet.argotractors.com/#/auth/login[ARGO "
+"Fleet Management Portal, window=\"_blank\"] ein."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:21
+msgid ""
+"In Schritt 1 ist explizit das *ARGO Fleet Management Portal* gemeint. Nicht "
+"das Landini Fleet Portal oder das McCormick Fleet Portal."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:25
+msgid ""
+"Wähle in der linken Seitenleiste *_AgriRouter_* und klicke auf *_REGISTRY_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:31
+msgid "Wähle Activate *_AgriRouter Integration_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:32
+msgid ""
+"Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto "
+"eingeloggt sein, wirst du nun aufgefordert dich einzuloggen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:40
+msgid "Klicke auf *_CONNECT_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:41
+msgid ""
+"Jetzt besteht eine Verbindung zwischen deinem agrirouter-Konto und deinem "
+"Argo Fleet Management Konto."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:43
+#, no-wrap
+msgid "Hinzufügen einer Maschine"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:45
+msgid ""
+"Um eine bestimmte Maschine auswählen zu können, die über den agrirouter "
+"Daten senden und empfangen soll, muss die zuerst hinzugefügt werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:49
+msgid "Klicke in der linken Seitenleiste auf *_AgriRouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:50
+msgid "Klicke auf das *_+ Icon_*, um eine Maschine hinzuzufügen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:51
+msgid ""
+"Füge die benötigten Informationen hinzu und klicke auf das *_Speichern-"
+"Icon_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:56
+msgid "Wähle die Maschine aus, die du im letzten Schritt hinzugefügt hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:57
+msgid ""
+"Klicke auf das *_On-Board_* Symbol, um mit dem Agrirouter On-Boarding "
+"fortzufahren."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:62
+msgid ""
+"Der On-Boarding-Vorgang ist abgeschlossen, wenn neben dem Fahrzeug der grüne "
+"Punkt erscheint."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:63
+#, no-wrap
+msgid "Terminal (X25) mit dem agrirouter verbinden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:71
+msgid ""
+"Vom X25-Terminal aus klickst du auf das Symbol für CLOUD BASED SERVICES "
+"(Disabled)."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:80
+msgid ""
+"Wähle im nächsten Fenster die Option *_AgriRouter_* und klicke auf *_OK_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:89
+msgid ""
+"Die Verbindung ist bestätigt, wenn das Symbol bei CLOUD BASED SERVICES grün "
+"wird (Verbunden)."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:98
+msgid ""
+"Logge dich jetzt online auf deinem https://my-agrirouter.accounts.ondemand."
+"com/[agrirouter-Konto, window=\"_blank\"] ein und https://manual.agrirouter."
+"com/de/manual/latest/endpoint.html#connect-machine[füge das Terminal als "
+"einen neuen Endpunkt (Horizon ARGO) hinzu, window=\"_blank\"]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:99
+msgid "Notiere dir im letzten Schritt den Registrierungscode."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:108
+msgid ""
+"Klicke in deinem X25 Terminal auf *_System Setup_* und dann auf "
+"*_AGRIROUTER_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:117
+msgid "Klicke auf *_CODE_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:126
+msgid ""
+"Gib den *_Registrierungscode_* ein, den du dir unter Schritt 5 notiert hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:127
+msgid "Klicke auf den *_grünen Haken_*, um die Eingabe zu bestätigen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:136
+msgid "Klicke auf *_OK_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:137
+msgid ""
+"Du hast nun erfolgreich eine Verbindung zwischen deiner ARGO-Traktoren "
+"Maschine und dem agrirouter hergestellt. Du kannst nun drahtlos Daten von "
+"bspw. deinem Farm-Management-System über den agrirouter an deine Maschine "
+"senden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:142
+msgid ""
+"Wenn du während des Prozesses Unterstützung benötigst, kannst du dich bei "
+"deinem lokalen Händler melden."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:2
+#, no-wrap
+msgid "LEMKEN iQblue Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:5
+msgid ""
+"LEMKEN iQblue connect ist ein System, das den Datenaustausch zwischen einer "
+"LEMKEN-Maschine bzw. dem Terminal und dem Anbaugerät ermöglicht. LEMKEN "
+"iQblue connect erfüllt die Funktionalitäten eines Datenloggers, was "
+"bedeutet, dass es Telemetriedaten über den agrirouter an ein Farm-Management-"
+"System senden, aber keine Aufgaben empfangen kann. Grundsätzlich nutzt "
+"LEMKEN iQblue connect zur Kommunikation ein CCI-Terminal. Welche Funktionen "
+"das CCI-Terminal hat und wie verschiedenste Funktionen mit dem agrirouter "
+"umgesetzt werden können, erfährst du im Kapitel zu xref:solution-guides/cci-"
+"terminals.adoc#cci-terminals[CCI-Terminals]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:7
+msgid "In diesem Kapitel erfährst du, wie du:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:10
+msgid "Telemetriedaten exportieren kannst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:13
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:19
+msgid ""
+"Erstelle ein link:https://manual.agrirouter.com/de/manual/latest/account."
+"html#benutzerkonto-erstellen[agrirouter-Konto, window=\"_blank\"]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:14
+msgid ""
+"Verbinde LEMKEN iQblue connect als eine link:https://manual.agrirouter.com/"
+"de/manual/latest/endpoint.html#connect-machine[Maschine] mit deinem "
+"agrirouter-Konto und *_notiere dir den Registrierungscode_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:15
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:21
+msgid ""
+"Im nächsten Schritt muss der Code in dein ISOBUS-Terminal eingegeben werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:24
+msgid "Wähle dazu im Home Bildschirm das Zahnrad für *_Einstellungen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:25
+msgid "Klicke dann auf *_System_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:34
+msgid "Wähle die Option *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:43
+msgid "Klicke auf *_Registration Code_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:52
+msgid "Gib den *_Registrierungscode_* ein, den du in Schritt 2 generiert hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:61
+msgid ""
+"Erscheint der *_grüne Haken_*, ist dein Terminal mit deinem agrirouter "
+"verbunden."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:63
+#, no-wrap
+msgid "Export von Telemetriedaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/lemken.adoc:64
+msgid ""
+"Um Telemetriedaten und IST-Applikationskarten von LEMKEN iQblue über den "
+"agrirouter an dein Farm-Management System zu senden, muss nichts weiter "
+"getan werden. LEMKEN iQblue sendet die Daten automatisch an den agrirouter. "
+"Um zu bestimmten, an welche Endpunkte LEMKEN iQblue Daten sendet, musst du "
+"eine link:https://manual.agrirouter.com/de/manual/latest/routing.html[Route, "
+"window=\"_blank\"] in deinem agrirouter-Konto einrichten."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:1
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:1
+#, no-wrap
+msgid "MyEasyFarm Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:4
+msgid ""
+"Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen "
+"allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in "
+"diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:7
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:39
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:95
+#, no-wrap
+msgid "Maschinen hinzufügen"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:8
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:55
+#, no-wrap
+msgid "Einsicht in die Maschinendaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:13
+msgid ""
+"Um Daten von deinem Terminal über den agrirouter drahtlos an FAMRPILOT "
+"senden zu können, muss zuerst eine Verbindung zwischen deinem FARMPILOT-"
+"Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
+"wenigen, einfachen Schritten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:15
+msgid ""
+"Bevor du anfangen kannst, musst du dich über die link:https://portal."
+"farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto einloggen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:19
+msgid "Klicke im FARMPILOT Portal auf *_Verwaltung_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:20
+msgid "Klicke auf *_Partner_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:21
+msgid "Klicke auf *_+ NEU_* und wähle *_agrirouter_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:22
+msgid "Klicke auf *Verbinden mit agrirouter*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:23
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:37
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:30
+msgid ""
+"Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto "
+"eingeloggt sein, wirst du nun aufgefordert dich einzuloggen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:31
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:46
+msgid "Klicke auf *_VERBINDEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:37
+msgid ""
+"In deinem FARMPILOT-Konto ist nun eine neue Partnerverknüpfung angelegt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:42
+msgid ""
+"Damit du alle Vorzüge von agrirouter und FARMPILOT optimal nutzen kannst, "
+"ist es essenziell die Maschinenverknüpfung in FARMPILOT einzurichten."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:46
+msgid ""
+"Du kannst beliebig viele Maschinen an dein agrirouter-Konto anschließen. Die "
+"Verbindung erfolgt immer über die Telemetrieeinheit deiner Maschine. Wie das "
+"für die einzelnen Maschinen funktioniert, ist unter dem Punkt "
+"*_Telemetrieeinheiten_* in der Seitenleiste links aufgeführt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:49
+msgid ""
+"Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter "
+"eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen werden. "
+"Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf der "
+"Maschine, welches FARMPILOT installiert hat, mit der Referenzmaschine "
+"verknüpft werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:53
+msgid ""
+"Klicke in der Seitenleiste links auf *_Fahrzeuge_* und wähle *_Maschinen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:54
+msgid ""
+"Klicke auf das entsprechende Tablet und wähle die Telemetrieeinheit bzw. das "
+"Terminal agrirouter als Referenzmaschine aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:58
+msgid ""
+"Die Maschinendaten werden live in der Maschinenübersicht sowie in der "
+"Auswertung unter der auftragsbezogenen Auswertung und im Autologging "
+"angezeigt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:60
+msgid ""
+"Beim Anklicken eines Fahrzeugs in der Maschinenliste auf der rechten Seite "
+"öffnen sich mehrere Tabs. Der zweite Tab unter diesem Symbol image:"
+"interactive_agrirouter/farmpilot/farmpilot-icon.png[30, 30] zeigt die Live-"
+"Daten der Maschine an."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:62
+msgid ""
+"Die Ansicht in der Auswertung am Beispiel des Autologgings einer Maschine "
+"könnte so aussehen:"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:68
+msgid ""
+"Solltest du weitere Fragen bezüglich agrirouter und FARMPILOT haben, wende "
+"dich bitte an das FARMPILOT-Team unter team@farmpilot.de oder telefonisch "
+"unter +49(0)5241/80-40753."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:1
+#, no-wrap
+msgid "Trimble Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:4
+msgid ""
+"Mit der Farm Management Software von Trimble kannst du Daten über den "
+"agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen "
+"getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:7
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:43
+#, no-wrap
+msgid "Online Verbindung überprüfen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:14
+msgid ""
+"Um Applikationskarten von deinem Trimble-Konto über den agrirouter an dein "
+"Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem "
+"Trimble-Konto und deinem agrirouter-Konto hergestellt werden. Dies "
+"funktioniert in wenigen, einfachen Schritten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:18
+msgid ""
+"Logge dich über link:https://trimbleag.com[Trimble, window=\"_blank\"] auf "
+"deinem Trimble-Konto ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:19
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:88
+msgid "Wähle auf der Startseite die Option *_Datenübertragung_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:20
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:89
+msgid "Wähle *_Einstellungen_* in der Seitenleiste links."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:21
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:52
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:90
+msgid "Öffne das Menü für die *_API-VERBINDUNDEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:22
+msgid ""
+"Klicke auf den Button *_+KONTO HINZUFÜGEN_* und wähle im Dropdownmenü die "
+"Option *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:39
+msgid "Klicke OK, um zu bestätigen, dass du den Hinweis gelesen hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:40
+msgid ""
+"Melde dich im link:https://goto.my-agrirouter.com/app[agrirouter Control "
+"Center, window=\"_blank\"] an und vervollständige dort das link:https://"
+"manual.agrirouter.com/de/manual/latest/routing.html[Routing, "
+"window=\"_blank\"]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:46
+msgid ""
+"Um zu überprüfen, ob eine aktive Verbindung zwischen deinem Trimble-Konto "
+"und dem agrirouter besteht, sind folgende Schritte notwendig:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:50
+msgid "Wähle auf der Startseite die Option Datenübertragung"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:51
+msgid "Wähle das Symbol für *_Einstellungen_* in der Seitenleiste links."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:53
+msgid ""
+"Dir wird angezeigt, ob eine aktive Verbindungen mit deinem agrirouter-Konto "
+"besteht. Unter *_Zuletzt synchronisiert_* siehst du, wann die Daten das "
+"letzte Mal aktualisiert wurden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:57
+msgid ""
+"Beim Aufbau einer Verbindung mit agrirouter werden keine Aufgaben gesendet, "
+"da das Routing eingerichtet werden muss, bevor etwas an agrirouter gesendet "
+"wird. Sobald das Routing eingerichtet ist, können alle historischen Aufgaben "
+"(IST-Applikationskarten) manuell gesendet werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:62
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:111
+msgid "Wähle auf der Startseite die Option *_Feld_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:63
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:112
+msgid "Wähle *_Ausrüstungsaktivität_* in der Seitenleiste links."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:64
+msgid ""
+"Durch einen Klick auf das Kästchen auf der linken Seite der Aufgabenliste "
+"kannst du nun alle Aufgaben auswählen, die du exportieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:65
+msgid "Klicke auf *_EXPORT_* und wähle im Dropdownmenü *_agrirouter_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:74
+msgid ""
+"Wähle die mit dem agrirouter verbundenen Endpunkte, an die du die Aufgaben "
+"exportieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:75
+msgid "Klicke auf *_SEND_*."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:77
+#, no-wrap
+msgid "Automatischer Export"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:79
+msgid "So richtest du das automatische Senden von Aufgaben ein."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:83
+msgid ""
+"Neue und geänderte Aufgaben werden alle 24 Stunden um 0:00 UTC exportiert, "
+"oder alle 5 Minuten, wenn der Nutzer eingeloggt ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:91
+msgid ""
+"Klicke auf das Zahnrad-Symbol, rechts neben dem agrirouter Logo und wähle im "
+"Dropdown-Menü *_Einstellungen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:96
+msgid ""
+"Setze durch Klick auf das Kästchen einen Haken über dem Satz “*Automatically "
+"download all messages from agrirouter every 24 hours*”."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:97
+msgid ""
+"Wähle die Endpunkte aus, an die alle Aufgaben automatisch gesendet werden "
+"sollen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:98
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:42
+msgid "Klicke auf *_SPEICHERN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:99
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:10
+#, no-wrap
+msgid "Import von Soll-Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:101
+msgid ""
+"Wenn du Applikationskarten von deiner Farm-Management-Software an dein "
+"Trimble-Terminal senden möchtest, empfängst du sie automatisch auch in "
+"deinem Trimble-Konto. Du kannst Applikationskarten aber auch von deiner Farm-"
+"Management-Software nur an dein Trimble Konto schicken."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:105
+msgid ""
+"Sobald ein Nutzer angemeldet ist, prüft Trimble automatisch ob neue Dateien "
+"des agrirouters empfangen wurden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:110
+msgid ""
+"Damit du Dateien von deiner Farm-Management-Software empfangen kannst, musst "
+"du vorher eine link:https://manual.agrirouter.com/de/manual/latest/routing."
+"html[Route im agrirouter Control Center herstellen, window=\"_blank\"]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/trimble.adoc:112
+msgid ""
+"Nun siehst du alle Applikationskarten, die vom Drittanbieter auf dein "
+"Trimble-Konto gesendet wurden."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:1
+#, no-wrap
+msgid "xarvio FIELD MANAGER Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:4
+msgid ""
+"Mit der Farm Management Software xarvio FIELD MANAGER kannst du Daten vom "
+"agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen "
+"getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:14
+msgid ""
+"Um Applikationskarten vom xarvio FIELD MANAGER über den agrirouter an dein "
+"Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem "
+"xarvio-Konto und deinem agrirouter-Konto hergestellt werden. Dies "
+"funktioniert in wenigen, einfachen Schritten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:21
+msgid ""
+"Logge dich über die link:https://fm.xarvio.com/de/de_de/login[xarvio Login "
+"Seite,window=\"_blank\"] in dein Konto ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:22
+msgid "Halte deine Maus über das *_Profil-Symbol_* in der rechten oberen Ecke."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:23
+msgid "Wähle dann die Option *_Verbundene Apps_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:32
+msgid ""
+"Du siehst nun mehrere Apps, mit denen du dein xarvio-Konto verbinden kannst. "
+"Wähle *_Verbindung zu agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:33
+msgid ""
+"Im nächsten Schritt wirst du nach der Erlaubnis gefragt, auf dein agrirouter-"
+"Konto zugreifen zu können. Wähle hier *_Weiter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:42
+msgid ""
+"Wenn du nicht bereits über denselben Browser in deinem agrirouter-Konto "
+"eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten einzugeben. "
+"Gib deine E-Mail und dein Passwort ein und klicke dann auf *_Anmelden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:51
+msgid ""
+"Klicke im folgenden Fenster auf *_VERBINDEN_*, damit dein agrirouter-Konto "
+"mit deinem xarvio-Konto verbunden wird."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:52
+msgid ""
+"Dein xarvio FIELD MANAGER Konto ist nun mit deinem agrirouter-Konto "
+"verbunden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:58
+msgid ""
+"Wenn du in deinem agrirouter-Konto einen neuen Endpunkt, wie bspw. ein "
+"Terminal hinzugefügt hast, musst du dieses nicht extra innerhalb des xarvio "
+"FIELD MANAGER aktualisieren. Die Software aktualisiert die Endpunkte ganz "
+"automatisch."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:62
+msgid ""
+"In manchen Fällen kann es bis zu 30 Minuten dauern, bis der Endpunkt "
+"innerhalb des xarvio FIELD MANAGER aktualisiert ist. Sollte es länger "
+"dauern, probiere dein <<connect-agrirouter,agrirouter-Konto neu zu "
+"verbinden>> oder melde dich beim https://www.xarvio.com/de/de/support."
+"html[xarvio Support,window=\"_blank\"]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:68
+msgid ""
+"Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder "
+"Pflanzenschutz) im xarvio FIELD MANAGER kannst du deine Applikationskarte "
+"über den agrirouter drahtlos an dein Terminal senden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:72
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:69
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:62
+msgid ""
+"Beachte bei der Erstellung einer Applikationskarte immer auf die "
+"Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, "
+"Körner/ha, oder %)."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:77
+msgid ""
+"Klicke hierzu in der Kopfleiste des xarvio FIELD MANAGERs auf *_Aufgaben_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:78
+msgid ""
+"Falls noch keine Maßnahme hinzugefügt wurde, klicke auf *_Maßnahmen "
+"hinzufügen_* und folge den Anweisungen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:79
+msgid "Wähle die *_Aufgabe_* aus, die du an dein Terminal senden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:80
+msgid "Klicke auf *_Senden oder herunterladen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:81
+msgid "Wähle dann im folgenden Fenster die Option *_agrirouter_* aus."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:85
+msgid ""
+"Solltest du kein Terminal als Endpunkt in deinem agrirouter Profil "
+"eingetragen haben, leitet dich die Software zurück auf das Menü für "
+"*_verbundene Apps_*. Um das Problem zu lösen, solltest du zuerst ein "
+"Terminal als xref:endpoint.adoc[Endpunkt, window=\"_blank\"] im agrirouter "
+"verbinden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:94
+msgid ""
+"Wähle im nächsten Fenster den Endpunkt aus, an den du die Applikationskarte "
+"senden möchtest und klicke auf *_Karte senden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:95
+msgid ""
+"Fertig! Die Applikationskarte sollte auf deinem Terminal angekommen sein."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:100
+msgid ""
+"Wenn du Applikationskarten für mehrere Felder nutzen möchtest, solltest du "
+"sie nicht einzeln exportieren, sondern die Anleitung im nächsten Abschnitt "
+"befolgen!"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:104
+#, no-wrap
+msgid "Mehrere Applikationskarten an ein Terminal senden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:108
+msgid ""
+"In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal "
+"an eine Maschine zu senden. Folge hierzu den Schritten aus <<export-maps,"
+"Applikationskarten exportieren>> und wähle bei Schritt 3 gleich mehrere "
+"Aufgaben aus."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:112
+msgid ""
+"Es können nur mehrere Aufgaben des gleichen Typs ausgewählt werden (z.B. "
+"Düngung)!"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:118
+msgid ""
+"Nach der Ausbringung von bspw. Saatgut können Istwertkarten vom Terminal "
+"über den agrirouter an den xarvio FIELD MANAGER gesendet werden. Wie diese "
+"abgerufen werden können, erfährst du im Folgenden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:122
+msgid "Wähle zuerst in der Kopfleiste den Punkt *_Analyse_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:123
+msgid "Klicke unten rechts auf den Button *_Kartenimport_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:129
+msgid ""
+"Wenn du nun den Reiter *_Alle Dateien_* auswählst, findest du anhand der "
+"Spalte *_Quelle_* alle Dateien, die über den agrirouter an deinen xarvio "
+"FIELD MANAGER gesendet hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:130
+msgid ""
+"Klicke bei der gewünschten Datei auf die drei Punkte auf der rechten Seite "
+"und wähle *_Neue Karte erstellen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:135
+msgid ""
+"Deine Datei erscheint nun unter dem im Bereich *_Unverarbeitete Karten_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:136
+msgid ""
+"Falls der Applikationskarte noch keine Aufgabe hinzugefügt wurde, wähle aus "
+"dem Dropdown-Menü die passende Aufgabe aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:137
+msgid ""
+"Wähle das Kästchen auf der linken Seite bei den Karten aus, die du "
+"importieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:138
+msgid "Klicke auf *_Karten verarbeiten_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:143
+msgid "Die importierte(n) Karte(n) findest du im Bereich *_Analyse_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:144
+msgid "Wähle im *_Dropdown_* Menü oben links das entsprechende Feld aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xarvio.adoc:144
+msgid "Klicke auf den entsprechenden Kartentyp."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:1
+#, no-wrap
+msgid "Grimme-Maschinen Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:4
+msgid ""
+"Deine Grimme Telemetrieeinheit muss mit dem agrirouter verbunden sein, um "
+"drahtlos Telemetriedaten an dein Farm-Management-System und die myGrimme "
+"Platform senden zu können. In diesem Abschnitt erfährst du, wie du deine "
+"Grimme Maschine mit dem agrirouter verbindest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:11
+msgid ""
+"Logge dich in dein link:https://my.grimme.com/de[myGrimme-Konto, "
+"window=\"_blank\"]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:12
+msgid ""
+"Wähle auf der Startseite unter Konnektivität die Schaltfläche *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:20
+msgid "Im folgenden Fenster klickst du auf *_JETZT VERBINDEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:21
+msgid ""
+"Wenn du mit deinem Browser nicht in dein agrirouter-Konto eingeloggt bist, "
+"wirst du nun aufgefordet, dich dort einzuloggen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:30
+msgid "Klicke im folgenden Fenster auf *_VERBINDEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:31
+msgid ""
+"Dein agrirouter-Konto ist nun mit deinem myGrimme-Konto verbunden. Wähle "
+"jetzt aus, welche deiner Maschinen Daten über den agrirouter senden und "
+"empfangen sollen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:41
+msgid ""
+"Setze einen Haken bei den Maschinen, die du mit dem agrirouter verbinden "
+"möchtest oder bei *_Alle auswählen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:45
+msgid "### Überprüfung der Online-Verbindung"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:47
+msgid ""
+"Um festzustellen, ob deine Grimme-Maschine mit dem agrirouter verbunden ist "
+"und Daten über den agrirouter sendet, musst du zwei Punkte überprüfen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:51
+msgid ""
+"Auf der Startseite deines myGrimme-Kontos bekommst du einen Überblick über "
+"deinen Fuhrpark. Wird angezeigt, dass die Maschine ***Online*** ist, ist sie "
+"bereit Daten zu senden und zu empfangen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:52
+msgid "Wähle nun die Schaltfläche *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:58
+msgid ""
+"Im dieser Ansicht sind alle Maschinen, die mit dem agrirouter verbunden "
+"sind, über einen Haken gekennzeichnet."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:59
+msgid ""
+"Ist deine Maschine *_Online und mit dem agrirouter verbunden_*, besteht eine "
+"aktive Verbindung. In diesem Beispiel ist das für den VARITRON 470 der Fall."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:61
+msgid "## Import von Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:63
+msgid ""
+"Wenn du über dein Farm-Management-System Applikationskarten an deine Grimme-"
+"Maschine gesendet hast, kannst du diese über dein Terminal in der Maschine "
+"abrufen. Wie das funktioniert, erfährst du xref:solution-guides/cci-"
+"terminals.adoc#importmaps[hier]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:65
+msgid "## Export von Ist-Applikationskarten (As Applied Maps)"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:67
+msgid ""
+"Sobald eine Maschine eingeschaltet ist und über die myGrimme Plattform mit "
+"dem agrirouter verbunden ist, werden alle Daten Live über den agrirouter an "
+"andere Endpunkte wie bspw. Farm-Management-Systeme gesendet. Zu den "
+"gesendeten Daten gehören Ist-Applikationskarten, sowie weitere "
+"Telemetriedaten wie Kraftstoffverbrauch, Rodetiefe oder "
+"Fahrtgeschwindigkeit. Wie du einstellst, an welche Endpunkte der agrirouter "
+"deine Live-Daten weiterleiten soll, erfährst du xref:introduction."
+"adoc#route[hier]."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:1
+#, no-wrap
+msgid "KRONE Telemetrieeinheiten Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:4
+msgid ""
+"Deine KRONE Telemetrieeinheit muss mit dem agrirouter verbunden sein, um "
+"drahtlos Telemetriedaten an dein Farm-Management-System senden zu können. In "
+"diesem Abschnitt erfährst du, wie du verschiedene KRONE Telemtrieeinheiten "
+"mit dem agrirouter verbindest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:9
+msgid ""
+"Deine KRONE Produkte können auf drei verschiedene Arten mit dem agrirouter "
+"verbunden werden. Je nach dem, für welche Option du dich entscheidest, "
+"funktioniert die Verbindungsherstellung unterschiedlich:"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:11
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:16
+#, no-wrap
+msgid "Verbindung über KRONE SmartConnect Solar"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:12
+msgid "Verbindung über KRONE SmartConnect 300/500"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:13
+msgid "Verbindung über ein CCI Terminal"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:15
+msgid ""
+"Im Folgenden erfährst du, wie du Schritt für Schritt eine Verbindung zum "
+"agrirouter mit deiner gewählten Option herstellst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:19
+msgid ""
+"Die Telemetrieeinheit von KRONE ist eine autarke und flexible Lösung für die "
+"digitale Datenerfassung und -übertragung. Diese Daten können drahtlos an die "
+"KRONE Smart Telematics Plattform und den agrirouter übertragen werden. Die "
+"Telemetrieeinheit ist flexibel einsetzbar und kann an allen Maschinen "
+"angebracht werden, unabhängig vom Hersteller. Sie eignet sich besonders für "
+"Maschinen ohne eigene Elektronik oder für Mietmaschinen, die nur temporär "
+"genutzt werden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:23
+msgid ""
+"In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
+"window=\"_blank\"] ist der Smart Telematics Service noch nicht "
+"freigeschaltet. Wähle hierzu unter *Services_* die Option *_Smart "
+"Telematics_* aus und folge dem Prozess."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:32
+msgid ""
+"Bringe die Krone SmartConnect Solar Box auf der gewünschten Maschine an."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:33
+msgid ""
+"Logge dich auf link:https://mykrone.green/[mykrone.green Konto, "
+"window=\"_blank\"] mit deinem Nutzerprofil ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:34
+msgid "Wähle auf der Seitenleiste links den Punkt *_Services_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:35
+msgid "Klicke auf die Option *_Smart Telematics_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:42
+msgid "Wähle im Reiter oben *_Benutzereinstellungen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:43
+msgid "Klicke unter agrirouter Einstellungen auf den Button *_VERBINDEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:52
+msgid ""
+"Wenn du nicht bereits über denselben Browser in deinem agrirouter Profil "
+"eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten einzugeben. "
+"Gib deine E-Mail und dein Passwort ein und klicke dann auf *_Anmelden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:62
+msgid ""
+"Klicke im folgenden Fenster auf *_VERBINDEN_*, damit dein agrirouter Profil "
+"mit deinem mykrone.green Profil verbunden wird."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:67
+msgid ""
+"Nun hast du die Verbindung mit dem agrirouter und der Smart Telematics "
+"Plattform hergestellt. Um Daten von deiner Krone SmartConnect Solar Box über "
+"den agrirouter auf deinem Farm-Management-System empfangen zu können, musst "
+"du deine Krone SmartConnect Solar Box noch mit der Smart Telematics "
+"Plattform verbinden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:73
+msgid "Wähle im Reiter oben *_KSC Solar_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:74
+msgid "Klicke auf den Button *_NEUE KSC SOLAR VERBINDEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:79
+msgid "Gib den Produkt-Code deiner Krone SmartConnect Solar Box ein."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:83
+msgid ""
+"Der Produkt-Code des Krone SmartConnect Solar befindet sich auf dem "
+"Typenschild der Telemetrieinheit."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:87
+msgid "Klicke auf *_KSC SOLAR VERBINDEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:96
+msgid ""
+"Über einen Klick auf *_MASCHINE VERKNÜPFEN_* kannst du das Krone "
+"SmartConnect Solar noch der Maschine zuordnen, auf der es angebracht ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:97
+msgid ""
+"Fertig. Alle Informationen, die dein Krone SmartConnect Solar sammelt, "
+"werden nun automatisch an alle Endpunkte geschickt, die in deinem agrirouter-"
+"Profil eingebunden sind."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:99
+#, no-wrap
+msgid "Verbindung über Krone SmartConnect 300/500"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:102
+msgid ""
+"Die integrierten Telemetrieeinheiten Krone SmartConnect 300 und 500 von "
+"KRONE vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind mit "
+"dem BUS-System verbunden und erfassen Daten in Echtzeit. Diese Daten werden "
+"an KRONE Smart Telematics und den agrirouter gesendet."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:104
+msgid ""
+"Zündung der Maschine aktivieren und nach ca. 30 Sekunden baut KRONE "
+"SmartConnect ein WLAN-Signal auf."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:105
+msgid "Greife das WLAN mit deinem Smartphone/Tablet/PC auf."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:106
+msgid ""
+"Das Passwort steht auf der Box und im Terminal der Selbstfahrer unter "
+"Einstellungen > Remote-Service."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:107
+msgid ""
+"Gebe *_box.krone.de_* in dein Endgerät ein, um in das folgende Menü zu "
+"gelangen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:112
+msgid "Wähle innerhalb der Kategorie Onlinedienste die Option agrirouter."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:117
+msgid "Klicke auf den Schalter rechts neben *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:118
+msgid ""
+"Gebe deinen agrirouter Registrierungscode ein und klicke auf *_SPEICHERN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:119
+msgid ""
+"Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect 300/500 "
+"sendet nun durchgehend alle gesammelten Daten an den agrirouter."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:120
+#, no-wrap
+msgid "Verbindung über ein CCI-Terminal"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/krone.adoc:122
+msgid ""
+"Für eine Großzahl der KRONE Maschinen kann ein CCI-Terminal verwendet "
+"werden, welches über einen ISOBUS Anschluss Maschinendaten ausliest. Wie du "
+"dein CCI-Terminal mit dem agrirouter verbindest, findest du im Kapitel xref:"
+"solution-guides/cci-terminals.adoc[CCI-Terminal mit dem agrirouter "
+"verbinden]."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:1
+#, no-wrap
+msgid "Same-Deutz-Fahr Datenplattform Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:6
+msgid ""
+"Diese Anleitung enthält alle Informationen, die du benötigst, um die Same-"
+"Deutz-Fahr (SDF) Datenmanagement-App über den agrirouter zu nutzen. Du "
+"erfährst Schritt für Schritt, wie du den Datenaustausch zwischen einem SDF-"
+"Traktor und einem FMIs über den agrirouter einrichten und starten kannst. "
+"Diese Punkte werden im Folgenden behandelt:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:8
+msgid "SDF Datenplattform mit dem agrirouter verbinden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:9
+msgid "Online Verbindung kontrollieren"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:11
+msgid "Export von Ist-Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:15
+msgid ""
+"Bevor du beginnst, überprüfe bitte, ob deine Maschine die folgenden "
+"Mindestanforderungen erfüllt:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:17
+msgid "Die Maschine ist mit ISOBUS ausgestattet"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:18
+msgid "iMonitor 3 mit der Softwareversion 4.04.62.7 oder höher montiert"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:19
+msgid "iMonitor 8\": eine Task Data + Advanced Mode-Lizenz erforderlich"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:20
+msgid ""
+"iMonitor 12\": keine zusätzliche Lizenz erforderlich CTM (Communication "
+"Telematic Module) montiert mit mindestens einem aktiven Dienst (SDF Fleet "
+"Management oder Data Traffic Package)"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:21
+msgid "GPS-Empfänger montiert"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:22
+#, no-wrap
+msgid "Einrichtung der SDF Datenplattform"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:24
+msgid ""
+"Logge dich in dein Profil der link:https://www.sdf-dataplatform.com/[SDF-"
+"Datenplattform, window=\"_blank\"] ein, wenn du bereits ein Profil erstellt "
+"hast. Falls nicht, klicke auf *Register* und folge dem Registrierungsprozess."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:30
+msgid ""
+"Ist der Registrierungs- oder Loginprozess abgeschlossen, wähle den Menüpunkt "
+"*_FAHRZEUGE_* in der linken Seitenleiste."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:31
+msgid "Klicke anschließend auf *_Fahrzeug hinzufügen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:39
+msgid "Folge nun dem Prozess, um ein neues Fahrzeug hinzuzufügen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:45
+msgid "Wähle auf der linken Seitenleiste den Menüpunkt *_DATA MANAGEMENT_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:46
+msgid "Klicke auf den Button *_Konto Verknüpfen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:54
+msgid ""
+"Gib die E-Mail deines agrirouter-Kontos ein und klicke auf *_Hinzufügen_*."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:59
+msgid ""
+"Falls du noch kein agrirouter-Konto hast, erfährst du link:https://"
+"agrirouter.com/de/agrirouter/quick-start-guide/agrirouter-konto-einrichten/"
+"[hier, window=\"_blank\"], wie du eines erstellst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:69
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:47
+msgid ""
+"Du wirst jetzt auf eine neue Seite weitergeleitet. Falls du in deinem "
+"Browser noch nicht mit deinem agrirouter Profil angemeldet bist, musst du "
+"dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier "
+"gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine "
+"Verbindung mit deinem agrirouter-Konto hergestellt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:72
+msgid ""
+"War die Verknüpfung erfolgreich, kommt eine Erfolgsmeldung und der Account "
+"wird in der Liste angezeigt. Dein SDF-Datenplattform-Konto ist jetzt mit "
+"deinem agrirouter-Konto verbunden. Im nächsten Schritt müssen die Maschinen "
+"dem agrirouter-Konto zugeordnet werden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:76
+msgid ""
+"Über einen Klick auf das blau hinterlegte + können weitere agrirouter-Konten "
+"verbunden werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:82
+msgid ""
+"Klicke auf das blau hinterlegte Link-Symbol, um eine deiner Maschinen zu "
+"verbinden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:90
+msgid "Wähle die Maschine aus, die du verbinden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:91
+msgid "Klicke auf *_Verbinden Sie_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:94
+msgid ""
+"Die Einrichtung der SDF Datenplattform ist hiermit abgeschlossen. Um von "
+"deiner Maschine über den agrirouter Daten an dein Farm-Management-System zu "
+"senden, muss noch dein Terminal (iMonitor) mit deinem SDF-Datenplattform-"
+"Konto verbunden werden."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:95
+#, no-wrap
+msgid "Einrichtung des Terminals (iMonitor)"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:98
+msgid ""
+"Unter diesem Abschnitt erfährst du, wie du deine Maschine mit der SDF "
+"Datenplattform verbindest, um Daten von deiner Maschine über den agrirouter "
+"an deine Farm-Management-Software zu senden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:105
+msgid ""
+"Über einen Klick auf die Wolke in der linken Seitenleiste öffnet sich das "
+"SDF-Datenmanagement."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:106
+msgid "Gib hier die Anmeldedaten deines SDF-Datenmanagement-Kontos ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:107
+msgid "Bestätige deine Anmeldung über einen Klick auf die Pfeiltaste."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:116
+msgid ""
+"Im nächsten Schritt gibst du die VIN Nummer der Maschine ein, die du "
+"verbinden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:117
+msgid "Bestätige die Eingabe über die Pfeiltaste"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:126
+msgid ""
+"Überprüfe nun, ob das korrekte agrirouter-Konto angezeigt wird und wähle es "
+"aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:127
+msgid ""
+"Bestätige deine Auswahl, indem du auf den Button mit dem Häkchen klickst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:132
+msgid ""
+"Um zu kontrollieren, ob eine Verbindung zum agrirouter besteht, führst du "
+"folgende Schritte durch:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:139
+msgid "Klicke auf die *_Wolke_* in der linken Seitenleiste."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:140
+msgid "Wähle in der rechten Seitenleiste das Symbol für *_Profil_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:141
+msgid ""
+"Findest du jetzt die E-Mail-Adresse deines agrirouter-Profils blau "
+"hinterlegt, mit einem blauen Punkt daneben unter der Überschrift "
+"*_AGRIROUTER ACCOUNT_*, besteht eine Verbindung."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:143
+#, no-wrap
+msgid "Import von Soll-Applikationskarten (Soll-Ausbringkarten)"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:145
+msgid ""
+"Um Dateien, die du bspw. von deinem Farm-Management-System an deine Maschine "
+"geschickt hast, herunterladen zu können, solltest du wie folgt vorgehen:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:152
+msgid "Klicke auf die *_Wolke_* in der linken Seitenleiste"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:153
+msgid "Wähle das Symbol für *_Aufgaben_* in der rechten Seitenleiste"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:154
+msgid "Klicke auf den *_DOWNLOAD_* Button"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:157
+msgid ""
+"Sobald das System die Aufgabe(n) heruntergeladen hat, zeigt es sie in einer "
+"Liste an. Wenn du eine Aufgabe auswählst und die grüne Taste drückst, kannst "
+"du die Aufgabe direkt in den iMonitor importieren. Drückst du die rote "
+"Taste, werden die Aufgaben nur in der *_Download_*-Seite gespeichert und "
+"nicht in den iMonitor importiert."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:161
+msgid ""
+"Bei alten Software-Versionen werden beim Importieren von Aufgabendaten von "
+"USB-Sticks die alten Aktivitäten auf dem iMonitor gelöscht, sobald neue "
+"Aufgabendaten importiert werden. Außerdem ist die Aufgabe, sobald sie "
+"importiert wurde, nicht mehr in der Daten Management App vorhanden. Melde "
+"dich bei deinem Same-Deutz-Fahr-Händler für nähere Informationen."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:163
+#, no-wrap
+msgid "Export von Ist-Applikationskarten (As Applied Maps / Reale Ausbringkarten)"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:166
+msgid ""
+"Aus dem Terminal (iMonitor) können Dateien exportiert und an agrirouter "
+"gesendet werden. Dies sind die zu befolgenden Schritte:"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:172
+msgid ""
+"Bei alten Software-Versionen können mehrere Schritte für den Export von "
+"Applikationskarten vom Terminal nötig sein. Melde dich bei deinem Same-Deutz-"
+"Fahr-Händler für nähere Informationen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:179
+msgid "Wähle in der linken Seitenleiste die *_Wolke_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:180
+msgid ""
+"Klicke dann in der rechten Seitenleiste auf das Symbol für *_Aufgaben_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:181
+msgid ""
+"Hier findest du alle Ist-Applikationskarten in einer Liste. Klicke auf die "
+"Aufgabendatei, die du exportieren möchtest, und bestätige im Pop-Up Fenster "
+"mit einem Klick auf *_OK_*, um den Export zu bestätigen."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:1
+#, no-wrap
+msgid "ABACO Farmer Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:4
+msgid ""
+"Mit der Farm Management Software ABACO Farmer kannst du Daten über den "
+"agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen "
+"getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:10
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:93
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:10
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:93
+#, no-wrap
+msgid "Import von Ist-Applikationskarten & Telemetriedaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:15
+msgid ""
+"Um Daten von ABACO über den agrirouter senden und empfagen zu können, muss "
+"zuerst eine Verbindung zwischen deinem MyDataPlant-Konto und deinem "
+"agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen "
+"Schritten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:17
+msgid ""
+"Bevor du anfangen kannst, musst du dich über die https://www.abacofarmer.com/"
+"en/[ABACO Website, window=\"_blank\"] in dein Konto einloggen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:21
+msgid "Klicke in der Menüleiste auf *_Monitoring_* und wähle *_Sensors_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:22
+msgid ""
+"Klicke auf das *_Zahnrad_* rechts, um zur Sensor-Konfiguration zu kommen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:27
+msgid ""
+"Innerhalb der Sensors configuration section, wählst du *_Insert new "
+"sensors_* über das *_+ Icon_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:35
+msgid ""
+"Danach öffnet sich ein neues Fenster mit einem Dropdown Menü. Wähle "
+"*_agrirouter_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:36
+msgid "Klicke auf *_Continue to agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:47
+msgid ""
+"Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. "
+"Applikationskarten von ABACO Farmer über den agrirouter an dein Terminal "
+"senden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:57
+msgid ""
+"Um zu überprüfen, ob eine aktive Onlineverbindung zum agrirouter besteht, "
+"klickst du in der Menüleiste auf *_Monitoring > Sensors_*. Siehst du nun "
+"einen grünen Punkt wie auf der Grafik rechts, ist dein agrirouter-Konto mit "
+"deinem ABACO Farmer Konto verbunden."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:59
+#, no-wrap
+msgid "Endpunkteliste aktualisieren"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:62
+msgid ""
+"Wenn du in deinem agrirouter-Konto einen neuen Endpunkt, wie bspw. ein "
+"Terminal hinzugefügt hast, musst du dieses nicht extra innerhalb des ABACO "
+"Farmer Kontos aktualisieren. Die Software aktualisiert die Endpunkte ganz "
+"automatisch."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:65
+msgid ""
+"Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder "
+"Pflanzenschutz) in ABACO Farmer kannst du deine Applikationskarte über den "
+"agrirouter drahtlos an dein Terminal senden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:74
+msgid ""
+"Wähle *_Monitoring_* in der Menüleiste und klicke auf *_Models and maps_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:75
+msgid ""
+"Durchlaufe alle Schritte, um eine Applikationskarte (Recipe) zu erstellen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:76
+msgid "Klicke auf den Button *_Send to Agrirouter_*."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:80
+msgid ""
+"Es kann eine Weile dauern, bis ein Shapefile deiner Datei erstellt wurde. "
+"Erst wenn das Shapefile fertig erstellt ist, wird dir die Option *_Send to "
+"Agrirouter_* angezeigt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:89
+msgid ""
+"Wähle nun entweder eine Maschine aus oder setze einen Haken bei der ersten "
+"Option *_InOut-Tool_*. Letzteres bedeutet, dass die Applikationskarte an "
+"alle Endpunkte geschickt wird, die über den agrirouter verbunden sind."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:90
+msgid "Klicke auf *_Send to Agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:91
+msgid ""
+"Wenn die Meldung image:interactive_agrirouter/abaco/abaco-export-maps-3-de."
+"png[Select Register, 200, 100] am oberen Bildschirmrand erscheint, war der "
+"Export deiner Applikationskarte erfolgreich."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:98
+msgid ""
+"Bevor Daten von Equipment wie Maschinen importiert werden können, müssen die "
+"Maschinen als IOT Service hinzugefügt werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:102
+msgid ""
+"Wähle in der Menüleiste den Punkt *_Assets_* und klicke dann auf "
+"*_Equipments_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:103
+msgid ""
+"Klicke auf der rechten Seite auf das *_Download Symbol_* und wähle dann "
+"*_Open IOT services_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:108
+msgid "Klicke auf das Symbol für *_Add IOT service_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:116
+msgid ""
+"Im nächsten Fenster wählst du *_AGRIROUTER_MIDDLEWARE_* unter *_Service_* "
+"aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:117
+msgid ""
+"Unter external_endpoint_id trägst du die Endpoint ID der Maschine ein. "
+"https://manual.agrirouter.com/de/manual/latest/endpoint.html[So findest du "
+"die Endpoint ID, window=\"_blank\"]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:118
+msgid ""
+"Nachdem du auch die Consumer ID deines Fahrzeugs eingetragen hast, klickst "
+"du auf *_Save and close_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:127
+msgid ""
+"Deine Maschine ist nun über den agrirouter zu deiner ABACO Farmer Software "
+"hinzugefügt worden. Sobald du einen Datensatz über deine Maschine an den "
+"agrirouter schickst, kommt dieser automatisch in ABACO Farmer an."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:129
+#, no-wrap
+msgid "Maschinendaten abrufen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:131
+msgid ""
+"Um Einblick in die von der Maschine gesendeten Daten zu bekommen, kannst du "
+"die Maschinendaten über die Option *_Assets_* in der oberen Menüleiste "
+"abrufen. Alternativ kannst du ein neues Dashboard erstellen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:135
+msgid "Wähle in der Menüleiste die Option *_Dashboard_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:136
+msgid "Klicke auf *_Add dashboard_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:144
+msgid ""
+"Gebe nun die gewünschten Informationen ein und wähle aus, welche Daten du "
+"abrufen möchtest und klicke dann auf *_+ Add_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/abaco.adoc:150
+msgid ""
+"Indem du jetzt einzelne Datenpunkte in der Liste auswählst, kannst du die "
+"generierten Daten einsehen. In diesem Beispiel wurden die Fahrspuren eines "
+"Traktors ausgewählt."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:1
+#, no-wrap
+msgid "Interaktion mit Pöttinger CONNECT"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:4
+msgid ""
+"Pöttinger CONNECT ist eine Telemetrieeinheit, die mit dem Jobrechner des "
+"PÖTTINGER Anbaugerätes verbunden wird. Die Hardware enthält einen "
+"Datalogger, GPS Empfänger (1-2 m Genauigkeit), eine SIM-Karte für den "
+"Datentransport über das Mobilfunknetz und einen TASK Controller Master. Mit "
+"Pöttinger CONNECT können Daten über den agrirouter an ein Farm-Management-"
+"System gesendet und von ihm empfangen werden. In diesem Abschnitt erfährst "
+"du, wie du:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:6
+msgid "Pöttinger CONNECT mit dem agrirouter verbindest"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:7
+msgid "Applikationskarten und Aufgaben Im- und Exportierst"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:20
+msgid ""
+"Verbinde Pöttinger Connect als eine link:https://manual.agrirouter.com/de/"
+"manual/latest/endpoint.html#connect-machine[Maschine, window=\"blank\"] mit "
+"deinem agrirouter-Konto und notiere dir den Registrierungscode."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:30
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:61
+msgid ""
+"Wähle im Home-Bildschirm deines Terminals im Bereich *_Verbindung_* das "
+"*_Zahnrad_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:39
+msgid ""
+"Klicke jetzt im oberen Bereich in das Eingabefeld *_Agrirouter register "
+"code_* und gebe deinen Registrierungscode ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:40
+msgid ""
+"Wurde erfolgreich eine Verbindung hergestellt, siehst du jetzt deine *_Cloud "
+"Key_*, gefolgt von einem grünen Haken."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:45
+msgid ""
+"Der Cloud Key bestätigt die Verbindung zum agrirouter. Jeder Cloud Key ist "
+"individuell und sichert den Datenaustausch nur zwischen den beiden "
+"miteinander verbundenen Geräten."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:47
+#, no-wrap
+msgid "Export von IST-Applikationskarten & Telemetriedaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:50
+msgid ""
+"Die Pöttinger Connect Telemetrieeinheit kann verschiedene Daten über den "
+"agrirouter an dein Farm-Management-System exportieren. Als Beispiel für "
+"diese Daten können das Gewicht eines Rundballens, der Feuchtigkeitsgehalt "
+"eines Rundballens oder Aussaatmengen genannt werden. Der Export von diesen "
+"Daten kann in Echtzeit geschehen oder erst nach Abschluss einer Aufgabe."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:52
+#, no-wrap
+msgid "Export der Daten in Echtzeit"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:54
+msgid ""
+"Wählst du diese Funktion, werden alle Telemetriedaten durchgehend live an "
+"dein Farm-Management-System gesendet."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:70
+msgid ""
+"Leuchtet unter *_Live log data transfer_* im Button *_EFDI_* ein grüner "
+"Haken, werden die Daten alle 30 Sekunden an den agrirouter gesendet. Durch "
+"einen Klick auf den Button kann diese Funktion ein oder ausgeschaltet werden."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:72
+#, no-wrap
+msgid "Export der Daten nach Abschluss eines Auftrags"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:74
+msgid ""
+"Wählst du diese Funktion, werden alle Telemetriedaten durchgehend erst nach "
+"Abschluss eines Auftrags (Task) an dein Farm-Management-System gesendet."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:81
+msgid ""
+"Wähle wie unter Schritt 1 von <<realtime-export,Export der Daten in "
+"Echtzeit>> im Home-Bildschirm deines Terminals im Bereich *_Connection_* das "
+"*_Zahnrad_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:82
+msgid ""
+"Sollte nun der grüne Haken im Button EFDI unter *_Live log data transfer_* "
+"leuchten, klicke ihn einmal an."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:83
+msgid ""
+"Jetzt sollte, wie auf der Darstellung rechts gezeigt, der *_EFDI-Button_* "
+"ausgegraut sein. Das bedeutet, dass keine Echtzeit-Daten an den agrirouter "
+"gesendet werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:84
+msgid ""
+"Wird nun eine Aufgabe abgeschlossen, werden die gesammelten Daten dieser "
+"Aufgabe auf einmal an den agrirouter gesendet."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:89
+msgid ""
+"Deine Pöttinger CONNECT Telemtrieeinheit kann auch Applikationskarten "
+"empfangen, die du vorher auf deinem Farm-Management-System generiert hast. "
+"Wie du diese im Terminal abrufst, erfährst du im Folgenden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:93
+msgid ""
+"Voraussetzung für den Empfang von Applikationskarten ist, dass sowohl deine "
+"Pöttinger-CONNECT Einheit, als auch dein Farm-Management System mit dem "
+"agrirouter verbunden sind und eine link:https://manual.agrirouter.com/de/"
+"manual/latest/routing.html[Route, window=\"blank\"] zwischen den beiden "
+"Endpunkten erstellt wurde. Auf dem link:https://my-agrirouter.com/"
+"marketplace/agrarsoftware/[agrirouter Marktplatz, window=\"blank\"] siehst "
+"du, welche Farm-Management-Systeme agrirouter kompatibel sind."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:101
+msgid ""
+"Sende eine Applikationskarte von deinem Farm-Management-System an deine "
+"Pöttinger Connect Telemetrieeinheit. Wie das für jedes System einzeln "
+"funktioniert, erfährst du, indem du in der Seitenleiste links den Punkt "
+"*_Farm-Management-Software_* auswählst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:102
+msgid ""
+"Im ISOBUS Terminal wird der Erhalt eines neuen Datensatzes durch eine Zahl "
+"am Glockensymbol gekennzeichnet."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:103
+msgid "Klicke auf den Reiter *_Tasks_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:112
+msgid ""
+"Hier erscheinen nun die gesendeten Applikationskarten als einzelne Tasks."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:113
+msgid "Wähle eine der Tasks aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:114
+msgid ""
+"Klicke im Bereich rechts auf den Button *_Start_*, um die Aufgabe zu "
+"beginnen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/poettinger.adoc:115
+msgid "Klicke auf *_Stop_* um die Aufgabe zu beenden."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:1
+#, no-wrap
+msgid "DACOM Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:4
+msgid ""
+"Mit der Farm Management Software DACOM kannst du Daten über den agrirouter "
+"empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen "
+"werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:15
+msgid ""
+"Um über dein DACOM-Konto Daten vom agrirouter empfangen und senden zu "
+"können, benötigst du eine Cloudfarm Lizenz. Welche Lizenzen von DACOM "
+"angeboten werden, erfährst du auf der https://www.dacom.nl/de/produkte/"
+"cloudfarm/#pricing[DACOM-Website, window=\"_blank\"] oder über den https://"
+"www.dacom.nl/de/service/[DACOM-Kundensupport, window=\"_blank\"]. Sobald du "
+"eine entsprechende Lizenz erworben hast, kannst du eine Verbindung "
+"herstellen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:19
+msgid ""
+"Um DACOM mit deinem agrirouter-Konto verbinden zu können, musst du eine "
+"https://https://www.dacom.nl/de/produkte/cloudfarm/#pricing[Cloudfarm "
+"Lizenz, window=\"_blank\"] erwerben! Hast du keine DACOM-Lizenz erworben, "
+"wird Cloudfarm auch nicht in deiner linken Seitenleiste angezeigt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:22
+msgid ""
+"Logge dich in dein https://dacom.farm/accounts/login/[DACOM-Konto, "
+"window=\"_blank\"] ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:27
+msgid "Wähle auf der linken Seitenleiste die Option *_Cloudfarm_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:28
+msgid "Klicke auf das *_+ Symbol_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:29
+msgid "Wähle im Dropdown Menü *_Mit dem agrirouter verbinden_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:38
+msgid ""
+"Nun erscheint ein neues Fenster. Dort klickst du auf den Button "
+"*_Autorisieren_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:51
+msgid ""
+"Fertig, du kannst nun Dateien zwischen deinem DACOM-Konto und dem agrirouter "
+"austauschen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:54
+msgid ""
+"Um zu überprüfen, ob eine Verbindung zum agrirouter besteht, musst du die "
+"Schritte 1 - 4 des Kapitels <<connect-agrirouter,Verbindung zum agrirouter "
+"herstellen>> befolgen. Wurde erfolgreich eine Verbindung hergestellt, "
+"solltest du folgendes Fenster sehen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:58
+msgid ""
+"Anhand der Account ID, die unter *_Aktuell verbundenes Kundenkonto_* "
+"angezeigt wird, kannst du erkennen, welches agrirouter-Konto aktuell "
+"verbunden ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:59
+msgid ""
+"Über den Button *_Zugangsberechtigung erneuern_*, kannst du deine "
+"Berechtigung aktualisieren."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:63
+msgid ""
+"Deine *_agrirouter Account ID_* findest du in der https://manual.agrirouter."
+"com/de/manual/latest/account.html#benutzerdaten-%C3%A4ndern[Kontoverwaltung, "
+"window=\"_blank\"]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:73
+msgid ""
+"Um deine Endpunkte zu überprüfen, klickst du in der linken Seitenleiste auf "
+"*_Mein Betrieb._*"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:74
+msgid "Wähle im Dropdown Menü *_Maschinen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:75
+msgid ""
+"Du siehst jetzt alle verbundenen Endpunkte anhand einer Kachel. Das kleine "
+"*_agrirouter Logo_* in der linken unteren Ecke der Kachel zeigt an, ob der "
+"Endpunkt über den agrirouter abgerufen wurde."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:84
+msgid ""
+"Wenn du auf eine der Kacheln klickst, siehst im unteren Bereich des "
+"*_Fahrzeug bearbeiten_* Menüs den Hinweis, dass die Maschine über den "
+"agrirouter gefunden wurde."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:88
+msgid ""
+"Mit dem agrirouter kannst du drahtlos Applikationskarten von DACOM an deine "
+"Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du "
+"bereits eine Applikationskarte erstellt hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:100
+msgid "Klicke in der linken Seitenleiste auf *_Mein Betrieb._*"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:101
+msgid "Wähle *_Maschinen_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:102
+msgid ""
+"Klicke auf die Kachel einer Maschine, die mit dem agrirouter verbunden ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:111
+msgid ""
+"Im unteren Bereich des Menüs *_Fahrzeug bearbeiten_* findest du eine "
+"Checkbox mit der Bezeichnung *_Plan automatisch schicken_*. Ist diese "
+"Checkbox ausgewählt, werden alle Applikationskarten, die du speicherst, "
+"automatisch an diese Maschine bzw. diesen Endpunkt gesendet."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:117
+msgid ""
+"Bei DACOM werden deine Applikationskarten automatisch immer direkt an alle "
+"Endpunkte gesendet, die über eine https://manual.agrirouter.com/de/manual/"
+"latest/routing.html[Route, window=\"_blank\"] mit dem agrirouter verbunden "
+"sind."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:119
+#, no-wrap
+msgid "Mehrere Karten an eine Maschine senden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:122
+msgid ""
+"Manchmal kann es Sinn machen, mehrere Applikationskarten zusammen an einen "
+"Endpunkt zu senden. Hierzu werden die Applikationskarten in einem Auftrag "
+"zusammengefasst. Wie das funktioniert, erfährst du im Folgenden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:126
+msgid "Klicke in der linken Seitenleiste auf *_Aufzeichnen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:127
+msgid ""
+"Wähle mindestens 2 Applikationskarten aus, indem du die *_Checkboxen_* "
+"markierst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:128
+msgid "Klicke *_Auftrag_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:136
+msgid ""
+"Ein neues Fenster wird, geöffnet. Trage dort den Namen des Auftrags ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:137
+msgid "Klicke *_speichern_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:146
+msgid ""
+"Jetzt kannst du über die Pfeiltaste auf der rechten Seite der Auftragskachel "
+"die Option *_Alle Aufgaben ausführen_* wählen, um sie gleichzeitig an deine "
+"Endpunkte zu senden."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:148
+#, no-wrap
+msgid "Import von IST-Applikationskarten (As-Applied Maps) & Telemetriedaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:150
+msgid ""
+"Wenn du mit deiner Maschine eine As-Applied-Map erstellst oder andere "
+"Telemetriedaten, wie bspw. den Kraftstoffverbrauch, aufzeichnest, empfängst "
+"du diese automatisch über den agrirouter in deinem DACOM-Konto."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:154
+msgid "Klicke hierzu einfach in der linken Seitenleiste auf *_Cloudfarm_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/dacom.adoc:154
+msgid ""
+"Du siehst dann rechts neben der linken Seitenleiste alle Informationen, die "
+"du in der letzten Zeit über den agrirouter und andere Quellen empfangen hast."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:2
+#, no-wrap
+msgid "myAmaRouter Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:5
+msgid ""
+"Dein AmaTron 4 Terminal der Marke AMAZONE muss mit dem agrirouter verbunden "
+"sein, um drahtlos Applikationskarten im ISOXML-Format von deinem Farm-"
+"Management-System empfangen zu können. Es ist auch möglich, IST-"
+"Applikationskarten (As-Applied-Karten) von deinem Terminal über den "
+"agrirouter an dein Farm-Mananagement-System zu senden. Dies wird dir über "
+"die myAmaRouter-App ermöglicht, die du auf deinem Tablet oder Smartphone "
+"installieren kannst. In diesem Abschnitt erfährst du, wie du:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:7
+msgid "dein AmaTron 4 Terminal mit dem Internet verbindest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:8
+msgid "eine Verbindung zum agrirouter herstellst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:9
+msgid "Applikationskarten importierst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:10
+msgid "Telemetriedaten und IST-Applikationskarten exportierst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:13
+msgid ""
+"In diesem Abschnitt erfährst du, wie du dein AmaTron 4 Terminal mit dem "
+"agrirouter verbindest. Bevor du mit der Verbindungsherstellung beginnen "
+"kannst, solltest du sicherstellen, dass folgende Dinge vorliegen:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:15
+msgid "AmaTron 4 Terminal"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:16
+msgid "WLAN Adapter"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:17
+msgid "AmaTron 4 Connect Lizenz"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:18
+msgid "myAmaRouter App auf dem Smartphone"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:22
+msgid ""
+"Das AmaTron 4 Terminal, sowie den dazugehörigen WLAN Adapter und die AmaTron "
+"4 Connect Lizenz bekommst du bei deinem link:https://amazone.de/de-de/"
+"erleben-erwerben/erwerben/ansprechpartner-vertrieb/haendlersuche[AMAZONE "
+"Händler, window=\"_blank\"]. Die myAmaRouter App kannst du im link:https://"
+"play.google.com/store/apps/details?id=de.amazone.iom.agrirouter[Google "
+"Playstore, window=\"_blank\"] oder im link:https://apps.apple.com/de/app/"
+"myamarouter/id1479666048[Apple App Store, window=\"_blank\"] herunterladen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:27
+msgid ""
+"Für eine optionale Displayerweiterung kannst du die AmaTron Twin App im link:"
+"https://play.google.com/store/apps/details?id=de.amazone.iom.amatronx[Google "
+"Playstore, window=\"_blank\"] oder im link:https://apps.apple.com/de/app/"
+"amatron-twin/id1457549008[Apple App Store, window=\"_blank\"] auf dein "
+"Tablet herunterladen. Für nähere Informationen zur Installation des Geräts, "
+"konsultiere bitte deinen link:https://amazone.de/de-de/erleben-erwerben/"
+"erwerben/ansprechpartner-vertrieb/haendlersuche[AMAZONE Händler, "
+"window=\"_blank\"]."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:30
+#, no-wrap
+msgid "Herstellung der Internetverbindung"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:32
+msgid ""
+"Liegen alle Geräte, Lizenzen und Apps vor, die du benötigst, kannst du "
+"beginnen, indem du dein Terminal mit dem Internet verbindest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:34
+msgid ""
+"Stelle sicher, dass auf deinem AmaTron 4 Terminal die Software-Version NW216-"
+"H.042 oder eine neuere installiert ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:42
+msgid ""
+"Stecke den WLAN-Adapter in den dafür vorgesehenen USB-Port auf der linken "
+"Seite des Terminals."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:45
+msgid ""
+"Im nächsten Schritt stellst du über dein Smartphone oder Tablet eine Online-"
+"Verbindung für dein AmaTron 4 Terminal her."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:50
+msgid ""
+"Wähle auf deinem Terminal nun die Option *_Setup_* image:"
+"interactive_agrirouter/amazone/amazone-setup-icon.png[Select Register ,25, "
+"25]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:51
+msgid "Klicke auf *_Netzwerk_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:52
+msgid "Aktiviere *_WLAN verwenden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:53
+msgid "Klicke auf *_Modus_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:54
+msgid "Wähle *_Zugangspunkt_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:55
+msgid "Klicke auf das *_Häkchen_*, um die Eingabe zu bestätigen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:63
+msgid ""
+"Nimm dein Smartphone oder Tablet zur Hand und gehe zu den *_WLAN-"
+"Einstellungen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:64
+msgid "Aktiviere die *_WLAN-Funktion_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:65
+msgid "Verbinde dich mit dem WLAN namens *_AmaTron 4_*."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:67
+#, no-wrap
+msgid "Aufbau der agrirouter-Verbindung"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:70
+msgid ""
+"Dein AmaTron 4 Terminal ist jetzt mit dem Internet verbunden. Im folgenden "
+"Schritt wird die Verbindung zum agrirouter aufgebaut."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:72
+msgid ""
+"Logge dich in dein link:https://my-agrirouter.accounts.ondemand.com/"
+"[agrirouter-Konto, window=\"_blank\"] ein."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:76
+msgid ""
+"Wenn du noch kein agrirouter-Konto hast, erfährst du link:https://manual."
+"agrirouter.com/de/manual/latest/account.html#benutzerkonto-erstellen[hier], "
+"wie du eines erstellst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:80
+msgid ""
+"Füge dein AmaTron 4 Terminal als Endpunkt hinzu. Wie das funktioniert, "
+"erfährst du link:https://manual.agrirouter.com/de/manual/latest/endpoint."
+"html#connect-machine[hier]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:88
+msgid "Notiere deinen Registrierungscode"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:94
+msgid ""
+"Nimm dein Smartphone oder Tablet zur Hand, auf dem die *_myAmaRouter-App_* "
+"installiert ist und öffne sie."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:95
+msgid "Klicke auf *_Code aktualisieren_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:96
+msgid ""
+"Gib den *_Registrierungscode_* ein, den du dir in Schritt 3 notiert hast."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:97
+msgid "Klicke auf *_Verbindung herstellen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:98
+msgid "Klicke auf *_Fortsetzen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:99
+msgid ""
+"Falls du noch keine <<internet-connection,WLAN-Verbindung>> von deinem "
+"Smartphone zu deinem AmaTron 4 Terminal hergestellt hast, solltest du diesen "
+"Schritt jetzt vornehmen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:102
+msgid ""
+"Um über den agrirouter SOLL-Applikationskarten im ISOXML-Format von deinem "
+"Farm-Management-System auf deinem Terminal zu empfangen, sind nur wenige "
+"Schritte notwendig."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:106
+msgid ""
+"Sende die gewünschte(n) Applikationskarte(n) über dein FMIS an deinen "
+"AmaTron 4 link:https://manual.agrirouter.com/de/manual/latest/endpoint."
+"html[Endpunkt]."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:107
+msgid ""
+"Klicke auf deinem Smartphone in der myAmaRouter App auf *_Daten an Terminal "
+"übertragen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:108
+msgid ""
+"Klicke im Pop-up-Fenster auf deinem Terminal auf das *_Häkchen_*, um die "
+"eingehenden Daten zu akzeptieren."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:109
+#, no-wrap
+msgid "Export von IST-Applikationskarten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:111
+msgid ""
+"Um IST-Applikationskarten (As-Applied Karten) im ISOXML-Format von deinem "
+"Terminal über den agrirouter an dein Farm-Management-System zu senden, sind "
+"nur 2 einfache Schritte notwendig."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:115
+msgid ""
+"Klicke auf deinem Smartphone in der myAmaRouter App auf *_Daten vom Terminal "
+"abrufen_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:115
+msgid ""
+"Klicke im Pop-up-Fenster auf deinem Terminal auf das *_Häkchen_*, um die "
+"Daten zu exportieren."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:1
+#, no-wrap
+msgid "HOLMER Easy Help 4.0 Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:4
+msgid ""
+"Deine HOLMER Maschine muss mit dem agrirouter verbunden sein, um drahtlos "
+"Dateien mit dem agrirouter austauschen zu können. In diesem Abschnitt "
+"erfährst du, wie du:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:6
+msgid ""
+"deine Maschine über den agrirotuer mit der HOLMER Easy Help 4.0 verbindest"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:7
+msgid "die Online-Verbindung überprüfst"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:11
+msgid ""
+"Um mit deiner HOLMER Maschine Daten über den agrirouter austauschen zu "
+"können, musst du die folgenden Schritte befolgen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:15
+msgid ""
+"Logge dich im link:https://www.myholmer.com/[myHOLMER Portal, "
+"window=\"_blank\"] ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:16
+msgid "Klicke im Reiter oben auf *_EASYHELP 4.0_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:17
+msgid "Wähle in der Auswahl links, welche Maschine du verbinden möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:18
+msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:19
+msgid "Wähle die Option *_agrirouter_* im unteren Reiter."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:27
+msgid "Klicke auf den Button Mit *_Agrirouter verbinden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:37
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:52
+msgid "Ist die Verbindung hergestellt, kann der Tab geschlossen werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:41
+msgid "Wiederhole die einzelnen Schritte, um weitere Maschinen zu verbinden."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:42
+#, no-wrap
+msgid "Online-Verbindung überprüfen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:44
+msgid ""
+"Um zu überprüfen, ob eine aktive Verbindung zwischen deiner HOLMER-Maschine "
+"und dem agrirouter besteht, führst du folgende Schritte durch."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:48
+msgid ""
+"Wähle im link:https://www.myholmer.com/[myHOLMER Portal, window=\"_blank\"] "
+"den Menüpunkt *_EASYHELP 4.0_*"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:49
+msgid "Klicke auf den Unterpunkt *_agrirouter_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:50
+msgid ""
+"Anhand der Endpunkt ID erkennst du nun, welche deiner HOLMER-Maschinen mit "
+"dem agrirouter verbunden sind."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:51
+msgid ""
+"Um die Verbindung zu trennen, klickst du auf den Button "
+"*_Agrirouterverbindung trennen_*."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:1
+#, no-wrap
+msgid "AGCO TaskDoc Server Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:4
+msgid ""
+"Mit deiner Maschine aus dem Hause AGCO ist es möglich, drahtlos Dateien über "
+"den agrirouter mit deinem Farm-Management-System austauschen zu können. In "
+"diesem Abschnitt erfährst du, wie du:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:6
+msgid "den agrirouter mit deinem TaskDoc Server Konto verbindest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:7
+msgid ""
+"eine Maschine innerhalb des TaskDoc Servers mit dem agrirouter verbindest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:11
+msgid ""
+"Um mit deiner Maschine aus dem Hause AGCO Daten über den agrirouter "
+"austauschen zu können, musst du zuerst die folgenden Schritte befolgen:"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:15
+msgid ""
+"Für die Verbindung mit dem agrirouter ist eine TaskDoc Pro Server Lizenz "
+"nötig. Diese erhältst du über deinen Händler und direkt beim Kauf einer "
+"neuen Maschine."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:24
+msgid ""
+"Nach Erwerb der Task Doc Pro Server Lizenz erhältst du eine automatische E-"
+"Mail, die dir den Zugriff auf den TaskDoc Server ermöglicht. Erstelle dein "
+"Konto indem du auf den Link in der Mail klickst."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:25
+msgid ""
+"Logge dich mit deinen Anmeldedaten auf der link:https://www.agco.taskdoc.de/"
+"signin[TaskDoc Server Website, window=\"_blank\"] ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:31
+msgid ""
+"Wähle im Hauptmenü die Option *_Fahrzeuge_* aus. In der *_Fahrzeugliste_* "
+"sollte nun deine Maschine angezeigt werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:40
+msgid "Gehe nun zurück zum *_Hauptmenü_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:41
+msgid "Wähle dort *_agrirouter Verbindung_* aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:50
+msgid "Klicke auf *_Mit dem agrirouter verbinden_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:51
+msgid ""
+"Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser "
+"noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst "
+"anmelden. Bist du bereits angemeldet, klickst du im neuen Fenster auf "
+"*_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto "
+"hergestellt."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:57
+msgid ""
+"Für eine erfolgreiche Verbindung von Maschine und agrirouter, muss auch "
+"deine Maschine als Fahrzeug im TaskDoc Server mit dem agrirouter verbunden "
+"werden. Dies wird im nächsten Kapitel beschrieben."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:59
+#, no-wrap
+msgid "Maschinen mit dem agrirouter verbinden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:67
+msgid "Wähle im Hauptmenü des TaskDoc Servers die Option *_Fahrzeuge_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:76
+msgid "Wähle die Maschine, die mit dem agrirouter verbunden werden soll."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:77
+msgid "Wähle dann im Untermenü *_agrirouter Verbindung_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:78
+msgid "Klicke auf *_Fahrzeug aufnehmen_* (Abb. engl. \"Onboard Vehicle\")."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:83
+msgid ""
+"Jedes weitere Fahrzeug muss einzeln an den agrirouter angeschlossen werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:4
+msgid ""
+"Mit der Farm Management Software MyEasyFarm kannst du Daten vom agrirouter "
+"empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen "
+"werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:9
+msgid "Import von Ist-Applikationskarten und Telemetriedaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:14
+msgid ""
+"Um Applikationskarten von MyEasyFarm über den agrirouter an dein Terminal "
+"senden zu können, muss zuerst eine Verbindung zwischen deinem MyDataPlant-"
+"Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
+"wenigen, einfachen Schritten."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:16
+msgid ""
+"Bevor du anfangen kannst, musst du dich über die link:https://app.myeasyfarm."
+"com/login[MyEasyFarm-Website, window=\"_blank\"] in dein MyEasyFarm-Konto "
+"einloggen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:20
+msgid ""
+"Klicke auf das Stecker-Icon, welches das Menü *_Ihre Verknüpfungenliste_* "
+"aufruft."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:21
+msgid ""
+"Suche dann aus der Liste der verfügbaren Verknüpfungen den agrirouter heraus "
+"und klicke *__DKE DATA AGRIROUTER HINZUFÜGEN_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:29
+msgid ""
+"Wähle im Menüpunkt *_Verknüpfung hinzufügen_* den Button *_ZUGANGSANFRAGE_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:39
+msgid "Klicke auf *_VERBINDEN_*"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:40
+msgid ""
+"Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. "
+"Applikationskarten von MyEasyFarm über den agrirouter an dein Terminal "
+"senden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:45
+msgid ""
+"Die Verbindung zum agrirouter in den ersten 30 Tagen kostenlos und wird "
+"danach standardmäßig deaktiviert. Möchtest du die agrirouter-Verbindung "
+"weiterhin nutzen, wird ein kostenpflichtiges Abonnements fällig."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:50
+msgid ""
+"MyEasyFarm aktualisiert die Endpunkte Liste automatisch. Wenn du einen neuen "
+"Endpunkt, wie bspw. eine Maschine, über den agrirouter hinzufügst, erscheint "
+"dieser spätestens einige Minuten später auch auf deinem MyEasyFarm-Konto."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:54
+msgid ""
+"Wenn du eine neue Maschine hinzufügst und diese über MyEasyFarm einsehen "
+"möchtest, achte darauf, dass der Schalter *_IMPORTED EQUIPMENT_* image:"
+"interactive_agrirouter/myeasyfarm/myeasyfarm-imported-equipment-button."
+"png[Select Register ,100, 100]. im oberen Bereich der Seite aktiviert ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:67
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:89
+msgid "Wähle in der Seitenleiste links den Unterpunkt *_Aufgaben_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:68
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:90
+msgid ""
+"Falls du noch keine Aufgabe erstellt hast, klicke auf *_AUFGABEN "
+"HINZUFÜGEN_* und folge dem Prozess."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:69
+msgid ""
+"Wähle durch einen Klick auf das Kästchen links die Aufgabe aus, die du "
+"exportieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:78
+msgid ""
+"Wähle unter *_Export_* im Dropdown-Menü die Option *_Nach Agrirouter "
+"exportieren_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:79
+msgid "Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:82
+#, no-wrap
+msgid "Mehrere Aufgaben an einen Endpunkt senden"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:85
+msgid ""
+"In manchen Fällen kann es Sinn machen, mehrere Applikationskarten auf einmal "
+"an eine Maschine zu senden. Bspw., wenn Saatgut und Düngemittel gleichzeitig "
+"ausgebracht werden sollen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:91
+msgid ""
+"Wähle durch einen Klick auf das Kästchen links alle Aufgaben aus, die du "
+"exportieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:92
+msgid "Folge der Anleitung Export von Soll-Applikationskarten ab Schritt 4."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:96
+msgid ""
+"Nach der Ausbringung von bspw. Saatgut können Ausbringkarten (As-Applied-"
+"Maps) auch vom Terminal über den agrirouter an dein MyEasyFarm-Konto "
+"gesendet werden. Dasselbe gilt für alle weiteren Daten, die mit deinem "
+"Equipment erstellt werden. Wie diese abgerufen werden können, erfährst du im "
+"Folgenden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:100
+msgid "Wähle den Unterpunkt *_Übersicht_* in der Seitenleiste links."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:101
+msgid "Klicke rechts auf *_IMPORT FILE_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:109
+msgid ""
+"Nun öffnet sich das Fenster ISOBUS-Datei importieren. Wähle hier die Option "
+"*_IMPORT AUS AGRIROUTER_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:112
+msgid ""
+"Wenn du dein agrirouter-Konto noch nicht mit deinem MyEasyFarm-Konto "
+"verbunden hast, wird dir die Option *_IMPORT AUS AGRIROUTER_* nicht "
+"angezeigt. <<connect-agrirouter,Verbinde dein agrirouter-Konto>>, um das "
+"Problem zu beheben."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:117
+msgid ""
+"Im folgenden Fenster siehst du alle Dateien, die über den agrirouter an dein "
+"MyEasyFarm-Konto gesendet wurden. Um eine Datei zu importieren, klicke auf "
+"den Namen der Datei."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:122
+msgid ""
+"Um eine Datei zu importieren, müssen fehlende Datenpunkte (z.B. Schlag, "
+"Mitarbeiter, …) nachträglich eingetragen werden. Klicke hierzu auf *_UPDATE "
+"& IMPORT_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:124
+msgid ""
+"Bevor du eine Aufgabe importierst, solltest du bereits deine Feldgrenzen, "
+"Mitarbeiter und Fahrzeuge hinzugefügt haben."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:130
+msgid ""
+"Auf der rechten Bildschirmhälfte siehst du allgemeine Informationen, die mit "
+"deiner Aufgabe übermittelt wurden. Diese Informationen kannst du optional "
+"abändern bzw. korrigieren."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:131
+msgid ""
+"Klicke, nachdem du die allgemeinen Informationen bearbeitet hast, auf "
+"*_AKTUALISIERUNG_*."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:132
+msgid ""
+"Auf der linken Bildschirmhälfte kannst du fehlenden Informationen "
+"nachtragen. Klicke hierzu auf die entsprechende Aufgabe wie bspw. Tillage "
+"oder Seeding und wähle die passende Maschine etc. aus dem Dropdown Menü aus."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:134
+msgid ""
+"Standardmäßig werden nur die relevantesten Optionen einer Aufgabe angezeigt. "
+"Wenn du detailliertere Informationen sehen willst, wähle SHOW ALL IMPORT "
+"OPTIONS im oberen Bereich der Seite."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:137
+msgid "Klicke auf *_UPDATE & IMPORT_*, um den Vorgang abzuschließen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:145
+msgid ""
+"Anhand des grün hinterlegten Hinweis *_IMPORTED_*, erkennst du, dass der "
+"Import erfolgreich war."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:147
+msgid ""
+"Deine importierten Aufgaben findest du in jetzt in der linken Seitenleiste "
+"unter *_Maßnahmen_* und bei *_Equipment, Mitarbeitern_* oder *_Schlägen_*, "
+"denen die Aufgabe zugeordnet ist."
 msgstr ""
 
 #~ msgid "/en"
