@@ -1,0 +1,143 @@
+= CropManager Solution Guide
+
+Mit der Farm Management Software CropManager kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Export von Soll-Applikationskarten und anderen Aufgaben
+* Import von Ist-Applikationskarten und Telemetriedaten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten vom CropManager über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem CropManager-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+image::interactive_agrirouter/cropmanager/cropmanager-connect-agrirouter-1-de.png[Select Register, 800]
+
+. Logge dich über die link:https://cropmanager.dk/#/?currentLanguage=%22en%22[CropManager Website, window="_blank"] in dein Cropmanager-Konto ein.
+. Klicke in der linken Seitenleiste auf *_Settings_* und öffne im Menü den Punkt *_Data Connections_*.
+. Klicke jetzt den Button *_CREATE CONNECTION_*.
+. Wähle im Dropdown Menü unter *_Choose Type_* die Option *_AgriRouter_* aus.
+. Gib deiner Verbindung unter *_Connection name_* einen Namen.
+. Klicke auf *_LOG ON TO AGRIROUTER_*.
+. Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto eingeloggt sein, wirst du nun aufgefordert dich einzuloggen.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/cropmanager/cropmanager-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=8]
+. Es erscheint das Fenster rechts, in dem abgefragt wird, ob du wirklich eine Verbindung zum agrirouter herstellen möchtest. Klicke jetzt auf *_CONNECT_*.
+. Fertig. Die Verbindung zum agrirouter ist hergestellt und du kannst bspw. Applikationskarten von CropManager über den agrirouter an dein Terminal senden.
+--
+
+[TIP]
+====
+Bei anderen Verbindungen wird unter Status die Option CHECK CONNECTION angezeigt. Allerdings ist es nicht möglich, die Verbindung zum agrirouter über den Button CHECK CONNECTION zu überprüfen. Wurde einmal eine Verbindung zum agrirouter aufgebaut, sollte diese dauerhaft funktionieren.
+====
+
+=== Endpunkteliste aktualisieren
+CropManager aktualisiert die Endpunkteliste automatisch. Wenn du einen neuen Endpunkt, wie bspw. eine Maschine, über den agrirouter hinzufügst, erscheint dieser spätestens einige Minuten später auch auf deinem CropManager-Konto.
+
+== Export von Soll-Applikationskarten
+
+Nach der Planung und Erstellung einer Aufgabe für eines oder mehrere Felder (Düngung, Aussaat oder Pflanzenschutz) kannst du deine Applikationskarte über den agrirouter drahtlos an dein Terminal senden.
+
+
+[TIP]
+====
+Nach der Planung und Erstellung einer Aufgabe für eines oder mehrere Felder (Düngung, Aussaat oder Pflanzenschutz) kannst du deine Applikationskarte über den agrirouter drahtlos an dein Terminal senden.
+====
+
+image::interactive_agrirouter/cropmanager/cropmanager-export-maps-1-de.png[Select Register, 800]
+
+. Klicke in der linken Seitenleiste auf den Menüpunkt *_Prescription Maps_* (engl. für Applikationskarten).
+. Wähle die gewünschte Applikationskarte aus.
+. Klicke im rechten, unteren Bereich des Bildschirms den Button *_Send to Machine_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/cropmanager/cropmanager-export-maps-2-de.png[Select Register, 400]
+
+[start=4]
+. Wähle nun eine der beiden agrirouter Optionen aus. 
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/cropmanager/cropmanager-export-maps-3-de.png[Select Register, 400]
+
+[start=5]
+. Wähle die Maschine aus, an die du die Applikationskarte für eines oder mehrere Felder senden möchtest. 
+--
+
+[start=6]
+. Über den Hinweis *_Sent to machine_* image:interactive_agrirouter/cropmanager/cropmanager-success-icon.png[Select Register, 100] am unteren Bildschirmrand wird dir angezeigt, dass der Export erfolgreich war.
+
+=== Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden
+
+Es kann in manchen Fällen Sinn machen, eine Applikationskarte an mehrere Endpunkte gleichzeitig zu senden. Hier erfährst du, wie das funktioniert.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/cropmanager/cropmanager-export-maps-4-de.png[Select Register, 400]
+
+. Befolge die Schritte 1 - 4 aus dem vorigen Kapitel.
+. Wähle *_Send to all subscribed_* aus. 
+. Deine Applikationskarte wird jetzt an alle mit dem agrirouter verbundenen Maschinen gleichzeitig gesendet.
+--
+
+[TIP]
+====
+Es ist nicht möglich, eine Applikationskarte an eine Auswahl von Maschinen zu senden. Entweder du schickst sie an eine Maschine, oder an alle Maschinen gleichzeitig.
+====
+
+== Import von Ist-Applikationskarten und Telemetriedaten
+
+Nach der Ausbringung von bspw. Saatgut können Ausbringkarten (englisch: As-Applied-Maps) auch vom Terminal über den agrirouter an dein CropManager-Konto gesendet werden. Dasselbe gilt für alle weiteren Daten, die mit deinem Equipment erstellt werden. Wie diese abgerufen werden können, erfährst du im Folgenden.
+
+image::interactive_agrirouter/cropmanager/cropmanager-import-maps-1-de.png[Select Register, 800]
+
+. Klicke in der linken Seitenleiste auf den Menüpunkt *_Field Analysis_*.
+. Wähle auf der rechten Seite die Option *_As Applied_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/cropmanager/cropmanager-import-maps-2-de.png[Select Register, 400]
+
+[start=3]
+. Du siehst nun in der rechten Seitenleiste eine Auswahl deiner Ausbringkarten geordnet nach den Kategorien SEEDING (Saatgut), FERTILIZER (Düngemittel) und PLANT PROTECTION (Pflanzenschutz). Unter UNSPECIFIED TASKS (undefinierte Aufgaben)sind Aufgaben verortet, die noch keiner Kategorie zugeordnet sind.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/cropmanager/cropmanager-import-maps-3-de.png[Select Register, 400]
+
+[start=4]
+. Wenn du eine kürzlich erstellte Datei auswählen möchtest, klicke auf UPLOAD, um die Datei in den CropManager zu laden.
+. Daten, die du von der Maschine an dein CropManager-Konto gesendet hast, werden in der Regel automatisch in einer der vier Kategorien hochgeladen. Wenn die Software nicht erkennen kann, um welchen Datentyp es sich handelt, landen deine Daten bei  UNSPECIFIED TASKS.
+--
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/cropmanager/cropmanager-import-maps-4-de.png[Select Register, 400]
+
+[start=6]
+. Du findest auch unter UPLOADED FILES alle Dateien, die von einer deinen Maschinen hochgeladen wurde.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/cropmanager/cropmanager-import-maps-5-de.png[Select Register, 400]
+
+[start=7]
+. Mit einem Klick auf die Datei kannst du sie einer bestimmten Aufgabe zuordnen.
+--
