@@ -38,6 +38,14 @@ jobs:
           echo "$HOME/po4a" >> $GITHUB_PATH
           echo "PERLLIB=$HOME/po4a/lib" >> $GITHUB_ENV
 
+      - name: Update translation files
+        run: po4a --no-translations po4a.conf
+      
+      - name: Commit translation file updates
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: ./i18n/
+          
       - name: Install dependencies
         run: yarn install
 
