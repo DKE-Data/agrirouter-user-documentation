@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-11-10 10:56+0100\n"
+"POT-Creation-Date: 2023-11-23 11:49+0000\n"
 "PO-Revision-Date: 2023-11-22 08:43+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
@@ -656,10 +656,15 @@ msgstr "Scambio di dati"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:97
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Inzwischen weißt du: ohne Route kein Datenaustausch!\n"
+#| "Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen "
+#| "in [.underline]#beiden# Konten Routen erstellt werden:"
 msgid ""
-"Inzwischen weißt du: ohne Route kein Datenaustausch!\n"
-"Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
+"Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der "
+"Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [."
+"underline]#beiden# Konten Routen erstellt werden:"
 msgstr ""
 "Ormai lo sapete: nessuno scambio di dati senza un percorso!\n"
 "Affinché lo scambio di dati funzioni con un account collegato, i percorsi "
@@ -667,10 +672,16 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:100
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner "
+#| "Endpunkte Daten an das verbundene Konto sendet.\n"
+#| "Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des "
+#| "anderen Kontos eingehende Routen erstellen."
 msgid ""
-"Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet.\n"
-"Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
+"Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte "
+"Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger "
+"ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
 msgstr ""
 "Con le rotte in uscita del proprio account, si determina quale dei propri "
 "endpoint invia i dati all'account collegato.\n"
@@ -679,10 +690,16 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:102
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner "
+#| "Endpunkte Daten vom verbundenen Konto empfangen.\n"
+#| "Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende "
+#| "Routen erstellen."
 msgid ""
-"Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen.\n"
-"Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
+"Mit eingehenden Routen in deinem Konto legst du fest, welche deiner "
+"Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, "
+"muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
 msgstr ""
 "Con le rotte in entrata del proprio account, si determina quale endpoint "
 "riceve i dati dall'account collegato.\n"
@@ -1408,10 +1425,16 @@ msgstr "Visualizzazione"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:181
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der "
+#| "Benutzeroberfläche.\n"
+#| "Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente "
+#| "ein und aktivierst die Animationen."
 msgid ""
-"Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche.\n"
-"Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein und aktivierst die Animationen."
+"Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der "
+"Benutzeroberfläche. + Im Reiter `Anzeigeeinstellungen` stellst du die Größe "
+"der Bedienelemente ein und aktivierst die Animationen."
 msgstr ""
 "Nella scheda \"Tema\" è possibile scegliere tra un design chiaro e uno scuro "
 "per l'interfaccia utente.\n"
@@ -1618,10 +1641,12 @@ msgstr "Elenco degli endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:28
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert.\n"
+#| "Du kannst"
 msgid ""
-"Die Endpunkteliste ist anhand des Namens alphabetisch sortiert.\n"
-"Du kannst"
+"Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
 msgstr ""
 "L'elenco finale dei punti è ordinato alfabeticamente per nome.\n"
 "È possibile"
@@ -1759,10 +1784,16 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:88
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den "
+#| "Code in die Zwischenablage zu kopieren.\n"
+#| "Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um "
+#| "den Code auszudrucken."
 msgid ""
-"Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
-"Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
+"Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den "
+"Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:"
+"ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
 msgstr ""
 "Fare clic sull'icona *_copy_* image:ar_copy.icon.png[copy, 30, 30] per "
 "copiare il codice negli appunti.\n"
@@ -2110,10 +2141,11 @@ msgstr "Inviare a"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:179 de/modules/ROOT/pages/group.adoc:103
-#, no-wrap
-msgid ""
-"Der Reiter enthält eine Liste der Empfänger.\n"
-"Empfänger"
+#, fuzzy
+#| msgid ""
+#| "Der Reiter enthält eine Liste der Empfänger.\n"
+#| "Empfänger"
+msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
 msgstr ""
 "La scheda contiene un elenco di destinatari.\n"
 "Destinatari"
@@ -2545,10 +2577,16 @@ msgstr "Funzionalità"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:305
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen "
+#| "kann.\n"
+#| "Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können "
+#| "nicht geändert werden."
 msgid ""
-"Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen kann.\n"
-"Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können nicht geändert werden."
+"Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen "
+"kann. + Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und "
+"können nicht geändert werden."
 msgstr ""
 "La scheda contiene i messaggi che l'endpoint può inviare e ricevere.\n"
 "I messaggi supportati sono predefiniti dall'endpoint e non possono essere "
@@ -2835,10 +2873,17 @@ msgstr "Gruppi"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:8
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. "
+#| "nach Hersteller, Maschinentyp oder Maßnahme.\n"
+#| "Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die "
+#| "Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
 msgid ""
-"Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme.\n"
-"Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
+"Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach "
+"Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:introduction."
+"adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle "
+"Mitglieder der Gruppe."
 msgstr ""
 "Riassumere gli endpoint in xref:introduction.adoc#group[groups], ad esempio "
 "per produttore, tipo di macchina o misura.\n"
@@ -2897,10 +2942,12 @@ msgstr "Elenco dei gruppi"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:32
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Die Gruppenliste ist anhand des Namens alphabetisch sortiert.\n"
+#| "Du kannst"
 msgid ""
-"Die Gruppenliste ist anhand des Namens alphabetisch sortiert.\n"
-"Du kannst"
+"Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
 msgstr ""
 "L'elenco dei gruppi è ordinato alfabeticamente per nome.\n"
 "È possibile"
@@ -3129,13 +3176,10 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:154
-#, no-wrap
-msgid ""
-"Der Reiter enthält eine Liste der Sender.\n"
-"Sender"
-msgstr ""
-"La scheda contiene un elenco dei mittenti.\n"
-"I mittenti:"
+#, fuzzy
+#| msgid "Der Reiter enthält eine Liste der Sender.  Sender"
+msgid "Der Reiter enthält eine Liste der Sender. + Sender"
+msgstr "La scheda contiene un elenco dei mittenti.  I mittenti:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:157
@@ -3705,10 +3749,16 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:84
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp "
+#| "oder Maßnahme.\n"
+#| "Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle "
+#| "Mitglieder der Gruppe."
 msgid ""
-"Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme.\n"
-"Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
+"Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder "
+"Maßnahme. + Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt "
+"für alle Mitglieder der Gruppe."
 msgstr ""
 "Riassumere i punti finali in gruppi, ad esempio per produttore, tipo di "
 "macchina o misura.\n"
@@ -3917,10 +3967,16 @@ msgstr "Gruppo Software per l'agricoltura"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:135
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des "
+#| "agrirouter:\n"
+#| "Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte "
+#| "können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
 msgid ""
-"Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter:\n"
-"Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
+"Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: "
+"+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
+"ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
 msgstr ""
 "I gruppi standard consentono una rapida messa in funzione dell'agrirouter:\n"
 "L'instradamento è già definito per entrambi i gruppi. I nuovi endpoint "
@@ -4639,9 +4695,17 @@ msgstr "Portale di monitoraggio del sistema"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:118
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist "
+#| "der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder "
+#| "einer Störung. Endpunkte können dann keine Daten mehr versenden oder "
+#| "empfangen.\n"
+#| "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
 msgid ""
-"agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen.\n"
+"agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der "
+"agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer "
+"Störung. Endpunkte können dann keine Daten mehr versenden oder empfangen. + "
 "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
 msgstr ""
 "agrirouter garantisce una disponibilità del 99,5%. Ciò significa che solo "
@@ -4877,15 +4941,22 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:21
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm "
+#| "ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
+#| "Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data "
+#| "Dictionary^] veröffentlicht."
 msgid ""
-"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
-"Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO "
+"11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs "
+"sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] "
+"veröffentlicht."
 msgstr ""
 "I parametri di macchina, posizione e processo sono definiti nello standard "
 "ISOBUS ISO 11783 e sono chiamati DDI (Data Dictionary Identifier).\n"
-"I DDI sono pubblicati nel sito https://www.isobus.net/isobus/dDEntity["
-"Dizionario dei dati ISOBUS^]."
+"I DDI sono pubblicati nel sito https://www.isobus.net/isobus/"
+"dDEntity[Dizionario dei dati ISOBUS^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:24
@@ -6182,8 +6253,8 @@ msgid ""
 msgstr ""
 "Se viene visualizzato il segno di spunta verde come mostrato "
 "nell'illustrazione seguente, si è collegati all'agrirouter. In caso "
-"contrario, eseguire tutti i passaggi del capitolo <<collegamento-"
-"agrirouter,agrirouter>>."
+"contrario, eseguire tutti i passaggi del capitolo <<collegamento-agrirouter,"
+"agrirouter>>."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:141
@@ -6268,9 +6339,13 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:164
+#, fuzzy
+#| msgid ""
+#| "Wähle die Option *_Inbox_* bzw. *_Postausgang_*. Hier sind alle Dateien "
+#| "entahlten, die noch nicht an den agrirouter versendet werden konnten."
 msgid ""
 "Wähle die Option *_Inbox_* bzw. *_Postausgang_*. Hier sind alle Dateien "
-"entahlten, die noch nicht an den agrirouter versendet werden konnten."
+"enthalten, die noch nicht an den agrirouter versendet werden konnten."
 msgstr ""
 "Selezionare l'opzione *_Inbox_* o *_Outbox_*. Qui vengono elencati tutti i "
 "file che non sono ancora stati inviati all'agrirouter."
@@ -6412,8 +6487,8 @@ msgid ""
 msgstr ""
 "Se una licenza è stata collegata a un endpoint, non è possibile collegare un "
 "altro endpoint tramite questa licenza. Per annullare un collegamento, è "
-"necessario utilizzare il link:https://www.nextfarming.de/kontakt/support/["
-"Contact NEXT Farming Support, window=\"_blank\"]."
+"necessario utilizzare il link:https://www.nextfarming.de/kontakt/support/"
+"[Contact NEXT Farming Support, window=\"_blank\"]."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:57
@@ -6519,8 +6594,8 @@ msgid ""
 "window=\"_blank\"]. Wenn du bspw. Applikationskarten über das "
 "Applikationskartencenter versenden möchtest, gehst du wie folgt vor:"
 msgstr ""
-"Per conoscere le differenze tra le tre opzioni, potete consultare il "
-"link:https://www.nextfarming.de/hilfe/[ Portale informativo di NEXT Farming, "
+"Per conoscere le differenze tra le tre opzioni, potete consultare il link:"
+"https://www.nextfarming.de/hilfe/[ Portale informativo di NEXT Farming, "
 "window=\"_blank\"]. Ad esempio, se si desidera inviare le mappe di "
 "prescrizione tramite il centro mappe di prescrizione, procedere come segue:"
 
@@ -7011,8 +7086,8 @@ msgid ""
 "Erstelle ein link:https://manual.agrirouter.com/de/manual/latest/account."
 "html#benutzerkonto-erstellen[agrirouter-Konto, window=\"_blank\"]."
 msgstr ""
-"Creare un link: https://manual.agrirouter.com/de/manual/latest/account.html"
-"#benutzerkonto-erstellen[account agrirouter, window=\"_blank\"]."
+"Creare un link: https://manual.agrirouter.com/de/manual/latest/account."
+"html#benutzerkonto-erstellen[account agrirouter, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:14
@@ -7065,7 +7140,8 @@ msgstr "Immettere il *codice di registrazione_* generato al punto 2."
 msgid ""
 "Erscheint der *_grüne Haken_*, ist dein Terminal mit deinem agrirouter "
 "verbunden."
-msgstr "Se appare il *_spunto verde_*, il terminale è collegato all'agrirouter."
+msgstr ""
+"Se appare il *_spunto verde_*, il terminale è collegato all'agrirouter."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:63
@@ -7142,8 +7218,8 @@ msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://portal."
 "farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
-"Prima di iniziare, è necessario accedere al proprio account tramite il "
-"link:https://portal.farmpilot.de/[sito web FARMPILOT, window=\"_blank\"]."
+"Prima di iniziare, è necessario accedere al proprio account tramite il link:"
+"https://portal.farmpilot.de/[sito web FARMPILOT, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:19
@@ -7330,8 +7406,8 @@ msgid ""
 "Logge dich über link:https://trimbleag.com[Trimble, window=\"_blank\"] auf "
 "deinem Trimble-Konto ein."
 msgstr ""
-"Accedere al proprio account Trimble tramite il link:https://trimbleag.com["
-"Trimble, window=\"_blank\"]."
+"Accedere al proprio account Trimble tramite il link:https://trimbleag."
+"com[Trimble, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:19
@@ -7375,8 +7451,8 @@ msgid ""
 "window=\"_blank\"]"
 msgstr ""
 "Accedere al link:https://goto.my-agrirouter.com/app[Centro di controllo "
-"agrirouter, window=\"_blank\"] e completare il link:https://manual.agrirouter"
-".com/de/manual/latest/routing.html[Routing, window=\"_blank\"] qui"
+"agrirouter, window=\"_blank\"] e completare il link:https://manual."
+"agrirouter.com/de/manual/latest/routing.html[Routing, window=\"_blank\"] qui"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:46
@@ -7506,7 +7582,8 @@ msgstr ""
 msgid ""
 "Wähle die Endpunkte aus, an die alle Aufgaben automatisch gesendet werden "
 "sollen."
-msgstr "Selezionare gli endpoint a cui inviare automaticamente tutti i compiti."
+msgstr ""
+"Selezionare gli endpoint a cui inviare automaticamente tutti i compiti."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:98
@@ -7682,8 +7759,8 @@ msgid ""
 msgstr ""
 "In alcuni casi, l'aggiornamento dell'endpoint all'interno di xarvio FIELD "
 "MANAGER può richiedere fino a 30 minuti. Se ci vuole più tempo, provare a "
-"ricollegare l'account <<connect-agrirouter,agrirouter>> o contattare "
-"https://www.xarvio.com/de/de/support.html[xarvio Support,window=\"_blank\"]."
+"ricollegare l'account <<connect-agrirouter,agrirouter>> o contattare https://"
+"www.xarvio.com/de/de/support.html[xarvio Support,window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:68
@@ -7723,8 +7800,8 @@ msgid ""
 "Falls noch keine Maßnahme hinzugefügt wurde, klicke auf *_Maßnahmen "
 "hinzufügen_* und folge den Anweisungen."
 msgstr ""
-"Se non è stata ancora aggiunta alcuna misura, cliccare su *_Aggiungi misura_*"
-" e seguire le istruzioni."
+"Se non è stata ancora aggiunta alcuna misura, cliccare su *_Aggiungi "
+"misura_* e seguire le istruzioni."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:79
@@ -7888,7 +7965,8 @@ msgstr "Le mappe importate si trovano nella sezione *_Analyse_*."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:144
 msgid "Wähle im *_Dropdown_* Menü oben links das entsprechende Feld aus."
-msgstr "Selezionare il campo appropriato nel menu a tendina in alto a sinistra."
+msgstr ""
+"Selezionare il campo appropriato nel menu a tendina in alto a sinistra."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:144
@@ -7920,8 +7998,8 @@ msgid ""
 "Logge dich in dein link:https://my.grimme.com/de[myGrimme-Konto, "
 "window=\"_blank\"]."
 msgstr ""
-"Accedere al proprio link:https://my.grimme.com/de[account myGrimme, window="
-"\"_blank\"]."
+"Accedere al proprio link:https://my.grimme.com/de[account myGrimme, "
+"window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:12
@@ -7967,8 +8045,8 @@ msgid ""
 "Setze einen Haken bei den Maschinen, die du mit dem agrirouter verbinden "
 "möchtest oder bei *_Alle auswählen_*."
 msgstr ""
-"Selezionare le macchine che si desidera collegare all'agrirouter o *"
-"_Selezionare tutte_*."
+"Selezionare le macchine che si desidera collegare all'agrirouter o "
+"*_Selezionare tutte_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:45
@@ -8033,8 +8111,8 @@ msgid ""
 msgstr ""
 "Se le mappe di prescrizione sono state inviate all'attrezzo Grimme tramite "
 "il sistema di gestione dell'azienda agricola, è possibile recuperarle "
-"tramite il terminale nell'attrezzo. Potete scoprire come funziona xref"
-":solution-guides/cci-terminals.adoc#importmaps[qui]."
+"tramite il terminale nell'attrezzo. Potete scoprire come funziona xref:"
+"solution-guides/cci-terminals.adoc#importmaps[qui]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:65
@@ -8060,8 +8138,8 @@ msgstr ""
 "agricola. I dati inviati comprendono le mappe effettive dell'applicazione e "
 "altri dati telemetrici come il consumo di carburante, la profondità di "
 "raccolta o la velocità di guida. È possibile scoprire come impostare i punti "
-"finali a cui l'agrirouter deve inoltrare i dati in tempo reale "
-"xref:introduction.adoc#route[qui]."
+"finali a cui l'agrirouter deve inoltrare i dati in tempo reale xref:"
+"introduction.adoc#route[qui]."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:1
@@ -8164,8 +8242,8 @@ msgid ""
 "Logge dich auf link:https://mykrone.green/[mykrone.green Konto, "
 "window=\"_blank\"] mit deinem Nutzerprofil ein."
 msgstr ""
-"Accedere al link:https://mykrone.green/[account mykrone.green, window="
-"\"_blank\"] con il proprio profilo utente."
+"Accedere al link:https://mykrone.green/[account mykrone.green, "
+"window=\"_blank\"] con il proprio profilo utente."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:34
@@ -8457,8 +8535,8 @@ msgid ""
 "Datenplattform, window=\"_blank\"] ein, wenn du bereits ein Profil erstellt "
 "hast. Falls nicht, klicke auf *Register* und folge dem Registrierungsprozess."
 msgstr ""
-"Accedere al proprio profilo su link:https://www.sdf-dataplatform.com/["
-"piattaforma dati SDF, window=\"_blank\"] se si è già creato un profilo. In "
+"Accedere al proprio profilo su link:https://www.sdf-dataplatform.com/"
+"[piattaforma dati SDF, window=\"_blank\"] se si è già creato un profilo. In "
 "caso contrario, cliccare su *Registrati* e seguire la procedura di "
 "registrazione."
 
@@ -8508,8 +8586,8 @@ msgid ""
 "[hier, window=\"_blank\"], wie du eines erstellst."
 msgstr ""
 "Se non avete ancora un account agrirouter, potete scoprire come crearne uno "
-"al link:https://agrirouter.com/de/agrirouter/quick-start-guide/"
-"agrirouter-konto-einrichten/[qui, window=\"_blank\"]."
+"al link:https://agrirouter.com/de/agrirouter/quick-start-guide/agrirouter-"
+"konto-einrichten/[qui, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:69
@@ -8679,9 +8757,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:143
 #, no-wrap
 msgid "Import von Soll-Applikationskarten (Soll-Ausbringkarten)"
-msgstr ""
-"Importazione di mappe di applicazioni di destinazione (mappe di applicazioni "
-"di destinazione)"
+msgstr "Importazione di mappe di applicazioni di destinazione (mappe di applicazioni di destinazione)"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:145
@@ -8740,9 +8816,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:163
 #, no-wrap
 msgid "Export von Ist-Applikationskarten (As Applied Maps / Reale Ausbringkarten)"
-msgstr ""
-"Esportazione di mappe applicative reali (come mappe applicate / mappe "
-"applicative reali)"
+msgstr "Esportazione di mappe applicative reali (come mappe applicate / mappe applicative reali)"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:166
@@ -8773,7 +8847,8 @@ msgstr "Selezionate il *_cloud_* nella barra laterale sinistra."
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:180
 msgid ""
 "Klicke dann in der rechten Seitenleiste auf das Symbol für *_Aufgaben_*."
-msgstr "Quindi fare clic sull'icona *_compiti_* nella barra laterale di destra."
+msgstr ""
+"Quindi fare clic sull'icona *_compiti_* nella barra laterale di destra."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:181
@@ -8830,8 +8905,8 @@ msgid ""
 "Bevor du anfangen kannst, musst du dich über die https://www.abacofarmer.com/"
 "en/[ABACO Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
-"Prima di iniziare, è necessario accedere al proprio account sul sito "
-"https://www.abacofarmer.com/en/[sito web ABACO, window=\"_blank\"]."
+"Prima di iniziare, è necessario accedere al proprio account sul sito https://"
+"www.abacofarmer.com/en/[sito web ABACO, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:21
@@ -9029,9 +9104,9 @@ msgid ""
 "https://manual.agrirouter.com/de/manual/latest/endpoint.html[So findest du "
 "die Endpoint ID, window=\"_blank\"]."
 msgstr ""
-"Inserire l'ID dell'endpoint della macchina in external_endpoint_id. "
-"https://manual.agrirouter.com/de/manual/latest/endpoint.html[Per trovare "
-"l'ID dell'endpoint, window=\"_blank\"]."
+"Inserire l'ID dell'endpoint della macchina in external_endpoint_id. https://"
+"manual.agrirouter.com/de/manual/latest/endpoint.html[Per trovare l'ID "
+"dell'endpoint, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:118
@@ -9039,8 +9114,8 @@ msgid ""
 "Nachdem du auch die Consumer ID deines Fahrzeugs eingetragen hast, klickst "
 "du auf *_Save and close_*."
 msgstr ""
-"Dopo aver inserito anche l'ID consumatore del vostro veicolo, cliccate su *"
-"Salva e chiudi_*."
+"Dopo aver inserito anche l'ID consumatore del vostro veicolo, cliccate su "
+"*Salva e chiudi_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:127
@@ -9267,8 +9342,8 @@ msgid ""
 "Sollte nun der grüne Haken im Button EFDI unter *_Live log data transfer_* "
 "leuchten, klicke ihn einmal an."
 msgstr ""
-"Se il segno di spunta verde si accende nel pulsante EFDI sotto *"
-"Trasferimento dati di log in tempo reale_*, fare clic su di esso una volta."
+"Se il segno di spunta verde si accende nel pulsante EFDI sotto "
+"*Trasferimento dati di log in tempo reale_*, fare clic su di esso una volta."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/poettinger.adoc:83
@@ -9418,9 +9493,9 @@ msgid ""
 "wird Cloudfarm auch nicht in deiner linken Seitenleiste angezeigt."
 msgstr ""
 "Per poter collegare DACOM al vostro account agrirouter, dovete acquistare "
-"una licenza https://https://www.dacom.nl/de/produkte/cloudfarm/#pricing["
-"Cloudfarm, window=\"_blank\"]! Se non si è acquistata una licenza DACOM, "
-"Cloudfarm non verrà visualizzato nella barra laterale sinistra."
+"una licenza https://https://www.dacom.nl/de/produkte/cloudfarm/"
+"#pricing[Cloudfarm, window=\"_blank\"]! Se non si è acquistata una licenza "
+"DACOM, Cloudfarm non verrà visualizzato nella barra laterale sinistra."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:22
@@ -9428,8 +9503,8 @@ msgid ""
 "Logge dich in dein https://dacom.farm/accounts/login/[DACOM-Konto, "
 "window=\"_blank\"] ein."
 msgstr ""
-"Accedere al proprio account https://dacom.farm/accounts/login/[DACOM, window="
-"\"_blank\"]."
+"Accedere al proprio account https://dacom.farm/accounts/login/[DACOM, "
+"window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:27
@@ -9504,8 +9579,8 @@ msgid ""
 "window=\"_blank\"]."
 msgstr ""
 "Potete trovare il vostro *_ID account_agrirouter_* nel sito https://manual."
-"agrirouter.com/de/manual/latest/account.html#benutzerdaten-%C3%A4ndern["
-"Gestione account, window=\"_blank\"]."
+"agrirouter.com/de/manual/latest/account.html#benutzerdaten-"
+"%C3%A4ndern[Gestione account, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:73
@@ -9578,8 +9653,8 @@ msgid ""
 "Checkbox ausgewählt, werden alle Applikationskarten, die du speicherst, "
 "automatisch an diese Maschine bzw. diesen Endpunkt gesendet."
 msgstr ""
-"In fondo al menu *_Modifica veicolo_* si trova la casella di controllo *"
-"Invia automaticamente la mappa_*. Se questa casella è selezionata, tutte le "
+"In fondo al menu *_Modifica veicolo_* si trova la casella di controllo "
+"*Invia automaticamente la mappa_*. Se questa casella è selezionata, tutte le "
 "mappe di prescrizione salvate vengono inviate automaticamente a questa "
 "macchina o punto finale."
 
@@ -9656,9 +9731,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:148
 #, no-wrap
 msgid "Import von IST-Applikationskarten (As-Applied Maps) & Telemetriedaten"
-msgstr ""
-"Importazione di mappe dell'applicazione IST (As-Applied Maps) e dati di "
-"telemetria"
+msgstr "Importazione di mappe dell'applicazione IST (As-Applied Maps) e dati di telemetria"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:150
@@ -9777,10 +9850,10 @@ msgstr ""
 "AmaTron 4 Connect possono essere acquistati al link:https://amazone.de/de-de/"
 "erleben-erwerben/erwerben/ansprechpartner-vertrieb/haendlersuche[rivenditore "
 "AMAZONE, window=\"_blank\"]. È possibile scaricare l'applicazione "
-"myAmaRouter dal link:https://play.google.com/store/apps/details?id=de.amazone"
-".iom.agrirouter[Google Playstore, window=\"_blank\"] o dal link:https://apps."
-"apple.com/de/app/myamarouter/id1479666048[Apple App Store, window=\"_blank\""
-"]."
+"myAmaRouter dal link:https://play.google.com/store/apps/details?id=de."
+"amazone.iom.agrirouter[Google Playstore, window=\"_blank\"] o dal link:"
+"https://apps.apple.com/de/app/myamarouter/id1479666048[Apple App Store, "
+"window=\"_blank\"]."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:27
@@ -9799,8 +9872,8 @@ msgstr ""
 "apps/details?id=de.amazone.iom.amatronx[Google Playstore, window=\"_blank\"] "
 "o al link:https://apps.apple.com/de/app/amatron-twin/id1457549008[Apple App "
 "Store, window=\"_blank\"]. Per ulteriori informazioni sull'installazione del "
-"dispositivo, consultare il proprio link:https://amazone.de/de-de/"
-"erleben-erwerben/erwerben/ansprechpartner-vertrieb/haendlersuche[rivenditore "
+"dispositivo, consultare il proprio link:https://amazone.de/de-de/erleben-"
+"erwerben/erwerben/ansprechpartner-vertrieb/haendlersuche[rivenditore "
 "AMAZONE, window=\"_blank\"]."
 
 #. type: Title ===
@@ -9918,8 +9991,8 @@ msgid ""
 "Logge dich in dein link:https://my-agrirouter.accounts.ondemand.com/"
 "[agrirouter-Konto, window=\"_blank\"] ein."
 msgstr ""
-"Accedere al proprio link:https://my-agrirouter.accounts.ondemand.com/["
-"account agrirouter, window=\"_blank\"]."
+"Accedere al proprio link:https://my-agrirouter.accounts.ondemand.com/"
+"[account agrirouter, window=\"_blank\"]."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:76
@@ -9929,8 +10002,8 @@ msgid ""
 "wie du eines erstellst."
 msgstr ""
 "Se non avete ancora un account agrirouter, potete scoprire come crearne uno "
-"al link:https://manual.agrirouter.com/de/manual/latest/account.html"
-"#benutzerkonto-erstellen[qui]."
+"al link:https://manual.agrirouter.com/de/manual/latest/account."
+"html#benutzerkonto-erstellen[qui]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:80
@@ -10007,9 +10080,9 @@ msgid ""
 "AmaTron 4 link:https://manual.agrirouter.com/de/manual/latest/endpoint."
 "html[Endpunkt]."
 msgstr ""
-"Inviare le mappe dell'applicazione desiderata all'AmaTron 4 "
-"link:https://manual.agrirouter.com/de/manual/latest/endpoint.html[endpoint] "
-"tramite il FMIS."
+"Inviare le mappe dell'applicazione desiderata all'AmaTron 4 link:https://"
+"manual.agrirouter.com/de/manual/latest/endpoint.html[endpoint] tramite il "
+"FMIS."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:107
@@ -10107,8 +10180,8 @@ msgid ""
 "Logge dich im link:https://www.myholmer.com/[myHOLMER Portal, "
 "window=\"_blank\"] ein."
 msgstr ""
-"Accedere al link:https://www.myholmer.com/[portale myHOLMER, window=\"_blank"
-"\"]."
+"Accedere al link:https://www.myholmer.com/[portale myHOLMER, "
+"window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:16
@@ -10461,8 +10534,9 @@ msgid ""
 msgstr ""
 "Se si aggiunge una nuova macchina e si desidera visualizzarla tramite "
 "MyEasyFarm, assicurarsi che il pulsante *_IMPORTED EQUIPMENT_* image:"
-"interactive_agrirouter/myeasyfarm/myeasyfarm-imported-equipment-button.png["
-"Select Register ,100, 100]. nella parte superiore della pagina sia attivato."
+"interactive_agrirouter/myeasyfarm/myeasyfarm-imported-equipment-button."
+"png[Select Register ,100, 100]. nella parte superiore della pagina sia "
+"attivato."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:67
@@ -10566,8 +10640,8 @@ msgid ""
 "Nun öffnet sich das Fenster ISOBUS-Datei importieren. Wähle hier die Option "
 "*_IMPORT AUS AGRIROUTER_*."
 msgstr ""
-"Si apre ora la finestra Importa file ISOBUS. Selezionare qui l'opzione *"
-"_IMPORTARE DA AGRIROUTER_*."
+"Si apre ora la finestra Importa file ISOBUS. Selezionare qui l'opzione "
+"*_IMPORTARE DA AGRIROUTER_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:112
@@ -10599,9 +10673,9 @@ msgid ""
 "Mitarbeiter, …) nachträglich eingetragen werden. Klicke hierzu auf *_UPDATE "
 "& IMPORT_*."
 msgstr ""
-"Per importare un file, i punti di dati mancanti (ad es. campo, dipendente, "
-"...) devono essere inseriti successivamente. A tal fine, fare clic su *"
-"_UPDATE & IMPORT_*."
+"Per importare un file, i punti di dati mancanti (ad es. campo, "
+"dipendente, ...) devono essere inseriti successivamente. A tal fine, fare "
+"clic su *_UPDATE & IMPORT_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:124
@@ -10628,7 +10702,8 @@ msgstr ""
 msgid ""
 "Klicke, nachdem du die allgemeinen Informationen bearbeitet hast, auf "
 "*_AKTUALISIERUNG_*."
-msgstr "Dopo aver modificato le informazioni generali, fare clic su *_UPDATE_*."
+msgstr ""
+"Dopo aver modificato le informazioni generali, fare clic su *_UPDATE_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:132
@@ -10679,7 +10754,10 @@ msgstr ""
 "sinistra sotto *_attività_* e sotto *_attrezzatura, dipendenti_* o "
 "*_puntate_* a cui l'attività è assegnata."
 
-#, fuzzy
-#~| msgid "Der Reiter enthält eine Liste der Sender.  Sender"
-#~ msgid "Der Reiter enthält eine Liste der Sender. + Sender"
-#~ msgstr "La scheda contiene un elenco dei mittenti.  I mittenti:"
+#, no-wrap
+#~ msgid ""
+#~ "Der Reiter enthält eine Liste der Sender.\n"
+#~ "Sender"
+#~ msgstr ""
+#~ "La scheda contiene un elenco dei mittenti.\n"
+#~ "I mittenti:"
