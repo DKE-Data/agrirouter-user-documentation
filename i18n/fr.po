@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-04 10:45+0000\n"
-"PO-Revision-Date: 2023-12-04 08:09+0000\n"
+"POT-Creation-Date: 2023-12-04 10:50+0000\n"
+"PO-Revision-Date: 2023-12-04 12:20+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/fr@formal/>\n"
@@ -998,12 +998,12 @@ msgstr "Créer un compte utilisateur"
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:23
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:32
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:45
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:28
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:34
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:43
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:53
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:71
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:79
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:27
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:33
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:42
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:52
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:70
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:78
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:17
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:25
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:35
@@ -5120,7 +5120,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:12
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:11
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:9
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:14
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:21
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:6
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:11
 #, no-wrap
@@ -6800,6 +6800,13 @@ msgid ""
 "Dieser kann dir auch die Lizenz der entsprechenden Maschine und die Server-"
 "Lizenz freischalten respektive einrichten."
 msgstr ""
+"L'utilisation sans problème de l'agrirouter dépend de différentes "
+"conditions, en particulier de l'équipement de la machine, de l'activation de "
+"la licence logicielle de la machine et de la possession d'une licence de "
+"serveur valide, qui jouent un rôle décisif.  Tout d'abord, il est essentiel "
+"que la machine soit correctement équipée. Votre revendeur peut vous dire si "
+"votre machine remplit ces conditions.  Il peut également activer ou "
+"installer la licence de la machine et la licence de serveur."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:17
@@ -8493,6 +8500,11 @@ msgid ""
 "gültigen Server-Lizenz eine entscheidende Rolle.  Die Mindestanforderungen "
 "der einzelnen Punkte werden nachfolgend beschrieben."
 msgstr ""
+"L'utilisation sans problème de l'agrirouter dépend de différentes "
+"conditions, en particulier l'équipement de la machine, l'activation de la "
+"licence logicielle pour la machine ainsi que la possession d'une licence de "
+"serveur valide jouent un rôle décisif.  Les conditions minimales requises "
+"pour chaque point sont décrites ci-dessous."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:21
@@ -10234,7 +10246,7 @@ msgstr "Cliquez sur le bouton Se connecter à *_Agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:37
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:59
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:58
 msgid "Ist die Verbindung hergestellt, kann der Tab geschlossen werden."
 msgstr "Une fois la connexion établie, l'onglet peut être fermé."
 
@@ -10319,25 +10331,7 @@ msgid ""
 msgstr "vous connectez une machine du serveur TaskDoc à l'agrirouter."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:11
-msgid ""
-"Informationen zu den Fendt Agronomie Lösungen sind link:https://www.fendt."
-"com/de/smart-farming/agronomie[hier, window=\"_blank\"] zu finden."
-msgstr ""
-"Les informations sur les solutions Fendt Agronomie sont disponibles sur link:"
-"https://www.fendt.com/de/smart-farming/agronomie[ici, window=\"_blank\"]."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:16
-msgid ""
-"Um mit deiner Fendt, Valtra oder MF Maschine Daten über den agrirouter "
-"austauschen zu können, musst du zuerst die folgenden Schritte befolgen:"
-msgstr ""
-"Pour pouvoir échanger des données avec votre machine Fendt, Valtra ou MF via "
-"l'agrirouter, vous devez d'abord suivre les étapes suivantes :"
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:22
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:13
 msgid ""
 "Die reibungslose Nutzung des agrirouters ist von verschiedenen "
 "Voraussetzungen abhängig, insbesondere spielen die Ausstattung der Maschine, "
@@ -10349,9 +10343,35 @@ msgid ""
 "beantworten. Dieser kann dir auch die Lizenz der entsprechenden Maschine und "
 "die \"TaskDoc Pro Server\"-Lizenz freischalten respektive einrichten."
 msgstr ""
+"L'utilisation sans problème de l'agrirouter dépend de différentes "
+"conditions, en particulier de l'équipement de la machine, de l'activation de "
+"la licence du logiciel pour la machine et de la possession d'une licence "
+"\"TaskDoc Pro Server\" valable.  Tout d'abord, il est essentiel que la "
+"machine soit correctement équipée, par exemple les tracteurs ou les "
+"véhicules autopropulsés.  Votre concessionnaire peut vous dire si votre "
+"machine remplit ces conditions. Il peut également activer ou installer la "
+"licence de la machine concernée et la licence \"TaskDoc Pro Server\"."
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:18
+msgid ""
+"Informationen zu den Fendt Agronomie Lösungen sind link:https://www.fendt."
+"com/de/smart-farming/agronomie[hier, window=\"_blank\"] zu finden."
+msgstr ""
+"Les informations sur les solutions Fendt Agronomie sont disponibles sur link:"
+"https://www.fendt.com/de/smart-farming/agronomie[ici, window=\"_blank\"]."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:31
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:23
+msgid ""
+"Um mit deiner Fendt, Valtra oder MF Maschine Daten über den agrirouter "
+"austauschen zu können, musst du zuerst die folgenden Schritte befolgen:"
+msgstr ""
+"Pour pouvoir échanger des données avec votre machine Fendt, Valtra ou MF via "
+"l'agrirouter, vous devez d'abord suivre les étapes suivantes :"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:30
 msgid ""
 "Nach Erwerb der \"TaskDoc Pro Server\"-Lizenz erhältst du eine automatische "
 "E-Mail, die dir den Zugriff auf den TaskDoc Server ermöglicht. Erstelle dein "
@@ -10362,7 +10382,7 @@ msgstr ""
 "compte en cliquant sur le lien contenu dans l'e-mail."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:32
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:31
 msgid ""
 "Logge dich mit deinen Anmeldedaten auf der link:https://www.agco.taskdoc.de/"
 "signin[TaskDoc Server Website, window=\"_blank\"] ein."
@@ -10371,7 +10391,7 @@ msgstr ""
 "taskdoc.de/signin[TaskDoc Server Website, window=\"_blank\"]."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:38
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:37
 msgid ""
 "Wähle im Hauptmenü die Option *_Fahrzeuge_* aus. In der *_Fahrzeugliste_* "
 "sollte nun deine Maschine angezeigt werden."
@@ -10380,22 +10400,22 @@ msgstr ""
 "véhicules_*, votre machine devrait maintenant être affichée."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:47
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:46
 msgid "Gehe nun zurück zum *_Hauptmenü_*."
 msgstr "Retournez maintenant au *_menu principal_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:48
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:47
 msgid "Wähle dort *_agrirouter Verbindung_* aus."
 msgstr "Sélectionnez *_connexion_agrirouter_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:57
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:56
 msgid "Klicke auf *_Mit dem agrirouter verbinden_*."
 msgstr "Cliquez sur *_Connecter à l'agrirouter_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:58
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:57
 msgid ""
 "Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser "
 "noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst "
@@ -10410,7 +10430,7 @@ msgstr ""
 "votre compte agrirouter."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:64
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:63
 msgid ""
 "Für eine erfolgreiche Verbindung von Maschine und agrirouter, muss auch "
 "deine Maschine als Fahrzeug im TaskDoc Server mit dem agrirouter verbunden "
@@ -10421,34 +10441,34 @@ msgstr ""
 "dans le serveur TaskDoc. Ceci est décrit dans le chapitre suivant."
 
 #. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:66
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:65
 #, no-wrap
 msgid "Maschinen mit dem agrirouter verbinden"
 msgstr "connecter les machines à l'agrirouter"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:74
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:73
 msgid "Wähle im Hauptmenü des TaskDoc Servers die Option *_Fahrzeuge_*."
 msgstr "Dans le menu principal du serveur TaskDoc, sélectionnez *_Véhicules_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:83
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:82
 msgid "Wähle die Maschine, die mit dem agrirouter verbunden werden soll."
 msgstr "Sélectionnez la machine qui doit être connectée à l'agrirouter."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:84
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:83
 msgid "Wähle dann im Untermenü *_agrirouter Verbindung_*."
 msgstr "Sélectionnez ensuite *_connexion_agrirouter_* dans le sous-menu."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:85
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:84
 msgid "Klicke auf *_Fahrzeug aufnehmen_* (Abb. engl. \"Onboard Vehicle\")."
 msgstr ""
 "Cliquez sur *_Enregistrer le véhicule_* (fig. angl. \"Onboard Vehicle\")."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:90
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:89
 msgid ""
 "Jedes weitere Fahrzeug muss einzeln an den agrirouter angeschlossen werden."
 msgstr ""
