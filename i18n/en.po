@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-11-23 11:49+0000\n"
-"PO-Revision-Date: 2023-11-10 11:58+0000\n"
-"Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
+"POT-Creation-Date: 2023-12-04 10:50+0000\n"
+"PO-Revision-Date: 2023-12-04 12:20+0000\n"
+"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 5.1.1\n"
 
 #. type: Hash Value: site title
 #: de/antora.yml:0 de/antora-playbook.yml:0
@@ -317,53 +317,53 @@ msgstr "Telemetry units"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:11
-msgid "xref:solution-guides/argo.adoc[ARGO Traktoren]"
-msgstr "xref:solution-guides/argo.adoc[ARGO tractors]"
+msgid "xref:solution-guides/myamarouter.adoc[AMAZONE]"
+msgstr "xref:solution-guides/myamarouter.adoc[AMAZONE]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:12
-msgid "xref:solution-guides/cci-terminals.adoc[CCI Terminal]"
-msgstr "xref:solution-guides/cci-terminals.adoc[CCI Terminal]"
+msgid "xref:solution-guides/cci-terminals.adoc[CCI]"
+msgstr "xref:solution-guides/cci-terminals.adoc[CCI]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:13
-msgid "xref:solution-guides/holmer-easy-help.adoc[HOLMER Easy Help 4.0]"
-msgstr "xref:solution-guides/holmer-easy-help.adoc[HOLMER Easy Help 4.0]"
+msgid "xref:solution-guides/same-deutz-fahr.adoc[Deutz-Fahr, SAME]"
+msgstr "xref:solution-guides/same-deutz-fahr.adoc[Deutz-Fahr, SAME]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:14
+msgid "xref:solution-guides/taskdoc-server.adoc[Fendt, Valtra, MF]"
+msgstr "xref:solution-guides/taskdoc-server.adoc[Fendt, Valtra, MF]"
+
+#. type: Plain text
+#: de/modules/ROOT/nav.adoc:15
+msgid "xref:solution-guides/mygrimme.adoc[GRIMME]"
+msgstr "xref:solution-guides/mygrimme.adoc[GRIMME]"
+
+#. type: Plain text
+#: de/modules/ROOT/nav.adoc:16
+msgid "xref:solution-guides/holmer-easy-help.adoc[HOLMER]"
+msgstr "xref:solution-guides/holmer-easy-help.adoc[HOLMER]"
+
+#. type: Plain text
+#: de/modules/ROOT/nav.adoc:17
 msgid "xref:solution-guides/krone.adoc[KRONE]"
 msgstr "xref:solution-guides/krone.adoc[KRONE]"
 
 #. type: Plain text
-#: de/modules/ROOT/nav.adoc:15
-msgid "xref:solution-guides/lemken.adoc[LEMKEN iQblue]"
-msgstr "xref:solution-guides/lemken.adoc[LEMKEN iQblue]"
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:16
-msgid "xref:solution-guides/myamarouter.adoc[myAmaRouter]"
-msgstr "xref:solution-guides/myamarouter.adoc[myAmaRouter]"
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:17
-msgid "xref:solution-guides/mygrimme.adoc[myGrimme]"
-msgstr "xref:solution-guides/mygrimme.adoc[myGrimme]"
-
-#. type: Plain text
 #: de/modules/ROOT/nav.adoc:18
-msgid "xref:solution-guides/poettinger.adoc[Pöttinger CONNECT]"
-msgstr "xref:solution-guides/poettinger.adoc[Pöttinger CONNECT]"
+msgid "xref:solution-guides/lemken.adoc[LEMKEN]"
+msgstr "xref:solution-guides/lemken.adoc[LEMKEN]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:19
-msgid "xref:solution-guides/same-deutz-fahr.adoc[Same-Deutz-Fahr]"
-msgstr "xref:solution-guides/same-deutz-fahr.adoc[Same-Deutz-Fahr]"
+msgid "xref:solution-guides/argo.adoc[McCornick, Landini]"
+msgstr "xref:solution-guides/argo.adoc[McCornick, Landini]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:20
-msgid "xref:solution-guides/taskdoc-server.adoc[TaskDoc Server]"
-msgstr "xref:solution-guides/taskdoc-server.adoc[TaskDoc Server]"
+msgid "xref:solution-guides/poettinger.adoc[PÖTTINGER]"
+msgstr "xref:solution-guides/poettinger.adoc[PÖTTINGER]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:21
@@ -650,55 +650,36 @@ msgstr "Data sharing"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:97
-#, fuzzy
-#| msgid ""
-#| "Inzwischen weißt du: ohne Route kein Datenaustausch!\n"
-#| "Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen "
-#| "in [.underline]#beiden# Konten Routen erstellt werden:"
 msgid ""
 "Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der "
 "Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [."
 "underline]#beiden# Konten Routen erstellt werden:"
 msgstr ""
-"By now you know: no data exchange without a route!\n"
-"For data exchange to work with a connected account, routes must be created "
-"in [.underline]#both# accounts:"
+"By now you know: no data exchange without a route! + For data exchange to "
+"work with a connected account, routes must be created in [.underline]#both# "
+"accounts:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:100
-#, fuzzy
-#| msgid ""
-#| "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner "
-#| "Endpunkte Daten an das verbundene Konto sendet.\n"
-#| "Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des "
-#| "anderen Kontos eingehende Routen erstellen."
 msgid ""
 "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte "
 "Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger "
 "ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
 msgstr ""
 "With outgoing routes in your account, you determine which of your endpoints "
-"sends data to the connected account.\n"
-"In order for the data to reach the recipient, the owner of the other account "
-"must create incoming routes."
+"sends data to the connected account. + In order for the data to reach the "
+"recipient, the owner of the other account must create incoming routes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:102
-#, fuzzy
-#| msgid ""
-#| "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner "
-#| "Endpunkte Daten vom verbundenen Konto empfangen.\n"
-#| "Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende "
-#| "Routen erstellen."
 msgid ""
 "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner "
 "Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, "
 "muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
 msgstr ""
 "With inbound routes in your account, you determine which of your endpoints "
-"receive data from the connected account.\n"
-"In order for you to receive data, the owner of the other account must create "
-"outgoing routes."
+"receive data from the connected account. + In order for you to receive data, "
+"the owner of the other account must create outgoing routes."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
@@ -882,20 +863,20 @@ msgstr "Create a user account"
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:133
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:148
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:158
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:14
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:26
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:36
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:46
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:52
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:58
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:68
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:76
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:85
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:94
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:104
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:113
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:122
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:132
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:21
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:33
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:43
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:53
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:59
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:65
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:75
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:83
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:92
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:101
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:111
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:120
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:129
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:139
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:20
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:30
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:39
@@ -942,19 +923,19 @@ msgstr "Create a user account"
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:108
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:113
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:3
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:25
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:35
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:31
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:41
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:50
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:65
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:78
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:86
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:102
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:112
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:122
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:136
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:149
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:176
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:47
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:56
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:71
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:84
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:92
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:108
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:118
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:128
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:142
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:155
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:182
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
@@ -1000,12 +981,12 @@ msgstr "Create a user account"
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:23
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:32
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:45
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:21
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:27
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:36
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:46
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:64
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:72
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:33
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:42
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:52
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:70
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:78
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:17
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:25
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:35
@@ -1392,21 +1373,14 @@ msgstr "Display"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:181
-#, fuzzy
-#| msgid ""
-#| "Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der "
-#| "Benutzeroberfläche.\n"
-#| "Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente "
-#| "ein und aktivierst die Animationen."
 msgid ""
 "Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der "
 "Benutzeroberfläche. + Im Reiter `Anzeigeeinstellungen` stellst du die Größe "
 "der Bedienelemente ein und aktivierst die Animationen."
 msgstr ""
 "In the 'Theme' tab, you can choose between a light and dark design for the "
-"user interface.\n"
-"In the 'Display settings' tab, you can set the size of the control elements "
-"and activate the animations."
+"user interface. + In the 'Display settings' tab, you can set the size of the "
+"controls and activate the animations."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:184
@@ -1603,15 +1577,9 @@ msgstr "Endpoint list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:28
-#, fuzzy
-#| msgid ""
-#| "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert.\n"
-#| "Du kannst"
 msgid ""
 "Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
-msgstr ""
-"The final points list is sorted alphabetically by name.\n"
-"You can"
+msgstr "The final points list is sorted alphabetically by name. + You can"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:30
@@ -1745,21 +1713,14 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:88
-#, fuzzy
-#| msgid ""
-#| "Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den "
-#| "Code in die Zwischenablage zu kopieren.\n"
-#| "Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um "
-#| "den Code auszudrucken."
 msgid ""
 "Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den "
 "Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:"
 "ar_print.icon.png[print, 30, 30], um den Code auszudrucken."
 msgstr ""
 "Click the icon *_copy_* image:ar_copy.icon.png[copy, 30, 30] to copy the "
-"code to the clipboard.\n"
-"Click the icon *_print_* image:ar_print.icon.png[print, 30, 30] to print the "
-"code."
+"code to the clipboard. + Click the icon *_print_* image:ar_print.icon."
+"png[print, 30, 30] to print the code."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:92
@@ -2092,14 +2053,8 @@ msgstr "Send to"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:179 de/modules/ROOT/pages/group.adoc:103
-#, fuzzy
-#| msgid ""
-#| "Der Reiter enthält eine Liste der Empfänger.\n"
-#| "Empfänger"
 msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
-msgstr ""
-"The tab contains a list of recipients.\n"
-"Recipients"
+msgstr "The tab contains a list of recipients. + Recipients"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:181 de/modules/ROOT/pages/group.adoc:105
@@ -2511,19 +2466,13 @@ msgstr "Capabilities"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:305
-#, fuzzy
-#| msgid ""
-#| "Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen "
-#| "kann.\n"
-#| "Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und können "
-#| "nicht geändert werden."
 msgid ""
 "Der Reiter enthält die Nachrichten, die der Endpunkt senden und empfangen "
 "kann. + Die unterstützten Nachrichten sind vom Endpunkt vorgegeben und "
 "können nicht geändert werden."
 msgstr ""
-"The tab contains the messages that the endpoint can send and receive.\n"
-"The supported messages are predefined by the endpoint and cannot be changed."
+"The tab contains the messages that the endpoint can send and receive. + The "
+"supported messages are predefined by the endpoint and cannot be changed."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:306
@@ -2792,12 +2741,6 @@ msgstr "Group"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:8
-#, fuzzy
-#| msgid ""
-#| "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. "
-#| "nach Hersteller, Maschinentyp oder Maßnahme.\n"
-#| "Der Vorteil: Das xref:introduction.adoc#route[Routing], das du für die "
-#| "Gruppe einstellst, gilt für alle Mitglieder der Gruppe."
 msgid ""
 "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach "
 "Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:introduction."
@@ -2805,9 +2748,9 @@ msgid ""
 "Mitglieder der Gruppe."
 msgstr ""
 "Combine endpoints in xref:introduction.adoc#group[groups], e.g. by "
-"manufacturer, machine type or measure.\n"
-"The advantage: The xref:introduction.adoc#route[Routing] that you set for "
-"the group applies to all members of the group."
+"manufacturer, machine type or measure. + The advantage: The xref:"
+"introduction.adoc#route[Routing] that you set for the group applies to all "
+"members of the group."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:12
@@ -2860,15 +2803,9 @@ msgstr "Group list"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:32
-#, fuzzy
-#| msgid ""
-#| "Die Gruppenliste ist anhand des Namens alphabetisch sortiert.\n"
-#| "Du kannst"
 msgid ""
 "Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
-msgstr ""
-"The group list is sorted alphabetically by name.\n"
-"You can"
+msgstr "The group list is sorted alphabetically by name. + You can"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/group.adoc:34
@@ -3644,21 +3581,14 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:84
-#, fuzzy
-#| msgid ""
-#| "Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp "
-#| "oder Maßnahme.\n"
-#| "Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle "
-#| "Mitglieder der Gruppe."
 msgid ""
 "Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder "
 "Maßnahme. + Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt "
 "für alle Mitglieder der Gruppe."
 msgstr ""
 "Combine end points into groups, e.g. by manufacturer, machine type or "
-"measure.\n"
-"The advantage: The routing you set for the group applies to all members of "
-"the group."
+"measure. + The advantage: The routing that you set for the group applies to "
+"all members of the group."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:87
@@ -3860,20 +3790,14 @@ msgstr "Agricultural software group"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:135
-#, fuzzy
-#| msgid ""
-#| "Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des "
-#| "agrirouter: + Für beide Gruppen ist das Routing bereits definiert. Neue "
-#| "Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und "
-#| "senden."
 msgid ""
 "Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: "
 "+ Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können "
 "ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +"
 msgstr ""
-"The default groups enable you to quickly get agrirouter up and running: + "
-"The routing is pre-defined for both groups. New endpoints can send and "
-"receive data without you spending any more time on configuration."
+"The standard groups enable the agrirouter to be commissioned quickly: + "
+"Routing is already defined for both groups. New endpoints can receive and "
+"send data without any further configuration effort. +"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:137
@@ -4567,13 +4491,6 @@ msgstr "System monitoring"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:118
-#, fuzzy
-#| msgid ""
-#| "agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist "
-#| "der agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder "
-#| "einer Störung. Endpunkte können dann keine Daten mehr versenden oder "
-#| "empfangen.\n"
-#| "Der Systemmonitor zeigt an, ob der agrirouter verfügbar ist:"
 msgid ""
 "agrirouter garantiert eine Verfügbarkeit von 99,5%. Nur sehr selten ist der "
 "agrirouter also offline, z.B. aufgrund von Wartungsarbeiten oder einer "
@@ -4582,8 +4499,8 @@ msgid ""
 msgstr ""
 "agrirouter guarantees an availability of 99.5%. This means that the "
 "agrirouter is only very rarely offline, e.g. due to maintenance work or a "
-"fault. Endpoints can then no longer send or receive data.\n"
-"The system monitor shows whether the agrirouter is available:"
+"fault. Endpoints can then no longer send or receive data. + The system "
+"monitor shows whether the agrirouter is available:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:121
@@ -4805,12 +4722,6 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:21
-#, fuzzy
-#| msgid ""
-#| "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm "
-#| "ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
-#| "Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data "
-#| "Dictionary^] veröffentlicht."
 msgid ""
 "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO "
 "11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs "
@@ -4818,9 +4729,9 @@ msgid ""
 "veröffentlicht."
 msgstr ""
 "The machine, position and process parameters are defined in the ISOBUS "
-"standard ISO 11783 and are called DDI (Data Dictionary Identifier).\n"
-"The DDIs are published in the https://www.isobus.net/isobus/dDEntity[ISOBUS "
-"Data Dictionary^]."
+"standard ISO 11783 and are called DDI (Data Dictionary Identifier). + The "
+"DDIs are published in the https://www.isobus.net/isobus/dDEntity[ISOBUS Data "
+"Dictionary^]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/appendix/ddis.adoc:24
@@ -5015,7 +4926,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:11
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:6
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:6
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:13
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:19
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:6
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:12
 #: de/modules/ROOT/pages/solution-guides/poettinger.adoc:9
@@ -5023,7 +4934,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:12
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:11
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:9
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:9
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:21
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:6
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:11
 #, no-wrap
@@ -6059,7 +5970,7 @@ msgstr "The registration code only needs to be entered once."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:129
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:129
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:135
 #, no-wrap
 msgid "Kontrolle der Online-Verbindung"
 msgstr "Checking the online connection"
@@ -6180,16 +6091,12 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:164
-#, fuzzy
-#| msgid ""
-#| "Wähle die Option *_Inbox_* bzw. *_Postausgang_*. Hier sind alle Dateien "
-#| "entahlten, die noch nicht an den agrirouter versendet werden konnten."
 msgid ""
 "Wähle die Option *_Inbox_* bzw. *_Postausgang_*. Hier sind alle Dateien "
 "enthalten, die noch nicht an den agrirouter versendet werden konnten."
 msgstr ""
-"Select the option *_Inbox_* or *_Outbox_*. All files that have not yet been "
-"sent to the agrirouter are listed here."
+"Select the option *_Inbox_* or *_Outbox_*. This contains all files that have "
+"not yet been sent to the agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:165
@@ -6646,14 +6553,34 @@ msgstr "add a machine."
 msgid "dein Terminal mit dem agrirouter verbindest."
 msgstr "connect your terminal to the agrirouter."
 
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:14
+msgid ""
+"Die reibungslose Nutzung des agrirouters ist von verschiedenen "
+"Voraussetzungen abhängig, insbesondere spielen die Ausstattung der Maschine, "
+"die Aktivierung der Softwarelizenz zu der Maschine sowie der Besitz einer "
+"gültigen Server-Lizenz eine entscheidende Rolle.  Zunächst ist die "
+"angemessene Ausstattung der Maschine von essenzieller Bedeutung. Ob deine "
+"Maschine diese Voraussetzungen erfüllt, kann dir dein Händler beantworten.  "
+"Dieser kann dir auch die Lizenz der entsprechenden Maschine und die Server-"
+"Lizenz freischalten respektive einrichten."
+msgstr ""
+"The smooth use of the agrirouter depends on various prerequisites, in "
+"particular the equipment of the machine, the activation of the software "
+"license for the machine and the possession of a valid server license play a "
+"decisive role.  First of all, the appropriate equipment of the machine is "
+"essential. Your dealer can tell you whether your machine meets these "
+"requirements.  They can also activate or set up the license for the "
+"corresponding machine and the server license."
+
 #. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:10
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:17
 #, no-wrap
 msgid "Verbindung zum agrirouter herstellen"
 msgstr "Establishing a connection to the agrirouter"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:13
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:20
 msgid ""
 "Um mit deiner ARGO Maschine Daten über den agrirouter austauschen zu können, "
 "musst du die folgenden Schritte befolgen."
@@ -6662,7 +6589,7 @@ msgstr ""
 "must follow the steps below."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:17
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:24
 msgid ""
 "Logge dich in das link:https://argofleet.argotractors.com/#/auth/login[ARGO "
 "Fleet Management Portal, window=\"_blank\"] ein."
@@ -6671,7 +6598,7 @@ msgstr ""
 "Fleet Management Portal, window=\"_blank\"]."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:21
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:28
 msgid ""
 "In Schritt 1 ist explizit das *ARGO Fleet Management Portal* gemeint. Nicht "
 "das Landini Fleet Portal oder das McCormick Fleet Portal."
@@ -6680,18 +6607,18 @@ msgstr ""
 "Landini Fleet Portal or the McCormick Fleet Portal."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:25
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:32
 msgid ""
 "Wähle in der linken Seitenleiste *_AgriRouter_* und klicke auf *_REGISTRY_*."
 msgstr "Select *_AgriRouter_* in the left sidebar and click on *_REGISTRY_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:31
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:38
 msgid "Wähle Activate *_AgriRouter Integration_*."
 msgstr "Select Activate *_AgriRouter Integration_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:32
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:39
 msgid ""
 "Solltest du in diesem Browser noch nicht in deinem agrirouter-Konto "
 "eingeloggt sein, wirst du nun aufgefordert dich einzuloggen"
@@ -6700,12 +6627,12 @@ msgstr ""
 "will now be asked to log in"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:40
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:47
 msgid "Klicke auf *_CONNECT_*."
 msgstr "Click on *_CONNECT_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:41
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:48
 msgid ""
 "Jetzt besteht eine Verbindung zwischen deinem agrirouter-Konto und deinem "
 "Argo Fleet Management Konto."
@@ -6714,13 +6641,13 @@ msgstr ""
 "Fleet Management account."
 
 #. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:43
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:50
 #, no-wrap
 msgid "Hinzufügen einer Maschine"
 msgstr "Adding a machine"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:45
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:52
 msgid ""
 "Um eine bestimmte Maschine auswählen zu können, die über den agrirouter "
 "Daten senden und empfangen soll, muss die zuerst hinzugefügt werden."
@@ -6729,29 +6656,29 @@ msgstr ""
 "agrirouter, it must first be added."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:49
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:56
 msgid "Klicke in der linken Seitenleiste auf *_AgriRouter_*."
 msgstr "Click on *_AgriRouter_* in the left sidebar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:50
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:57
 msgid "Klicke auf das *_+ Icon_*, um eine Maschine hinzuzufügen."
 msgstr "Click on the *_+ icon_* to add a machine."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:51
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:58
 msgid ""
 "Füge die benötigten Informationen hinzu und klicke auf das *_Speichern-"
 "Icon_*."
 msgstr "Add the required information and click on the *_Save icon_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:56
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:63
 msgid "Wähle die Maschine aus, die du im letzten Schritt hinzugefügt hast."
 msgstr "Select the machine you added in the last step."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:57
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:64
 msgid ""
 "Klicke auf das *_On-Board_* Symbol, um mit dem Agrirouter On-Boarding "
 "fortzufahren."
@@ -6759,7 +6686,7 @@ msgstr ""
 "Click on the *_On-Board_* icon to continue with the Agrirouter On-Boarding."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:62
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:69
 msgid ""
 "Der On-Boarding-Vorgang ist abgeschlossen, wenn neben dem Fahrzeug der grüne "
 "Punkt erscheint."
@@ -6768,13 +6695,13 @@ msgstr ""
 "vehicle."
 
 #. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:63
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:70
 #, no-wrap
 msgid "Terminal (X25) mit dem agrirouter verbinden"
 msgstr "Connect the terminal (X25) to the agrirouter"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:71
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:78
 msgid ""
 "Vom X25-Terminal aus klickst du auf das Symbol für CLOUD BASED SERVICES "
 "(Disabled)."
@@ -6782,14 +6709,14 @@ msgstr ""
 "From the X25 terminal, click on the icon for CLOUD BASED SERVICES (Disabled)."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:80
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:87
 msgid ""
 "Wähle im nächsten Fenster die Option *_AgriRouter_* und klicke auf *_OK_*."
 msgstr ""
 "In the next window, select the option *_AgriRouter_* and click on *_OK_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:89
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:96
 msgid ""
 "Die Verbindung ist bestätigt, wenn das Symbol bei CLOUD BASED SERVICES grün "
 "wird (Verbunden)."
@@ -6798,7 +6725,7 @@ msgstr ""
 "(Connected)."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:98
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:105
 msgid ""
 "Logge dich jetzt online auf deinem https://my-agrirouter.accounts.ondemand."
 "com/[agrirouter-Konto, window=\"_blank\"] ein und https://manual.agrirouter."
@@ -6811,12 +6738,12 @@ msgstr ""
 "point (Horizon ARGO), window=\"_blank\"]."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:99
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:106
 msgid "Notiere dir im letzten Schritt den Registrierungscode."
 msgstr "Make a note of the registration code in the last step."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:108
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:115
 msgid ""
 "Klicke in deinem X25 Terminal auf *_System Setup_* und dann auf "
 "*_AGRIROUTER_*."
@@ -6824,28 +6751,28 @@ msgstr ""
 "In your X25 terminal, click on *_System Setup_* and then on *_AGRIROUTER_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:117
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:124
 msgid "Klicke auf *_CODE_*."
 msgstr "Click on *_CODE_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:126
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:133
 msgid ""
 "Gib den *_Registrierungscode_* ein, den du dir unter Schritt 5 notiert hast."
 msgstr "Enter the *_registration code_* that you wrote down in step 5."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:127
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:134
 msgid "Klicke auf den *_grünen Haken_*, um die Eingabe zu bestätigen."
 msgstr "Click on the *_green tick_* to confirm the entry."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:136
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:143
 msgid "Klicke auf *_OK_*."
 msgstr "Click on *_OK_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:137
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:144
 msgid ""
 "Du hast nun erfolgreich eine Verbindung zwischen deiner ARGO-Traktoren "
 "Maschine und dem agrirouter hergestellt. Du kannst nun drahtlos Daten von "
@@ -6857,7 +6784,7 @@ msgstr ""
 "example, your farm management system to your machine via the agrirouter."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/argo.adoc:142
+#: de/modules/ROOT/pages/solution-guides/argo.adoc:149
 msgid ""
 "Wenn du während des Prozesses Unterstützung benötigst, kannst du dich bei "
 "deinem lokalen Händler melden."
@@ -7777,18 +7704,18 @@ msgstr "Click on the corresponding card type."
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:1
 #, no-wrap
-msgid "Grimme-Maschinen Solution Guide"
-msgstr "Grimme Machines Solution Guide"
+msgid "GRIMME myGRIMME Solution Guide"
+msgstr "GRIMME myGRIMME Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:4
 msgid ""
-"Deine Grimme Telemetrieeinheit muss mit dem agrirouter verbunden sein, um "
+"Deine GRIMME Telemetrieeinheit muss mit dem agrirouter verbunden sein, um "
 "drahtlos Telemetriedaten an dein Farm-Management-System und die myGrimme "
 "Platform senden zu können. In diesem Abschnitt erfährst du, wie du deine "
 "Grimme Maschine mit dem agrirouter verbindest."
 msgstr ""
-"Your Grimme telemetry unit must be connected to the agrirouter to be able to "
+"Your GRIMME telemetry unit must be connected to the agrirouter to be able to "
 "send telemetry data wirelessly to your farm management system and the "
 "myGrimme Platform. In this section you will learn how to connect your Grimme "
 "machine to the agrirouter."
@@ -7830,11 +7757,11 @@ msgstr "Click on *_CONNECT_* in the following window."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:31
 msgid ""
-"Dein agrirouter-Konto ist nun mit deinem myGrimme-Konto verbunden. Wähle "
+"Dein agrirouter-Konto ist nun mit deinem myGRIMME-Konto verbunden. Wähle "
 "jetzt aus, welche deiner Maschinen Daten über den agrirouter senden und "
 "empfangen sollen."
 msgstr ""
-"Your agrirouter account is now connected to your myGrimme account. Now "
+"Your agrirouter account is now connected to your myGRIMME account. Now "
 "select which of your machines should send and receive data via the "
 "agrirouter."
 
@@ -7855,21 +7782,21 @@ msgstr "### Checking the online connection"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:47
 msgid ""
-"Um festzustellen, ob deine Grimme-Maschine mit dem agrirouter verbunden ist "
+"Um festzustellen, ob deine GRIMME-Maschine mit dem agrirouter verbunden ist "
 "und Daten über den agrirouter sendet, musst du zwei Punkte überprüfen."
 msgstr ""
-"To determine whether your Grimme machine is connected to the agrirouter and "
+"To determine whether your GRIMME machine is connected to the agrirouter and "
 "is sending data via the agrirouter, you must check two points."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:51
 msgid ""
-"Auf der Startseite deines myGrimme-Kontos bekommst du einen Überblick über "
-"deinen Fuhrpark. Wird angezeigt, dass die Maschine ***Online*** ist, ist sie "
+"Auf der Startseite deines myGRIMME-Kontos bekommst du einen Überblick über "
+"deinen Fuhrpark. Wird angezeigt, dass die Maschine online ist, ist sie "
 "bereit Daten zu senden und zu empfangen."
 msgstr ""
-"On the start page of your myGrimme account, you get an overview of your "
-"fleet. If it shows that the machine is ***online***, it is ready to send and "
+"On the start page of your myGRIMME account you get an overview of your "
+"fleet. If it shows that the machine is online, it is ready to send and "
 "receive data."
 
 #. type: Plain text
@@ -7889,7 +7816,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:59
 msgid ""
-"Ist deine Maschine *_Online und mit dem agrirouter verbunden_*, besteht eine "
+"Ist deine Maschine *_online und mit dem agrirouter verbunden_*, besteht eine "
 "aktive Verbindung. In diesem Beispiel ist das für den VARITRON 470 der Fall."
 msgstr ""
 "If your machine is *_online and connected to the agrirouter_*, there is an "
@@ -7903,13 +7830,13 @@ msgstr "## Import of prescription maps"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:63
 msgid ""
-"Wenn du über dein Farm-Management-System Applikationskarten an deine Grimme-"
+"Wenn du über dein Farm-Management-System Applikationskarten an deine GRIMME-"
 "Maschine gesendet hast, kannst du diese über dein Terminal in der Maschine "
 "abrufen. Wie das funktioniert, erfährst du xref:solution-guides/cci-"
 "terminals.adoc#importmaps[hier]."
 msgstr ""
-"If you have sent prescription maps to your Grimme implement via your farm "
-"management system, you can retrieve them via your terminal in the implement. "
+"If you have sent prescription maps to your GRIMME machine via your farm "
+"management system, you can retrieve them via your terminal in the machine. "
 "You can find out how this works xref:solution-guides/cci-terminals."
 "adoc#importmaps[here]."
 
@@ -7921,7 +7848,7 @@ msgstr "## Export of actual application maps (As Applied Maps)"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:67
 msgid ""
-"Sobald eine Maschine eingeschaltet ist und über die myGrimme Plattform mit "
+"Sobald eine Maschine eingeschaltet ist und über die myGRIMME Plattform mit "
 "dem agrirouter verbunden ist, werden alle Daten Live über den agrirouter an "
 "andere Endpunkte wie bspw. Farm-Management-Systeme gesendet. Zu den "
 "gesendeten Daten gehören Ist-Applikationskarten, sowie weitere "
@@ -7931,7 +7858,7 @@ msgid ""
 "adoc#route[hier]."
 msgstr ""
 "As soon as a machine is switched on and connected to the agrirouter via the "
-"myGrimme platform, all data is sent live via the agrirouter to other end "
+"myGRIMME platform, all data is sent live via the agrirouter to other end "
 "points such as farm management systems. The data sent includes actual "
 "application maps and other telemetry data such as fuel consumption, "
 "harvesting depth or driving speed. You can find out how to set the end "
@@ -8273,8 +8200,23 @@ msgstr "Check online connection"
 msgid "Export von Ist-Applikationskarten"
 msgstr "Export of actual application maps"
 
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:16
+msgid ""
+"Die reibungslose Nutzung des agrirouters ist von verschiedenen "
+"Voraussetzungen abhängig, insbesondere spielen die Ausstattung der Maschine, "
+"die Aktivierung der Softwarelizenz zu der Maschine sowie der Besitz einer "
+"gültigen Server-Lizenz eine entscheidende Rolle.  Die Mindestanforderungen "
+"der einzelnen Punkte werden nachfolgend beschrieben."
+msgstr ""
+"The smooth use of the agrirouter depends on various prerequisites, in "
+"particular the equipment of the machine, the activation of the software "
+"license for the machine and the possession of a valid server license play a "
+"decisive role.  The minimum requirements for the individual points are "
+"described below."
+
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:15
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:21
 msgid ""
 "Bevor du beginnst, überprüfe bitte, ob deine Maschine die folgenden "
 "Mindestanforderungen erfüllt:"
@@ -8283,22 +8225,22 @@ msgstr ""
 "requirements:"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:17
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:23
 msgid "Die Maschine ist mit ISOBUS ausgestattet"
 msgstr "The machine is equipped with ISOBUS"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:18
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:24
 msgid "iMonitor 3 mit der Softwareversion 4.04.62.7 oder höher montiert"
 msgstr "iMonitor 3 with software version 4.04.62.7 or higher installed"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:19
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:25
 msgid "iMonitor 8\": eine Task Data + Advanced Mode-Lizenz erforderlich"
 msgstr "iMonitor 8\": one Task Data + Advanced Mode license required"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:20
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:26
 msgid ""
 "iMonitor 12\": keine zusätzliche Lizenz erforderlich CTM (Communication "
 "Telematic Module) montiert mit mindestens einem aktiven Dienst (SDF Fleet "
@@ -8309,18 +8251,18 @@ msgstr ""
 "Data Traffic Package)"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:21
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:27
 msgid "GPS-Empfänger montiert"
 msgstr "GPS receiver fitted"
 
 #. type: Title ===
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:22
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:28
 #, no-wrap
 msgid "Einrichtung der SDF Datenplattform"
 msgstr "Setting up the SDF data platform"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:24
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:30
 msgid ""
 "Logge dich in dein Profil der link:https://www.sdf-dataplatform.com/[SDF-"
 "Datenplattform, window=\"_blank\"] ein, wenn du bereits ein Profil erstellt "
@@ -8331,7 +8273,7 @@ msgstr ""
 "click on *Register* and follow the registration process."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:30
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:36
 msgid ""
 "Ist der Registrierungs- oder Loginprozess abgeschlossen, wähle den Menüpunkt "
 "*_FAHRZEUGE_* in der linken Seitenleiste."
@@ -8340,34 +8282,34 @@ msgstr ""
 "*_RIDES_* in the left sidebar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:31
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:37
 msgid "Klicke anschließend auf *_Fahrzeug hinzufügen_*."
 msgstr "Then click on *_Add vehicle_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:39
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:45
 msgid "Folge nun dem Prozess, um ein neues Fahrzeug hinzuzufügen."
 msgstr "Now follow the process to add a new vehicle."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:45
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:51
 msgid "Wähle auf der linken Seitenleiste den Menüpunkt *_DATA MANAGEMENT_*."
 msgstr "Select the menu item *_DATA MANAGEMENT_* on the left sidebar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:46
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:52
 msgid "Klicke auf den Button *_Konto Verknüpfen_*."
 msgstr "Click on the button *_Link account_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:54
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:60
 msgid ""
 "Gib die E-Mail deines agrirouter-Kontos ein und klicke auf *_Hinzufügen_*."
 msgstr ""
 "Enter the e-mail address of your agrirouter account and click on *_Add_*."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:59
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:65
 msgid ""
 "Falls du noch kein agrirouter-Konto hast, erfährst du link:https://"
 "agrirouter.com/de/agrirouter/quick-start-guide/agrirouter-konto-einrichten/"
@@ -8378,7 +8320,7 @@ msgstr ""
 "agrirouter-konto-einrichten/[here, window=\"_blank\"]."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:69
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:75
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:47
 msgid ""
 "Du wirst jetzt auf eine neue Seite weitergeleitet. Falls du in deinem "
@@ -8393,7 +8335,7 @@ msgstr ""
 "and a connection to your agrirouter account will be established."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:72
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:78
 msgid ""
 "War die Verknüpfung erfolgreich, kommt eine Erfolgsmeldung und der Account "
 "wird in der Liste angezeigt. Dein SDF-Datenplattform-Konto ist jetzt mit "
@@ -8406,7 +8348,7 @@ msgstr ""
 "to the agrirouter account."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:76
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:82
 msgid ""
 "Über einen Klick auf das blau hinterlegte + können weitere agrirouter-Konten "
 "verbunden werden."
@@ -8414,24 +8356,24 @@ msgstr ""
 "Additional agrirouter accounts can be connected by clicking on the blue +."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:82
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:88
 msgid ""
 "Klicke auf das blau hinterlegte Link-Symbol, um eine deiner Maschinen zu "
 "verbinden."
 msgstr "Click on the blue link icon to connect one of your machines."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:90
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:96
 msgid "Wähle die Maschine aus, die du verbinden möchtest."
 msgstr "Select the machine you want to connect."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:91
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:97
 msgid "Klicke auf *_Verbinden Sie_*."
 msgstr "Click on *_Connect_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:94
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:100
 msgid ""
 "Die Einrichtung der SDF Datenplattform ist hiermit abgeschlossen. Um von "
 "deiner Maschine über den agrirouter Daten an dein Farm-Management-System zu "
@@ -8443,13 +8385,13 @@ msgstr ""
 "(iMonitor) still needs to be connected to your SDF data platform account."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:95
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:101
 #, no-wrap
 msgid "Einrichtung des Terminals (iMonitor)"
 msgstr "Setting up the terminal (iMonitor)"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:98
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:104
 msgid ""
 "Unter diesem Abschnitt erfährst du, wie du deine Maschine mit der SDF "
 "Datenplattform verbindest, um Daten von deiner Maschine über den agrirouter "
@@ -8460,25 +8402,25 @@ msgstr ""
 "the agrirouter."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:105
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:111
 msgid ""
-"Über einen Klick auf die Wolke in der linken Seitenleiste öffnet sich das "
-"SDF-Datenmanagement."
+"Über einen Klick auf die *_Wolke_* in der linken Seitenleiste öffnet sich "
+"das SDF-Datenmanagement."
 msgstr ""
-"Click on the cloud in the left sidebar to open the SDF data management."
+"Click on the *_cloud_* in the left sidebar to open the SDF data management."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:106
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:112
 msgid "Gib hier die Anmeldedaten deines SDF-Datenmanagement-Kontos ein."
 msgstr "Enter the login details of your SDF data management account here."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:107
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:113
 msgid "Bestätige deine Anmeldung über einen Klick auf die Pfeiltaste."
 msgstr "Confirm your registration by clicking on the arrow button."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:116
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:122
 msgid ""
 "Im nächsten Schritt gibst du die VIN Nummer der Maschine ein, die du "
 "verbinden möchtest."
@@ -8486,12 +8428,12 @@ msgstr ""
 "In the next step, enter the VIN number of the machine you want to connect."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:117
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:123
 msgid "Bestätige die Eingabe über die Pfeiltaste"
 msgstr "Confirm the entry using the arrow key"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:126
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:132
 msgid ""
 "Überprüfe nun, ob das korrekte agrirouter-Konto angezeigt wird und wähle es "
 "aus."
@@ -8499,13 +8441,13 @@ msgstr ""
 "Now check whether the correct agrirouter account is displayed and select it."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:127
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:133
 msgid ""
 "Bestätige deine Auswahl, indem du auf den Button mit dem Häkchen klickst."
 msgstr "Confirm your selection by clicking on the button with the checkmark."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:132
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:138
 msgid ""
 "Um zu kontrollieren, ob eine Verbindung zum agrirouter besteht, führst du "
 "folgende Schritte durch:"
@@ -8514,17 +8456,17 @@ msgstr ""
 "following steps:"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:139
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:145
 msgid "Klicke auf die *_Wolke_* in der linken Seitenleiste."
 msgstr "Click on the *_cloud_* in the left sidebar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:140
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:146
 msgid "Wähle in der rechten Seitenleiste das Symbol für *_Profil_* aus."
 msgstr "Select the icon for *_Profile_* in the right-hand sidebar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:141
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:147
 msgid ""
 "Findest du jetzt die E-Mail-Adresse deines agrirouter-Profils blau "
 "hinterlegt, mit einem blauen Punkt daneben unter der Überschrift "
@@ -8535,13 +8477,13 @@ msgstr ""
 "you have a connection."
 
 #. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:143
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:149
 #, no-wrap
 msgid "Import von Soll-Applikationskarten (Soll-Ausbringkarten)"
 msgstr "Import of target application maps (target application maps)"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:145
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:151
 msgid ""
 "Um Dateien, die du bspw. von deinem Farm-Management-System an deine Maschine "
 "geschickt hast, herunterladen zu können, solltest du wie folgt vorgehen:"
@@ -8550,22 +8492,22 @@ msgstr ""
 "management system, for example, you should proceed as follows:"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:152
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:158
 msgid "Klicke auf die *_Wolke_* in der linken Seitenleiste"
 msgstr "Click on the *_cloud_* in the left sidebar"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:153
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:159
 msgid "Wähle das Symbol für *_Aufgaben_* in der rechten Seitenleiste"
 msgstr "Select the icon for *_tasks_* in the right-hand sidebar"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:154
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:160
 msgid "Klicke auf den *_DOWNLOAD_* Button"
 msgstr "Click on the *_DOWNLOAD_* button"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:157
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:163
 msgid ""
 "Sobald das System die Aufgabe(n) heruntergeladen hat, zeigt es sie in einer "
 "Liste an. Wenn du eine Aufgabe auswählst und die grüne Taste drückst, kannst "
@@ -8579,7 +8521,7 @@ msgstr ""
 "only saved on the *_Download_* page and are not imported into the iMonitor."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:161
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:167
 msgid ""
 "Bei alten Software-Versionen werden beim Importieren von Aufgabendaten von "
 "USB-Sticks die alten Aktivitäten auf dem iMonitor gelöscht, sobald neue "
@@ -8594,13 +8536,13 @@ msgstr ""
 "for more information."
 
 #. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:163
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:169
 #, no-wrap
 msgid "Export von Ist-Applikationskarten (As Applied Maps / Reale Ausbringkarten)"
 msgstr "Export of actual application maps (as applied maps / real application maps)"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:166
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:172
 msgid ""
 "Aus dem Terminal (iMonitor) können Dateien exportiert und an agrirouter "
 "gesendet werden. Dies sind die zu befolgenden Schritte:"
@@ -8609,7 +8551,7 @@ msgstr ""
 "These are the steps to follow:"
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:172
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:178
 msgid ""
 "Bei alten Software-Versionen können mehrere Schritte für den Export von "
 "Applikationskarten vom Terminal nötig sein. Melde dich bei deinem Same-Deutz-"
@@ -8620,18 +8562,18 @@ msgstr ""
 "more information."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:179
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:185
 msgid "Wähle in der linken Seitenleiste die *_Wolke_*."
 msgstr "Select the *_cloud_* in the left sidebar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:180
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:186
 msgid ""
 "Klicke dann in der rechten Seitenleiste auf das Symbol für *_Aufgaben_*."
 msgstr "Then click on the icon for *_tasks_* in the right-hand sidebar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:181
+#: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:187
 msgid ""
 "Hier findest du alle Ist-Applikationskarten in einer Liste. Klicke auf die "
 "Aufgabendatei, die du exportieren möchtest, und bestätige im Pop-Up Fenster "
@@ -9519,8 +9461,8 @@ msgstr ""
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:2
 #, no-wrap
-msgid "myAmaRouter Solution Guide"
-msgstr "myAmaRouter Solution Guide"
+msgid "AMAZONE myAmaRouter Solution Guide"
+msgstr "AMAZONE myAmaRouter Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:5
@@ -9961,7 +9903,7 @@ msgstr "Click on the button Connect to *_Agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:37
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:52
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:58
 msgid "Ist die Verbindung hergestellt, kann der Tab geschlossen werden."
 msgstr "Once the connection has been established, the tab can be closed."
 
@@ -10019,19 +9961,19 @@ msgstr ""
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:1
 #, no-wrap
-msgid "AGCO TaskDoc Server Solution Guide"
-msgstr "AGCO TaskDoc Server Solution Guide"
+msgid "Fendt, Valtra, MF TaskDoc Server Solution Guide"
+msgstr "Fendt, Valtra, MF TaskDoc Server Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:4
 msgid ""
-"Mit deiner Maschine aus dem Hause AGCO ist es möglich, drahtlos Dateien über "
-"den agrirouter mit deinem Farm-Management-System austauschen zu können. In "
-"diesem Abschnitt erfährst du, wie du:"
+"Mit deiner Fendt, Valtra oder MF Maschine aus dem Hause AGCO ist es möglich, "
+"drahtlos Dateien über den agrirouter mit deinem Farm-Management-System "
+"austauschen zu können. In diesem Abschnitt erfährst du, wie du:"
 msgstr ""
-"With your AGCO machine, it is possible to exchange files wirelessly with "
-"your farm management system via the agrirouter. In this section you will "
-"learn how to:"
+"With your Fendt, Valtra or MF machine from AGCO, it is possible to exchange "
+"files wirelessly with your farm management system via the agrirouter. In "
+"this section you will learn how to:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:6
@@ -10044,38 +9986,59 @@ msgid ""
 "eine Maschine innerhalb des TaskDoc Servers mit dem agrirouter verbindest."
 msgstr "connect a machine within the TaskDoc server to the agrirouter."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:11
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:13
 msgid ""
-"Um mit deiner Maschine aus dem Hause AGCO Daten über den agrirouter "
-"austauschen zu können, musst du zuerst die folgenden Schritte befolgen:"
+"Die reibungslose Nutzung des agrirouters ist von verschiedenen "
+"Voraussetzungen abhängig, insbesondere spielen die Ausstattung der Maschine, "
+"die Aktivierung der Softwarelizenz zu der Maschine sowie der Besitz einer "
+"gültigen \"TaskDoc Pro Server\"-Lizenz eine entscheidende Rolle.  Zunächst "
+"ist die angemessene Ausstattung der Maschine von essenzieller Bedeutung, "
+"dieses betrifft beispielsweise Traktoren oder selbstfahrende Fahrzeuge.  Ob "
+"deine Maschine diese Voraussetzungen erfüllt, kann dir dein Händler "
+"beantworten. Dieser kann dir auch die Lizenz der entsprechenden Maschine und "
+"die \"TaskDoc Pro Server\"-Lizenz freischalten respektive einrichten."
 msgstr ""
-"To be able to exchange data with your AGCO machine via the agrirouter, you "
-"must first follow the steps below:"
+"The smooth use of the agrirouter depends on various prerequisites, in "
+"particular the equipment of the machine, the activation of the software "
+"license for the machine and the possession of a valid \"TaskDoc Pro Server\" "
+"license play a decisive role.  First of all, the appropriate equipment of "
+"the machine is essential; this applies, for example, to tractors or self-"
+"propelled vehicles.  Your dealer can tell you whether your machine meets "
+"these requirements. They can also activate or set up the license for the "
+"corresponding machine and the \"TaskDoc Pro Server\" license."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:15
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:18
 msgid ""
-"Für die Verbindung mit dem agrirouter ist eine TaskDoc Pro Server Lizenz "
-"nötig. Diese erhältst du über deinen Händler und direkt beim Kauf einer "
-"neuen Maschine."
+"Informationen zu den Fendt Agronomie Lösungen sind link:https://www.fendt."
+"com/de/smart-farming/agronomie[hier, window=\"_blank\"] zu finden."
 msgstr ""
-"A TaskDoc Pro Server license is required to connect to the agrirouter. You "
-"can obtain this from your dealer and directly when purchasing a new machine."
+"Information on the Fendt Agronomy solutions can be found at link:https://www."
+"fendt.com/de/smart-farming/agronomie[here, window=\"_blank\"]."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:24
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:23
 msgid ""
-"Nach Erwerb der Task Doc Pro Server Lizenz erhältst du eine automatische E-"
-"Mail, die dir den Zugriff auf den TaskDoc Server ermöglicht. Erstelle dein "
+"Um mit deiner Fendt, Valtra oder MF Maschine Daten über den agrirouter "
+"austauschen zu können, musst du zuerst die folgenden Schritte befolgen:"
+msgstr ""
+"To be able to exchange data with your Fendt, Valtra or MF machine via the "
+"agrirouter, you must first follow the steps below:"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:30
+msgid ""
+"Nach Erwerb der \"TaskDoc Pro Server\"-Lizenz erhältst du eine automatische "
+"E-Mail, die dir den Zugriff auf den TaskDoc Server ermöglicht. Erstelle dein "
 "Konto indem du auf den Link in der Mail klickst."
 msgstr ""
-"After purchasing the Task Doc Pro Server license, you will receive an "
+"After purchasing the \"TaskDoc Pro Server\" license, you will receive an "
 "automatic email giving you access to the TaskDoc Server. Create your account "
 "by clicking on the link in the e-mail."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:25
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:31
 msgid ""
 "Logge dich mit deinen Anmeldedaten auf der link:https://www.agco.taskdoc.de/"
 "signin[TaskDoc Server Website, window=\"_blank\"] ein."
@@ -10084,7 +10047,7 @@ msgstr ""
 "signin[TaskDoc Server Website, window=\"_blank\"]."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:31
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:37
 msgid ""
 "Wähle im Hauptmenü die Option *_Fahrzeuge_* aus. In der *_Fahrzeugliste_* "
 "sollte nun deine Maschine angezeigt werden."
@@ -10093,22 +10056,22 @@ msgstr ""
 "displayed in the *_vehicle list_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:40
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:46
 msgid "Gehe nun zurück zum *_Hauptmenü_*."
 msgstr "Now go back to the *_main menu_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:41
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:47
 msgid "Wähle dort *_agrirouter Verbindung_* aus."
 msgstr "Select *_agrirouter connection_* there."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:50
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:56
 msgid "Klicke auf *_Mit dem agrirouter verbinden_*."
 msgstr "Click on *_Connect to the agrirouter_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:51
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:57
 msgid ""
 "Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser "
 "noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst "
@@ -10122,7 +10085,7 @@ msgstr ""
 "to your agrirouter account will be established."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:57
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:63
 msgid ""
 "Für eine erfolgreiche Verbindung von Maschine und agrirouter, muss auch "
 "deine Maschine als Fahrzeug im TaskDoc Server mit dem agrirouter verbunden "
@@ -10133,33 +10096,33 @@ msgstr ""
 "This is described in the next chapter."
 
 #. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:59
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:65
 #, no-wrap
 msgid "Maschinen mit dem agrirouter verbinden"
 msgstr "Connecting machines to the agrirouter"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:67
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:73
 msgid "Wähle im Hauptmenü des TaskDoc Servers die Option *_Fahrzeuge_*."
 msgstr "Select the option *_Vehicles_* in the main menu of the TaskDoc Server."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:76
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:82
 msgid "Wähle die Maschine, die mit dem agrirouter verbunden werden soll."
 msgstr "Select the machine to be connected to the agrirouter."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:77
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:83
 msgid "Wähle dann im Untermenü *_agrirouter Verbindung_*."
 msgstr "Then select *_agrirouter connection_* in the submenu."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:78
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:84
 msgid "Klicke auf *_Fahrzeug aufnehmen_* (Abb. engl. \"Onboard Vehicle\")."
 msgstr "Click on *_Pick up vehicle_* (fig. \"Onboard Vehicle\")."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:83
+#: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:89
 msgid ""
 "Jedes weitere Fahrzeug muss einzeln an den agrirouter angeschlossen werden."
 msgstr ""
@@ -10484,6 +10447,26 @@ msgid ""
 msgstr ""
 "You can now find your imported tasks in the left sidebar under *_tasks_* and "
 "under *_equipment, employees_* or *_strokes_* to which the task is assigned."
+
+#~ msgid ""
+#~ "Für die Verbindung mit dem agrirouter ist eine \"TaskDoc Pro Server\"-"
+#~ "Lizenz nötig. Diese erhältst du über deinen Händler und direkt beim Kauf "
+#~ "einer neuen Maschine."
+#~ msgstr ""
+#~ "A \"TaskDoc Pro Server\" license is required to connect to the "
+#~ "agrirouter. You can obtain this from your dealer and directly when "
+#~ "purchasing a new machine."
+
+#, no-wrap
+#~ msgid "Grimme-Maschinen Solution Guide"
+#~ msgstr "Grimme Machines Solution Guide"
+
+#~ msgid ""
+#~ "Um mit deiner Maschine aus dem Hause AGCO Daten über den agrirouter "
+#~ "austauschen zu können, musst du zuerst die folgenden Schritte befolgen:"
+#~ msgstr ""
+#~ "To be able to exchange data with your AGCO machine via the agrirouter, "
+#~ "you must first follow the steps below:"
 
 #, no-wrap
 #~ msgid ""
