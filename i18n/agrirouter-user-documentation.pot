@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-04 10:50+0000\n"
+"POT-Creation-Date: 2023-12-05 15:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "@antora/lunr-extension"
 msgstr ""
 
 #. type: Plain text
-#: de/antora-playbook.yml:0 de/modules/ROOT/nav.adoc:31
+#: de/antora-playbook.yml:0 de/modules/ROOT/nav.adoc:13
 #, no-wrap
 msgid "Anhang"
 msgstr ""
@@ -301,116 +301,11 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:9
-msgid "Solution Guides"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:10
-msgid "Telemetrieeinheiten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:11
-msgid "xref:solution-guides/myamarouter.adoc[AMAZONE]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:12
-msgid "xref:solution-guides/cci-terminals.adoc[CCI]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:13
-msgid "xref:solution-guides/same-deutz-fahr.adoc[Deutz-Fahr, SAME]"
+msgid "xref:solution-guides.adoc[Solution Guides]"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:14
-msgid "xref:solution-guides/taskdoc-server.adoc[Fendt, Valtra, MF]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:15
-msgid "xref:solution-guides/mygrimme.adoc[GRIMME]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:16
-msgid "xref:solution-guides/holmer-easy-help.adoc[HOLMER]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:17
-msgid "xref:solution-guides/krone.adoc[KRONE]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:18
-msgid "xref:solution-guides/lemken.adoc[LEMKEN]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:19
-msgid "xref:solution-guides/argo.adoc[McCornick, Landini]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:20
-msgid "xref:solution-guides/poettinger.adoc[PÖTTINGER]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:21
-msgid "xref:solution-guides/trimble.adoc[Trimble]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:22
-msgid "Farm-Management-Software"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:23
-msgid "xref:solution-guides/abaco.adoc[ABACO Farmer]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:24
-msgid "xref:solution-guides/dacom.adoc[DACOM]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:25
-msgid "xref:solution-guides/farmpilot.adoc[FARMPILOT]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:26
-msgid "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:27
-msgid "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:28
-msgid "xref:solution-guides/next-farming.adoc[NEXT Farming]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:29
-msgid "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:30
-msgid "xref:solution-guides/xfarm.adoc[xFarm]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:32
 msgid "xref:appendix/ddis.adoc[DDI-Definition]"
 msgstr ""
 
@@ -4113,6 +4008,25 @@ msgstr ""
 #: de/modules/ROOT/pages/support.adoc:151
 #, no-wrap
 msgid "Die Systemfunktion ist nicht verfügbar."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides.adoc:1
+#, no-wrap
+msgid "Solution Guides"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides.adoc:4
+msgid ""
+"Wie du deine verwendeten Telemetrieeinheiten oder Farm-Management-Software "
+"Systeme mit dem agrirouter verbinden kannst, wird innerhalb der unten "
+"aufgeführten produktspezifischen Solution Guides beschrieben."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides.adoc:6
+msgid "Klicke dazu einfach auf den entsprechenden Link."
 msgstr ""
 
 #. type: Title =
@@ -8572,8 +8486,8 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:18
 msgid ""
-"Informationen zu den Fendt Agronomie Lösungen sind "
-"link:https://www.fendt.com/de/smart-farming/agronomie[hier, "
+"Informationen zu den Fendt Lösungen zur Erfassung und Verarbeitung deiner "
+"Daten sind link:https://www.fendt.com/de/smart-farming/agronomie[hier, "
 "window=\"_blank\"] zu finden."
 msgstr ""
 
@@ -8925,4 +8839,109 @@ msgid ""
 "Deine importierten Aufgaben findest du in jetzt in der linken Seitenleiste "
 "unter *_Maßnahmen_* und bei *_Equipment, Mitarbeitern_* oder *_Schlägen_*, "
 "denen die Aufgabe zugeordnet ist."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:2
+msgid "Telemetrieeinheiten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:3
+msgid "xref:solution-guides/myamarouter.adoc[AMAZONE]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:4
+msgid "xref:solution-guides/cci-terminals.adoc[CCI]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:5
+msgid "xref:solution-guides/same-deutz-fahr.adoc[Deutz-Fahr, SAME]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:6
+msgid "xref:solution-guides/taskdoc-server.adoc[Fendt, Valtra, MF]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:7
+msgid "xref:solution-guides/mygrimme.adoc[GRIMME]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:8
+msgid "xref:solution-guides/holmer-easy-help.adoc[HOLMER]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:9
+msgid "xref:solution-guides/krone.adoc[KRONE]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:10
+msgid "xref:solution-guides/lemken.adoc[LEMKEN]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:11
+msgid "xref:solution-guides/argo.adoc[McCormick, Landini]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:12
+msgid "xref:solution-guides/poettinger.adoc[PÖTTINGER]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:13
+msgid "xref:solution-guides/trimble.adoc[Trimble]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:14
+msgid "Farm-Management-Software"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:15
+msgid "xref:solution-guides/abaco.adoc[ABACO Farmer]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:16
+msgid "xref:solution-guides/dacom.adoc[DACOM]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:17
+msgid "xref:solution-guides/farmpilot.adoc[FARMPILOT]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:18
+msgid "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:19
+msgid "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:20
+msgid "xref:solution-guides/next-farming.adoc[NEXT Farming]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:21
+msgid "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:21
+msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr ""
