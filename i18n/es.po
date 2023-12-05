@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-12-05 11:04+0000\n"
-"PO-Revision-Date: 2023-12-04 12:20+0000\n"
+"POT-Creation-Date: 2023-12-05 12:48+0000\n"
+"PO-Revision-Date: 2023-12-05 14:39+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: Spanish <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/es/>\n"
@@ -31,7 +31,7 @@ msgid "@antora/lunr-extension"
 msgstr "@antora/lunr-extension"
 
 #. type: Plain text
-#: de/antora-playbook.yml:0 de/modules/ROOT/nav.adoc:11
+#: de/antora-playbook.yml:0 de/modules/ROOT/nav.adoc:13
 #, no-wrap
 msgid "Anhang"
 msgstr "Anexo"
@@ -306,12 +306,12 @@ msgid "xref:support.adoc[Service & Support]"
 msgstr "xref:support.adoc[Servicio y asistencia]"
 
 #. type: Plain text
-#: de/modules/ROOT/nav.adoc:10
-msgid "Solution Guides"
-msgstr "Guías de soluciones"
+#: de/modules/ROOT/nav.adoc:9
+msgid "xref:solution-guides.adoc[Solution Guides]"
+msgstr "xref:guias-de-la-solucion.adoc[Guias-de-la-solucion]"
 
 #. type: Plain text
-#: de/modules/ROOT/nav.adoc:12
+#: de/modules/ROOT/nav.adoc:14
 msgid "xref:appendix/ddis.adoc[DDI-Definition]"
 msgstr "xref:appendix/ddis.adoc[Definición de DDI]"
 
@@ -4727,6 +4727,28 @@ msgstr "interrupción grave"
 #, no-wrap
 msgid "Die Systemfunktion ist nicht verfügbar."
 msgstr "El funcionamiento del sistema no está operativo."
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides.adoc:1
+#, no-wrap
+msgid "Solution Guides"
+msgstr "Guías de soluciones"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides.adoc:4
+msgid ""
+"Wie du deine verwendeten Telemetrieeinheiten oder Farm-Management-Software "
+"Systeme mit dem agrirouter verbinden kannst, wird innerhalb der unten "
+"aufgeführten produktspezifischen Solution Guides beschrieben."
+msgstr ""
+"La forma de conectar sus unidades de telemetría o sistemas de software de "
+"gestión agrícola al agrirouter se describe en las Guías de soluciones "
+"específicas de cada producto que se enumeran a continuación."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides.adoc:6
+msgid "Klicke dazu einfach auf den entsprechenden Link."
+msgstr "Sólo tiene que hacer clic en el enlace correspondiente."
 
 #. type: Title =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:4
@@ -10172,11 +10194,13 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:18
 msgid ""
-"Informationen zu den Fendt Agronomie Lösungen sind link:https://www.fendt."
-"com/de/smart-farming/agronomie[hier, window=\"_blank\"] zu finden."
+"Informationen zu den Fendt Lösungen zur Erfassung und Verarbeitung deiner "
+"Daten sind link:https://www.fendt.com/de/smart-farming/agronomie[hier, "
+"window=\"_blank\"] zu finden."
 msgstr ""
-"Encontrará información sobre las soluciones agronómicas de Fendt en link:"
-"https://www.fendt.com/de/smart-farming/agronomie[here, window=\"_blank\"]."
+"Encontrará información sobre las soluciones de Fendt para la recogida y el "
+"tratamiento de sus datos en el enlace:https://www.fendt.com/de/smart-farming/"
+"agronomie[here, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:23
@@ -10651,9 +10675,6 @@ msgstr ""
 
 #~ msgid "xref:solution-guides/poettinger.adoc[PÖTTINGER]"
 #~ msgstr "xref:solution-guides/poettinger.adoc[PÖTTINGER]"
-
-#~ msgid "xref:solution-guides/trimble.adoc[Trimble]"
-#~ msgstr "xref:solution-guides/trimble.adoc[Trimble]"
 
 #~ msgid "Farm-Management-Software"
 #~ msgstr "Software de gestión agrícola"
