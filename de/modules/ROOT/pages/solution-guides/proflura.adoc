@@ -1,0 +1,166 @@
+= ProFlura Solution Guide
+
+Mit der Farm Management Software ProFlura kannst du Daten über den agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Export von Soll-Applikationskarten
+* Import von Ist-Applikationskarten & Telemetriedaten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten von ProFlura über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem ProFlura-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+
+image::interactive_agrirouter/proflura/proflura-connect-agrirouter-1-de.png[Select Register, 800]
+
+. Bevor du anfangen kannst, musst du link:https://www.proflura.de/[ProFlura, window="_blank"] auf deinem Endgerät öffnen und dich einloggen.
+. Klicke in der Kopfleiste auf das *_agrirouter-Symbol_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/proflura/proflura-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=3]
+. Nun sollte ein Hinweis auf dem Bildschirm erscheinen. Das Programm lädt den nächsten Schritt. Bitte gedulde dich einige Sekunden.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/proflura/proflura-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=4]
+. Wenn das Programm fertig geladen ist, sollte ein neuer Hinweis erscheinen. Klicke dort auf *_Onboarding durchführen_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/proflura/proflura-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=5]
+. Wenn du nicht bereits über denselben Browser in deinem agrirouter-Konto eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten einzugeben und dich anzumelden. Klicke anschließend im folgenden Fenster auf *_VERBINDEN_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/proflura/proflura-connect-agrirouter-5-de.png[Select Register, 400]
+
+[start=6]
+. Im Anschluss musst du bis zu 5 Minuten warten, bis du ins agrirouter System weitergeleitet wirst. Dort kannst du ProFlura deine Maschinen als link:https://manual.agrirouter.com/de/endpoint.html[Endpunkte] zuordnen.
+--
+
+== Export von Applikationskarten
+Du hast mehrere Möglichkeiten, Applikationskarten oder Aufgaben, die du ProFlura erstellt hast, an einen deiner Endpunkte zu senden. Generell stehen dir drei Möglichkeiten zur Auswahl:
+
+* Über die Funktion *_agrirouter_*.
+* Über die Verbindung zu *_Farmblick_*.
+* Direkt aus einer *_Aufgabe_* heraus.
+
+[TIP]
+====
+Beachte bei der Erstellung einer Applikationskarte immer die Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder cm Pflanzenabstand).
+====
+
+=== Über die Funktion agrirouter
+
+image::interactive_agrirouter/proflura/proflura-export-maps-agrirouter-1-de.png[Select Register, 800]
+
+. Klicke in der Kopfleiste auf *_agrirouter_*.
+. Wähle den link:https://manual.agrirouter.com/de/endpoint.html[Endpunkt] aus, an den du deine Datei versenden möchtest.
+
+[TIP]
+====
+Unter dem Dropdown Menü, in dem du deinen Endpunkt ausgewählt hast, wird dir angezeigt, welche Datentypen der jeweilige Endpunkt empfangen und senden kann.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/proflura/proflura-export-maps-agrirouter-2-de.png[Select Register, 400]
+
+[start=3]
+. Klicke auf den Tabellenreiter *_Senden_*.
+. Wähle nun die *_Aufgabe_* aus, die du an den Endpunkt senden möchtest.
+. Klicke auf *_Senden_*.
+--
+
+=== Über die Verbindung zu FarmBlick
+image::interactive_agrirouter/proflura/proflura-export-maps-farmblick-1-de.png[Select Register, 800]
+
+. Klicke in der Kopfleiste auf *_FarmBlick_*.
+
+image::interactive_agrirouter/proflura/proflura-export-maps-farmblick-2-de.png[Select Register, 800]
+
+[start=2]
+. Wähle den Tabellenreiter *_Export_*.
+. Klicke jetzt auf den *_Tabellenreiter_* des Dateityps, den du senden möchtest (bspw. Applikationskarten).
+. Wähle eine *_Datei_* aus.
+. Wähle einen *_Endpunkt_* aus, vor dem du ein kleines agrirouter-Logo siehst.
+. Klicke auf *_Schreiben_*.
+
+=== Aus einer Aufgabe heraus
+image::interactive_agrirouter/proflura/proflura-export-maps-task-1-de.png[Select Register, 800]
+
+. Klicke in der Kopfleiste auf einen *_Aufgabentyp_* (bspw. BE für Sammelbuchung).
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/proflura/proflura-export-maps-task-2-de.png[Select Register, 400]
+
+[start=2]
+. Wähle nun den Buchungsmodus *_Auftrag erteilen_*.
+. Klicke unter *_Auftragsempfänger_* auf den Endpunkt, an den du den Auftrag senden möchtest.
+. Füge deinem Auftrag alle weiteren benötigten Informationen hinzu und klicke anschließend auf *_OK_* um den Auftrag abzusenden.
+--
+
+== Applikationskarten (As-Applied-Maps) und Telemetriedaten importieren
+
+Nach der Ausbringung von bspw. Saatgut können Applikationskarten auch vom Terminal über den agrirouter an dein ProFlura-Konto gesendet werden. Wie diese abgerufen werden können, erfährst du im Folgenden. 
+
+Generell kannst du Daten, die du über den agrirouter empfangen hast, über zwei Wege importieren:
+
+* Über die Funktion agrirouter
+* Über die Verbindung zu FarmBlick
+
+== Über die Funktion agrirouter
+
+image::interactive_agrirouter/proflura/proflura-import-maps-agrirouter-1-de.png[Select Register, 800]
+
+. Klicke in der Kopfleiste auf *_agrirouter_*.
+. Wähle den *_Endpunkt_*  aus, von dem du deine Datei abrufen möchtest.
+
+[TIP]
+====
+Unter dem Dropdown Menü, in dem du deinen Endpunkt ausgewählt hast, wird dir angezeigt, welche Datentypen der jeweilige Endpunkt empfangen und senden kann.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/proflura/proflura-import-maps-agrirouter-2-de.png[Select Register, 400]
+
+[start=3]
+. Klicke auf den Tabellenreiter *_Empfangen_*.
+. Wähle nun die *_Datei_* aus, die du importieren möchtest.
+. Klicke auf *_Importieren_*.
+--
+
+=== Über die Verbindung zu FarmBlick
+
+image::interactive_agrirouter/proflura/proflura-export-maps-farmblick-1-de.png[Select Register, 800]
+
+. Klicke in der Kopfleiste auf *_FarmBlick_*.
+
+image::interactive_agrirouter/proflura/proflura-import-maps-farmblick-2-de.png[Select Register, 800]
+
+[start=2]
+. Wähle den Tabellenreiter *_Import_*.
+. Klicke jetzt auf den *_Tabellenreiter_* des Dateityps, den du importieren möchtest (bspw. Applikationskarten).
+. Wähle einen *_agrirouter-Endpunkt_* aus, von dem empfangene Dateien importieren möchtest.
+. Wähle eine oder *_mehrere Dateien_* aus.
+. Klicke auf *_Schreiben_*.
