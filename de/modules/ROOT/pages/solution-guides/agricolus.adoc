@@ -1,0 +1,141 @@
+= Agricolus Solution Guide
+
+Mit dem Betriebsführungssystem Agricolus kannst du Daten über Agrirouter empfangen und senden. Dazu müssen jedoch einige Vorkehrungen getroffen werden. Die folgenden Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Export von Soll-Applikationskarten
+* Import von Ist-Applikationskarten und Telemetriedaten
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Daten von Agricolus über den agrirouter senden und empfagen zu können, muss zuerst eine Verbindung zwischen deinem Agricolus-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+Bevor du beginnen kannst, musst du dich in dein https://auth.agricolus.com/Account/Login[Agricolus-Konto einloggen, window="_blank"]. 
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/agricolus/agricolus-connect-agrirouter-1-de.png[Select Register, 300]
+
+. Klicke auf das *_Menü-Symbol_*.
+. Wähle *_Externe Dienste_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/agricolus/agricolus-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=3]
+. Klicke auf *_Verbinden_* in der Kachel *_Agrirouter_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/agricolus/agricolus-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=4]
+. Wenn du nicht bereits über denselben Browser bei deinem agrirouter-Konto angemeldet bist, wirst du nun aufgefordert, deine Anmeldedaten einzugeben und dich anzumelden. Klicke im folgenden Fenster auf *_VERBINDEN_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/agricolus/agricolus-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=5]
+. Dir wird nun angezeigt, dass dein agrirouter-Konto verbunden ist.
+--
+
+== Export von Applikationskarten
+Mit dem agrirouter kannst du Applikationskarten von Agricolus drahtlos an deine Maschinen senden.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/agricolus/agricolus-export-maps-1-de.png[Select Register, 400]
+
+. Klicke in der Seitenleiste links auf *_Applikationskarten_*.
+. Erstelle eine Applikationskarte.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/agricolus/agricolus-export-maps-2-de.png[Select Register, 400]
+
+[start=3]
+. Wähle den Maschinentyp *_“Generisch”_*.
+. Klicke auf den blauen Button *_Agrirouter_*.
+. Öffne das Dropdown Menü und wähle eine Maschine, die mit dem agrirouter verbunden ist.
+--
+
+== Import von Applikationskarten und Telemetriedaten
+Über den agrirouter kannst du auch drahtlos Applikationskarten, Telemtriedaten, etc. empfangen. In den folgenden Kapiteln wird veranschaulicht, wie du applikationskarten, Bilder und Aufgaben abrufen kannst und wie du Einsicht in die GPS-Daten deiner Maschinen bekommst.
+
+=== Applikationskarten, Aufgaben und Bilder importieren
+
+image::interactive_agrirouter/agricolus/agricolus-import-maps-0-de.png[Select Register, 800]
+
+Im Bereich Agrirouter Docs werden dir verschiedene Dateitypen angezeigt. Du kannst von Maschinen und Geräten empfangene Applikationskarten, Aufgaben und Bilder herunterladen oder löschen.
+
+=== Maschinen mit dem Agrirouter koppeln
+
+Um Applikationskarten, Aufgaben, Bilder oder GPS-Positionen auf deinem Agriclous-Konto abzurufen, müssen zuerst die entsprechenden Maschinen oder Geräte verbunden werden.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/agricolus/agricolus-import-maps-1-de.png[Select Register, 400]
+
+. Wähle *_Geräte_* in der Menüleiste auf der linken Seite.
+--
+
+image::interactive_agrirouter/agricolus/agricolus-import-maps-2-de.png[Select Register, 800]
+
+[start=2]
+. Wähle im Dropdown-Menü unter Typ die Option *_Agrirouter_*.
+. Wähle die *_Maschine_*, von der die GPS-Positionen abgerufen werden sollen.
+. Klicke auf *_Speichern_*.
+
+=== GPS-Positionen direkt von Maschinen abrufen
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/agricolus/agricolus-import-maps-3-de.png[Select Register, 400]
+
+. Wähle *_Maschinen_* in der linken Seitenleiste.
+--
+
+image::interactive_agrirouter/agricolus/agricolus-import-maps-4-de.png[Select Register, 800]
+
+[start=2]
+. Nachdem du deine Maschinen hinzugefügt hast, klicke auf den blauen Geräte Button image:interactive_agrirouter/agricolus/blue-button.png[30, 30].
+
+image::interactive_agrirouter/agricolus/agricolus-import-maps-5-de.png[Select Register, 800]
+
+[start=3]
+. Um die Kopplung zu sichern, verbindest du die Maschine mit dem Gerät, das du zuvor im Gerätebereich hinzugefügt hast.
+
+image::interactive_agrirouter/agricolus/agricolus-import-maps-6-de.png[Select Register, 800]
+
+[start=4]
+. Im unteren Bereich der Seite kannst du den Verlauf der Ereignisse anzeigen, die sich auf diese Maschine beziehen.
+
+=== Alle GPS-Positionen auf einmal abrufen
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/agricolus/agricolus-import-maps-7-de.png[Select Register, 400]
+
+. Wähle *_Events_* in der Seitenleiste links.
+--
+
+image::interactive_agrirouter/agricolus/agricolus-import-maps-8-de.png[Select Register, 800]
+
+[start=2]
+. Lass dir die Ereignisliste aller in Agricolus hinzugefügten Maschinen anzeigen. Mit einem Klick auf das Auge-Symbol rechts, kannst du dir die GPS-Positionen anzeigen lassen.

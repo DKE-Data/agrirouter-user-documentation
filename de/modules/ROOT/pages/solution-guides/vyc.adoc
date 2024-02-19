@@ -20,25 +20,17 @@ image::interactive_agrirouter/vyc/vyc-connect-agrirouter-1-de.png[Select Registe
 3. Wähle dann die Option *_Schnittstellen_*.
 --
 
-[.float-group]
---
-[.left]
-image::interactive_agrirouter/vyc/vyc-connect-agrirouter-2-de.png[Select Register, 400]
+image::interactive_agrirouter/vyc/vyc-connect-agrirouter-2-de.png[Select Register, 800]
 
 [start=4]
 . Wähle nun unter den verschiedenen Schnittstellen die Option *_agrirouter_* aus.
---
-
-image::interactive_agrirouter/vyc/vyc-connect-agrirouter-3-de.png[Select Register, 800]
-
-[start=5]
 . Klicke auf den Button *_Verbindung aufbauen_*.
 . Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden.
 
 [.float-group]
 --
 [.right]
-image::interactive_agrirouter/vyc/vyc-connect-agrirouter-4-de.png[Select Register, 400]
+image::interactive_agrirouter/vyc/vyc-connect-agrirouter-3-de.png[Select Register, 400]
 
 [start=7]
 . Nach deiner Anmeldung siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
@@ -49,8 +41,9 @@ image::interactive_agrirouter/vyc/vyc-connect-agrirouter-4-de.png[Select Registe
 
 image::interactive_agrirouter/vyc/vyc-check-connections-1-de.png[Select Register, 800]
 
-1. Dass eine aktive Verbindung mit deinem agrirouter-Konto besteht, siehst du am Schriftzug *_“Verbunden mit Account ID xxx..”_* im oberen Bereich des Fensters.
-2. Möchtest du die Verbindung trennen, klickst du auf den Button *_Verbindung trennen_*.
+. Dass eine aktive Verbindung mit deinem agrirouter-Konto besteht, siehst du am Schriftzug *_“Verbunden mit Account ID xxx..”_* im oberen Bereich des Fensters.
+. Möchtest du die Verbindung trennen, klickst du auf den Button *_Verbindung trennen_*.
+. Möchtest du die Verbindung aktualisieren, klicke auf den Button *_Verbindung aktualisieren_*.
 
 [#update-endpoints]
 === Endpunkte-Liste aktualisieren
@@ -59,8 +52,8 @@ Wenn du neue Endpunkte, wie bspw. Landmaschinen mit dem agrirouter verbunden has
 
 image::interactive_agrirouter/vyc/vyc-update-endpoints-1-de.png[Select Register, 800]
 
-. Klicke auf den Button *_Endpoints_*. Der Übertrag der neuen Endpunkte kann einige Minuten in Anspruch nehmen. 
-. Die neu hinzugefügten Endpunkte erscheinen jetzt in der *_Endpunkte-Liste_*.
+. Checke hierzu über die *_Account ID_*, ob du mit dem richtigen agrirouter-Konto verbunden bist.
+. Klicke auf den Button *_Endpunkt aktualisieren_*.
 
 == Aufgaben exportieren
 Mit dem agrirouter kannst du drahtlos Aufgaben von VYC an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine Aufgabe erstellt hast.
