@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Node
         id: node
@@ -37,6 +37,15 @@ jobs:
           ls -la ~/po4a
           echo "$HOME/po4a" >> $GITHUB_PATH
           echo "PERLLIB=$HOME/po4a/lib" >> $GITHUB_ENV
+
+      - name: Update translation files
+        run: po4a --no-translations po4a.conf
+      
+      - name: Commit translation file updates
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: ./i18n/
+          message: auto-update translation files
 
       - name: Install dependencies
         run: yarn install
