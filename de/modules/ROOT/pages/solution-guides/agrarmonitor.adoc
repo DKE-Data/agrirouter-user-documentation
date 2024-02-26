@@ -1,0 +1,73 @@
+= AGRARMONITOR Solution Guide
+
+Mit der Betriebssoftware für landwirtschaftliche Betriebe AGRARMONITOR kannst du Daten über den agrirouter empfangen und auswerten. Dazu muss allerdings vorher eine Verbindung hergestellt werden. Die folgenden Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Telemetriedaten abrufen
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Daten über den agrirouter empfangen zu können, muss zuerst eine Verbindung zwischen deinem AGRARMONITOR-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+Bevor du anfangen kannst, musst du dich über die https://www.agrarmonitor.de/[AGRARMONITOR-Website, window="_blank"] in dein Konto einloggen.
+
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-connect-agrirouter-1-de.png[Select Register, 800]
+
+. Klicke in der Navigationsleiste oberen Bereich deines Bildschirms auf *_Stammdaten_*.
+. Wähle *_Verbindungen_*.
+. Klicke auf den Button *_Anlegen_*.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=4]
+. Nun taucht ein Fenster auf, in dem du verschiedene Verbindungsoptionen findest. Wähle das *_agrirouter-Symbol_* aus.
+. Klicke auf *_OK_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=6]
+. Wenn du nicht bereits über denselben Browser bei deinem agrirouter-Konto angemeldet bist, wirst du nun aufgefordert, deine Anmeldedaten einzugeben und dich anzumelden. Klicke im folgenden Fenster auf *_VERBINDEN_*.
+--
+
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-connect-agrirouter-4-de.png[Select Register, 800]
+
+[start=7]
+. Nach kurzer Zeit wird die Verbindung zum agrirouter-Konto, sowie jede Maschine als Eintrag angezeigt. Diese muss nun zugeordnet werden. Dazu die jeweilige Maschine anklicken.
+
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-connect-agrirouter-5-de.png[Select Register, 800]
+
+[start=8]
+. Klicke auf den Reiter *_Zuordnungen_*.
+. Wähle nun entweder die Zugmaschine oder Anbaumaschine durch eine Suche im Dropdown-Menü aus.
+
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-connect-agrirouter-6-de.png[Select Register, 800]
+
+[start=10]
+. Die übermittelten Werte wie z.B. der Betriebsstundenzähler, Hektarzähler, etc. können dann den Werten in AGRARMONITOR zugeordnet werden. Dadurch werden die Daten der Schnittstelle anschließend mit den erfassten Daten in AGRARMONITOR abgeglichen.
+
+== Telemetriedaten abrufen
+Du kannst Telemetriedaten, die über den agrirouter von deiner Maschine an dein AGRARMONITOR-Konto gesendet wurden, abrufen und auswerten. 
+
+[IMPORTANT]
+====
+Voraussetzung für das Abrufen von Telemetriedaten ist, dass deine Maschine bereits über den agrirouter verbunden ist!
+====
+
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-show-data-1-de.png[Select Register, 800]
+
+[start=1]
+. Klicke in der Navigationsleiste im oberen Bereich deines Bildschirms auf *_Stammdaten_* und wähle anschließend *_Verbindungen_*.
+. Klicke dann auf die Maschine, von der du die empfangenen Telemetriedaten einsehen möchtest.
+
+image::interactive_agrirouter/agrarmonitor/agrarmonitor-show-data-2-de.png[Select Register, 800]
+
+[start=3]
+. Wähle im Reiter die Option Telemetriedaten aus. Dir werden nun die zuletzt übermittelten Werte der Maschine angezeigt.
