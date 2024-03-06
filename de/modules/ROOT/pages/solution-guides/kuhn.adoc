@@ -1,0 +1,136 @@
+= MyKUHN Solution Guide
+
+Dein KUHN Anbaugerät muss mit dem agrirouter verbunden sein, um drahtlos Applikationskarten und Telemetriedaten an dein Farm-Management-System und die myKUHN Plattform austauschen zu können. In diesem Abschnitt erfährst du, wie du 
+
+* dein KUHN-Gerät mit dem agrirouter verbindest.
+* dein Terminal mit dem agrirotuer verbindest.
+* Applikationskarten exportierst.
+* Applikationskarten und Telemtriedaten importierst.
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+[TIP]
+====
+Um alle Funktionen des agrirouters nutzen zu können, benötigst du ein MyKUHN-Konto.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/kuhn/kuhn-connect-agrirouter-1-de.png[Select Register, 400]
+
+. Logge dich in dein link:https://mykuhn.kuhn.com/[myKUHN-Konto, window="_blank"] ein.
+. Wähle die Registerkarte *_KUHN CONNECT_*.
+. Klicke auf den Button *_KUHN EASYTRANSFER_*.
+--
+
+[TIP]
+====
+KUHN EasyTransfer erfordert einen Aktivierungscode. Der Aktivierungscode wird von deinem KUHN-Vertragshändler ausgegeben. Der 12-stellige Code muss das folgende Format haben: xxxx-xxxx-xxxx.
+====
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/kuhn/kuhn-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=4]
+. Gib deinen Aktivierungscode ein.
+. Akzeptiere die Allgemeinen Nutzungsbedingungen.
+. Klicke auf *_CONFIRM_* (Bestätigen).
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/kuhn/kuhn-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=7]
+. Du wirst nun gefragt, ob du bereits einen agrirouter-Konto besitzt. Falls das der Fall ist, klicke auf *_Yes_* (Ja). Falls nicht, erfahre hier, wie du dein link:https://manual.agrirouter.com/de/account.html#benutzerkonto-erstellen[agrirouter-Konto, window="_blank"] erstellst.
+. Klicke auf *_NEXT STEP_* (Nächster Schritt).
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/kuhn/kuhn-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=9]
+. Klicke auf *_LINK KUHN EASYTRANSFER AND AGRIROUTER_* (Verbinde KUHHN EASYTRANSFER und agrirouter).
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/kuhn/kuhn-connect-agrirouter-5-de.png[Select Register, 400]
+
+[start=10]
+. Du wirst jetzt auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier gezeigte Seite. Dort klickst du auf *_CONNECT_* (verbinden) und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/kuhn/kuhn-connect-agrirouter-6-de.png[Select Register, 400]
+
+[start=11]
+. Fertig! Dein KUHN EasyTransfer ist jetzt mit dem agrirouter verbunden.
+--
+
+== Terminal mit dem agrirouter verbinden
+
+. Stelle nun eine Verbindung zwischen deinem Terminal und dem agrirouter her. Wie das funktioniert, erfährst du im link:https://manual.agrirouter.com/de/solution-guides/cci-terminals.html[CCI-Terminal Solution Guide, window="_blank"].
+
+== Export von Soll-Applikationskarten
+
+image::interactive_agrirouter/kuhn/kuhn-export-maps-1-de.png[Select Register, 800]
+
+. Wähle im oberen Bereich deines MyKUHN-Kontos *_KUHN CONNECT_* aus.
+. Klicke auf *_KUHN EASYTRANSFER_*.
+. Wähle die Registerkarte *_SEND FILES_* (Dateien senden) aus.
+. Du kannst nun eine Datei von deinem Computer auswählen. Ziehe sie dafür von deinem Ordner direkt auf die Fläche um das *_+_*-Symbol oder wähle sie aus, indem du auf das *_+_*-Symbol klickst und die entsprechenden Datei dann auswählst. Die Datei kann von dir bspw. vorher in einem Farm-Management-System erstellt worden sein.
+
+[TIP]
+====
+Die Datei muss im .zip Format vorliegen. Sie enthält SHP- oder ISO-XML-Modulationskarten.
+====
+
+[start=5]
+. Wähle den oder die Endpunkt(e) aus, an den/die du die Datei senden möchtest.
+. Klicke auf *_SEND_* (senden).
+. Die Karte wird jetzt über den agrirouter an den oder die Empfänger gesendet. Eine Benachrichtigung zeigt an, dass die Nachricht gesendet wurde.
+
+== Import von Ist-Applikationskarten
+
+[TIP]
+====
+Um Dateien auf deinem MyKUHN-Konto empfangen zu können, müssen diese zuvor von deinem Terminal an dein MyKUHN-Konto gesendet worden sein. Wie das funktioniert, erfährst du hier.
+====
+
+image::interactive_agrirouter/kuhn/kuhn-import-maps-1-de.png[Select Register, 800]
+
+. Wähle im oberen Bereich deines MyKUHN-Kontos *_KUHN CONNECT_* aus.
+. Klicke auf *_KUHN EASYTRANSFER_*.
+. Wähle die Registerkarte *_RECEIVED FILES_* (Empfangene Dateien) aus.
+. Klicke auf *_UPDATE FILES LIST_* (Dateienliste aktualisieren).
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/kuhn/kuhn-import-maps-2-de.png[Select Register, 400]
+
+[start=5]
+. Hier werden dir nun die Dateien angezeigt, die du bspw. von deinem Terminal empfangen hast.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/kuhn/kuhn-import-maps-3-de.png[Select Register, 400]
+
+[start=6]
+. Möchtest du nun eine Vorschau deiner Datei öffnen, klicke auf *_PREVIEW_* (Vorschau).
+. Möchtest du die Datei herunterladen, um sie anschließend bspw. in einem Farm-Management-System zu öffnen, klicke auf *_DOWNLOAD_* (Herunterladen).
+. Wenn du einen PDF-Report zu der Datei haben möchtest, klicke auf *_DOWNLOAD REPORT_* (Report herunterladen).
+--

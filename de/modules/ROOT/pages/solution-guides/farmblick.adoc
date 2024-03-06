@@ -1,0 +1,230 @@
+=  FarmBlick Solution Guide
+
+Mit der Farm Management Software von FarmBlick-Community kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Export von Applikationskarten
+* Import von Ausbringkarten
+* Importierte Daten abrufen
+
+== Verbindung mit dem agrirouter herstellen
+
+Um Applikationskarten von FarmBlick-Community über den agrirouter an dein Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem FarmBlick-Community-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+[TIP]
+====
+FarmBlick-Community bietet auch ein Video, in dem erklärt wird, wie der agrirouter verbunden werden kann: link:https://www.youtube.com/watch?v=9Oml74ogvyY&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=8[🚜 Tutorial 4.3: „agrirouter verbinden“ 🌐 - YouTube, window="_blank"].
+====
+
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-connect-agrirouter-1-de.png[Select Register, 400]
+
+. Logge dich über die link:https://app.farmblick.de/[FarmBlick-Community Website, window="_blank"] in dein Konto ein.
+. Klicke auf das *_Zahnrad_* am unteren Rand der linken Seitenleiste.
+. Wähle *_Programmeinstellungen_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-connect-agrirouter-2-de.png[Select Register, 400]
+
+[start=4]
+. Klicke in den Programmeinstellungen auf *_agrirouter Verbindung herstellen_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=5]
+. Die folgende Meldung warnt nur davor, dass der Prozess etwas Zeit in Anspruch nehmen kann. Klicke auf *_OK_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-connect-agrirouter-4-de.png[Select Register, 400]
+
+[start=6]
+. Wenn du nicht bereits über denselben Browser bei deinem agrirouter-Konto angemeldet bist, wirst du nun aufgefordert, deine Anmeldedaten einzugeben und dich anzumelden. Klicke im folgenden Fenster auf *_VERBINDEN_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-connect-agrirouter-5-de.png[Select Register, 400]
+
+[start=7]
+. Sobald die Verbindung herstellt wurde, wirst du auf die FarmBlick App weitergeleitet und eine Erfolgsmeldung erscheint.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-connect-agrirouter-6-de.png[Select Register, 400]
+
+[start=8]
+. Wenn du nun zu den Programmeinstellungen gehst, wird dir die Option *_agrirouter Verbindung trennen_* angezeigt.
+--
+
+== Export von Applikationskarten
+
+Nach der Planung und Erstellung einer Aufgabe für eines oder mehrere Felder (Düngung, Aussaat oder Pflanzenschutz) kannst du deine Applikationskarte über den agrirouter drahtlos an dein Terminal senden.
+
+[TIP]
+====
+FarmBlick-Community bietet auch ein Video, in dem erklärt wird, wie Applikationskarten exportiert werden können: link:https://www.youtube.com/watch?v=ohr12FKvU6Q&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=29[🚜 Tutorial 13.19: „Applikationskarten via agrirouter auf CCI Terminal übertragen“ 🌐 - YouTube, window="_blank"].
+====
+
+[IMPORTANT]
+====
+Bevor du loslegen kannst: Stelle sicher, dass die entsprechenden Freischaltungen auf deinem Terminal vorhanden sind, bereits eine Softwareverbindung zwischen deinem FarmBlick-Community- und dem agrirouter-Konto besteht, und dein Terminal mit dem agrirouter verbunden ist.
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-export-maps-1-de.png[Select Register, 400]
+
+[start=1]
+. Klicke in der linken Seitenleiste auf *_Import/Export_*. 
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-export-maps-2-de.png[Select Register, 400]
+
+[start=2]
+. Wähle anschließend *_Export_*.
+--
+
+image::interactive_agrirouter/farmblick/farmblick-export-maps-3-de.png[Select Register, 800]
+
+[start=3]
+. Wähle jetzt in der Feldliste auf der linken Seitenleiste oder direkt in der Karte die Felder aus, die zu exportieren möchtest.
+
+[TIP]
+====
+Um mehrere Felder auszuwählen, hältst du deine Strg- oder Ctrl-Taste gedrückt.
+====
+
+[start=4]
+. Wähle nun im Reiter das *_Datenformat_* aus, das du exportieren möchtest. In diesem Beispiel werden Applikationskarten gewählt.
+. Im nächsten Schritt werden alle Daten des Datenformats angezeigt, die deiner Auswahl entsprechen. Über das Dropdown-Menü kannst du nach Vorgang (bspw. Düngung, Pflanzenschutz oder Aussaat) oder Jahr filtern.
+. Wähle die Dateien aus, die du exportieren möchtest.
+. Klicke nun im Bereich Exportformat auf *_agrirouter_*.
+
+image::interactive_agrirouter/farmblick/farmblick-export-maps-4-de.png[Select Register, 800]
+
+[start=8]
+. Im folgenden Schritt wählst du das Terminal aus, an das du die Datei senden möchtest.
+. Wähle das gewünsche Exportformat aus.
+. Klicke auf *_Senden_*.
+. Du wirst nun aufgefordert, eine TASKDATA-Version auszuwählen. Für das CCI-Terminal solltest du z.B. Version 3 wählen.
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-export-maps-5-de.png[Select Register, 400]
+
+[start=11]
+. Wenn die Datei erfolgreich hochgeladen wurde, bekommst du eine Erfolgsmeldung. Du kannst nun auf deiner Telemetrieeinheit mit dem Importprozess fortfahren. 
+--
+
+== Import von Ausbringkarten
+
+[TIP]
+====
+FarmBlick-Community bietet auch ein Video, in dem erklärt wird, wie der agrirouter verbunden werden kann: link:https://www.youtube.com/watch?v=Lx8lPAr7Dr0[🚜 Tutorial 8.4: "Rücklesen von Aufträgen aus CCI-Terminal via agrirouter" 🌐 - YouTube, window="_blank"].
+====
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-import-maps-1-de.png[Select Register, 400]
+
+[start=1]
+. Klicke in der linken Seitenleiste auf *_Import/Export_*. 
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-import-maps-2-de.png[Select Register, 400]
+
+[start=2]
+. Wähle anschließend *_IMPORT_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-import-maps-3-de.png[Select Register, 400]
+
+[start=3]
+. Klicke auf *_Import von Daten_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-import-maps-4-de.png[Select Register, 400]
+
+[start=4]
+. Klicke dann auf *_agrirouter Import_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-import-maps-5-de.png[Select Register, 400]
+
+[start=5]
+. Hier findest du alle Daten, die über den agrirouter an FarmBlick gesendet wurden. Wähle nun die Datei oder die Dateien aus, die du importieren möchtest und klicke anschließend auf *_Importieren_*.
+--
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmblick/farmblick-import-maps-6-de.png[Select Register, 400]
+
+[start=6]
+. In der neuen Ansicht kannst du deiner Datei eine Bezeichnung geben und als Datentyp *_Ausbringkarten_* auswählen.
+. Klicke anschließend auf *_Importieren_*.
+--
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-import-maps-7-de.png[Select Register, 400]
+
+[start=8]
+. Sind die Daten importiert, siehst du diese Erfolgsmeldung.
+--
+
+== Importierte Daten abrufen
+
+Sobald du die Daten von deinem Terminal in dein FarmBlick-Community-Konto importiert hast, kannst du sie auf jegliche gewünschte Art weiterverarbeiten.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/farmblick/farmblick-load-data-1-de.png[Select Register, 400]
+
+[start=1]
+. Klicke in der linken Seitenleiste auf das Symbol für *_Anwendungen auf Feldebene_*.
+. Wähle dann *_Externe Daten_*.
+--
+
+image::interactive_agrirouter/farmblick/farmblick-load-data-2-de.png[Select Register, 800]
+
+[start=3]
+. Wähle nun in der linken Seitenleiste den Schlag aus, für den du die Ausbringkarte importiert hast.
+. Unter *_verfügbare Daten_* werden die nun alle importierten Daten zu diesem Feld angezeigt. Klicke auf die Datei, die du bearbeiten möchtest.
+. In der Übersicht am unteren Bildschirmrand hast du nun viele Möglichkeiten, deine Daten weiterzuverarbeiten.

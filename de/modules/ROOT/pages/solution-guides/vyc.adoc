@@ -1,0 +1,69 @@
+= VYC (Vineyard Cloud Solution Guide)
+
+Mit der Weinbau Management Software im Außenbetrieb von Vineyard Cloud (VYC) kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+
+* Verbindung mit dem agrirouter herstellen
+* Export von Aufgaben
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Aufgaben, wie bspw. die Ausbringung von Pflanzenschutzmittel, von VYC über den agrirouter an das Terminal deiner Maschine senden zu können, muss zuerst eine Verbindung zwischen deinem VYC-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/vyc/vyc-connect-agrirouter-1-de.png[Select Register, 200]
+
+1. Logge dich über die link:https://my.vineyard-cloud.com/#!/login[VYC Login Seite,window="_blank"] in dein Konto ein.
+2. Klicke in der linken Seitenleiste auf das *_Zahnrad-Symbol_*, um zu den Grundeinstellungen zu gelangen.
+3. Wähle dann die Option *_Schnittstellen_*.
+--
+
+image::interactive_agrirouter/vyc/vyc-connect-agrirouter-2-de.png[Select Register, 800]
+
+[start=4]
+. Wähle nun unter den verschiedenen Schnittstellen die Option *_agrirouter_* aus.
+. Klicke auf den Button *_Verbindung aufbauen_*.
+. Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst anmelden.
+
+[.float-group]
+--
+[.right]
+image::interactive_agrirouter/vyc/vyc-connect-agrirouter-3-de.png[Select Register, 400]
+
+[start=7]
+. Nach deiner Anmeldung siehst du die hier gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto hergestellt.
+--
+
+[#check-connection]
+=== Onlineverbindung überprüfen
+
+image::interactive_agrirouter/vyc/vyc-check-connections-1-de.png[Select Register, 800]
+
+. Dass eine aktive Verbindung mit deinem agrirouter-Konto besteht, siehst du am Schriftzug *_“Verbunden mit Account ID xxx..”_* im oberen Bereich des Fensters.
+. Möchtest du die Verbindung trennen, klickst du auf den Button *_Verbindung trennen_*.
+. Möchtest du die Verbindung aktualisieren, klicke auf den Button *_Verbindung aktualisieren_*.
+
+[#update-endpoints]
+=== Endpunkte-Liste aktualisieren
+
+Wenn du neue Endpunkte, wie bspw. Landmaschinen mit dem agrirouter verbunden hast, werden diese nicht sofort im VYC-Konto angezeigt. Hierzu musst du die Endpunkte-Liste aktualisieren.
+
+image::interactive_agrirouter/vyc/vyc-update-endpoints-1-de.png[Select Register, 800]
+
+. Checke hierzu über die *_Account ID_*, ob du mit dem richtigen agrirouter-Konto verbunden bist.
+. Klicke auf den Button *_Endpunkt aktualisieren_*.
+
+== Aufgaben exportieren
+Mit dem agrirouter kannst du drahtlos Aufgaben von VYC an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine Aufgabe erstellt hast.
+
+image::interactive_agrirouter/vyc/vyc-export-maps-1-de.png[Select Register, 800]
+
+Deine Aufgabe wird nach einem Klick auf den Button Speichern direkt über den agrirouter an all deine Maschinen gesendet, solang eine aktive Verbindung mit dem agrirouter besteht. Du brauchst nichts weiter tun.
+
+[TIP]
+====
+Deine Aufgabe wird automatisch immer an all die Endpunkte gesendet, die über eine link:https://manual.agrirouter.com/de/routing.html[Route] mit dem agrirouter verbunden sind. Die Aufgabe wird immer erst an dem Tag an deine Maschinen gesendet, den du als Tag der Durchführung geplant hast!
+====
+
