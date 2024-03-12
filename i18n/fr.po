@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-12 08:22+0000\n"
-"PO-Revision-Date: 2023-12-05 16:00+0000\n"
+"PO-Revision-Date: 2024-03-12 09:46+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/fr@formal/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #. type: Hash Value: site title
 #: de/antora.yml:0 de/antora-playbook.yml:0
@@ -5555,27 +5555,20 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Trimble Solution Guide"
+#, no-wrap
 msgid "Agricolus Solution Guide"
-msgstr "Guide des solutions Trimble"
+msgstr "Guide de la solution Agricolus"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit der Farm Management Software xFarm kannst du Daten über den "
-#| "agrirouter empfangen und senden. Dazu müssen allerdings einige "
-#| "Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt "
-#| "behandelt:"
 msgid ""
 "Mit dem Betriebsführungssystem Agricolus kannst du Daten über agrirouter "
 "empfangen und senden. Dazu müssen jedoch einige Vorkehrungen getroffen "
 "werden. Die folgenden Punkte werden in diesem Abschnitt behandelt:"
 msgstr ""
-"Avec le logiciel de gestion de ferme xFarm, vous pouvez recevoir et envoyer "
-"des données via l'agrirouter. Pour cela, il faut toutefois prendre quelques "
-"précautions. Les points suivants sont abordés dans cette section :"
+"Avec le système de gestion d'exploitation Agricolus, vous pouvez recevoir et "
+"envoyer des données via agrirouter. Pour cela, il faut toutefois prendre "
+"quelques précautions. Les points suivants sont traités dans cette section :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:8
@@ -5588,141 +5581,101 @@ msgstr "Importation de cartes d'application réelles et de données télémétri
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:13
-#, fuzzy
-#| msgid ""
-#| "Um Daten von ABACO über den agrirouter senden und empfagen zu können, "
-#| "muss zuerst eine Verbindung zwischen deinem MyDataPlant-Konto und deinem "
-#| "agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, "
-#| "einfachen Schritten."
 msgid ""
 "Um Daten von Agricolus über den agrirouter senden und empfangen zu können, "
 "muss zuerst eine Verbindung zwischen deinem Agricolus-Konto und deinem "
 "agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen "
 "Schritten."
 msgstr ""
-"Pour pouvoir envoyer et recevoir des données d'ABACO via l'agrirouter, vous "
-"devez d'abord établir une connexion entre votre compte MyDataPlant et votre "
-"compte agrirouter. Cela se fait en quelques étapes simples."
+"Pour pouvoir envoyer et recevoir des données d'Agricolus via l'agrirouter, "
+"vous devez d'abord établir une connexion entre votre compte Agricolus et "
+"votre compte agrirouter. Cela fonctionne en quelques étapes simples."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:15
-#, fuzzy
-#| msgid ""
-#| "Logge dich in dein https://dacom.farm/accounts/login/[DACOM-Konto, "
-#| "window=\"_blank\"] ein."
 msgid ""
 "Bevor du beginnen kannst, musst du dich in dein https://auth.agricolus.com/"
 "Account/Login[Agricolus-Konto einloggen, window=\"_blank\"]."
 msgstr ""
-"Connectez-vous à votre compte https://dacom.farm/accounts/login/[DACOM, "
-"window=\"_blank\"]."
+"Avant de commencer, vous devez vous connecter à votre compte https://auth."
+"agricolus.com/Account/Login[Agricolus, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:22
-#, fuzzy
-#| msgid "Klicke auf das *_+ Symbol_*."
 msgid "Klicke auf das *_Menü-Symbol_*."
-msgstr "Cliquez sur l'icône *_+_*."
+msgstr "Cliquez sur l'icône *_Menu_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:23
-#, fuzzy
-#| msgid "Wähle *_Einstellungen_*."
 msgid "Wähle *_Externe Dienste_*."
-msgstr "Sélectionnez *_Préférences_*."
+msgstr "Sélectionnez *_Services_externes_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:32
-#, fuzzy
-#| msgid "Klicke auf *Verbinden mit agrirouter*."
 msgid "Klicke auf *_Verbinden_* in der Kachel *_Agrirouter_*."
-msgstr "Cliquez sur *Connecter avec agrirouter*."
+msgstr "Cliquez sur *_connecter_* dans la vignette *_Agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:41
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:38
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:55
-#, fuzzy
-#| msgid ""
-#| "Wenn du nicht bereits über denselben Browser in deinem agrirouter-Konto "
-#| "eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten "
-#| "einzugeben und dich anzumelden. Klicke im folgenden Fenster auf "
-#| "*_VERBINDEN_*."
 msgid ""
 "Wenn du nicht bereits über denselben Browser bei deinem agrirouter-Konto "
 "angemeldet bist, wirst du nun aufgefordert, deine Anmeldedaten einzugeben "
 "und dich anzumelden. Klicke im folgenden Fenster auf *_VERBINDEN_*."
 msgstr ""
 "Si vous n'êtes pas déjà connecté à votre compte agrirouter via le même "
-"navigateur, vous allez maintenant être invité à entrer vos informations de "
-"connexion et à vous connecter. Dans la fenêtre suivante, cliquez sur "
-"*_CONNECTER_*."
+"navigateur, il vous sera alors demandé d'entrer vos identifiants et de vous "
+"connecter. Dans la fenêtre suivante, cliquez sur *_CONNECTER_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:50
-#, fuzzy
-#| msgid ""
-#| "Dein xarvio FIELD MANAGER Konto ist nun mit deinem agrirouter-Konto "
-#| "verbunden."
 msgid "Dir wird nun angezeigt, dass dein agrirouter-Konto verbunden ist."
-msgstr ""
-"Votre compte xarvio FIELD MANAGER est maintenant connecté à votre compte "
-"agrirouter."
+msgstr "Vous verrez alors que votre compte agrirouter est connecté."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:54
-#, fuzzy
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
 msgid ""
 "Mit dem agrirouter kannst du Applikationskarten von Agricolus drahtlos an "
 "deine Maschinen senden."
-msgstr "Envoyer plusieurs cartes d'application à une machine"
+msgstr ""
+"Avec l'agrirouter, vous pouvez envoyer sans fil des cartes d'application "
+"d'Agricolus à vos machines."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:61
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_AgriRouter_*."
 msgid "Klicke in der Seitenleiste links auf *_Applikationskarten_*."
-msgstr "Cliquez sur *_AgriRouter_* dans la barre latérale gauche."
+msgstr "Cliquez sur *_Cartes d'application_* dans la barre latérale de gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:62
-#, fuzzy
-#| msgid "Export von Applikationskarten"
 msgid "Erstelle eine Applikationskarte."
-msgstr "Exportation de fiches d'application"
+msgstr "Créez une carte d'application."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:71
-#, fuzzy
-#| msgid "Wähle den Unterpunkt *_Live Ansicht_*."
 msgid "Wähle den Maschinentyp *_“Generisch”_*."
-msgstr "Sélectionnez la sous-rubrique *_Vue en direct_*."
+msgstr "Sélectionnez le type de machine *_\"générique\"_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:72
-#, fuzzy
-#| msgid "Klicke auf den Button *_Send to Agrirouter_*."
 msgid "Klicke auf den blauen Button *_Agrirouter_*."
-msgstr "Cliquez sur le bouton *_Send to Agrirouter_*."
+msgstr "Cliquez sur le bouton bleu *_Agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:73
-#, fuzzy
-#| msgid ""
-#| "Klicke auf die Kachel einer Maschine, die mit dem agrirouter verbunden "
-#| "ist."
 msgid ""
 "Öffne das Dropdown Menü und wähle eine Maschine, die mit dem agrirouter "
 "verbunden ist."
-msgstr "Cliquez sur la tuile d'une machine connectée à l'agrirouter."
+msgstr ""
+"Ouvrez le menu déroulant et sélectionnez une machine connectée à "
+"l'agrirouter."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:75
-#, fuzzy, no-wrap
-#| msgid "Import von Ist-Applikationskarten und Telemetriedaten"
+#, no-wrap
 msgid "Import von Applikationskarten und Telemetriedaten"
-msgstr "Importation de cartes d'application réelles et de données télémétriques"
+msgstr "Importation de cartes d'application et de données de télémétrie"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:77
@@ -5733,13 +5686,16 @@ msgid ""
 "abrufen kannst und wie du Einsicht in die GPS-Daten deiner Maschinen "
 "bekommst."
 msgstr ""
+"L'agrirouter vous permet également de recevoir sans fil des cartes "
+"d'application, des données télémétriques, etc. Les chapitres suivants "
+"expliquent comment obtenir des cartes d'application, des images et des "
+"tâches, et comment consulter les données GPS de vos machines."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:78
-#, fuzzy, no-wrap
-#| msgid "Applikationskarten und Aufgaben Im- und Exportierst"
+#, no-wrap
 msgid "Applikationskarten, Aufgaben und Bilder importieren"
-msgstr "Cartes d'application et tâches Importation et exportation"
+msgstr "Importer des fiches d'application, des tâches et des images"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:83
@@ -5748,13 +5704,15 @@ msgid ""
 "kannst von Maschinen und Geräten empfangene Applikationskarten, Aufgaben "
 "(Tasks) und Bilder herunterladen oder löschen."
 msgstr ""
+"Dans la section Agrirouter Docs, vous verrez différents types de fichiers. "
+"Vous pouvez télécharger ou supprimer les fiches d'application, les tâches et "
+"les images reçues des machines et des appareils."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:84
-#, fuzzy, no-wrap
-#| msgid "Maschinen mit dem agrirouter verbinden"
+#, no-wrap
 msgid "Maschinen mit dem Agrirouter koppeln"
-msgstr "connecter les machines à l'agrirouter"
+msgstr "Coupler les machines avec l'Agrirouter"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:87
@@ -5763,50 +5721,43 @@ msgid ""
 "deinem Agriclous-Konto abzurufen, müssen zuerst die entsprechenden Maschinen "
 "oder Geräte verbunden werden."
 msgstr ""
+"Pour récupérer des cartes d'application, des tâches, des images ou des "
+"positions GPS sur votre compte Agriclous, vous devez d'abord connecter les "
+"machines ou les appareils concernés."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:94
-#, fuzzy
-#| msgid "Wähle *_Einstellungen_* in der Seitenleiste links."
 msgid "Wähle *_Geräte_* in der Menüleiste auf der linken Seite."
-msgstr "Sélectionnez *_Paramètres_* dans la barre latérale à gauche."
+msgstr "Sélectionnez *_Périphériques_* dans la barre de menu à gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:100
-#, fuzzy
-#| msgid "Wähle dann im folgenden Fenster die Option *_agrirouter_* aus."
 msgid "Wähle im Dropdown-Menü unter Typ die Option *_Agrirouter_*."
-msgstr ""
-"Sélectionnez ensuite l'option *_agrirouter_* dans la fenêtre qui s'affiche."
+msgstr "Sélectionnez *_Agrirouter_* dans le menu déroulant sous Type."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:101
-#, fuzzy
-#| msgid "Wähle die Maschine, die mit dem agrirouter verbunden werden soll."
 msgid ""
 "Wähle die *_Maschine_*, von der die GPS-Positionen abgerufen werden sollen."
-msgstr "Sélectionnez la machine qui doit être connectée à l'agrirouter."
+msgstr ""
+"Sélectionnez la *_machine_* à partir de laquelle les positions GPS doivent "
+"être récupérées."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:102
-#, fuzzy
-#| msgid "Klicke *_speichern_*."
 msgid "Klicke auf *_Speichern_*."
-msgstr "Cliquez sur *_enregistrer_*."
+msgstr "Cliquez sur *_Enregistrer_*."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:103
-#, fuzzy, no-wrap
-#| msgid "Einsicht in die Maschinendaten"
+#, no-wrap
 msgid "GPS-Positionen direkt von Maschinen abrufen"
-msgstr "Consultation des données de la machine"
+msgstr "Obtenir des positions GPS directement à partir de machines"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:111
-#, fuzzy
-#| msgid "Wähle *_Einstellungen_* in der Seitenleiste links."
 msgid "Wähle *_Maschinen_* in der linken Seitenleiste."
-msgstr "Sélectionnez *_Paramètres_* dans la barre latérale à gauche."
+msgstr "Sélectionnez *_Machines_* dans la barre latérale gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:117
@@ -5814,6 +5765,8 @@ msgid ""
 "Nachdem du deine Maschinen hinzugefügt hast, klicke auf den blauen Geräte "
 "Button image:interactive_agrirouter/agricolus/blue-button.png[30, 30]."
 msgstr ""
+"Après avoir ajouté vos machines, cliquez sur le bouton bleu Périphériques "
+"image:interactive_agrirouter/agricolus/blue-button.png[30, 30]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:122
@@ -5821,6 +5774,8 @@ msgid ""
 "Um die Kopplung zu sichern, verbindest du die Maschine mit dem Gerät, das du "
 "zuvor im Gerätebereich hinzugefügt hast."
 msgstr ""
+"Pour sécuriser le couplage, vous connectez la machine au périphérique que "
+"vous avez précédemment ajouté dans la section Périphériques."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:127
@@ -5828,19 +5783,19 @@ msgid ""
 "Im unteren Bereich der Seite kannst du den Verlauf der Ereignisse anzeigen, "
 "die sich auf diese Maschine beziehen."
 msgstr ""
+"En bas de la page, vous pouvez afficher l'historique des événements liés à "
+"cette machine."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:128
 #, no-wrap
 msgid "Alle GPS-Positionen auf einmal abrufen"
-msgstr ""
+msgstr "Obtenir toutes les positions GPS en une seule fois"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:136
-#, fuzzy
-#| msgid "Wähle *_Einstellungen_* in der Seitenleiste links."
 msgid "Wähle *_Events_* in der Seitenleiste links."
-msgstr "Sélectionnez *_Paramètres_* dans la barre latérale à gauche."
+msgstr "Sélectionnez *_Events_* dans la barre latérale à gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:141
@@ -5849,69 +5804,55 @@ msgid ""
 "anzeigen. Mit einem Klick auf das Auge-Symbol rechts, kannst du dir die GPS-"
 "Positionen anzeigen lassen."
 msgstr ""
+"Affichez la liste des événements de toutes les machines ajoutées dans "
+"Agricolus. En cliquant sur l'icône en forme d'œil à droite, vous pouvez "
+"afficher les positions GPS."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:1
-#, fuzzy, no-wrap
-#| msgid "DACOM Solution Guide"
+#, no-wrap
 msgid "AGRARMONITOR Solution Guide"
-msgstr "Guide des solutions DACOM"
+msgstr "Guide de la solution AGRARMONITOR"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit der Farm Management Software DACOM kannst du Daten über den "
-#| "agrirouter empfangen und senden. Dazu müssen allerdings einige "
-#| "Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt "
-#| "behandelt:"
 msgid ""
 "Mit der Betriebssoftware für landwirtschaftliche Betriebe AGRARMONITOR "
 "kannst du Daten über den agrirouter empfangen und auswerten. Dazu muss "
 "allerdings vorher eine Verbindung hergestellt werden. Die folgenden Punkte "
 "werden in diesem Abschnitt behandelt:"
 msgstr ""
-"Avec le logiciel de gestion de ferme DACOM, vous pouvez recevoir et envoyer "
-"des données via l'agrirouter. Pour cela, il faut toutefois prendre quelques "
-"précautions. Les points suivants sont abordés dans cette section :"
+"Le logiciel d'exploitation agricole AGRARMONITOR vous permet de recevoir et "
+"d'analyser des données via l'agrirouter. Pour cela, il faut toutefois "
+"établir une connexion au préalable. Les points suivants sont abordés dans "
+"cette section :"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:7
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:56
-#, fuzzy, no-wrap
-#| msgid "Telemetriedaten"
+#, no-wrap
 msgid "Telemetriedaten abrufen"
-msgstr "Données télémétriques"
+msgstr "Consulter les données télémétriques"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:12
-#, fuzzy
-#| msgid ""
-#| "Um Daten von ABACO über den agrirouter senden und empfagen zu können, "
-#| "muss zuerst eine Verbindung zwischen deinem MyDataPlant-Konto und deinem "
-#| "agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, "
-#| "einfachen Schritten."
 msgid ""
 "Um Daten über den agrirouter empfangen zu können, muss zuerst eine "
 "Verbindung zwischen deinem AGRARMONITOR-Konto und deinem agrirouter-Konto "
 "hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten."
 msgstr ""
-"Pour pouvoir envoyer et recevoir des données d'ABACO via l'agrirouter, vous "
-"devez d'abord établir une connexion entre votre compte MyDataPlant et votre "
-"compte agrirouter. Cela se fait en quelques étapes simples."
+"Pour pouvoir recevoir des données via l'agrirouter, il faut d'abord établir "
+"une connexion entre votre compte AGRARMONITOR et votre compte agrirouter. "
+"Cela fonctionne en quelques étapes simples."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:14
-#, fuzzy
-#| msgid ""
-#| "Bevor du anfangen kannst, musst du dich über die https://www.abacofarmer."
-#| "com/en/[ABACO Website, window=\"_blank\"] in dein Konto einloggen."
 msgid ""
 "Bevor du anfangen kannst, musst du dich über die https://www.agrarmonitor.de/"
 "[AGRARMONITOR-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
 "Avant de commencer, vous devez vous connecter à votre compte via https://www."
-"abacofarmer.com/en/[ABACO Website, window=\"_blank\"]."
+"agrarmonitor.de/[site web AGRARMONITOR, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:18
@@ -5919,20 +5860,18 @@ msgid ""
 "Klicke in der Navigationsleiste oberen Bereich deines Bildschirms auf "
 "*_Stammdaten_*."
 msgstr ""
+"Cliquez sur *_Données de base_* dans la barre de navigation en haut de votre "
+"écran."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:19
-#, fuzzy
-#| msgid "Wähle *_Einstellungen_*."
 msgid "Wähle *_Verbindungen_*."
-msgstr "Sélectionnez *_Préférences_*."
+msgstr "Sélectionnez *_connexions_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:20
-#, fuzzy
-#| msgid "Klicke auf den Button *_Gerät anschließen_*."
 msgid "Klicke auf den Button *_Anlegen_*."
-msgstr "Cliquez sur le bouton *_Connecter le périphérique_*."
+msgstr "Cliquez sur le bouton *_Créer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:28
@@ -5940,6 +5879,8 @@ msgid ""
 "Nun taucht ein Fenster auf, in dem du verschiedene Verbindungsoptionen "
 "findest. Wähle das *_agrirouter-Symbol_* aus."
 msgstr ""
+"Une fenêtre apparaît alors, dans laquelle vous trouverez différentes options "
+"de connexion. Sélectionnez l'icône *_agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:29
@@ -5954,13 +5895,14 @@ msgid ""
 "Maschine als Eintrag angezeigt. Diese muss nun zugeordnet werden. Dazu die "
 "jeweilige Maschine anklicken."
 msgstr ""
+"Après quelques instants, la connexion au compte agrirouter est affichée, "
+"ainsi que chaque machine en tant qu'entrée. Celle-ci doit maintenant être "
+"attribuée. Pour ce faire, cliquez sur la machine concernée."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:49
-#, fuzzy
-#| msgid "Klicke auf den Reiter *_Tasks_*."
 msgid "Klicke auf den Reiter *_Zuordnungen_*."
-msgstr "Cliquez sur l'onglet *_Tâches_*."
+msgstr "Cliquez sur l'onglet *_Affectations_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:50
@@ -5968,6 +5910,8 @@ msgid ""
 "Wähle nun entweder die Zugmaschine oder Anbaumaschine durch eine Suche im "
 "Dropdown-Menü aus."
 msgstr ""
+"Sélectionnez ensuite soit le tracteur soit la machine portée en effectuant "
+"une recherche dans le menu déroulant."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:55
@@ -5977,6 +5921,10 @@ msgid ""
 "werden die Daten der Schnittstelle anschließend mit den erfassten Daten in "
 "AGRARMONITOR abgeglichen."
 msgstr ""
+"Les valeurs transmises, comme le compteur d'heures de travail, le compteur "
+"d'hectares, etc. peuvent ensuite être associées aux valeurs dans "
+"AGRARMONITOR. Ainsi, les données de l'interface sont ensuite comparées aux "
+"données saisies dans AGRARMONITOR."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:58
@@ -5984,6 +5932,8 @@ msgid ""
 "Du kannst Telemetriedaten, die über den agrirouter von deiner Maschine an "
 "dein AGRARMONITOR-Konto gesendet wurden, abrufen und auswerten."
 msgstr ""
+"Vous pouvez consulter et analyser les données télémétriques envoyées par "
+"votre machine à votre compte AGRARMONITOR via l'agrirouter."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:62
@@ -5991,6 +5941,8 @@ msgid ""
 "Voraussetzung für das Abrufen von Telemetriedaten ist, dass deine Maschine "
 "bereits über den agrirouter verbunden ist!"
 msgstr ""
+"Pour pouvoir consulter les données télémétriques, il faut que votre machine "
+"soit déjà connectée via l'agrirouter !"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:68
@@ -5998,19 +5950,17 @@ msgid ""
 "Klicke in der Navigationsleiste im oberen Bereich deines Bildschirms auf "
 "*_Stammdaten_* und wähle anschließend *_Verbindungen_*."
 msgstr ""
+"Cliquez sur *_Fiches_* dans la barre de navigation en haut de votre écran, "
+"puis sélectionnez *_Connexions_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:69
-#, fuzzy
-#| msgid ""
-#| "Klicke nun auf *_Maschinenpark_* und wähle die Maschine, von der du die "
-#| "Telemetriedaten abrufen möchtest."
 msgid ""
 "Klicke dann auf die Maschine, von der du die empfangenen Telemetriedaten "
 "einsehen möchtest."
 msgstr ""
-"Cliquez maintenant sur *_parc de machines_* et sélectionnez la machine dont "
-"vous souhaitez récupérer les données de télémétrie."
+"Cliquez ensuite sur la machine dont vous souhaitez consulter les données "
+"télémétriques reçues."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:73
@@ -6018,6 +5968,8 @@ msgid ""
 "Wähle im Reiter die Option Telemetriedaten aus. Dir werden nun die zuletzt "
 "übermittelten Werte der Maschine angezeigt."
 msgstr ""
+"Sélectionnez l'option Données télémétriques dans l'onglet. Vous verrez alors "
+"les dernières valeurs transmises par la machine."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:1
@@ -6701,107 +6653,79 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:1
-#, fuzzy, no-wrap
-#| msgid "MyEasyFarm Solution Guide"
+#, no-wrap
 msgid "CropManager Solution Guide"
-msgstr "Guide de la solution MyEasyFarm"
+msgstr "Guide de la solution CropManager"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit der Farm Management Software MyEasyFarm kannst du Daten vom "
-#| "agrirouter empfangen und senden. Dazu müssen allerdings einige "
-#| "Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt "
-#| "behandelt:"
 msgid ""
 "Mit der Farm Management Software CropManager kannst du Daten vom agrirouter "
 "empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen "
 "werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
 msgstr ""
-"Avec le logiciel de gestion de ferme MyEasyFarm, vous pouvez recevoir et "
+"Avec le logiciel de gestion agricole CropManager, vous pouvez recevoir et "
 "envoyer des données de l'agrirouter. Pour cela, il faut toutefois prendre "
 "quelques précautions. Les points suivants sont abordés dans cette section :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:7
-#, fuzzy
-#| msgid "Export von Soll-Applikationskarten"
 msgid "Export von Soll-Applikationskarten und anderen Aufgaben"
-msgstr "Exportation de cartes d'application cibles"
+msgstr "Exportation de cartes d'application cibles et autres tâches"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:13
-#, fuzzy
-#| msgid ""
-#| "Um Applikationskarten von MyEasyFarm über den agrirouter an dein Terminal "
-#| "senden zu können, muss zuerst eine Verbindung zwischen deinem MyDataPlant-"
-#| "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert "
-#| "in wenigen, einfachen Schritten."
 msgid ""
 "Um Applikationskarten vom CropManager über den agrirouter an dein Terminal "
 "senden zu können, muss zuerst eine Verbindung zwischen deinem CropManager-"
 "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
 "wenigen, einfachen Schritten."
 msgstr ""
-"Pour pouvoir envoyer des cartes d'application de MyEasyFarm vers votre "
+"Pour pouvoir envoyer des cartes d'application du CropManager vers votre "
 "terminal via l'agrirouter, vous devez d'abord établir une connexion entre "
-"votre compte MyDataPlant et votre compte agrirouter. Cela fonctionne en "
+"votre compte CropManager et votre compte agrirouter. Cela fonctionne en "
 "quelques étapes simples."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:17
-#, fuzzy
-#| msgid ""
-#| "Logge dich über die link:https://fm.xarvio.com/de/de_de/login[xarvio "
-#| "Login Seite,window=\"_blank\"] in dein Konto ein."
 msgid ""
 "Logge dich über die link:https://cropmanager.dk/#/?"
 "currentLanguage=%22en%22[CropManager Website, window=\"_blank\"] in dein "
 "Cropmanager-Konto ein."
 msgstr ""
-"Connectez-vous à votre compte via link:https://fm.xarvio.com/de/de_de/"
-"login[xarvio Login page,window=\"_blank\"]."
+"Connectez-vous à votre compte Cropmanager via link:https://cropmanager.dk/"
+"#/?currentLanguage=%22en%22[site web CropManager, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:18
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_Aufzeichnen_*."
 msgid ""
 "Klicke in der linken Seitenleiste auf *_Settings_* und öffne im Menü den "
 "Punkt *_Data Connections_*."
-msgstr "Cliquez sur *_Enregistrer_* dans la barre latérale gauche."
+msgstr ""
+"Cliquez sur *_Settings_* dans la barre latérale gauche et ouvrez l'option *"
+"_Data Connections_* dans le menu."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:19
-#, fuzzy
-#| msgid "Klicke den Button *_OK_*."
 msgid "Klicke jetzt den Button *_CREATE CONNECTION_*."
-msgstr "Cliquez sur le bouton *_OK_*."
+msgstr "Cliquez maintenant sur le bouton *_CREATE CONNECTION_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:20
-#, fuzzy
-#| msgid ""
-#| "Wähle im Dropdown-Menü unter *_Anbieter auswählen_* die Option "
-#| "*_AGRIROUTER_* aus."
 msgid ""
 "Wähle im Dropdown Menü unter *_Choose Type_* die Option *_AgriRouter_* aus."
 msgstr ""
-"Sélectionnez *_AGRIROUTER_* dans le menu déroulant sous *_Sélectionner un "
-"fournisseur_*."
+"Dans le menu déroulant, sous *_Choose Type_*, sélectionnez *_AgriRouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:21
 msgid "Gib deiner Verbindung unter *_Connection name_* einen Namen."
-msgstr ""
+msgstr "Donnez un nom à votre connexion dans *_Connection name_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:22
-#, fuzzy
-#| msgid "Klicke auf *_WEITER_*."
 msgid "Klicke auf *_LOG ON TO AGRIROUTER_*."
-msgstr "Cliquez sur *_CONTINUER_*."
+msgstr "Cliquez sur *_LOG ON TO AGRIROUTER_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:31
@@ -6809,22 +6733,19 @@ msgid ""
 "Es erscheint das Fenster rechts, in dem abgefragt wird, ob du wirklich eine "
 "Verbindung zum agrirouter herstellen möchtest. Klicke jetzt auf *_CONNECT_*."
 msgstr ""
+"La fenêtre de droite apparaît et vous demande si vous voulez vraiment vous "
+"connecter à l'agrirouter. Cliquez maintenant sur *_CONNECT_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:32
-#, fuzzy
-#| msgid ""
-#| "Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. "
-#| "Applikationskarten von MyEasyFarm über den agrirouter an dein Terminal "
-#| "senden."
 msgid ""
 "Fertig. Die Verbindung zum agrirouter ist hergestellt und du kannst bspw. "
 "Applikationskarten von CropManager über den agrirouter an dein Terminal "
 "senden."
 msgstr ""
-"La connexion à l'agrirouter est maintenant établie et vous pouvez, par "
-"exemple, envoyer des cartes d'application de MyEasyFarm à votre terminal via "
-"l'agrirouter."
+"Vous avez terminé. La connexion à l'agrirouter est établie et vous pouvez, "
+"par exemple, envoyer des cartes d'application de CropManager à votre "
+"terminal via l'agrirouter."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:37
@@ -6834,111 +6755,91 @@ msgid ""
 "über den Button CHECK CONNECTION zu überprüfen. Wurde einmal eine Verbindung "
 "zum agrirouter aufgebaut, sollte diese dauerhaft funktionieren."
 msgstr ""
+"Pour les autres connexions, l'option CHECK CONNECTION est affichée sous "
+"Status. Cependant, il n'est pas possible de vérifier la connexion à "
+"l'agrirouter via le bouton CHECK CONNECTION. Une fois qu'une connexion à "
+"l'agrirouter a été établie, elle devrait fonctionner en permanence."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:41
-#, fuzzy
-#| msgid ""
-#| "MyEasyFarm aktualisiert die Endpunkte Liste automatisch. Wenn du einen "
-#| "neuen Endpunkt, wie bspw. eine Maschine, über den agrirouter hinzufügst, "
-#| "erscheint dieser spätestens einige Minuten später auch auf deinem "
-#| "MyEasyFarm-Konto."
 msgid ""
 "CropManager aktualisiert die Endpunkteliste automatisch. Wenn du einen neuen "
 "Endpunkt, wie bspw. eine Maschine, über den agrirouter hinzufügst, erscheint "
 "dieser spätestens einige Minuten später auch auf deinem CropManager-Konto."
 msgstr ""
-"MyEasyFarm met automatiquement à jour la liste des points de terminaison. Si "
-"vous ajoutez un nouveau point d'extrémité, comme une machine, via "
-"l'agrirouter, il apparaîtra également sur votre compte MyEasyFarm au plus "
-"tard quelques minutes plus tard."
+"CropManager met automatiquement à jour la liste des points finaux. Si vous "
+"ajoutez un nouveau point d'extrémité, comme une machine, via l'agrirouter, "
+"il apparaîtra également sur votre compte CropManager au plus tard quelques "
+"minutes plus tard."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:45
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:50
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:78
-#, fuzzy
-#| msgid ""
-#| "Nach der Planung und Erstellung einer Aufgabe (Düngung, Aussaat oder "
-#| "Pflanzenschutz) kannst du deine Applikationskarte über den agrirouter "
-#| "drahtlos an dein Terminal senden."
 msgid ""
 "Nach der Planung und Erstellung einer Aufgabe für eines oder mehrere Felder "
 "(Düngung, Aussaat oder Pflanzenschutz) kannst du deine Applikationskarte "
 "über den agrirouter drahtlos an dein Terminal senden."
 msgstr ""
-"Après avoir planifié et créé une tâche (fertilisation, semis ou protection "
-"des cultures), vous pouvez envoyer sans fil votre carte d'application à "
-"votre terminal via l'agrirouter."
+"Après avoir planifié et créé une tâche pour un ou plusieurs champs ("
+"fertilisation, semis ou protection des cultures), vous pouvez envoyer sans "
+"fil votre carte d'application à votre terminal via l'agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:55
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_Mein Betrieb._*"
 msgid ""
 "Klicke in der linken Seitenleiste auf den Menüpunkt *_Prescription Maps_* "
 "(engl. für Applikationskarten)."
-msgstr "Cliquez sur *_Mon entreprise_* dans la barre latérale de gauche."
+msgstr ""
+"Cliquez sur l'élément de menu *_Prescription Maps_* dans la barre latérale "
+"gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:56
-#, fuzzy
-#| msgid "Wähle die Applikationskarte aus, die du exportieren möchtest."
 msgid "Wähle die gewünschte Applikationskarte aus."
-msgstr "Sélectionnez la carte d'application que vous souhaitez exporter."
+msgstr "Sélectionnez la carte d'application souhaitée."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:57
-#, fuzzy
-#| msgid ""
-#| "Klicke am unteren Bildschirmrand auf die Option *_An Maschine senden_*."
 msgid ""
 "Klicke im rechten, unteren Bereich des Bildschirms den Button *_Send to "
 "Machine_*."
-msgstr "Cliquez sur l'option *_Envoyer à la machine_* en bas de l'écran."
+msgstr ""
+"Cliquez sur le bouton *_Send to Machine_* dans la partie inférieure droite "
+"de l'écran."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:65
-#, fuzzy
-#| msgid "Wähle unter *_Ziele auswählen_* den agrirouter aus."
 msgid "Wähle nun eine der beiden agrirouter Optionen aus."
-msgstr "Sous *_Sélectionner les destinations_*, sélectionnez l'agrirouter."
+msgstr "Choisissez maintenant l'une des deux options agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:74
-#, fuzzy
-#| msgid ""
-#| "Wähle aus dem *_Dropdown Menü_* den Endpunkt, an den du deine "
-#| "Applikationskarte senden möchtest."
 msgid ""
 "Wähle die Maschine aus, an die du die Applikationskarte für eines oder "
 "mehrere Felder senden möchtest."
 msgstr ""
-"Sélectionnez dans le *_menu déroulant_* le point final vers lequel vous "
-"souhaitez envoyer votre carte d'application."
+"Sélectionnez la machine à laquelle vous souhaitez envoyer la carte "
+"d'application pour un ou plusieurs champs."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:78
-#, fuzzy
-#| msgid ""
-#| "Wenn die Meldung image:interactive_agrirouter/abaco/abaco-export-maps-3-"
-#| "de.png[Select Register, 200, 100] am oberen Bildschirmrand erscheint, war "
-#| "der Export deiner Applikationskarte erfolgreich."
 msgid ""
 "Über den Hinweis *_Sent to machine_* image:interactive_agrirouter/"
 "cropmanager/cropmanager-success-icon.png[Select Register, 100] am unteren "
 "Bildschirmrand wird dir angezeigt, dass der Export erfolgreich war."
 msgstr ""
-"Si le message image:interactive_agrirouter/abaco/abaco-export-maps-3-de."
-"png[Select Register, 200, 100] apparaît en haut de l'écran, l'exportation de "
-"votre carte d'application a réussi."
+"La mention *_Sent to machine_* image:interactive_agrirouter/cropmanager/"
+"cropmanager-success-icon.png[Select Register, 100] en bas de l'écran vous "
+"indique que l'exportation a réussi."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:79
-#, fuzzy, no-wrap
-#| msgid "### Eine Applikationskarte an mehrere Endpunkte senden"
+#, no-wrap
 msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
-msgstr "### Envoyer une carte d'application à plusieurs points de terminaison"
+msgstr ""
+"Envoyer une carte d'application à plusieurs points de terminaison en même "
+"temps"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:82
@@ -6946,18 +6847,19 @@ msgid ""
 "Es kann in manchen Fällen Sinn machen, eine Applikationskarte an mehrere "
 "Endpunkte gleichzeitig zu senden. Hier erfährst du, wie das funktioniert."
 msgstr ""
+"Dans certains cas, il peut être utile d'envoyer une carte d'application à "
+"plusieurs points de terminaison en même temps. Vous apprendrez ici comment "
+"cela fonctionne."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:89
 msgid "Befolge die Schritte 1 - 4 aus dem vorigen Kapitel."
-msgstr ""
+msgstr "Suivez les étapes 1 à 4 du chapitre précédent."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:90
-#, fuzzy
-#| msgid "Wähle *_Maschinen_* aus."
 msgid "Wähle *_Send to all subscribed_* aus."
-msgstr "Sélectionnez *_Machines_*."
+msgstr "Sélectionnez *_Send to all subscribed_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:91
@@ -6965,6 +6867,8 @@ msgid ""
 "Deine Applikationskarte wird jetzt an alle mit dem agrirouter verbundenen "
 "Maschinen gleichzeitig gesendet."
 msgstr ""
+"Votre carte d'application est maintenant envoyée simultanément à toutes les "
+"machines connectées à l'agrirouter."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:96
@@ -6973,16 +6877,12 @@ msgid ""
 "zu senden. Entweder du schickst sie an eine Maschine, oder an alle Maschinen "
 "gleichzeitig."
 msgstr ""
+"Il n'est pas possible d'envoyer une carte d'application à une sélection de "
+"machines. Soit vous l'envoyez à une machine, soit à toutes les machines en "
+"même temps."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:101
-#, fuzzy
-#| msgid ""
-#| "Nach der Ausbringung von bspw. Saatgut können Ausbringkarten (As-Applied-"
-#| "Maps) auch vom Terminal über den agrirouter an dein MyEasyFarm-Konto "
-#| "gesendet werden. Dasselbe gilt für alle weiteren Daten, die mit deinem "
-#| "Equipment erstellt werden. Wie diese abgerufen werden können, erfährst du "
-#| "im Folgenden."
 msgid ""
 "Nach der Ausbringung von bspw. Saatgut können Ausbringkarten (englisch: As-"
 "Applied-Maps) auch vom Terminal über den agrirouter an dein CropManager-"
@@ -6990,25 +6890,23 @@ msgid ""
 "Equipment erstellt werden. Wie diese abgerufen werden können, erfährst du im "
 "Folgenden."
 msgstr ""
-"Après l'épandage de semences, par exemple, les cartes d'épandage (As-Applied-"
-"Maps) peuvent également être envoyées du terminal vers votre compte "
-"MyEasyFarm via l'agrirouter. Il en va de même pour toutes les autres données "
-"créées avec votre équipement. Vous apprendrez ci-dessous comment les "
-"récupérer."
+"Après l'épandage de semences, par exemple, les cartes d'épandage (en anglais "
+": As-Applied-Maps) peuvent également être envoyées du terminal à votre "
+"compte CropManager via l'agrirouter. Il en va de même pour toutes les autres "
+"données créées avec votre équipement. Vous trouverez ci-dessous des "
+"informations sur la manière de les récupérer."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:105
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_Mein Betrieb._*"
 msgid "Klicke in der linken Seitenleiste auf den Menüpunkt *_Field Analysis_*."
-msgstr "Cliquez sur *_Mon entreprise_* dans la barre latérale de gauche."
+msgstr ""
+"Cliquez sur l'élément de menu *_Field Analysis_* dans la barre latérale "
+"gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:106
-#, fuzzy
-#| msgid "Wähle auf der Startseite die Option *_Feld_*."
 msgid "Wähle auf der rechten Seite die Option *_As Applied_*."
-msgstr "Sur la page d'accueil, sélectionnez *_champ_*."
+msgstr "Sélectionnez l'option *_As Applied_* sur le côté droit."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:114
@@ -7018,6 +6916,11 @@ msgid ""
 "PLANT PROTECTION (Pflanzenschutz). Unter UNSPECIFIED TASKS (undefinierte "
 "Aufgaben)sind Aufgaben verortet, die noch keiner Kategorie zugeordnet sind."
 msgstr ""
+"Vous voyez maintenant dans la barre latérale de droite une sélection de vos "
+"cartes d'épandage classées dans les catégories SEEDING (semences), "
+"FERTILIZER (engrais) et PLANT PROTECTION (protection des plantes). Sous "
+"UNSPECIFIED TASKS (tâches non définies) se trouvent les tâches qui n'ont pas "
+"encore été attribuées à une catégorie."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:123
@@ -7025,6 +6928,8 @@ msgid ""
 "Wenn du eine kürzlich erstellte Datei auswählen möchtest, klicke auf UPLOAD, "
 "um die Datei in den CropManager zu laden."
 msgstr ""
+"Si vous souhaitez sélectionner un fichier récemment créé, cliquez sur UPLOAD "
+"pour charger le fichier dans le CropManager."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:124
@@ -7034,6 +6939,10 @@ msgid ""
 "Wenn die Software nicht erkennen kann, um welchen Datentyp es sich handelt, "
 "landen deine Daten bei UNSPECIFIED TASKS."
 msgstr ""
+"Les données que vous avez envoyées de la machine vers votre compte "
+"CropManager sont généralement téléchargées automatiquement dans l'une des "
+"quatre catégories. Si le logiciel ne peut pas identifier de quel type de "
+"données il s'agit, vos données se retrouvent dans UNSPECIFIED TASKS."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:134
@@ -7041,6 +6950,8 @@ msgid ""
 "Du findest auch unter UPLOADED FILES alle Dateien, die von einer deinen "
 "Maschinen hochgeladen wurde."
 msgstr ""
+"Vous trouverez également dans UPLOADED FILES tous les fichiers qui ont été "
+"téléchargés depuis l'une de vos machines."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:143
@@ -7048,6 +6959,7 @@ msgid ""
 "Mit einem Klick auf die Datei kannst du sie einer bestimmten Aufgabe "
 "zuordnen."
 msgstr ""
+"En cliquant sur le fichier, vous pouvez l'assigner à une tâche spécifique."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:1
@@ -7403,61 +7315,47 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:1
-#, fuzzy, no-wrap
-#| msgid "xFarm Solution Guide"
+#, no-wrap
 msgid "FarmBlick Solution Guide"
-msgstr "Guide des solutions xFarm"
+msgstr "Guide des solutions FarmBlick"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit der Farm Management Software NEXT Farming kannst du Daten vom "
-#| "agrirouter empfangen und senden. Dazu müssen allerdings einige "
-#| "Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt "
-#| "behandelt:"
 msgid ""
 "Mit der Farm Management Software von FarmBlick-Community kannst du Daten vom "
 "agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen "
 "getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
 msgstr ""
-"Le logiciel de gestion agricole NEXT Farming vous permet de recevoir et "
-"d'envoyer des données depuis l'agrirouter. Pour cela, il faut toutefois "
-"prendre quelques précautions. Les points suivants sont abordés dans cette "
-"section :"
+"Avec le logiciel de gestion de ferme de FarmBlick-Community, vous pouvez "
+"recevoir et envoyer des données de l'agrirouter. Pour cela, il faut "
+"toutefois prendre quelques précautions. Les points suivants sont abordés "
+"dans cette section :"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:8
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:140
-#, fuzzy, no-wrap
-#| msgid "Import von Applikationskarten"
+#, no-wrap
 msgid "Import von Ausbringkarten"
-msgstr "Importation de cartes d'application"
+msgstr "Importation de cartes d'épandage"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:9
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:211
 #, no-wrap
 msgid "Importierte Daten abrufen"
-msgstr ""
+msgstr "Récupérer les données importées"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:13
-#, fuzzy
-#| msgid ""
-#| "Um Applikationskarten von NEXT Farming über den agrirouter an dein "
-#| "Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem "
-#| "NEXT Farming-Konto und deinem agrirouter-Konto hergestellt werden. Dies "
-#| "funktioniert in wenigen, einfachen Schritten."
 msgid ""
 "Um Applikationskarten von FarmBlick-Community über den agrirouter an dein "
 "Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem "
 "FarmBlick-Community-Konto und deinem agrirouter-Konto hergestellt werden. "
 "Dies funktioniert in wenigen, einfachen Schritten."
 msgstr ""
-"Pour pouvoir envoyer des cartes d'application de NEXT Farming à votre "
-"terminal via l'agrirouter, vous devez d'abord établir une connexion entre "
-"votre compte NEXT Farming et votre compte agrirouter. Cela fonctionne en "
+"Pour pouvoir envoyer des cartes d'application de FarmBlick-Community à votre "
+"terminal via l'agrirouter, il faut d'abord établir une connexion entre votre "
+"compte FarmBlick-Community et votre compte agrirouter. Cela fonctionne en "
 "quelques étapes simples."
 
 #. type: delimited block =
@@ -7468,41 +7366,37 @@ msgid ""
 "v=9Oml74ogvyY&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=8[🚜 Tutorial "
 "4.3: „agrirouter verbinden“ 🌐 - YouTube, window=\"_blank\"]."
 msgstr ""
+"La communauté FarmBlick propose également une vidéo expliquant comment "
+"connecter l'agrirouter : link:https://www.youtube.com/"
+"watch?v=9Oml74ogvyY&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=8[🚜 "
+"Tutoriel 4.3 : \"connecter l'agrirouter\" 🌐 - YouTube, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:26
-#, fuzzy
-#| msgid ""
-#| "Logge dich über die link:https://fm.xarvio.com/de/de_de/login[xarvio "
-#| "Login Seite,window=\"_blank\"] in dein Konto ein."
 msgid ""
 "Logge dich über die link:https://app.farmblick.de/[FarmBlick-Community "
 "Website, window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Connectez-vous à votre compte via link:https://fm.xarvio.com/de/de_de/"
-"login[xarvio Login page,window=\"_blank\"]."
+"Connectez-vous à votre compte via le lien:https://app.farmblick.de/[site web "
+"de la communauté FarmBlick, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:27
-#, fuzzy
-#| msgid "Klicke auf die *_Wolke_* in der linken Seitenleiste."
 msgid "Klicke auf das *_Zahnrad_* am unteren Rand der linken Seitenleiste."
-msgstr "Cliquez sur le *_nuage_* dans la barre latérale gauche."
+msgstr "Cliquez sur la *_roue dentée_* en bas de la barre latérale gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:28
-#, fuzzy
-#| msgid "Wähle *_Einstellungen_*."
 msgid "Wähle *_Programmeinstellungen_*."
-msgstr "Sélectionnez *_Préférences_*."
+msgstr "Sélectionnez *_Paramètres du programme_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:37
-#, fuzzy
-#| msgid "Klicke in der agrirouter Kachel auf Agrirouter *_Verbinden_*."
 msgid ""
 "Klicke in den Programmeinstellungen auf *_agrirouter Verbindung herstellen_*."
-msgstr "Cliquez sur Agrirouter *_connecter_* dans la vignette agrirouter."
+msgstr ""
+"Dans les paramètres du programme, cliquez sur *_établir la connexion avec "
+"l'Agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:46
@@ -7510,6 +7404,8 @@ msgid ""
 "Die folgende Meldung warnt nur davor, dass der Prozess etwas Zeit in "
 "Anspruch nehmen kann. Klicke auf *_OK_*."
 msgstr ""
+"Le message suivant vous avertit simplement que le processus peut prendre un "
+"peu de temps. Cliquez sur *_OK_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:64
@@ -7517,19 +7413,17 @@ msgid ""
 "Sobald die Verbindung herstellt wurde, wirst du auf die FarmBlick App "
 "weitergeleitet und eine Erfolgsmeldung erscheint."
 msgstr ""
+"Une fois la connexion établie, vous serez redirigé vers l'application "
+"FarmBlick et un message de réussite apparaîtra."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:73
-#, fuzzy
-#| msgid ""
-#| "Um die Verbindung zu trennen, klickst du auf den Button "
-#| "*_Agrirouterverbindung trennen_*."
 msgid ""
 "Wenn du nun zu den Programmeinstellungen gehst, wird dir die Option "
 "*_agrirouter Verbindung trennen_* angezeigt."
 msgstr ""
-"Pour vous déconnecter, cliquez sur le bouton *_Déconnexion de l'agri-"
-"routeur_*."
+"Si vous allez maintenant dans les paramètres du programme, vous verrez "
+"l'option *_déconnecter_agrirouter_*."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:82
@@ -7540,6 +7434,11 @@ msgid ""
 "Tutorial 13.19: „Applikationskarten via agrirouter auf CCI Terminal "
 "übertragen“ 🌐 - YouTube, window=\"_blank\"]."
 msgstr ""
+"La communauté FarmBlick propose également une vidéo expliquant comment "
+"exporter des fiches d'application : link:https://www.youtube.com/"
+"watch?v=ohr12FKvU6Q&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=29[🚜 "
+"Tutoriel 13.19 : \"Transférer des fiches d'application vers le terminal CCI "
+"via agrirouter\" 🌐 - YouTube, window=\"_blank\"]."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:87
@@ -7549,30 +7448,30 @@ msgid ""
 "Softwareverbindung zwischen deinem FarmBlick-Community- und dem agrirouter-"
 "Konto besteht, und dein Terminal mit dem agrirouter verbunden ist."
 msgstr ""
+"Avant de pouvoir commencer : Assurez-vous que les activations appropriées "
+"sont disponibles sur votre terminal, qu'il existe déjà une connexion "
+"logicielle entre votre compte FarmBlick Community et votre compte "
+"agrirouter, et que votre terminal est connecté à l'agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:96
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:154
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_AgriRouter_*."
 msgid "Klicke in der linken Seitenleiste auf *_Import/Export_*."
-msgstr "Cliquez sur *_AgriRouter_* dans la barre latérale gauche."
+msgstr "Cliquez sur *_Import/Export_* dans la barre latérale gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:105
 msgid "Wähle anschließend *_Export_*."
-msgstr ""
+msgstr "Sélectionnez ensuite *_Export_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:111
-#, fuzzy
-#| msgid ""
-#| "Wähle das Kästchen auf der linken Seite bei den Karten aus, die du "
-#| "importieren möchtest."
 msgid ""
 "Wähle jetzt in der Feldliste auf der linken Seitenleiste oder direkt in der "
 "Karte die Felder aus, die zu exportieren möchtest."
-msgstr "Cochez la case à gauche des cartes que vous souhaitez importer."
+msgstr ""
+"Sélectionnez maintenant les champs que vous souhaitez exporter dans la liste "
+"des champs sur la barre latérale gauche ou directement sur la carte."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:115
@@ -7580,6 +7479,8 @@ msgid ""
 "Um mehrere Felder auszuwählen, hältst du deine Strg- oder Ctrl-Taste "
 "gedrückt."
 msgstr ""
+"Pour sélectionner plusieurs champs, maintenez votre touche Ctrl ou Strg "
+"enfoncée."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:119
@@ -7587,6 +7488,9 @@ msgid ""
 "Wähle nun im Reiter das *_Datenformat_* aus, das du exportieren möchtest. In "
 "diesem Beispiel werden Applikationskarten gewählt."
 msgstr ""
+"Sélectionnez maintenant dans l'onglet le *_format de données_* que vous "
+"souhaitez exporter. Dans cet exemple, ce sont des fiches d'application qui "
+"sont sélectionnées."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:120
@@ -7595,35 +7499,35 @@ msgid ""
 "Auswahl entsprechen. Über das Dropdown-Menü kannst du nach Vorgang (bspw. "
 "Düngung, Pflanzenschutz oder Aussaat) oder Jahr filtern."
 msgstr ""
+"L'étape suivante consiste à afficher toutes les données du format de données "
+"correspondant à votre sélection. Le menu déroulant vous permet de filtrer "
+"par opération (par exemple, fertilisation, protection des cultures ou semis) "
+"ou par année."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:121
-#, fuzzy
-#| msgid "Wähle die Applikationskarten aus, die du exportieren möchtest."
 msgid "Wähle die Dateien aus, die du exportieren möchtest."
-msgstr "Sélectionnez les fiches d'application que vous souhaitez exporter."
+msgstr "Sélectionnez les fichiers que vous souhaitez exporter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:122
-#, fuzzy
-#| msgid "Klicke im unteren Bereich der Seite auf *_agrirouter verbinden_*."
 msgid "Klicke nun im Bereich Exportformat auf *_agrirouter_*."
-msgstr "Cliquez sur *_connecter_agrirouter_* en bas de la page."
+msgstr ""
+"Cliquez maintenant sur *_agrirouter_* dans la section Format d'exportation."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:127
-#, fuzzy
-#| msgid "Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest."
 msgid ""
 "Im folgenden Schritt wählst du das Terminal aus, an das du die Datei senden "
 "möchtest."
 msgstr ""
-"Sélectionnez le point final vers lequel vous souhaitez envoyer la tâche."
+"Dans l'étape suivante, vous choisissez le terminal vers lequel vous "
+"souhaitez envoyer le fichier."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:128
 msgid "Wähle das gewünsche Exportformat aus."
-msgstr ""
+msgstr "Sélectionnez le format d'exportation souhaité."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:129
@@ -7641,6 +7545,8 @@ msgid ""
 "Du wirst nun aufgefordert, eine TASKDATA-Version auszuwählen. Für das CCI-"
 "Terminal solltest du z.B. Version 3 wählen."
 msgstr ""
+"Il vous sera alors demandé de choisir une version de TASKDATA. Par exemple, "
+"pour le terminal CCI, vous devriez choisir la version 3."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:138
@@ -7649,6 +7555,9 @@ msgid ""
 "Erfolgsmeldung. Du kannst nun auf deiner Telemetrieeinheit mit dem "
 "Importprozess fortfahren."
 msgstr ""
+"Si le fichier a été téléchargé avec succès, vous recevrez un message de "
+"réussite. Vous pouvez maintenant continuer le processus d'importation sur "
+"votre unité de télémétrie."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:145
@@ -7658,41 +7567,36 @@ msgid ""
 "v=Lx8lPAr7Dr0[🚜 Tutorial 8.4: \"Rücklesen von Aufträgen aus CCI-Terminal "
 "via agrirouter\" 🌐 - YouTube, window=\"_blank\"]."
 msgstr ""
+"La communauté FarmBlick propose également une vidéo expliquant comment "
+"connecter l'agrirouter : link:https://www.youtube.com/watch?v=Lx8lPAr7Dr0[🚜 "
+"Tutoriel 8.4 : \"Récupération des commandes du terminal CCI via agrirouter\" "
+"🌐 - YouTube, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:163
 msgid "Wähle anschließend *_IMPORT_*."
-msgstr ""
+msgstr "Sélectionnez ensuite *_IMPORT_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:172
-#, fuzzy
-#| msgid "Klicke auf *_Fortsetzen_*."
 msgid "Klicke auf *_Import von Daten_*."
-msgstr "Cliquez sur *_continuer_*."
+msgstr "Cliquez sur *_Importer des données_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:181
-#, fuzzy
-#| msgid "Klicke dann auf *_System_*."
 msgid "Klicke dann auf *_agrirouter Import_*."
-msgstr "Cliquez ensuite sur *_Système_*."
+msgstr "Cliquez ensuite sur *_agrirouter Import_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:190
-#, fuzzy
-#| msgid ""
-#| "Im folgenden Fenster siehst du alle Dateien, die über den agrirouter an "
-#| "dein MyEasyFarm-Konto gesendet wurden. Um eine Datei zu importieren, "
-#| "klicke auf den Namen der Datei."
 msgid ""
 "Hier findest du alle Daten, die über den agrirouter an FarmBlick gesendet "
 "wurden. Wähle nun die Datei oder die Dateien aus, die du importieren "
 "möchtest und klicke anschließend auf *_Importieren_*."
 msgstr ""
-"Dans la fenêtre suivante, vous pouvez voir tous les fichiers qui ont été "
-"envoyés à votre compte MyEasyFarm via l'agrirouter. Pour importer un "
-"fichier, cliquez sur le nom du fichier."
+"Vous trouverez ici toutes les données qui ont été envoyées à FarmBlick via "
+"l'agrirouter. Sélectionnez maintenant le ou les fichiers que vous souhaitez "
+"importer et cliquez ensuite sur *_Importer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:199
@@ -7700,18 +7604,18 @@ msgid ""
 "In der neuen Ansicht kannst du deiner Datei eine Bezeichnung geben und als "
 "Datentyp *_Ausbringkarten_* auswählen."
 msgstr ""
+"Dans la nouvelle vue, vous pouvez donner un nom à votre fichier et "
+"sélectionner *_Cartes d'épandage_* comme type de données."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:200
-#, fuzzy
-#| msgid "Klicke anschließend auf *_Fahrzeug hinzufügen_*."
 msgid "Klicke anschließend auf *_Importieren_*."
-msgstr "Cliquez ensuite sur *_Ajouter un véhicule_*."
+msgstr "Cliquez ensuite sur *_Importer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:209
 msgid "Sind die Daten importiert, siehst du diese Erfolgsmeldung."
-msgstr ""
+msgstr "Une fois les données importées, vous verrez ce message de réussite."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:214
@@ -7719,36 +7623,32 @@ msgid ""
 "Sobald du die Daten von deinem Terminal in dein FarmBlick-Community-Konto "
 "importiert hast, kannst du sie auf jegliche gewünschte Art weiterverarbeiten."
 msgstr ""
+"Une fois que vous avez importé les données de votre terminal dans votre "
+"compte FarmBlick Community, vous pouvez les traiter de la manière que vous "
+"souhaitez."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:222
-#, fuzzy
-#| msgid ""
-#| "Klicke dann in der rechten Seitenleiste auf das Symbol für *_Aufgaben_*."
 msgid ""
 "Klicke in der linken Seitenleiste auf das Symbol für *_Anwendungen auf "
 "Feldebene_*."
 msgstr ""
-"Cliquez ensuite sur l'icône *_Tâches_* dans la barre latérale de droite."
+"Cliquez sur l'icône *_Applications au niveau des champs_* dans la barre "
+"latérale de gauche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:223
-#, fuzzy
-#| msgid "Wähle *_Einstellungen_*."
 msgid "Wähle dann *_Externe Daten_*."
-msgstr "Sélectionnez *_Préférences_*."
+msgstr "Sélectionnez ensuite *_Données externes_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:229
-#, fuzzy
-#| msgid ""
-#| "Wähle in der linken Seitenleiste das Symbol für den *_Export-Manager_*."
 msgid ""
 "Wähle nun in der linken Seitenleiste den Schlag aus, für den du die "
 "Ausbringkarte importiert hast."
 msgstr ""
-"Sélectionnez l'icône du *_Gestionnaire d'exportation_* dans la barre "
-"latérale gauche."
+"Sélectionnez maintenant dans la barre latérale gauche le battement pour "
+"lequel vous avez importé la carte d'épandage."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:230
@@ -7756,6 +7656,9 @@ msgid ""
 "Unter *_verfügbare Daten_* werden die nun alle importierten Daten zu diesem "
 "Feld angezeigt. Klicke auf die Datei, die du bearbeiten möchtest."
 msgstr ""
+"Sous *_données disponibles_*, toutes les données importées pour ce champ "
+"sont maintenant affichées. Cliquez sur le fichier que vous souhaitez "
+"modifier."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:230
@@ -7763,6 +7666,8 @@ msgid ""
 "In der Übersicht am unteren Bildschirmrand hast du nun viele Möglichkeiten, "
 "deine Daten weiterzuverarbeiten."
 msgstr ""
+"Dans l'aperçu en bas de l'écran, vous avez maintenant de nombreuses "
+"possibilités de traitement ultérieur de vos données."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:1
@@ -8395,55 +8300,42 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:1
-#, fuzzy, no-wrap
-#| msgid "DACOM Solution Guide"
+#, no-wrap
 msgid "MyKUHN Solution Guide"
-msgstr "Guide des solutions DACOM"
+msgstr "Guide de la solution MyKUHN"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Dein CCI-Terminal muss mit dem agrirouter verbunden sein, um über ihn "
-#| "Dateien wie Applikationskarten von deinem Farm-Management-System "
-#| "empfangen zu können. In diesem Abschnitt erfährst du, wie du:"
 msgid ""
 "Dein KUHN Anbaugerät muss mit dem agrirouter verbunden sein, um drahtlos "
 "Applikationskarten und Telemetriedaten an dein Farm-Management-System und "
 "die myKUHN Plattform austauschen zu können. In diesem Abschnitt erfährst du, "
 "wie du"
 msgstr ""
-"Votre terminal CCI doit être connecté à l'agrirouter pour pouvoir recevoir "
-"via celui-ci des fichiers tels que des cartes d'application de votre système "
-"de gestion de ferme. Dans cette section, vous apprendrez comment :"
+"Votre outil KUHN doit être connecté à l'agrirouter pour pouvoir échanger "
+"sans fil des cartes d'application et des données télémétriques avec votre "
+"système de gestion de ferme et la plateforme myKUHN. Dans cette section, "
+"vous apprendrez à"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:6
-#, fuzzy
-#| msgid "dein Terminal mit dem agrirouter verbindest."
 msgid "dein KUHN-Gerät mit dem agrirouter verbindest."
-msgstr "connectez votre terminal à l'agrirouter."
+msgstr "connecter votre appareil KUHN à l'agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:7
-#, fuzzy
-#| msgid "dein Terminal mit dem agrirouter verbindest."
 msgid "dein Terminal mit dem agrirotuer verbindest."
-msgstr "connectez votre terminal à l'agrirouter."
+msgstr "connectez votre terminal à l'agrirotuer."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:8
-#, fuzzy
-#| msgid "Applikationskarten importierst."
 msgid "Applikationskarten exportierst."
-msgstr "Importer des fiches d'application."
+msgstr "Exporter des fiches d'application."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:9
-#, fuzzy
-#| msgid "Applikationskarten importierst."
 msgid "Applikationskarten und Telemtriedaten importierst."
-msgstr "Importer des fiches d'application."
+msgstr "importer des cartes d'application et des données télémétriques."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:16
@@ -8451,33 +8343,27 @@ msgid ""
 "Um alle Funktionen des agrirouters nutzen zu können, benötigst du ein MyKUHN-"
 "Konto."
 msgstr ""
+"Pour pouvoir utiliser toutes les fonctionnalités de l'agrirouter, vous avez "
+"besoin d'un compte MyKUHN."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:24
-#, fuzzy
-#| msgid ""
-#| "Logge dich in dein link:https://my.grimme.com/de[myGrimme-Konto, "
-#| "window=\"_blank\"]."
 msgid ""
 "Logge dich in dein link:https://mykuhn.kuhn.com/[myKUHN-Konto, "
 "window=\"_blank\"] ein."
 msgstr ""
-"Connectez-vous à votre link:https://my.grimme.com/de[myGrimme account, "
-"window=\"_blank\"]."
+"Connectez-vous à votre link:https://mykuhn.kuhn.com/[compte myKUHN, window="
+"\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:25
-#, fuzzy
-#| msgid "Wähle im Reiter oben *_KSC Solar_*."
 msgid "Wähle die Registerkarte *_KUHN CONNECT_*."
-msgstr "Sélectionnez *_KSC Solar_* dans l'onglet ci-dessus."
+msgstr "Sélectionnez l'onglet *_KUHN CONNECT_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:26
-#, fuzzy
-#| msgid "Klicke den Button *_OK_*."
 msgid "Klicke auf den Button *_KUHN EASYTRANSFER_*."
-msgstr "Cliquez sur le bouton *_OK_*."
+msgstr "Cliquez sur le bouton *_KUHN EASYTRANSFER_*."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:31
@@ -8486,47 +8372,42 @@ msgid ""
 "wird von deinem KUHN-Vertragshändler ausgegeben. Der 12-stellige Code muss "
 "das folgende Format haben: xxxx-xxxx-xxxx."
 msgstr ""
+"KUHN EasyTransfer nécessite un code d'activation. Le code d'activation est "
+"délivré par votre concessionnaire KUHN. Le code à 12 chiffres doit avoir le "
+"format suivant : xxxx-xxxx-xxxx."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:40
-#, fuzzy
-#| msgid "Notiere deinen Registrierungscode"
 msgid "Gib deinen Aktivierungscode ein."
-msgstr "Notez votre code d'enregistrement"
+msgstr "Saisissez votre code d'activation."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:41
 msgid "Akzeptiere die Allgemeinen Nutzungsbedingungen."
-msgstr ""
+msgstr "Accepter les conditions générales d'utilisation."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:42
-#, fuzzy
-#| msgid "Klicke auf *_CONNECT_*."
 msgid "Klicke auf *_CONFIRM_* (Bestätigen)."
-msgstr "Cliquez sur *_CONNECT_*."
+msgstr "Cliquez sur *_CONFIRM_* (Confirmer)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:51
-#, fuzzy
-#| msgid ""
-#| "Wenn du noch kein agrirouter-Konto hast, erfährst du link:https://manual."
-#| "agrirouter.com/de/manual/latest/account.html#benutzerkonto-"
-#| "erstellen[hier], wie du eines erstellst."
 msgid ""
 "Du wirst nun gefragt, ob du bereits einen agrirouter-Konto besitzt. Falls "
 "das der Fall ist, klicke auf *_Yes_* (Ja). Falls nicht, erfahre hier, wie du "
 "dein link:https://manual.agrirouter.com/de/account.html#benutzerkonto-"
 "erstellen[agrirouter-Konto, window=\"_blank\"] erstellst."
 msgstr ""
-"Si vous n'avez pas encore de compte agrirouter, link:https://manual."
-"agrirouter.com/de/manual/latest/account.html#benutzerkonto-erstellen[ici] "
-"vous explique comment en créer un."
+"Il vous sera alors demandé si vous avez déjà un compte agrirouter. Si c'est "
+"le cas, cliquez sur *_Yes_* (Oui). Si ce n'est pas le cas, découvrez comment "
+"créer votre link:https://manual.agrirouter.com/de/account.html#benutzerkonto-"
+"erstellen[compte agrirouter, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:52
 msgid "Klicke auf *_NEXT STEP_* (Nächster Schritt)."
-msgstr ""
+msgstr "Cliquez sur *_NEXT STEP_* (étape suivante)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:61
@@ -8534,16 +8415,11 @@ msgid ""
 "Klicke auf *_LINK KUHN EASYTRANSFER AND AGRIROUTER_* (Verbinde KUHHN "
 "EASYTRANSFER und agrirouter)."
 msgstr ""
+"Cliquez sur *_LINK KUHN EASYTRANSFER AND AGRIROUTER_* (Relier KUHHN "
+"EASYTRANSFER et agrirouter)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:70
-#, fuzzy
-#| msgid ""
-#| "Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem "
-#| "Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du "
-#| "dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier "
-#| "gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine "
-#| "Verbindung mit deinem agrirouter-Konto hergestellt."
 msgid ""
 "Du wirst jetzt auf eine neue Seite weitergeleitet. Falls du in deinem "
 "Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du "
@@ -8554,58 +8430,53 @@ msgstr ""
 "Vous allez maintenant être redirigé vers une nouvelle page. Si vous n'êtes "
 "pas encore connecté à votre compte agrirouter dans votre navigateur, vous "
 "devez d'abord vous connecter. Si vous êtes déjà connecté, vous verrez la "
-"page affichée ici. Cliquez sur *_CONNECTER_* pour vous connecter à votre "
-"compte agrirouter."
+"page affichée ici. Cliquez sur *_CONNECT_* (se connecter) et une connexion "
+"sera établie avec votre compte agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:79
-#, fuzzy
-#| msgid "dein Terminal mit dem agrirouter verbindest."
 msgid "Fertig! Dein KUHN EasyTransfer ist jetzt mit dem agrirouter verbunden."
-msgstr "connectez votre terminal à l'agrirouter."
+msgstr ""
+"C'est terminé ! Votre KUHN EasyTransfer est maintenant connecté à "
+"l'agrirouter."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:81
-#, fuzzy, no-wrap
-#| msgid "Terminal (X25) mit dem agrirouter verbinden"
+#, no-wrap
 msgid "Terminal mit dem agrirouter verbinden"
-msgstr "Connecter le terminal (X25) à l'agrirouter"
+msgstr "Connecter le terminal à l'agrirouter"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:84
-#, fuzzy
-#| msgid ""
-#| "Füge dein AmaTron 4 Terminal als Endpunkt hinzu. Wie das funktioniert, "
-#| "erfährst du link:https://manual.agrirouter.com/de/manual/latest/endpoint."
-#| "html#connect-machine[hier]."
 msgid ""
 "Stelle nun eine Verbindung zwischen deinem Terminal und dem agrirouter her. "
 "Wie das funktioniert, erfährst du im link:https://manual.agrirouter.com/de/"
 "solution-guides/cci-terminals.html[CCI-Terminal Solution Guide, "
 "window=\"_blank\"]."
 msgstr ""
-"Ajoutez votre terminal AmaTron 4 comme point final. Pour savoir comment cela "
-"fonctionne, link:https://manual.agrirouter.com/de/manual/latest/endpoint."
-"html#connect-machine[ici]."
+"Etablissez maintenant une connexion entre votre terminal et l'agrirouter. "
+"Pour savoir comment cela fonctionne, consultez le link:https://manual."
+"agrirouter.com/de/solution-guides/cci-terminals.html[CCI Terminal Solution "
+"Guide, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:90
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:114
 msgid "Wähle im oberen Bereich deines MyKUHN-Kontos *_KUHN CONNECT_* aus."
 msgstr ""
+"Sélectionnez *_KUHN CONNECT_* dans la partie supérieure de votre compte "
+"MyKUHN."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:91
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:115
-#, fuzzy
-#| msgid "Klicke auf *_WEITER_*."
 msgid "Klicke auf *_KUHN EASYTRANSFER_*."
-msgstr "Cliquez sur *_CONTINUER_*."
+msgstr "Cliquez sur *_KUHN EASYTRANSFER_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:92
 msgid "Wähle die Registerkarte *_SEND FILES_* (Dateien senden) aus."
-msgstr ""
+msgstr "Sélectionnez l'onglet *_SEND FILES_* (envoyer des fichiers)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:93
@@ -8616,6 +8487,11 @@ msgid ""
 "auswählst. Die Datei kann von dir bspw. vorher in einem Farm-Management-"
 "System erstellt worden sein."
 msgstr ""
+"Vous pouvez maintenant sélectionner un fichier sur votre ordinateur. Pour "
+"cela, faites-le glisser directement de votre dossier vers la zone entourant "
+"l'icône *_+_* ou sélectionnez-le en cliquant sur l'icône *_+_* et en "
+"choisissant le fichier correspondant. Le fichier peut avoir été créé par "
+"vous dans un système de gestion de ferme, par exemple."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:97
@@ -8623,22 +8499,21 @@ msgid ""
 "Die Datei muss im .zip Format vorliegen. Sie enthält SHP- oder ISO-XML-"
 "Modulationskarten."
 msgstr ""
+"Le fichier doit être au format .zip. Il contient des cartes de modulation "
+"SHP ou ISO-XML."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:101
-#, fuzzy
-#| msgid "Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest."
 msgid ""
 "Wähle den oder die Endpunkt(e) aus, an den/die du die Datei senden möchtest."
 msgstr ""
-"Sélectionnez le point final vers lequel vous souhaitez envoyer la tâche."
+"Sélectionnez le(s) point(s) final(s) vers lequel/lesquels vous souhaitez "
+"envoyer le fichier."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:102
-#, fuzzy
-#| msgid "Klicke auf *_SEND_*."
 msgid "Klicke auf *_SEND_* (senden)."
-msgstr "Cliquez sur *_SEND_*."
+msgstr "Cliquez sur *_SEND_* (envoyer)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:103
@@ -8646,6 +8521,8 @@ msgid ""
 "Die Karte wird jetzt über den agrirouter an den oder die Empfänger gesendet. "
 "Eine Benachrichtigung zeigt an, dass die Nachricht gesendet wurde."
 msgstr ""
+"La carte est maintenant envoyée au(x) destinataire(s) via l'agrirouter. Une "
+"notification indique que le message a été envoyé."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:104
@@ -8663,18 +8540,20 @@ msgid ""
 "von deinem Terminal an dein MyKUHN-Konto gesendet worden sein. Wie das "
 "funktioniert, erfährst du hier."
 msgstr ""
+"Pour pouvoir recevoir des fichiers sur votre compte MyKUHN, ceux-ci doivent "
+"être envoyés au préalable de votre terminal vers votre compte MyKUHN. Pour "
+"savoir comment cela fonctionne, cliquez ici."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:116
 msgid "Wähle die Registerkarte *_RECEIVED FILES_* (Empfangene Dateien) aus."
-msgstr ""
+msgstr "Sélectionnez l'onglet *_RECEIVED FILES_* (Fichiers reçus)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:117
-#, fuzzy
-#| msgid "Klicke auf *_Code aktualisieren_*."
 msgid "Klicke auf *_UPDATE FILES LIST_* (Dateienliste aktualisieren)."
-msgstr "Cliquez sur *_Mettre à jour le code_*."
+msgstr ""
+"Cliquez sur *_UPDATE FILES LIST_* (mettre à jour la liste des fichiers)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:125
@@ -8682,6 +8561,8 @@ msgid ""
 "Hier werden dir nun die Dateien angezeigt, die du bspw. von deinem Terminal "
 "empfangen hast."
 msgstr ""
+"Les fichiers que vous avez reçus de votre terminal, par exemple, sont "
+"affichés ici."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:134
@@ -8689,6 +8570,8 @@ msgid ""
 "Möchtest du nun eine Vorschau deiner Datei öffnen, klicke auf *_PREVIEW_* "
 "(Vorschau)."
 msgstr ""
+"Si vous souhaitez maintenant ouvrir un aperçu de votre fichier, cliquez sur "
+"*_PREVIEW_* (Aperçu)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:135
@@ -8696,6 +8579,9 @@ msgid ""
 "Möchtest du die Datei herunterladen, um sie anschließend bspw. in einem Farm-"
 "Management-System zu öffnen, klicke auf *_DOWNLOAD_* (Herunterladen)."
 msgstr ""
+"Si vous souhaitez télécharger le fichier pour l'ouvrir ensuite dans un "
+"système de gestion de ferme, par exemple, cliquez sur *_DOWNLOAD_* "
+"(Télécharger)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:136
@@ -8703,6 +8589,8 @@ msgid ""
 "Wenn du einen PDF-Report zu der Datei haben möchtest, klicke auf *_DOWNLOAD "
 "REPORT_* (Report herunterladen)."
 msgstr ""
+"Si vous souhaitez obtenir un rapport PDF sur le fichier, cliquez sur *"
+"_DOWNLOAD REPORT_* (Télécharger le rapport)."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:2
@@ -10387,46 +10275,33 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:1
-#, fuzzy, no-wrap
-#| msgid "MyDataplant Solution Guide"
+#, no-wrap
 msgid "Plantivo Solution Guide"
-msgstr "Guide de solution MyDataplant"
+msgstr "Guide des solutions Plantivo"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit der Farm Management Software MyDataPlant kannst du Daten vom "
-#| "agrirouter empfangen und senden. Dazu müssen allerdings einige "
-#| "Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt "
-#| "behandelt:"
 msgid ""
 "Mit der Farm Management Software Plantivo kannst du Daten vom agrirouter "
 "empfangen und senden. Dazu müssen allerdings einige Vorkehrungen getroffen "
 "werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
 msgstr ""
-"Avec le logiciel de gestion de ferme MyDataPlant, vous pouvez recevoir et "
+"Avec le logiciel de gestion agricole Plantivo, vous pouvez recevoir et "
 "envoyer des données de l'agrirouter. Pour cela, il faut toutefois prendre "
 "quelques précautions. Les points suivants sont abordés dans cette section :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:13
-#, fuzzy
-#| msgid ""
-#| "Um Applikationskarten von MyDataPlant über den agrirouter an dein "
-#| "Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem "
-#| "MyDataPlant-Konto und deinem agrirouter-Konto hergestellt werden. Dies "
-#| "funktioniert in wenigen, einfachen Schritten."
 msgid ""
 "Um Applikationskarten von Plantivo über den agrirouter an dein Terminal "
 "senden zu können, muss zuerst eine Verbindung zwischen deinem Plantivo-Konto "
 "und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
 "wenigen, einfachen Schritten."
 msgstr ""
-"Pour pouvoir envoyer des cartes d'application de MyDataPlant à votre "
-"terminal via l'agrirouter, vous devez d'abord établir une connexion entre "
-"votre compte MyDataPlant et votre compte agrirouter. Cela fonctionne en "
-"quelques étapes simples."
+"Pour pouvoir envoyer des cartes d'application de Plantivo à votre terminal "
+"via l'agrirouter, vous devez d'abord établir une connexion entre votre "
+"compte Plantivo et votre compte agrirouter. Cela fonctionne en quelques "
+"étapes simples."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:17
@@ -10436,55 +10311,46 @@ msgid ""
 "hierzu findest du auf der link:https://www.plantivo.de/[Plantivo Website, "
 "window=\"_blank\"]."
 msgstr ""
+"Pour pouvoir connecter l'agrirouter, votre compte Plantivo doit être activé "
+"pour les fonctions d'agriculture de précision. Vous trouverez plus "
+"d'informations à ce sujet sur le site link:https://www.plantivo.de/[Plantivo "
+"Website, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:22
-#, fuzzy
-#| msgid ""
-#| "Bevor du anfangen kannst, musst du dich über die link:https://portal."
-#| "farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto "
-#| "einloggen."
 msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://www.plantivo."
 "de/[Plantivo Website, window=\"_blank\"] in dein Plantivo-Konto einloggen."
 msgstr ""
-"Avant de commencer, vous devez vous connecter à votre compte via le lien:"
-"https://portal.farmpilot.de/[site web FARMPILOT, window=\"_blank\"]."
+"Avant de commencer, vous devez vous connecter à votre compte Plantivo via le "
+"lien:https://www.plantivo.de/[site web de Plantivo, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:23
-#, fuzzy
-#| msgid "Wähle auf der Seitenleiste links den Punkt *_Services_*."
 msgid "Wähle auf der Übersichtsseite den Reiter *_Betrieb_*."
-msgstr "Sélectionnez *_Services_* dans la barre latérale de gauche."
+msgstr "Sur la page d'accueil, sélectionnez l'onglet *_Entreprise_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:24
 msgid "Wähle im Folgemenü den Reiter *_Stammdaten_*."
-msgstr ""
+msgstr "Dans le menu suivant, sélectionnez l'onglet *_Données de base_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:25
-#, fuzzy
-#| msgid "Klicke auf den Button *_Send to Agrirouter_*."
 msgid ""
 "Klicke im Breich *_Angaben zu Ihrem Betrieb_* auf den Button *_Agrirouter_*."
-msgstr "Cliquez sur le bouton *_Send to Agrirouter_*."
+msgstr ""
+"Cliquez sur le bouton *_Agrirouter_* dans la section *_Informations sur "
+"votre exploitation_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:34
-#, fuzzy
-#| msgid ""
-#| "Nun ist die Verbindung zum agrirouter hergestellt und du kannst bspw. "
-#| "Applikationskarten von MyDataPlant über den agrirouter an dein Terminal "
-#| "senden."
 msgid ""
 "Die Verbindung zum agrirouter ist hergestellt und du kannst bspw. "
 "Applikationskarten von Plantivo über den agrirouter an dein Terminal senden."
 msgstr ""
-"La connexion à l'agrirouter est maintenant établie et vous pouvez, par "
-"exemple, envoyer des cartes d'application de MyDataPlant à votre terminal "
-"via l'agrirouter."
+"La connexion à l'agrirouter est établie et vous pouvez, par exemple, envoyer "
+"des cartes d'application de Plantivo à votre terminal via l'agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:39
@@ -10493,39 +10359,30 @@ msgid ""
 "besteht, klickst du auf *_Betrieb > Stammdaten > Agrirouter_*. Steht bei "
 "Status *_Verbunden_*, ist deine Verbindung aktiv."
 msgstr ""
+"Si vous voulez vérifier s'il y a une connexion active à l'agrirouter, "
+"cliquez sur *_Fonctionnement > Données de base > Agrirouter_*. Si le statut "
+"indique *_connecté_*, votre connexion est active."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:42
-#, fuzzy
-#| msgid ""
-#| "MyEasyFarm aktualisiert die Endpunkte Liste automatisch. Wenn du einen "
-#| "neuen Endpunkt, wie bspw. eine Maschine, über den agrirouter hinzufügst, "
-#| "erscheint dieser spätestens einige Minuten später auch auf deinem "
-#| "MyEasyFarm-Konto."
 msgid ""
 "Plantivo aktualisiert die Endpunkte-Liste automatisch. Wenn du einen neuen "
 "Endpunkt, wie bspw. eine Maschine, über den agrirouter hinzufügst, erscheint "
 "dieser spätestens einige Minuten später auch auf deinem Plantivo-Konto."
 msgstr ""
-"MyEasyFarm met automatiquement à jour la liste des points de terminaison. Si "
-"vous ajoutez un nouveau point d'extrémité, comme une machine, via "
-"l'agrirouter, il apparaîtra également sur votre compte MyEasyFarm au plus "
-"tard quelques minutes plus tard."
+"Plantivo met automatiquement à jour la liste des points de terminaison. Si "
+"vous ajoutez un nouveau point d'accès, comme par exemple une machine, via "
+"l'agrirouter, il apparaîtra sur votre compte Plantivo au plus tard quelques "
+"minutes plus tard."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:43
-#, fuzzy, no-wrap
-#| msgid "Export von Applikationskarten"
+#, no-wrap
 msgid "Export von Applikationskarten und Aufträgen"
-msgstr "Exportation de fiches d'application"
+msgstr "Exportation de fiches d'application et de commandes"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:45
-#, fuzzy
-#| msgid ""
-#| "Mit dem agrirouter kannst du drahtlos Applikationskarten von MyDataPlant "
-#| "an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, "
-#| "dass du bereits eine Applikationskarte erstellt hast."
 msgid ""
 "Mit dem agrirouter kannst du drahtlos Applikationskarten über eine link:"
 "https://manual.agrirouter.com/de/introduction.html#route[Route] von Plantivo "
@@ -10533,9 +10390,11 @@ msgid ""
 "du bereits eine Applikationskarte erstellt hast. Erfahre im Folgenden, wie "
 "du die Daten exportierst."
 msgstr ""
-"Avec l'agrirouter, vous pouvez envoyer sans fil des cartes d'application de "
-"MyDataPlant à vos machines ou terminaux. Pour cela, il faut que vous ayez "
-"déjà créé une carte d'application."
+"Avec l'agrirouter, vous pouvez envoyer sans fil des cartes d'application à "
+"vos machines ou terminaux via un link:https://manual.agrirouter.com/de/"
+"introduction.html#route[Route] de Plantivo. Pour cela, il faut que vous ayez "
+"déjà créé une carte d'application. Découvrez ci-dessous comment exporter les "
+"données."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:49
@@ -10543,35 +10402,28 @@ msgid ""
 "Erstelle eine Aufgabe, wie bspw. eine Applikationskarte zur "
 "Düngemittelausbringung."
 msgstr ""
+"Créez une tâche telle qu'une carte d'application pour l'épandage d'engrais."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:50
-#, fuzzy
-#| msgid "Klicke im unteren Bereich der Seite auf *_agrirouter verbinden_*."
 msgid "Klicke im unteren Bereich der Seite auf *_ISOBUS Export_*."
-msgstr "Cliquez sur *_connecter_agrirouter_* en bas de la page."
+msgstr "Cliquez sur *_ISOBUS Export_* en bas de la page."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:51
-#, fuzzy
-#| msgid "Wähle dann im folgenden Fenster die Option *_agrirouter_* aus."
 msgid "Wähle im folgenden Fenster *_An agrirouter senden_*."
-msgstr ""
-"Sélectionnez ensuite l'option *_agrirouter_* dans la fenêtre qui s'affiche."
+msgstr "Dans la fenêtre suivante, sélectionnez *_Envoyer à l'agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:59
-#, fuzzy
-#| msgid ""
-#| "Wähle im nächsten Fenster den Endpunkt aus, an den du die "
-#| "Applikationskarte senden möchtest und klicke auf *_Karte senden_*."
 msgid ""
 "Im nächsten Fenster kannst du die Maschine auswählen, an die die "
 "Applikationskarte gesendet werden soll. Anschließend klickst du auf *_An "
 "agrirouter senden_*."
 msgstr ""
-"Dans la fenêtre suivante, sélectionnez le point final vers lequel vous "
-"souhaitez envoyer la carte d'application et cliquez sur *_Envoyer la carte_*."
+"Dans la fenêtre suivante, vous pouvez sélectionner la machine à laquelle la "
+"carte d'application doit être envoyée. Ensuite, vous cliquez sur *_Envoyer à "
+"l'agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:68
@@ -10579,21 +10431,19 @@ msgid ""
 "Wurde die Datei erfolgreich versandt, erhältst du im oberen Bereich deines "
 "Bildschirms eine Erfolgsmeldung."
 msgstr ""
+"Si le fichier a été envoyé avec succès, vous recevrez un message de réussite "
+"en haut de votre écran."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:70
-#, fuzzy, no-wrap
-#| msgid "Import von IST-Applikationskarten (As-Applied Maps) & Telemetriedaten"
+#, no-wrap
 msgid "Import von Ist-Applikationskarten (As-Applied-Maps) & Telemetriedaten"
-msgstr "Importation de cartes d'application IST (As-Applied Maps) & données de télémétrie"
+msgstr ""
+"Importation de cartes d'application réelles (As-Applied-Maps) & données de "
+"télémétrie"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:72
-#, fuzzy
-#| msgid ""
-#| "Wenn du mit deiner Maschine eine As-Applied-Map erstellst oder andere "
-#| "Telemetriedaten, wie bspw. den Kraftstoffverbrauch, aufzeichnest, "
-#| "empfängst du diese automatisch über den agrirouter in deinem DACOM-Konto."
 msgid ""
 "Wenn du mit deiner Maschine eine As-Applied-Map erstellst oder andere "
 "Telemetriedaten, wie bspw. den Kraftstoffverbrauch, aufzeichnest, empfängst "
@@ -10601,55 +10451,48 @@ msgid ""
 "introduction.html#route[Route] vom agrirouter in deinem Plantivo-Konto."
 msgstr ""
 "Lorsque vous créez une carte As-Applied avec votre machine ou que vous "
-"enregistrez d'autres données télémétriques, telles que la consommation de "
-"carburant, vous les recevez automatiquement via l'agrirouter dans votre "
-"compte DACOM."
+"enregistrez d'autres données télémétriques, comme la consommation de "
+"carburant, vous les recevez automatiquement via un link:https://manual."
+"agrirouter.com/de/introduction.html#route[Route] de l'agrirouter dans votre "
+"compte Plantivo."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:76
-#, fuzzy
-#| msgid "Klicke auf den Reiter *_Tasks_*."
 msgid "Klicke auf den Reiter *_Kalender & Aktivitäten_*."
-msgstr "Cliquez sur l'onglet *_Tâches_*."
+msgstr "Cliquez sur l'onglet *_Calendrier & Activités_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:77
 msgid "Wähle *_ISOBUS Import_*."
-msgstr ""
+msgstr "Sélectionnez *_ISOBUS Import_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:82
-#, fuzzy
-#| msgid "Im folgenden Fenster klickst du auf *_JETZT VERBINDEN_*."
 msgid "Im folgenden Fenster klickst du auf *_ISOBUS Import_*."
-msgstr "Dans la fenêtre suivante, cliquez sur *_CONNECTER MAINTENANT_*."
+msgstr "Dans la fenêtre suivante, cliquez sur *_ISOBUS Import_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:83
-#, fuzzy
-#| msgid "Wähle die Option *_agrirouter_*."
 msgid "Wähle dann den Reiter *_agrirouter_*."
-msgstr "Sélectionnez l'option *_agrirouter_*."
+msgstr "Sélectionnez ensuite l'onglet *_agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:84
-#, fuzzy
-#| msgid "Wähle die Applikationskarten aus, die du exportieren möchtest."
 msgid "Wähle die Dateien aus, die du importieren möchtest."
-msgstr "Sélectionnez les fiches d'application que vous souhaitez exporter."
+msgstr "Sélectionnez les fichiers que vous souhaitez importer."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:85
-#, fuzzy
-#| msgid "Klicke auf *_Fortsetzen_*."
 msgid "Klicke auf *_Import starten_*."
-msgstr "Cliquez sur *_continuer_*."
+msgstr "Cliquez sur *_démarrer l'importation_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:90
 msgid ""
 "Der Importvorgang kann einige Minuten dauern. Bitte gedulde dich solange."
 msgstr ""
+"Le processus d'importation peut prendre quelques minutes. Veuillez patienter "
+"pendant ce temps."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:90
@@ -10657,6 +10500,9 @@ msgid ""
 "Die importierten Dateien tauchen jetzt im unteren Bereich des Bildschirms "
 "auf. Du kannst diese Dateien nun weiter in Plantivo bearbeiten."
 msgstr ""
+"Les fichiers importés apparaissent maintenant dans la partie inférieure de "
+"l'écran. Vous pouvez maintenant continuer à modifier ces fichiers dans "
+"Plantivo."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/poettinger.adoc:1
@@ -10933,67 +10779,47 @@ msgstr "Cliquez sur *_Stop_* pour terminer la tâche."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:1
-#, fuzzy, no-wrap
-#| msgid "xFarm Solution Guide"
+#, no-wrap
 msgid "ProFlura Solution Guide"
-msgstr "Guide des solutions xFarm"
+msgstr "Guide des solutions ProFlura"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit der Farm Management Software xFarm kannst du Daten über den "
-#| "agrirouter empfangen und senden. Dazu müssen allerdings einige "
-#| "Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt "
-#| "behandelt:"
 msgid ""
 "Mit der Farm Management Software ProFlura kannst du Daten über den "
 "agrirouter empfangen und senden. Dazu müssen allerdings einige Vorkehrungen "
 "getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:"
 msgstr ""
-"Avec le logiciel de gestion de ferme xFarm, vous pouvez recevoir et envoyer "
-"des données via l'agrirouter. Pour cela, il faut toutefois prendre quelques "
-"précautions. Les points suivants sont abordés dans cette section :"
+"Avec le logiciel de gestion agricole ProFlura, vous pouvez recevoir et "
+"envoyer des données via l'agrirouter. Pour cela, il faut toutefois prendre "
+"quelques précautions. Les points suivants sont abordés dans cette section :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:13
-#, fuzzy
-#| msgid ""
-#| "Um Applikationskarten von MyDataPlant über den agrirouter an dein "
-#| "Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem "
-#| "MyDataPlant-Konto und deinem agrirouter-Konto hergestellt werden. Dies "
-#| "funktioniert in wenigen, einfachen Schritten."
 msgid ""
 "Um Applikationskarten von ProFlura über den agrirouter an dein Terminal "
 "senden zu können, muss zuerst eine Verbindung zwischen deinem ProFlura-Konto "
 "und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
 "wenigen, einfachen Schritten."
 msgstr ""
-"Pour pouvoir envoyer des cartes d'application de MyDataPlant à votre "
-"terminal via l'agrirouter, vous devez d'abord établir une connexion entre "
-"votre compte MyDataPlant et votre compte agrirouter. Cela fonctionne en "
-"quelques étapes simples."
+"Pour pouvoir envoyer des cartes d'application de ProFlura à votre terminal "
+"via l'agrirouter, il faut d'abord établir une connexion entre votre compte "
+"ProFlura et votre compte agrirouter. Cela fonctionne en quelques étapes "
+"simples."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:18
-#, fuzzy
-#| msgid ""
-#| "Bevor du anfangen kannst, musst du dich über die link:https://portal."
-#| "farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto "
-#| "einloggen."
 msgid ""
 "Bevor du anfangen kannst, musst du link:https://www.proflura.de/[ProFlura, "
 "window=\"_blank\"] auf deinem Endgerät öffnen und dich einloggen."
 msgstr ""
-"Avant de commencer, vous devez vous connecter à votre compte via le lien:"
-"https://portal.farmpilot.de/[site web FARMPILOT, window=\"_blank\"]."
+"Avant de commencer, vous devez ouvrir link:https://www.proflura.de/["
+"ProFlura, window=\"_blank\"] sur votre terminal et vous connecter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:19
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_AgriRouter_*."
 msgid "Klicke in der Kopfleiste auf das *_agrirouter-Symbol_*."
-msgstr "Cliquez sur *_AgriRouter_* dans la barre latérale gauche."
+msgstr "Cliquez sur l'icône *_agrirouter_* dans l'en-tête."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:27
@@ -11001,6 +10827,8 @@ msgid ""
 "Nun sollte ein Hinweis auf dem Bildschirm erscheinen. Das Programm lädt den "
 "nächsten Schritt. Bitte gedulde dich einige Sekunden."
 msgstr ""
+"Un message devrait maintenant s'afficher à l'écran. Le programme charge "
+"l'étape suivante. Veuillez patienter quelques secondes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:36
@@ -11008,15 +10836,11 @@ msgid ""
 "Wenn das Programm fertig geladen ist, sollte ein neuer Hinweis erscheinen. "
 "Klicke dort auf *_Onboarding durchführen_*."
 msgstr ""
+"Lorsque le chargement du programme est terminé, un nouveau message devrait "
+"apparaître. Cliquez sur *_Effectuer l'embarquement_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:45
-#, fuzzy
-#| msgid ""
-#| "Wenn du nicht bereits über denselben Browser in deinem agrirouter-Konto "
-#| "eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten "
-#| "einzugeben und dich anzumelden. Klicke im folgenden Fenster auf "
-#| "*_VERBINDEN_*."
 msgid ""
 "Wenn du nicht bereits über denselben Browser in deinem agrirouter-Konto "
 "eingeloggt bist, wirst du jetzt aufgefordert, deine Login-Daten einzugeben "
@@ -11025,8 +10849,8 @@ msgid ""
 msgstr ""
 "Si vous n'êtes pas déjà connecté à votre compte agrirouter via le même "
 "navigateur, vous allez maintenant être invité à entrer vos informations de "
-"connexion et à vous connecter. Dans la fenêtre suivante, cliquez sur "
-"*_CONNECTER_*."
+"connexion et à vous connecter. Cliquez ensuite sur *_CONNECTER_* dans la "
+"fenêtre suivante."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:54
@@ -11035,6 +10859,9 @@ msgid ""
 "weitergeleitet wirst. Dort kannst du ProFlura deine Maschinen als link:"
 "https://manual.agrirouter.com/de/endpoint.html[Endpunkte] zuordnen."
 msgstr ""
+"Vous devez ensuite attendre jusqu'à 5 minutes avant d'être redirigé vers le "
+"système agrirouter. Là, vous pouvez attribuer vos machines à ProFlura en "
+"tant que link:https://manual.agrirouter.com/de/endpoint.html[points finaux]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:58
@@ -11043,66 +10870,58 @@ msgid ""
 "ProFlura erstellt hast, an einen deiner Endpunkte zu senden. Generell stehen "
 "dir drei Möglichkeiten zur Auswahl:"
 msgstr ""
+"Vous avez plusieurs possibilités pour envoyer des fiches d'application ou "
+"des tâches que vous avez créées avec ProFlura vers l'un de vos points "
+"finaux. En général, vous avez le choix entre trois possibilités :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:60
-#, fuzzy
-#| msgid "Wähle die Option *_agrirouter_*."
 msgid "Über die Funktion *_agrirouter_*."
-msgstr "Sélectionnez l'option *_agrirouter_*."
+msgstr "En utilisant la fonction *_agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:61
 msgid "Über die Verbindung zu *_Farmblick_*."
-msgstr ""
+msgstr "A propos de la connexion à *_Farmblick_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:62
 msgid "Direkt aus einer *_Aufgabe_* heraus."
-msgstr ""
+msgstr "Directement à partir d'une *_tâche_*."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:66
-#, fuzzy
-#| msgid ""
-#| "Beachte bei der Erstellung einer Applikationskarte immer auf die "
-#| "Anforderungen der Maschine, an die sie gesendet werden soll (bspw. kg/ha, "
-#| "Körner/ha, oder cm Pflanzenabstand)."
 msgid ""
 "Beachte bei der Erstellung einer Applikationskarte immer die Anforderungen "
 "der Maschine, an die sie gesendet werden soll (bspw. kg/ha, Körner/ha, oder "
 "cm Pflanzenabstand)."
 msgstr ""
-"Lors de la création d'une carte d'application, faites toujours attention aux "
-"exigences de la machine à laquelle elle doit être envoyée (par exemple kg/"
-"ha, grains/ha, ou cm d'écartement entre les plantes)."
+"Lors de la création d'une carte d'application, tenez toujours compte des "
+"exigences de la machine à laquelle elle doit être envoyée (par exemple, kg/"
+"ha, grains/ha ou cm d'écartement entre les plantes)."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:68
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:128
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:130
-#, fuzzy, no-wrap
-#| msgid "Wähle die Option *_agrirouter_*."
+#, no-wrap
 msgid "Über die Funktion agrirouter"
-msgstr "Sélectionnez l'option *_agrirouter_*."
+msgstr "À propos de la fonction agrirouter"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:73
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:135
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_AgriRouter_*."
 msgid "Klicke in der Kopfleiste auf *_agrirouter_*."
-msgstr "Cliquez sur *_AgriRouter_* dans la barre latérale gauche."
+msgstr "Cliquez sur *_agrirouter_* dans l'en-tête."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:74
-#, fuzzy
-#| msgid "Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest."
 msgid ""
 "Wähle den link:https://manual.agrirouter.com/de/endpoint.html[Endpunkt] aus, "
 "an den du deine Datei versenden möchtest."
 msgstr ""
-"Sélectionnez le point final vers lequel vous souhaitez envoyer la tâche."
+"Sélectionnez le lien:https://manual.agrirouter.com/de/endpoint.html[point "
+"final] vers lequel vous souhaitez envoyer votre fichier."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:78
@@ -11112,20 +10931,21 @@ msgid ""
 "angezeigt, welche Datentypen der jeweilige Endpunkt empfangen und senden "
 "kann."
 msgstr ""
+"Sous le menu déroulant dans lequel vous avez sélectionné votre point "
+"d'accès, vous pouvez voir quels types de données le point d'accès en "
+"question peut recevoir et envoyer."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:87
-#, fuzzy
-#| msgid "Klicke auf den Unterpunkt *_Daten senden_*."
 msgid "Klicke auf den Tabellenreiter *_Senden_*."
-msgstr "Cliquez sur la sous-rubrique *_Envoyer les données_*."
+msgstr "Cliquez sur l'onglet *_Envoyer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:88
-#, fuzzy
-#| msgid "Wähle die *_Aufgabe_* aus, die du an dein Terminal senden möchtest."
 msgid "Wähle nun die *_Aufgabe_* aus, die du an den Endpunkt senden möchtest."
-msgstr "Sélectionnez la *_tâche_* que vous souhaitez envoyer à votre terminal."
+msgstr ""
+"Sélectionnez maintenant la *_tâche_* que vous souhaitez envoyer au point "
+"final."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:91
@@ -11133,22 +10953,18 @@ msgstr "Sélectionnez la *_tâche_* que vous souhaitez envoyer à votre terminal
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:153
 #, no-wrap
 msgid "Über die Verbindung zu FarmBlick"
-msgstr ""
+msgstr "À propos de la connexion à FarmBlick"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:95
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:158
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_AgriRouter_*."
 msgid "Klicke in der Kopfleiste auf *_FarmBlick_*."
-msgstr "Cliquez sur *_AgriRouter_* dans la barre latérale gauche."
+msgstr "Cliquez sur *_FarmBlick_* dans l'en-tête."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:100
-#, fuzzy
-#| msgid "Klicke nun den Reiter *_Report_*."
 msgid "Wähle den Tabellenreiter *_Export_*."
-msgstr "Cliquez maintenant sur l'onglet *_Report_*."
+msgstr "Sélectionnez l'onglet *_Export_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:101
@@ -11156,36 +10972,33 @@ msgid ""
 "Klicke jetzt auf den *_Tabellenreiter_* des Dateityps, den du senden "
 "möchtest (bspw. Applikationskarten)."
 msgstr ""
+"Cliquez maintenant sur l'onglet *_Table_* du type de fichier que vous "
+"souhaitez envoyer (par exemple, fiches d'application)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:102
-#, fuzzy
-#| msgid "Wähle *_Maschinen_* aus."
 msgid "Wähle eine *_Datei_* aus."
-msgstr "Sélectionnez *_Machines_*."
+msgstr "Sélectionnez un *_fichier_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:103
-#, fuzzy
-#| msgid "Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest."
 msgid ""
 "Wähle einen *_Endpunkt_* aus, vor dem du ein kleines agrirouter-Logo siehst."
 msgstr ""
-"Sélectionnez le point final vers lequel vous souhaitez envoyer la tâche."
+"Sélectionnez un *_point final_* devant lequel vous verrez un petit logo "
+"agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:104
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:166
-#, fuzzy
-#| msgid "Klicke auf *_Senden_*."
 msgid "Klicke auf *_Schreiben_*."
-msgstr "Cliquez sur *_Envoyer_*."
+msgstr "Cliquez sur *_Écrire_*."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:105
 #, no-wrap
 msgid "Aus einer Aufgabe heraus"
-msgstr ""
+msgstr "À partir d'une tâche"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:109
@@ -11193,57 +11006,50 @@ msgid ""
 "Klicke in der Kopfleiste auf einen *_Aufgabentyp_* (bspw. BE für "
 "Sammelbuchung)."
 msgstr ""
+"Cliquez sur un *_type de tâche_* dans la barre d'en-tête (par exemple, BE "
+"pour écriture collective)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:117
 msgid "Wähle nun den Buchungsmodus *_Auftrag erteilen_*."
-msgstr ""
+msgstr "Sélectionnez maintenant le mode de réservation *_Passer une commande_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:118
-#, fuzzy
-#| msgid "Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest."
 msgid ""
 "Klicke unter *_Auftragsempfänger_* auf den Endpunkt, an den du den Auftrag "
 "senden möchtest."
 msgstr ""
-"Sélectionnez le point final vers lequel vous souhaitez envoyer la tâche."
+"Cliquez sous *_destinataire_de_la_commande_* sur le point final auquel vous "
+"souhaitez envoyer la commande."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:119
-#, fuzzy
-#| msgid ""
-#| "Füge die benötigten Informationen hinzu und klicke auf das *_Speichern-"
-#| "Icon_*."
 msgid ""
 "Füge deinem Auftrag alle weiteren benötigten Informationen hinzu und klicke "
 "anschließend auf *_OK_* um den Auftrag abzusenden."
 msgstr ""
-"Ajoutez les informations requises et cliquez sur l'icône *_Sauvegarder_*."
+"Ajoutez toutes les informations nécessaires à votre commande et cliquez sur "
+"*_OK_* pour l'envoyer."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:121
-#, fuzzy, no-wrap
-#| msgid "Import von IST-Applikationskarten (As-Applied Maps) & Telemetriedaten"
+#, no-wrap
 msgid "Applikationskarten (As-Applied-Maps) und Telemetriedaten importieren"
-msgstr "Importation de cartes d'application IST (As-Applied Maps) & données de télémétrie"
+msgstr ""
+"Importer des cartes d'application (As-Applied-Maps) et des données de "
+"télémétrie"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:124
-#, fuzzy
-#| msgid ""
-#| "Nach der Ausbringung von bspw. Saatgut können Applikationskarten auch vom "
-#| "Terminal über den agrirouter an dein xFarm-Konto gesendet werden. Wie "
-#| "diese abgerufen werden können, erfährst du im Folgenden."
 msgid ""
 "Nach der Ausbringung von bspw. Saatgut können Applikationskarten auch vom "
 "Terminal über den agrirouter an dein ProFlura-Konto gesendet werden. Wie "
 "diese abgerufen werden können, erfährst du im Folgenden."
 msgstr ""
 "Après l'épandage de semences, par exemple, les cartes d'application peuvent "
-"également être envoyées du terminal vers votre compte xFarm via "
-"l'agrirouter. Vous trouverez ci-dessous des informations sur la manière de "
-"les récupérer."
+"également être envoyées depuis le terminal vers votre compte ProFlura via "
+"l'agrirouter. Vous trouverez ci-dessous comment les récupérer."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:126
@@ -11251,75 +11057,58 @@ msgid ""
 "Generell kannst du Daten, die du über den agrirouter empfangen hast, über "
 "zwei Wege importieren:"
 msgstr ""
+"En général, vous pouvez importer les données que vous avez reçues via "
+"l'agrirouter de deux manières :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:136
-#, fuzzy
-#| msgid "Wähle den Endpunkt aus, an den du die Aufgabe senden möchtest."
 msgid "Wähle den *_Endpunkt_* aus, von dem du deine Datei abrufen möchtest."
 msgstr ""
-"Sélectionnez le point final vers lequel vous souhaitez envoyer la tâche."
+"Sélectionnez le *_point final_* à partir duquel vous souhaitez récupérer "
+"votre fichier."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:149
-#, fuzzy
-#| msgid "Klicke auf den Reiter *_Tasks_*."
 msgid "Klicke auf den Tabellenreiter *_Empfangen_*."
-msgstr "Cliquez sur l'onglet *_Tâches_*."
+msgstr "Cliquez sur l'onglet *_Recevoir_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:150
-#, fuzzy
-#| msgid "Wähle die Applikationskarte aus, die du exportieren möchtest."
 msgid "Wähle nun die *_Datei_* aus, die du importieren möchtest."
-msgstr "Sélectionnez la carte d'application que vous souhaitez exporter."
+msgstr "Sélectionnez maintenant le *_fichier_* que vous souhaitez importer."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:151
-#, fuzzy
-#| msgid "Klicke auf *_Fortsetzen_*."
 msgid "Klicke auf *_Importieren_*."
-msgstr "Cliquez sur *_continuer_*."
+msgstr "Cliquez sur *_Importer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:163
-#, fuzzy
-#| msgid "Klicke nun den Reiter *_Report_*."
 msgid "Wähle den Tabellenreiter *_Import_*."
-msgstr "Cliquez maintenant sur l'onglet *_Report_*."
+msgstr "Sélectionnez l'onglet *_Import_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:164
-#, fuzzy
-#| msgid ""
-#| "Klicke auf die Schaltfläche mit der Datei, die du exportieren möchtest, "
-#| "und halte diese gedrückt."
 msgid ""
 "Klicke jetzt auf den *_Tabellenreiter_* des Dateityps, den du importieren "
 "möchtest (bspw. Applikationskarten)."
 msgstr ""
-"Cliquez sur le bouton correspondant au fichier que vous souhaitez exporter "
-"et maintenez-le enfoncé."
+"Cliquez maintenant sur l'onglet *_Table_* du type de fichier que vous "
+"souhaitez importer (par exemple, fiches d'application)."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:165
-#, fuzzy
-#| msgid ""
-#| "Wähle die mit dem agrirouter verbundenen Endpunkte, an die du die "
-#| "Aufgaben exportieren möchtest."
 msgid ""
 "Wähle einen *_agrirouter-Endpunkt_* aus, von dem empfangene Dateien "
 "importieren möchtest."
 msgstr ""
-"Sélectionnez les points de terminaison connectés à l'agrirouter vers "
-"lesquels vous souhaitez exporter les tâches."
+"Sélectionnez un *_point final d'agrirouter_* à partir duquel vous souhaitez "
+"importer les fichiers reçus."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:166
-#, fuzzy
-#| msgid "Wähle eine der Tasks aus."
 msgid "Wähle eine oder *_mehrere Dateien_* aus."
-msgstr "Sélectionnez l'une des tâches."
+msgstr "Sélectionnez un ou *_plusieurs fichiers_*."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:1
@@ -12190,111 +11979,80 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:1
-#, fuzzy, no-wrap
-#| msgid "CCI-Terminal Solution Guides"
+#, no-wrap
 msgid "VYC (Vineyard Cloud Solution Guide)"
-msgstr "Guides des solutions de terminaux CCI"
+msgstr "VYC (Guide de la solution cloud Vineyard)"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit der Farm Management Software NEXT Farming kannst du Daten vom "
-#| "agrirouter empfangen und senden. Dazu müssen allerdings einige "
-#| "Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt "
-#| "behandelt:"
 msgid ""
 "Mit der Weinbau Management Software im Außenbetrieb von Vineyard Cloud (VYC) "
 "kannst du Daten vom agrirouter empfangen und senden. Dazu müssen allerdings "
 "einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem "
 "Abschnitt behandelt:"
 msgstr ""
-"Le logiciel de gestion agricole NEXT Farming vous permet de recevoir et "
-"d'envoyer des données depuis l'agrirouter. Pour cela, il faut toutefois "
-"prendre quelques précautions. Les points suivants sont abordés dans cette "
-"section :"
+"Avec le logiciel de gestion de la viticulture en extérieur de Vineyard Cloud "
+"(VYC), vous pouvez recevoir et envoyer des données depuis l'agrirouter. Pour "
+"cela, il faut toutefois prendre quelques précautions. Les points suivants "
+"sont abordés dans cette section :"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:7
-#, fuzzy
-#| msgid "Export von Applikationskarten"
 msgid "Export von Aufgaben"
-msgstr "Exportation de fiches d'application"
+msgstr "Exportation de tâches"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:12
-#, fuzzy
-#| msgid ""
-#| "Um Applikationskarten von MyDataPlant über den agrirouter an dein "
-#| "Terminal senden zu können, muss zuerst eine Verbindung zwischen deinem "
-#| "MyDataPlant-Konto und deinem agrirouter-Konto hergestellt werden. Dies "
-#| "funktioniert in wenigen, einfachen Schritten."
 msgid ""
 "Um Aufgaben, wie bspw. die Ausbringung von Pflanzenschutzmittel, von VYC "
 "über den agrirouter an das Terminal deiner Maschine senden zu können, muss "
 "zuerst eine Verbindung zwischen deinem VYC-Konto und deinem agrirouter-Konto "
 "hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten."
 msgstr ""
-"Pour pouvoir envoyer des cartes d'application de MyDataPlant à votre "
-"terminal via l'agrirouter, vous devez d'abord établir une connexion entre "
-"votre compte MyDataPlant et votre compte agrirouter. Cela fonctionne en "
-"quelques étapes simples."
+"Pour pouvoir envoyer des tâches, telles que l'application de produits "
+"phytosanitaires, de VYC vers le terminal de votre machine via l'agrirouter, "
+"vous devez d'abord établir une connexion entre votre compte VYC et votre "
+"compte agrirouter. Cela se fait en quelques étapes simples."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:19
-#, fuzzy
-#| msgid ""
-#| "Logge dich über die link:https://fm.xarvio.com/de/de_de/login[xarvio "
-#| "Login Seite,window=\"_blank\"] in dein Konto ein."
 msgid ""
 "Logge dich über die link:https://my.vineyard-cloud.com/#!/login[VYC Login "
 "Seite,window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Connectez-vous à votre compte via link:https://fm.xarvio.com/de/de_de/"
-"login[xarvio Login page,window=\"_blank\"]."
+"Connectez-vous à votre compte via link:https://my.vineyard-cloud.com/"
+"#!/login[VYC Login page,window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:20
-#, fuzzy
-#| msgid "Klicke in der linken Seitenleiste auf *_Aufzeichnen_*."
 msgid ""
 "Klicke in der linken Seitenleiste auf das *_Zahnrad-Symbol_*, um zu den "
 "Grundeinstellungen zu gelangen."
-msgstr "Cliquez sur *_Enregistrer_* dans la barre latérale gauche."
+msgstr ""
+"Cliquez sur l'icône *_engrenage_* dans la barre latérale gauche pour accéder "
+"aux paramètres de base."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:21
-#, fuzzy
-#| msgid "Wähle dann die Option *_Verbundene Apps_*."
 msgid "Wähle dann die Option *_Schnittstellen_*."
-msgstr "Sélectionnez ensuite l'option *_Apps connectées_*."
+msgstr "Sélectionnez ensuite l'option *_Interfaces_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:27
-#, fuzzy
-#| msgid "Wähle dann im folgenden Fenster die Option *_agrirouter_* aus."
 msgid ""
 "Wähle nun unter den verschiedenen Schnittstellen die Option *_agrirouter_* "
 "aus."
 msgstr ""
-"Sélectionnez ensuite l'option *_agrirouter_* dans la fenêtre qui s'affiche."
+"Sélectionnez ensuite l'option *_agrirouter_* parmi les différentes "
+"interfaces."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:28
-#, fuzzy
-#| msgid "Klicke den Button *_Verbindung aufheben_*."
 msgid "Klicke auf den Button *_Verbindung aufbauen_*."
-msgstr "Cliquez sur le bouton *_Dissocier_*."
+msgstr "Cliquez sur le bouton *_Etablir la connexion_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:29
-#, fuzzy
-#| msgid ""
-#| "Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem "
-#| "Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du "
-#| "dich zuerst anmelden. Bist du bereits angemeldet, klickst du im neuen "
-#| "Fenster auf *_VERBINDEN_* und es wird eine Verbindung mit deinem "
-#| "agrirouter-Konto hergestellt."
 msgid ""
 "Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem Browser "
 "noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du dich zuerst "
@@ -12302,29 +12060,17 @@ msgid ""
 msgstr ""
 "Vous allez maintenant être redirigé vers une nouvelle page. Si vous n'êtes "
 "pas encore connecté à votre compte agrirouter dans votre navigateur, vous "
-"devez d'abord vous connecter. Si vous êtes déjà connecté, cliquez sur "
-"*_CONNECTER_* dans la nouvelle fenêtre et une connexion sera établie avec "
-"votre compte agrirouter."
+"devez d'abord vous connecter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:37
-#, fuzzy
-#| msgid ""
-#| "Du wirst nun auf eine neue Seite weitergeleitet. Falls du in deinem "
-#| "Browser noch nicht mit deinem agrirouter-Konto angemeldet bist, musst du "
-#| "dich zuerst anmelden. Bist zu bereits angemeldet, siehst du die hier "
-#| "gezeigte Seite. Dort klickst du auf *_VERBINDEN_* und es wird eine "
-#| "Verbindung mit deinem agrirouter-Konto hergestellt."
 msgid ""
 "Nach deiner Anmeldung siehst du die hier gezeigte Seite. Dort klickst du auf "
 "*_VERBINDEN_* und es wird eine Verbindung mit deinem agrirouter-Konto "
 "hergestellt."
 msgstr ""
-"Vous allez maintenant être redirigé vers une nouvelle page. Si vous n'êtes "
-"pas encore connecté à votre compte agrirouter dans votre navigateur, vous "
-"devez d'abord vous connecter. Si vous êtes déjà connecté, vous verrez la "
-"page affichée ici. Cliquez sur *_CONNECTER_* pour vous connecter à votre "
-"compte agrirouter."
+"Après votre inscription, vous verrez la page montrée ici. Cliquez sur "
+"*_CONNECTER_* et une connexion sera établie avec votre compte agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:45
@@ -12333,32 +12079,26 @@ msgid ""
 "am Schriftzug *_“Verbunden mit Account ID xxx..”_* im oberen Bereich des "
 "Fensters."
 msgstr ""
+"Vous pouvez voir qu'il y a une connexion active avec votre compte agrirouter "
+"grâce à l'inscription *_\"Connecté à l'ID de compte xxx..\"_* en haut de la "
+"fenêtre."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:46
-#, fuzzy
-#| msgid ""
-#| "Um die Verbindung zu trennen, klickst du auf den Button "
-#| "*_Agrirouterverbindung trennen_*."
 msgid ""
 "Möchtest du die Verbindung trennen, klickst du auf den Button *_Verbindung "
 "trennen_*."
 msgstr ""
-"Pour vous déconnecter, cliquez sur le bouton *_Déconnexion de l'agri-"
-"routeur_*."
+"Si vous souhaitez vous déconnecter, cliquez sur le bouton *_Déconnecter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:47
-#, fuzzy
-#| msgid ""
-#| "Um die Verbindung zu trennen, klickst du auf den Button "
-#| "*_Agrirouterverbindung trennen_*."
 msgid ""
 "Möchtest du die Verbindung aktualisieren, klicke auf den Button *_Verbindung "
 "aktualisieren_*."
 msgstr ""
-"Pour vous déconnecter, cliquez sur le bouton *_Déconnexion de l'agri-"
-"routeur_*."
+"Si vous souhaitez mettre à jour la connexion, cliquez sur le bouton *_Mettre "
+"à jour la connexion_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:52
@@ -12367,6 +12107,10 @@ msgid ""
 "hast, werden diese nicht sofort im VYC-Konto angezeigt. Hierzu musst du die "
 "Endpunkte-Liste aktualisieren."
 msgstr ""
+"Si vous avez connecté de nouveaux points d'accès, comme par exemple des "
+"machines agricoles, à l'agrirouter, ils ne seront pas immédiatement affichés "
+"dans le compte VYC. Pour cela, vous devez mettre à jour la liste des points "
+"d'accès."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:56
@@ -12374,36 +12118,29 @@ msgid ""
 "Die *_Account ID_* zeigt dir an, mit welchem agrirouter-Konto dein VYC-Konto "
 "verbunden bist."
 msgstr ""
+"Le *_Account ID_* vous indique à quel compte agrirouter votre compte VYC est "
+"connecté."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:57
-#, fuzzy
-#| msgid "Klicke den Button *_Einladung aufheben_*."
 msgid "Klicke auf den Button *_Endpunkt aktualisieren_*."
-msgstr "Cliquez sur le bouton *_Annuler l'invitation_*."
+msgstr "Cliquez sur le bouton *_Actualiser le point final_*."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:58
-#, fuzzy, no-wrap
-#| msgid "Applikationskarten exportieren"
+#, no-wrap
 msgid "Aufgaben exportieren"
-msgstr "Exporter des fiches d'application"
+msgstr "Exporter des tâches"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:60
-#, fuzzy
-#| msgid ""
-#| "Mit dem agrirouter kannst du drahtlos Applikationskarten von DACOM an "
-#| "deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass "
-#| "du bereits eine Applikationskarte erstellt hast."
 msgid ""
 "Mit dem agrirouter kannst du drahtlos Aufgaben von VYC an deine Maschinen "
 "bzw. Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine "
 "Aufgabe erstellt hast."
 msgstr ""
-"Avec l'agrirouter, vous pouvez envoyer sans fil des cartes d'application de "
-"DACOM à vos machines ou terminaux. Pour cela, il faut que vous ayez déjà "
-"créé une carte d'application."
+"Avec l'agrirouter, vous pouvez envoyer sans fil des tâches de VYC à vos "
+"machines ou terminaux. Pour cela, il faut que vous ayez déjà créé une tâche."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:64
@@ -12412,25 +12149,22 @@ msgid ""
 "agrirouter an all deine Maschinen gesendet, solang eine aktive Verbindung "
 "mit dem agrirouter besteht. Du brauchst nichts weiter tun."
 msgstr ""
+"Après avoir cliqué sur le bouton Enregistrer, votre tâche sera envoyée "
+"directement à toutes vos machines via l'agrirouter, tant qu'il y a une "
+"connexion active avec l'agrirouter. Vous n'avez rien d'autre à faire."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:68
-#, fuzzy
-#| msgid ""
-#| "Bei DACOM werden deine Applikationskarten automatisch immer direkt an "
-#| "alle Endpunkte gesendet, die über eine https://manual.agrirouter.com/de/"
-#| "manual/latest/routing.html[Route, window=\"_blank\"] mit dem agrirouter "
-#| "verbunden sind."
 msgid ""
 "Deine Aufgabe wird automatisch immer an all die Endpunkte gesendet, die über "
 "eine link:https://manual.agrirouter.com/de/routing.html[Route] mit dem "
 "agrirouter verbunden sind. Die Aufgabe wird immer erst an dem Tag an deine "
 "Maschinen gesendet, den du als Tag der Durchführung geplant hast!"
 msgstr ""
-"Avec DACOM, vos cartes d'application sont toujours envoyées automatiquement "
-"et directement à tous les points finaux connectés à l'agrirouter via un "
-"https://manual.agrirouter.com/de/manual/latest/routing.html[Route, "
-"window=\"_blank\"]."
+"Votre tâche sera toujours envoyée automatiquement à tous les points "
+"d'extrémité qui sont connectés à l'agrirouter via un link:https://manual."
+"agrirouter.com/de/routing.html[route]. La tâche n'est jamais envoyée à vos "
+"machines avant le jour que vous avez planifié comme jour de réalisation !"
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:1
@@ -13270,10 +13004,8 @@ msgstr "xref:solution-guides/krone.adoc[KRONE]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:10
-#, fuzzy
-#| msgid "xref:solution-guides/krone.adoc[KRONE]"
 msgid "xref:solution-guides/kuhn.adoc[KUHN]"
-msgstr "xref:solution-guides/krone.adoc[KRONE]"
+msgstr "xref:solution-guides/kuhn.adoc[KUHN]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:11
@@ -13307,24 +13039,18 @@ msgstr "xref:solution-guides/abaco.adoc[ABACO Farmer]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:17
-#, fuzzy
-#| msgid "xref:solution-guides/myamarouter.adoc[AMAZONE]"
 msgid "xref:solution-guides/agrarmonitor.adoc[AGRARMONITOR]"
-msgstr "xref:solution-guides/myamarouter.adoc[AMAZONE]"
+msgstr "xref:solution-guides/agrarmonitor.adoc[MONITEUR AGRICOLE]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:18
-#, fuzzy
-#| msgid "xref:solution-guides/trimble.adoc[Trimble]"
 msgid "xref:solution-guides/agricolus.adoc[Agricolus]"
-msgstr "xref:solution-guides/trimble.adoc[Trimble]"
+msgstr "xref:solution-guides/agricolus.adoc[Agricolus]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:19
-#, fuzzy
-#| msgid "xref:solution-guides/dacom.adoc[DACOM]"
 msgid "xref:solution-guides/cropmanager.adoc[CropManager]"
-msgstr "xref:solution-guides/dacom.adoc[DACOM]"
+msgstr "xref:solution-guides/cropmanager.adoc[CropManager]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:20
@@ -13353,24 +13079,18 @@ msgstr "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:25
-#, fuzzy
-#| msgid "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
-msgstr "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
+msgstr "xref:solution-guides/plantivo.adoc[Plantivo]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:26
-#, fuzzy
-#| msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgid "xref:solution-guides/proflura.adoc[ProFlura]"
-msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+msgstr "xref:solution-guides/proflura.adoc[ProFlura]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:27
-#, fuzzy
-#| msgid "xref:solution-guides.adoc[Solution Guides]"
 msgid "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
-msgstr "xref:solution-guides.adoc[Solution Guides]"
+msgstr "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:28
