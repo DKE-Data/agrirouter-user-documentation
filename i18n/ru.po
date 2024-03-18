@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-12 14:21+0000\n"
+"POT-Creation-Date: 2024-03-18 10:07+0000\n"
 "PO-Revision-Date: 2022-11-14 10:05+0000\n"
 "Last-Translator: Felix Lammers <f.lammers@dke-data.com>\n"
 "Language-Team: Russian <https://weblate.my-agrirouter.com/projects/"
@@ -5910,9 +5910,9 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:19
 msgid ""
 "Um DACOM mit deinem agrirouter-Konto verbinden zu können, musst du eine "
-"https://https://www.dacom.nl/de/produkte/cloudfarm/#pricing[Cloudfarm "
-"Lizenz, window=\"_blank\"] erwerben! Hast du keine DACOM-Lizenz erworben, "
-"wird Cloudfarm auch nicht in deiner linken Seitenleiste angezeigt."
+"https://www.dacom.nl/de/produkte/cloudfarm/#pricing[Cloudfarm Lizenz, "
+"window=\"_blank\"] erwerben! Hast du keine DACOM-Lizenz erworben, wird "
+"Cloudfarm auch nicht in deiner linken Seitenleiste angezeigt."
 msgstr ""
 
 #. type: Plain text
@@ -7039,8 +7039,7 @@ msgstr ""
 msgid ""
 "Du wirst nun gefragt, ob du bereits einen agrirouter-Konto besitzt. Falls "
 "das der Fall ist, klicke auf *_Yes_* (Ja). Falls nicht, erfahre hier, wie du "
-"dein link:https://manual.agrirouter.com/de/account.html#benutzerkonto-"
-"erstellen[agrirouter-Konto, window=\"_blank\"] erstellst."
+"dein xref:account.adoc#benutzerkonto-erstellen[agrirouter-Konto] erstellst."
 msgstr ""
 
 #. type: Plain text
@@ -7081,9 +7080,8 @@ msgstr "agrirouter Руководство по эксплуатации"
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:84
 msgid ""
 "Stelle nun eine Verbindung zwischen deinem Terminal und dem agrirouter her. "
-"Wie das funktioniert, erfährst du im link:https://manual.agrirouter.com/de/"
-"solution-guides/cci-terminals.html[CCI-Terminal Solution Guide, "
-"window=\"_blank\"]."
+"Wie das funktioniert, erfährst du im xref:cci-terminals.adoc[CCI-Terminal "
+"Solution Guide]."
 msgstr ""
 
 #. type: Plain text
@@ -7227,16 +7225,15 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:13
 #: de/modules/ROOT/pages/solution-guides/poettinger.adoc:19
 msgid ""
-"Erstelle ein link:https://manual.agrirouter.com/de/manual/latest/account."
-"html#benutzerkonto-erstellen[agrirouter-Konto, window=\"_blank\"]."
+"Erstelle ein xref:account.adoc#benutzerkonto-erstellen[agrirouter-Konto]."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:14
 msgid ""
-"Verbinde LEMKEN iQblue connect als eine link:https://manual.agrirouter.com/"
-"de/manual/latest/endpoint.html#connect-machine[Maschine] mit deinem "
-"agrirouter-Konto und *_notiere dir den Registrierungscode_*."
+"Verbinde LEMKEN iQblue connect als eine xref:endpoint.adoc#connect-"
+"machine[Maschine] mit deinem agrirouter-Konto und *_notiere dir den "
+"Registrierungscode_*."
 msgstr ""
 
 #. type: Plain text
@@ -7291,8 +7288,7 @@ msgid ""
 "agrirouter an dein Farm-Management System zu senden, muss nichts weiter "
 "getan werden. LEMKEN iQblue sendet die Daten automatisch an den agrirouter. "
 "Um zu bestimmten, an welche Endpunkte LEMKEN iQblue Daten sendet, musst du "
-"eine link:https://manual.agrirouter.com/de/manual/latest/routing.html[Route, "
-"window=\"_blank\"] in deinem agrirouter-Konto einrichten."
+"eine xref:routing.adoc[Route] in deinem agrirouter-Konto einrichten."
 msgstr ""
 
 #. type: Title =
@@ -7493,17 +7489,15 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:76
 msgid ""
-"Wenn du noch kein agrirouter-Konto hast, erfährst du link:https://manual."
-"agrirouter.com/de/manual/latest/account.html#benutzerkonto-erstellen[hier], "
-"wie du eines erstellst."
+"Wenn du noch kein agrirouter-Konto hast, erfährst du xref:account."
+"adoc#benutzerkonto-erstellen[hier], wie du eines erstellst."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:80
 msgid ""
 "Füge dein AmaTron 4 Terminal als Endpunkt hinzu. Wie das funktioniert, "
-"erfährst du link:https://manual.agrirouter.com/de/manual/latest/endpoint."
-"html#connect-machine[hier]."
+"erfährst du xref:endpoint.adoc#connect-machine[hier]."
 msgstr ""
 
 #. type: Plain text
@@ -7559,8 +7553,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:106
 msgid ""
 "Sende die gewünschte(n) Applikationskarte(n) über dein FMIS an deinen "
-"AmaTron 4 link:https://manual.agrirouter.com/de/manual/latest/endpoint."
-"html[Endpunkt]."
+"AmaTron 4 xref:endpoint.adoc[Endpunkt]."
 msgstr ""
 
 #. type: Plain text
@@ -8617,11 +8610,11 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:45
 msgid ""
-"Mit dem agrirouter kannst du drahtlos Applikationskarten über eine link:"
-"https://manual.agrirouter.com/de/introduction.html#route[Route] von Plantivo "
-"an deine Maschinen bzw. Terminals schicken. Voraussetzung hierfür ist, dass "
-"du bereits eine Applikationskarte erstellt hast. Erfahre im Folgenden, wie "
-"du die Daten exportierst."
+"Mit dem agrirouter kannst du drahtlos Applikationskarten über eine xref:"
+"introduction.adoc#route[Route] von Plantivo an deine Maschinen bzw. "
+"Terminals schicken. Voraussetzung hierfür ist, dass du bereits eine "
+"Applikationskarte erstellt hast. Erfahre im Folgenden, wie du die Daten "
+"exportierst."
 msgstr ""
 
 #. type: Plain text
@@ -8667,8 +8660,8 @@ msgstr ""
 msgid ""
 "Wenn du mit deiner Maschine eine As-Applied-Map erstellst oder andere "
 "Telemetriedaten, wie bspw. den Kraftstoffverbrauch, aufzeichnest, empfängst "
-"du diese automatisch über eine link:https://manual.agrirouter.com/de/"
-"introduction.html#route[Route] vom agrirouter in deinem Plantivo-Konto."
+"du diese automatisch über eine xref:introduction.adoc#route[Route] vom "
+"agrirouter in deinem Plantivo-Konto."
 msgstr ""
 
 #. type: Plain text
@@ -8745,9 +8738,9 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/poettinger.adoc:20
 msgid ""
-"Verbinde Pöttinger Connect als eine link:https://manual.agrirouter.com/de/"
-"manual/latest/endpoint.html#connect-machine[Maschine, window=\"blank\"] mit "
-"deinem agrirouter-Konto und notiere dir den Registrierungscode."
+"Verbinde Pöttinger Connect als eine xref:endpoint.adoc#connect-"
+"machine[Maschine] mit deinem agrirouter-Konto und notiere dir den "
+"Registrierungscode."
 msgstr ""
 
 #. type: Plain text
@@ -8873,9 +8866,8 @@ msgstr ""
 msgid ""
 "Voraussetzung für den Empfang von Applikationskarten ist, dass sowohl deine "
 "Pöttinger-CONNECT Einheit, als auch dein Farm-Management System mit dem "
-"agrirouter verbunden sind und eine link:https://manual.agrirouter.com/de/"
-"manual/latest/routing.html[Route, window=\"blank\"] zwischen den beiden "
-"Endpunkten erstellt wurde. Auf dem link:https://my-agrirouter.com/"
+"agrirouter verbunden sind und eine xref:routing.adoc[Route] zwischen den "
+"beiden Endpunkten erstellt wurde. Auf dem link:https://my-agrirouter.com/"
 "marketplace/agrarsoftware/[agrirouter Marktplatz, window=\"blank\"] siehst "
 "du, welche Farm-Management-Systeme agrirouter kompatibel sind."
 msgstr ""
@@ -8986,8 +8978,8 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:54
 msgid ""
 "Im Anschluss musst du bis zu 5 Minuten warten, bis du ins agrirouter System "
-"weitergeleitet wirst. Dort kannst du ProFlura deine Maschinen als link:"
-"https://manual.agrirouter.com/de/endpoint.html[Endpunkte] zuordnen."
+"weitergeleitet wirst. Dort kannst du ProFlura deine Maschinen als xref:"
+"endpoint.adoc[Endpunkte] zuordnen."
 msgstr ""
 
 #. type: Plain text
@@ -9038,8 +9030,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:74
 msgid ""
-"Wähle den link:https://manual.agrirouter.com/de/endpoint.html[Endpunkt] aus, "
-"an den du deine Datei versenden möchtest."
+"Wähle den xref:endpoint.adoc[Endpunkt] aus, an den du deine Datei versenden "
+"möchtest."
 msgstr ""
 
 #. type: delimited block =
@@ -9334,9 +9326,8 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:65
 msgid ""
-"Falls du noch kein agrirouter-Konto hast, erfährst du link:https://"
-"agrirouter.com/de/agrirouter/quick-start-guide/agrirouter-konto-einrichten/"
-"[hier, window=\"_blank\"], wie du eines erstellst."
+"Falls du noch kein agrirouter-Konto hast, erfährst du xref:account."
+"adoc#benutzerkonto-erstellen[hier], wie du eines erstellst."
 msgstr ""
 
 #. type: Plain text
@@ -9763,9 +9754,8 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:40
 msgid ""
 "Melde dich im link:https://goto.my-agrirouter.com/app[agrirouter Control "
-"Center, window=\"_blank\"] an und vervollständige dort das link:https://"
-"manual.agrirouter.com/de/manual/latest/routing.html[Routing, "
-"window=\"_blank\"]"
+"Center, window=\"_blank\"] an und vervollständige dort das xref:routing."
+"adoc[Routing]"
 msgstr ""
 
 #. type: Plain text
@@ -9897,8 +9887,8 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:110
 msgid ""
 "Damit du Dateien von deiner Farm-Management-Software empfangen kannst, musst "
-"du vorher eine link:https://manual.agrirouter.com/de/manual/latest/routing."
-"html[Route im agrirouter Control Center herstellen, window=\"_blank\"]."
+"du vorher eine xref:routing.adoc[Route im agrirouter Control Center "
+"herstellen]."
 msgstr ""
 
 #. type: Plain text
@@ -10052,9 +10042,9 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:68
 msgid ""
 "Deine Aufgabe wird automatisch immer an all die Endpunkte gesendet, die über "
-"eine link:https://manual.agrirouter.com/de/routing.html[Route] mit dem "
-"agrirouter verbunden sind. Die Aufgabe wird immer erst an dem Tag an deine "
-"Maschinen gesendet, den du als Tag der Durchführung geplant hast!"
+"eine xref:routing.adoc[Route] mit dem agrirouter verbunden sind. Die Aufgabe "
+"wird immer erst an dem Tag an deine Maschinen gesendet, den du als Tag der "
+"Durchführung geplant hast!"
 msgstr ""
 
 #. type: Title =

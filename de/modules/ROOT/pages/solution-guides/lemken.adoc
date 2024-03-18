@@ -9,8 +9,8 @@ In diesem Kapitel erfährst du, wie du:
 * Telemetriedaten exportieren kannst.
 
 == Verbindung mit dem agrirouter herstellen
-. Erstelle ein link:https://manual.agrirouter.com/de/manual/latest/account.html#benutzerkonto-erstellen[agrirouter-Konto, window="_blank"].
-. Verbinde LEMKEN iQblue connect als eine link:https://manual.agrirouter.com/de/manual/latest/endpoint.html#connect-machine[Maschine] mit deinem agrirouter-Konto und *_notiere dir den Registrierungscode_*.
+. Erstelle ein xref:account.adoc#benutzerkonto-erstellen[agrirouter-Konto].
+. Verbinde LEMKEN iQblue connect als eine xref:endpoint.adoc#connect-machine[Maschine] mit deinem agrirouter-Konto und *_notiere dir den Registrierungscode_*.
 . Im nächsten Schritt muss der Code in dein ISOBUS-Terminal eingegeben werden.
 
 
@@ -61,4 +61,4 @@ image::interactive_agrirouter/lemken/lemken-connect-agrirouter-5-de.png[Select R
 --
 
 == Export von Telemetriedaten
-Um Telemetriedaten und IST-Applikationskarten von LEMKEN iQblue über den agrirouter an dein Farm-Management System zu senden, muss nichts weiter getan werden. LEMKEN iQblue sendet die Daten automatisch an den agrirouter. Um zu bestimmten, an welche Endpunkte LEMKEN iQblue Daten sendet, musst du eine link:https://manual.agrirouter.com/de/manual/latest/routing.html[Route, window="_blank"] in deinem agrirouter-Konto einrichten.
+Um Telemetriedaten und IST-Applikationskarten von LEMKEN iQblue über den agrirouter an dein Farm-Management System zu senden, muss nichts weiter getan werden. LEMKEN iQblue sendet die Daten automatisch an den agrirouter. Um zu bestimmten, an welche Endpunkte LEMKEN iQblue Daten sendet, musst du eine xref:routing.adoc[Route] in deinem agrirouter-Konto einrichten.
