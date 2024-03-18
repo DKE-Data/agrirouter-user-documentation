@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-18 10:07+0000\n"
-"PO-Revision-Date: 2024-03-18 11:48+0000\n"
+"PO-Revision-Date: 2024-03-18 12:34+0000\n"
 "Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
 "Language-Team: Spanish <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/es/>\n"
@@ -7242,10 +7242,11 @@ msgstr ""
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:148
-#, fuzzy, no-wrap
-#| msgid "Import von Ist-Applikationskarten (As-Applied-Maps) & Telemetriedaten"
+#, no-wrap
 msgid "Import von Ist-Applikationskarten (As-Applied Maps) & Telemetriedaten"
-msgstr "Importación de mapas de aplicación reales (mapas as-applied) y datos telemétricos"
+msgstr ""
+"Importación de mapas de aplicación reales (mapas as-applied) y datos "
+"telemétricos"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:150
@@ -8650,15 +8651,6 @@ msgstr "Guía de la solución AMAZONE myAmaRouter"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:5
-#, fuzzy
-#| msgid ""
-#| "Dein AmaTron 4 Terminal der Marke AMAZONE muss mit dem agrirouter "
-#| "verbunden sein, um drahtlos Applikationskarten im ISOXML-Format von "
-#| "deinem Farm-Management-System empfangen zu können. Es ist auch möglich, "
-#| "IST-Applikationskarten (As-Applied-Karten) von deinem Terminal über den "
-#| "agrirouter an dein Farm-Mananagement-System zu senden. Dies wird dir über "
-#| "die myAmaRouter-App ermöglicht, die du auf deinem Tablet oder Smartphone "
-#| "installieren kannst. In diesem Abschnitt erfährst du, wie du:"
 msgid ""
 "Dein AmaTron 4 Terminal der Marke AMAZONE muss mit dem agrirouter verbunden "
 "sein, um drahtlos Applikationskarten im ISOXML-Format von deinem Farm-"
@@ -8669,12 +8661,12 @@ msgid ""
 "installieren kannst. In diesem Abschnitt erfährst du, wie du:"
 msgstr ""
 "Su terminal AmaTron 4 AMAZONE debe estar conectado al agrirouter para poder "
-"recibir mapas de prescripción en formato ISOXML de forma inalámbrica desde "
-"su sistema de gestión agrícola. También es posible enviar mapas de "
-"prescripción IST (mapas As-Applied) desde su terminal a su sistema de "
-"gestión agrícola a través del agrirouter. Esto es posible a través de la "
-"aplicación myAmaRouter, que puede instalar en su tableta o smartphone. En "
-"esta sección aprenderá cómo:"
+"recibir los mapas de aplicación de forma inalámbrica en formato ISOXML desde "
+"su sistema de gestión agrícola. También es posible remitir los mapas de "
+"aplicación reales (mapas aplicados) desde su terminal al sistema de gestión "
+"agrícola a través del agrirouter. Puede hacerlo a través de la Aplicación "
+"myAmaRouter, que puede instalar en su tableta o smartphone. En esta sección "
+"aprenderá cómo:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:7
@@ -8693,10 +8685,8 @@ msgstr "importar mapas de aplicación."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:10
-#, fuzzy
-#| msgid "Telemetriedaten und IST-Applikationskarten exportierst."
 msgid "Telemetriedaten und Ist-Applikationskarten exportierst."
-msgstr "exportar datos de telemetría y mapas de aplicación de las TSI."
+msgstr "exportar datos de telemetría y mapas reales de la aplicación."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:13
@@ -8998,17 +8988,12 @@ msgstr "Exportación de mapas de aplicación reales"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myamarouter.adoc:111
-#, fuzzy
-#| msgid ""
-#| "Um IST-Applikationskarten (As-Applied Karten) im ISOXML-Format von deinem "
-#| "Terminal über den agrirouter an dein Farm-Management-System zu senden, "
-#| "sind nur 2 einfache Schritte notwendig."
 msgid ""
 "Um Ist-Applikationskarten (As-Applied Karten) im ISOXML-Format von deinem "
 "Terminal über den agrirouter an dein Farm-Management-System zu senden, sind "
 "nur 2 einfache Schritte notwendig."
 msgstr ""
-"Para enviar mapas de prescripción de TSI (mapas As-Applied) en formato "
+"Para enviar mapas de prescripción reales (mapas as-applied) en formato "
 "ISOXML desde su terminal a su sistema de gestión agrícola a través del "
 "agrirouter, sólo son necesarios 2 sencillos pasos."
 
@@ -10493,10 +10478,9 @@ msgstr ""
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/poettinger.adoc:47
-#, fuzzy, no-wrap
-#| msgid "Import von Ist-Applikationskarten & Telemetriedaten"
+#, no-wrap
 msgid "Export von Ist-Applikationskarten & Telemetriedaten"
-msgstr "Importación de mapas de aplicación reales y datos telemétricos"
+msgstr "Exportación de mapas de aplicación reales y datos telemétricos"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/poettinger.adoc:50
@@ -11715,23 +11699,16 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:57
-#, fuzzy
-#| msgid ""
-#| "Beim Aufbau einer Verbindung mit agrirouter werden keine Aufgaben "
-#| "gesendet, da das Routing eingerichtet werden muss, bevor etwas an "
-#| "agrirouter gesendet wird. Sobald das Routing eingerichtet ist, können "
-#| "alle historischen Aufgaben (IST-Applikationskarten) manuell gesendet "
-#| "werden."
 msgid ""
 "Beim Aufbau einer Verbindung mit agrirouter werden keine Aufgaben gesendet, "
 "da das Routing eingerichtet werden muss, bevor etwas an agrirouter gesendet "
 "wird. Sobald das Routing eingerichtet ist, können alle historischen Aufgaben "
 "(Ist-Applikationskarten) manuell gesendet werden."
 msgstr ""
-"No se envían tareas al establecer una conexión con agrirouter, ya que el "
-"enrutamiento debe configurarse antes de enviar nada a agrirouter. Tan pronto "
-"como se establece el enrutamiento, todas las tareas históricas (mapas de "
-"aplicación IST) se pueden enviar manualmente."
+"No se envían tareas al establecer una Vinculación con agrirouter, ya que el "
+"enrutamiento debe configurarse antes de enviar nada a agrirouter. En cuanto "
+"se establece el enrutamiento, todas las tareas históricas (mapas de "
+"aplicación reales) se pueden enviar manualmente."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:62
