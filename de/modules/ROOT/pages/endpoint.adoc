@@ -7,158 +7,193 @@ Für jede Maschine und Agrarsoftware, die über den agrirouter Daten austauschen
 
 In diesem Abschnitt erfährst du
 
-* wie du einen Endpunkt hinzufügst, bearbeitest und löscht
-* wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst
+* wie du einen Endpunkt hinzufügst und bearbeitest
+//AUSGEBLENDET:* wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst
 
-== Das Kontrollzentrum
-Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um einen Endpunkt hinzuzufügen und zu verwalten:
-
-. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
-[.result]#Das Kontrollzentrum wird geöffnet.#
-[.result]#Links wird die Endpunkteliste angezeigt.#
-[.result]#Rechts wird die Detailansicht angezeigt.#
-
-== Endpunkteliste
-[.float-group]
---
-image::ar_endpoint-list.legend.png[Endpoint list, 250, float=right]
-
-Die Endpunkteliste ist anhand des Namens alphabetisch sortiert. +
-Du kannst
-
-. einen Endpunkt hinzufügen,
-. die Endpunkteliste filtern,
-. einen Endpunkt suchen,
-. die Endpunkteliste aktualisieren.
---
-
-Öffne die Endpunkteliste wie folgt:
+== Übersichtsseite: my agrirouter
+Die Übersichtsseite, die auch "_my agrirouter_" heißt, wird dir automatisch angezeigt, wenn du dich in dein agriouter-Konto einloggst. 
 
 [.float-group]
 --
-image::ar_control-center-tile.png[Control Center Tile, 250, float=right]
+image::endpoints/open-my-agrirouter.png[Öffne my agrirouter, 248, float=right]
 
-. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
-[.result]#Das Kontrollzentrum wird geöffnet.#
-[.result]#Links wird die Endpunkteliste angezeigt.#
-[.result]#Rechts wird die Detailansicht angezeigt.#
+Du findest sie auch, indem du in der rechten oberen Ecke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen Initialien klickst und *_my agrirouter_* auswählst.
 --
 
-[NOTE]
-====
-Auf einem Tablet öffnest du die Endpunkteliste über das Burger-Menü:
+Du solltest nun die folgende Seite sehen:
 
-. Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[Burger menue, 30, 30].
-[.result]#Die Endpunkteliste wird angezeigt.#
+image::endpoints/my-agrirouter-page.png[My agrirouter Seite, 800]
 
-====
-
-Ein Listeneintrag besteht aus
-
-[.float-group]
---
-image::ar_endpoint-item.legend.png[Endpoint list item, 250, float=right]
-
-. Namen
-. Typ
-. Maschinenklasse (optional)
-. Status
-
---
-
-[#connect-machine]
-=== Maschine verbinden
-Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter und wird der Endpunkteliste hinzugefügt.
-
-. Klicke den Button *_+ Telemetrie-Verbindung_*.
-[.result]#Das Fenster `Telemetrie-Verbindung auswählen` wird angezeigt.#
-. Wähle die Telemetrie-Einheit.
-[.result]#Das Meldungsfenster `Registrierungscode` wird angezeigt:#
-
-image::ar_registration-code.png[Code]
-
-[start=3]
-. Notiere den Registrierungscode und klicke *_Schließen_*.
-[.result]#Die Endpunkteliste wird angezeigt.#
+. Wenn du bereits deine Hersteller ausgewählt und ggf. auch eine Maschine hinzugefügt hast, erscheinen diese auf der linken Seite.
+. Wenn du bereits deine Softwareanbieter ausgewählt und ggf. auch bereits verbunden hast, erscheinen diese auf der rechten Seite.
 
 [TIP]
 ====
-Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. +
-Klicke das Icon *_Drucken_* image:ar_print.icon.png[print, 30, 30], um den Code auszudrucken.
+Wenn du noch keine Endpunkte, Hersteller oder Softwareanbieter hinzugefügt hast, erschienen auf dieser Seite auch keine Informationen. Lies die folgenden Kapitel, zum zu erfahren, wie du deine _my agrirouter_ Seite mit Leben füllst.
 ====
 
-[start=4]
-. Gebe den Registrierungscode an der Telemetrie-Einheit ein.
-. Klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].
-[.result]#Die Telemetrie-Einheit wird der Endpunkteliste hinzugefügt.#
-. Ändere den Namen wie im Abschnitt `Endpunkt bearbeiten` beschrieben.
+[#add-manufacturer]
+=== Hersteller hinzufügen
+Mit einem "*_Hersteller_*" ist immer der Hersteller einer Maschine gemeint, die du über eine Telemetrieeinheit mit dem agrirouter verbinden kannst. Wenn du einen Hersteller hinzufügst, werden deine verbundenen Maschinen automatisch dem passenden Hersteller zugeordnet. So werden Hersteller-Gruppen gebildet, die für eine bessere Übersicht über deinen Fuhrpark sorgen. Befolge diese Schritte, um eine Hersteller hinzuzufügen:
 
-NOTE: Lese in der Bedienungsanleitung des Herstellers nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
+Klicke den Button *_Hersteller hinzufügen_* image:endpoints/add-manufacturer-button.png[Hersteller hinzufügen Button, 120].
+[.result]#Die folgende Seite wird geöffnet:#
+
+[.float-group]
+--
+image::endpoints/add-manufacturer-1.png[Hersteller Auswahl, 400, float=right]
+
+. Klicke auf das Dropdown-Menü.
+. Wähle den Hersteller aus, den du hinzufügen möchtest.
+[.result]#Der ausgewählte Hersteller wird dir rechts neben deiner Auswahl angezeigt.#
+--
+
+[.float-group]
+--
+image::endpoints/add-manufacturer-2.png[Hersteller Auswahl, 400, float=left]
+
+[start=3]
+. Klicke auf den *_Speichern_* Button.
+[.result]#Du kommst zurück auf die _my agrirouter_ Seite.#
+--
+
+[.float-group]
+--
+image:endpoints/add-manufacturer-3.png[Hersteller verbunden, 400, float=right]
+
+[start=4]
+. Der ausgewählte Hersteller wird dir nun links auf deiner _my agrirouter_ Seite angezeigt. *_Das bedeutet allerdings nicht, dass deine Maschine bereits Daten an den agrirouter senden kann!_*
+--
+
+TIP: Wenn du Daten von deiner Maschine an den agrirouter senden möchtest, <<connect-machine, verbinde eine neue Maschine>>. Die Maschine kannst du im Anschluss deinem Hersteller zuordnen.
+
+
+[#connect-machine]
+=== Maschine verbinden
+Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter und wird der _my agrirouter_ Seite hinzugefügt.
+
+. Klicke den Button *_Verbindung hinzufügen_* image:endpoints/add-connection-button.png[Verbindung hinzufügen Button, 120].
+[.result]#Die folgende Seite wird geöffnet:#
+
+image:endpoints/add-connection-information.png[Verbindung hinzufügen, 600]
+
+[start=2]
+. Notiere den Registrierungscode und klicke auf *_Zurück_*.
+[.result]#Die _my agrirouter_ Seite wird angezeigt.#
+
+[TIP]
+====
+Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. +
+Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um den Code auszudrucken.
+====
+
+[start=3]
+. Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei deinem Anbieter funktioniert, kannst du in den xref:solution-guides.adoc#solution-guides[Solution Guides] nachlesen.
+. Aktualisiere die _my agrirouter_ Seite.
+[.result]#Die Telemetrie-Einheit wird auf der rechten Seite deiner _my agrirouter_ Seite angezeigt.#
+
+
+NOTE: Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
 
 IMPORTANT: Handelt es sich um eine ISOBUS-Maschine, wird diese ebenfalls der Endpunkteliste hinzugefügt. Damit können ISOBUS-Maschinen beim Routing als Sender oder Empfänger ausgewählt werden.
 
+[#manufacturer-machine-connection]
+=== Maschine einem Hersteller zuordnen
+Für eine bessere Übersicht auf deiner _my agrirouter_ Seite, kannst du deine Maschinen einem Hersteller zuordnen. Voraussetzung hierfür ist, dass du bereits eine <<connect-machine, Maschine verbunden>> und einen <<add-manufacturer, Hersteller hinzugefügt>> hast.
+
+[.float-group]
+--
+image:endpoints/add-connection-to-manufacturer-1.png[Verbindung Infos, 400, float=right]
+
+. Klicke auf das Informations-Icon image:endpoints/information-icon.png[copy, 30, 30] der Verbindung, die du einem Hersteller zuordnen möchtest.
+[.result]#Die *_Details zu deinem Endpunkt_* werden auf einer neuen Seite geöffnet.#
+--
+
+
+image:endpoints/add-connection-to-manufacturer-2.png[Endpunkt Details, 800]
+
+[start=2]
+. In der Kategorie _Details zum Endpunkt_ findest du die Information *_Montiert auf_*. Hier wird dir angezeigt, ob deine Verbindung bereits einem Hersteller zugeordnet ist.
+. Klicke auf *_bearbeiten_* image:endpoints/edit-icon.png[copy, 30, 30].
+
+[.float-group]
+--
+image:endpoints/add-connection-to-manufacturer-3.png[Verbindung Infos, 400, float=left]
+
+[start=4]
+. Unter *_Name_* kannst du die Bezeichnung deiner Verbindung anpassen.
+. Klicke auf das Dropdown Menü, um einen Hersteller auszuwählen.
+--
+
+[.float-group]
+--
+image:endpoints/add-connection-to-manufacturer-4.png[Verbindung Infos, 400, float=right]
+
+[start=6]
+. Wähle den Hersteller aus, dem du deine Verbindung zuordnen willst.
+. Klicke auf *_Speichern_*.
+--
+
+[.float-group]
+--
+image:endpoints/add-connection-to-manufacturer-5.png[Verbindung Infos, 400, float=left]
+
+[start=8]
+. Wenn du zurück auf die _my agrirouter_ Seite gehst, siehst du nun, dass deine Verbindung dem gewünschten Hersteller zugeordnet wurde.
+--
+
 [#connect-software]
 === Agrarsoftware verbinden
-Um eine Agrarsoftware mit dem agrirouter zu verbinden, gehe vor wie folgt:
+Um eine Agrarsoftware mit dem agrirouter zu verbinden, öffne deine _my agrirouter_ Seite und klicke auf den Button *_Software hinzufügen_* image:endpoints/add-software-button.png[Software hinzufügen, 120]
+[.result]#Die folgende Seite öffnet sich:#
 
-. Starte die Agrarsoftware.
-. Führe die Funktion *_Mit agrirouter verbinden_* aus und gebe die Benutzerdaten deines agrirouter-Kontos ein.
-[.result]#Die Agrarsoftware verbindet sich mit dem agrirouter.#
-. Öffne das Kontrollzentrum im agrirouter und klicke in der Endpunkteliste das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30].
-[.result]#Die Agrarsoftware wird in der Endpunkteliste angezeigt.#
+[.float-group]
+--
+image:endpoints/add-software-1.png[Software Auswahlseite, 400, float=right]
 
-TIP: Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. Weitere Informationen findest du in der Bedienungsanleitung der Agrarsoftware.
+. Klicke auf das Dropdown-Menü.
+. Wähle die Software aus, die du verbinden möchtest.
+[.result]#Die ausgewählte Software wird dir rechts neben deiner Auswahl angezeigt.#
+--
 
-NOTE: Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
+[.float-group]
+--
+image:endpoints/add-software-2.png[Software Auswahlseite, 400, float=left]
 
-=== Endpunkt suchen
-Wenn die Endpunkteliste viele Einträge enthält, kannst Du einen Enpunkt suchen:
+[start=3]
+. Klicke auf den *_Speichern_* Button.
+[.result]#Du kommst zurück auf die _my agrirouter_ Seite.#
+--
 
-. Klicke das Icon *_Suchen_* über der Endpunkteliste image:ar_search.icon.png[search, 30, 30].
-[.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#
-. Gebe Name oder Maschinenklasse des gesuchten Endpunktes ein.
-[.result]#Bereits beim Tippen wird die Endpunkteliste aktualisiert.#
+[.float-group]
+--
+image:endpoints/add-software-3.png[Software nicht verbunden, 400, float=right]
 
-Mache die Suche rückgängig wie folgt:
+Die ausgewählte Software wird dir nun rechts auf deiner _my agrirouter_ Seite angezeigt. *_Sie ist aber noch nicht verbunden!_*
+--
 
-. Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem Eingabefeld *_Suchen_*.
-[.result]#Alle Endpunkte werden angezeigt.#
+[start=4]
+. Klicke auf das Icon mit dem roten Kettenelement image:endpoints/link-icon-red.png[Software hinzufügen, 24].
+[.result]#Du wirst auf dei Seite des Softwareanbieters weitergeleitet.#
 
-=== Liste filtern
-Die Liste kann nach vorgegebenen Kriterien gefiltert werden:
 
-[unordered.stack]
-Typ:: Die im Abschnitt `Endpunkt-Typ` beschriebenen Typen.
-Status:: Ein Endpunkt kann den Status `Aktiv`, `Deaktiviert` oder `Blockiert` haben.
-Maschinenklasse:: Einem Endpunkt vom Typ `Maschine` wird automatisch eine Maschinenklasse zugeordnet. Diese gibt an, um welche Art landwirtschaftliche Maschine es sich handelt, z.B. Dünger, Spritze, etc. ... .
+[start=5]
+. Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das für deine Software funktioniert, erfährst du in den xref:solution-guides.adoc#solution-guides[Solution Guides].
 
-//-
+[.float-group]
+--
+image:endpoints/add-software-4.png[Software nicht verbunden, 400, float=left]
 
-Filtere die Liste wie folgt:
+[start=6]
+. Wenn du deine Agrarsoftware erfolgreich verbunden hast, aktualisiere die _my agrirouter_ Seite.Das Icon mit dem Kettenelement erscheint nun in grün image:endpoints/link-icon-green.png[Software hinzufügen, 24]. Die Verbindung wurde erfolgreich hergestellt.
+--
 
-. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_filter.icon.png[filter, 30, 30].
-[.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
-. Wähle eine Kategorie.
-[.result]#Die Auswahlliste `Filtern nach: <Kategorie>` wird angezeigt.#
-. Wähle eine Option und bestätige mit *_OK_*.
-[.result]#Die gefilterte Endpunkteliste wird angezeigt.#
+TIP: Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest.
 
-Setze den Filter zurück wie folgt:
+NOTE: Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://agrirouter.com/de/solutions[auf unserem Solution Finder].
 
-. Klicke in der Endpunkteliste das Icon *_Endpunkt filtern_* image:ar_filter.icon.png[filter, 30, 30].
-[.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
-. Klicke das Icon *_Alle Filter zurücksetzen_*.
-[.result]#Die Auswahlliste `Filtern nach` wird angezeigt.#
-. Klicke *_OK_*.
-[.result]#Alle Endpunkte werden angezeigt.#
-
-=== Liste aktualisieren
-Aktualisiere die Endpunkteliste, wenn der gesuchte Endpunkt nicht eingetragen ist:
-
-. Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30] über der Endpunkteliste.
-[.result]#Die Endpunkteliste wird aktualisiert.#
-
-[#detail-view]
+////
+AUSGEBLENDET
 == Detailansicht
 In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
