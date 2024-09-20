@@ -5,12 +5,14 @@
 
 Für jede Maschine und Agrarsoftware, die über den agrirouter Daten austauschen soll, musst du einen xref:introduction.adoc#endpoint[Endpunkt] hinzufügen.
 
-In diesem Abschnitt erfährst du
+In diesem Abschnitt erfährst du, wie du
 
-* wie du einen Endpunkt hinzufügst und bearbeitest
-//AUSGEBLENDET:* wie du xref:introduction.adoc#route[die Routen] für den Endpunkt erstellst
+* dir über die my agrirouter Seite einen Überblick über deine Endpunkte verschaffst.
+* Maschinen, bzw. Telemetrieeinheiten und Agrar-Software als Endpunkte hinzufügst.
+* Detailinformationen über deine Endpunkte einsiehst.
 
-== Übersichtsseite: my agrirouter
+[#my-agrirouter]
+== my agrirouter Seite
 Die Übersichtsseite, die auch "_my agrirouter_" heißt, wird dir automatisch angezeigt, wenn du dich in dein agriouter-Konto einloggst. 
 
 [.float-group]
@@ -25,12 +27,32 @@ Du solltest nun die folgende Seite sehen:
 image::endpoints/my-agrirouter-page.png[My agrirouter Seite, 800]
 
 . Wenn du bereits deine Hersteller ausgewählt und ggf. auch eine Maschine hinzugefügt hast, erscheinen diese auf der linken Seite.
-. Wenn du bereits deine Softwareanbieter ausgewählt und ggf. auch bereits verbunden hast, erscheinen diese auf der rechten Seite.
+. Wenn du bereits deine Softwareanbieter ausgewählt und ggf. auch schon verbunden hast, erscheinen diese auf der rechten Seite.
 
 [TIP]
 ====
 Wenn du noch keine Endpunkte, Hersteller oder Softwareanbieter hinzugefügt hast, erschienen auf dieser Seite auch keine Informationen. Lies die folgenden Kapitel, zum zu erfahren, wie du deine _my agrirouter_ Seite mit Leben füllst.
 ====
+
+[#endpoints]
+=== Endpunkte
+Auf der _my agrirouter_ Seite kannst du jeden Endpunkt sehen, der mit deinem agrirouter Konto verbunden ist. Telemetrieeinheiten und Software werden als Endpunkt wie folgt dargestellt:
+
+image::endpoints/endpoint-information.png[Endpunkte Übersicht, 800]
+
+- image:endpoints/sdf-logo.png[SDF-logo, 50] image:endpoints/deutz-logo.png[Deutz Logo, 40]: Zeigt die Marke des Herstellers. Jedem Hersteller können mehrere Endpunkte zugeordnet werden.
+- image:endpoints/tractor-icon.png[Tractor Icon, 40] image:endpoints/software-icon.png[Software Icon, 40]: Dieses Symbol steht für die Art von Endpunkt, die verbunden ist.
+- image:endpoints/endpoint-name.png[Endpunktname, 50]: Name oder Beschreibung des Endpunkts.
+- image:endpoints/information-icon.png[Information Icon, 30]: Mit Klick auf dieses Icon gelangst du zu den <<details, Endpunkte Details>>.
+- image:endpoints/edit-endpoint-icon.png[Edit Icon, 30]: Mit Klick auf dieses Icon kannst du den <<manufacturer-machine-connection, Endpunkt umbennen oder einem Hersteller zuordnen>>.
+- image:endpoints/delete-icon.png[Delete Icon, 30]: Mit Klick auf dieses Icon kannst du deinen Endpunkt oder den Hersteller <<delete, löschen>>.
+- image:endpoints/route-icon.png[Tractor Icon, 30]: Mit Klick auf dieses Icon werden die xref:introduction.adoc#route[Routen] angezeigt, über die der Endpunkt mit anderen Endpunkten verbunden ist.
+- image:endpoints/link-icon-green.png[Green Link Icon, 30] image:endpoints/link-icon-red.png[Red Link Icon, 30]: Dieses Icon zeigt an, ob ein <<connect-software, Software-Endpunkt verbunden>> ist (grün) oder nicht (rot). Dieses Icon wird ausschließlich bei Software-Endpunkten angezeigt.
+
+
+[#add-endpoints]
+== Endpunkte verbinden
+Du kannst Telemetrieeinheiten und Agrar-Software als Endpunkte hinzufügen. Die Telemetrieeinheiten sind immer mit Maschinen verbunden, die wiederum einem bestimmten Hersteller zugeordnet werden können. In diesem Kapitel lernst du, wie du die Maschinen und Software, die du auf deinem Betrieb nutzt, mit dem agrirouter verbindest.
 
 [#add-manufacturer]
 === Hersteller hinzufügen
@@ -95,8 +117,6 @@ Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um 
 
 NOTE: Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst.
 
-IMPORTANT: Handelt es sich um eine ISOBUS-Maschine, wird diese ebenfalls der Endpunkteliste hinzugefügt. Damit können ISOBUS-Maschinen beim Routing als Sender oder Empfänger ausgewählt werden.
-
 [#manufacturer-machine-connection]
 === Maschine einem Hersteller zuordnen
 Für eine bessere Übersicht auf deiner _my agrirouter_ Seite, kannst du deine Maschinen einem Hersteller zuordnen. Voraussetzung hierfür ist, dass du bereits eine <<connect-machine, Maschine verbunden>> und einen <<add-manufacturer, Hersteller hinzugefügt>> hast.
@@ -105,53 +125,46 @@ Für eine bessere Übersicht auf deiner _my agrirouter_ Seite, kannst du deine M
 --
 image:endpoints/add-connection-to-manufacturer-1.png[Verbindung Infos, 400, float=right]
 
-. Klicke auf das Informations-Icon image:endpoints/information-icon.png[copy, 30, 30] der Verbindung, die du einem Hersteller zuordnen möchtest.
-[.result]#Die *_Details zu deinem Endpunkt_* werden auf einer neuen Seite geöffnet.#
+. Klicke auf das *Bearbeiten* image:endpoints/edit-endpoint-icon.png[copy, 30, 30] Icon der Verbindung, die du einem Hersteller zuordnen möchtest.
+[.result]#Die folgende Seite wird geöffnet.#
 --
 
-
-image:endpoints/add-connection-to-manufacturer-2.png[Endpunkt Details, 800]
+[.float-group]
+--
+image:endpoints/add-connection-to-manufacturer-2.png[Verbindung Infos, 400, float=left]
 
 [start=2]
-. In der Kategorie _Details zum Endpunkt_ findest du die Information *_Montiert auf_*. Hier wird dir angezeigt, ob deine Verbindung bereits einem Hersteller zugeordnet ist.
-. Klicke auf *_bearbeiten_* image:endpoints/edit-icon.png[copy, 30, 30].
+. Unter *_Name_* kannst du die Bezeichnung deiner Verbindung anpassen.
+. Klicke auf das *_Dropdown Menü_*, um einen Hersteller auszuwählen.
+--
 
 [.float-group]
 --
-image:endpoints/add-connection-to-manufacturer-3.png[Verbindung Infos, 400, float=left]
+image:endpoints/add-connection-to-manufacturer-3.png[Verbindung Infos, 400, float=right]
 
 [start=4]
-. Unter *_Name_* kannst du die Bezeichnung deiner Verbindung anpassen.
-. Klicke auf das Dropdown Menü, um einen Hersteller auszuwählen.
---
-
-[.float-group]
---
-image:endpoints/add-connection-to-manufacturer-4.png[Verbindung Infos, 400, float=right]
-
-[start=6]
 . Wähle den Hersteller aus, dem du deine Verbindung zuordnen willst.
 . Klicke auf *_Speichern_*.
 --
 
 [.float-group]
 --
-image:endpoints/add-connection-to-manufacturer-5.png[Verbindung Infos, 400, float=left]
+image:endpoints/add-connection-to-manufacturer-4.png[Verbindung Infos, 400, float=left]
 
-[start=8]
+[start=6]
 . Wenn du zurück auf die _my agrirouter_ Seite gehst, siehst du nun, dass deine Verbindung dem gewünschten Hersteller zugeordnet wurde.
 --
 
 [#connect-software]
 === Agrarsoftware verbinden
-Um eine Agrarsoftware mit dem agrirouter zu verbinden, öffne deine _my agrirouter_ Seite und klicke auf den Button *_Software hinzufügen_* image:endpoints/add-software-button.png[Software hinzufügen, 120]
+Um eine Agrarsoftware mit dem agrirouter zu verbinden, öffne deine _my agrirouter_ Seite und klicke auf den Button *_Software hinzufügen_* image:endpoints/add-software-button.png[Software hinzufügen, 120].
 [.result]#Die folgende Seite öffnet sich:#
 
 [.float-group]
 --
 image:endpoints/add-software-1.png[Software Auswahlseite, 400, float=right]
 
-. Klicke auf das Dropdown-Menü.
+. Klicke auf das *_Dropdown-Menü_*.
 . Wähle die Software aus, die du verbinden möchtest.
 [.result]#Die ausgewählte Software wird dir rechts neben deiner Auswahl angezeigt.#
 --
@@ -185,22 +198,102 @@ Die ausgewählte Software wird dir nun rechts auf deiner _my agrirouter_ Seite a
 image:endpoints/add-software-4.png[Software nicht verbunden, 400, float=left]
 
 [start=6]
-. Wenn du deine Agrarsoftware erfolgreich verbunden hast, aktualisiere die _my agrirouter_ Seite.Das Icon mit dem Kettenelement erscheint nun in grün image:endpoints/link-icon-green.png[Software hinzufügen, 24]. Die Verbindung wurde erfolgreich hergestellt.
+. Wenn du deine Agrarsoftware erfolgreich verbunden hast, aktualisiere die _my agrirouter_ Seite. Das Icon mit dem Kettenelement erscheint nun in grün image:endpoints/link-icon-green.png[Software hinzufügen, 24]. Die Verbindung wurde erfolgreich hergestellt.
 --
 
 TIP: Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest.
 
-NOTE: Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://agrirouter.com/de/solutions[auf unserem Solution Finder].
+NOTE: Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du auf dem  https://agrirouter.com/de/solutions[Solution Finder].
 
-////
-AUSGEBLENDET
+
+[#delete]
+=== Löschen
+Wenn ein Endpunkt oder ein Hersteller nicht mehr benötigt wird, lösche ihn:
+
+[.float-group]
+--
+image:endpoints/delete-endpoint.png[Software nicht verbunden, 380, float=right]
+
+. Um einen Endpunkt zu löschen, klicke auf das *löschen* image:endpoints/delete-icon.png[Delete Icon, 25] Icon auf Höhe des Endpunkts.
+[.result]#Ein Pup-up Fenster öffent sich. Klicke den Button *_bestätigen_*.#
+. Um einen Hersteller zu löschen, klicke auf das *löschen* image:endpoints/delete-icon.png[Delete Icon, 25] Icon auf Höhe des Herstellers.
+[.result]#Ein Pup-up Fenster öffent sich. Klicke den Button *_bestätigen_*.#
+--
+
+[#details]
 == Detailansicht
 In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:
 
-* das Routing, d.h. verbundene Endpunkte und Gruppen und die Regeln des Datenaustausches
-* Details zum Endpunkt und dem Postfach
-* Fähigkeiten des Endpunktes
-// Mit Fähigkeiten sind die unterstützten Datenformate gemeint.
+* Die Fähigkeiten, also die unterstützen Datenformate.
+* Wann zum letzten Mal Daten empfangen oder gesendet wurden.
+* Details wie Hersteller, Versionsnummer und zugeordnete Hersteller.
+* Die Informationen, die du für den agrirouter-Support benötigst.
+
+=== Fähigkeiten
+Hier siehst du, was der Endpunkt senden oder empfangen kann.
+
+[.float-group]
+--
+image:endpoints/capabilities.png[Capabilities, 400, float=right]
+
+- *_Letzter Austausch der Fähigkeiten_*: Der letzte Tag, an dem Daten gesendet oder empfangen wurden.
+- *_Letzer Austausch der Abonnements_*: Der letzte Tag, an dem Echtzeitdaten gesendet oder empfagen wurden.
+- *_Push Beachrichtigungen_* Gibt Auskunft darüber, ob Push-Benachrichtigungen zu diesem Endpunkt aktiviert oder deaktiviert sind.
+
+
+Die *_Tabelle_* im unteren  Bereich der Fähigkeiten gibt Auskunft darüber, ob eine Fähigkeit bzw. ein Datentyp empfangen, gesendet oder abonniert werden kann. Ist bei der jeweiligen Fähigkeit ein image:endpoints/available-icon.png[available Icon, 25] bedeutet das, dass Senden, Empfangen oder Abonnieren möglich ist. Ein image:endpoints/unavailable-icon.png[unavailable Icon, 25] bedeutet das Gegenteil. Welche Datentypen es gibt, kannst du im Kapitel zu xref:introduction.adoc#datatypes[Datentypen] nachlesen.
+--
+
+=== Details zum Endpunkt
+Die Details geben Auskunft über Herkunft, Name und weitere grundlegende Informationen des Endpunkts.
+
+[.float-group]
+--
+image:endpoints/endpoint-details.png[Endpunkt Details, 400, float=right]
+
+- *_Typ_*: Gibt Auskunft darüber, um welche Art von Endpunkt (Software, Telemetrieeinheit, Maschine, ...) es sich handelt.
+- *_Verbunden_*: Zeitpunkt, an dem der Endpunkt verbunden wurde.
+- *_Software-Anbieter_*: Anbieter der zugehörigen Software.
+- *_Software-Endpunkt_*: -  
+- *_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines Endpunkts gibt.
+- *_Montiert auf_*: Gibt Auskunft darüber, auf welcher Maschine der Endpunkt montiert ist.
+
+Über einem Klick auf das Bearbeiten image:endpoints/edit-icon.png[Edit Icon, 25] Icon, kannst du den <<manufacturer-machine-connection, Namen des Endpunkts ändern>>, sowie die Maschine, auf der er montiert ist, anpassen.
+--
+
+=== Routeneinstellungen und Nachrichtenspeicher
+Hier siehst du, wann zum letzten mal Daten empfangen oder gesendet wurden und kannst deine Routeneinstellungen zurücksetzen.
+
+[.float-group]
+--
+image:endpoints/route-settings.png[Support Informationen, 400, float=right]
+
+- *_Von agrirouter verwaltete Routen_*: Wenn diese Option gewählt ist image:endpoints/active-routing-icon.png[Active Icon, 25], dann sind die Routeneinstellungen nach den Standardeinstellungen des agrirouters aktiv. Die Routeneinstellungen können auch xref:routing.adoc#edit-connection[manuell angepasst] werden.
+- *_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten gesendet wurden.
+- *_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten empfangen wurden.
+- *_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell vorliegen.
+--
+
+TIP: Wenn du die Routeneinstellungen manuell abgeändert hast, kannst du sie über das anwählen des Kästschens image:endpoints/active-routing-icon.png[Active Icon, 25] unter *_Von agrirouter verwaltete Routen_* wieder zurücksetzen.
+
+=== Support Informationen
+
+[.float-group]
+--
+image:support/support-information.png[Support Informationen, 400, float=right]
+Diese Informationen benötigst du, um eine Anfrage an den xref:support.adoc#support[Support] senden zu können.
+--
+
+TIP: Klicke den *_Kopieren_*-Button, um die Diagnoseinformationen in die Zwischenablage zu kopieren.
+
+TIP: Gehe zum Kapitel xref:support.adoc#support[Support] für weitere Informationen.
+
+////
+
+
+
+
+
 * die in einem verbundenen Konto sichtbaren Maschinen
 
 Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,Empfangen von>>, <<gruppen,Gruppen>>, <<details,Details>>, <<fähigkeiten,Fähigkeiten>> und <<externe-maschinen,Externe Maschinen>> unterteilt.
@@ -382,22 +475,7 @@ Wenn der Endpunkt Nachrichten empfangen oder versenden soll, aktiviere ihn:
 . Setze den Schalter *_Aktiv_* auf `AN`.
 [.result]#Der Endpunkt ist aktiviert.#
 
-=== Löschen
-Wenn der Endpunkt nicht mehr benötigt wird, lösche ihn:
 
-[.float-group]
---
-image::ar_endpoint-delete.png[Delete endpoint, 200, float=right]
-
-. Wähle den Endpunkt in der Endpunkteliste.
-[.result]#Im rechten Bereich des Kontrollzentrums wird die Detailansicht des Endpunktes angezeigt.#
-. Klicke den Button *_Löschen_*.
-[.result]#Ein Meldungsfenster wird angezeigt.#
-. Bestätige die Abfrage mit *_OK_*.
-[.result]#Der Endpunkt wird gelöscht.#
-[.result]#Der Endpunkt wird aus der Endpunkteliste entfernt.#
-[.result]#Alle zum Endpunkt gehörenden Daten werden gelöscht.#
---
 
 [NOTE]
 ====
@@ -428,3 +506,4 @@ image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
 TIP: Klicke das Icon *_Kopieren_* image:ar_copy.icon.png[copy, 30, 30], um die Diagnoseinformationen in die Zwischenablage zu kopieren.
 
 TIP: Klicke xref:support.adoc#support[diesen Link] für weitere Informationen zu Service & Support.
+////

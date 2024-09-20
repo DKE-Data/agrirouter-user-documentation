@@ -1,81 +1,76 @@
 :imagesdir: _images/
 :icons: font
 
-= Service & Support
+= Support
 
 In diesem Abschnitt erfährst du,
 
-* wie du im Help Center einen Fehlerbericht oder eine Anfrage erstellst
-* über welche E-Mail-Adresse und Telefonnummern du unser Support-Team erreichst
-* wie du deinen Bildschirminhalt mit uns teilst
-* wie du prüfst, ob der agrirouter verfügbar ist
+* wie du im Help Center einen Fehlerbericht oder eine Anfrage erstellst.
+* über welche E-Mail-Adresse und Telefonnummern du unser Support-Team erreichst.
+* wie du deinen Bildschirminhalt mit uns teilst.
 
 [#support]
 == Support
 
-Unser Support-Team hilft, wenn du eine Frage zur Bedienung hast oder bei der Nutzung das agrirouter ein Problem auftaucht.
+Unser Support-Team hilft, wenn du eine Frage zur Bedienung hast oder bei der Nutzung des agrirouters ein Problem auftaucht.
 
 [NOTE]
 ====
 Falls du ein Problem mit einem Endpunkt hast, benötigen wir die Diagnoseinformationen des Endpunktes:
 
 * agrirouter Konto-ID
+* Application-ID
+* Version-ID
 * Endpunkt-ID
-* Endpunktsoftware-ID
-* Endpunktsoftware-Version-ID
+* External-Endpoint-ID
 
-Diese Daten findest du in den Support-Informationen des Endpunktes:
+Diese Daten findest du in den xref:endpoint.adoc#details[*_Details_*] des Endpunktes:
 
 [.float-group]
 --
-image::ar_endpoint-techsupport.png[Technical support, 200, float=right]
+image:support/support-information.png[Support Informationen, 400, float=right]
 
-. Klicke im Dashboard die Kachel *_Kontrollzentrum_*.
-[.result]#Das Kontrollzentrum wird geöffnet.#
-[.result]#Links wird die Endpunkteliste angezeigt.#
-[.result]#Rechts wird die Detailansicht angezeigt.#
-. Wähle in der Endpunkteliste den Endpunkt.
-. Klicke das Icon *_Mehr_* über der Detailansicht.
-[.result]#Eine Auswahlliste wird angezeigt.#
-. Wähle das Icon *_Support Informationen anzeigen_* image:ar_info.icon.png[Supportinformationen, 30, 30].
-[.result]#Das Meldungsfenster *_Support-Information_* wird angezeigt.#
+. Klicke im xref:endpoint.adoc#endpoint[Endpunkt] auf das Information image:endpoints/information-icon.png[Information Icon, 30] Icon.
+[.result]#Die Detailseite wird geöffnet.#
+. Scrolle nun auf der Seite herunter, bis zu die Kategorie *_Support Informationen_* findest.
+. Hier kannst du nun alle relevanten Informationen einsehen.
+. Über einen Klick auf den *_Kopieren_* Button, kannst du die Informationen kopieren.
 --
 
 ====
 
 
 === Fehlerbericht senden
-Im Help Center kannst du uns eine allgemeine Anfrage oder einen Fehlerbericht senden.
+Im https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center] kannst du uns eine allgemeine Anfrage oder einen Fehlerbericht senden.
 
 [TIP]
 ====
 Wir empfehlen, dass du im Help Center ein Benutzerkonto einrichtest.
-In diesem werden deine Anfragen inkl. unserer Antworten gespeichert; du kannst deine Anfragen mit anderen Benutzern teilen.
+In diesem werden deine Anfragen inkl. unserer Antworten gespeichert; du kannst deine Anfragen mit anderen Benutzern teilen.Dies ist aber nicht unbedingt nötig, um eine Anfrage zu senden.
 
 . Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
 [.result]#Das Help Center wird angezeigt.#
-. Klicke den Button *_Einloggen_*.
-[.result]#Das Formular `Im Help Center einloggen` wird angezeigt.#
-. Klicke den Button *_Anmelden_*.
-[.result]#Das Formular `Anmelden` wird angezeigt.#
-. Gebe deine E-Mail-Adresse ein und klicke *_Link senden_*.
-[.result]#Du erhälst eine E-Mail mit dem Aktivierungslink.#
-. Klicke auf den Aktivierungslink.
-[.result]#Das Formular `Anmelden` wird angezeigt.#
-. Gebe deinen Namen und ein Passwort ein und klicke *_Anmelden_*.
-[.result]#Die Startseite des Help Center wird angezeigt.#
-
+. Klicke in der oberen rechten Ecke auf den Button *_Login_*.
+[.result]#Ein Formular wird geöffnet.#
+. Gib deine E-Mail-Adresse ein und klicke auf *_Weiter_*.
+[.result]#Eine neue Seite wird geöffnet.#
+. Klicke auf *_Sign up with password_*.
+[.result]#Eine Mail wird an deine E-Mail-Adresse gesendet.#
+. Klicke in der Mail auf den Button *_Sign up_*.
+[.result]#Eine neue Seite öffnet sich, in der du aufgefordert wirst, deinen Namen einzugeben und ein Passwort zu wählen.#
+. Gib deinen Namen und ein Passwort ein und klicke auf *_Sign up_*.
+[.result]#Fertig, du bist jetzt im Help Center eingeloggt. Dort kannst du den Status all deiner Anfragen verfolgen.#
 ====
 
 . Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/customer/portals/[Help Center^] .
 [.result]#Das Help Center wird angezeigt.#
-. Klicke den Button *_Einloggen_* und melde dich mit deinen Benutzerdaten an.
-[.result]#Die Startseite des Help Center wird angezeigt.#
-. Wähle *_agrirouter Störungsmeldung_* um einen Fehlerbericht zu senden.
-. Wähle *_Allgemeine Anfrage zu agrirouter_* um eine Frage, zusätzliche Information oder einen Feature-Wunsch zu senden.
-[.result]#Ein Eingabeformular wird angezeigt.#
-. Fülle das Formular aus und klicke *_Senden_*.
-[.result]#Die Anfrage wird mit dem Status `Wartet auf Support` in deiner Anfrageliste gespeichert.#
+. Wähle eine der drei angezeigten Optionen:
+- *_report an agrirouter incident_*: Wenn du einen Vorfall (Fehler, Login-Probleme etc.) mit deinem agrirouter Konto hast.
+- *_agrirouter general reuquest_*: Wenn du weitere Fragen hast oder zusätzliche Informationen zur agrirouter-Integration und -Partnerschaft benötigst oder eine Idee für ein neues Feature hast.
+- *_membership inquiries_*: Wenn du Fragen zu deiner Mitgliedschaft im agrirouter Ecosystem, insbesondere im Verein DKE-Data agrirouter e.V. hast.
+[.result]#Ein Formular wird geöffnet.#
+. Fülle das Formular mit allen relevanten Informationen aus und klicke auf *_Senden_*.
+
 
 TIP: Das Help Center hat eine Suchfunktion, mit der du Hilfe zu häufig angefragten Stichwörtern erhälst.
 
@@ -109,6 +104,7 @@ Nutze dazu TeamViewer. Informationen zu TeamViewer und die Installationsdatei fi
 
 NOTE: ID und Passwort findest du auf der Startseite von TeamViewer unter der Überschrift `Fernsteuerung zulassen`.
 
+/////
 == Service
 
 === Systemmonitor
@@ -149,4 +145,4 @@ Dies sind die möglichen Systemstati und ihre Bedeutung:
 |partial outage |Die Systemfunktion steht nicht mehr allen Benutzer zur Verfügung.
 |major outage |Die Systemfunktion ist nicht verfügbar.
 |=======================================================================================
-
+////

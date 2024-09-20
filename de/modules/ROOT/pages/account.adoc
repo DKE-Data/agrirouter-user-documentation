@@ -5,10 +5,11 @@
 
 Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
 
-In diesem Abschnitt erfährst du
+In diesem Abschnitt erfährst du, wie du
 
-* wie du ein Konto erstellst und deine Profildaten bearbeitest
-* wie du die Ansicht des xref:introduction.adoc#dashboard[Dashboard] anpassen kannst
+* ein Konto erstellst.
+* deine Profildaten bearbeitest.
+* dein Konto löschst.
 
 
 ////
@@ -47,7 +48,7 @@ Syntax für einen Rahmen:
 --
 image::account/create-account-1.png[Select Register, 200, float=right]
 
-Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^] und klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30] am oberen rechten Rand der Seite.
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.
 [.result]#Du wirst auf eine neue Seite weitergeleitet.#
 
 . Wähle *_Registrieren_*.
@@ -100,10 +101,6 @@ image::account/create-account-6.png[Select Register, 400, float=left]
 . Du bist nun in dein agrirouter-Konto eingeloggt und der Registrierungsprozess war erfolgreich.
 --
 
-[comment]
-Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
-TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
-
 IMPORTANT: Notiere dir die E-Mail-Adresse, mit der du dich registriert hast. Diese benötigst du, um dich beim agrirouter <<anmelden, anzumelden>>.
 
 
@@ -113,7 +110,7 @@ IMPORTANT: Notiere dir die E-Mail-Adresse, mit der du dich registriert hast. Die
 --
 image::account/login-account-1.png[Select Register, 200, float=right]
 
-Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^] und klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30] am oberen rechten Rand der Seite.
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.
 [.result]#Du wirst auf eine neue Seite weitergeleitet.#
 
 . Wähle *_Log in_*.
@@ -146,14 +143,15 @@ image::account/login-account-3.png[Select Register, 400, float=right]
 
 [TIP]
 ====
-Um das Dashboard zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:
+Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:
 
-. Öffne die https://goto.my-agrirouter.com/app[die Anmeldeseite] wie oben beschrieben.
+. Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben beschrieben.
 . Aktiviere die Checkbox "_Angemeldet bleiben_" und melde dich an.
 . Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [.underline]#ohne# dich abzumelden.
-[.result]#Wenn du das nächste Mal https://goto.my-agrirouter.com/app[die Anmeldeseite] öffnest, wird sofort das Dashboard angezeigt.#
+[.result]#Wenn du das nächste Mal https://app.agrirouter.com/de[die Anmeldeseite] öffnest, wird sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] angezeigt.#
 ====
 
+[#edit-account]
 == Hinterlegte Daten ändern
 === Kontoinformationen ändern
 
@@ -161,8 +159,8 @@ Um das Dashboard zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe vo
 --
 image::account/edit-account-1.png[Select Register, 309, float=right]
 
-. Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen Initialien in der rechten oberen Ecke deines Dashboards und klicke auf *_Settings_*.
-[.result]#Die `Einstellungen` wird angezeigt.#
+. Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen Initialien in der rechten oberen Ecke deiner xref:introduction.adoc/myagrirouter[my agrirouter Seite] und klicke auf *_Einstellungen_*.
+[.result]#Die `Einstellungen` werden geöffnet.#
 
 . Klicke auf der linken Seite auf *_Konto_*.
 [.result]#Die `Kontoinformationen` werden angezeigt.#
@@ -170,7 +168,7 @@ image::account/edit-account-1.png[Select Register, 309, float=right]
 
 image::account/edit-account-2.png[Select Register, 800]
 
-[start=2]
+[start=3]
 . Es erscheinen nun alle Informationen, die zu deinem Konto hinterlegt sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*.
 . Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Konto aktualisieren_*
 
@@ -191,7 +189,7 @@ image::account/edit-account-1.png[Select Register, 309, float=right]
 
 image::account/edit-account-3.png[Select Register, 800]
 
-[start=2]
+[start=3]
 . Es erscheinen nun alle Informationen, die zu deinem Unternehmen hinterlegt sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*.
 . Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Firma aktualisieren_*
 
@@ -199,7 +197,7 @@ image::account/edit-account-3.png[Select Register, 800]
 == Konto löschen
 Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:
 
-. Folge hierzu den Schritten 1 & 2 des Kapitels <<hinterlegte-daten-ändern, Kontoinformationen ändern>>.
+. Folge hierzu den Schritten 1 & 2 des Kapitels <<edit-account, Kontoinformationen ändern>>.
 [.result]#Du bist nun im Bereich der Kontoeinstellungen. Scrolle hier ganz nach unten und du siehst diesen Abschnitt:#
 
 image::account/delete-account-1.png[Select Register, 800]
