@@ -12,89 +12,73 @@ Nach der Einrichtung arbeitet der agrirouter automatisch im Hintergrund. Du meld
 
 == Über diese Anleitung
 
-Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der Inbetriebnahme und Nutzung des agrirouter:
+Das Online-Handbuch hilft dir in thematisch sortierten Kapiteln bei der Inbetriebnahme und Nutzung des agrirouters:
 
-[TIP]
-====
-Wenn du schnell ein Konto erstellen und erste Daten austauschen möchtest, lese den https://my-agrirouter.com/en/agrirouter/quick-start-guide[Quick Start Guide^].
-====
-
-Zur Nutzung des agrirouter benötigst du ein Benutzerkonto:
+*Konto:* Zur Nutzung des agrirouter benötigst du ein Benutzerkonto:
 [.result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account.adoc[Konto] beschrieben.#
 
-Wenn du dich am agrirouter anmeldest, wird deine persönliche Startseite, das <<Dashboard>>, angezeigt:
-[.result]#Über das Dashboard hast du Zugriff auf alle Funktionen des agrirouter.#
+*My agrirouter:* Wenn du dich am agrirouter anmeldest, wird deine persönliche Startseite, die <<myagrirouter, my agrirouter>> Seite, angezeigt:
+[.result]#Über die *my agrirouter* Seite hast du Zugriff auf alle Funktionen des agrirouters.#
 
-Du kannst die Ansicht deines Dashboards einrichten.
-[.result]#Ändere die Ansicht, wie im Kapitel xref:account.adoc#settings[Einstellungen] beschrieben.#
-
-Maschinen und Agrarsoftware können Daten austauschen, wenn du sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.
+*Endpunkte:* Maschinen und Agrarsoftware können Daten austauschen, wenn du sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.
 [.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint.adoc#connect-machine[Maschine verbinden] und xref:endpoint.adoc#connect-software[Agrarsoftware verbinden] beschrieben.#
 
-Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt sendet und/oder empfängt.
-[.result]#Soll der Endpunkt Daten versenden, folge der Anleitung im Kapitel xref:endpoint.adoc#send-to[Senden an].#
-[.result]#Soll der Endpunkt Daten empfangen, folge der Anleitung im Kapitel xref:endpoint.adoc#receive-from[Empfangen von].#
-
-Wenn du Endpunkte in <<Gruppe, Gruppen>> zusammenfasst, musst du nur für die Gruppe -- und nicht für jedes Mitglied der Gruppe -- Routen erstellen.
-[.result]#Füge eine Gruppe hinzu, wie im Kapitel xref:group.adoc#add-group[Gruppe hinzufügen] beschrieben.#
-[.result]#Soll die Gruppe Daten versenden, folge der Anleitung im Kapitel xref:group.adoc#send-to[Senden an].#
-[.result]#Soll die Gruppe Daten empfangen, folge der Anleitung im Kapitel xref:group.adoc#receive-from[Empfangen von].#
+*Routen:* Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt sendet und/oder empfängt.
 
 == Grundlagen
-Es folgen in alphabetischer Reihenfolge einige grundlegende Begriffe und Konzepte, die du kennen solltest, wenn du den agrirouter nutzt.
+Es folgen einige grundlegende Begriffe und Konzepte, die du kennen solltest, wenn du den agrirouter nutzt.
 
-[#dashboard]
-=== Dashboard
-Wenn du dich unter https://goto.my-agrirouter.com/app[my-agrirouter.com^] angemeldet hast, wird das Dashboard angezeigt, deine persönliche agrirouter Startseite.
-Über das Dashboard hast du Zugriff auf alle Funktionen des agrirouter:
+[#myagrirouter]
+=== my agrirouter Seite
+Wenn du dich unter https://app.qa.agrirouter.farm/de[agrirouter.com] angemeldet hast, wird dir die _my agrirouter_ Seite angezeigt, deine persönliche Startseite.
+Über die _my agrirouter_ Seite hast du Zugriff auf alle Funktionen des agrirouters:
 
-. Im *_Kontrollzentrum_* verwaltest du die Endpunkte und das Routing.
-. In *_Konten verbinden_* verbindest du dich mit den Konten anderer agrirouter-Benutzer.
-. In *_Lernen & Support_* bekommst du Hilfe bei der Nutzung von agrirouter.
-. Dein Konto verwaltest du in der *_Kontoverwaltung_*.
-. Die Darstellung des Dashboard stellst du im *_Profil_* ein.
+image::introduction/introduction-my-agrirouter.png[My agrirouter Seite, 800]
 
-image::ar_dashboard.legend.png[agrirouter Dashboard]
+. Du hast eine xref:endpoint.adoc#my-agrirouter[*_Übersicht_*] über all deine Endpunkte, aufgeteilt in Telemetrieeinheiten bzw. Maschinen (links) und Agrar-Software (rechts).
+. Du kannst neue xref:endpoint.adoc#add-endpoints[*_Endpunkte hinzufügen_*]. 
+. Du kannst bestehende Endpunkte und Hersteller xref:endpoint.adoc#delete[*_löschen_*].
+. Du siehst die Verbindungen, bzw. <<Route, *_Routen_*>> zwischen deinen Endpunkten.
+. Du kannst die Bezeichnung und Herstellerzuordnung deiner Endpunkte xref:endpoint.adoc#manufacturer-machine-connection[*_bearbeiten_*].
+. Du kannst die xref:endpoint.adoc#details[*_Details_*] zu deinen Endpunkten öffnen.
+. Du kannst neue xref:endpoint.adoc#add-manufacturer[*_Hersteller hinzufügen_*].
+. Du hast die Möglichkeit, die xref:account.adoc#edit-account[*_Einstellungen_*] deines agrirouter Kontos zu bearbeiten.
+
 
 [#endpoint]
 === Endpunkt
-Sender und Empfänger von Daten werden über den agrirouter miteinander verbunden. Für jeden verbundenen Sender und Empfänger wird dem agrirouter ein Endpunkt des passenden Typs hinzugefügt.
-Es gibt folgende Endpunkt-Typen:
+Deine Maschinen und deine Software werden über den agrirouter als Endpunkte miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger sein. Wichtig ist nur, dass die Endpunkte über eine <<Route,Routen>> miteineander verbunden sind. Grundsätzlich gibt es zwei Typen von Endpunkten:
 
 [unordered.stack]
-Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine vollständige Liste von Telemetrie-Einheiten mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/telemetrieverbindungen[hier...^]
+Telemetrie-Einheit:: Meist ein auf dem Traktor oder an der Maschine verbautes Gerät zur Übertragung von Daten. Eine Telemetrieeinheit kann auch eine angehängte, gezogene oder selbstfahrende landwirtschaftliche Maschine, die mit einer Telemetrie-Einheit verbunden ist und eine Device Description bereitstellt, sein. Die Maschine kann, muss aber nicht ISOBUS-kompatibel sein.
 
-Maschine:: Eine angehängte, gezogene oder selbstfahrende landwirtschaftliche Maschine, die mit einer Telemetrie-Einheit verbunden ist und eine Device Description bereitstellen kann. Die Maschine kann, muss aber nicht ISOBUS-kompatibel sein.
+Agrarsoftware:: Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr.
 
-Agrarsoftware:: Ackerschlagkarteien, Apps für Landwirte und Lohnunternehmer, herstellerspezifische Software für das Datenmanagement und viele mehr. Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle findest du https://my-agrirouter.com/marketplace/agrarsoftware[hier...^]
+[TIP]
+====
+Du findest alle agrirouter kompatiblen Endpunkte, sowohl Agrar-Software, als auch Telemetrieeinheiten, im https://agrirouter.com/de/solutions[Solution-Finder] auf der agrirouter Website.
+====
 
-Verbundenes Konto:: Das Konto eines anderen Benutzers.
+[#route]
+=== Route
+Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger und ggf. ach umgekehrt. Wie du eine neue Route einrichtest, erfährt du xref:routing.adoc[hier].
 
-Externe Maschine:: Maschine, die zu einem verbundenen Konto gehört.
+Die Route regelt den Datenverkehr zwischen zwei Endpunkten. Du legst fest
 
-image::ar_overview.png[Overview]
+* zwischen welchen Endpunkten Daten ausgetauscht werden
+* in welche Richtung die Daten fließen
+* welche Daten ausgetauscht werden
+* ob und welche Echtzeitdaten ausgetauscht werden
 
-Jeder Endpunkt kann Daten senden und empfangen.
-Die Endpunkte verknüpfst Du mit <<Route,Routen>> so miteinander, dass die Daten des Senders an die gewünschten Empfänger gelangen.
+[IMPORTANT]
+====
+Erstelle eingehende und/oder abgehende Routen für jeden Endpunkt und jedes verbundene Konto.
+Ohne Route kein Datenaustausch.
+====
 
-[#group]
-=== Gruppe
-Fasse Endpunkte in Gruppen zusammen, z.B. nach Hersteller, Maschinentyp oder Maßnahme. +
-Der Vorteil: Das Routing, das du für die Gruppe einstellst, gilt für alle Mitglieder der Gruppe.
-
-Gruppen erstellst und verwaltest du im Kontrollzentrum. 
-Links befindet sich die Gruppenliste image:one_bk.icon.png[one, 30, 30], rechts befindet sich die Detailansicht image:two_bk.icon.png[two, 30, 30].
-
-image::ar_group-view.legend.png[Groups legend]
-
-[#control-center]
-=== Kontrollzentrum
-Im Kontrollzentrum erstellst und verwaltest du Endpunkte image:one_bk.icon.png[one, 30, 30], Gruppen image:two_bk.icon.png[two, 30, 30] und Routen image:three_bk.icon.png[three, 30, 30]. Links im Kontrollzentrum befinden sich die Endpunkte- bzw. die Gruppenliste image:four_bk.icon.png[four, 30, 30], rechts befindet sich die Detailansicht image:five_bk.icon.png[five, 30, 30], in der Informationen zum gewählten Endpunkt bzw. zur gewählten Gruppe angezeigt werden.
-
-image::ar_control-center.legend.png[Control Center Overview]
-
-=== Nachrichten(typen)
-Nachrichten folgenden Typs können zwischen Endpunkten ausgetauscht werden:
+[#datatypes]
+==== Datentypen
+Daten folgenden Typs können zwischen Endpunkten ausgetauscht werden:
 
 Auftragsdaten:: ISOBUS Auftragsdaten, Applikationskarten
 Echtzeitdaten:: Maschinen-, Positions- und Prozessdaten
@@ -104,46 +88,9 @@ Dokumente:: Berichte im pdf-Format
 
 NOTE: Bei der Erstellung einer Route werden dir nur die Nachrichten(typen) zur Wahl angeboten, die von Sender und Empfänger verarbeitet werden können.
 
-[#route]
-=== Route
-Eine Route ist die Verbindung zwischen zwei Endpunkten, d.h. über die Route fließen die Daten vom Sender zum Empfänger.
+TIP: Im https://agrirouter.com/de/solutions[Solution-Finder] kannst du anhand von Filtereinstellungen die Endpunkte herausfinden, die die von dir gewünschten Datentypen senden und/oder empfangen können. 
 
-Die Route regelt den Datenverkehr zwischen Sender und Empfänger.
-Du legst fest
-
-* zwischen welchen Endpunkten Daten ausgetauscht werden
-* in welche Richtung die Daten fließen
-* welche Nachrichten ausgetauscht werden
-* ob und welche Echtzeitdaten ausgetauscht werden
-
-[IMPORTANT]
-====
-Erstelle eingehende und/oder abgehende Routen für jeden Endpunkt, jede Gruppe und jedes verbundene Konto.
-Ohne Route kein Datenaustausch.
-====
-
-[#default-groups]
-=== Standard-Gruppen
-
-Im agrirouter gibt es zwei vordefinierte Standard-Gruppen:
-
-* Maschinen-Gruppe
-* Agrarsoftware-Gruppe
-
-Die Standard-Gruppen ermöglichen die schnelle Inbetriebnahme des agrirouter: +
-Für beide Gruppen ist das Routing bereits definiert. Neue Endpunkte können ohne weiteren Konfigurationsaufwand Daten empfangen und senden. +
-
-Jeder Endpunkt, den du hinzufügst, ist automatisch Mitglied in einer der beiden Standard-Gruppen:
-
-* Telemetrie-Einheiten und Maschinen sind Mitglied in der Maschinen-Gruppe
-* Agrarsoftware und Hersteller-Plattformen sind Mitglied in der Agrarsoftware-Gruppe
-
-[NOTE]
-====
-Du kannst Mitglieder hinzufügen oder Mitglieder entfernen. Das eingestellte Routing kann nicht geändert und die beiden Gruppen können nicht gelöscht werden.
-====
-
-=== Telemetriedaten
+==== Telemetriedaten
 Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. agrirouter unterstützt über xref:appendix/ddis.adoc[600 Datentypen], die in 12 Kategorien aufgeteilt sind:
 
 image::ar_overview-telemetry.png[12 Kategorien der Echtzeitdaten]

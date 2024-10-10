@@ -5,10 +5,11 @@
 
 Zur Nutzung des agrirouter benötigst du ein Benutzerkonto.
 
-In diesem Abschnitt erfährst du
+In diesem Abschnitt erfährst du, wie du
 
-* wie du ein Konto erstellst und deine Profildaten bearbeitest
-* wie du die Ansicht des xref:introduction.adoc#dashboard[Dashboard] anpassen kannst
+* ein Konto erstellst.
+* deine Profildaten bearbeitest.
+* dein Konto löschst.
 
 
 ////
@@ -45,177 +46,170 @@ Syntax für einen Rahmen:
 
 [.float-group]
 --
-image::ar_register-select.png[Select Register, 200, float=right]
+image::account/create-account-1.png[Select Register, 200, float=right]
 
-. Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
-. Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].
-[.result]#Eine Auswahlliste wird angezeigt.#
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.
+[.result]#Du wirst auf eine neue Seite weitergeleitet.#
+
 . Wähle *_Registrieren_*.
-[.result]#Das Formular `Benutzerregistrierung` wird angezeigt.#
-. Fülle die mit einem roten Sternchen markierten Pflichtfelder aus und klicke den Button *_Registrieren_*.
-[.result]#Du erhälst eine E-Mail mit dem Aktivierungslink.#
-. Klicke in der E-Mail den Button *_ACCOUNT AKTIVIEREN_*.
-[.result]#Das Formular `Benutzerkonto aktivieren` wird angezeigt:#
+[.result]#Der Registrierungsprozess wird gestartet.#
 --
 
-image::ar_activation-form-filled-in.png[Activate form]
+[.float-group]
+--
+image::account/create-account-2.png[Select Register, 397, float=left]
+
+[start=2]
+. Wähle im Dropdownmenü die Hersteller der Maschinen deines Fuhrparks. Die Logos der Hersteller erscheinen dann auf der rechten Seite.
+. Klicke auf *_Weiter_*.
+--
+
+[.float-group]
+--
+image::account/create-account-3.png[Select Register, 397, float=right]
+
+[start=4]
+. Wähle im Dropdownmenü die Anbieter der Software, die du verwendest. Die Logos der Anbieter erscheinen dann auf der rechten Seite.
+. Klicke auf *_Weiter_*.
+--
+
+[.float-group]
+--
+image::account/create-account-4.png[Select Register, 400, float=left]
 
 [start=6]
-. Vergebe ein Kennwort und klicke den Button *_Sichern_*.
-[.result]#Ein Meldungsfenster wird angezeigt.#
-. Klicke *_Weiter_*.
-[.result]#Das Dashboard wird angezeigt.#
+. Gib den *_Namen deines Betriebs_* bzw. deines Unternehmens ein.
+. Gib eine kurze *_Beschreibung_* deines Unternehmens ein.
+. Klicke auf den Button *_Speichern_*.
+--
 
-[comment]
-Die Beschreibung ist ein SAP Standardfeld, der Inhalt wird aber nirgends im agrirouter verwendet oder angezeigt
-TIP: Das Eingabefeld *_Beschreibung der Firma_* im Formular `Benutzerregistrierung` ist kein Pflichtfeld. Es empfiehlt sich, TODO TEXT einzutragen, denn das Feld wird angezeigt, wenn andere Kunden dich suchen.
+[.float-group]
+--
+image::account/create-account-5.png[Select Register, 300, float=right]
 
-IMPORTANT: Notiere E-Mail-Adresse und Passwort. Diese benötigst du, um dich am agrirouter anzumelden.
+[start=9]
+. Gib deinen *_Vor- und Nachnamen_*, sowie deine *_E-Mail-Adresse_* ein.
+. Klicke in das *_Kästchen_*, um zu bestätigen, dass du ein Mensch bist.
+. Schließe den Prozess ab, indem du den Button *_Registrieren_* klickst.
+--
+
+[.float-group]
+--
+image::account/create-account-6.png[Select Register, 400, float=left]
+
+[start=12]
+. Du bist nun in dein agrirouter-Konto eingeloggt und der Registrierungsprozess war erfolgreich.
+--
+
+IMPORTANT: Notiere dir die E-Mail-Adresse, mit der du dich registriert hast. Diese benötigst du, um dich beim agrirouter <<anmelden, anzumelden>>.
 
 
 == Anmelden
 
 [.float-group]
 --
-image::ar_logon-select.png[Select Log on, 200, float=right]
+image::account/login-account-1.png[Select Register, 200, float=right]
 
-. Öffne im Browser die Internetadresse https://my-agrirouter.com[my-agrirouter.com^].
-. Klicke das Icon *_Anmelden_* image:ar_logon.icon.png[logon, 30, 30].
-[.result]#Eine Auswahlliste wird angezeigt.#
-. Wähle *_Login_*.
-[.result]#Das Formular `Anmelden` wird angezeigt.#
-. Gebe E-Mail-Adresse und Passwort ein.
-////
-Removed upon 1st. Review:
-. Aktiviere die Checkbox "_Angemeldet bleiben_".
-////
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.
+[.result]#Du wirst auf eine neue Seite weitergeleitet.#
+
+. Wähle *_Log in_*.
+[.result]#Der Log in-Prozess wird gestartet.#
 --
 
-image::ar_logon.png[Log on form]
+[.float-group]
+--
+image::account/login-account-2.png[Select Register, 400, float=left]
 
-[start=6]
-. Klicke den Button *_Anmelden_*.
-[.result]#Das Dashboard wird angezeigt.#
+[start=2]
+. Gib die *_E-Mail-Adresse_* ein, mit der du dich bereits beim agrirouter <<benutzerkonto-erstellen, registriert>> hast.
+. Klicke auf *_Anmelden_*.
+. Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. Kopiere den Code aus der Mail.
+--
+[IMPORTANT]
+====
+Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis die E-Mail bei dir ankommt.
+====
+
+[.float-group]
+--
+image::account/login-account-3.png[Select Register, 400, float=right]
+
+[start=5]
+. Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert hast.
+. Klicke auf *_Anmelden_*.
+--
+
 
 [TIP]
 ====
-Um das Dashboard zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:
+Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:
 
-. Öffne die https://goto.my-agrirouter.com/app[die Anmeldeseite] wie oben beschrieben.
+. Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben beschrieben.
 . Aktiviere die Checkbox "_Angemeldet bleiben_" und melde dich an.
 . Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [.underline]#ohne# dich abzumelden.
-[.result]#Wenn du das nächste Mal https://goto.my-agrirouter.com/app[die Anmeldeseite] öffnest, wird sofort das Dashboard angezeigt.#
+[.result]#Wenn du das nächste Mal https://app.agrirouter.com/de[die Anmeldeseite] öffnest, wird sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] angezeigt.#
 ====
 
-== Benutzerdaten ändern
+[#edit-account]
+== Hinterlegte Daten ändern
+=== Kontoinformationen ändern
 
-. Klicke die Kachel *_Kontoverwaltung_*.
-[.result]#Die `Kontoverwaltung` wird angezeigt:# +
+[.float-group]
+--
+image::account/edit-account-1.png[Select Register, 309, float=right]
 
-image::ar_account-mgmt.png[Account management]
+. Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen Initialien in der rechten oberen Ecke deiner xref:introduction.adoc/myagrirouter[my agrirouter Seite] und klicke auf *_Einstellungen_*.
+[.result]#Die `Einstellungen` werden geöffnet.#
 
-[start=2]
-. Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zum Ansprechpartner`.
-[.result]#Das Formular `Daten Ansprechpartner bearbeiten` wird angezeigt.#
-. Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*.
-. Klicke den Button *_Bearbeiten_* im Abschnitt `Angaben zur Firma`.
-[.result]#Das Formular `Daten der Firma bearbeiten` wird angezeigt.#
-. Gebe die neuen Werte ein und klicke den Button *_Bestätigen_*.
-. Klicke den Button *_Email-Adresse ändern_* im Abschnitt `Angaben zum Ansprechpartner`.
-[.result]#Das Formular `Email-Adresse ändern` wird angezeigt.#
-. Gebe die E-Mail-Adresse in beide Eingabefelder ein und klicke den Button *_Bestätigen_*.
-. Klicke den Button *_Startseite_*.
-[.result]#Das Dashboard wird angezeigt.#
+. Klicke auf der linken Seite auf *_Konto_*.
+[.result]#Die `Kontoinformationen` werden angezeigt.#
+--
 
-NOTE: Verwende bei der nächsten Anmeldung die neue E-Mail-Adresse.
+image::account/edit-account-2.png[Select Register, 800]
+
+[start=3]
+. Es erscheinen nun alle Informationen, die zu deinem Konto hinterlegt sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*.
+. Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Konto aktualisieren_*
+
+NOTE: Deine E-Mail-Adresse kann nicht geändert werden.
+
+=== Unternehmensinformationen ändern
+
+[.float-group]
+--
+image::account/edit-account-1.png[Select Register, 309, float=right]
+
+. Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen Initialien in der rechten oberen Ecke deines Dashboards und klicke auf *_Settings_*.
+[.result]#Die `Einstellungen` wird angezeigt.#
+
+. Klicke auf der linken Seite auf *_Unternehmen_*.
+[.result]#Die `Unternehmenseinstellungen` werden angezeigt.#
+--
+
+image::account/edit-account-3.png[Select Register, 800]
+
+[start=3]
+. Es erscheinen nun alle Informationen, die zu deinem Unternehmen hinterlegt sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*.
+. Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Firma aktualisieren_*
 
 
 == Konto löschen
 Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:
 
-[.float-group]
---
-image::ar_account-mgmt-tile.png[Account Management Tile, 200, float=right]
+. Folge hierzu den Schritten 1 & 2 des Kapitels <<edit-account, Kontoinformationen ändern>>.
+[.result]#Du bist nun im Bereich der Kontoeinstellungen. Scrolle hier ganz nach unten und du siehst diesen Abschnitt:#
 
-. Klicke die Kachel *_Kontoverwaltung_*.
-[.result]#Die `Kontoverwaltung` wird angezeigt.#
-. Klicke den Button *_Konto löschen_*.
-[.result]#Ein Meldungsfenster wird angezeigt.#
-. Klicke den Button *_OK_*.
-[.result]#Das Formular `Bestätigung` wird angezeigt.#
---
+image::account/delete-account-1.png[Select Register, 800]
 
-[start=4]
-. Gebe dein Passwort ein und klicke den Button *_Bestätigen_*.
-[.result]#Das Konto wird gelöscht.#
-[.result]#Ein Meldungsfenster wird angezeigt.#
-. Klicke den Button *_OK_*.
-
-image::ar_account-delete-success.png[Account deleted]
-
-
-WARNING: Alle Einstellungen und Benutzerdaten sowie alle Endpunkte und deren Postfächer werden gelöscht und können nicht wieder hergestellt werden.
-
-[#settings]
-== Einstellungen
-Ansicht und Inhalt des Dashboard und die Darstellung von Benachrichtigungen können eingestellt werden.
+[start=2]
+. klicke auf den Button *_Ihr Konto löschen_*.
 
 [.float-group]
 --
-image::ar_profile-menue.png[Profile menue, 150, float=right]
+image::account/delete-account-2.png[Select Register, 392, float=right]
 
-. Klicke das Icon *_Profil_* image:ar_profile.icon.png[logon, 30, 30].
-[.result]#Eine Auswahlliste wird angezeigt.#
-. Wähle *_Einstellungen_* image:ar_settings.icon.png[logon, 30, 30].
-[.result]#Das Fenster `Einstellungen` wird angezegt.#
-[.result]#Links befindet sich die Liste der Einstellungen, rechts die Details zum gewählten Listeneintrag.#
-. Ändere die Einstellungen wie in den folgenden Kapiteln beschrieben und klicke dann den Button *_Sichern_*:
+[start=3]
+. Nun erscheint eine Meldung, die dich bittet, das Löschen des Kontos zu bestätigen. Klicke auf den Button *_Bestätigen_*.
+. Im unteren rechten Eck wird dir nun die Erfolgsmeldung image:account/delete-account-3.png[logon, 180, 30] angezeigt.
 --
-
-image::ar_settings-page.png[Settings]
-
-
-=== Ansicht
-Im Reiter `Theme` wählst du zwischen hellem und dunklem Design der Benutzeroberfläche. +
-Im Reiter `Anzeigeeinstellungen` stellst du die Größe der Bedienelemente ein und aktivierst die Animationen.
-
-
-. Klicke den Button *_Erscheinungsbild_*.
-. Klicke den Reiter `Theme` und wähle das Design.
-. Klicke den Reiter `Anzeigeeinstellungen`.
-[.result]#Die Optionen werden angezeigt.#
-. Schalte *_Große Interaktionselemente_* an.
-[.result]#Die Icons, Buttons und Kacheln werden in der maximalen Größe angezeigt.#
-. Wähle in der Auswahlliste *_Animation_* die Option `Voll`.
-
-[TIP]
-====
-Wähle auf einem leistungsschwachen PC, Laptop oder Tablet in der Auswahlliste *_Animation_* die Option `Minimal`.
-
-Schalte auf Geräten mit kleinem Bildschirm *_Große Interaktionselemente_* aus.
-====
-
-=== Startseite
-Das Dashboard ist in 4 Reiter aufgeteilt.
-
-Zeige die Inhalte aller Reiter auf einer Seite an wie folgt:
-
-. Klicke den Button *_Startseite_*.
-. Wähle *_Sämtlichen Inhalt anzeigen_*.
-
-NOTE: Dies ist die empfohlene Einstellung.
-
-Zeige den Inhalt des gewählten Reiters an wie folgt:
-
-. Klicke den Button *_Startseite_*.
-. Wähle *_Eine Gruppe auf einmal anzeigen_*.
-
-=== Benachrichtigungen
-Diese Einstellungen werden vom Programm nicht verwendet.
-
-=== Sprache und Region
-Die Sprache stellst Du in der `Kontoverwaltung` im Abschnitt `Angaben zum Ansprechpartner` ein.
-
-* Gehe vor wie im Kapitel `Benutzerdaten` beschrieben.
-
-Region, Datum- und Zeitformat können nicht eingestellt werden.
