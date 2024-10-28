@@ -19,7 +19,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - uses: actions/checkout@v4
+        # check out the source branch so we are not in "detached" state when run in a PR
+        # this is required so the Update Translation Files step can run
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+
 
       - name: Set up Node
         id: node
