@@ -113,8 +113,8 @@ image::account/login-account-1.png[Select Register, 200, float=right]
 Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.
 [.result]#Du wirst auf eine neue Seite weitergeleitet.#
 
-. Wähle *_Log in_*.
-[.result]#Der Log in-Prozess wird gestartet.#
+. Wähle *_Login_*.
+[.result]#Der Login-Prozess wird gestartet.#
 --
 
 [.float-group]
@@ -124,11 +124,15 @@ image::account/login-account-2.png[Select Register, 400, float=left]
 [start=2]
 . Gib die *_E-Mail-Adresse_* ein, mit der du dich bereits beim agrirouter <<benutzerkonto-erstellen, registriert>> hast.
 . Klicke auf *_Anmelden_*.
-. Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. Kopiere den Code aus der Mail.
+. Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. Kopiere den Code aus der Mail.
 --
 [IMPORTANT]
 ====
+<<<<<<< HEAD
 Solltest du die E-Mail mit dem Code nicht empfangen, schaue in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis die E-Mail bei dir ankommt.
+=======
+Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis die E-Mail bei dir ankommt.
+>>>>>>> c15a6ef (Update how to change email address)
 ====
 
 [.float-group]
@@ -172,7 +176,7 @@ image::account/edit-account-2.png[Select Register, 800]
 . Es erscheinen nun alle Informationen, die zu deinem Konto hinterlegt sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*.
 . Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Konto aktualisieren_*
 
-NOTE: Deine E-Mail-Adresse kann nicht geändert werden.
+NOTE: Deine E-Mail-Adresse kann nicht geändert werden. Um diese zu ändern, wende dich mit einer E-Mail an mailto:support@agrirouter.com[support@agrirouter.com]. Nach Prüfung deiner E-Mail-Adresse wird diese für dich geändert und du erhälst Rückmeldung durch unser Support-Team.
 
 === Unternehmensinformationen ändern
 
@@ -203,7 +207,7 @@ Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:
 image::account/delete-account-1.png[Select Register, 800]
 
 [start=2]
-. klicke auf den Button *_Ihr Konto löschen_*.
+. Klicke auf den Button *_Ihr Konto löschen_*.
 
 [.float-group]
 --
