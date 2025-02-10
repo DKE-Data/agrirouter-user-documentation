@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-24 11:08+0000\n"
+"POT-Creation-Date: 2025-02-10 11:53+0000\n"
 "PO-Revision-Date: 2025-01-03 14:31+0000\n"
 "Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
@@ -1114,7 +1114,9 @@ msgstr "log on"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:118
-msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
+#, fuzzy
+#| msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
+msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
 msgstr "Select *_Log in_*.  [.result]#The log in process is started.#"
 
 #. type: Plain text
@@ -1134,10 +1136,15 @@ msgstr "Click on *_Login_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
+#, fuzzy
+#| msgid ""
+#| "Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
+#| "Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
+#| "registriert>> hast. Kopiere den Code aus der Mail."
 msgid ""
-"Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-"Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-"registriert>> hast. Kopiere den Code aus der Mail."
+"Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
+"der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
+"Kopiere den Code aus der Mail."
 msgstr ""
 "You will now receive an *_email with an 8-digit code_* to the email address "
 "you used to register with the agrirouter <<create user account>>. Copy the "
@@ -1145,10 +1152,15 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:132
+#, fuzzy
+#| msgid ""
+#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
+#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
-"Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue in "
-"deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-"dauern, bis die E-Mail bei dir ankommt."
+"Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
+"*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
+"die E-Mail bei dir ankommt."
 msgstr ""
 "If you do not receive the e-mail with the 8-digit code, check your *_spam "
 "folder_*. Sometimes it can also take *_a few minutes_* for the e-mail to "
@@ -1258,8 +1270,12 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:176
-msgid "Deine E-Mail-Adresse kann nicht geändert werden."
-msgstr "Your e-mail address cannot be changed."
+msgid ""
+"Deine E-Mail-Adresse kann nicht geändert werden. Um diese zu ändern, wende "
+"dich mit einer E-Mail an mailto:support@agrirouter.com[support@agrirouter."
+"com]. Nach Prüfung deiner E-Mail-Adresse wird diese für dich geändert und du "
+"erhältst Rückmeldung durch unser Support-Team."
+msgstr ""
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:177
@@ -1329,7 +1345,9 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:207
-msgid "klicke auf den Button *_Ihr Konto löschen_*."
+#, fuzzy
+#| msgid "klicke auf den Button *_Ihr Konto löschen_*."
+msgid "Klicke auf den Button *_Ihr Konto löschen_*."
 msgstr "click on the button *_Delete your account_*."
 
 #. type: Plain text
@@ -1732,10 +1750,15 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
+#, fuzzy
+#| msgid ""
+#| "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
+#| "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
+#| "adoc#solution-guides[Solution Guides] nachlesen."
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
-"adoc#solution-guides[Solution Guides] nachlesen."
+"adoc#solution-guides[Solution-Guides] nachlesen."
 msgstr ""
 "Enter the registration code on the telemetry unit. You can find out how this "
 "works with your vendor in the xref:solution-guides.adoc#solution-"
@@ -1752,8 +1775,12 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
+#, fuzzy
+#| msgid ""
+#| "Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] "
+#| "nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgid ""
-"Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] nach, "
+"Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
 "Refer to xref:solution-guides.adoc#solution-guides[Solution Guides] on how "
@@ -1932,10 +1959,15 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195
+#, fuzzy
+#| msgid ""
+#| "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie "
+#| "das für deine Software funktioniert, erfährst du in den xref:solution-"
+#| "guides.adoc#solution-guides[Solution Guides]."
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
-"adoc#solution-guides[Solution Guides]."
+"adoc#solution-guides[Solution-Guides]."
 msgstr ""
 "Log into your agricultural software and connect the agrirouter. You can find "
 "out how this works for your software in the xref:solution-guides."
@@ -1963,10 +1995,17 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:205
+#, fuzzy
+#| msgid ""
+#| "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in "
+#| "einigen Fällen anders) findest du meist in den Einstellungen der "
+#| "Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution "
+#| "Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem "
+#| "agrirouter verbindest."
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
-"den xref:solution-guides.adoc#solution-guides[Solution Guides] findest du "
+"den xref:solution-guides.adoc#solution-guides[Solution-Guides] findest du "
 "eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest."
 msgstr ""
 "You can usually find the function *_Connect to agrirouter_* (the designator "
@@ -1976,9 +2015,13 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:207
+#, fuzzy
+#| msgid ""
+#| "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
+#| "findest du auf dem https://agrirouter.com/de/solutions[Solution Finder]."
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-"findest du auf dem https://agrirouter.com/de/solutions[Solution Finder]."
+"findest du auf dem https://agrirouter.com/de/solutions[Solution-Finder]."
 msgstr ""
 "A complete list of agricultural software with agrirouter interface can be "
 "found at https://agrirouter.com/de/solutions[Solution Finder]."
@@ -3248,11 +3291,18 @@ msgstr "Endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:51
+#, fuzzy
+#| msgid ""
+#| "Deine Maschinen und deine Software werden über den agrirouter als "
+#| "Endpunkte miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie "
+#| "auch Empfänger sein. Wichtig ist nur, dass die Endpunkte über eine "
+#| "<<Route,Routen>> miteineander verbunden sind. Grundsätzlich gibt es zwei "
+#| "Typen von Endpunkten:"
 msgid ""
 "Deine Maschinen und deine Software werden über den agrirouter als Endpunkte "
 "miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger "
 "sein. Wichtig ist nur, dass die Endpunkte über eine <<Route,Routen>> "
-"miteineander verbunden sind. Grundsätzlich gibt es zwei Typen von Endpunkten:"
+"miteinander verbunden sind. Grundsätzlich gibt es zwei Typen von Endpunkten:"
 msgstr ""
 "Your machines and your software are connected to each other as Endpoints via "
 "the agrirouter. An Endpoint can be both a transmitter and a receiver. It is "
@@ -3420,7 +3470,9 @@ msgstr "Documents"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:88
-msgid "Berichte im pdf-Format"
+#, fuzzy
+#| msgid "Berichte im pdf-Format"
+msgid "Berichte im PDF-Format"
 msgstr "Reports in PDF format"
 
 #. type: Plain text
@@ -3442,31 +3494,6 @@ msgstr ""
 "In https://agrirouter.com/de/solutions[Solution-Finder] you can use filter "
 "settings to find the Endpoints that can send and/or receive the data types "
 "you require."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/introduction.adoc:93
-#, no-wrap
-msgid "Telemetriedaten"
-msgstr "Telemetry data"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/introduction.adoc:95
-msgid ""
-"Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der "
-"Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. "
-"agrirouter unterstützt über xref:appendix/ddis.adoc[600 Datentypen], die in "
-"12 Kategorien aufgeteilt sind:"
-msgstr ""
-"Many machines are able to provide real-time data, i.e. data on machines, "
-"positions, and processes that is continuously generated while working on the "
-"field. agrirouter supports over xref:appendix/ddis.adoc[600 data types] "
-"divided into 12 categories:"
-
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/introduction.adoc:96
-#, no-wrap
-msgid "12 Kategorien der Echtzeitdaten"
-msgstr "12 real-time data categories"
 
 #. type: Title =
 #: de/modules/ROOT/pages/routing.adoc:5
@@ -3979,9 +4006,13 @@ msgstr "Email support"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:79
+#, fuzzy
+#| msgid ""
+#| "Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
+#| "support@my-agrirouter.com[support@my-agrirouter.com]."
 msgid ""
 "Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
-"support@my-agrirouter.com[support@my-agrirouter.com]."
+"support@agrirouter.com[support@agrirouter.com]."
 msgstr ""
 "If you are not able to use the Help Center, please email mailto:support@my-"
 "agrirouter.com[support@my-agrirouter.com]."
@@ -11993,6 +12024,28 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+
+#~ msgid "Deine E-Mail-Adresse kann nicht geändert werden."
+#~ msgstr "Your e-mail address cannot be changed."
+
+#, no-wrap
+#~ msgid "Telemetriedaten"
+#~ msgstr "Telemetry data"
+
+#~ msgid ""
+#~ "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während "
+#~ "der Feldarbeit laufend anfallende Maschinen- , Positions- und "
+#~ "Prozessdaten. agrirouter unterstützt über xref:appendix/ddis.adoc[600 "
+#~ "Datentypen], die in 12 Kategorien aufgeteilt sind:"
+#~ msgstr ""
+#~ "Many machines are able to provide real-time data, i.e. data on machines, "
+#~ "positions, and processes that is continuously generated while working on "
+#~ "the field. agrirouter supports over xref:appendix/ddis.adoc[600 data "
+#~ "types] divided into 12 categories:"
+
+#, no-wrap
+#~ msgid "12 Kategorien der Echtzeitdaten"
+#~ msgstr "12 real-time data categories"
 
 #, no-wrap
 #~ msgid "AMAZONE myAmaRouter Solution Guide"

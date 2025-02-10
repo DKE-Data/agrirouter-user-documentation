@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-24 11:08+0000\n"
+"POT-Creation-Date: 2025-02-10 11:53+0000\n"
 "PO-Revision-Date: 2022-11-14 10:05+0000\n"
 "Last-Translator: Felix Lammers <f.lammers@dke-data.com>\n"
 "Language-Team: Russian <https://weblate.my-agrirouter.com/projects/"
@@ -1036,7 +1036,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:118
-msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
+msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
 msgstr ""
 
 #. type: Plain text
@@ -1055,17 +1055,17 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
 msgid ""
-"Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-"Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-"registriert>> hast. Kopiere den Code aus der Mail."
+"Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
+"der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
+"Kopiere den Code aus der Mail."
 msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:132
 msgid ""
-"Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue in "
-"deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-"dauern, bis die E-Mail bei dir ankommt."
+"Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
+"*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
+"die E-Mail bei dir ankommt."
 msgstr ""
 
 #. type: Plain text
@@ -1145,7 +1145,11 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:176
-msgid "Deine E-Mail-Adresse kann nicht geändert werden."
+msgid ""
+"Deine E-Mail-Adresse kann nicht geändert werden. Um diese zu ändern, wende "
+"dich mit einer E-Mail an mailto:support@agrirouter.com[support@agrirouter."
+"com]. Nach Prüfung deiner E-Mail-Adresse wird diese für dich geändert und du "
+"erhältst Rückmeldung durch unser Support-Team."
 msgstr ""
 
 #. type: Title ===
@@ -1205,8 +1209,10 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:207
-msgid "klicke auf den Button *_Ihr Konto löschen_*."
-msgstr ""
+#, fuzzy
+#| msgid "agrirouter User Manual"
+msgid "Klicke auf den Button *_Ihr Konto löschen_*."
+msgstr "agrirouter Руководство по эксплуатации"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:214
@@ -1537,7 +1543,7 @@ msgstr ""
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
-"adoc#solution-guides[Solution Guides] nachlesen."
+"adoc#solution-guides[Solution-Guides] nachlesen."
 msgstr ""
 
 #. type: Plain text
@@ -1550,7 +1556,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
 msgid ""
-"Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] nach, "
+"Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
 
@@ -1699,7 +1705,7 @@ msgstr ""
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
-"adoc#solution-guides[Solution Guides]."
+"adoc#solution-guides[Solution-Guides]."
 msgstr ""
 
 #. type: Plain text
@@ -1722,7 +1728,7 @@ msgstr ""
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
-"den xref:solution-guides.adoc#solution-guides[Solution Guides] findest du "
+"den xref:solution-guides.adoc#solution-guides[Solution-Guides] findest du "
 "eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest."
 msgstr ""
 
@@ -1730,7 +1736,7 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:207
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-"findest du auf dem https://agrirouter.com/de/solutions[Solution Finder]."
+"findest du auf dem https://agrirouter.com/de/solutions[Solution-Finder]."
 msgstr ""
 
 #. type: Title ===
@@ -2828,7 +2834,7 @@ msgid ""
 "Deine Maschinen und deine Software werden über den agrirouter als Endpunkte "
 "miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger "
 "sein. Wichtig ist nur, dass die Endpunkte über eine <<Route,Routen>> "
-"miteineander verbunden sind. Grundsätzlich gibt es zwei Typen von Endpunkten:"
+"miteinander verbunden sind. Grundsätzlich gibt es zwei Typen von Endpunkten:"
 msgstr ""
 
 #. type: Labeled list
@@ -2978,7 +2984,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:88
-msgid "Berichte im pdf-Format"
+msgid "Berichte im PDF-Format"
 msgstr ""
 
 #. type: Plain text
@@ -2994,27 +3000,6 @@ msgid ""
 "Im https://agrirouter.com/de/solutions[Solution-Finder] kannst du anhand von "
 "Filtereinstellungen die Endpunkte herausfinden, die die von dir gewünschten "
 "Datentypen senden und/oder empfangen können."
-msgstr ""
-
-#. type: Title ====
-#: de/modules/ROOT/pages/introduction.adoc:93
-#, no-wrap
-msgid "Telemetriedaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/introduction.adoc:95
-msgid ""
-"Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der "
-"Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. "
-"agrirouter unterstützt über xref:appendix/ddis.adoc[600 Datentypen], die in "
-"12 Kategorien aufgeteilt sind:"
-msgstr ""
-
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/introduction.adoc:96
-#, no-wrap
-msgid "12 Kategorien der Echtzeitdaten"
 msgstr ""
 
 #. type: Title =
@@ -3443,7 +3428,7 @@ msgstr ""
 #: de/modules/ROOT/pages/support.adoc:79
 msgid ""
 "Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
-"support@my-agrirouter.com[support@my-agrirouter.com]."
+"support@agrirouter.com[support@agrirouter.com]."
 msgstr ""
 
 #. type: Title ===
