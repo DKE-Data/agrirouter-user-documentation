@@ -5,10 +5,10 @@
   "author": "Oliver Rahner <o.rahner@dke-data.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "validate-xrefs": "for LNG in de en fr it ru pt es; do cd $LNG; $(npm bin)/antora --generator @antora/xref-validator ./antora-playbook.yml; cd ..; done",
+    "validate-xrefs": "for LNG in de en fr it ru pt es nl pl; do cd $LNG; $(npm bin)/antora --generator @antora/xref-validator ./antora-playbook.yml; cd ..; done",
     "update-i18n": "po4a po4a.conf --no-translations",
-    "translate": "po4a po4a.conf; for LNG in en fr it ru pt es; do cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; cp -nrT de/modules/ROOT/partials/ $LNG/modules/ROOT/partials; done",
-    "build": "for LNG in de en fr it ru pt es; do cd $LNG; $(npm bin)/antora generate antora-playbook.yml --to-dir ../build/$LNG || exit; cd ..; done; cp index.html build/",
+    "translate": "po4a po4a.conf; for LNG in en fr it ru pt es nl pl; do cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; cp -nrT de/modules/ROOT/partials/ $LNG/modules/ROOT/partials; done",
+    "build": "for LNG in de en fr it ru pt es nl pl; do cd $LNG; $(npm bin)/antora generate antora-playbook.yml --to-dir ../build/$LNG || exit; cd ..; done; cp index.html build/",
     "generate-images": "node scripts/generate_images.js"
   },
   "dependencies": {
