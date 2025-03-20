@@ -42,6 +42,7 @@ antora:
   extensions:
     - "@antora/lunr-extension"
 content:
+  edit_url: '{web_url}/edit/main/{path}'
   sources:
     - branches: HEAD
       start_path: de/
