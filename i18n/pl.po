@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-20 15:12+0000\n"
+"POT-Creation-Date: 2025-03-20 15:22+0000\n"
 "PO-Revision-Date: 2025-03-20 15:20+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Polish <https://weblate.my-agrirouter.com/projects/agrirouter/"
@@ -715,13 +715,13 @@ msgstr "Tworzenie konta użytkownika"
 #: de/modules/ROOT/pages/account.adoc:88 de/modules/ROOT/pages/account.adoc:98
 #: de/modules/ROOT/pages/account.adoc:111
 #: de/modules/ROOT/pages/account.adoc:122
-#: de/modules/ROOT/pages/account.adoc:140
-#: de/modules/ROOT/pages/account.adoc:164
-#: de/modules/ROOT/pages/account.adoc:173
-#: de/modules/ROOT/pages/account.adoc:185
-#: de/modules/ROOT/pages/account.adoc:194
-#: de/modules/ROOT/pages/account.adoc:207
-#: de/modules/ROOT/pages/account.adoc:214 de/modules/ROOT/pages/group.adoc:28
+#: de/modules/ROOT/pages/account.adoc:136
+#: de/modules/ROOT/pages/account.adoc:160
+#: de/modules/ROOT/pages/account.adoc:169
+#: de/modules/ROOT/pages/account.adoc:181
+#: de/modules/ROOT/pages/account.adoc:190
+#: de/modules/ROOT/pages/account.adoc:203
+#: de/modules/ROOT/pages/account.adoc:210 de/modules/ROOT/pages/group.adoc:28
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
@@ -1130,9 +1130,9 @@ msgstr ""
 "Wprowadź adres *_email_*, za pomocą którego zarejestrowałeś się już w "
 "agrirouter <<create user account, registered>>."
 
-#. type: delimited block =
+#. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:127
-#: de/modules/ROOT/pages/account.adoc:145
+#: de/modules/ROOT/pages/account.adoc:141
 msgid "Klicke auf *_Anmelden_*."
 msgstr "Kliknij na *_Login_*."
 
@@ -1153,22 +1153,7 @@ msgstr ""
 "wiadomości e-mail."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:133
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
-msgid ""
-"<<<<<<< HEAD Solltest du die E-Mail mit dem Code nicht empfangen, schaue in "
-"deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-"dauern, bis die E-Mail bei dir ankommt."
-msgstr ""
-"Jeśli nie otrzymasz wiadomości e-mail z 8-cyfrowym kodem, sprawdź folder "
-"*_spam_*. Czasami dotarcie wiadomości e-mail może zająć *_kilka minut_*."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:136
+#: de/modules/ROOT/pages/account.adoc:132
 #, fuzzy
 #| msgid ""
 #| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
@@ -1177,20 +1162,19 @@ msgstr ""
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
-"die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to change email "
-"address)"
+"die E-Mail bei dir ankommt."
 msgstr ""
 "Jeśli nie otrzymasz wiadomości e-mail z 8-cyfrowym kodem, sprawdź folder "
 "*_spam_*. Czasami dotarcie wiadomości e-mail może zająć *_kilka minut_*."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:144
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:140
 msgid ""
 "Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert hast."
 msgstr "Teraz wklej kod skopiowany z programu pocztowego."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:151
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:147
 msgid ""
 "Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, "
 "ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:"
@@ -1199,8 +1183,8 @@ msgstr ""
 "agrirouter] bez konieczności wprowadzania danych użytkownika, wykonaj "
 "następujące czynności:"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:153
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:149
 #, fuzzy
 #| msgid ""
 #| "Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben "
@@ -1211,13 +1195,13 @@ msgstr ""
 "Otwórz stronę https://app.agrirouter.com/de[strona logowania], jak opisano "
 "powyżej."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:154
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:150
 msgid "Aktiviere die Checkbox \"_Angemeldet bleiben_\" und melde dich an."
 msgstr "Aktywuj pole wyboru \"_Pozostań zalogowany_\" i zaloguj się."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:156
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:152
 #, fuzzy
 #| msgid ""
 #| "Wenn du deine Arbeit im Dashboard beendet hast, schließe die "
@@ -1237,19 +1221,19 @@ msgstr ""
 "myagrirouter[moja strona agrirouter] zostanie natychmiast wyświetlony.#"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:159
+#: de/modules/ROOT/pages/account.adoc:155
 #, no-wrap
 msgid "Hinterlegte Daten ändern"
 msgstr "Zmiana zapisanych danych"
 
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:160
+#: de/modules/ROOT/pages/account.adoc:156
 #, no-wrap
 msgid "Kontoinformationen ändern"
 msgstr "Zmiana informacji o koncie"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:168
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:164
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deiner xref:introduction.adoc/"
@@ -1261,8 +1245,8 @@ msgstr ""
 "mojego agrirouter] i kliknij na *_Settings_*.  [.result]#Otworzą się "
 "`Ustawienia`.#"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:171
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:167
 msgid ""
 "Klicke auf der linken Seite auf *_Konto_*.  [.result]#Die "
 "`Kontoinformationen` werden angezeigt.#"
@@ -1270,8 +1254,8 @@ msgstr ""
 "Kliknij na *_Accounto_* po lewej stronie.  [.result]#Wyświetlone zostaną "
 "`Informacje o koncie`.#"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:177
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:173
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Konto hinterlegt sind. "
 "Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
@@ -1279,16 +1263,16 @@ msgstr ""
 "Wyświetlone zostaną wszystkie informacje przechowywane na koncie. Możesz "
 "*_dodawać lub zmieniać dane_* według własnego uznania."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:178
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:174
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Konto "
 "aktualisieren_*"
 msgstr ""
 "Jeśli chcesz zapisać wprowadzone zmiany, kliknij przycisk *_Update account_*."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:180
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:176
 msgid ""
 "Deine E-Mail-Adresse kann nicht geändert werden. Um diese zu ändern, wende "
 "dich mit einer E-Mail an mailto:support@agrirouter.com[support@agrirouter."
@@ -1297,13 +1281,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:181
+#: de/modules/ROOT/pages/account.adoc:177
 #, no-wrap
 msgid "Unternehmensinformationen ändern"
 msgstr "Zmiana informacji o firmie"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:189
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:185
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deines Dashboards und klicke auf "
@@ -1316,8 +1300,8 @@ msgstr ""
 "inicjałami w prawym górnym rogu pulpitu nawigacyjnego i kliknij na "
 "*_Settings_*.  [.result]#Wyświetlone zostaną `Ustawienia`.#"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:192
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:188
 msgid ""
 "Klicke auf der linken Seite auf *_Unternehmen_*.  [.result]#Die "
 "`Unternehmenseinstellungen` werden angezeigt.#"
@@ -1325,8 +1309,8 @@ msgstr ""
 "Kliknij *_Company_* po lewej stronie.  [.result]#Wyświetlone zostaną "
 "\"Ustawienia firmy\".#"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:198
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:194
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Unternehmen hinterlegt "
 "sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
@@ -1334,26 +1318,26 @@ msgstr ""
 "Wyświetlone zostaną wszystkie informacje zapisane dla Twojej firmy. Możesz "
 "*_dodawać lub zmieniać dane_* według własnego uznania."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:199
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:195
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Firma "
 "aktualisieren_*"
 msgstr "Jeśli chcesz zapisać zmiany, kliknij przycisk *_Update company_*."
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:201
+#: de/modules/ROOT/pages/account.adoc:197
 #, no-wrap
 msgid "Konto löschen"
 msgstr "Usuń konto"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:203
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:199
 msgid "Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:"
 msgstr "Usuń konto użytkownika, gdy nie będzie już potrzebne:"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:206
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:202
 msgid ""
 "Folge hierzu den Schritten 1 & 2 des Kapitels <<edit-account, "
 "Kontoinformationen ändern>>.  [.result]#Du bist nun im Bereich der "
@@ -1364,15 +1348,15 @@ msgstr ""
 "koncie>>.  [.result]#Jesteś teraz w obszarze ustawień konta. Przewiń w dół, "
 "a zobaczysz następującą sekcję:#"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:211
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:207
 #, fuzzy
 #| msgid "klicke auf den Button *_Ihr Konto löschen_*."
 msgid "Klicke auf den Button *_Ihr Konto löschen_*."
 msgstr "kliknij przycisk *_Usuń konto_*."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:218
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:214
 msgid ""
 "Nun erscheint eine Meldung, die dich bittet, das Löschen des Kontos zu "
 "bestätigen. Klicke auf den Button *_Bestätigen_*."
@@ -1380,8 +1364,8 @@ msgstr ""
 "Pojawi się komunikat z prośbą o potwierdzenie usunięcia konta. Kliknij "
 "przycisk *_Confirm_*."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:219
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:215
 msgid ""
 "Im unteren rechten Eck wird dir nun die Erfolgsmeldung image:account/delete-"
 "account-3.png[logon, 180, 30] angezeigt."
@@ -12081,6 +12065,20 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+
+#, fuzzy
+#~| msgid ""
+#~| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
+#~| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+#~| "dauern, bis die E-Mail bei dir ankommt."
+#~ msgid ""
+#~ "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
+#~ "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+#~ "dauern, bis die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to "
+#~ "change email address)"
+#~ msgstr ""
+#~ "Jeśli nie otrzymasz wiadomości e-mail z 8-cyfrowym kodem, sprawdź folder "
+#~ "*_spam_*. Czasami dotarcie wiadomości e-mail może zająć *_kilka minut_*."
 
 #~ msgid "Deine E-Mail-Adresse kann nicht geändert werden."
 #~ msgstr "Twój adres e-mail nie może zostać zmieniony."

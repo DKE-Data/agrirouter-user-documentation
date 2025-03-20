@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-20 15:12+0000\n"
+"POT-Creation-Date: 2025-03-20 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -652,13 +652,13 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:88 de/modules/ROOT/pages/account.adoc:98
 #: de/modules/ROOT/pages/account.adoc:111
 #: de/modules/ROOT/pages/account.adoc:122
-#: de/modules/ROOT/pages/account.adoc:140
-#: de/modules/ROOT/pages/account.adoc:164
-#: de/modules/ROOT/pages/account.adoc:173
-#: de/modules/ROOT/pages/account.adoc:185
-#: de/modules/ROOT/pages/account.adoc:194
-#: de/modules/ROOT/pages/account.adoc:207
-#: de/modules/ROOT/pages/account.adoc:214 de/modules/ROOT/pages/group.adoc:28
+#: de/modules/ROOT/pages/account.adoc:136
+#: de/modules/ROOT/pages/account.adoc:160
+#: de/modules/ROOT/pages/account.adoc:169
+#: de/modules/ROOT/pages/account.adoc:181
+#: de/modules/ROOT/pages/account.adoc:190
+#: de/modules/ROOT/pages/account.adoc:203
+#: de/modules/ROOT/pages/account.adoc:210 de/modules/ROOT/pages/group.adoc:28
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
@@ -1049,9 +1049,9 @@ msgid ""
 "<<benutzerkonto-erstellen, registriert>> hast."
 msgstr ""
 
-#. type: delimited block =
+#. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:127
-#: de/modules/ROOT/pages/account.adoc:145
+#: de/modules/ROOT/pages/account.adoc:141
 msgid "Klicke auf *_Anmelden_*."
 msgstr ""
 
@@ -1064,48 +1064,39 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:133
-msgid ""
-"<<<<<<< HEAD Solltest du die E-Mail mit dem Code nicht empfangen, schaue in "
-"deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-"dauern, bis die E-Mail bei dir ankommt."
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:136
+#: de/modules/ROOT/pages/account.adoc:132
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
-"die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to change email "
-"address)"
-msgstr ""
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:144
-msgid "Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert hast."
+"die E-Mail bei dir ankommt."
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:151
+#: de/modules/ROOT/pages/account.adoc:140
+msgid "Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert hast."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:147
 msgid ""
 "Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, "
 "ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:"
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:153
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:149
 msgid ""
 "Öffne die https://app.agrirouter.com/[die Anmeldeseite] wie oben "
 "beschrieben."
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:154
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:150
 msgid "Aktiviere die Checkbox \"_Angemeldet bleiben_\" und melde dich an."
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:156
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:152
 msgid ""
 "Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite "
 "[.underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal "
@@ -1114,19 +1105,19 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:159
+#: de/modules/ROOT/pages/account.adoc:155
 #, no-wrap
 msgid "Hinterlegte Daten ändern"
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:160
+#: de/modules/ROOT/pages/account.adoc:156
 #, no-wrap
 msgid "Kontoinformationen ändern"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:168
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:164
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deiner "
@@ -1134,29 +1125,29 @@ msgid ""
 "*_Einstellungen_*.  [.result]#Die `Einstellungen` werden geöffnet.#"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:171
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:167
 msgid ""
 "Klicke auf der linken Seite auf *_Konto_*.  [.result]#Die "
 "`Kontoinformationen` werden angezeigt.#"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:177
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:173
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Konto hinterlegt "
 "sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:178
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:174
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Konto "
 "aktualisieren_*"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:180
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:176
 msgid ""
 "Deine E-Mail-Adresse kann nicht geändert werden. Um diese zu ändern, wende "
 "dich mit einer E-Mail an "
@@ -1166,53 +1157,53 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:181
+#: de/modules/ROOT/pages/account.adoc:177
 #, no-wrap
 msgid "Unternehmensinformationen ändern"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:189
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:185
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deines Dashboards und klicke auf "
 "*_Settings_*.  [.result]#Die `Einstellungen` wird angezeigt.#"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:192
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:188
 msgid ""
 "Klicke auf der linken Seite auf *_Unternehmen_*.  [.result]#Die "
 "`Unternehmenseinstellungen` werden angezeigt.#"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:198
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:194
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Unternehmen hinterlegt "
 "sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:199
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:195
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Firma "
 "aktualisieren_*"
 msgstr ""
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:201
+#: de/modules/ROOT/pages/account.adoc:197
 #, no-wrap
 msgid "Konto löschen"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:203
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:199
 msgid "Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:206
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:202
 msgid ""
 "Folge hierzu den Schritten 1 & 2 des Kapitels <<edit-account, "
 "Kontoinformationen ändern>>.  [.result]#Du bist nun im Bereich der "
@@ -1220,20 +1211,20 @@ msgid ""
 "Abschnitt:#"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:211
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:207
 msgid "Klicke auf den Button *_Ihr Konto löschen_*."
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:218
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:214
 msgid ""
 "Nun erscheint eine Meldung, die dich bittet, das Löschen des Kontos zu "
 "bestätigen. Klicke auf den Button *_Bestätigen_*."
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:219
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:215
 msgid ""
 "Im unteren rechten Eck wird dir nun die Erfolgsmeldung "
 "image:account/delete-account-3.png[logon, 180, 30] angezeigt."
