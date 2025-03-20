@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-20 14:49+0000\n"
+"POT-Creation-Date: 2025-03-20 15:02+0000\n"
 "PO-Revision-Date: 2025-03-19 15:43+0000\n"
 "Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
 "Language-Team: Portuguese <https://weblate.my-agrirouter.com/projects/"
@@ -720,13 +720,13 @@ msgstr "Criar conta de utilizador"
 #: de/modules/ROOT/pages/account.adoc:88 de/modules/ROOT/pages/account.adoc:98
 #: de/modules/ROOT/pages/account.adoc:111
 #: de/modules/ROOT/pages/account.adoc:122
-#: de/modules/ROOT/pages/account.adoc:136
-#: de/modules/ROOT/pages/account.adoc:160
-#: de/modules/ROOT/pages/account.adoc:169
-#: de/modules/ROOT/pages/account.adoc:181
-#: de/modules/ROOT/pages/account.adoc:190
-#: de/modules/ROOT/pages/account.adoc:203
-#: de/modules/ROOT/pages/account.adoc:210 de/modules/ROOT/pages/group.adoc:28
+#: de/modules/ROOT/pages/account.adoc:140
+#: de/modules/ROOT/pages/account.adoc:164
+#: de/modules/ROOT/pages/account.adoc:173
+#: de/modules/ROOT/pages/account.adoc:185
+#: de/modules/ROOT/pages/account.adoc:194
+#: de/modules/ROOT/pages/account.adoc:207
+#: de/modules/ROOT/pages/account.adoc:214 de/modules/ROOT/pages/group.adoc:28
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
@@ -1122,7 +1122,9 @@ msgstr "Iniciar sessão"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:118
-msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
+#, fuzzy
+#| msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
+msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
 msgstr "Selecionar *_Log in_*.  [O processo de início de sessão é iniciado."
 
 #. type: Plain text
@@ -1134,47 +1136,69 @@ msgstr ""
 "Introduzir o *_endereço de correio electrónico_* com o qual já se registou "
 "no agrirouter <<criar conta de utilizador, registado>>."
 
-#. type: Plain text
+#. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:127
-#: de/modules/ROOT/pages/account.adoc:141
+#: de/modules/ROOT/pages/account.adoc:145
 msgid "Klicke auf *_Anmelden_*."
 msgstr "Clicar em *_Login_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
+#, fuzzy
+#| msgid ""
+#| "Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
+#| "Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
+#| "registriert>> hast. Kopiere den Code aus der Mail."
 msgid ""
-"Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-"Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-"registriert>> hast. Kopiere den Code aus der Mail."
+"Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
+"der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
+"Kopiere den Code aus der Mail."
 msgstr ""
 "Receberá agora um *_email com um código de 8 dígitos_* no endereço de "
 "correio eletrónico que utilizou para se registar no agrirouter <<criar conta "
 "de utilizador, registar>>. Copie o código da mensagem de correio eletrónico."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:132
+#: de/modules/ROOT/pages/account.adoc:133
 #, fuzzy
 #| msgid ""
 #| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
 #| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
 #| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
-"Solltest du die E-Mail mit dem Code nicht empfangen, schaue in deinem *_Spam-"
-"Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis die E-"
-"Mail bei dir ankommt."
+"<<<<<<< HEAD Solltest du die E-Mail mit dem Code nicht empfangen, schaue in "
+"deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+"dauern, bis die E-Mail bei dir ankommt."
 msgstr ""
 "Se não receber a mensagem de correio eletrónico com o código de 8 dígitos, "
 "verifique a sua pasta *_spam_*. Por vezes, também pode demorar *_alguns "
 "minutos_* a chegar a mensagem de correio eletrónico."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:140
+#: de/modules/ROOT/pages/account.adoc:136
+#, fuzzy
+#| msgid ""
+#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
+#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+#| "dauern, bis die E-Mail bei dir ankommt."
+msgid ""
+"Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
+"*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
+"die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to change email "
+"address)"
+msgstr ""
+"Se não receber a mensagem de correio eletrónico com o código de 8 dígitos, "
+"verifique a sua pasta *_spam_*. Por vezes, também pode demorar *_alguns "
+"minutos_* a chegar a mensagem de correio eletrónico."
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:144
 msgid ""
 "Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert hast."
 msgstr "Agora, cole o código que copiou do seu programa de correio eletrónico."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:147
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:151
 msgid ""
 "Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, "
 "ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:"
@@ -1183,28 +1207,38 @@ msgstr ""
 "agrirouter] sem ter de introduzir os dados do utilizador, proceder da "
 "seguinte forma"
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:149
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:153
+#, fuzzy
+#| msgid ""
+#| "Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben "
+#| "beschrieben."
 msgid ""
-"Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben "
-"beschrieben."
+"Öffne die https://app.agrirouter.com/[die Anmeldeseite] wie oben beschrieben."
 msgstr ""
 "Abra https://app.agrirouter.com/de [a página de início de sessão] como "
 "descrito acima."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:150
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:154
 msgid "Aktiviere die Checkbox \"_Angemeldet bleiben_\" und melde dich an."
 msgstr ""
 "Ativar a caixa de verificação \"_Manter a sessão iniciada_\" e iniciar "
 "sessão."
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:152
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:156
+#, fuzzy
+#| msgid ""
+#| "Wenn du deine Arbeit im Dashboard beendet hast, schließe die "
+#| "Internetseite [.underline]#ohne# dich abzumelden.  [.result]#Wenn du das "
+#| "nächste Mal https://app.agrirouter.com/de[die Anmeldeseite] öffnest, wird "
+#| "sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] "
+#| "angezeigt.#"
 msgid ""
 "Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [."
 "underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal https://"
-"app.agrirouter.com/de[die Anmeldeseite] öffnest, wird sofort deine xref:"
+"app.agrirouter.com/[die Anmeldeseite] öffnest, wird sofort deine xref:"
 "introduction.adoc/myagrirouter[my agrirouter Seite] angezeigt.#"
 msgstr ""
 "Quando tiver terminado o seu trabalho no painel de controlo, feche o site [."
@@ -1214,19 +1248,19 @@ msgstr ""
 "apresentada.#"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:155
+#: de/modules/ROOT/pages/account.adoc:159
 #, no-wrap
 msgid "Hinterlegte Daten ändern"
 msgstr "Alterar dados armazenados"
 
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:156
+#: de/modules/ROOT/pages/account.adoc:160
 #, no-wrap
 msgid "Kontoinformationen ändern"
 msgstr "Alterar informações da conta"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:164
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:168
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deiner xref:introduction.adoc/"
@@ -1238,8 +1272,8 @@ msgstr ""
 "myagrirouter[my agrirouter page] e clique em *_Settings_*.  [O `Settings` "
 "será aberto."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:167
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:171
 msgid ""
 "Klicke auf der linken Seite auf *_Konto_*.  [.result]#Die "
 "`Kontoinformationen` werden angezeigt.#"
@@ -1247,8 +1281,8 @@ msgstr ""
 "Clique em *_Conta_* no lado esquerdo.  [É apresentada a \"informação da "
 "conta\"."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:173
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:177
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Konto hinterlegt sind. "
 "Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
@@ -1256,27 +1290,31 @@ msgstr ""
 "Aparecem agora todas as informações armazenadas para a sua conta. Pode "
 "*adicionar ou alterar dados_* como desejar."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:174
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:178
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Konto "
 "aktualisieren_*"
 msgstr ""
 "Se pretender guardar as suas alterações, clique no botão *_Actualizar conta_*"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:176
-msgid "Deine E-Mail-Adresse kann nicht geändert werden."
-msgstr "O seu endereço eletrónico não pode ser alterado."
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:180
+msgid ""
+"Deine E-Mail-Adresse kann nicht geändert werden. Um diese zu ändern, wende "
+"dich mit einer E-Mail an mailto:support@agrirouter.com[support@agrirouter."
+"com]. Nach Prüfung deiner E-Mail-Adresse wird diese für dich geändert und du "
+"erhältst Rückmeldung durch unser Support-Team."
+msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:177
+#: de/modules/ROOT/pages/account.adoc:181
 #, no-wrap
 msgid "Unternehmensinformationen ändern"
 msgstr "Alterar informações da empresa"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:185
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:189
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deines Dashboards und klicke auf "
@@ -1286,8 +1324,8 @@ msgstr ""
 "iniciais no canto superior direito do seu painel de controlo e clique em "
 "*Definições_*.  [O menu \"Definições\" será apresentado."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:188
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:192
 msgid ""
 "Klicke auf der linken Seite auf *_Unternehmen_*.  [.result]#Die "
 "`Unternehmenseinstellungen` werden angezeigt.#"
@@ -1295,8 +1333,8 @@ msgstr ""
 "Clique em *_Company_* no lado esquerdo.  [São apresentadas as \"Definições "
 "da empresa\"."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:194
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:198
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Unternehmen hinterlegt "
 "sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
@@ -1304,8 +1342,8 @@ msgstr ""
 "Aparecem agora todas as informações armazenadas para a sua empresa. Pode "
 "*_adicionar ou alterar dados_* como desejar."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:195
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:199
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Firma "
 "aktualisieren_*"
@@ -1313,18 +1351,18 @@ msgstr ""
 "Se pretender guardar as alterações, clique no botão *_Actualizar empresa_*"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:197
+#: de/modules/ROOT/pages/account.adoc:201
 #, no-wrap
 msgid "Konto löschen"
 msgstr "Eliminar a conta"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:199
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:203
 msgid "Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:"
 msgstr "Elimine a conta de utilizador quando já não precisar dela:"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:202
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:206
 msgid ""
 "Folge hierzu den Schritten 1 & 2 des Kapitels <<edit-account, "
 "Kontoinformationen ändern>>.  [.result]#Du bist nun im Bereich der "
@@ -1335,13 +1373,15 @@ msgstr ""
 "account information>>.  [Está agora na área de definições da conta. Desloque-"
 "se até ao fim e verá esta secção:#"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:207
-msgid "klicke auf den Button *_Ihr Konto löschen_*."
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:211
+#, fuzzy
+#| msgid "klicke auf den Button *_Ihr Konto löschen_*."
+msgid "Klicke auf den Button *_Ihr Konto löschen_*."
 msgstr "clique no botão *_Delete a sua conta_*."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:214
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:218
 msgid ""
 "Nun erscheint eine Meldung, die dich bittet, das Löschen des Kontos zu "
 "bestätigen. Klicke auf den Button *_Bestätigen_*."
@@ -1349,8 +1389,8 @@ msgstr ""
 "Aparecerá uma mensagem a pedir-lhe que confirme a eliminação da conta. "
 "Clique no botão *_Confirmar_*."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:215
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:219
 msgid ""
 "Im unteren rechten Eck wird dir nun die Erfolgsmeldung image:account/delete-"
 "account-3.png[logon, 180, 30] angezeigt."
@@ -1744,10 +1784,15 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
+#, fuzzy
+#| msgid ""
+#| "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
+#| "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
+#| "adoc#solution-guides[Solution Guides] nachlesen."
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
-"adoc#solution-guides[Solution Guides] nachlesen."
+"adoc#solution-guides[Solution-Guides] nachlesen."
 msgstr ""
 "Introduzir o código de registo na unidade de telemetria. Pode saber como "
 "isto funciona com o seu Fornecedor no xref:solution-guides.adoc#solution-"
@@ -1764,8 +1809,12 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
+#, fuzzy
+#| msgid ""
+#| "Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] "
+#| "nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgid ""
-"Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] nach, "
+"Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
 "Consulte xref:solution-guides.adoc#solution-guides[Solution Guides] para "
@@ -1945,10 +1994,15 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195
+#, fuzzy
+#| msgid ""
+#| "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie "
+#| "das für deine Software funktioniert, erfährst du in den xref:solution-"
+#| "guides.adoc#solution-guides[Solution Guides]."
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
-"adoc#solution-guides[Solution Guides]."
+"adoc#solution-guides[Solution-Guides]."
 msgstr ""
 "Inicie sessão no seu software agrícola e ligue o agrirouter. Pode descobrir "
 "como isto funciona para o seu software em xref:solution-guides.adoc#solution-"
@@ -1976,10 +2030,17 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:205
+#, fuzzy
+#| msgid ""
+#| "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in "
+#| "einigen Fällen anders) findest du meist in den Einstellungen der "
+#| "Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution "
+#| "Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem "
+#| "agrirouter verbindest."
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
-"den xref:solution-guides.adoc#solution-guides[Solution Guides] findest du "
+"den xref:solution-guides.adoc#solution-guides[Solution-Guides] findest du "
 "eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest."
 msgstr ""
 "A função *_Connect to agrirouter_* (a Designação é diferente em alguns "
@@ -1989,9 +2050,13 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:207
+#, fuzzy
+#| msgid ""
+#| "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
+#| "findest du auf dem https://agrirouter.com/de/solutions[Solution Finder]."
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-"findest du auf dem https://agrirouter.com/de/solutions[Solution Finder]."
+"findest du auf dem https://agrirouter.com/de/solutions[Solution-Finder]."
 msgstr ""
 "Pode ser consultada uma lista completa de software agrícola com o agrirouter "
 "em https://agrirouter.com/de/solutions[Solution Finder]."
@@ -3262,11 +3327,18 @@ msgstr "Ponto final"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:51
+#, fuzzy
+#| msgid ""
+#| "Deine Maschinen und deine Software werden über den agrirouter als "
+#| "Endpunkte miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie "
+#| "auch Empfänger sein. Wichtig ist nur, dass die Endpunkte über eine "
+#| "<<Route,Routen>> miteineander verbunden sind. Grundsätzlich gibt es zwei "
+#| "Typen von Endpunkten:"
 msgid ""
 "Deine Maschinen und deine Software werden über den agrirouter als Endpunkte "
 "miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger "
 "sein. Wichtig ist nur, dass die Endpunkte über eine <<Route,Routen>> "
-"miteineander verbunden sind. Grundsätzlich gibt es zwei Typen von Endpunkten:"
+"miteinander verbunden sind. Grundsätzlich gibt es zwei Typen von Endpunkten:"
 msgstr ""
 "As suas Máquinas e o seu software estão ligados entre si como Pontos finais "
 "através do agrirouter. Um ponto final pode ser tanto um transmissor como um "
@@ -3438,7 +3510,9 @@ msgstr "Documentos"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:88
-msgid "Berichte im pdf-Format"
+#, fuzzy
+#| msgid "Berichte im pdf-Format"
+msgid "Berichte im PDF-Format"
 msgstr "Relatórios em formato pdf"
 
 #. type: Plain text
@@ -3977,9 +4051,13 @@ msgstr "Apoio por correio eletrónico"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:79
+#, fuzzy
+#| msgid ""
+#| "Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
+#| "support@my-agrirouter.com[support@my-agrirouter.com]."
 msgid ""
 "Wenn du das Help Center nicht nutzen kannst, schreibe an E-Mail an mailto:"
-"support@my-agrirouter.com[support@my-agrirouter.com]."
+"support@agrirouter.com[support@agrirouter.com]."
 msgstr ""
 "Se não conseguir Utilizar o Centro de Ajuda, envie uma mensagem de correio "
 "eletrónico para mailto:support@my-agrirouter.com[support@my-agrirouter.com]."
@@ -12088,6 +12166,9 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+
+#~ msgid "Deine E-Mail-Adresse kann nicht geändert werden."
+#~ msgstr "O seu endereço eletrónico não pode ser alterado."
 
 #, no-wrap
 #~ msgid "Telemetriedaten"
