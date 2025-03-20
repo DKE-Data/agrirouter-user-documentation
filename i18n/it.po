@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-01-03 15:26+0100\n"
+"POT-Creation-Date: 2025-03-20 10:52+0000\n"
 "PO-Revision-Date: 2025-03-19 14:57+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
@@ -3203,13 +3203,13 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:35
 msgid ""
-"Wenn du dich unter https://app.agrirouter.com[agrirouter.com] "
-"angemeldet hast, wird dir die _my agrirouter_ Seite angezeigt, deine "
-"persönliche Startseite.  Über die _my agrirouter_ Seite hast du Zugriff auf "
-"alle Funktionen des agrirouters:"
+"Wenn du dich unter https://app.agrirouter.com[agrirouter.com] angemeldet "
+"hast, wird dir die _my agrirouter_ Seite angezeigt, deine persönliche "
+"Startseite.  Über die _my agrirouter_ Seite hast du Zugriff auf alle "
+"Funktionen des agrirouters:"
 msgstr ""
-"Se avete effettuato il login su https://app.agrirouter.com[agrirouter."
-"com], vi verrà mostrata la pagina _my agrirouter_, la vostra pagina iniziale "
+"Se avete effettuato il login su https://app.agrirouter.com[agrirouter.com], "
+"vi verrà mostrata la pagina _my agrirouter_, la vostra pagina iniziale "
 "personale.  La pagina _my agrirouter_ consente di accedere a tutte le "
 "funzioni di agrirouter:"
 
@@ -3479,7 +3479,7 @@ msgstr ""
 "che possono essere elaborati dal mittente e dal destinatario."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/introduction.adoc:92
+#: de/modules/ROOT/pages/introduction.adoc:91
 msgid ""
 "Im https://agrirouter.com/de/solutions[Solution-Finder] kannst du anhand von "
 "Filtereinstellungen die Endpunkte herausfinden, die die von dir gewünschten "
@@ -3488,31 +3488,6 @@ msgstr ""
 "In https://agrirouter.com/de/solutions[Solution-Finder] è possibile "
 "utilizzare le impostazioni dei filtri per trovare gli Endpoint in grado di "
 "inviare e/o ricevere i tipi di dati desiderati."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/introduction.adoc:93
-#, no-wrap
-msgid "Telemetriedaten"
-msgstr "Dati di telemetria"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/introduction.adoc:95
-msgid ""
-"Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während der "
-"Feldarbeit laufend anfallende Maschinen- , Positions- und Prozessdaten. "
-"agrirouter unterstützt über xref:appendix/ddis.adoc[600 Datentypen], die in "
-"12 Kategorien aufgeteilt sind:"
-msgstr ""
-"Molte macchine sono in grado di fornire dati in tempo reale, ovvero dati "
-"relativi a macchine, posizioni e processi generati in modo continuativo "
-"durante la lavorazione del terreno. agrirouter supporta xref:appendix/ddis."
-"adoc[600 tipi di dati], suddivisi in 12 categorie:"
-
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/introduction.adoc:96
-#, no-wrap
-msgid "12 Kategorien der Echtzeitdaten"
-msgstr "12 categorie di dati in tempo reale"
 
 #. type: Title =
 #: de/modules/ROOT/pages/routing.adoc:5
@@ -4916,8 +4891,8 @@ msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://ag-force.com/"
 "[AgForce-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
-"Prima di iniziare, è necessario accedere al proprio account tramite il "
-"link:https://ag-force.com/[sito web AgForce, window=\"_blank\"]."
+"Prima di iniziare, è necessario accedere al proprio account tramite il link:"
+"https://ag-force.com/[sito web AgForce, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:18
@@ -4925,8 +4900,8 @@ msgid ""
 "Klicke im oberen Reiter den Tab *_Stammdaten_* und wähle "
 "*_Betriebseinstellungen_* aus."
 msgstr ""
-"Fare clic sulla scheda *Dati master_* nella scheda superiore e selezionare *"
-"Impostazioni operative_*."
+"Fare clic sulla scheda *Dati master_* nella scheda superiore e selezionare "
+"*Impostazioni operative_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:19
@@ -5621,8 +5596,8 @@ msgid "eine Maschine hinzufügst."
 msgstr "aggiungere una macchina."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/kuhn.adoc:7
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:8
+#: de/modules/ROOT/pages/solution-guides/kuhn.adoc:7
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:9
 msgid "dein Terminal mit dem agrirouter verbindest."
 msgstr "collegare il terminale all'agrirouter."
@@ -12247,6 +12222,25 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+
+#, no-wrap
+#~ msgid "Telemetriedaten"
+#~ msgstr "Dati di telemetria"
+
+#~ msgid ""
+#~ "Viele Maschinen können Echtzeitdaten zur Verfügung stellen, d.h. während "
+#~ "der Feldarbeit laufend anfallende Maschinen- , Positions- und "
+#~ "Prozessdaten. agrirouter unterstützt über xref:appendix/ddis.adoc[600 "
+#~ "Datentypen], die in 12 Kategorien aufgeteilt sind:"
+#~ msgstr ""
+#~ "Molte macchine sono in grado di fornire dati in tempo reale, ovvero dati "
+#~ "relativi a macchine, posizioni e processi generati in modo continuativo "
+#~ "durante la lavorazione del terreno. agrirouter supporta xref:appendix/"
+#~ "ddis.adoc[600 tipi di dati], suddivisi in 12 categorie:"
+
+#, no-wrap
+#~ msgid "12 Kategorien der Echtzeitdaten"
+#~ msgstr "12 categorie di dati in tempo reale"
 
 #, no-wrap
 #~ msgid "AMAZONE myAmaRouter Solution Guide"
