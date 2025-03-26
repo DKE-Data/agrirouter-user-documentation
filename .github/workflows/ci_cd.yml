@@ -74,6 +74,8 @@ jobs:
             **/*
             !.git/**
             !node_modules/**
+            !**/modules/ROOT/assets/images/**
+            !build/**/_images/**
           retention-days: 7
 
       - name: Install SSH key
