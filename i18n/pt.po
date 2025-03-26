@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-20 15:22+0000\n"
+"POT-Creation-Date: 2025-03-26 14:05+0000\n"
 "PO-Revision-Date: 2025-03-20 15:20+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Portuguese <https://weblate.my-agrirouter.com/projects/"
@@ -328,7 +328,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:9
-#: de/modules/ROOT/pages/group.adoc:10
 msgid "In diesem Abschnitt erfährst du"
 msgstr "Nesta secção, aprenderá"
 
@@ -433,8 +432,8 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-". Selecionar o convite no separador \"Abrir convites\".  [O registo na lista é "
-"colorido a verde."
+". Selecionar o convite no separador \"Abrir convites\".  [O registo na lista "
+"é colorido a verde."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:50
@@ -732,7 +731,7 @@ msgstr "Criar conta de utilizador"
 #: de/modules/ROOT/pages/account.adoc:181
 #: de/modules/ROOT/pages/account.adoc:190
 #: de/modules/ROOT/pages/account.adoc:203
-#: de/modules/ROOT/pages/account.adoc:210 de/modules/ROOT/pages/group.adoc:28
+#: de/modules/ROOT/pages/account.adoc:210
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
@@ -2051,7 +2050,7 @@ msgstr ""
 "em https://agrirouter.com/de/solutions[Solution Finder]."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:210 de/modules/ROOT/pages/group.adoc:241
+#: de/modules/ROOT/pages/endpoint.adoc:210
 #, no-wrap
 msgid "Löschen"
 msgstr "Eliminar"
@@ -2093,7 +2092,7 @@ msgstr ""
 "contexto. Clique no botão *_confirmar_*.#"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/endpoint.adoc:224 de/modules/ROOT/pages/group.adoc:93
+#: de/modules/ROOT/pages/endpoint.adoc:224
 #, no-wrap
 msgid "Detailansicht"
 msgstr "Vista pormenorizada"
@@ -2340,788 +2339,6 @@ msgid ""
 msgstr ""
 "Para mais informações, consulte o capítulo xref:support."
 "adoc#support[Support]."
-
-#. type: Title =
-#: de/modules/ROOT/pages/group.adoc:4
-#, no-wrap
-msgid "Gruppe"
-msgstr "Grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:8
-msgid ""
-"Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach "
-"Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:introduction."
-"adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle "
-"Mitglieder der Gruppe."
-msgstr ""
-"Resumir os pontos finais em xref:introduction.adoc#group[groups], por "
-"exemplo, por fabricante, tipo de máquina ou medida. + A vantagem: O xref:"
-"introduction.adoc#route[Routing] que definir para o Grupo aplica-se a todos "
-"os membros do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:12
-msgid "wie du eine Gruppe hinzufügst und bearbeitest"
-msgstr "Como adicionar e editar um Grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:13
-msgid "wie du der Gruppe Mitglieder hinzufügst"
-msgstr "como adicionar membros ao Grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:14
-msgid ""
-"wie du xref:introduction.adoc#route[die Routen] für die Gruppe erstellst"
-msgstr "como criar xref:introduction.adoc#route[as rotas] para o Grupo"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/group.adoc:15
-#, no-wrap
-msgid "Das Kontrollzentrum"
-msgstr "O Centro de controlo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:17
-msgid ""
-"Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine "
-"Gruppe hinzuzufügen und zu verwalten:"
-msgstr ""
-"Abra o xref:introduction.adoc#control-center[Centro de Controlo] para "
-"adicionar e gerir um Grupo:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:20
-msgid ""
-"Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
-"Kontrollzentrum wird angezeigt.#"
-msgstr ""
-"Clique no mosaico *_Centro de controlo_* no painel de controlo.  [É "
-"apresentado o Centro de controlo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:23
-msgid ""
-"Klicke den Button *_Gruppen_*.  [.result]#Links wird die Gruppenliste "
-"angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
-msgstr ""
-"Clique no botão *_Grupos_*.  [A lista de grupos é apresentada à esquerda. A "
-"vista detalhada é apresentada à direita."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/group.adoc:24
-#, no-wrap
-msgid "Gruppenliste"
-msgstr "Lista de grupos"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:32
-msgid ""
-"Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
-msgstr "A lista de grupos é ordenada alfabeticamente por nome. + É possível"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:34
-msgid "eine Gruppe hinzufügen,"
-msgstr "adicionar um Grupo,"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:35
-msgid "eine Gruppe suchen,"
-msgstr "procurar um grupo,"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:36
-msgid "die Gruppenliste aktualisieren."
-msgstr "Atualizar a lista de grupos."
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/group.adoc:42
-msgid "Auf einem Tablet öffnest du die Gruppenliste über das Burger-Menü:"
-msgstr "Num tablet, abra a lista de grupos através do menu de hambúrgueres:"
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/group.adoc:45
-msgid ""
-"Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[burger, 30, 30].  [."
-"result]#Die Endpunkteliste wird angezeigt.#"
-msgstr ""
-"Clique no ícone *_menu de hambúrguer_* image:ar_burger.icon.png[burger, 30, "
-"30].  [É apresentada a lista final de pontos."
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/group.adoc:47
-msgid ""
-"Klicke den Button *_Gruppen_*.  [.result]#Die Gruppenliste wird angezeigt.#"
-msgstr "Clicar no botão *_Grupos_*.  [A lista de grupos é apresentada."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:51
-msgid "Ein Listeneintrag besteht aus"
-msgstr "Uma entrada de lista consiste em"
-
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/group.adoc:54
-#, no-wrap
-msgid "Group list"
-msgstr "Lista de grupos"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:57
-msgid "Namen"
-msgstr "Nomes"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:58
-msgid "Typ (nur bei den zwei Standard-Gruppen)"
-msgstr "Tipo (apenas para os dois Grupos padrão)"
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:62
-#, no-wrap
-msgid "Gruppe hinzufügen"
-msgstr "Adicionar grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:66
-msgid ""
-"Klicke den Button *_+ Gruppe_*.  [.result]#Das Fenster `Neue Gruppe` wird "
-"angezeigt.#"
-msgstr "Clique no botão *_+ Grupo_*.  [É apresentada a janela \"Novo grupo\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:67
-msgid "Gebe den Namen und optional eine kurze Beschreibung ein."
-msgstr "Introduzir o nome e, opcionalmente, uma breve descrição."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:69
-msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Die Gruppenliste wird angezeigt."
-"#"
-msgstr "Clicar no botão *_Confirmar_*.  [A lista de grupos é apresentada."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:71
-msgid ""
-"Wenn du viele Gruppen hast, empfiehlt es sich, eine erklärende Beschreibung "
-"einzugeben. Diese wird in der Detailansicht angezeigt."
-msgstr ""
-"Se tiver muitos Grupos, é aconselhável introduzir uma descrição explicativa. "
-"Esta é apresentada na vista detalhada."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:72
-#, no-wrap
-msgid "Gruppe suchen"
-msgstr "Grupo de pesquisa"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:74
-msgid ""
-"Wenn die Gruppenliste viele Einträge enthält, kannst Du eine Gruppe suchen:"
-msgstr ""
-"Se a lista de grupos contiver muitas entradas, é possível procurar um grupo:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:77
-msgid ""
-"Klicke das Icon *_Suchen_* über der Gruppenliste image:ar_search.icon."
-"png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
-msgstr ""
-"Clicar no ícone *_Search_* por cima da lista de grupos image:ar_search.icon."
-"png[search, 30, 30].  [O cursor fica intermitente no campo de entrada "
-"*_Search_*.#"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:79
-msgid ""
-"Gebe den Namen oder Teile des Namens der gesuchten Gruppe ein.  [."
-"result]#Bereits beim Tippen wird die Gruppenliste aktualisiert.#"
-msgstr ""
-"Introduza o nome ou parte do nome do Grupo que está a procurar.  [A lista de "
-"grupos é actualizada à medida que se escreve."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:81
-msgid "Mache die Suche rückgängig wie folgt:"
-msgstr "Anular a pesquisa da seguinte forma:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:84
-msgid ""
-"Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem "
-"Eingabefeld *_Suchen_*.  [.result]#Alle Gruppen werden angezeigt.#"
-msgstr ""
-"Clique no ícone image:ar_revert.icon.png[revert, 30, 30] à direita do campo "
-"de entrada *_Search_*.  [Todos os grupos são apresentados."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:86
-#, no-wrap
-msgid "Liste aktualisieren"
-msgstr "Lista de atualização"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:88
-msgid ""
-"Wenn deine neu erstellte Gruppe nicht in der Liste erscheint, aktualisiere "
-"die Liste:"
-msgstr "Se o grupo recém-criado não aparecer na lista, actualize a lista:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:91
-msgid ""
-"Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30] "
-"über der Gruppenliste.  [.result]#Die Gruppenliste wird aktualisiert.#"
-msgstr ""
-"Clique no ícone *_refresh_* image:ar_refresh.icon.png[refresh, 30, 30] acima "
-"da lista de grupos.  [A lista de grupos será actualizada."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:96
-msgid ""
-"In der Detailansicht sind alle Informationen zur Gruppe zusammengefasst.  "
-"Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe "
-"austauschen und fügst der Gruppe Mitglieder hinzu."
-msgstr ""
-"Todas as informações sobre o Grupo são resumidas na vista detalhada.  É aqui "
-"que gere os pontos finais e os grupos que trocam dados com o grupo e "
-"adiciona membros ao grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:98
-msgid ""
-"Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,"
-"Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt."
-msgstr ""
-"A vista detalhada está dividida nos separadores <<enviar para,enviar para>>, "
-"<<receber de,receber de>> e <<membros,membros>>."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:100
-#, no-wrap
-msgid "Senden an"
-msgstr "Enviar para"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:103
-msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
-msgstr "O separador contém uma lista de destinatários. + Destinatários"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:105
-msgid "befinden sich am Ende einer abgehenden Route"
-msgstr "estão localizados no final de uma rota de saída"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:106
-msgid ""
-"sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden"
-msgstr ""
-"são pontos finais e grupos para os quais os membros do grupo enviam dados"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:108 de/modules/ROOT/pages/group.adoc:159
-#: de/modules/ROOT/pages/group.adoc:227
-msgid "Du kannst"
-msgstr "Pode"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:110
-msgid ""
-"Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
-"ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
-"30, 30]"
-msgstr ""
-"Adicionar destinatário image:ar_add.icon.png[add, 30, 30], editar image:"
-"ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon.png[delete, "
-"30, 30]"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:111
-msgid ""
-"definieren, welche Nachrichten die Empfänger von der Gruppe erhalten sollen"
-msgstr "definir quais as Mensagens que os destinatários devem receber do Grupo"
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:113
-#, no-wrap
-msgid "Empfänger hinzufügen"
-msgstr "Adicionar destinatário"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:115
-msgid ""
-"Du erstellst die Route für den Versand von Daten an eine andere Gruppe oder "
-"einen Endpunkt:"
-msgstr ""
-"O utilizador cria a rota para enviar dados para outro Grupo ou para um Ponto "
-"final:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:118 de/modules/ROOT/pages/group.adoc:168
-msgid ""
-"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
-"result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Clicar no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [O formulário "
-"\"Novo roteiro\" é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:120
-msgid ""
-"Klicke in das Eingabefeld *_Empfänger_*.  [.result]#Die Auswahlliste "
-"`Endpunkt auswählen` wird angezeigt.#"
-msgstr ""
-"Clicar no campo de entrada *_recipiente_*.  [É apresentada a lista de "
-"seleção \"Selecionar ponto final\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:122
-msgid ""
-"Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecionar o destinatário.  [É apresentado o formulário \"Novo "
-"encaminhamento\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:124 de/modules/ROOT/pages/group.adoc:174
-msgid ""
-"Klicke in das Eingabefeld *_Nachrichtenformate_*.  [.result]#Die "
-"Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#"
-msgstr ""
-"Clicar no campo de entrada *Formatos de mensagem_*.  [É apresentada a lista "
-"de seleção \"Selecionar formatos de mensagem\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:126
-msgid ""
-"Wähle die Nachrichtenformate, die der Empfänger erhalten soll und klicke "
-"*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecione os formatos de mensagem que o destinatário deve receber e clique "
-"em *_Confirmar_*.  [É apresentado o formulário `Novo encaminhamento`."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:128 de/modules/ROOT/pages/group.adoc:178
-msgid ""
-"Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
-"result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
-msgstr ""
-"Clicar no campo de entrada *_Telemetry-Parameter-Categories_*.  [É "
-"apresentado o formulário \"Categorias dos parâmetros de telemetria\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:130 de/modules/ROOT/pages/group.adoc:180
-msgid ""
-"Wähle eine oder mehrere Kategorien und klicke *_Bestätigen_*.  [.result]#Das "
-"Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecionar uma ou mais categorias e clicar em *_Confirmar_*.  [O formulário "
-"\"Novo roteiro\" é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:132
-msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird hinzugefügt.#"
-msgstr "Clique no botão *_Confirmar_*.  [O destinatário será adicionado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:134
-msgid ""
-"Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten "
-"dauern, bis das Routing erstellt ist, d.h. der Empfänger Daten von der "
-"Gruppe empfangen kann."
-msgstr ""
-"O novo destinatário fica imediatamente visível. No entanto, pode demorar "
-"vários minutos até que o encaminhamento seja criado, ou seja, o destinatário "
-"pode receber dados do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:136 de/modules/ROOT/pages/group.adoc:186
-msgid ""
-"Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte "
-"verfügbar, die Echtzeitdaten verarbeiten können."
-msgstr ""
-"O formulário \"Categorias dos parâmetros de telemetria\" só está disponível "
-"para os pontos finais que podem processar dados em tempo real."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:137
-#, no-wrap
-msgid "Empfänger bearbeiten"
-msgstr "Editar destinatário"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:141 de/modules/ROOT/pages/group.adoc:191
-msgid ""
-"Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].  [."
-"result]#Das Formular `Routing bearbeiten` wird angezeigt.#"
-msgstr ""
-"Clicar no ícone *_edit_* image:ar_edit.icon.png[edit, 30, 30].  [É "
-"apresentado o formulário `Editar o roteiro`."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:142
-msgid ""
-"Ändere die Eigenschaften des Empfängers und klicke den Button *_Bestätigen_*."
-msgstr ""
-"Altere as propriedades do destinatário e clique no botão *_Confirmar_*."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:143
-#, no-wrap
-msgid "Empfänger löschen"
-msgstr "Eliminar destinatário"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:147 de/modules/ROOT/pages/group.adoc:197
-#: de/modules/ROOT/pages/group.adoc:220
-msgid ""
-"Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].  [."
-"result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#"
-msgstr ""
-"Clicar no ícone *_delete_* image:ar_delete.icon.png[delete, 30, 30].  [É "
-"apresentada a janela de mensagem `Confirmar`."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:149
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Der Empfänger erthält keine "
-"Nachrichten mehr von der Gruppe.#"
-msgstr ""
-"Confirmar a consulta com *_OK_*.  [O destinatário já não recebe Mensagens do "
-"Grupo."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:151
-#, no-wrap
-msgid "Empfangen von"
-msgstr "Receber de"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:154
-msgid "Der Reiter enthält eine Liste der Sender. + Sender"
-msgstr "O separador contém uma lista de transmissores. + Transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:156
-msgid "befinden sich am Anfang einer eingehenden Route"
-msgstr "estão no início de uma rota Aberto"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:157
-msgid ""
-"sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden"
-msgstr "são pontos finais e grupos que enviam dados para os membros do grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:161
-msgid ""
-"Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
-"ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
-"30, 30]"
-msgstr ""
-"Adicionar transmissor image:ar_add.icon.png[add, 30, 30], editar image:"
-"ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon.png[delete, "
-"30, 30]"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:162
-msgid "definieren, welche Nachrichten die Gruppe vom Sender erhalten soll"
-msgstr "Definir as Mensagens que o Grupo deve receber do remetente"
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:163
-#, no-wrap
-msgid "Sender hinzufügen"
-msgstr "Adicionar transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:165
-msgid ""
-"Du erstellst die Route für den Empfang von Daten von einer anderen Gruppe "
-"oder einem Endpunkt:"
-msgstr ""
-"O utilizador cria a rota para receber dados de outro Grupo ou de um Ponto "
-"final:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:170
-msgid ""
-"Klicke in das Eingabefeld *_Sender_*.  [.result]#Die Auswahlliste `Endpunkt "
-"auswählen` wird angezeigt.#"
-msgstr ""
-"Clique no campo de entrada *_Sender_*.  [É apresentada a lista de seleção "
-"\"Selecionar ponto final\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:172
-msgid ""
-"Wähle den Sender.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr "Selecionar o remetente.  [É apresentado o formulário \"Novo roteiro\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:176
-msgid ""
-"Wähle die Nachrichtenformate, die der Sender senden soll und klicke "
-"*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecione os formatos de mensagem que o remetente deve enviar e clique em "
-"*_Confirmar_*.  [O formulário `New Routing` é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:182
-msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Der Sender wird hinzugefügt.#"
-msgstr "Clique no botão *_Confirmar_*.  [O remetente será adicionado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:184
-msgid ""
-"Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, "
-"bis das Routing erstellt ist, d.h. der Sender Daten an die Gruppe senden "
-"kann."
-msgstr ""
-"O novo transmissor fica visível imediatamente. No entanto, pode demorar "
-"vários minutos até que o encaminhamento seja criado, ou seja, o transmissor "
-"pode enviar dados para o Grupo."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:187
-#, no-wrap
-msgid "Sender bearbeiten"
-msgstr "Editar transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:192
-msgid ""
-"Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
-msgstr "Altere as propriedades do remetente e clique no botão *_Confirmar_*."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:193
-#, no-wrap
-msgid "Sender löschen"
-msgstr "Eliminar o transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:199
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Die Nachrichten des Senders "
-"werden nicht mehr an die Gruppe weitergeleitet.#"
-msgstr ""
-"Confirmar a consulta com *_OK_*.  [As Mensagens do remetente já não são "
-"reencaminhadas para o Grupo."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:201
-#, no-wrap
-msgid "Mitglieder"
-msgstr "Membros"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:203
-msgid "Der Reiter enthält eine Liste der Mitglieder der Gruppe."
-msgstr "O separador contém uma lista dos membros do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:205
-msgid ""
-"Du kannst Mitglieder hinzufügen image:ar_add.icon.png[add, 30, 30] und "
-"entfernen image:ar_delete.icon.png[delete, 30, 30]"
-msgstr ""
-"Pode adicionar membros image:ar_add.icon.png[add, 30, 30] e remover membros "
-"image:ar_delete.icon.png[delete, 30, 30]"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:207
-msgid ""
-"Um ein Mitglied der Gruppe zu bearbeiten, öffne die Endpunkteliste, wähle "
-"und bearbeite xref:endpoint.adoc#edit-endpoint[den Endpunkt] und xref:"
-"endpoint.adoc#send-to[das Routing]."
-msgstr ""
-"Para editar um membro do Grupo, abra a lista de pontos finais, selecione e "
-"edite xref:endpoint.adoc#edit-endpoint[o ponto final] e xref:endpoint."
-"adoc#send-to[o encaminhamento]."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:208
-#, no-wrap
-msgid "Mitglied hinzufügen"
-msgstr "Adicionar membro"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:210
-msgid ""
-"Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der "
-"Gruppenliste hinzufügen."
-msgstr ""
-"Pode adicionar pontos finais da lista de pontos finais e grupos da lista de "
-"grupos ao grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:213
-msgid ""
-"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
-"result]#Das Formular `Mitglieder auswählen` wird angezeigt.#"
-msgstr ""
-"Clique no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [.result]#O "
-"formulário `Selecionar membros` é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:215
-msgid ""
-"Wähle das neue Mitglied und klicke *_Bestätigen_*.  [.result]#Das Mitglied "
-"wird hinzugefügt.#"
-msgstr ""
-"Selecione o novo membro e clique em *_Confirmar_*.  [O membro será "
-"adicionado."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:216
-#, no-wrap
-msgid "Mitglied entfernen"
-msgstr "Remover membro"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:222
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Das Mitglied wird aus der "
-"Gruppe entfernt.#"
-msgstr "Confirmar a consulta com *_OK_*.  [O membro é removido do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:224
-msgid ""
-"Das Mitglied wird aus der Gruppe entfernt, aber nicht gelöscht. Endpunkte "
-"und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste."
-msgstr ""
-"O membro é removido do Grupo, mas não é eliminado. Os pontos finais e os "
-"grupos são eliminados na lista de pontos finais ou de grupos."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/group.adoc:225
-#, no-wrap
-msgid "Gruppe bearbeiten"
-msgstr "Editar grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:229
-msgid "den Name der Gruppe ändern,"
-msgstr "alterar o nome do Grupo,"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:230
-msgid "die Beschreibung ändern."
-msgstr "alterar a descrição."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:232
-msgid "Bearbeite die Gruppe wie folgt:"
-msgstr "Processar o grupo da seguinte forma:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:235
-msgid ""
-"Wähle die Gruppe in der Gruppenliste.  [.result]#Im rechten Bereich des "
-"Kontrollzentrums wird die Detailansicht der Gruppe angezeigt.#"
-msgstr ""
-"Selecionar o grupo na lista de grupos.  [A vista detalhada do Grupo é "
-"apresentada no lado direito do Centro de Controlo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:237
-msgid ""
-"Klicke den Button *_Bearbeiten_*.  [.result]#Das Formular `Gruppe "
-"bearbeiten` wird angezeigt.#"
-msgstr ""
-"Clicar no botão *_Editar_*.  [O formulário \"Editar grupo\" é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:240
-msgid ""
-"Ändere Namen und Beschreibung und klicke *_Bestätigen_*.  [.result]#In der "
-"Gruppenliste wird der neue Name angezeigt.# [.result]#In der Detailansicht "
-"der Gruppe wird die neue Beschreibung angezeigt.#"
-msgstr ""
-"Altere o nome e a descrição e clique em *_Confirmar_*.  [O novo nome é "
-"apresentado na lista do grupo. A nova descrição é apresentada na vista "
-"detalhada do grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:243
-msgid "Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:"
-msgstr "Se um Grupo já não for necessário, elimine-o:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:246
-msgid ""
-"Klicke den Button *_Löschen_*.  [.result]#Ein Meldungsfenster wird angezeigt."
-"#"
-msgstr "Clicar no botão *_Delete_*.  [É apresentada uma janela de mensagem."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:249
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Die Gruppe, alle Routings und "
-"alle Mitgliedschaften der Gruppe werden gelöscht.# [.result]#Die Gruppe wird "
-"aus der Gruppenliste entfernt.#"
-msgstr ""
-"Confirmar a consulta com *_OK_*.  [O grupo, todos os encaminhamentos e todos "
-"os membros do grupo são eliminados."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:251
-msgid ""
-"Es wird nur die Gruppe gelöscht; die Mitglieder bleiben mit dem agrirouter "
-"verbunden und werden in der Endpunkteliste angezeigt."
-msgstr ""
-"Apenas o Grupo é eliminado; os membros permanecem ligados ao agrirouter e "
-"são apresentados na lista de terminais."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:252
-#, no-wrap
-msgid "Technischer Support"
-msgstr "Apoio técnico"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:254
-msgid ""
-"Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen "
-"wir die Diagnoseinformationen der Gruppe:"
-msgstr ""
-"Se enviar um Sedido à nossa equipa de apoio para um Grupo, precisamos das "
-"informações de diagnóstico para o Grupo:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:257
-msgid "Klicke das Icon *_Mehr_*.  [.result]#Eine Auswahlliste wird angezeigt.#"
-msgstr "Clicar no ícone *_Mais_*.  [É apresentada uma lista de seleção."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:259
-msgid ""
-"Wähle das Icon *_Support Informationen anzeigen_*.  [.result]#Das "
-"Meldungsfenster *_Support-Information_* wird angezeigt.#"
-msgstr ""
-"Selecionar o ícone *Mostrar informações de apoio_*.  [É apresentada a janela "
-"de mensagem *Informações de apoio_*."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:260
-msgid "Klicke das Icon *_In Zwischenablage kopieren_*."
-msgstr "Clicar no ícone *Copiar para a área de transferência_*."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:260
-msgid "Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support."
-msgstr ""
-"Copie as informações de diagnóstico para uma mensagem de correio eletrónico "
-"enviada à nossa equipa de apoio."
 
 #. type: Title =
 #: de/modules/ROOT/pages/introduction.adoc:4
@@ -3585,8 +2802,8 @@ msgid ""
 "Icons angezeigt.#"
 msgstr ""
 "Clique no ícone *_add-route_* image:endpoints/add-route-icon.png[add-route-"
-"icon, 22].  [.result]#Verá agora os ícones *_create route_* image:endpoints/create-"
-"route-icon.png [Criar ícone de rota, 22].#"
+"icon, 22].  [.result]#Verá agora os ícones *_create route_* image:endpoints/"
+"create-route-icon.png [Criar ícone de rota, 22].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:25
@@ -4148,8 +3365,7 @@ msgstr ""
 #: de/modules/ROOT/pages/support.adoc:103
 msgid ""
 "Starte TeamViewer.  [.result]#Die Startseite von TeamViewer wird angezeigt.#"
-msgstr ""
-". Iniciar o TeamViewer.  [A página inicial do TeamViewer é exibida."
+msgstr ". Iniciar o TeamViewer.  [A página inicial do TeamViewer é exibida."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:104
@@ -12156,6 +11372,588 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+
+#, no-wrap
+#~ msgid "Gruppe"
+#~ msgstr "Grupo"
+
+#~ msgid ""
+#~ "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. "
+#~ "nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:"
+#~ "introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt "
+#~ "für alle Mitglieder der Gruppe."
+#~ msgstr ""
+#~ "Resumir os pontos finais em xref:introduction.adoc#group[groups], por "
+#~ "exemplo, por fabricante, tipo de máquina ou medida. + A vantagem: O xref:"
+#~ "introduction.adoc#route[Routing] que definir para o Grupo aplica-se a "
+#~ "todos os membros do Grupo."
+
+#~ msgid "wie du eine Gruppe hinzufügst und bearbeitest"
+#~ msgstr "Como adicionar e editar um Grupo"
+
+#~ msgid "wie du der Gruppe Mitglieder hinzufügst"
+#~ msgstr "como adicionar membros ao Grupo"
+
+#~ msgid ""
+#~ "wie du xref:introduction.adoc#route[die Routen] für die Gruppe erstellst"
+#~ msgstr "como criar xref:introduction.adoc#route[as rotas] para o Grupo"
+
+#, no-wrap
+#~ msgid "Das Kontrollzentrum"
+#~ msgstr "O Centro de controlo"
+
+#~ msgid ""
+#~ "Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine "
+#~ "Gruppe hinzuzufügen und zu verwalten:"
+#~ msgstr ""
+#~ "Abra o xref:introduction.adoc#control-center[Centro de Controlo] para "
+#~ "adicionar e gerir um Grupo:"
+
+#~ msgid ""
+#~ "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
+#~ "Kontrollzentrum wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no mosaico *_Centro de controlo_* no painel de controlo.  [É "
+#~ "apresentado o Centro de controlo."
+
+#~ msgid ""
+#~ "Klicke den Button *_Gruppen_*.  [.result]#Links wird die Gruppenliste "
+#~ "angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
+#~ msgstr ""
+#~ "Clique no botão *_Grupos_*.  [A lista de grupos é apresentada à esquerda. "
+#~ "A vista detalhada é apresentada à direita."
+
+#, no-wrap
+#~ msgid "Gruppenliste"
+#~ msgstr "Lista de grupos"
+
+#~ msgid ""
+#~ "Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+#~ msgstr "A lista de grupos é ordenada alfabeticamente por nome. + É possível"
+
+#~ msgid "eine Gruppe hinzufügen,"
+#~ msgstr "adicionar um Grupo,"
+
+#~ msgid "eine Gruppe suchen,"
+#~ msgstr "procurar um grupo,"
+
+#~ msgid "die Gruppenliste aktualisieren."
+#~ msgstr "Atualizar a lista de grupos."
+
+#~ msgid "Auf einem Tablet öffnest du die Gruppenliste über das Burger-Menü:"
+#~ msgstr "Num tablet, abra a lista de grupos através do menu de hambúrgueres:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[burger, 30, "
+#~ "30].  [.result]#Die Endpunkteliste wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no ícone *_menu de hambúrguer_* image:ar_burger.icon.png[burger, "
+#~ "30, 30].  [É apresentada a lista final de pontos."
+
+#~ msgid ""
+#~ "Klicke den Button *_Gruppen_*.  [.result]#Die Gruppenliste wird angezeigt."
+#~ "#"
+#~ msgstr "Clicar no botão *_Grupos_*.  [A lista de grupos é apresentada."
+
+#~ msgid "Ein Listeneintrag besteht aus"
+#~ msgstr "Uma entrada de lista consiste em"
+
+#, no-wrap
+#~ msgid "Group list"
+#~ msgstr "Lista de grupos"
+
+#~ msgid "Namen"
+#~ msgstr "Nomes"
+
+#~ msgid "Typ (nur bei den zwei Standard-Gruppen)"
+#~ msgstr "Tipo (apenas para os dois Grupos padrão)"
+
+#, no-wrap
+#~ msgid "Gruppe hinzufügen"
+#~ msgstr "Adicionar grupo"
+
+#~ msgid ""
+#~ "Klicke den Button *_+ Gruppe_*.  [.result]#Das Fenster `Neue Gruppe` wird "
+#~ "angezeigt.#"
+#~ msgstr ""
+#~ "Clique no botão *_+ Grupo_*.  [É apresentada a janela \"Novo grupo\"."
+
+#~ msgid "Gebe den Namen und optional eine kurze Beschreibung ein."
+#~ msgstr "Introduzir o nome e, opcionalmente, uma breve descrição."
+
+#~ msgid ""
+#~ "Klicke den Button *_Bestätigen_*.  [.result]#Die Gruppenliste wird "
+#~ "angezeigt.#"
+#~ msgstr "Clicar no botão *_Confirmar_*.  [A lista de grupos é apresentada."
+
+#~ msgid ""
+#~ "Wenn du viele Gruppen hast, empfiehlt es sich, eine erklärende "
+#~ "Beschreibung einzugeben. Diese wird in der Detailansicht angezeigt."
+#~ msgstr ""
+#~ "Se tiver muitos Grupos, é aconselhável introduzir uma descrição "
+#~ "explicativa. Esta é apresentada na vista detalhada."
+
+#, no-wrap
+#~ msgid "Gruppe suchen"
+#~ msgstr "Grupo de pesquisa"
+
+#~ msgid ""
+#~ "Wenn die Gruppenliste viele Einträge enthält, kannst Du eine Gruppe "
+#~ "suchen:"
+#~ msgstr ""
+#~ "Se a lista de grupos contiver muitas entradas, é possível procurar um "
+#~ "grupo:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Suchen_* über der Gruppenliste image:ar_search.icon."
+#~ "png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld "
+#~ "*_Suchen_*.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_Search_* por cima da lista de grupos image:ar_search."
+#~ "icon.png[search, 30, 30].  [O cursor fica intermitente no campo de "
+#~ "entrada *_Search_*.#"
+
+#~ msgid ""
+#~ "Gebe den Namen oder Teile des Namens der gesuchten Gruppe ein.  [."
+#~ "result]#Bereits beim Tippen wird die Gruppenliste aktualisiert.#"
+#~ msgstr ""
+#~ "Introduza o nome ou parte do nome do Grupo que está a procurar.  [A lista "
+#~ "de grupos é actualizada à medida que se escreve."
+
+#~ msgid "Mache die Suche rückgängig wie folgt:"
+#~ msgstr "Anular a pesquisa da seguinte forma:"
+
+#~ msgid ""
+#~ "Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem "
+#~ "Eingabefeld *_Suchen_*.  [.result]#Alle Gruppen werden angezeigt.#"
+#~ msgstr ""
+#~ "Clique no ícone image:ar_revert.icon.png[revert, 30, 30] à direita do "
+#~ "campo de entrada *_Search_*.  [Todos os grupos são apresentados."
+
+#, no-wrap
+#~ msgid "Liste aktualisieren"
+#~ msgstr "Lista de atualização"
+
+#~ msgid ""
+#~ "Wenn deine neu erstellte Gruppe nicht in der Liste erscheint, "
+#~ "aktualisiere die Liste:"
+#~ msgstr "Se o grupo recém-criado não aparecer na lista, actualize a lista:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, "
+#~ "30] über der Gruppenliste.  [.result]#Die Gruppenliste wird aktualisiert.#"
+#~ msgstr ""
+#~ "Clique no ícone *_refresh_* image:ar_refresh.icon.png[refresh, 30, 30] "
+#~ "acima da lista de grupos.  [A lista de grupos será actualizada."
+
+#~ msgid ""
+#~ "In der Detailansicht sind alle Informationen zur Gruppe zusammengefasst.  "
+#~ "Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe "
+#~ "austauschen und fügst der Gruppe Mitglieder hinzu."
+#~ msgstr ""
+#~ "Todas as informações sobre o Grupo são resumidas na vista detalhada.  É "
+#~ "aqui que gere os pontos finais e os grupos que trocam dados com o grupo e "
+#~ "adiciona membros ao grupo."
+
+#~ msgid ""
+#~ "Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-"
+#~ "von,Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt."
+#~ msgstr ""
+#~ "A vista detalhada está dividida nos separadores <<enviar para,enviar "
+#~ "para>>, <<receber de,receber de>> e <<membros,membros>>."
+
+#, no-wrap
+#~ msgid "Senden an"
+#~ msgstr "Enviar para"
+
+#~ msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
+#~ msgstr "O separador contém uma lista de destinatários. + Destinatários"
+
+#~ msgid "befinden sich am Ende einer abgehenden Route"
+#~ msgstr "estão localizados no final de uma rota de saída"
+
+#~ msgid ""
+#~ "sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten "
+#~ "senden"
+#~ msgstr ""
+#~ "são pontos finais e grupos para os quais os membros do grupo enviam dados"
+
+#~ msgid "Du kannst"
+#~ msgstr "Pode"
+
+#~ msgid ""
+#~ "Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
+#~ "ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+#~ msgstr ""
+#~ "Adicionar destinatário image:ar_add.icon.png[add, 30, 30], editar image:"
+#~ "ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+
+#~ msgid ""
+#~ "definieren, welche Nachrichten die Empfänger von der Gruppe erhalten "
+#~ "sollen"
+#~ msgstr ""
+#~ "definir quais as Mensagens que os destinatários devem receber do Grupo"
+
+#, no-wrap
+#~ msgid "Empfänger hinzufügen"
+#~ msgstr "Adicionar destinatário"
+
+#~ msgid ""
+#~ "Du erstellst die Route für den Versand von Daten an eine andere Gruppe "
+#~ "oder einen Endpunkt:"
+#~ msgstr ""
+#~ "O utilizador cria a rota para enviar dados para outro Grupo ou para um "
+#~ "Ponto final:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
+#~ "result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [O "
+#~ "formulário \"Novo roteiro\" é apresentado."
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Empfänger_*.  [.result]#Die Auswahlliste "
+#~ "`Endpunkt auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no campo de entrada *_recipiente_*.  [É apresentada a lista de "
+#~ "seleção \"Selecionar ponto final\"."
+
+#~ msgid ""
+#~ "Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird "
+#~ "angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o destinatário.  [É apresentado o formulário \"Novo "
+#~ "encaminhamento\"."
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Nachrichtenformate_*.  [.result]#Die "
+#~ "Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no campo de entrada *Formatos de mensagem_*.  [É apresentada a "
+#~ "lista de seleção \"Selecionar formatos de mensagem\"."
+
+#~ msgid ""
+#~ "Wähle die Nachrichtenformate, die der Empfänger erhalten soll und klicke "
+#~ "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecione os formatos de mensagem que o destinatário deve receber e "
+#~ "clique em *_Confirmar_*.  [É apresentado o formulário `Novo "
+#~ "encaminhamento`."
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
+#~ "result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no campo de entrada *_Telemetry-Parameter-Categories_*.  [É "
+#~ "apresentado o formulário \"Categorias dos parâmetros de telemetria\"."
+
+#~ msgid ""
+#~ "Wähle eine oder mehrere Kategorien und klicke *_Bestätigen_*.  [."
+#~ "result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar uma ou mais categorias e clicar em *_Confirmar_*.  [O "
+#~ "formulário \"Novo roteiro\" é apresentado."
+
+#~ msgid ""
+#~ "Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird "
+#~ "hinzugefügt.#"
+#~ msgstr "Clique no botão *_Confirmar_*.  [O destinatário será adicionado."
+
+#~ msgid ""
+#~ "Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten "
+#~ "dauern, bis das Routing erstellt ist, d.h. der Empfänger Daten von der "
+#~ "Gruppe empfangen kann."
+#~ msgstr ""
+#~ "O novo destinatário fica imediatamente visível. No entanto, pode demorar "
+#~ "vários minutos até que o encaminhamento seja criado, ou seja, o "
+#~ "destinatário pode receber dados do Grupo."
+
+#~ msgid ""
+#~ "Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte "
+#~ "verfügbar, die Echtzeitdaten verarbeiten können."
+#~ msgstr ""
+#~ "O formulário \"Categorias dos parâmetros de telemetria\" só está "
+#~ "disponível para os pontos finais que podem processar dados em tempo real."
+
+#, no-wrap
+#~ msgid "Empfänger bearbeiten"
+#~ msgstr "Editar destinatário"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].  [."
+#~ "result]#Das Formular `Routing bearbeiten` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_edit_* image:ar_edit.icon.png[edit, 30, 30].  [É "
+#~ "apresentado o formulário `Editar o roteiro`."
+
+#~ msgid ""
+#~ "Ändere die Eigenschaften des Empfängers und klicke den Button "
+#~ "*_Bestätigen_*."
+#~ msgstr ""
+#~ "Altere as propriedades do destinatário e clique no botão *_Confirmar_*."
+
+#, no-wrap
+#~ msgid "Empfänger löschen"
+#~ msgstr "Eliminar destinatário"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].  [."
+#~ "result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_delete_* image:ar_delete.icon.png[delete, 30, 30].  [É "
+#~ "apresentada a janela de mensagem `Confirmar`."
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Der Empfänger erthält keine "
+#~ "Nachrichten mehr von der Gruppe.#"
+#~ msgstr ""
+#~ "Confirmar a consulta com *_OK_*.  [O destinatário já não recebe Mensagens "
+#~ "do Grupo."
+
+#, no-wrap
+#~ msgid "Empfangen von"
+#~ msgstr "Receber de"
+
+#~ msgid "Der Reiter enthält eine Liste der Sender. + Sender"
+#~ msgstr "O separador contém uma lista de transmissores. + Transmissor"
+
+#~ msgid "befinden sich am Anfang einer eingehenden Route"
+#~ msgstr "estão no início de uma rota Aberto"
+
+#~ msgid ""
+#~ "sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden"
+#~ msgstr ""
+#~ "são pontos finais e grupos que enviam dados para os membros do grupo"
+
+#~ msgid ""
+#~ "Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
+#~ "ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+#~ msgstr ""
+#~ "Adicionar transmissor image:ar_add.icon.png[add, 30, 30], editar image:"
+#~ "ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+
+#~ msgid "definieren, welche Nachrichten die Gruppe vom Sender erhalten soll"
+#~ msgstr "Definir as Mensagens que o Grupo deve receber do remetente"
+
+#, no-wrap
+#~ msgid "Sender hinzufügen"
+#~ msgstr "Adicionar transmissor"
+
+#~ msgid ""
+#~ "Du erstellst die Route für den Empfang von Daten von einer anderen Gruppe "
+#~ "oder einem Endpunkt:"
+#~ msgstr ""
+#~ "O utilizador cria a rota para receber dados de outro Grupo ou de um Ponto "
+#~ "final:"
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Sender_*.  [.result]#Die Auswahlliste "
+#~ "`Endpunkt auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no campo de entrada *_Sender_*.  [É apresentada a lista de seleção "
+#~ "\"Selecionar ponto final\"."
+
+#~ msgid ""
+#~ "Wähle den Sender.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o remetente.  [É apresentado o formulário \"Novo roteiro\"."
+
+#~ msgid ""
+#~ "Wähle die Nachrichtenformate, die der Sender senden soll und klicke "
+#~ "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecione os formatos de mensagem que o remetente deve enviar e clique em "
+#~ "*_Confirmar_*.  [O formulário `New Routing` é apresentado."
+
+#~ msgid ""
+#~ "Klicke den Button *_Bestätigen_*.  [.result]#Der Sender wird hinzugefügt.#"
+#~ msgstr "Clique no botão *_Confirmar_*.  [O remetente será adicionado."
+
+#~ msgid ""
+#~ "Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten "
+#~ "dauern, bis das Routing erstellt ist, d.h. der Sender Daten an die Gruppe "
+#~ "senden kann."
+#~ msgstr ""
+#~ "O novo transmissor fica visível imediatamente. No entanto, pode demorar "
+#~ "vários minutos até que o encaminhamento seja criado, ou seja, o "
+#~ "transmissor pode enviar dados para o Grupo."
+
+#, no-wrap
+#~ msgid "Sender bearbeiten"
+#~ msgstr "Editar transmissor"
+
+#~ msgid ""
+#~ "Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
+#~ msgstr ""
+#~ "Altere as propriedades do remetente e clique no botão *_Confirmar_*."
+
+#, no-wrap
+#~ msgid "Sender löschen"
+#~ msgstr "Eliminar o transmissor"
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Die Nachrichten des Senders "
+#~ "werden nicht mehr an die Gruppe weitergeleitet.#"
+#~ msgstr ""
+#~ "Confirmar a consulta com *_OK_*.  [As Mensagens do remetente já não são "
+#~ "reencaminhadas para o Grupo."
+
+#, no-wrap
+#~ msgid "Mitglieder"
+#~ msgstr "Membros"
+
+#~ msgid "Der Reiter enthält eine Liste der Mitglieder der Gruppe."
+#~ msgstr "O separador contém uma lista dos membros do Grupo."
+
+#~ msgid ""
+#~ "Du kannst Mitglieder hinzufügen image:ar_add.icon.png[add, 30, 30] und "
+#~ "entfernen image:ar_delete.icon.png[delete, 30, 30]"
+#~ msgstr ""
+#~ "Pode adicionar membros image:ar_add.icon.png[add, 30, 30] e remover "
+#~ "membros image:ar_delete.icon.png[delete, 30, 30]"
+
+#~ msgid ""
+#~ "Um ein Mitglied der Gruppe zu bearbeiten, öffne die Endpunkteliste, wähle "
+#~ "und bearbeite xref:endpoint.adoc#edit-endpoint[den Endpunkt] und xref:"
+#~ "endpoint.adoc#send-to[das Routing]."
+#~ msgstr ""
+#~ "Para editar um membro do Grupo, abra a lista de pontos finais, selecione "
+#~ "e edite xref:endpoint.adoc#edit-endpoint[o ponto final] e xref:endpoint."
+#~ "adoc#send-to[o encaminhamento]."
+
+#, no-wrap
+#~ msgid "Mitglied hinzufügen"
+#~ msgstr "Adicionar membro"
+
+#~ msgid ""
+#~ "Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der "
+#~ "Gruppenliste hinzufügen."
+#~ msgstr ""
+#~ "Pode adicionar pontos finais da lista de pontos finais e grupos da lista "
+#~ "de grupos ao grupo."
+
+#~ msgid ""
+#~ "Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
+#~ "result]#Das Formular `Mitglieder auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [.result]#O "
+#~ "formulário `Selecionar membros` é apresentado."
+
+#~ msgid ""
+#~ "Wähle das neue Mitglied und klicke *_Bestätigen_*.  [.result]#Das "
+#~ "Mitglied wird hinzugefügt.#"
+#~ msgstr ""
+#~ "Selecione o novo membro e clique em *_Confirmar_*.  [O membro será "
+#~ "adicionado."
+
+#, no-wrap
+#~ msgid "Mitglied entfernen"
+#~ msgstr "Remover membro"
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Das Mitglied wird aus der "
+#~ "Gruppe entfernt.#"
+#~ msgstr "Confirmar a consulta com *_OK_*.  [O membro é removido do Grupo."
+
+#~ msgid ""
+#~ "Das Mitglied wird aus der Gruppe entfernt, aber nicht gelöscht. Endpunkte "
+#~ "und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste."
+#~ msgstr ""
+#~ "O membro é removido do Grupo, mas não é eliminado. Os pontos finais e os "
+#~ "grupos são eliminados na lista de pontos finais ou de grupos."
+
+#, no-wrap
+#~ msgid "Gruppe bearbeiten"
+#~ msgstr "Editar grupo"
+
+#~ msgid "den Name der Gruppe ändern,"
+#~ msgstr "alterar o nome do Grupo,"
+
+#~ msgid "die Beschreibung ändern."
+#~ msgstr "alterar a descrição."
+
+#~ msgid "Bearbeite die Gruppe wie folgt:"
+#~ msgstr "Processar o grupo da seguinte forma:"
+
+#~ msgid ""
+#~ "Wähle die Gruppe in der Gruppenliste.  [.result]#Im rechten Bereich des "
+#~ "Kontrollzentrums wird die Detailansicht der Gruppe angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o grupo na lista de grupos.  [A vista detalhada do Grupo é "
+#~ "apresentada no lado direito do Centro de Controlo."
+
+#~ msgid ""
+#~ "Klicke den Button *_Bearbeiten_*.  [.result]#Das Formular `Gruppe "
+#~ "bearbeiten` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no botão *_Editar_*.  [O formulário \"Editar grupo\" é apresentado."
+
+#~ msgid ""
+#~ "Ändere Namen und Beschreibung und klicke *_Bestätigen_*.  [.result]#In "
+#~ "der Gruppenliste wird der neue Name angezeigt.# [.result]#In der "
+#~ "Detailansicht der Gruppe wird die neue Beschreibung angezeigt.#"
+#~ msgstr ""
+#~ "Altere o nome e a descrição e clique em *_Confirmar_*.  [O novo nome é "
+#~ "apresentado na lista do grupo. A nova descrição é apresentada na vista "
+#~ "detalhada do grupo."
+
+#~ msgid "Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:"
+#~ msgstr "Se um Grupo já não for necessário, elimine-o:"
+
+#~ msgid ""
+#~ "Klicke den Button *_Löschen_*.  [.result]#Ein Meldungsfenster wird "
+#~ "angezeigt.#"
+#~ msgstr "Clicar no botão *_Delete_*.  [É apresentada uma janela de mensagem."
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Die Gruppe, alle Routings "
+#~ "und alle Mitgliedschaften der Gruppe werden gelöscht.# [.result]#Die "
+#~ "Gruppe wird aus der Gruppenliste entfernt.#"
+#~ msgstr ""
+#~ "Confirmar a consulta com *_OK_*.  [O grupo, todos os encaminhamentos e "
+#~ "todos os membros do grupo são eliminados."
+
+#~ msgid ""
+#~ "Es wird nur die Gruppe gelöscht; die Mitglieder bleiben mit dem "
+#~ "agrirouter verbunden und werden in der Endpunkteliste angezeigt."
+#~ msgstr ""
+#~ "Apenas o Grupo é eliminado; os membros permanecem ligados ao agrirouter e "
+#~ "são apresentados na lista de terminais."
+
+#, no-wrap
+#~ msgid "Technischer Support"
+#~ msgstr "Apoio técnico"
+
+#~ msgid ""
+#~ "Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, "
+#~ "benötigen wir die Diagnoseinformationen der Gruppe:"
+#~ msgstr ""
+#~ "Se enviar um Sedido à nossa equipa de apoio para um Grupo, precisamos das "
+#~ "informações de diagnóstico para o Grupo:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Mehr_*.  [.result]#Eine Auswahlliste wird angezeigt.#"
+#~ msgstr "Clicar no ícone *_Mais_*.  [É apresentada uma lista de seleção."
+
+#~ msgid ""
+#~ "Wähle das Icon *_Support Informationen anzeigen_*.  [.result]#Das "
+#~ "Meldungsfenster *_Support-Information_* wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o ícone *Mostrar informações de apoio_*.  [É apresentada a "
+#~ "janela de mensagem *Informações de apoio_*."
+
+#~ msgid "Klicke das Icon *_In Zwischenablage kopieren_*."
+#~ msgstr "Clicar no ícone *Copiar para a área de transferência_*."
+
+#~ msgid "Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support."
+#~ msgstr ""
+#~ "Copie as informações de diagnóstico para uma mensagem de correio "
+#~ "eletrónico enviada à nossa equipa de apoio."
 
 #, fuzzy
 #~| msgid ""
