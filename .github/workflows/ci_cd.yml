@@ -69,12 +69,12 @@ jobs:
       - name: Create debug artifact
         run: |
           TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-          zip -r debug_artifact_${TIMESTAMP}.zip .
+          zip -r debug_artifact_${TIMESTAMP}.zip . -x "*.git*" "node_modules/*" 
 
       - name: Upload debug artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: debug-artifact
+          name: workspace-debug-${{ github.run_number }}
           path: debug_artifact_*.zip
           retention-days: 7
 
