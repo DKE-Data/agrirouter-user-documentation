@@ -66,6 +66,18 @@ jobs:
         run: |
           yarn build
 
+      - name: Create debug artifact
+        run: |
+          TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+          zip -r debug_artifact_${TIMESTAMP}.zip .
+
+      - name: Upload debug artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug-artifact
+          path: debug_artifact_*.zip
+          retention-days: 7
+
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
