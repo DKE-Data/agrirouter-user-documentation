@@ -66,6 +66,18 @@ jobs:
         run: |
           yarn build
 
+      - name: Upload debug artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: workspace-debug-${{ github.run_number }}
+          path: |
+            **/*
+            !.git/**
+            !node_modules/**
+            !**/modules/ROOT/assets/images/**
+            !build/**/_images/**
+          retention-days: 7
+
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
