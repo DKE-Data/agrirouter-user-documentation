@@ -44,12 +44,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: debug output
-        run: |
-          ls -l en/modules/ROOT
-          pwd
-          id
-
       - name: Run translation
         run: yarn translate
 
