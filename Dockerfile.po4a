@@ -30,7 +30,17 @@ RUN git clone --branch v0.66 https://github.com/mquinson/po4a.git /po4a \
     && ./Build \
     && ./Build install
 
-# Set up working directory
+# Create a non-root user with the same UID/GID as the host user
+ARG USER_ID=1000
+ARG GROUP_ID=1000
+RUN groupadd -g $GROUP_ID builder && \
+    useradd -u $USER_ID -g $GROUP_ID -m builder
+
+# Set up working directory with correct permissions
 WORKDIR /workspace
+RUN chown builder:builder /workspace
+
+# Switch to non-root user
+USER builder
 
 ENTRYPOINT ["/bin/bash"]
