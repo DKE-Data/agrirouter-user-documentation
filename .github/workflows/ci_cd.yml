@@ -45,7 +45,7 @@ jobs:
         run: yarn install
 
       - name: Run translation
-        run: ./scripts/run_po4a.sh po4a.conf --no-update
+        run: yarn translate
 
       - name: Run antora
         run: |
