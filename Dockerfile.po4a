@@ -1,0 +1,21 @@
+FROM ubuntu:22.04
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    make \
+    libyaml-tiny-perl \
+    gettext \
+    libunicode-linebreak-perl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install po4a from GitHub
+RUN git clone --branch v0.66 https://github.com/mquinson/po4a.git /po4a \
+    && cd /po4a \
+    && make \
+    && make install
+
+# Set up working directory
+WORKDIR /workspace
+
+ENTRYPOINT ["po4a"]

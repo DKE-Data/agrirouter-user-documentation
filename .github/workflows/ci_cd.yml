@@ -33,19 +33,11 @@ jobs:
         with:
           node-version: "16"
 
-      - name: Install po4a dependencies
-        run: sudo apt-get install libyaml-tiny-perl gettext libunicode-linebreak-perl
-
-      # install po4a (replace by stable tag after v0.66 release / we need PR #331)
-      - name: Install po4a from github
-        run: |
-          git clone --branch v0.66 https://github.com/mquinson/po4a.git ~/po4a
-          ls -la ~/po4a
-          echo "$HOME/po4a" >> $GITHUB_PATH
-          echo "PERLLIB=$HOME/po4a/lib" >> $GITHUB_ENV
+      - name: Build po4a Docker image
+        run: docker build -t po4a -f Dockerfile.po4a .
 
       - name: Update translation files
-        run: po4a --no-translations po4a.conf
+        run: docker run --rm -v ${{ github.workspace }}:/workspace po4a --no-translations po4a.conf
       
       - name: Commit translation file updates
         uses: EndBug/add-and-commit@v9
@@ -57,10 +49,7 @@ jobs:
         run: yarn install
 
       - name: Run translation
-        run: |
-          echo "PATH=$PATH"
-          echo "PERLLIB=$PERLLIB"
-          yarn translate
+        run: docker run --rm -v ${{ github.workspace }}:/workspace po4a po4a.conf --no-update
 
       - name: Run antora
         run: |
