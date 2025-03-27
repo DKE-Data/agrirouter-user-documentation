@@ -26,18 +26,14 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
 
-
       - name: Set up Node
         id: node
         uses: actions/setup-node@v3
         with:
           node-version: "16"
 
-      - name: Build po4a Docker image
-        run: docker build -t po4a -f Dockerfile.po4a .
-
       - name: Update translation files
-        run: docker run --rm -v ${{ github.workspace }}:/workspace po4a --no-translations po4a.conf
+        run: ./scripts/run_po4a.sh po4a.conf --no-translations
       
       - name: Commit translation file updates
         uses: EndBug/add-and-commit@v9
@@ -49,7 +45,7 @@ jobs:
         run: yarn install
 
       - name: Run translation
-        run: docker run --rm -v ${{ github.workspace }}:/workspace po4a po4a.conf --no-update
+        run: ./scripts/run_po4a.sh po4a.conf --no-update
 
       - name: Run antora
         run: |
