@@ -6,8 +6,8 @@
   "license": "Apache-2.0",
   "scripts": {
     "validate-xrefs": "for LNG in de en fr it ru pt es nl pl; do cd $LNG; $(npm bin)/antora --generator @antora/xref-validator ./antora-playbook.yml; cd ..; done",
-    "update-i18n": "po4a po4a.conf --no-translations",
-    "translate": "echo \\* Generating translated files...; po4a po4a.conf --no-update; for LNG in en fr it ru pt es nl pl; do echo \\* Copying assets for $LNG...; cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; cp -nrT de/modules/ROOT/partials/ $LNG/modules/ROOT/partials; done",
+    "update-i18n": "./scripts/run_po4a.sh po4a.conf --no-translations",
+    "translate": "echo \\* Generating translated files...; ./scripts/run_po4a.sh po4a.conf --no-update; for LNG in en fr it ru pt es nl pl; do echo \\* Copying assets for $LNG...; cp -nrT de/modules/ROOT/assets/ $LNG/modules/ROOT/assets; cp -nrT de/modules/ROOT/partials $LNG/modules/ROOT/partials; done",
     "build": "for LNG in de en fr it ru pt es nl pl; do echo \\* Building lang $LNG...; cd $LNG; $(npm bin)/antora generate antora-playbook.yml --to-dir ../build/$LNG || exit; cd ..; done; cp index.html build/",
     "generate-images": "node scripts/generate_images.js"
   },
