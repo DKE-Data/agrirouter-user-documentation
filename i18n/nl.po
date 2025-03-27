@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-03-20 15:22+0000\n"
-"PO-Revision-Date: 2025-03-26 15:13+0000\n"
+"PO-Revision-Date: 2025-03-27 08:51+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Dutch <https://weblate.my-agrirouter.com/projects/agrirouter/"
 "user-manual/nl/>\n"
@@ -1149,35 +1149,24 @@ msgstr "Klik op *_Login_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
-#, fuzzy
-#| msgid ""
-#| "Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-#| "Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-#| "registriert>> hast. Kopiere den Code aus der Mail."
 msgid ""
 "Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
 "der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
 "Kopiere den Code aus der Mail."
 msgstr ""
-"U ontvangt nu een *_email met een 8-cijferige code_* op het e-mailadres dat "
-"u hebt gebruikt om u te registreren bij agrirouter <<gebruikersaccount "
-"aanmaken, registreren>>. Kopieer de code uit de e-mail."
+"U ontvangt nu een *_email met een code_* op het e-mailadres dat u hebt "
+"gebruikt om u te registreren bij agrirouter <<gebruikersaccount aanmaken, "
+"registreren>>. Kopieer de code uit de e-mail."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:132
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
 "die E-Mail bei dir ankommt."
 msgstr ""
-"Als je de e-mail met de 8-cijferige code niet ontvangt, controleer dan je "
-"*_spam map_*. Soms kan het ook *_een paar minuten_* duren voordat de e-mail "
-"aankomt."
+"Als je de e-mail met de code niet hebt ontvangen, controleer dan je *_spam "
+"map_*. Soms kan het *_een paar minuten_* duren voordat de e-mail aankomt."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:140
@@ -1197,14 +1186,10 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:149
-#, fuzzy
-#| msgid ""
-#| "Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben "
-#| "beschrieben."
 msgid ""
 "Öffne die https://app.agrirouter.com/[die Anmeldeseite] wie oben beschrieben."
 msgstr ""
-"Open https://app.agrirouter.com/de[de aanmeldpagina] zoals hierboven "
+"Open https://app.agrirouter.com/[de aanmeldpagina] zoals hierboven "
 "beschreven."
 
 #. type: delimited block =
@@ -1214,13 +1199,6 @@ msgstr "Schakel het selectievakje \"_Ingelogd blijven_\" in en log in."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:152
-#, fuzzy
-#| msgid ""
-#| "Wenn du deine Arbeit im Dashboard beendet hast, schließe die "
-#| "Internetseite [.underline]#ohne# dich abzumelden.  [.result]#Wenn du das "
-#| "nächste Mal https://app.agrirouter.com/de[die Anmeldeseite] öffnest, wird "
-#| "sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] "
-#| "angezeigt.#"
 msgid ""
 "Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [."
 "underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal https://"
@@ -1229,8 +1207,8 @@ msgid ""
 msgstr ""
 "Als u klaar bent met uw werk in het dashboard, sluit u de website [."
 "underline]#zonder# uit te loggen.  [resultaat]#De volgende keer dat u "
-"https://app.agrirouter.com/de[de aanmeldpagina] opent, wordt uw xref:"
-"introduction.adoc/myagrirouter[mijnagrirouterpagina] onmiddellijk "
+"https://app.agrirouter.com/[de aanmeldpagina] opent, wordt uw "
+"xref:introduction.adoc/myagrirouter[mijn agrirouter pagina] onmiddellijk "
 "weergegeven."
 
 #. type: Title ==
@@ -1292,6 +1270,10 @@ msgid ""
 "com]. Nach Prüfung deiner E-Mail-Adresse wird diese für dich geändert und du "
 "erhältst Rückmeldung durch unser Support-Team."
 msgstr ""
+"Je e-mailadres kan niet worden gewijzigd. Om het te wijzigen, stuurt u een e-"
+"mail naar mailto:support@agrirouter.com[support@agrirouter.com]. Nadat we je "
+"e-mailadres hebben gecontroleerd, wordt het voor je gewijzigd en ontvang je "
+"feedback van ons supportteam."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:177
@@ -1362,10 +1344,8 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:207
-#, fuzzy
-#| msgid "klicke auf den Button *_Ihr Konto löschen_*."
 msgid "Klicke auf den Button *_Ihr Konto löschen_*."
-msgstr "klik op de knop *_Delete your account_*."
+msgstr "Klik op de knop *_Account verwijderen_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:214
@@ -1772,18 +1752,13 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
-#, fuzzy
-#| msgid ""
-#| "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
-#| "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
-#| "adoc#solution-guides[Solution Guides] nachlesen."
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
 "adoc#solution-guides[Solution-Guides] nachlesen."
 msgstr ""
-"Voer de registratiecode op het telemetrieapparaat in. Je kunt in de xref:"
-"solution-guides.adoc#solution-guides[oplossingsgidsen] vinden hoe dit werkt "
+"Voer de registratiecode op het telemetrieapparaat in. Je kunt in de xref"
+":solution-guides.adoc#solution-guides[Solution Guides] vinden hoe dit werkt "
 "met je provider."
 
 #. type: Plain text
@@ -1797,15 +1772,11 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
-#, fuzzy
-#| msgid ""
-#| "Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] "
-#| "nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgid ""
 "Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
-"Raadpleeg xref:solution-guides.adoc#solution-guides[oplossingsgidsen] voor "
+"Raadpleeg xref:solution-guides.adoc#solution-guides[Solution Guides] voor "
 "informatie over het invoeren van de registratiecode op de telemetrie-eenheid."
 
 #. type: Title ===
@@ -1983,19 +1954,14 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195
-#, fuzzy
-#| msgid ""
-#| "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie "
-#| "das für deine Software funktioniert, erfährst du in den xref:solution-"
-#| "guides.adoc#solution-guides[Solution Guides]."
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
 "adoc#solution-guides[Solution-Guides]."
 msgstr ""
 "Log in op uw landbouwsoftware en sluit de agrirouter aan. Hoe dit werkt voor "
-"uw software kunt u vinden in de xref:solution-guides.adoc#solution-"
-"guides[oplossingsgidsen]."
+"uw software kunt u vinden in de xref:solution-guides.adoc#solution-guides["
+"Solution Guides]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:199
@@ -2020,36 +1986,25 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:205
-#, fuzzy
-#| msgid ""
-#| "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in "
-#| "einigen Fällen anders) findest du meist in den Einstellungen der "
-#| "Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution "
-#| "Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem "
-#| "agrirouter verbindest."
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
 "den xref:solution-guides.adoc#solution-guides[Solution-Guides] findest du "
 "eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest."
 msgstr ""
-"De functie *_Connect to agrirouter_* (de naam is in sommige gevallen anders) "
-"is meestal te vinden in de instellingen van de landbouwsoftware. In de xref:"
-"solution-guides.adoc#solution-guides[oplossingsgidsen] vindt u instructies "
-"voor het verbinden van uw landbouwsoftware met de agrirouter."
+"De functie *_Verbinden met agrirouter_* (de naam is in sommige gevallen "
+"anders) is meestal te vinden in de instellingen van de landbouwsoftware. In "
+"de xref:solution-guides.adoc#solution-guides[Solution Guides] vindt u "
+"instructies voor het verbinden van uw landbouwsoftware met de agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:207
-#, fuzzy
-#| msgid ""
-#| "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-#| "findest du auf dem https://agrirouter.com/de/solutions[Solution Finder]."
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du auf dem https://agrirouter.com/de/solutions[Solution-Finder]."
 msgstr ""
 "Een volledige lijst van landbouwsoftware met agrirouter-interface is te "
-"vinden op https://agrirouter.com/de/solutions[Solution Finder]."
+"vinden op https://agrirouter.com/solutions[Solution Finder]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:210 de/modules/ROOT/pages/group.adoc:241
@@ -3341,13 +3296,6 @@ msgstr "Eindpunt"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:51
-#, fuzzy
-#| msgid ""
-#| "Deine Maschinen und deine Software werden über den agrirouter als "
-#| "Endpunkte miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie "
-#| "auch Empfänger sein. Wichtig ist nur, dass die Endpunkte über eine "
-#| "<<Route,Routen>> miteineander verbunden sind. Grundsätzlich gibt es zwei "
-#| "Typen von Endpunkten:"
 msgid ""
 "Deine Maschinen und deine Software werden über den agrirouter als Endpunkte "
 "miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger "
@@ -3523,10 +3471,8 @@ msgstr "Documenten"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:88
-#, fuzzy
-#| msgid "Berichte im pdf-Format"
 msgid "Berichte im PDF-Format"
-msgstr "Rapporten in pdf-formaat"
+msgstr "Rapporten in PDF-formaat"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:90
