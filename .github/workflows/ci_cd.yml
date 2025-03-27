@@ -32,11 +32,6 @@ jobs:
         with:
           node-version: "16"
 
-      - name: debug output
-        run: |
-          ls -l en/modules/ROOT
-          pwd
-
       - name: Update translation files
         run: ./scripts/run_po4a.sh po4a.conf --no-translations
       
@@ -48,6 +43,12 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+
+      - name: debug output
+        run: |
+          ls -l en/modules/ROOT
+          pwd
+          id
 
       - name: Run translation
         run: yarn translate
