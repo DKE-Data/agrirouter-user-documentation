@@ -1657,7 +1657,7 @@ msgid ""
 "wird geöffnet:#"
 msgstr ""
 "Clique no botão *_Adicionar fabricante_* image:endpoints/add-manufacturer-"
-"button.png[Botão Adicionar fabricante, 120].  [A seguinte página abre-se:#"
+"button.png[Botão Adicionar fabricante, 120].  [.result]#A seguinte página abre-se:#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:66
@@ -1677,8 +1677,8 @@ msgid ""
 "Wähle den Hersteller aus, den du hinzufügen möchtest.  [.result]#Der "
 "ausgewählte Hersteller wird dir rechts neben deiner Auswahl angezeigt.#"
 msgstr ""
-"Selecione o fabricante que pretende adicionar.  [O fabricante selecionado é "
-"apresentado à direita da sua seleção."
+". Selecione o fabricante que pretende adicionar.  [.result]#O fabricante selecionado é "
+"apresentado à direita da sua seleção.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:80
@@ -1687,7 +1687,7 @@ msgid ""
 "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die _my "
 "agrirouter_ Seite.#"
 msgstr ""
-"Clique no botão *_Guardar_*.  [.result]#Será reenviado para a página _my "
+". Clique no botão *_Guardar_*.  [.result]#Será reenviado para a página _my "
 "agrirouter_.#"
 
 #. type: Plain text
@@ -1743,7 +1743,7 @@ msgid ""
 "button.png[Verbindung hinzufügen Button, 120].  [.result]#Die folgende Seite "
 "wird geöffnet:#"
 msgstr ""
-"Clique no botão *_Adicionar Ligação_* image:endpoints/add-connection-button."
+". Clique no botão *_Adicionar Ligação_* image:endpoints/add-connection-button."
 "png[Botão Adicionar Ligação, 120].  [.result]#A seguinte página é aberta:#"
 
 #. type: Plain text
@@ -1758,7 +1758,7 @@ msgid ""
 "Notiere den Registrierungscode und klicke auf *_Zurück_*.  [.result]#Die _my "
 "agrirouter_ Seite wird angezeigt.#"
 msgstr ""
-"Anotar o código de registo e clicar em *_Back_*.  [.result]#É apresentada a página "
+". Anotar o código de registo e clicar em *_Back_*.  [.result]#É apresentada a página "
 "_my agrirouter_.#"
 
 #. type: delimited block =
@@ -1845,7 +1845,7 @@ msgid ""
 "30] Icon der Verbindung, die du einem Hersteller zuordnen möchtest.  [."
 "result]#Die folgende Seite wird geöffnet.#"
 msgstr ""
-"Clique no ícone *edit* image:endpoints/edit-endpoint-icon.png[copy, 30, 30] "
+". Clique no ícone *edit* image:endpoints/edit-endpoint-icon.png[copy, 30, 30] "
 "da Ligação que pretende atribuir a um fabricante.  [.result]#A página "
 "seguinte abrir-se-á.#"
 
@@ -2079,7 +2079,7 @@ msgid ""
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Endpunkts.  [.result]#Ein "
 "Pup-up Fenster öffent sich. Klicke den Button *_bestätigen_*.#"
 msgstr ""
-"Para apagar um ponto final, clique no ícone *delete* image:endpoints/delete-"
+". Para apagar um ponto final, clique no ícone *delete* image:endpoints/delete-"
 "icon.png[Apagar ícone, 25] na altura do ponto final.  [.result]#Abre-se uma "
 "janela pop-up. Clique no botão *_confirmar_*.#"
 
@@ -2090,7 +2090,7 @@ msgid ""
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Herstellers.  [."
 "result]#Ein Pup-up Fenster öffent sich. Klicke den Button *_bestätigen_*.#"
 msgstr ""
-"Para apagar um fabricante, clique no ícone *delete* image:endpoints/delete-"
+". Para apagar um fabricante, clique no ícone *delete* image:endpoints/delete-"
 "icon.png[Apagar ícone, 25] na altura do fabricante.  [.result]#Abre-se uma "
 "janela de contexto. Clique no botão *_confirmar_*.#"
 
@@ -2148,13 +2148,13 @@ msgstr "image:endpoints/capabilities.png[Capacidades, 400, float=direita]"
 #: de/modules/ROOT/pages/endpoint.adoc:240
 #, no-wrap
 msgid "*_Letzter Austausch der Fähigkeiten_*: Der letzte Tag, an dem Daten gesendet oder empfangen wurden.\n"
-msgstr "*Último intercâmbio de capacidades_*: O último dia em que os dados foram enviados ou recebidos.\n"
+msgstr "*_Último intercâmbio de capacidades_*: O último dia em que os dados foram enviados ou recebidos.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:241
 #, no-wrap
 msgid "*_Letzer Austausch der Abonnements_*: Der letzte Tag, an dem Echtzeitdaten gesendet oder empfagen wurden.\n"
-msgstr "*Última troca de assinaturas_*: O último dia em que foram enviados ou recebidos dados em tempo real.\n"
+msgstr "*_Última troca de assinaturas_*: O último dia em que foram enviados ou recebidos dados em tempo real.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:242
@@ -2283,13 +2283,13 @@ msgstr "*_Rotas geridas pelo agrirouter_*: Se esta opção for selecionada image
 #: de/modules/ROOT/pages/endpoint.adoc:273
 #, no-wrap
 msgid "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten gesendet wurden.\n"
-msgstr "*Última mensagem enviada_*: Hora em que os dados foram enviados pela última vez.\n"
+msgstr "*_Última mensagem enviada_*: Hora em que os dados foram enviados pela última vez.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:274
 #, no-wrap
 msgid "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten empfangen wurden.\n"
-msgstr "*Última mensagem recebida_*: Hora em que os dados foram recebidos pela última vez.\n"
+msgstr "*_Última mensagem recebida_*: Hora em que os dados foram recebidos pela última vez.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:275
