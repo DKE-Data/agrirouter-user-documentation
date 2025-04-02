@@ -1137,10 +1137,8 @@ msgstr "S'inscrire"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:118
-#, fuzzy
-#| msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
 msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
-msgstr ". Sélectionnez *_Log in_*.  [.result]#Le processus Log in est lancé.#"
+msgstr ". Sélectionnez *_Login_*.  [.result]#Le processus Login est lancé.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:126
@@ -1159,33 +1157,23 @@ msgstr "Cliquez sur *_Inscription_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
-#, fuzzy
-#| msgid ""
-#| "Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-#| "Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-#| "registriert>> hast. Kopiere den Code aus der Mail."
 msgid ""
 "Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
 "der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
 "Kopiere den Code aus der Mail."
 msgstr ""
-"Vous recevrez alors un *_email contenant un code à 8 chiffres_* à l'adresse "
+"Vous recevrez alors un *_email contenant un code_* à l'adresse "
 "e-mail avec laquelle vous vous êtes <<s'inscrire,inscrit>> sur agrirouter. "
 "Copiez le code de l'e-mail."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:132
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
 "die E-Mail bei dir ankommt."
 msgstr ""
-"Si vous ne recevez pas l'e-mail contenant le code à 8 chiffres, vérifiez "
+"Si vous ne recevez pas l'e-mail contenant le code, vérifiez "
 "dans votre *_dossier spam_*. Parfois, cela peut aussi prendre *_quelques "
 "minutes_* avant que vous ne receviez l'e-mail."
 
@@ -1437,14 +1425,6 @@ msgstr ""
 msgid "Detailinformationen über deine Endpunkte einsiehst."
 msgstr "des informations détaillées sur vos points de terminaison."
 
-#. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:15
-#: de/modules/ROOT/pages/introduction.adoc:32
-#, fuzzy, no-wrap
-#| msgid "My agrirouter Seite"
-msgid "my agrirouter Seite"
-msgstr "Page My agrirouter"
-
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:17
 msgid ""
@@ -1480,6 +1460,8 @@ msgstr "Vous devriez maintenant voir la page suivante :"
 #: de/modules/ROOT/pages/endpoint.adoc:27
 #: de/modules/ROOT/pages/introduction.adoc:36
 #: de/modules/ROOT/pages/routing.adoc:26
+#: de/modules/ROOT/pages/endpoint.adoc:15
+#: de/modules/ROOT/pages/introduction.adoc:32
 #, no-wrap
 msgid "My agrirouter Seite"
 msgstr "Page My agrirouter"
