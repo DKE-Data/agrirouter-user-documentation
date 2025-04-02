@@ -1397,14 +1397,6 @@ msgstr "machines of telemetrie-eenheden en landbouwsoftware als eindpunten."
 msgid "Detailinformationen über deine Endpunkte einsiehst."
 msgstr "gedetailleerde informatie over uw eindpunten bekijken."
 
-#. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:15
-#: de/modules/ROOT/pages/introduction.adoc:32
-#, fuzzy, no-wrap
-#| msgid "My agrirouter Seite"
-msgid "my agrirouter Seite"
-msgstr "Mijn agrirouter pagina"
-
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:17
 msgid ""
@@ -1440,6 +1432,8 @@ msgstr "U zou nu de volgende pagina moeten zien:"
 #: de/modules/ROOT/pages/endpoint.adoc:27
 #: de/modules/ROOT/pages/introduction.adoc:36
 #: de/modules/ROOT/pages/routing.adoc:26
+#: de/modules/ROOT/pages/endpoint.adoc:15
+#: de/modules/ROOT/pages/introduction.adoc:32
 #, no-wrap
 msgid "My agrirouter Seite"
 msgstr "Mijn agrirouter pagina"
@@ -1762,11 +1756,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:116
-#, fuzzy
-#| msgid ""
-#| ". Aktualisiere die _my agrirouter_ Seite.  [.result]#Die Telemetrie-"
-#| "Einheit wird auf der rechten Seite deiner _my agrirouter_ Seite angezeigt."
-#| "#"
 msgid ""
 "Aktualisiere die _my agrirouter_ Seite.  [.result]#Die Telemetrie-Einheit "
 "wird auf der rechten Seite deiner _my agrirouter_ Seite angezeigt.#"
@@ -2033,12 +2022,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:219
-#, fuzzy
-#| msgid ""
-#| "Um einen Endpunkt zu löschen, klicke auf das *verwijderen* image:"
-#| "endpoints/delete-icon.png[Delete Icon, 25] Icon auf Höhe des Endpunkts.  "
-#| "[.result]#Ein Pup-up Fenster öffent sich. Klicke den Button "
-#| "*_bestätigen_*.#"
 msgid ""
 "Um einen Endpunkt zu löschen, klicke auf das *löschen* image:endpoints/"
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Endpunkts.  [.result]#Ein "
@@ -2051,12 +2034,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:221
-#, fuzzy
-#| msgid ""
-#| "Um einen Hersteller zu löschen, klicke auf das *verwijderen* image:"
-#| "endpoints/delete-icon.png[Delete Icon, 25] Icon auf Höhe des "
-#| "Herstellers.  [.result]#Ein Pup-up Fenster öffent sich. Klicke den Button "
-#| "*_bestätigen_*.#"
 msgid ""
 "Um einen Hersteller zu löschen, klicke auf das *löschen* image:endpoints/"
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Herstellers.  [."
@@ -11123,46 +11100,28 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:172
-#, fuzzy
-#| msgid "Verarbeitung von Telemetriedaten"
 msgid "## Verarbeitung von Telemetriedaten"
-msgstr "Verwerking van telemetriegegevens"
+msgstr "## Verwerking van telemetriegegevens"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:174
-#, fuzzy
-#| msgid ""
-#| "## Verarbeitung von Telemetriedaten In diesem Abschnitt erfährst du, wie "
-#| "du mit xFarm Telemetriedaten, die über den agrirouter gesendet wurden, "
-#| "abrufen kannst. Du kannst Telemetriedaten über den Menüpunkt "
-#| "*_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgid ""
 "In diesem Abschnitt erfährst du, wie du mit xFarm Telemetriedaten, die über "
 "den agrirouter gesendet wurden, abrufen kannst. Du kannst Telemetriedaten "
 "über den Menüpunkt *_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgstr ""
-"## Telemetriegegevens verwerken In dit gedeelte leer je hoe je "
+"In dit gedeelte leer je hoe je "
 "telemetriegegevens die via de agrirouter zijn verzonden, kunt ophalen met "
 "xFarm. U kunt telemetriegegevens ophalen via het menu-item *_Machines_* of "
 "de *_Task-Viewer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:176
-#, fuzzy
-#| msgid "### Über das Maschinen Menü"
 msgid "### Über das Maschinen-Menü"
 msgstr "### Over het machinemenu"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:178
-#, fuzzy
-#| msgid ""
-#| "### Über das Maschinen-Menü Das Maschinen-Menü ist die einfachste Option, "
-#| "auf Maschinendaten zuzugreifen. Innerhalb des Maschinen-Menüs kannst du "
-#| "alle Maschinendaten (Aufgaben, Telemetrie usw.) von allen "
-#| "Datenaustauschplattformen sehen, nicht nur die des agrirouters. Deshalb "
-#| "musst du im Folgenden an keiner Stelle explizit eine agrirouter-Option "
-#| "auswählen."
 msgid ""
 "Das Maschinen-Menü ist die einfachste Option, auf Maschinendaten "
 "zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle Maschinendaten "
@@ -11170,7 +11129,7 @@ msgid ""
 "nur die des agrirouters. Deshalb musst du im Folgenden an keiner Stelle "
 "explizit eine agrirouter-Option auswählen."
 msgstr ""
-"### Over het machinemenu Het machinemenu is de eenvoudigste optie om toegang "
+"Het machinemenu is de eenvoudigste optie om toegang "
 "te krijgen tot machinegegevens. In het machinemenu kunt u alle "
 "machinegegevens (taken, telemetrie, enz.) van alle "
 "gegevensuitwisselingsplatforms zien, niet alleen die van de agrirouter. "
@@ -11979,21 +11938,6 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 #~ msgstr ""
 #~ "Kopieer de diagnostische informatie in een e-mail naar ons "
 #~ "ondersteuningsteam."
-
-#, fuzzy
-#~| msgid ""
-#~| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#~| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~| "dauern, bis die E-Mail bei dir ankommt."
-#~ msgid ""
-#~ "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#~ "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~ "dauern, bis die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to "
-#~ "change email address)"
-#~ msgstr ""
-#~ "Als je de e-mail met de 8-cijferige code niet ontvangt, controleer dan je "
-#~ "*_spam map_*. Soms kan het ook *_een paar minuten_* duren voordat de e-"
-#~ "mail aankomt."
 
 #~ msgid "Deine E-Mail-Adresse kann nicht geändert werden."
 #~ msgstr "Je e-mailadres kan niet worden gewijzigd."

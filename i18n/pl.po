@@ -1387,14 +1387,6 @@ msgstr ""
 msgid "Detailinformationen über deine Endpunkte einsiehst."
 msgstr "wyświetlić szczegółowe informacje o punktach końcowych."
 
-#. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:15
-#: de/modules/ROOT/pages/introduction.adoc:32
-#, fuzzy, no-wrap
-#| msgid "My agrirouter Seite"
-msgid "my agrirouter Seite"
-msgstr "Moja strona agrirouter"
-
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:17
 msgid ""
@@ -1430,6 +1422,8 @@ msgstr "Powinieneś teraz zobaczyć następującą stronę:"
 #: de/modules/ROOT/pages/endpoint.adoc:27
 #: de/modules/ROOT/pages/introduction.adoc:36
 #: de/modules/ROOT/pages/routing.adoc:26
+#: de/modules/ROOT/pages/endpoint.adoc:15
+#: de/modules/ROOT/pages/introduction.adoc:32
 #, no-wrap
 msgid "My agrirouter Seite"
 msgstr "Moja strona agrirouter"
@@ -3107,10 +3101,6 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:57
-#, fuzzy
-#| msgid ""
-#| "Gib deine E-Mail-Adresse ein und klicke auf *_Weiter_*. [.result]#Eine "
-#| "neue Seite wird geöffnet.#"
 msgid ""
 "Gib deine E-Mail-Adresse ein und klicke auf *_Weiter_*.  [.result]#Eine neue "
 "Seite wird geöffnet.#"
@@ -11004,46 +10994,28 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:172
-#, fuzzy
-#| msgid "Verarbeitung von Telemetriedaten"
 msgid "## Verarbeitung von Telemetriedaten"
-msgstr "Przetwarzanie danych telemetrycznych"
+msgstr "## Przetwarzanie danych telemetrycznych"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:174
-#, fuzzy
-#| msgid ""
-#| "## Verarbeitung von Telemetriedaten In diesem Abschnitt erfährst du, wie "
-#| "du mit xFarm Telemetriedaten, die über den agrirouter gesendet wurden, "
-#| "abrufen kannst. Du kannst Telemetriedaten über den Menüpunkt "
-#| "*_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgid ""
 "In diesem Abschnitt erfährst du, wie du mit xFarm Telemetriedaten, die über "
 "den agrirouter gesendet wurden, abrufen kannst. Du kannst Telemetriedaten "
 "über den Menüpunkt *_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgstr ""
-"## Przetwarzanie danych telemetrycznych W tej sekcji dowiesz się, jak "
+"W tej sekcji dowiesz się, jak "
 "pobierać dane telemetryczne wysyłane przez agrirouter za pomocą xFarm. Dane "
 "telemetryczne można pobrać za pomocą pozycji menu *_Machines_* lub *_Task-"
 "Viewer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:176
-#, fuzzy
-#| msgid "### Über das Maschinen Menü"
 msgid "### Über das Maschinen-Menü"
 msgstr "### Informacje o menu urządzenia"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:178
-#, fuzzy
-#| msgid ""
-#| "### Über das Maschinen-Menü Das Maschinen-Menü ist die einfachste Option, "
-#| "auf Maschinendaten zuzugreifen. Innerhalb des Maschinen-Menüs kannst du "
-#| "alle Maschinendaten (Aufgaben, Telemetrie usw.) von allen "
-#| "Datenaustauschplattformen sehen, nicht nur die des agrirouters. Deshalb "
-#| "musst du im Folgenden an keiner Stelle explizit eine agrirouter-Option "
-#| "auswählen."
 msgid ""
 "Das Maschinen-Menü ist die einfachste Option, auf Maschinendaten "
 "zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle Maschinendaten "
@@ -11051,7 +11023,7 @@ msgid ""
 "nur die des agrirouters. Deshalb musst du im Folgenden an keiner Stelle "
 "explizit eine agrirouter-Option auswählen."
 msgstr ""
-"### Informacje o menu maszyny Menu maszyny jest najłatwiejszą opcją dostępu "
+"Menu maszyny jest najłatwiejszą opcją dostępu "
 "do danych maszyny. W menu maszyny można zobaczyć wszystkie dane maszyny "
 "(zadania, telemetrię itp.) ze wszystkich platform wymiany danych, a nie "
 "tylko z platformy agrirouter. W związku z tym nie trzeba wyraźnie wybierać "

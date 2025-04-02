@@ -1128,11 +1128,9 @@ msgstr "Iniciar sessão"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:118
-#, fuzzy
-#| msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
 msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
 msgstr ""
-". Selecionar *_Log in_*.  [.result]#O processo de início de sessão é "
+". Selecionar *_Login_*.  [.result]#O processo de início de sessão é "
 "iniciado.#"
 
 #. type: Plain text
@@ -1152,33 +1150,23 @@ msgstr "Clicar em *_Login_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
-#, fuzzy
-#| msgid ""
-#| "Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-#| "Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-#| "registriert>> hast. Kopiere den Code aus der Mail."
 msgid ""
 "Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
 "der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
 "Kopiere den Code aus der Mail."
 msgstr ""
-"Receberá agora um *_email com um código de 8 dígitos_* no endereço de "
+"Receberá agora um *_email com um código_* no endereço de "
 "correio eletrónico que utilizou para se registar no agrirouter <<criar conta "
 "de utilizador, registar>>. Copie o código da mensagem de correio eletrónico."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:132
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
 "die E-Mail bei dir ankommt."
 msgstr ""
-"Se não receber a mensagem de correio eletrónico com o código de 8 dígitos, "
+"Se não receber a mensagem de correio eletrónico com o código, "
 "verifique a sua pasta *_spam_*. Por vezes, também pode demorar *_alguns "
 "minutos_* a chegar a mensagem de correio eletrónico."
 
@@ -1200,14 +1188,10 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:149
-#, fuzzy
-#| msgid ""
-#| "Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben "
-#| "beschrieben."
 msgid ""
 "Öffne die https://app.agrirouter.com/[die Anmeldeseite] wie oben beschrieben."
 msgstr ""
-"Abra https://app.agrirouter.com/de [a página de início de sessão] como "
+"Abra https://app.agrirouter.com[a página de início de sessão] como "
 "descrito acima."
 
 #. type: delimited block =
@@ -1219,13 +1203,6 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:152
-#, fuzzy
-#| msgid ""
-#| "Wenn du deine Arbeit im Dashboard beendet hast, schließe die "
-#| "Internetseite [.underline]#ohne# dich abzumelden.  [.result]#Wenn du das "
-#| "nächste Mal https://app.agrirouter.com/de[die Anmeldeseite] öffnest, wird "
-#| "sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] "
-#| "angezeigt.#"
 msgid ""
 "Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [."
 "underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal https://"
@@ -1234,7 +1211,7 @@ msgid ""
 msgstr ""
 "Quando tiver terminado o seu trabalho no painel de controlo, feche o site [."
 "underline]#sem# Terminar sessão.  [.result]#Na próxima vez que abrir https://"
-"app.agrirouter.com/de[a página de início de sessão], a sua página xref:"
+"app.agrirouter.com/[a página de início de sessão], a sua página xref:"
 "introduction.adoc/myagrirouter[a minha página agrirouter] será imediatamente "
 "apresentada.#"
 
@@ -1366,10 +1343,8 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:206
-#, fuzzy
-#| msgid "klicke auf den Button *_Ihr Konto löschen_*."
 msgid "Klicke auf den Button *_Ihr Konto löschen_*."
-msgstr "clique no botão *_Delete a sua conta_*."
+msgstr "Clique no botão *_Delete a sua conta_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:213
@@ -1427,14 +1402,6 @@ msgstr ""
 msgid "Detailinformationen über deine Endpunkte einsiehst."
 msgstr "ver informações detalhadas sobre os seus Pontos finais."
 
-#. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:15
-#: de/modules/ROOT/pages/introduction.adoc:32
-#, fuzzy, no-wrap
-#| msgid "My agrirouter Seite"
-msgid "my agrirouter Seite"
-msgstr "A minha página agrirouter"
-
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:17
 msgid ""
@@ -1471,6 +1438,8 @@ msgstr "Deverá ver agora a seguinte página:"
 #: de/modules/ROOT/pages/endpoint.adoc:27
 #: de/modules/ROOT/pages/introduction.adoc:36
 #: de/modules/ROOT/pages/routing.adoc:26
+#: de/modules/ROOT/pages/endpoint.adoc:15
+#: de/modules/ROOT/pages/introduction.adoc:32
 #, no-wrap
 msgid "My agrirouter Seite"
 msgstr "A minha página agrirouter"
@@ -1778,11 +1747,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
-#, fuzzy
-#| msgid ""
-#| "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
-#| "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
-#| "adoc#solution-guides[Solution Guides] nachlesen."
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
@@ -1803,10 +1767,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
-#, fuzzy
-#| msgid ""
-#| "Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] "
-#| "nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgid ""
 "Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
@@ -1989,11 +1949,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195
-#, fuzzy
-#| msgid ""
-#| "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie "
-#| "das für deine Software funktioniert, erfährst du in den xref:solution-"
-#| "guides.adoc#solution-guides[Solution Guides]."
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
@@ -2025,13 +1980,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:205
-#, fuzzy
-#| msgid ""
-#| "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in "
-#| "einigen Fällen anders) findest du meist in den Einstellungen der "
-#| "Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution "
-#| "Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem "
-#| "agrirouter verbindest."
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
@@ -2045,10 +1993,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:207
-#, fuzzy
-#| msgid ""
-#| "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-#| "findest du auf dem https://agrirouter.com/solutions[Solution Finder]."
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du auf dem https://agrirouter.com/solutions[Solution-Finder]."
@@ -2538,13 +2482,6 @@ msgstr "Ponto final"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:51
-#, fuzzy
-#| msgid ""
-#| "Deine Maschinen und deine Software werden über den agrirouter als "
-#| "Endpunkte miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie "
-#| "auch Empfänger sein. Wichtig ist nur, dass die Endpunkte über eine "
-#| "<<Route,Routen>> miteineander verbunden sind. Grundsätzlich gibt es zwei "
-#| "Typen von Endpunkten:"
 msgid ""
 "Deine Maschinen und deine Software werden über den agrirouter als Endpunkte "
 "miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger "
@@ -2554,7 +2491,7 @@ msgstr ""
 "As suas Máquinas e o seu software estão ligados entre si como Pontos finais "
 "através do agrirouter. Um ponto final pode ser tanto um transmissor como um "
 "recetor. A única coisa importante é que os endpoints estão ligados uns aos "
-"outros através de um <<route,routes>>. Existem basicamente dois tipos de "
+"outros através de um <<Rota,Rotas>>. Existem basicamente dois tipos de "
 "endpoints:"
 
 #. type: Labeled list
@@ -2721,8 +2658,6 @@ msgstr "Documentos"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:88
-#, fuzzy
-#| msgid "Berichte im pdf-Format"
 msgid "Berichte im PDF-Format"
 msgstr "Relatórios em formato pdf"
 
@@ -11162,46 +11097,28 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:172
-#, fuzzy
-#| msgid "Verarbeitung von Telemetriedaten"
 msgid "## Verarbeitung von Telemetriedaten"
-msgstr "Processamento de dados de telemetria"
+msgstr "## Processamento de dados de telemetria"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:174
-#, fuzzy
-#| msgid ""
-#| "## Verarbeitung von Telemetriedaten In diesem Abschnitt erfährst du, wie "
-#| "du mit xFarm Telemetriedaten, die über den agrirouter gesendet wurden, "
-#| "abrufen kannst. Du kannst Telemetriedaten über den Menüpunkt "
-#| "*_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgid ""
 "In diesem Abschnitt erfährst du, wie du mit xFarm Telemetriedaten, die über "
 "den agrirouter gesendet wurden, abrufen kannst. Du kannst Telemetriedaten "
 "über den Menüpunkt *_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgstr ""
-"## Processamento de dados de telemetria Nesta secção, aprenderá a recuperar "
+"Nesta secção, aprenderá a recuperar "
 "dados de telemetria enviados através do agrirouter utilizando o xFarm. Pode "
 "obter dados de telemetria através do item de menu *_Máquinas_* ou do "
 "*_Visualizador de tarefas_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:176
-#, fuzzy
-#| msgid "### Über das Maschinen Menü"
 msgid "### Über das Maschinen-Menü"
 msgstr "### Sobre o menu Máquina"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:178
-#, fuzzy
-#| msgid ""
-#| "### Über das Maschinen-Menü Das Maschinen-Menü ist die einfachste Option, "
-#| "auf Maschinendaten zuzugreifen. Innerhalb des Maschinen-Menüs kannst du "
-#| "alle Maschinendaten (Aufgaben, Telemetrie usw.) von allen "
-#| "Datenaustauschplattformen sehen, nicht nur die des agrirouters. Deshalb "
-#| "musst du im Folgenden an keiner Stelle explizit eine agrirouter-Option "
-#| "auswählen."
 msgid ""
 "Das Maschinen-Menü ist die einfachste Option, auf Maschinendaten "
 "zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle Maschinendaten "
@@ -11209,7 +11126,7 @@ msgid ""
 "nur die des agrirouters. Deshalb musst du im Folgenden an keiner Stelle "
 "explizit eine agrirouter-Option auswählen."
 msgstr ""
-"### Sobre o menu Máquina O menu Máquina é a opção mais fácil para aceder aos "
+"O menu Máquina é a opção mais fácil para aceder aos "
 "dados da máquina. No menu Máquina, pode ver todos os dados da máquina "
 "(tarefas, telemetria, etc.) de todas as plataformas de troca de dados, e não "
 "apenas as do agrirouter. Por conseguinte, não é necessário selecionar "
@@ -12004,21 +11921,6 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 #~ msgstr ""
 #~ "Copie as informações de diagnóstico para uma mensagem de correio "
 #~ "eletrónico enviada à nossa equipa de apoio."
-
-#, fuzzy
-#~| msgid ""
-#~| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#~| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~| "dauern, bis die E-Mail bei dir ankommt."
-#~ msgid ""
-#~ "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#~ "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~ "dauern, bis die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to "
-#~ "change email address)"
-#~ msgstr ""
-#~ "Se não receber a mensagem de correio eletrónico com o código de 8 "
-#~ "dígitos, verifique a sua pasta *_spam_*. Por vezes, também pode demorar "
-#~ "*_alguns minutos_* a chegar a mensagem de correio eletrónico."
 
 #~ msgid "Deine E-Mail-Adresse kann nicht geändert werden."
 #~ msgstr "O seu endereço eletrónico não pode ser alterado."
