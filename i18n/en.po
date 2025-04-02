@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-27 11:34+0000\n"
+"POT-Creation-Date: 2025-04-02 11:12+0000\n"
 "PO-Revision-Date: 2025-03-20 15:20+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
@@ -1007,9 +1007,9 @@ msgstr "Create a user account"
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:133
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:151
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:163
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:177
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:182
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:179
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:184
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:199
 #, no-wrap
 msgid "Select Register"
 msgstr "Select Register"
@@ -1120,10 +1120,8 @@ msgstr "Login"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:118
-#, fuzzy
-#| msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
 msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
-msgstr ". Select *_Log in_*.  [.result]#The log in process is started.#"
+msgstr ". Select *_Login_*.  [.result]#The login process is started.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:126
@@ -1142,33 +1140,23 @@ msgstr "Click on *_Login_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
-#, fuzzy
-#| msgid ""
-#| "Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-#| "Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-#| "registriert>> hast. Kopiere den Code aus der Mail."
 msgid ""
 "Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
 "der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
 "Kopiere den Code aus der Mail."
 msgstr ""
-"You will now receive an *_email with an 8-digit code_* to the email address "
+"You will now receive an *_email with a code_* to the email address "
 "you used to register with the agrirouter <<create user account>>. Copy the "
 "code from the email."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:132
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
 "die E-Mail bei dir ankommt."
 msgstr ""
-"If you do not receive the e-mail with the 8-digit code, check your *_spam "
+"If you do not receive the e-mail with the code, check your *_spam "
 "folder_*. Sometimes it can also take *_a few minutes_* for the e-mail to "
 "arrive."
 
@@ -1189,14 +1177,10 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:149
-#, fuzzy
-#| msgid ""
-#| "Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben "
-#| "beschrieben."
 msgid ""
 "Öffne die https://app.agrirouter.com/[die Anmeldeseite] wie oben beschrieben."
 msgstr ""
-"Open https://app.agrirouter.com/de [the login page] as described above."
+"Open https://app.agrirouter.com/[the login page] as described above."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:150
@@ -1205,13 +1189,6 @@ msgstr "Activate the \"_Stay logged in_\" checkbox and log in."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:152
-#, fuzzy
-#| msgid ""
-#| "Wenn du deine Arbeit im Dashboard beendet hast, schließe die "
-#| "Internetseite [.underline]#ohne# dich abzumelden.  [.result]#Wenn du das "
-#| "nächste Mal https://app.agrirouter.com/de[die Anmeldeseite] öffnest, wird "
-#| "sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] "
-#| "angezeigt.#"
 msgid ""
 "Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [."
 "underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal https://"
@@ -1220,7 +1197,7 @@ msgid ""
 msgstr ""
 "When you have finished your work in the dashboard, close the website [."
 "underline]#without# logging out.  [.result]#The next time you open https://"
-"app.agrirouter.com/de[the login page], your xref:introduction.adoc/"
+"app.agrirouter.com/[the login page], your xref:introduction.adoc/"
 "myagrirouter[my agrirouter page] will be displayed immediately.#"
 
 #. type: Title ==
@@ -1351,10 +1328,8 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:206
-#, fuzzy
-#| msgid "klicke auf den Button *_Ihr Konto löschen_*."
 msgid "Klicke auf den Button *_Ihr Konto löschen_*."
-msgstr "click on the button *_Delete your account_*."
+msgstr "Click on the button *_Delete your account_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:213
@@ -1412,9 +1387,7 @@ msgstr "View detailed information about your Endpoints."
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:15
 #: de/modules/ROOT/pages/introduction.adoc:32
-#, fuzzy, no-wrap
-#| msgid "My agrirouter Seite"
-msgid "my agrirouter Seite"
+msgid "My agrirouter Seite"
 msgstr "My agrirouter page"
 
 #. type: Plain text
@@ -1757,11 +1730,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
-#, fuzzy
-#| msgid ""
-#| "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
-#| "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
-#| "adoc#solution-guides[Solution Guides] nachlesen."
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
@@ -1782,10 +1750,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
-#, fuzzy
-#| msgid ""
-#| "Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] "
-#| "nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgid ""
 "Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
@@ -1926,8 +1890,8 @@ msgid ""
 "Wähle die Software aus, die du verbinden möchtest.  [.result]#Die "
 "ausgewählte Software wird dir rechts neben deiner Auswahl angezeigt.#"
 msgstr ""
-". Select the software you want to Pairing.  [.result]#The selected software is "
-"displayed to the right of your selection.#"
+". Select the software you want to Pairing.  [.result]#The selected software "
+"is displayed to the right of your selection.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:175
@@ -1966,11 +1930,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195
-#, fuzzy
-#| msgid ""
-#| "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie "
-#| "das für deine Software funktioniert, erfährst du in den xref:solution-"
-#| "guides.adoc#solution-guides[Solution Guides]."
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
@@ -2002,13 +1961,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:205
-#, fuzzy
-#| msgid ""
-#| "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in "
-#| "einigen Fällen anders) findest du meist in den Einstellungen der "
-#| "Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution "
-#| "Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem "
-#| "agrirouter verbindest."
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
@@ -2022,10 +1974,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:207
-#, fuzzy
-#| msgid ""
-#| "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-#| "findest du auf dem https://agrirouter.com/solutions[Solution Finder]."
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du auf dem https://agrirouter.com/solutions[Solution-Finder]."
@@ -2071,9 +2019,9 @@ msgid ""
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Herstellers.  [."
 "result]#Ein Pup-up Fenster öffent sich. Klicke den Button *_bestätigen_*.#"
 msgstr ""
-". To delete a manufacturer, click on the *delete* image:endpoints/delete-icon."
-"png[Delete Icon, 25] icon at the height of the manufacturer.  [.result]#A "
-"pop-up window opens. Click the button *_confirm_*.#"
+". To delete a manufacturer, click on the *delete* image:endpoints/delete-"
+"icon.png[Delete Icon, 25] icon at the height of the manufacturer.  [."
+"result]#A pop-up window opens. Click the button *_confirm_*.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/endpoint.adoc:224
@@ -2512,13 +2460,6 @@ msgstr "Endpoint"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:51
-#, fuzzy
-#| msgid ""
-#| "Deine Maschinen und deine Software werden über den agrirouter als "
-#| "Endpunkte miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie "
-#| "auch Empfänger sein. Wichtig ist nur, dass die Endpunkte über eine "
-#| "<<Route,Routen>> miteineander verbunden sind. Grundsätzlich gibt es zwei "
-#| "Typen von Endpunkten:"
 msgid ""
 "Deine Maschinen und deine Software werden über den agrirouter als Endpunkte "
 "miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger "
@@ -2691,8 +2632,6 @@ msgstr "Documents"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:88
-#, fuzzy
-#| msgid "Berichte im pdf-Format"
 msgid "Berichte im PDF-Format"
 msgstr "Reports in PDF format"
 
@@ -2764,10 +2703,10 @@ msgid ""
 "hinzufügen_* image:endpoints/add-route-icon.png[Routen hinzufügen Icon, 22] "
 "Icon angezeigt.#"
 msgstr ""
-". Click on the *_view routes_* image:endpoints/see-routes-icon.png[View routes "
-"icon, 22] icon at the endpoint you want to pair with another endpoint.  [."
-"result]#You will now see the *_add route_* image:endpoints/add-route-icon."
-"png[Add routes icon, 22] icon.#"
+". Click on the *_view routes_* image:endpoints/see-routes-icon.png[View "
+"routes icon, 22] icon at the endpoint you want to pair with another "
+"endpoint.  [.result]#You will now see the *_add route_* image:endpoints/add-"
+"route-icon.png[Add routes icon, 22] icon.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:22
@@ -2932,10 +2871,10 @@ msgid ""
 "Icon.  [.result]#Dir werden nun die Roten, die bereits zu anderen Endpunkten "
 "bestehen, über einen grauen Pfeil angezeigt.#"
 msgstr ""
-". Click on the *_view routes_* image:endpoints/see-routes-icon.png[View routes "
-"icon, 22] icon at the Endpoint you want to edit.  [.result]#You will now see "
-"the red routes that already exist to other Endpoints displayed with a gray "
-"arrow.#"
+". Click on the *_view routes_* image:endpoints/see-routes-icon.png[View "
+"routes icon, 22] icon at the Endpoint you want to edit.  [.result]#You will "
+"now see the red routes that already exist to other Endpoints displayed with "
+"a gray arrow.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:66
@@ -6784,16 +6723,10 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:23
-#, fuzzy
-#| msgid ""
-#| "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
-#| "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
-#| "freigeschaltet. Wähle hierzu unter *_Services_* die Option *_Smart "
-#| "Telematics_* aus und folge dem Prozess."
 msgid ""
 "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
 "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
-"freigeschaltet. Wähle hierzu unter *Services_* die Option *_Smart "
+"freigeschaltet. Wähle hierzu unter *_Services_* die Option *_Smart "
 "Telematics_* aus und folge dem Prozess."
 msgstr ""
 "The Smart Telematics service is not yet activated in a newly created link:"
@@ -10826,7 +10759,7 @@ msgstr "### About the machine menu"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:79
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:180
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:182
 msgid "Wähle in der Seitenleiste links die Option *_Maschinen_*."
 msgstr "Select the option *_Machines_* in the sidebar on the left."
 
@@ -10856,14 +10789,14 @@ msgstr "### About the Task Viewer"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:96
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:166
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:200
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:202
 msgid "Wähle in der Seitenleiste links die Option *_Task Viewer_*."
 msgstr "Select the *_Task Viewer_* option in the sidebar on the left."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:97
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:167
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:201
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
 msgid "Klicke im oberen Bereich auf *_Task_*."
 msgstr "Click on *_Task_* in the upper area."
 
@@ -11016,7 +10949,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:168
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:202
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:204
 msgid ""
 "Wähle im Dropdown-Menü unter *_Anbieter auswählen_* die Option "
 "*_AGRIROUTER_* aus."
@@ -11043,35 +10976,43 @@ msgstr ""
 "import."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:173
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:172
+msgid "## Verarbeitung von Telemetriedaten"
+msgstr "##Processing of telemetry data"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:174
 msgid ""
-"## Verarbeitung von Telemetriedaten In diesem Abschnitt erfährst du, wie du "
-"mit xFarm Telemetriedaten, die über den agrirouter gesendet wurden, abrufen "
-"kannst. Du kannst Telemetriedaten über den Menüpunkt *_Maschinen_* oder den "
-"*_Task-Viewer_* abrufen."
+"In diesem Abschnitt erfährst du, wie du mit xFarm Telemetriedaten, die über "
+"den agrirouter gesendet wurden, abrufen kannst. Du kannst Telemetriedaten "
+"über den Menüpunkt *_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgstr ""
-"## Processing telemetry data In this section, you will learn how to retrieve "
+"In this section, you will learn how to retrieve "
 "telemetry data sent via the agrirouter using xFarm. You can retrieve "
 "telemetry data via the menu item *_Machines_* or the *_Task-Viewer_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:176
+msgid "### Über das Maschinen-Menü"
+msgstr "### About the machine menu"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:178
 msgid ""
-"### Über das Maschinen-Menü Das Maschinen-Menü ist die einfachste Option, "
-"auf Maschinendaten zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle "
-"Maschinendaten (Aufgaben, Telemetrie usw.) von allen "
-"Datenaustauschplattformen sehen, nicht nur die des agrirouters. Deshalb "
-"musst du im Folgenden an keiner Stelle explizit eine agrirouter-Option "
-"auswählen."
+"Das Maschinen-Menü ist die einfachste Option, auf Maschinendaten "
+"zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle Maschinendaten "
+"(Aufgaben, Telemetrie usw.) von allen Datenaustauschplattformen sehen, nicht "
+"nur die des agrirouters. Deshalb musst du im Folgenden an keiner Stelle "
+"explizit eine agrirouter-Option auswählen."
 msgstr ""
-"### About the machine menu The machine menu is the easiest option for "
+"The machine menu is the easiest option for "
 "accessing machine data. Within the machine menu, you can see all machine "
 "data (tasks, telemetry, etc.) from all data exchange platforms, not just "
 "those of the agrirouter. Therefore, you do not have to explicitly select an "
 "agrirouter option at any point below."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:181
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:183
 msgid ""
 "Klicke nun auf *_Maschinenpark_* und wähle die Maschine, von der du die "
 "Telemetriedaten abrufen möchtest."
@@ -11080,17 +11021,17 @@ msgstr ""
 "retrieve the telemetry data."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:186
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:188
 msgid "Klicke nun den Reiter *_Report_*."
 msgstr "Now click on the *_Report_* tab."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:187
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:189
 msgid "Wähle das Datum, von welchem du die Telemetriedaten abrufen möchtest."
 msgstr "Select the date from which you want to retrieve the telemetry data."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:191
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:193
 msgid ""
 "Der grüne Kreis im Kalender zeigt an, von welchen Daten Telemetriedaten "
 "verfügbar sind."
@@ -11099,17 +11040,17 @@ msgstr ""
 "available."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:195
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
 msgid "Klicke auf *_Ansehen_*."
 msgstr "Click on *_View_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:199
 msgid "### Über den Task Viewer"
 msgstr "### About the Task Viewer"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:205
 msgid ""
 "Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* die Maschine oder "
 "das Werkzeug aus, von welchen du die Telemetriedaten abrufen möchtest."
@@ -11118,7 +11059,7 @@ msgstr ""
 "tool from which you want to retrieve the telemetry data."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:205
 msgid ""
 "In der Aufgabenliste erkennst du die Telemtriedaten daran, dass die zip-"
 "Datei den Namenszusatz *_telemetry_* hat."
@@ -11843,21 +11784,6 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
 #~ msgid "Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support."
 #~ msgstr "Copy the diagnostic information into an email to our support team."
-
-#, fuzzy
-#~| msgid ""
-#~| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#~| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~| "dauern, bis die E-Mail bei dir ankommt."
-#~ msgid ""
-#~ "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#~ "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~ "dauern, bis die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to "
-#~ "change email address)"
-#~ msgstr ""
-#~ "If you do not receive the e-mail with the 8-digit code, check your *_spam "
-#~ "folder_*. Sometimes it can also take *_a few minutes_* for the e-mail to "
-#~ "arrive."
 
 #~ msgid "Deine E-Mail-Adresse kann nicht geändert werden."
 #~ msgstr "Your e-mail address cannot be changed."
@@ -13881,10 +13807,6 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
 #~ msgid "Kommunikationseinheit verbinden ..."
 #~ msgstr "Pairing a communication unit ..."
-
-#, fuzzy
-#~ msgid "Basic Data"
-#~ msgstr "Basics"
 
 #~ msgid "/en"
 #~ msgstr "/de"

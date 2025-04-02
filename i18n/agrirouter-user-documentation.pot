@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-02 07:27+0000\n"
+"POT-Creation-Date: 2025-04-02 11:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -939,9 +939,9 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:133
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:151
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:163
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:177
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:182
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:179
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:184
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:199
 #, no-wrap
 msgid "Select Register"
 msgstr ""
@@ -9136,7 +9136,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:79
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:180
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:182
 msgid "Wähle in der Seitenleiste links die Option *_Maschinen_*."
 msgstr ""
 
@@ -9165,14 +9165,14 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:96
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:166
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:200
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:202
 msgid "Wähle in der Seitenleiste links die Option *_Task Viewer_*."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:97
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:167
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:201
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
 msgid "Klicke im oberen Bereich auf *_Task_*."
 msgstr ""
 
@@ -9298,7 +9298,7 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:168
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:202
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:204
 msgid ""
 "Wähle im Dropdown-Menü unter *_Anbieter auswählen_* die Option "
 "*_AGRIROUTER_* aus."
@@ -9319,68 +9319,76 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:173
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:172
+msgid "## Verarbeitung von Telemetriedaten"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:174
 msgid ""
-"## Verarbeitung von Telemetriedaten In diesem Abschnitt erfährst du, wie du "
-"mit xFarm Telemetriedaten, die über den agrirouter gesendet wurden, abrufen "
-"kannst. Du kannst Telemetriedaten über den Menüpunkt *_Maschinen_* oder den "
-"*_Task-Viewer_* abrufen."
+"In diesem Abschnitt erfährst du, wie du mit xFarm Telemetriedaten, die über "
+"den agrirouter gesendet wurden, abrufen kannst. Du kannst Telemetriedaten "
+"über den Menüpunkt *_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:176
-msgid ""
-"### Über das Maschinen-Menü Das Maschinen-Menü ist die einfachste Option, "
-"auf Maschinendaten zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle "
-"Maschinendaten (Aufgaben, Telemetrie usw.) von allen "
-"Datenaustauschplattformen sehen, nicht nur die des agrirouters. Deshalb "
-"musst du im Folgenden an keiner Stelle explizit eine agrirouter-Option "
-"auswählen."
+msgid "### Über das Maschinen-Menü"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:181
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:178
+msgid ""
+"Das Maschinen-Menü ist die einfachste Option, auf Maschinendaten "
+"zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle Maschinendaten "
+"(Aufgaben, Telemetrie usw.) von allen Datenaustauschplattformen sehen, nicht "
+"nur die des agrirouters. Deshalb musst du im Folgenden an keiner Stelle "
+"explizit eine agrirouter-Option auswählen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:183
 msgid ""
 "Klicke nun auf *_Maschinenpark_* und wähle die Maschine, von der du die "
 "Telemetriedaten abrufen möchtest."
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:186
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:188
 msgid "Klicke nun den Reiter *_Report_*."
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:187
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:189
 msgid "Wähle das Datum, von welchem du die Telemetriedaten abrufen möchtest."
 msgstr ""
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:191
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:193
 msgid ""
 "Der grüne Kreis im Kalender zeigt an, von welchen Daten Telemetriedaten "
 "verfügbar sind."
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:195
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
 msgid "Klicke auf *_Ansehen_*."
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:199
 msgid "### Über den Task Viewer"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:205
 msgid ""
 "Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* die Maschine oder "
 "das Werkzeug aus, von welchen du die Telemetriedaten abrufen möchtest."
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:205
 msgid ""
 "In der Aufgabenliste erkennst du die Telemtriedaten daran, dass die "
 "zip-Datei den Namenszusatz *_telemetry_* hat."
