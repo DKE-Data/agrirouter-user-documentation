@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-03-20 15:22+0000\n"
-"PO-Revision-Date: 2025-03-26 15:13+0000\n"
+"POT-Creation-Date: 2025-04-02 12:39+0000\n"
+"PO-Revision-Date: 2025-03-20 15:20+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Portuguese <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/pt/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: de/antora.yml:0 de/antora-playbook.yml:0
 #, no-wrap
 msgid "agrirouter Bedienungsanleitung"
-msgstr "manual de instruções do agrirouter"
+msgstr "Manual de instruções do agrirouter"
 
 #. type: Array Element: antora extensions
 #: de/antora-playbook.yml:0
@@ -284,17 +284,17 @@ msgstr "xref:introduction.adoc[Introdução]"
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:3
 msgid "xref:account.adoc[Konto]"
-msgstr "xref:account.adoc[conta]"
+msgstr "xref:account.adoc[Conta]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:4
 msgid "xref:endpoint.adoc[Endpunkt]"
-msgstr "xref:endpoint.adoc[ponto final]"
+msgstr "xref:endpoint.adoc[Ponto final]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:5
 msgid "xref:routing.adoc[Routen]"
-msgstr "xref:routing.adoc[routes]"
+msgstr "xref:routing.adoc[Routes]"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:6
@@ -328,7 +328,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:9
-#: de/modules/ROOT/pages/group.adoc:10
 msgid "In diesem Abschnitt erfährst du"
 msgstr "Nesta secção, aprenderá"
 
@@ -372,8 +371,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
-"Clique no mosaico *_Connect accounts_* no painel de controlo.  [É "
-"apresentada a janela \"Associar contas\"."
+". Clique no mosaico *_Connect accounts_* no painel de controlo.  [.result]É "
+"apresentada a janela \"Associar contas\".#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -402,9 +401,9 @@ msgid ""
 "das andere Konto gesendet.# [.result]#Die Einladung wird im Reiter `Offene "
 "Einladungen` angezeigt, bis sie vom Kontoinhaber angenommen wird.#"
 msgstr ""
-"Clique no botão *Enviar convite*.  [O convite é enviado para a outra conta. "
-"O convite é apresentado no separador \"Convites abertos\" até ser aceite "
-"pelo titular da conta."
+"Clique no botão *Enviar convite*.  [.result]#O convite é enviado para a "
+"outra conta. O convite é apresentado no separador \"Convites abertos\" até "
+"ser aceite pelo titular da conta.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:39
@@ -415,9 +414,9 @@ msgid ""
 "Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
 "Se o titular da conta aceitar o convite, aplica-se o seguinte: [."
-"resultado]#Receberá um e-mail.# [.resultado]#As duas contas estão ligadas.# "
-"[.resultado]#A conta é movida para o separador \"Ligação\".# [.resultado]#A "
-"conta é adicionada à lista de pontos finais.#"
+"result]#Receberá um e-mail.# [.result]#As duas contas estão ligadas.# [."
+"result]#A conta é movida para o separador \"Ligação\".# [.result]#A conta é "
+"adicionada à lista de pontos finais.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:46
@@ -433,8 +432,8 @@ msgid ""
 "Wähle im Reiter `Offene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-"Selecionar o convite no separador \"Abrir convites\".  [O registo na lista é "
-"colorido a verde."
+". Selecionar o convite no separador \"Abrir convites\".  [.result]#O registo na lista "
+"é colorido a verde.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:50
@@ -472,8 +471,8 @@ msgid ""
 "Wähle im Reiter `Empfangene Einladungen` die Einladung.  [.result]#Der "
 "Listeneintrag wird grün eingefärbt.#"
 msgstr ""
-"Selecionar o convite no separador \"Convites recebidos\".  [O registo na "
-"lista fica com uma cor verde."
+"Selecionar o convite no separador \"Convites recebidos\".  .result]#[O registo na "
+"lista fica com uma cor verde.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:70
@@ -484,10 +483,10 @@ msgid ""
 "result]#Der Inhaber des Kontos wird mit einer E-Mail darüber informiert, "
 "dass du seine Einladung angenommen hast.#"
 msgstr ""
-"Clique no botão *_aceitar convite_*.  [As duas contas são ligadas. A conta é "
+"Clique no botão *_aceitar convite_*.  [.result]#As duas contas são ligadas. A conta é "
 "movida para o separador \"Ligadas\". A conta é adicionada à lista de pontos "
 "finais. O proprietário da conta é informado por e-mail de que aceitou o seu "
-"convite."
+"convite.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:74
@@ -500,7 +499,7 @@ msgstr ""
 #. type: delimited block =
 #: de/modules/ROOT/pages/account-pairing.adoc:76
 msgid "[.result]#Die beiden Konten werden nicht miteinander verbunden.#"
-msgstr "[As duas contas não estão ligadas uma à outra."
+msgstr "[.result]#As duas contas não estão ligadas uma à outra.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:78
@@ -519,8 +518,8 @@ msgid ""
 "Wähle im Reiter `Verbunden` das Konto.  [.result]#Der Listeneintrag wird "
 "grün eingefärbt.#"
 msgstr ""
-"Selecionar a conta no separador \"Ligação\".  [O registo da lista é colorido "
-"a verde."
+"Selecionar a conta no separador `Ligação`.  [.result]#O registo da lista é colorido "
+"a verde.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:92
@@ -530,9 +529,9 @@ msgid ""
 "Endpunkteliste entfernt.# [.result]#Es werden keine Daten mehr zwischen den "
 "Konten ausgetauscht.#"
 msgstr ""
-"Clique no botão *_Unlink_*.  [As duas contas já não estão ligadas uma à "
+"Clique no botão *_Unlink_*.  [.result]#As duas contas já não estão ligadas uma à "
 "outra. A conta é removida da lista de pontos finais. Os dados já não são "
-"trocados entre as contas."
+"trocados entre as contas.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:94
@@ -629,8 +628,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
 "`Kontrollzentrum` wird geöffnet und die Endpunkteliste wird angezeigt.#"
 msgstr ""
-"Clique no mosaico *_Control Centre_* no painel de controlo.  [O Centro de "
-"Controlo é aberto e a lista de pontos finais é apresentada."
+"Clique no mosaico *_Control Centre_* no painel de controlo.  [.result]#O Centro de "
+"Controlo é aberto e a lista de pontos finais é apresentada.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:116
@@ -638,8 +637,8 @@ msgid ""
 "Wähle in der Endpunkteliste das verbundene Konto.  [.result]#Rechts werden "
 "die Details des Kontos angezeigt.#"
 msgstr ""
-"Selecione a conta associada na lista de pontos finais.  [Os detalhes da "
-"conta são apresentados à direita."
+"Selecione a conta associada na lista de pontos finais.  [.result]#Os detalhes da "
+"conta são apresentados à direita.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:118
@@ -647,8 +646,8 @@ msgid ""
 "Setze den Schalter *_Datenfluss_* auf `EIN`.  [.result]#Die beiden Konten "
 "können Daten austauschen.#"
 msgstr ""
-"Colocar o interrutor *fluxo_de_dados_* em `ON`.  [As duas contas podem "
-"trocar dados."
+"Colocar o interrutor *_fluxo_de_dados_* em `ON`.  [.result]#As duas contas "
+"podem trocar dados.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account-pairing.adoc:120
@@ -658,7 +657,7 @@ msgid ""
 "verbundenen Konto, <<verbindung-beenden,beende die Verbindung>>."
 msgstr ""
 "Se não pretender trocar temporariamente dados com a conta associada, mude o "
-"*fluxo de dados_* para `OFF`.  Para uma desconexão permanente da conta "
+"*_fluxo de dados_* para `OFF`.  Para uma desconexão permanente da conta "
 "associada, <<terminar ligação,terminar ligação>>."
 
 #. type: Title =
@@ -730,9 +729,9 @@ msgstr "Criar conta de utilizador"
 #: de/modules/ROOT/pages/account.adoc:160
 #: de/modules/ROOT/pages/account.adoc:169
 #: de/modules/ROOT/pages/account.adoc:181
-#: de/modules/ROOT/pages/account.adoc:190
-#: de/modules/ROOT/pages/account.adoc:203
-#: de/modules/ROOT/pages/account.adoc:210 de/modules/ROOT/pages/group.adoc:28
+#: de/modules/ROOT/pages/account.adoc:189
+#: de/modules/ROOT/pages/account.adoc:202
+#: de/modules/ROOT/pages/account.adoc:209
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
@@ -1014,9 +1013,9 @@ msgstr "Criar conta de utilizador"
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:133
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:151
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:163
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:177
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:182
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:179
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:184
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:199
 #, no-wrap
 msgid "Select Register"
 msgstr "Selecionar registo"
@@ -1035,14 +1034,15 @@ msgstr ""
 "browser e clique no botão de início de sessão image:account/login-button."
 "png[logon, 50, 30] no canto superior direito do sítio Web. Poderá também ver "
 "um ícone de hambúrguer image:account/burger-icon.png[logon, 30, 30]. Neste "
-"caso, clique no ícone do hambúrguer e selecione *_Login_*.  [Será "
-"redireccionado para uma nova página."
+"caso, clique no ícone do hambúrguer e selecione *_Login_*.  [.result]#Será "
+"redireccionado para uma nova página.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:56
 msgid ""
 "Wähle *_Registrieren_*.  [.result]#Der Registrierungsprozess wird gestartet.#"
-msgstr "Selecionar *_Registo_*.  [O processo de registo é iniciado."
+msgstr ""
+". Selecionar *_Registo_*.  [.result]#O processo de registo é iniciado.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:64
@@ -1073,7 +1073,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:82
 msgid "Gib den *_Namen deines Betriebs_* bzw. deines Unternehmens ein."
-msgstr "Introduza o *nome da sua actividade_* ou empresa."
+msgstr "Introduza o *_nome da sua actividade_* ou empresa."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:83
@@ -1089,8 +1089,8 @@ msgstr "Clique no botão *_Salvar_*."
 #: de/modules/ROOT/pages/account.adoc:92
 msgid "Gib deinen *_Vor- und Nachnamen_*, sowie deine *_E-Mail-Adresse_* ein."
 msgstr ""
-"Introduza o seu *primeiro e último nome_* e o seu *endereço de correio "
-"electrónico_*."
+"Introduza o seu *_primeiro e último nome_* e o seu *_endereço de "
+"correioelectrónico_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:93
@@ -1128,10 +1128,10 @@ msgstr "Iniciar sessão"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:118
-#, fuzzy
-#| msgid "Wähle *_Log in_*.  [.result]#Der Log in-Prozess wird gestartet.#"
 msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
-msgstr "Selecionar *_Log in_*.  [O processo de início de sessão é iniciado."
+msgstr ""
+". Selecionar *_Login_*.  [.result]#O processo de início de sessão é iniciado."
+"#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:126
@@ -1150,35 +1150,25 @@ msgstr "Clicar em *_Login_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:128
-#, fuzzy
-#| msgid ""
-#| "Du erhältst nun eine *_E-Mail mit einem 8-stelligen Code_* auf die E-Mail-"
-#| "Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, "
-#| "registriert>> hast. Kopiere den Code aus der Mail."
 msgid ""
 "Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
 "der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
 "Kopiere den Code aus der Mail."
 msgstr ""
-"Receberá agora um *_email com um código de 8 dígitos_* no endereço de "
-"correio eletrónico que utilizou para se registar no agrirouter <<criar conta "
-"de utilizador, registar>>. Copie o código da mensagem de correio eletrónico."
+"Receberá agora um *_email com um código_* no endereço de correio eletrónico "
+"que utilizou para se registar no agrirouter <<criar conta de utilizador, "
+"registar>>. Copie o código da mensagem de correio eletrónico."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:132
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
 "die E-Mail bei dir ankommt."
 msgstr ""
-"Se não receber a mensagem de correio eletrónico com o código de 8 dígitos, "
-"verifique a sua pasta *_spam_*. Por vezes, também pode demorar *_alguns "
-"minutos_* a chegar a mensagem de correio eletrónico."
+"Se não receber a mensagem de correio eletrónico com o código, verifique a "
+"sua pasta *_spam_*. Por vezes, também pode demorar *_alguns minutos_* a "
+"chegar a mensagem de correio eletrónico."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:140
@@ -1198,15 +1188,11 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:149
-#, fuzzy
-#| msgid ""
-#| "Öffne die https://app.agrirouter.com/de[die Anmeldeseite] wie oben "
-#| "beschrieben."
 msgid ""
 "Öffne die https://app.agrirouter.com/[die Anmeldeseite] wie oben beschrieben."
 msgstr ""
-"Abra https://app.agrirouter.com/de [a página de início de sessão] como "
-"descrito acima."
+"Abra https://app.agrirouter.com[a página de início de sessão] como descrito "
+"acima."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:150
@@ -1217,13 +1203,6 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:152
-#, fuzzy
-#| msgid ""
-#| "Wenn du deine Arbeit im Dashboard beendet hast, schließe die "
-#| "Internetseite [.underline]#ohne# dich abzumelden.  [.result]#Wenn du das "
-#| "nächste Mal https://app.agrirouter.com/de[die Anmeldeseite] öffnest, wird "
-#| "sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] "
-#| "angezeigt.#"
 msgid ""
 "Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [."
 "underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal https://"
@@ -1231,8 +1210,8 @@ msgid ""
 "introduction.adoc/myagrirouter[my agrirouter Seite] angezeigt.#"
 msgstr ""
 "Quando tiver terminado o seu trabalho no painel de controlo, feche o site [."
-"underline]#sem# Terminar sessão.  [result]#Na próxima vez que abrir https://"
-"app.agrirouter.com/de[a página de início de sessão], a sua página xref:"
+"underline]#sem# Terminar sessão.  [.result]#Na próxima vez que abrir https://"
+"app.agrirouter.com/[a página de início de sessão], a sua página xref:"
 "introduction.adoc/myagrirouter[a minha página agrirouter] será imediatamente "
 "apresentada.#"
 
@@ -1256,10 +1235,10 @@ msgid ""
 "myagrirouter[my agrirouter Seite] und klicke auf *_Einstellungen_*.  [."
 "result]#Die `Einstellungen` werden geöffnet.#"
 msgstr ""
-"Clique no *_Icon_* image:basics/profile.png[logon, 30, 30] com as suas "
+". Clique no *_Icon_* image:basics/profile.png[logon, 30, 30] com as suas "
 "iniciais no canto superior direito da sua página xref:introduction.adoc/"
-"myagrirouter[my agrirouter page] e clique em *_Settings_*.  [O `Settings` "
-"será aberto."
+"myagrirouter[my agrirouter page] e clique em *_Settings_*.  [.result]#O "
+"`Settings` será aberto.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:167
@@ -1267,8 +1246,8 @@ msgid ""
 "Klicke auf der linken Seite auf *_Konto_*.  [.result]#Die "
 "`Kontoinformationen` werden angezeigt.#"
 msgstr ""
-"Clique em *_Conta_* no lado esquerdo.  [É apresentada a \"informação da "
-"conta\"."
+". Clique em *_Conta_* no lado esquerdo.  [.result]#É apresentada a "
+"`informação da conta`.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:173
@@ -1277,7 +1256,7 @@ msgid ""
 "Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
 msgstr ""
 "Aparecem agora todas as informações armazenadas para a sua conta. Pode "
-"*adicionar ou alterar dados_* como desejar."
+"*_adicionar ou alterar dados_* como desejar."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:174
@@ -1295,6 +1274,10 @@ msgid ""
 "com]. Nach Prüfung deiner E-Mail-Adresse wird diese für dich geändert und du "
 "erhältst Rückmeldung durch unser Support-Team."
 msgstr ""
+"O seu endereço de correio eletrónico não pode ser alterado. Para o alterar, contacte "
+"enviando uma mensagem de correio eletrónico para mailto:support@agrirouter.com[support@agrirouter."
+"com]. Depois de verificar o seu endereço de correio eletrónico, este será alterado e "
+"receberá um feedback da nossa equipa de apoio."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:177
@@ -1309,21 +1292,21 @@ msgid ""
 "Initialien in der rechten oberen Ecke deines Dashboards und klicke auf "
 "*_Settings_*.  [.result]#Die `Einstellungen` wird angezeigt.#"
 msgstr ""
-"Clique no *_Ícone_* image:basics/profile.png[logon, 30, 30] com as suas "
+". Clique no *_Ícone_* image:basics/profile.png[logon, 30, 30] com as suas "
 "iniciais no canto superior direito do seu painel de controlo e clique em "
-"*Definições_*.  [O menu \"Definições\" será apresentado."
+"*_Definições_*.  [.result]#O menu `Definições` será apresentado.#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:188
+#: de/modules/ROOT/pages/account.adoc:187
 msgid ""
 "Klicke auf der linken Seite auf *_Unternehmen_*.  [.result]#Die "
 "`Unternehmenseinstellungen` werden angezeigt.#"
 msgstr ""
-"Clique em *_Company_* no lado esquerdo.  [São apresentadas as \"Definições "
-"da empresa\"."
+". Clique em *_Company_* no lado esquerdo.  [.result]#São apresentadas as "
+"`Definições da empresa`.#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:194
+#: de/modules/ROOT/pages/account.adoc:193
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Unternehmen hinterlegt "
 "sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
@@ -1332,7 +1315,7 @@ msgstr ""
 "*_adicionar ou alterar dados_* como desejar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:195
+#: de/modules/ROOT/pages/account.adoc:194
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Firma "
 "aktualisieren_*"
@@ -1340,37 +1323,35 @@ msgstr ""
 "Se pretender guardar as alterações, clique no botão *_Actualizar empresa_*"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:197
+#: de/modules/ROOT/pages/account.adoc:196
 #, no-wrap
 msgid "Konto löschen"
 msgstr "Eliminar a conta"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:199
+#: de/modules/ROOT/pages/account.adoc:198
 msgid "Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:"
 msgstr "Elimine a conta de utilizador quando já não precisar dela:"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:202
+#: de/modules/ROOT/pages/account.adoc:201
 msgid ""
 "Folge hierzu den Schritten 1 & 2 des Kapitels <<edit-account, "
 "Kontoinformationen ändern>>.  [.result]#Du bist nun im Bereich der "
 "Kontoeinstellungen. Scrolle hier ganz nach unten und du siehst diesen "
 "Abschnitt:#"
 msgstr ""
-"Para o fazer, siga os passos 1 e 2 do capítulo <<edit-account, change "
-"account information>>.  [Está agora na área de definições da conta. Desloque-"
-"se até ao fim e verá esta secção:#"
+". Para o fazer, siga os passos 1 e 2 do capítulo <<edit-account, change "
+"account information>>.  [.result]#Está agora na área de definições da conta. "
+"Desloque-se até ao fim e verá esta secção:#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:207
-#, fuzzy
-#| msgid "klicke auf den Button *_Ihr Konto löschen_*."
+#: de/modules/ROOT/pages/account.adoc:206
 msgid "Klicke auf den Button *_Ihr Konto löschen_*."
-msgstr "clique no botão *_Delete a sua conta_*."
+msgstr "Clique no botão *_Delete a sua conta_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:214
+#: de/modules/ROOT/pages/account.adoc:213
 msgid ""
 "Nun erscheint eine Meldung, die dich bittet, das Löschen des Kontos zu "
 "bestätigen. Klicke auf den Button *_Bestätigen_*."
@@ -1379,7 +1360,7 @@ msgstr ""
 "Clique no botão *_Confirmar_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:215
+#: de/modules/ROOT/pages/account.adoc:214
 msgid ""
 "Im unteren rechten Eck wird dir nun die Erfolgsmeldung image:account/delete-"
 "account-3.png[logon, 180, 30] angezeigt."
@@ -1428,9 +1409,10 @@ msgstr "ver informações detalhadas sobre os seus Pontos finais."
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:15
 #: de/modules/ROOT/pages/introduction.adoc:32
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid "My agrirouter Seite"
 msgid "my agrirouter Seite"
-msgstr "a minha página agrirouter"
+msgstr "A minha página agrirouter"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:17
@@ -1656,7 +1638,8 @@ msgid ""
 "wird geöffnet:#"
 msgstr ""
 "Clique no botão *_Adicionar fabricante_* image:endpoints/add-manufacturer-"
-"button.png[Botão Adicionar fabricante, 120].  [A seguinte página abre-se:#"
+"button.png[Botão Adicionar fabricante, 120].  [.result]#A seguinte página "
+"abre-se:#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:66
@@ -1676,8 +1659,8 @@ msgid ""
 "Wähle den Hersteller aus, den du hinzufügen möchtest.  [.result]#Der "
 "ausgewählte Hersteller wird dir rechts neben deiner Auswahl angezeigt.#"
 msgstr ""
-"Selecione o fabricante que pretende adicionar.  [O fabricante selecionado é "
-"apresentado à direita da sua seleção."
+". Selecione o fabricante que pretende adicionar.  [.result]#O fabricante "
+"selecionado é apresentado à direita da sua seleção.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:80
@@ -1686,8 +1669,8 @@ msgid ""
 "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die _my "
 "agrirouter_ Seite.#"
 msgstr ""
-"Clique no botão *Guardar_*.  [Resultado]#Será reenviado para a página _my "
-"agrirouter_."
+". Clique no botão *_Guardar_*.  [.result]#Será reenviado para a página _my "
+"agrirouter_.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:85
@@ -1705,8 +1688,8 @@ msgid ""
 "bereits Daten an den agrirouter senden kann!_*"
 msgstr ""
 "O fabricante selecionado passa a ser apresentado no lado esquerdo da sua "
-"página _my agrirouter_. *No entanto, isto não significa que a sua Máquina já "
-"possa enviar dados para o agrirouter."
+"página _my agrirouter_. *_No entanto, isto não significa que a sua Máquina "
+"já possa enviar dados para o agrirouter!_*"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:91
@@ -1742,8 +1725,9 @@ msgid ""
 "button.png[Verbindung hinzufügen Button, 120].  [.result]#Die folgende Seite "
 "wird geöffnet:#"
 msgstr ""
-"Clique no botão *_Adicionar Ligação_* image:endpoints/add-connection-button."
-"png[Botão Adicionar Ligação, 120].  [.result]#A seguinte página é aberta:#"
+". Clique no botão *_Adicionar Ligação_* image:endpoints/add-connection-"
+"button.png[Botão Adicionar Ligação, 120].  [.result]#A seguinte página é "
+"aberta:#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:101
@@ -1757,8 +1741,8 @@ msgid ""
 "Notiere den Registrierungscode und klicke auf *_Zurück_*.  [.result]#Die _my "
 "agrirouter_ Seite wird angezeigt.#"
 msgstr ""
-"Anotar o código de registo e clicar em *_Back_*.  [É apresentada a página "
-"_my agrirouter_."
+". Anotar o código de registo e clicar em *_Back_*.  [.result]#É apresentada "
+"a página _my agrirouter_.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:110
@@ -1773,11 +1757,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:114
-#, fuzzy
-#| msgid ""
-#| "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
-#| "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
-#| "adoc#solution-guides[Solution Guides] nachlesen."
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
@@ -1793,15 +1772,11 @@ msgid ""
 "Aktualisiere die _my agrirouter_ Seite.  [.result]#Die Telemetrie-Einheit "
 "wird auf der rechten Seite deiner _my agrirouter_ Seite angezeigt.#"
 msgstr ""
-"Atualizar a página _my agrirouter_.  [A unidade de telemetria é apresentada "
-"no lado direito da sua página _my agrirouter_."
+"Atualizar a página _my agrirouter_.  [.result]#A unidade de telemetria é apresentada "
+"no lado direito da sua página _my agrirouter_.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:119
-#, fuzzy
-#| msgid ""
-#| "Lese in den xref:solution-guides.adoc#solution-guides[Solution Guides] "
-#| "nach, wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgid ""
 "Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
@@ -1844,9 +1819,9 @@ msgid ""
 "30] Icon der Verbindung, die du einem Hersteller zuordnen möchtest.  [."
 "result]#Die folgende Seite wird geöffnet.#"
 msgstr ""
-"Clique no ícone *edit* image:endpoints/edit-endpoint-icon.png[copy, 30, 30] "
-"da Ligação que pretende atribuir a um fabricante.  [A página seguinte abrir-"
-"se-á."
+". Clique no ícone *edit* image:endpoints/edit-endpoint-icon.png[copy, 30, "
+"30] da Ligação que pretende atribuir a um fabricante.  [.result]#A página "
+"seguinte abrir-se-á.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:135
@@ -1865,7 +1840,7 @@ msgstr "Pode personalizar a Designação da Ligação em *_Name_*."
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:139
 msgid "Klicke auf das *_Dropdown Menü_*, um einen Hersteller auszuwählen."
-msgstr "Clique no *menu pendente_* para selecionar um fabricante."
+msgstr "Clique no *_menu pendente_* para selecionar um fabricante."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:144
@@ -1920,8 +1895,9 @@ msgid ""
 "folgende Seite öffnet sich:#"
 msgstr ""
 "Para ligar um software agrícola ao agrirouter, abrir a página _my "
-"agrirouter_ e clicar no botão *Adicionar software_* image:endpoints/add-"
-"software-button.png[Adicionar software, 120].  [A página seguinte abre-se:#"
+"agrirouter_ e clicar no botão *_Adicionar software_* image:endpoints/add-"
+"software-button.png[Adicionar software, 120].  [.result]#A página seguinte "
+"abre-se:#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:166
@@ -1934,7 +1910,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:168
 msgid "Klicke auf das *_Dropdown-Menü_*."
-msgstr "Clique no *menu pendente_*."
+msgstr "Clique no *_menu pendente_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:170
@@ -1942,8 +1918,8 @@ msgid ""
 "Wähle die Software aus, die du verbinden möchtest.  [.result]#Die "
 "ausgewählte Software wird dir rechts neben deiner Auswahl angezeigt.#"
 msgstr ""
-"Selecione o software que pretende ligar.  [O software selecionado é "
-"apresentado à direita da sua seleção."
+". Selecione o software que pretende ligar.  [.result]#O software selecionado "
+"é apresentado à direita da sua seleção.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:175
@@ -1977,17 +1953,12 @@ msgid ""
 "red.png[Software hinzufügen, 24].  [.result]#Du wirst auf dei Seite des "
 "Softwareanbieters weitergeleitet.#"
 msgstr ""
-"Clique no ícone com o elemento de corrente vermelho image:endpoints/link-"
-"icon-red.png[Adicionar software, 24].  [Será redireccionado para a página do "
-"fornecedor de software."
+". Clique no ícone com o elemento de corrente vermelho image:endpoints/link-"
+"icon-red.png[Adicionar software, 24].  [.result]#Será redireccionado para a "
+"página do fornecedor de software.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:195
-#, fuzzy
-#| msgid ""
-#| "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie "
-#| "das für deine Software funktioniert, erfährst du in den xref:solution-"
-#| "guides.adoc#solution-guides[Solution Guides]."
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
@@ -2019,13 +1990,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:205
-#, fuzzy
-#| msgid ""
-#| "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in "
-#| "einigen Fällen anders) findest du meist in den Einstellungen der "
-#| "Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution "
-#| "Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem "
-#| "agrirouter verbindest."
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
@@ -2039,19 +2003,15 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:207
-#, fuzzy
-#| msgid ""
-#| "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-#| "findest du auf dem https://agrirouter.com/de/solutions[Solution Finder]."
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
-"findest du auf dem https://agrirouter.com/de/solutions[Solution-Finder]."
+"findest du auf dem https://agrirouter.com/solutions[Solution-Finder]."
 msgstr ""
 "Pode ser consultada uma lista completa de software agrícola com o agrirouter "
-"em https://agrirouter.com/de/solutions[Solution Finder]."
+"em https://agrirouter.com/solutions[Solution Finder]."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:210 de/modules/ROOT/pages/group.adoc:241
+#: de/modules/ROOT/pages/endpoint.adoc:210
 #, no-wrap
 msgid "Löschen"
 msgstr "Eliminar"
@@ -2077,9 +2037,9 @@ msgid ""
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Endpunkts.  [.result]#Ein "
 "Pup-up Fenster öffent sich. Klicke den Button *_bestätigen_*.#"
 msgstr ""
-"Para apagar um ponto final, clique no ícone *delete* image:endpoints/delete-"
-"icon.png[Apagar ícone, 25] na altura do ponto final.  [Abre-se uma janela "
-"pop-up. Clique no botão *_confirmar_*.#"
+". Para apagar um ponto final, clique no ícone *delete* image:endpoints/"
+"delete-icon.png[Apagar ícone, 25] na altura do ponto final.  [.result]#Abre-"
+"se uma janela pop-up. Clique no botão *_confirmar_*.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:221
@@ -2088,12 +2048,12 @@ msgid ""
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Herstellers.  [."
 "result]#Ein Pup-up Fenster öffent sich. Klicke den Button *_bestätigen_*.#"
 msgstr ""
-"Para apagar um fabricante, clique no ícone *delete* image:endpoints/delete-"
-"icon.png[Apagar ícone, 25] na altura do fabricante.  [Abre-se uma janela de "
-"contexto. Clique no botão *_confirmar_*.#"
+". Para apagar um fabricante, clique no ícone *delete* image:endpoints/delete-"
+"icon.png[Apagar ícone, 25] na altura do fabricante.  [.result]#Abre-se uma "
+"janela de contexto. Clique no botão *_confirmar_*.#"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/endpoint.adoc:224 de/modules/ROOT/pages/group.adoc:93
+#: de/modules/ROOT/pages/endpoint.adoc:224
 #, no-wrap
 msgid "Detailansicht"
 msgstr "Vista pormenorizada"
@@ -2146,13 +2106,13 @@ msgstr "image:endpoints/capabilities.png[Capacidades, 400, float=direita]"
 #: de/modules/ROOT/pages/endpoint.adoc:240
 #, no-wrap
 msgid "*_Letzter Austausch der Fähigkeiten_*: Der letzte Tag, an dem Daten gesendet oder empfangen wurden.\n"
-msgstr "*Último intercâmbio de capacidades_*: O último dia em que os dados foram enviados ou recebidos.\n"
+msgstr "*_Último intercâmbio de capacidades_*: O último dia em que os dados foram enviados ou recebidos.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:241
 #, no-wrap
 msgid "*_Letzer Austausch der Abonnements_*: Der letzte Tag, an dem Echtzeitdaten gesendet oder empfagen wurden.\n"
-msgstr "*Última troca de assinaturas_*: O último dia em que foram enviados ou recebidos dados em tempo real.\n"
+msgstr "*_Última troca de assinaturas_*: O último dia em que foram enviados ou recebidos dados em tempo real.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:242
@@ -2218,7 +2178,7 @@ msgstr "*_Connected_*: Hora em que o Ponto final foi ligado.\n"
 #: de/modules/ROOT/pages/endpoint.adoc:257
 #, no-wrap
 msgid "*_Software-Anbieter_*: Anbieter der zugehörigen Software.\n"
-msgstr "*Fornecedor de software_*: Fornecedor do software associado.\n"
+msgstr "*_Fornecedor de software_*: Fornecedor do software associado.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:258
@@ -2230,7 +2190,7 @@ msgstr "*_Software endpoint_*: -  \n"
 #: de/modules/ROOT/pages/endpoint.adoc:259
 #, no-wrap
 msgid "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines Endpunkts gibt.\n"
-msgstr "*Número da versão_*: No caso de existirem várias versões de um Ponto final.\n"
+msgstr "*_Número da versão_*: No caso de existirem várias versões de um Ponto final.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:260
@@ -2281,19 +2241,19 @@ msgstr "*_Rotas geridas pelo agrirouter_*: Se esta opção for selecionada image
 #: de/modules/ROOT/pages/endpoint.adoc:273
 #, no-wrap
 msgid "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten gesendet wurden.\n"
-msgstr "*Última mensagem enviada_*: Hora em que os dados foram enviados pela última vez.\n"
+msgstr "*_Última mensagem enviada_*: Hora em que os dados foram enviados pela última vez.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:274
 #, no-wrap
 msgid "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten empfangen wurden.\n"
-msgstr "*Última mensagem recebida_*: Hora em que os dados foram recebidos pela última vez.\n"
+msgstr "*_Última mensagem recebida_*: Hora em que os dados foram recebidos pela última vez.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:275
 #, no-wrap
 msgid "*_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell vorliegen.\n"
-msgstr "*Mensagens actuais_*: Indica quantas Mensagens estão atualmente disponíveis.\n"
+msgstr "*_Mensagens actuais_*: Indica quantas Mensagens estão atualmente disponíveis.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:278
@@ -2340,788 +2300,6 @@ msgid ""
 msgstr ""
 "Para mais informações, consulte o capítulo xref:support."
 "adoc#support[Support]."
-
-#. type: Title =
-#: de/modules/ROOT/pages/group.adoc:4
-#, no-wrap
-msgid "Gruppe"
-msgstr "Grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:8
-msgid ""
-"Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. nach "
-"Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:introduction."
-"adoc#route[Routing], das du für die Gruppe einstellst, gilt für alle "
-"Mitglieder der Gruppe."
-msgstr ""
-"Resumir os pontos finais em xref:introduction.adoc#group[groups], por "
-"exemplo, por fabricante, tipo de máquina ou medida. + A vantagem: O xref:"
-"introduction.adoc#route[Routing] que definir para o Grupo aplica-se a todos "
-"os membros do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:12
-msgid "wie du eine Gruppe hinzufügst und bearbeitest"
-msgstr "Como adicionar e editar um Grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:13
-msgid "wie du der Gruppe Mitglieder hinzufügst"
-msgstr "como adicionar membros ao Grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:14
-msgid ""
-"wie du xref:introduction.adoc#route[die Routen] für die Gruppe erstellst"
-msgstr "como criar xref:introduction.adoc#route[as rotas] para o Grupo"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/group.adoc:15
-#, no-wrap
-msgid "Das Kontrollzentrum"
-msgstr "O Centro de controlo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:17
-msgid ""
-"Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine "
-"Gruppe hinzuzufügen und zu verwalten:"
-msgstr ""
-"Abra o xref:introduction.adoc#control-center[Centro de Controlo] para "
-"adicionar e gerir um Grupo:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:20
-msgid ""
-"Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
-"Kontrollzentrum wird angezeigt.#"
-msgstr ""
-"Clique no mosaico *_Centro de controlo_* no painel de controlo.  [É "
-"apresentado o Centro de controlo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:23
-msgid ""
-"Klicke den Button *_Gruppen_*.  [.result]#Links wird die Gruppenliste "
-"angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
-msgstr ""
-"Clique no botão *_Grupos_*.  [A lista de grupos é apresentada à esquerda. A "
-"vista detalhada é apresentada à direita."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/group.adoc:24
-#, no-wrap
-msgid "Gruppenliste"
-msgstr "Lista de grupos"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:32
-msgid ""
-"Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
-msgstr "A lista de grupos é ordenada alfabeticamente por nome. + É possível"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:34
-msgid "eine Gruppe hinzufügen,"
-msgstr "adicionar um Grupo,"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:35
-msgid "eine Gruppe suchen,"
-msgstr "procurar um grupo,"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:36
-msgid "die Gruppenliste aktualisieren."
-msgstr "Atualizar a lista de grupos."
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/group.adoc:42
-msgid "Auf einem Tablet öffnest du die Gruppenliste über das Burger-Menü:"
-msgstr "Num tablet, abra a lista de grupos através do menu de hambúrgueres:"
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/group.adoc:45
-msgid ""
-"Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[burger, 30, 30].  [."
-"result]#Die Endpunkteliste wird angezeigt.#"
-msgstr ""
-"Clique no ícone *_menu de hambúrguer_* image:ar_burger.icon.png[burger, 30, "
-"30].  [É apresentada a lista final de pontos."
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/group.adoc:47
-msgid ""
-"Klicke den Button *_Gruppen_*.  [.result]#Die Gruppenliste wird angezeigt.#"
-msgstr "Clicar no botão *_Grupos_*.  [A lista de grupos é apresentada."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:51
-msgid "Ein Listeneintrag besteht aus"
-msgstr "Uma entrada de lista consiste em"
-
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/group.adoc:54
-#, no-wrap
-msgid "Group list"
-msgstr "Lista de grupos"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:57
-msgid "Namen"
-msgstr "Nomes"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:58
-msgid "Typ (nur bei den zwei Standard-Gruppen)"
-msgstr "Tipo (apenas para os dois Grupos padrão)"
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:62
-#, no-wrap
-msgid "Gruppe hinzufügen"
-msgstr "Adicionar grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:66
-msgid ""
-"Klicke den Button *_+ Gruppe_*.  [.result]#Das Fenster `Neue Gruppe` wird "
-"angezeigt.#"
-msgstr "Clique no botão *_+ Grupo_*.  [É apresentada a janela \"Novo grupo\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:67
-msgid "Gebe den Namen und optional eine kurze Beschreibung ein."
-msgstr "Introduzir o nome e, opcionalmente, uma breve descrição."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:69
-msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Die Gruppenliste wird angezeigt."
-"#"
-msgstr "Clicar no botão *_Confirmar_*.  [A lista de grupos é apresentada."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:71
-msgid ""
-"Wenn du viele Gruppen hast, empfiehlt es sich, eine erklärende Beschreibung "
-"einzugeben. Diese wird in der Detailansicht angezeigt."
-msgstr ""
-"Se tiver muitos Grupos, é aconselhável introduzir uma descrição explicativa. "
-"Esta é apresentada na vista detalhada."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:72
-#, no-wrap
-msgid "Gruppe suchen"
-msgstr "Grupo de pesquisa"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:74
-msgid ""
-"Wenn die Gruppenliste viele Einträge enthält, kannst Du eine Gruppe suchen:"
-msgstr ""
-"Se a lista de grupos contiver muitas entradas, é possível procurar um grupo:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:77
-msgid ""
-"Klicke das Icon *_Suchen_* über der Gruppenliste image:ar_search.icon."
-"png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld *_Suchen_*.#"
-msgstr ""
-"Clicar no ícone *_Search_* por cima da lista de grupos image:ar_search.icon."
-"png[search, 30, 30].  [O cursor fica intermitente no campo de entrada "
-"*_Search_*.#"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:79
-msgid ""
-"Gebe den Namen oder Teile des Namens der gesuchten Gruppe ein.  [."
-"result]#Bereits beim Tippen wird die Gruppenliste aktualisiert.#"
-msgstr ""
-"Introduza o nome ou parte do nome do Grupo que está a procurar.  [A lista de "
-"grupos é actualizada à medida que se escreve."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:81
-msgid "Mache die Suche rückgängig wie folgt:"
-msgstr "Anular a pesquisa da seguinte forma:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:84
-msgid ""
-"Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem "
-"Eingabefeld *_Suchen_*.  [.result]#Alle Gruppen werden angezeigt.#"
-msgstr ""
-"Clique no ícone image:ar_revert.icon.png[revert, 30, 30] à direita do campo "
-"de entrada *_Search_*.  [Todos os grupos são apresentados."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:86
-#, no-wrap
-msgid "Liste aktualisieren"
-msgstr "Lista de atualização"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:88
-msgid ""
-"Wenn deine neu erstellte Gruppe nicht in der Liste erscheint, aktualisiere "
-"die Liste:"
-msgstr "Se o grupo recém-criado não aparecer na lista, actualize a lista:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:91
-msgid ""
-"Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, 30] "
-"über der Gruppenliste.  [.result]#Die Gruppenliste wird aktualisiert.#"
-msgstr ""
-"Clique no ícone *_refresh_* image:ar_refresh.icon.png[refresh, 30, 30] acima "
-"da lista de grupos.  [A lista de grupos será actualizada."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:96
-msgid ""
-"In der Detailansicht sind alle Informationen zur Gruppe zusammengefasst.  "
-"Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe "
-"austauschen und fügst der Gruppe Mitglieder hinzu."
-msgstr ""
-"Todas as informações sobre o Grupo são resumidas na vista detalhada.  É aqui "
-"que gere os pontos finais e os grupos que trocam dados com o grupo e "
-"adiciona membros ao grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:98
-msgid ""
-"Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-von,"
-"Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt."
-msgstr ""
-"A vista detalhada está dividida nos separadores <<enviar para,enviar para>>, "
-"<<receber de,receber de>> e <<membros,membros>>."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:100
-#, no-wrap
-msgid "Senden an"
-msgstr "Enviar para"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:103
-msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
-msgstr "O separador contém uma lista de destinatários. + Destinatários"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:105
-msgid "befinden sich am Ende einer abgehenden Route"
-msgstr "estão localizados no final de uma rota de saída"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:106
-msgid ""
-"sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten senden"
-msgstr ""
-"são pontos finais e grupos para os quais os membros do grupo enviam dados"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:108 de/modules/ROOT/pages/group.adoc:159
-#: de/modules/ROOT/pages/group.adoc:227
-msgid "Du kannst"
-msgstr "Pode"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:110
-msgid ""
-"Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
-"ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
-"30, 30]"
-msgstr ""
-"Adicionar destinatário image:ar_add.icon.png[add, 30, 30], editar image:"
-"ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon.png[delete, "
-"30, 30]"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:111
-msgid ""
-"definieren, welche Nachrichten die Empfänger von der Gruppe erhalten sollen"
-msgstr "definir quais as Mensagens que os destinatários devem receber do Grupo"
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:113
-#, no-wrap
-msgid "Empfänger hinzufügen"
-msgstr "Adicionar destinatário"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:115
-msgid ""
-"Du erstellst die Route für den Versand von Daten an eine andere Gruppe oder "
-"einen Endpunkt:"
-msgstr ""
-"O utilizador cria a rota para enviar dados para outro Grupo ou para um Ponto "
-"final:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:118 de/modules/ROOT/pages/group.adoc:168
-msgid ""
-"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
-"result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Clicar no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [O formulário "
-"\"Novo roteiro\" é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:120
-msgid ""
-"Klicke in das Eingabefeld *_Empfänger_*.  [.result]#Die Auswahlliste "
-"`Endpunkt auswählen` wird angezeigt.#"
-msgstr ""
-"Clicar no campo de entrada *_recipiente_*.  [É apresentada a lista de "
-"seleção \"Selecionar ponto final\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:122
-msgid ""
-"Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecionar o destinatário.  [É apresentado o formulário \"Novo "
-"encaminhamento\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:124 de/modules/ROOT/pages/group.adoc:174
-msgid ""
-"Klicke in das Eingabefeld *_Nachrichtenformate_*.  [.result]#Die "
-"Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#"
-msgstr ""
-"Clicar no campo de entrada *Formatos de mensagem_*.  [É apresentada a lista "
-"de seleção \"Selecionar formatos de mensagem\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:126
-msgid ""
-"Wähle die Nachrichtenformate, die der Empfänger erhalten soll und klicke "
-"*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecione os formatos de mensagem que o destinatário deve receber e clique "
-"em *_Confirmar_*.  [É apresentado o formulário `Novo encaminhamento`."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:128 de/modules/ROOT/pages/group.adoc:178
-msgid ""
-"Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
-"result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
-msgstr ""
-"Clicar no campo de entrada *_Telemetry-Parameter-Categories_*.  [É "
-"apresentado o formulário \"Categorias dos parâmetros de telemetria\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:130 de/modules/ROOT/pages/group.adoc:180
-msgid ""
-"Wähle eine oder mehrere Kategorien und klicke *_Bestätigen_*.  [.result]#Das "
-"Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecionar uma ou mais categorias e clicar em *_Confirmar_*.  [O formulário "
-"\"Novo roteiro\" é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:132
-msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird hinzugefügt.#"
-msgstr "Clique no botão *_Confirmar_*.  [O destinatário será adicionado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:134
-msgid ""
-"Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten "
-"dauern, bis das Routing erstellt ist, d.h. der Empfänger Daten von der "
-"Gruppe empfangen kann."
-msgstr ""
-"O novo destinatário fica imediatamente visível. No entanto, pode demorar "
-"vários minutos até que o encaminhamento seja criado, ou seja, o destinatário "
-"pode receber dados do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:136 de/modules/ROOT/pages/group.adoc:186
-msgid ""
-"Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte "
-"verfügbar, die Echtzeitdaten verarbeiten können."
-msgstr ""
-"O formulário \"Categorias dos parâmetros de telemetria\" só está disponível "
-"para os pontos finais que podem processar dados em tempo real."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:137
-#, no-wrap
-msgid "Empfänger bearbeiten"
-msgstr "Editar destinatário"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:141 de/modules/ROOT/pages/group.adoc:191
-msgid ""
-"Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].  [."
-"result]#Das Formular `Routing bearbeiten` wird angezeigt.#"
-msgstr ""
-"Clicar no ícone *_edit_* image:ar_edit.icon.png[edit, 30, 30].  [É "
-"apresentado o formulário `Editar o roteiro`."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:142
-msgid ""
-"Ändere die Eigenschaften des Empfängers und klicke den Button *_Bestätigen_*."
-msgstr ""
-"Altere as propriedades do destinatário e clique no botão *_Confirmar_*."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:143
-#, no-wrap
-msgid "Empfänger löschen"
-msgstr "Eliminar destinatário"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:147 de/modules/ROOT/pages/group.adoc:197
-#: de/modules/ROOT/pages/group.adoc:220
-msgid ""
-"Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].  [."
-"result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#"
-msgstr ""
-"Clicar no ícone *_delete_* image:ar_delete.icon.png[delete, 30, 30].  [É "
-"apresentada a janela de mensagem `Confirmar`."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:149
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Der Empfänger erthält keine "
-"Nachrichten mehr von der Gruppe.#"
-msgstr ""
-"Confirmar a consulta com *_OK_*.  [O destinatário já não recebe Mensagens do "
-"Grupo."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:151
-#, no-wrap
-msgid "Empfangen von"
-msgstr "Receber de"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:154
-msgid "Der Reiter enthält eine Liste der Sender. + Sender"
-msgstr "O separador contém uma lista de transmissores. + Transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:156
-msgid "befinden sich am Anfang einer eingehenden Route"
-msgstr "estão no início de uma rota Aberto"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:157
-msgid ""
-"sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden"
-msgstr "são pontos finais e grupos que enviam dados para os membros do grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:161
-msgid ""
-"Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
-"ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon.png[delete, "
-"30, 30]"
-msgstr ""
-"Adicionar transmissor image:ar_add.icon.png[add, 30, 30], editar image:"
-"ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon.png[delete, "
-"30, 30]"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:162
-msgid "definieren, welche Nachrichten die Gruppe vom Sender erhalten soll"
-msgstr "Definir as Mensagens que o Grupo deve receber do remetente"
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:163
-#, no-wrap
-msgid "Sender hinzufügen"
-msgstr "Adicionar transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:165
-msgid ""
-"Du erstellst die Route für den Empfang von Daten von einer anderen Gruppe "
-"oder einem Endpunkt:"
-msgstr ""
-"O utilizador cria a rota para receber dados de outro Grupo ou de um Ponto "
-"final:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:170
-msgid ""
-"Klicke in das Eingabefeld *_Sender_*.  [.result]#Die Auswahlliste `Endpunkt "
-"auswählen` wird angezeigt.#"
-msgstr ""
-"Clique no campo de entrada *_Sender_*.  [É apresentada a lista de seleção "
-"\"Selecionar ponto final\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:172
-msgid ""
-"Wähle den Sender.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr "Selecionar o remetente.  [É apresentado o formulário \"Novo roteiro\"."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:176
-msgid ""
-"Wähle die Nachrichtenformate, die der Sender senden soll und klicke "
-"*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
-msgstr ""
-"Selecione os formatos de mensagem que o remetente deve enviar e clique em "
-"*_Confirmar_*.  [O formulário `New Routing` é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:182
-msgid ""
-"Klicke den Button *_Bestätigen_*.  [.result]#Der Sender wird hinzugefügt.#"
-msgstr "Clique no botão *_Confirmar_*.  [O remetente será adicionado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:184
-msgid ""
-"Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten dauern, "
-"bis das Routing erstellt ist, d.h. der Sender Daten an die Gruppe senden "
-"kann."
-msgstr ""
-"O novo transmissor fica visível imediatamente. No entanto, pode demorar "
-"vários minutos até que o encaminhamento seja criado, ou seja, o transmissor "
-"pode enviar dados para o Grupo."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:187
-#, no-wrap
-msgid "Sender bearbeiten"
-msgstr "Editar transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:192
-msgid ""
-"Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
-msgstr "Altere as propriedades do remetente e clique no botão *_Confirmar_*."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:193
-#, no-wrap
-msgid "Sender löschen"
-msgstr "Eliminar o transmissor"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:199
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Die Nachrichten des Senders "
-"werden nicht mehr an die Gruppe weitergeleitet.#"
-msgstr ""
-"Confirmar a consulta com *_OK_*.  [As Mensagens do remetente já não são "
-"reencaminhadas para o Grupo."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:201
-#, no-wrap
-msgid "Mitglieder"
-msgstr "Membros"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:203
-msgid "Der Reiter enthält eine Liste der Mitglieder der Gruppe."
-msgstr "O separador contém uma lista dos membros do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:205
-msgid ""
-"Du kannst Mitglieder hinzufügen image:ar_add.icon.png[add, 30, 30] und "
-"entfernen image:ar_delete.icon.png[delete, 30, 30]"
-msgstr ""
-"Pode adicionar membros image:ar_add.icon.png[add, 30, 30] e remover membros "
-"image:ar_delete.icon.png[delete, 30, 30]"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:207
-msgid ""
-"Um ein Mitglied der Gruppe zu bearbeiten, öffne die Endpunkteliste, wähle "
-"und bearbeite xref:endpoint.adoc#edit-endpoint[den Endpunkt] und xref:"
-"endpoint.adoc#send-to[das Routing]."
-msgstr ""
-"Para editar um membro do Grupo, abra a lista de pontos finais, selecione e "
-"edite xref:endpoint.adoc#edit-endpoint[o ponto final] e xref:endpoint."
-"adoc#send-to[o encaminhamento]."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:208
-#, no-wrap
-msgid "Mitglied hinzufügen"
-msgstr "Adicionar membro"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:210
-msgid ""
-"Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der "
-"Gruppenliste hinzufügen."
-msgstr ""
-"Pode adicionar pontos finais da lista de pontos finais e grupos da lista de "
-"grupos ao grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:213
-msgid ""
-"Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
-"result]#Das Formular `Mitglieder auswählen` wird angezeigt.#"
-msgstr ""
-"Clique no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [.result]#O "
-"formulário `Selecionar membros` é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:215
-msgid ""
-"Wähle das neue Mitglied und klicke *_Bestätigen_*.  [.result]#Das Mitglied "
-"wird hinzugefügt.#"
-msgstr ""
-"Selecione o novo membro e clique em *_Confirmar_*.  [O membro será "
-"adicionado."
-
-#. type: Title ====
-#: de/modules/ROOT/pages/group.adoc:216
-#, no-wrap
-msgid "Mitglied entfernen"
-msgstr "Remover membro"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:222
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Das Mitglied wird aus der "
-"Gruppe entfernt.#"
-msgstr "Confirmar a consulta com *_OK_*.  [O membro é removido do Grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:224
-msgid ""
-"Das Mitglied wird aus der Gruppe entfernt, aber nicht gelöscht. Endpunkte "
-"und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste."
-msgstr ""
-"O membro é removido do Grupo, mas não é eliminado. Os pontos finais e os "
-"grupos são eliminados na lista de pontos finais ou de grupos."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/group.adoc:225
-#, no-wrap
-msgid "Gruppe bearbeiten"
-msgstr "Editar grupo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:229
-msgid "den Name der Gruppe ändern,"
-msgstr "alterar o nome do Grupo,"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:230
-msgid "die Beschreibung ändern."
-msgstr "alterar a descrição."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:232
-msgid "Bearbeite die Gruppe wie folgt:"
-msgstr "Processar o grupo da seguinte forma:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:235
-msgid ""
-"Wähle die Gruppe in der Gruppenliste.  [.result]#Im rechten Bereich des "
-"Kontrollzentrums wird die Detailansicht der Gruppe angezeigt.#"
-msgstr ""
-"Selecionar o grupo na lista de grupos.  [A vista detalhada do Grupo é "
-"apresentada no lado direito do Centro de Controlo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:237
-msgid ""
-"Klicke den Button *_Bearbeiten_*.  [.result]#Das Formular `Gruppe "
-"bearbeiten` wird angezeigt.#"
-msgstr ""
-"Clicar no botão *_Editar_*.  [O formulário \"Editar grupo\" é apresentado."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:240
-msgid ""
-"Ändere Namen und Beschreibung und klicke *_Bestätigen_*.  [.result]#In der "
-"Gruppenliste wird der neue Name angezeigt.# [.result]#In der Detailansicht "
-"der Gruppe wird die neue Beschreibung angezeigt.#"
-msgstr ""
-"Altere o nome e a descrição e clique em *_Confirmar_*.  [O novo nome é "
-"apresentado na lista do grupo. A nova descrição é apresentada na vista "
-"detalhada do grupo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:243
-msgid "Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:"
-msgstr "Se um Grupo já não for necessário, elimine-o:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:246
-msgid ""
-"Klicke den Button *_Löschen_*.  [.result]#Ein Meldungsfenster wird angezeigt."
-"#"
-msgstr "Clicar no botão *_Delete_*.  [É apresentada uma janela de mensagem."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:249
-msgid ""
-"Bestätige die Abfrage mit *_OK_*.  [.result]#Die Gruppe, alle Routings und "
-"alle Mitgliedschaften der Gruppe werden gelöscht.# [.result]#Die Gruppe wird "
-"aus der Gruppenliste entfernt.#"
-msgstr ""
-"Confirmar a consulta com *_OK_*.  [O grupo, todos os encaminhamentos e todos "
-"os membros do grupo são eliminados."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:251
-msgid ""
-"Es wird nur die Gruppe gelöscht; die Mitglieder bleiben mit dem agrirouter "
-"verbunden und werden in der Endpunkteliste angezeigt."
-msgstr ""
-"Apenas o Grupo é eliminado; os membros permanecem ligados ao agrirouter e "
-"são apresentados na lista de terminais."
-
-#. type: Title ===
-#: de/modules/ROOT/pages/group.adoc:252
-#, no-wrap
-msgid "Technischer Support"
-msgstr "Apoio técnico"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:254
-msgid ""
-"Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, benötigen "
-"wir die Diagnoseinformationen der Gruppe:"
-msgstr ""
-"Se enviar um Sedido à nossa equipa de apoio para um Grupo, precisamos das "
-"informações de diagnóstico para o Grupo:"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:257
-msgid "Klicke das Icon *_Mehr_*.  [.result]#Eine Auswahlliste wird angezeigt.#"
-msgstr "Clicar no ícone *_Mais_*.  [É apresentada uma lista de seleção."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:259
-msgid ""
-"Wähle das Icon *_Support Informationen anzeigen_*.  [.result]#Das "
-"Meldungsfenster *_Support-Information_* wird angezeigt.#"
-msgstr ""
-"Selecionar o ícone *Mostrar informações de apoio_*.  [É apresentada a janela "
-"de mensagem *Informações de apoio_*."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:260
-msgid "Klicke das Icon *_In Zwischenablage kopieren_*."
-msgstr "Clicar no ícone *Copiar para a área de transferência_*."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/group.adoc:260
-msgid "Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support."
-msgstr ""
-"Copie as informações de diagnóstico para uma mensagem de correio eletrónico "
-"enviada à nossa equipa de apoio."
 
 #. type: Title =
 #: de/modules/ROOT/pages/introduction.adoc:4
@@ -3192,7 +2370,7 @@ msgid ""
 "[.result]#Über die *my agrirouter* Seite hast du Zugriff auf alle Funktionen des agrirouters.#\n"
 msgstr ""
 "*O meu agrirouter:* Ao Iniciar sessão no agrirouter, é apresentada a sua página inicial pessoal, a página <<meu agrirouter, meu agrirouter>>:\n"
-"[.result]#A página *my agrirouter* dá-lhe acesso a todas as funções do agrirouter.\n"
+"[.result]#A página *my agrirouter* dá-lhe acesso a todas as funções do agrirouter.#\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:25
@@ -3208,7 +2386,7 @@ msgstr ""
 #: de/modules/ROOT/pages/introduction.adoc:27
 #, no-wrap
 msgid "*Routen:* Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt sendet und/oder empfängt.\n"
-msgstr "*Rotas:* Com <<Route,Routen>> define os dados que um Ponto final envia e/ou recebe.\n"
+msgstr "*Rotas:* Com <<Route,Rotas>> define os dados que um Ponto final envia e/ou recebe.\n"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/introduction.adoc:28
@@ -3295,9 +2473,7 @@ msgstr ""
 msgid ""
 "Du kannst neue xref:endpoint.adoc#add-manufacturer[*_Hersteller "
 "hinzufügen_*]."
-msgstr ""
-"Pode adicionar um novo xref:endpoint.adoc#add-manufacturer[*_add-"
-"manufacturer_*]."
+msgstr "Pode xref:endpoint.adoc#add-manufacturer[*_adicionaro fabricante_*]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:46
@@ -3316,13 +2492,6 @@ msgstr "Ponto final"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:51
-#, fuzzy
-#| msgid ""
-#| "Deine Maschinen und deine Software werden über den agrirouter als "
-#| "Endpunkte miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie "
-#| "auch Empfänger sein. Wichtig ist nur, dass die Endpunkte über eine "
-#| "<<Route,Routen>> miteineander verbunden sind. Grundsätzlich gibt es zwei "
-#| "Typen von Endpunkten:"
 msgid ""
 "Deine Maschinen und deine Software werden über den agrirouter als Endpunkte "
 "miteinander verbunden. Ein Endpunkt kann sogleich Sender, wie auch Empfänger "
@@ -3332,7 +2501,7 @@ msgstr ""
 "As suas Máquinas e o seu software estão ligados entre si como Pontos finais "
 "através do agrirouter. Um ponto final pode ser tanto um transmissor como um "
 "recetor. A única coisa importante é que os endpoints estão ligados uns aos "
-"outros através de um <<route,routes>>. Existem basicamente dois tipos de "
+"outros através de um <<Rota,Rotas>>. Existem basicamente dois tipos de "
 "endpoints:"
 
 #. type: Labeled list
@@ -3375,12 +2544,12 @@ msgstr ""
 #: de/modules/ROOT/pages/introduction.adoc:60
 msgid ""
 "Du findest alle agrirouter kompatiblen Endpunkte, sowohl Agrar-Software, als "
-"auch Telemetrieeinheiten, im https://agrirouter.com/de/solutions[Solution-"
+"auch Telemetrieeinheiten, im https://agrirouter.com/solutions[Solution-"
 "Finder] auf der agrirouter Website."
 msgstr ""
 "Pode encontrar todos os pontos finais compatíveis com o agrirouter, tanto "
-"Software agrícola como unidades de telemetria, em https://agrirouter.com/de/"
-"solutions[Solution-Finder] no sítio Web do agrirouter."
+"software agrícola como unidades de telemetria, em https://agrirouter.com/"
+"solutions[Solution Finder] no sítio Web do agrirouter."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/introduction.adoc:63
@@ -3395,7 +2564,7 @@ msgid ""
 "fließen die Daten vom Sender zum Empfänger und ggf. ach umgekehrt. Wie du "
 "eine neue Route einrichtest, erfährt du xref:routing.adoc[hier]."
 msgstr ""
-"Uma rota é a Ligação entre dois Pontos finais, ou seja, os dados fluem do "
+"Uma rota é a ligação entre dois pontos finais, ou seja, os dados fluem do "
 "emissor para o recetor e vice-versa através da rota. Pode descobrir como "
 "configurar uma nova rota xref:routing.adoc[aqui]."
 
@@ -3424,8 +2593,8 @@ msgstr "que dados são trocados"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:72
-msgid "ob und welche Echtzeitdaten ausgetauscht werden"
-msgstr "se e quais dados em tempo real são trocados"
+msgid "ob und welche Echtzeitdaten ausgetauscht werden."
+msgstr "se e quais dados em tempo real são trocados."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/introduction.adoc:77
@@ -3445,7 +2614,7 @@ msgstr "Tipos de dados"
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:82
 msgid "Daten folgenden Typs können zwischen Endpunkten ausgetauscht werden:"
-msgstr "Os dados do seguinte tipo podem ser trocados entre os Pontos finais:"
+msgstr "Os dados do seguinte tipo podem ser trocados entre os pontos finais:"
 
 #. type: Labeled list
 #: de/modules/ROOT/pages/introduction.adoc:83
@@ -3499,8 +2668,6 @@ msgstr "Documentos"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:88
-#, fuzzy
-#| msgid "Berichte im pdf-Format"
 msgid "Berichte im PDF-Format"
 msgstr "Relatórios em formato pdf"
 
@@ -3516,12 +2683,12 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:91
 msgid ""
-"Im https://agrirouter.com/de/solutions[Solution-Finder] kannst du anhand von "
+"Im https://agrirouter.com/solutions[Solution-Finder] kannst du anhand von "
 "Filtereinstellungen die Endpunkte herausfinden, die die von dir gewünschten "
 "Datentypen senden und/oder empfangen können."
 msgstr ""
-"Em https://agrirouter.com/de/solutions[Solution-Finder] pode utilizar "
-"definições de filtro para encontrar os Pontos finais que podem enviar e/ou "
+"Em https://agrirouter.com/solutions[Solution Finder] pode utilizar "
+"definições de filtro para encontrar os pontos finais que podem enviar e/ou "
 "receber os tipos de dados necessários."
 
 #. type: Title =
@@ -3540,7 +2707,8 @@ msgid ""
 msgstr ""
 "Uma xref:introduction.adoc#route[Route] é a Ligação entre dois xref:"
 "introduction.adoc#endpoint[Ponto final], ou seja, os dados fluem entre dois "
-"pontos finais através da rota.  [Com a rota, define quem troca que dados."
+"pontos finais através da rota.  [.result]#Com a rota, define quem troca que "
+"dados.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:11
@@ -3571,10 +2739,10 @@ msgid ""
 "hinzufügen_* image:endpoints/add-route-icon.png[Routen hinzufügen Icon, 22] "
 "Icon angezeigt.#"
 msgstr ""
-"Clique no ícone *_View routes_* image:endpoints/see-routes-icon.png[Ver "
-"ícone de rotas, 22] no Ponto final que pretende Ligar a outro ponto final.  "
-"[Verá agora o ícone *_add-route_* image:endpoints/add-route-icon.png "
-"[Adicionar ícone de rotas, 22]."
+". Clique no ícone *_ver itinerários_* image:endpoints/see-routes-icon."
+"png[Ver ícone de rotas, 22] no Ponto final que pretende Ligar a outro ponto "
+"final.  [.result]#Verá agora o ícone *_adicionar rota_* image:endpoints/add-"
+"route-icon.png[Adicionar ícone de rotas, 22].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:22
@@ -3584,9 +2752,9 @@ msgid ""
 "erstellen_* image:endpoints/create-route-icon.png[Route erstellen Icon, 22] "
 "Icons angezeigt.#"
 msgstr ""
-"Clique no ícone *_add-route_* image:endpoints/add-route-icon.png[add-route-"
-"icon, 22].  [Verá agora os ícones *_create-route_* image:endpoints/create-"
-"route-icon.png [Criar ícone de rota, 22]."
+". Clique no ícone *_adicionar rota_* image:endpoints/add-route-icon.png[add-"
+"route-icon, 22].  [.result]#Verá agora os ícones *_criar rota_* image:"
+"endpoints/create-route-icon.png[Criar ícone de rota, 22].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:25
@@ -3597,7 +2765,7 @@ msgid ""
 "möglich ist. Wird dieses Icon nicht angezeigt, kannst du keine Route "
 "zwischen den beiden Endpunkten erstellen."
 msgstr ""
-"Os ícones *_Create route_* image:endpoints/create-route-icon.png[Ícone de "
+"Os ícones *_criar rota_* image:endpoints/create-route-icon.png[Ícone de "
 "criação de rota, 22] circulados a vermelho indicam que é possível criar uma "
 "rota entre o ponto final selecionado e os outros pontos finais. Se este "
 "ícone não for apresentado, não é possível criar um itinerário entre os dois "
@@ -3610,9 +2778,9 @@ msgid ""
 "*_Route erstellen_* image:endpoints/create-route-icon.png[Routen hinzufügen "
 "Icon, 22] Icon.  [.result]#Das folgende Pop-up Fenster öffnet sich.#"
 msgstr ""
-"Clique no ícone *_Create route_* image:endpoints/create-route-icon."
+". Clique no ícone *_Create route_* image:endpoints/create-route-icon."
 "png[Adicionar ícone de rota, 22] no Ponto final para o qual pretende criar "
-"uma rota.  [A janela de contexto seguinte abre-se."
+"uma rota.  [.result]#A janela de contexto seguinte abre-se.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:35
@@ -3742,10 +2910,10 @@ msgid ""
 "Icon.  [.result]#Dir werden nun die Roten, die bereits zu anderen Endpunkten "
 "bestehen, über einen grauen Pfeil angezeigt.#"
 msgstr ""
-"Clique no ícone *_View routes_* image:endpoints/see-routes-icon.png[Ver "
-"ícone das rotas, 22] no Ponto final que pretende editar.  [As rotas "
+". Clique no ícone *_ver percursos_* image:endpoints/see-routes-icon.png[Ver "
+"ícone das rotas, 22] no Ponto final que pretende editar.  [.result]#As rotas "
 "vermelhas que já existem para outros pontos finais são agora apresentadas "
-"com uma seta cinzenta."
+"com uma seta cinzenta.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:66
@@ -3754,8 +2922,8 @@ msgid ""
 "den Pfeil_* der Route, die du bearbeiten möchtest.  [.result]#Das folgende "
 "Menü wird geöffnet.#"
 msgstr ""
-"Se passar o rato por cima de uma seta, esta fica verde. *Clique na seta_* da "
-"rota que pretende editar.  [O menu seguinte abre-se."
+". Se passar o rato por cima de uma seta, esta fica verde. *_Clique na seta_* "
+"da rota que pretende editar.  [.result]#O menu seguinte abre-se.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/routing.adoc:70
@@ -3777,7 +2945,7 @@ msgid ""
 "Bist du fertig, kannst du die neu eingestellte Route *_speichern_*. Du "
 "findest hier auch eine Möglichkeit, die bestehende Route zu *_löschen_*."
 msgstr ""
-"Quando tiver terminado, pode *guardar_* a nova rota. Também pode "
+"Quando tiver terminado, pode *_guardar_* a nova rota. Também pode "
 "*_eliminar_* a rota existente aqui."
 
 #. type: Title ==
@@ -3879,9 +3047,9 @@ msgid ""
 "endpoints/information-icon.png[Information Icon, 30] Icon.  [.result]#Die "
 "Detailseite wird geöffnet.#"
 msgstr ""
-"Clique em xref:endpoint.adoc#endpoint[ponto final] no ícone Information "
-"image:endpoints/information-icon.png[Ícone de informação, 30].  [A página de "
-"pormenor abre-se."
+". Clique em xref:endpoint.adoc#endpoint[ponto final] no ícone Information "
+"image:endpoints/information-icon.png[Ícone de informação, 30].  [.result]#A "
+"página de pormenor abre-se.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:36
@@ -3889,7 +3057,7 @@ msgid ""
 "Scrolle nun auf der Seite herunter, bis zu die Kategorie *_Support "
 "Informationen_* findest."
 msgstr ""
-"Agora, percorra a página até encontrar a categoria *Informações de apoio_*."
+"Agora, percorra a página até encontrar a categoria *_Informações de apoio_*."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:37
@@ -3936,11 +3104,11 @@ msgstr ""
 #: de/modules/ROOT/pages/support.adoc:53 de/modules/ROOT/pages/support.adoc:67
 msgid ""
 "Öffne die Internetadresse https://agrirouter.atlassian.net/servicedesk/"
-"customer/portals/[Help Center^] .  [.result]#Das Help Center wird angezeigt.#"
+"customer/portals/[Help Center^].  [.result]#Das Help Center wird angezeigt.#"
 msgstr ""
-"Abrir o endereço Internet https://agrirouter.atlassian.net/servicedesk/"
-"customer/portals/[Centro de Ajuda^] .  [.result]#O Centro de Ajuda é "
-"apresentado."
+". Abrir o endereço Internet https://agrirouter.atlassian.net/servicedesk/"
+"customer/portals/[Centro de Ajuda^].  [.result]#O Centro de Ajuda é "
+"apresentado.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:55
@@ -3948,8 +3116,8 @@ msgid ""
 "Klicke in der oberen rechten Ecke auf den Button *_Login_*.  [.result]#Ein "
 "Formular wird geöffnet.#"
 msgstr ""
-"Clique no botão *_Login_* no canto superior direito.  [Será aberto um "
-"formulário."
+". Clique no botão *_Login_* no canto superior direito.  [.result]#Será "
+"aberto um formulário.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:57
@@ -3957,8 +3125,8 @@ msgid ""
 "Gib deine E-Mail-Adresse ein und klicke auf *_Weiter_*.  [.result]#Eine neue "
 "Seite wird geöffnet.#"
 msgstr ""
-"Introduza o seu endereço eletrónico e clique em *_Next_*.  [Será aberta uma "
-"nova página."
+". Introduza o seu endereço eletrónico e clique em *_Next_*.  [.result]#Será "
+"aberta uma nova página.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:59
@@ -3966,8 +3134,8 @@ msgid ""
 "Klicke auf *_Sign up with password_*.  [.result]#Eine Mail wird an deine E-"
 "Mail-Adresse gesendet.#"
 msgstr ""
-"Clique em *Assinar com a palavra-passe_*.  [Será enviada uma mensagem de "
-"correio eletrónico para o seu endereço de correio eletrónico."
+". Clique em *_Assinar com a palavra-passe_*.  [.result]#Será enviada uma "
+"mensagem de correio eletrónico para o seu endereço de correio eletrónico.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:61
@@ -3976,8 +3144,9 @@ msgid ""
 "öffnet sich, in der du aufgefordert wirst, deinen Namen einzugeben und ein "
 "Passwort zu wählen.#"
 msgstr ""
-"Clique no botão *_Sign up_* no e-mail.  [Será aberta uma nova página onde "
-"lhe será pedido que introduza o seu nome e escolha uma palavra-passe."
+". Clique no botão *_Sign up_* no e-mail.  [.result]#Será aberta uma nova "
+"página onde lhe será pedido que introduza o seu nome e escolha uma palavra-"
+"passe.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:63
@@ -3986,9 +3155,9 @@ msgid ""
 "result]#Fertig, du bist jetzt im Help Center eingeloggt. Dort kannst du den "
 "Status all deiner Anfragen verfolgen.#"
 msgstr ""
-"Introduza o seu nome e uma palavra-passe e clique em *_Sign up_*.  [Feito "
-"isso, está agora ligado ao Centro de Ajuda. Aí pode acompanhar o estado de "
-"todos os seus Sedidos."
+". Introduza o seu nome e uma palavra-passe e clique em *_Sign up_*.  [."
+"result]#Feito isso, está agora ligado ao Centro de Ajuda. Aí pode acompanhar "
+"o estado de todos os seus Sedidos.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:68
@@ -4005,7 +3174,7 @@ msgstr "*_reportar incidente ao agrirouter_*: Se tiver um incidente (erro, probl
 #: de/modules/ROOT/pages/support.adoc:70
 #, no-wrap
 msgid "*_agrirouter general reuquest_*: Wenn du weitere Fragen hast oder zusätzliche Informationen zur agrirouter-Integration und -Partnerschaft benötigst oder eine Idee für ein neues Feature hast.\n"
-msgstr "*pedido geral do agrirouter_*: Se tiver mais perguntas ou precisar de informações adicionais sobre a parceria e a integração do agrirouter ou se tiver uma ideia para uma nova funcionalidade.\n"
+msgstr "*_pedido geral do agrirouter_*: Se tiver mais perguntas ou precisar de informações adicionais sobre a parceria e a integração do agrirouter ou se tiver uma ideia para uma nova funcionalidade.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:72
@@ -4014,14 +3183,14 @@ msgid ""
 "*_membership inquiries_*: Wenn du Fragen zu deiner Mitgliedschaft im agrirouter Ecosystem, insbesondere im Verein DKE-Data agrirouter e.V. hast.\n"
 "[.result]#Ein Formular wird geöffnet.#\n"
 msgstr ""
-"*Inquéritos sobre a filiação_*: Se tiver perguntas sobre a sua participação no ecossistema agrirouter, especialmente na associação DKE-Data agrirouter e.V.\n"
-"[Será aberto um formulário.\n"
+"*_Inquéritos sobre a filiação_*: Se tiver perguntas sobre a sua participação no ecossistema agrirouter, especialmente na associação DKE-Data agrirouter e.V.\n"
+"[.result]#Será aberto um formulário.#\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:73
 #, no-wrap
 msgid "Fülle das Formular mit allen relevanten Informationen aus und klicke auf *_Senden_*.\n"
-msgstr "Preencha o formulário com todas as informações pertinentes e clique em *Enviar_*.\n"
+msgstr "Preencha o formulário com todas as informações pertinentes e clique em *_Enviar_*.\n"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:76
@@ -4134,7 +3303,7 @@ msgid ""
 "[www.teamviewer.com^]."
 msgstr ""
 "Se tiver problemas com a interface gráfica do utilizador do agrirouter ou se "
-"não conseguir encontrar a função \"Ligação ao agrirouter\" no seu software "
+"não conseguir encontrar a função `Ligação ao agrirouter` no seu software "
 "agrícola, pode partilhar o conteúdo do seu ecrã com a nossa equipa de "
 "apoio.  Para o efeito, utilize o TeamViewer. Pode encontrar informações "
 "sobre o TeamViewer e o ficheiro de instalação na Internet, em https://www."
@@ -4144,7 +3313,8 @@ msgstr ""
 #: de/modules/ROOT/pages/support.adoc:103
 msgid ""
 "Starte TeamViewer.  [.result]#Die Startseite von TeamViewer wird angezeigt.#"
-msgstr "Iniciar o TeamViewer.  [A página inicial do TeamViewer é exibida."
+msgstr ""
+". Iniciar o TeamViewer.  [.result]#A página inicial do TeamViewer é exibida.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:104
@@ -4228,8 +3398,8 @@ msgstr ""
 "Resumimos os parâmetros em 12 categorias para uma melhor visão geral.  Tal "
 "como descrito nas secções xref:endpoint.adoc#detail-view[ponto final] e xref:"
 "group.adoc#detail-view[grupo], pode selecionar uma ou mais categorias ao "
-"criar rotas.  [Todos os parâmetros atribuídos à categoria selecionada podem "
-"então ser trocados entre os pontos finais."
+"criar rotas.  [.result]#Todos os parâmetros atribuídos à categoria selecionada podem "
+"então ser trocados entre os pontos finais.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/appendix/ddis.adoc:21
@@ -4552,7 +3722,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:21
 msgid "Klicke in der Menüleiste auf *_Monitoring_* und wähle *_Sensors_* aus."
-msgstr "Clique em *Monitorização_* na barra de menus e selecione *_Sensores_*."
+msgstr ""
+"Clique em *_Monitorização_* na barra de menus e selecione *_Sensores_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:22
@@ -4622,7 +3793,7 @@ msgid ""
 "deinem ABACO Farmer Konto verbunden."
 msgstr ""
 "Para verificar se existe uma ligação online ativa com o agrirouter, clique "
-"em *Monitorização > Sensores_* na barra de menu. Se vir agora um ponto "
+"em *_Monitorização > Sensores_* na barra de menu. Se vir agora um ponto "
 "verde, como mostra o gráfico à direita, a sua conta agrirouter está ligada à "
 "sua conta ABACO Farmer."
 
@@ -4688,7 +3859,8 @@ msgstr ""
 msgid ""
 "Wähle *_Monitoring_* in der Menüleiste und klicke auf *_Models and maps_*."
 msgstr ""
-"Selecione *Monitorização_* na barra de menus e clique em *Modelos e mapas_*."
+"Selecione *_Monitorização_* na barra de menus e clique em *_Modelos e "
+"mapas_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:75
@@ -4699,7 +3871,7 @@ msgstr "Siga todos os passos para criar um mapa de aplicações (receita)."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:76
 msgid "Klicke auf den Button *_Send to Agrirouter_*."
-msgstr "Clicar no botão *Enviar para Agrirouter_*."
+msgstr "Clicar no botão *_Enviar para Agrirouter_*."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:80
@@ -4709,8 +3881,8 @@ msgid ""
 "Agrirouter_* angezeigt."
 msgstr ""
 "Pode demorar algum tempo até que seja criado um shapefile do seu ficheiro. A "
-"opção *Enviar para o Agrirouter_* só é apresentada depois de o shapefile ter "
-"sido criado."
+"opção *_Enviar para o Agrirouter_* só é apresentada depois de o shapefile "
+"ter sido criado."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:89
@@ -4726,7 +3898,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:90
 msgid "Klicke auf *_Send to Agrirouter_*."
-msgstr "Clicar em *Enviar para Agrirouter_*."
+msgstr "Clicar em *_Enviar para Agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:91
@@ -4771,13 +3943,13 @@ msgid ""
 "Klicke auf der rechten Seite auf das *_Download Symbol_* und wähle dann "
 "*_Open IOT services_*."
 msgstr ""
-"Clique no ícone *_Download_* no lado direito e, em seguida, selecione *Abrir "
-"serviços IOT_*."
+"Clique no ícone *_Download_* no lado direito e, em seguida, selecione "
+"*_Abrir serviços IOT_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:108
 msgid "Klicke auf das Symbol für *_Add IOT service_*."
-msgstr "Clique no ícone para *Adicionar serviço IOT_*."
+msgstr "Clique no ícone para *_Adicionar serviço IOT_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:116
@@ -4805,7 +3977,7 @@ msgid ""
 "du auf *_Save and close_*."
 msgstr ""
 "Depois de ter introduzido o ID de consumidor do seu veículo, clique em "
-"*Guardar e fechar_*."
+"*_Guardar e fechar_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:127
@@ -4925,8 +4097,8 @@ msgid ""
 "Klicke im oberen Reiter den Tab *_Stammdaten_* und wähle "
 "*_Betriebseinstellungen_* aus."
 msgstr ""
-"Clique no separador *Dados principais_* no separador superior e selecione "
-"*Definições de operação_*."
+"Clique no separador *_Dados principais_* no separador superior e selecione "
+"*_Definições de operação_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:19
@@ -4945,7 +4117,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:21
 msgid "Klicke im oberen Reiter auf *_Stammdaten → agrirouter_*."
-msgstr "Clicar em *Dados principais → agrirouter_* no separador superior."
+msgstr "Clicar em *_Dados principais → agrirouter_* no separador superior."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:26
@@ -5116,8 +4288,8 @@ msgid ""
 "unterstütze Maschinendaten angezeigt, die von der Maschine potentiell "
 "übermittelt werden könnten."
 msgstr ""
-"A secção *Dados da máquina suportados em detalhe_* apresenta outros dados da "
-"máquina suportados que podem ser potencialmente transmitidos pela Máquina."
+"A secção *_Dados da máquina suportados em detalhe_* apresenta outros dados "
+"da máquina suportados que podem ser potencialmente transmitidos pela Máquina."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:94
@@ -5374,7 +4546,7 @@ msgstr "Selecione a opção *_Agrirouter_* no menu pendente em Tipo."
 msgid ""
 "Wähle die *_Maschine_*, von der die GPS-Positionen abgerufen werden sollen."
 msgstr ""
-"Selecione a *máquina_* a partir da qual as posições GPS devem ser "
+"Selecione a *_máquina_* a partir da qual as posições GPS devem ser "
 "recuperadas."
 
 #. type: Title ===
@@ -5386,7 +4558,7 @@ msgstr "Recuperar posições GPS diretamente das Máquinas"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:111
 msgid "Wähle *_Maschinen_* in der linken Seitenleiste."
-msgstr "Selecione *Máquinas_* na barra lateral esquerda."
+msgstr "Selecione *_Máquinas_* na barra lateral esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:117
@@ -5480,7 +4652,7 @@ msgid ""
 "Klicke in der Navigationsleiste oberen Bereich deines Bildschirms auf "
 "*_Stammdaten_*."
 msgstr ""
-"Clique em *Dados principais_* na barra de navegação na parte superior do "
+"Clique em *_Dados principais_* na barra de navegação na parte superior do "
 "ecrã."
 
 #. type: Plain text
@@ -5500,7 +4672,7 @@ msgid ""
 "findest. Wähle das *_agrirouter-Symbol_* aus."
 msgstr ""
 "Aparecerá agora uma janela na qual encontrará várias opções de ligação. "
-"Selecione o ícone *_agrirouter_icon_*."
+"Selecione o ícone *_agrirouter icon_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:29
@@ -5570,8 +4742,8 @@ msgid ""
 "Klicke in der Navigationsleiste im oberen Bereich deines Bildschirms auf "
 "*_Stammdaten_* und wähle anschließend *_Verbindungen_*."
 msgstr ""
-"Clique em *Dados principais_* na barra de navegação na parte superior do "
-"ecrã e, em seguida, selecione *Conexões_*."
+"Clique em *_Dados principais_* na barra de navegação na parte superior do "
+"ecrã e, em seguida, selecione *_Conexões_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:69
@@ -5745,7 +4917,7 @@ msgstr "Clicar no ícone *_+_* para adicionar uma Máquina."
 msgid ""
 "Füge die benötigten Informationen hinzu und klicke auf das *_Speichern-"
 "Icon_*."
-msgstr "Adicione as informações necessárias e clique no ícone *Guardar_*."
+msgstr "Adicione as informações necessárias e clique no ícone *_Guardar_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:63
@@ -5835,12 +5007,12 @@ msgstr "Clique em *_CODE_*."
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:133
 msgid ""
 "Gib den *_Registrierungscode_* ein, den du dir unter Schritt 5 notiert hast."
-msgstr "Introduza o *código de registo_* que anotou no passo 5."
+msgstr "Introduza o *_código de registo_* que anotou no passo 5."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:134
 msgid "Klicke auf den *_grünen Haken_*, um die Eingabe zu bestätigen."
-msgstr "Clicar no *marcador verde_* para confirmar a entrada."
+msgstr "Clicar no *_marcador verde_* para confirmar a entrada."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:144
@@ -6127,7 +5299,7 @@ msgstr "Para verificar se está ligado ao agrirouter, siga os passos seguintes:"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:134
 msgid "Wähle *_Einstellungen_* auf dem Startbildschirm des Terminals."
-msgstr "Selecione *Definições_* no ecrã inicial do terminal."
+msgstr "Selecione *_Definições_* no ecrã inicial do terminal."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cci-terminals.adoc:135
@@ -6234,7 +5406,7 @@ msgid ""
 "Wähle die Option *_Inbox_* bzw. *_Postausgang_*. Hier sind alle Dateien "
 "enthalten, die noch nicht an den agrirouter versendet werden konnten."
 msgstr ""
-"Selecionar a opção *_Caixa de entrada_* ou *Caixa de saída_*. Esta contém "
+"Selecionar a opção *_Caixa de entrada_* ou *_Caixa de saída_*. Esta contém "
 "todos os ficheiros que ainda não foram enviados para o agrirouter."
 
 #. type: Plain text
@@ -6298,9 +5470,8 @@ msgid ""
 "currentLanguage=%22en%22[CropManager Website, window=\"_blank\"] in dein "
 "Cropmanager-Konto ein."
 msgstr ""
-"Inicie sessão na sua conta Cropmanager através da ligação: https://"
-"cropmanager.dk/#/?currentLanguage=%22en%22[sítio Web CropManager, "
-"window=\"_blank\"]."
+"Inicie sessão na sua conta Cropmanager através da link:https://cropmanager."
+"dk/#/?currentLanguage=%22en%22[sítio Web CropManager, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:18
@@ -6308,8 +5479,8 @@ msgid ""
 "Klicke in der linken Seitenleiste auf *_Settings_* und öffne im Menü den "
 "Punkt *_Data Connections_*."
 msgstr ""
-"Clique em *Definições_* na barra lateral esquerda e abra o item de menu "
-"*Conexões de dados_*."
+"Clique em *_Definições_* na barra lateral esquerda e abra o item de menu "
+"*_Conexões de dados_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:19
@@ -6412,7 +5583,7 @@ msgid ""
 "Klicke im rechten, unteren Bereich des Bildschirms den Button *_Send to "
 "Machine_*."
 msgstr ""
-"Clique no botão *Enviar para a máquina_* na parte inferior direita do ecrã."
+"Clique no botão *_Enviar para a máquina_* na parte inferior direita do ecrã."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:65
@@ -6462,7 +5633,7 @@ msgstr "Siga os passos 1 a 4 do capítulo anterior."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:90
 msgid "Wähle *_Send to all subscribed_* aus."
-msgstr "Selecione *Enviar a todos os subscritos_*."
+msgstr "Selecione *_Enviar a todos os subscritos_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:91
@@ -6500,7 +5671,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:105
 msgid "Klicke in der linken Seitenleiste auf den Menüpunkt *_Field Analysis_*."
-msgstr "Clique no item de menu *Análise de campo_* na barra lateral esquerda."
+msgstr "Clique no item de menu *_Análise de campo_* na barra lateral esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:106
@@ -6681,7 +5852,7 @@ msgid ""
 "verbunden ist."
 msgstr ""
 "É possível reconhecer a conta agrirouter que está atualmente ligada através "
-"do ID da conta apresentado em *Conta de cliente atualmente ligada_*."
+"do ID da conta apresentado em *_Conta de cliente atualmente ligada_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:59
@@ -6689,7 +5860,7 @@ msgid ""
 "Über den Button *_Zugangsberechtigung erneuern_*, kannst du deine "
 "Berechtigung aktualisieren."
 msgstr ""
-"Pode atualizar a sua autorização através do botão *Renovar autorização de "
+"Pode atualizar a sua autorização através do botão *_Renovar autorização de "
 "acesso_*."
 
 #. type: delimited block =
@@ -6774,12 +5945,12 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:100
 msgid "Klicke in der linken Seitenleiste auf *_Mein Betrieb._*"
-msgstr "Clique em *A minha empresa na barra lateral esquerda."
+msgstr "Clique em *_A minha empresa_* na barra lateral esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:101
 msgid "Wähle *_Maschinen_* aus."
-msgstr "Selecionar *Máquinas_*."
+msgstr "Selecionar *_Máquinas_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:102
@@ -6796,7 +5967,7 @@ msgid ""
 "automatisch an diese Maschine bzw. diesen Endpunkt gesendet."
 msgstr ""
 "Na parte inferior do menu *_Editar veículo_*, encontra-se uma caixa de "
-"verificação com a Designação *Enviar plano automaticamente_*. Se esta caixa "
+"verificação com a Designação *_Enviar plano automaticamente_*. Se esta caixa "
 "de verificação estiver selecionada, todos os mapas de aplicação que guardar "
 "são automaticamente enviados para esta Máquina ou ponto final."
 
@@ -6841,7 +6012,7 @@ msgid ""
 "Wähle mindestens 2 Applikationskarten aus, indem du die *_Checkboxen_* "
 "markierst."
 msgstr ""
-"Selecionar pelo menos 2 cartões de candidatura, assinalando as *caixas de "
+"Selecionar pelo menos 2 cartões de candidatura, assinalando as *_caixas de "
 "verificação_*."
 
 #. type: Plain text
@@ -7071,7 +6242,7 @@ msgid ""
 "Wähle nun im Reiter das *_Datenformat_* aus, das du exportieren möchtest. In "
 "diesem Beispiel werden Applikationskarten gewählt."
 msgstr ""
-"Agora selecione o *formato de dados_* que pretende exportar no separador. "
+"Agora selecione o *_formato de dados_* que pretende exportar no separador. "
 "Neste exemplo, são selecionados mapas de aplicações."
 
 #. type: Plain text
@@ -7236,7 +6407,7 @@ msgid ""
 "Unter *_verfügbare Daten_* werden die nun alle importierten Daten zu diesem "
 "Feld angezeigt. Klicke auf die Datei, die du bearbeiten möchtest."
 msgstr ""
-"Todos os dados importados para este campo são agora apresentados em *dados "
+"Todos os dados importados para este campo são agora apresentados em *_dados "
 "disponíveis_*. Clique no ficheiro que pretende editar."
 
 #. type: Plain text
@@ -7360,7 +6531,7 @@ msgstr ""
 msgid ""
 "Klicke in der Seitenleiste links auf *_Fahrzeuge_* und wähle *_Maschinen_*."
 msgstr ""
-"Clique em *_Veículos_* na barra lateral à esquerda e selecione *Máquinas_*."
+"Clique em *_Veículos_* na barra lateral à esquerda e selecione *_Máquinas_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:54
@@ -7633,6 +6804,12 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:23
+#, fuzzy
+#| msgid ""
+#| "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
+#| "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
+#| "freigeschaltet. Wähle hierzu unter *_Services_* die Option *_Smart "
+#| "Telematics_* aus und folge dem Prozess."
 msgid ""
 "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
 "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
@@ -7641,8 +6818,8 @@ msgid ""
 msgstr ""
 "O serviço Smart Telematics ainda não está ativado num link recentemente "
 "criado:https://mykrone.green/[mykrone.green account, window=\"_blank\"]. "
-"Para o fazer, selecione a opção *_Smart Telematics_* em *Services_* e siga o "
-"processo."
+"Para o fazer, selecione a opção *_Smart Telematics_* em *_Services_* e siga "
+"o processo."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:32
@@ -7881,7 +7058,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:6
 msgid "dein KUHN-Gerät mit dem agrirouter verbindest."
-msgstr "Ligação do aparelho KUHN ao agrirouter."
+msgstr "ligação do aparelho KUHN ao agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:8
@@ -8205,7 +7382,8 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:24
 msgid "Wähle dazu im Home Bildschirm das Zahnrad für *_Einstellungen_*."
-msgstr "Para tal, selecione a roda dentada para *Definições_* no ecrã inicial."
+msgstr ""
+"Para tal, selecione a roda dentada para *_Definições_* no ecrã inicial."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:25
@@ -8220,12 +7398,12 @@ msgstr "Selecionar a opção *_agrirouter_*."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:43
 msgid "Klicke auf *_Registration Code_*."
-msgstr "Clicar em *Código de registo_*."
+msgstr "Clicar em *_Código de registo_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:52
 msgid "Gib den *_Registrierungscode_* ein, den du in Schritt 2 generiert hast."
-msgstr "Introduza o *código de registo_* que gerou na etapa 2."
+msgstr "Introduza o *_código de registo_* que gerou na etapa 2."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:61
@@ -8381,12 +7559,12 @@ msgstr "Selecione o mapa de prescrição que pretende exportar."
 #: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:74
 #: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:85
 msgid "Klicke auf *_WEITER_*."
-msgstr "Clique em *AINDA_*."
+msgstr "Clique em *_AINDA_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:83
 msgid "Wähle unter *_Ziele auswählen_* den agrirouter aus."
-msgstr "Selecionar o agrirouter em *Selecionar destinos_*."
+msgstr "Selecionar o agrirouter em *_Selecionar destinos_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:84
@@ -8902,7 +8080,7 @@ msgid ""
 "Setze einen Haken bei den Maschinen, die du mit dem agrirouter verbinden "
 "möchtest oder bei *_Alle auswählen_*."
 msgstr ""
-"Assinalar as Máquinas que se pretende Ligar ao agrirouter ou *Selecionar "
+"Assinalar as Máquinas que se pretende Ligar ao agrirouter ou *_Selecionar "
 "todas_*."
 
 #. type: Plain text
@@ -9047,7 +8225,7 @@ msgid ""
 "Logge dich über die link:https://mein.nextfarming.de/j_security_check[NEXT "
 "Farming Login-Seite, window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Inicie sessão na sua conta através da ligação: https://mein.nextfarming.de/"
+"Inicie sessão na sua conta através da link:https://mein.nextfarming.de/"
 "j_security_check[página de início de sessão do NEXT Farming, "
 "window=\"_blank\"]."
 
@@ -9154,7 +8332,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:151
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:161
 msgid "Wähle in der Seitenleiste links *_Machine Management_*."
-msgstr "Selecione *Gestão de máquinas_* na barra lateral à esquerda."
+msgstr "Selecione *_Gestão de máquinas_* na barra lateral à esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:68
@@ -9224,7 +8402,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:92
 msgid "Wähle das *_Applikationskartencenter_* aus der linken Seitenleiste."
 msgstr ""
-"Selecione o *centro de cartões de aplicação_* na barra lateral esquerda."
+"Selecione o *_centro de cartões de aplicação_* na barra lateral esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:93
@@ -9243,7 +8421,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:95
 msgid "Klicke auf *_Senden über agrirouter_*."
-msgstr "Clicar em *Enviar via agrirouter_*."
+msgstr "Clicar em *_Enviar via agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:100
@@ -9263,7 +8441,7 @@ msgid ""
 "Wähle aus dem *_Dropdown Menü_* den Endpunkt, an den du deine "
 "Applikationskarte senden möchtest."
 msgstr ""
-"No *menu pendente_*, selecione o Ponto final para o qual pretende enviar o "
+"No *_menu pendente_*, selecione o Ponto final para o qual pretende enviar o "
 "seu mapa de aplicação."
 
 #. type: delimited block =
@@ -9299,8 +8477,8 @@ msgid ""
 "Applikationskarte senden möchtest, einen Haken oder wähle *_an alle "
 "Endpunkte senden_* aus."
 msgstr ""
-"No *menu pendente_*, assinale todos os pontos finais para os quais pretende "
-"enviar o seu mapa de aplicação ou selecione *Enviar para todos os pontos "
+"No *_menu pendente_*, assinale todos os pontos finais para os quais pretende "
+"enviar o seu mapa de aplicação ou selecione *_Enviar para todos os pontos "
 "finais_*."
 
 #. type: Title ==
@@ -9312,7 +8490,7 @@ msgstr "Enviar vários cartões para um Ponto final"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:125
 msgid "Klicke auf den Unterpunkt *_Daten senden_*."
-msgstr "Clicar na sub-rubrica *Enviar dados_*."
+msgstr "Clicar na sub-rubrica *_Enviar dados_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:131
@@ -9335,7 +8513,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:138
 msgid "Klicke auf den *_Pfeil nach rechts_*."
-msgstr "Clique na *seta para a direita_*."
+msgstr "Clique na *_seta para a direita_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:140
@@ -9450,7 +8628,7 @@ msgid ""
 "de/[Plantivo Website, window=\"_blank\"] in dein Plantivo-Konto einloggen."
 msgstr ""
 "Antes de começar, tem de iniciar sessão na sua conta Plantivo através da "
-"ligação:https://www.plantivo.de/[sítio Web do Plantivo, window=\"_blank\"]."
+"link:https://www.plantivo.de/[sítio Web do Plantivo, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:23
@@ -9460,13 +8638,13 @@ msgstr "Selecionar o separador *_Operação_* na página de síntese."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:24
 msgid "Wähle im Folgemenü den Reiter *_Stammdaten_*."
-msgstr "Selecionar o separador *Dados principais_* no menu subsequente."
+msgstr "Selecionar o separador *_Dados principais_* no menu subsequente."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:25
 msgid ""
 "Klicke im Breich *_Angaben zu Ihrem Betrieb_* auf den Button *_Agrirouter_*."
-msgstr "Clique no botão *_Agrirouter_* na secção *Detalhes da exploração_*."
+msgstr "Clique no botão *_Agrirouter_* na secção *_Detalhes da exploração_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:34
@@ -9534,7 +8712,7 @@ msgstr "Clique em *_ISOBUS Export_* na parte inferior da página."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:51
 msgid "Wähle im folgenden Fenster *_An agrirouter senden_*."
-msgstr "Selecionar *Enviar para agrirouter_* na janela seguinte."
+msgstr "Selecionar *_Enviar para agrirouter_* na janela seguinte."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:59
@@ -9544,7 +8722,8 @@ msgid ""
 "agrirouter senden_*."
 msgstr ""
 "Na janela seguinte, pode selecionar a Máquina para a qual o mapa de "
-"prescrição deve ser enviado. De seguida, clicar em *Enviar para agrirouter_*."
+"prescrição deve ser enviado. De seguida, clicar em *_Enviar para "
+"agrirouter_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:68
@@ -9602,7 +8781,7 @@ msgstr "Selecione os ficheiros que pretende importar."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:85
 msgid "Klicke auf *_Import starten_*."
-msgstr "Clicar em *Iniciar importação_*."
+msgstr "Clicar em *_Iniciar importação_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:90
@@ -9844,7 +9023,7 @@ msgid ""
 msgstr ""
 "Envie um mapa de aplicação do seu sistema de gestão agrícola para a sua "
 "unidade de telemetria Pöttinger Connect. Para saber como isto funciona para "
-"cada sistema individualmente, selecione *Software de gestão agrícola_* na "
+"cada sistema individualmente, selecione *_Software de gestão agrícola_* na "
 "barra lateral à esquerda."
 
 #. type: Plain text
@@ -10110,7 +9289,7 @@ msgid ""
 "Klicke in der Kopfleiste auf einen *_Aufgabentyp_* (bspw. BE für "
 "Sammelbuchung)."
 msgstr ""
-"Clique num *tipo de tarefa_* na barra de cabeçalho (por exemplo, BE para "
+"Clique num *_tipo de tarefa_* na barra de cabeçalho (por exemplo, BE para "
 "marcação colectiva)."
 
 #. type: Plain text
@@ -10338,7 +9517,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:37
 msgid "Klicke anschließend auf *_Fahrzeug hinzufügen_*."
-msgstr "Em seguida, clique em *Adicionar veículo_*."
+msgstr "Em seguida, clique em *_Adicionar veículo_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:45
@@ -10349,7 +9528,7 @@ msgstr "Agora, siga o processo para adicionar um novo veículo."
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:51
 msgid "Wähle auf der linken Seitenleiste den Menüpunkt *_DATA MANAGEMENT_*."
 msgstr ""
-"Selecionar o item de menu *GESTÃO DE DADOS_* na barra lateral esquerda."
+"Selecionar o item de menu *_GESTÃO DE DADOS_* na barra lateral esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:52
@@ -10726,7 +9905,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:46
 msgid "Gehe nun zurück zum *_Hauptmenü_*."
-msgstr "Agora, volte ao *menu principal_*."
+msgstr "Agora, volte ao *_menu principal_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:47
@@ -10838,20 +10017,20 @@ msgid ""
 "Logge dich über link:https://trimbleag.com[Trimble, window=\"_blank\"] auf "
 "deinem Trimble-Konto ein."
 msgstr ""
-"Inicie sessão na sua conta Trimble através da ligação:https://trimbleag."
+"Inicie sessão na sua conta Trimble através da link:https://trimbleag."
 "com[Trimble, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:19
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:88
 msgid "Wähle auf der Startseite die Option *_Datenübertragung_*."
-msgstr "Selecionar a opção *Transferência de dados_* na página inicial."
+msgstr "Selecionar a opção *_Transferência de dados_* na página inicial."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:20
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:89
 msgid "Wähle *_Einstellungen_* in der Seitenleiste links."
-msgstr "Selecione *Definições_* na barra lateral à esquerda."
+msgstr "Selecione *_Definições_* na barra lateral à esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:21
@@ -10901,7 +10080,7 @@ msgstr "Selecionar a opção Transferência de dados na página inicial"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:51
 msgid "Wähle das Symbol für *_Einstellungen_* in der Seitenleiste links."
-msgstr "Selecione o ícone *Definições_* na barra lateral à esquerda."
+msgstr "Selecione o ícone *_Definições_* na barra lateral à esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:53
@@ -10932,13 +10111,13 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:62
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:111
 msgid "Wähle auf der Startseite die Option *_Feld_*."
-msgstr "Selecionar a opção *Campo_* na página inicial."
+msgstr "Selecionar a opção *_Campo_* na página inicial."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:63
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:112
 msgid "Wähle *_Ausrüstungsaktivität_* in der Seitenleiste links."
-msgstr "Selecione *Atividade do equipamento_* na barra lateral à esquerda."
+msgstr "Selecione *_Atividade do equipamento_* na barra lateral à esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:64
@@ -11099,8 +10278,8 @@ msgid ""
 "Logge dich über die link:https://my.vineyard-cloud.com/#!/login[VYC Login "
 "Seite,window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Inicie sessão na sua conta através da ligação:https://my.vineyard-cloud.com/"
-"#!/login[página de início de sessão do VYC,window=\"_blank\"]."
+"Inicie sessão na sua conta através da link:https://my.vineyard-cloud.com/#!/"
+"login[página de início de sessão do VYC,window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:20
@@ -11275,7 +10454,7 @@ msgid ""
 "Logge dich über die link:https://fm.xarvio.com/de/de_de/login[xarvio Login "
 "Seite,window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Inicie sessão na sua conta através da ligação:https://fm.xarvio.com/de/de_de/"
+"Inicie sessão na sua conta através da link:https://fm.xarvio.com/de/de_de/"
 "login[xarvio login page,window=\"_blank\"]."
 
 #. type: Plain text
@@ -11286,7 +10465,7 @@ msgstr "Mantenha o rato sobre o símbolo *_profile_* no canto superior direito."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:23
 msgid "Wähle dann die Option *_Verbundene Apps_*."
-msgstr "Em seguida, selecione a opção *Aplicações ligadas_*."
+msgstr "Em seguida, selecione a opção *_Aplicações ligadas_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:32
@@ -11396,7 +10575,7 @@ msgstr "Selecione a *_task_* que pretende enviar para o seu terminal."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:80
 msgid "Klicke auf *_Senden oder herunterladen_*."
-msgstr "Clique em *Enviar ou descarregar_*."
+msgstr "Clique em *_Enviar ou descarregar_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:81
@@ -11413,7 +10592,7 @@ msgid ""
 "verbinden."
 msgstr ""
 "Se não tiver introduzido um terminal como ponto final no seu perfil "
-"agrirouter, o software redireccioná-lo-á para o menu das *aplicações "
+"agrirouter, o software redireccioná-lo-á para o menu das *_aplicações "
 "ligadas_*. Para resolver o problema, deve começar por ligar um terminal como "
 "xref:endpoint.adoc[ponto final, window=\"_blank\"] no agrirouter."
 
@@ -11424,7 +10603,7 @@ msgid ""
 "senden möchtest und klicke auf *_Karte senden_*."
 msgstr ""
 "Na janela seguinte, selecionar o Ponto final para o qual se pretende enviar "
-"o mapa de aplicação e clicar em *Enviar mapa_*."
+"o mapa de aplicação e clicar em *_Enviar mapa_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:95
@@ -11500,7 +10679,7 @@ msgid ""
 "FIELD MANAGER gesendet hast."
 msgstr ""
 "Se selecionar agora o separador *_Todos os ficheiros_*, encontrará na coluna "
-"*Fonte_* todos os ficheiros que foram enviados para o seu xarvio FIELD "
+"*_Fonte_* todos os ficheiros que foram enviados para o seu xarvio FIELD "
 "MANAGER através do agrirouter."
 
 #. type: Plain text
@@ -11596,8 +10775,8 @@ msgid ""
 "Um xFarm mit deinem agrirouter-Konto verbinden zu können, musst du eine "
 "entsprechende https://xfarm.ag/packages/?lang=en[Lizenz] erwerben!"
 msgstr ""
-"Para poder Ligar o xFarm à sua Conta agrirouter, tem de comprar uma licença "
-"correspondente em https://xfarm.ag/packages/?lang=en!"
+"Para poder ligar o xFarm à sua conta agrirouter, tem de adquirir uma "
+"“correspondente https://xfarm.ag/packages/?lang=en[licença]!"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:27
@@ -11614,7 +10793,7 @@ msgstr "Clique no seu nome no canto superior direito."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:29
 msgid "Wähle *_Einstellungen_*."
-msgstr "Selecionar *Definições_*."
+msgstr "Selecionar *_Definições_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:38
@@ -11708,9 +10887,9 @@ msgstr "### Sobre o menu Máquina"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:79
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:180
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:182
 msgid "Wähle in der Seitenleiste links die Option *_Maschinen_*."
-msgstr "Selecione a opção *Máquinas_* na barra lateral à esquerda."
+msgstr "Selecione a opção *_Máquinas_* na barra lateral à esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:80
@@ -11738,15 +10917,15 @@ msgstr "### Acerca do Visualizador de Tarefas"
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:96
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:166
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:200
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:202
 msgid "Wähle in der Seitenleiste links die Option *_Task Viewer_*."
 msgstr ""
-"Selecione a opção *Visualizador de tarefas_* na barra lateral à esquerda."
+"Selecione a opção *_Visualizador de tarefas_* na barra lateral à esquerda."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:97
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:167
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:201
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
 msgid "Klicke im oberen Bereich auf *_Task_*."
 msgstr "Clique em *_Task_* na área superior."
 
@@ -11809,7 +10988,7 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:137
 msgid "Klicke am unteren Bildschirmrand auf die Option *_An Maschine senden_*."
-msgstr "Clicar na opção *Enviar para Máquina_* na parte inferior do ecrã."
+msgstr "Clicar na opção *_Enviar para Máquina_* na parte inferior do ecrã."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:138
@@ -11817,7 +10996,7 @@ msgid ""
 "Wähle im Dropdown-Menü unter *_Anbieter auswählen_* die Option "
 "***AGRIROUTER*** aus."
 msgstr ""
-"Selecionar ***AGRIROUTER*** no menu pendente em *Selecionar fornecedor_*."
+"Selecionar ***AGRIROUTER*** no menu pendente em *_Selecionar fornecedor_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:139
@@ -11825,7 +11004,7 @@ msgid ""
 "Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* die Maschine aus, "
 "an welche du die Applikationskarte senden möchtest."
 msgstr ""
-"No menu pendente em *Máquinas e ferramentas_*, selecionar a Máquina para a "
+"No menu pendente em *_Máquinas e ferramentas_*, selecionar a Máquina para a "
 "qual se pretende enviar o mapa de prescrição."
 
 #. type: Plain text
@@ -11900,12 +11079,12 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:168
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:202
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:204
 msgid ""
 "Wähle im Dropdown-Menü unter *_Anbieter auswählen_* die Option "
 "*_AGRIROUTER_* aus."
 msgstr ""
-"Selecione a opção *_AGRIROUTER_* no menu pendente em *Selecionar "
+"Selecione a opção *_AGRIROUTER_* no menu pendente em *_Selecionar "
 "fornecedor_*."
 
 #. type: Plain text
@@ -11927,36 +11106,43 @@ msgstr ""
 "que pretende importar."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:173
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:172
+msgid "## Verarbeitung von Telemetriedaten"
+msgstr "## Processamento de dados de telemetria"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:174
 msgid ""
-"## Verarbeitung von Telemetriedaten In diesem Abschnitt erfährst du, wie du "
-"mit xFarm Telemetriedaten, die über den agrirouter gesendet wurden, abrufen "
-"kannst. Du kannst Telemetriedaten über den Menüpunkt *_Maschinen_* oder den "
-"*_Task-Viewer_* abrufen."
+"In diesem Abschnitt erfährst du, wie du mit xFarm Telemetriedaten, die über "
+"den agrirouter gesendet wurden, abrufen kannst. Du kannst Telemetriedaten "
+"über den Menüpunkt *_Maschinen_* oder den *_Task-Viewer_* abrufen."
 msgstr ""
-"## Processamento de dados de telemetria Nesta secção, aprenderá a recuperar "
-"dados de telemetria enviados através do agrirouter utilizando o xFarm. Pode "
-"obter dados de telemetria através do item de menu *_Máquinas_* ou do "
-"*Visualizador de tarefas_*."
+"Nesta secção, aprenderá a recuperar dados de telemetria enviados através do "
+"agrirouter utilizando o xFarm. Pode obter dados de telemetria através do "
+"item de menu *_Máquinas_* ou do *_Visualizador de tarefas_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:176
-msgid ""
-"### Über das Maschinen-Menü Das Maschinen-Menü ist die einfachste Option, "
-"auf Maschinendaten zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle "
-"Maschinendaten (Aufgaben, Telemetrie usw.) von allen "
-"Datenaustauschplattformen sehen, nicht nur die des agrirouters. Deshalb "
-"musst du im Folgenden an keiner Stelle explizit eine agrirouter-Option "
-"auswählen."
-msgstr ""
-"### Sobre o menu Máquina O menu Máquina é a opção mais fácil para aceder aos "
-"dados da máquina. No menu Máquina, pode ver todos os dados da máquina "
-"(tarefas, telemetria, etc.) de todas as plataformas de troca de dados, e não "
-"apenas as do agrirouter. Por conseguinte, não é necessário selecionar "
-"explicitamente uma opção do agrirouter em qualquer ponto abaixo."
+msgid "### Über das Maschinen-Menü"
+msgstr "### Sobre o menu Máquina"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:181
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:178
+msgid ""
+"Das Maschinen-Menü ist die einfachste Option, auf Maschinendaten "
+"zuzugreifen. Innerhalb des Maschinen-Menüs kannst du alle Maschinendaten "
+"(Aufgaben, Telemetrie usw.) von allen Datenaustauschplattformen sehen, nicht "
+"nur die des agrirouters. Deshalb musst du im Folgenden an keiner Stelle "
+"explizit eine agrirouter-Option auswählen."
+msgstr ""
+"O menu Máquina é a opção mais fácil para aceder aos dados da máquina. No "
+"menu Máquina, pode ver todos os dados da máquina (tarefas, telemetria, etc.) "
+"de todas as plataformas de troca de dados, e não apenas as do agrirouter. "
+"Por conseguinte, não é necessário selecionar explicitamente uma opção do "
+"agrirouter em qualquer ponto abaixo."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:183
 msgid ""
 "Klicke nun auf *_Maschinenpark_* und wähle die Maschine, von der du die "
 "Telemetriedaten abrufen möchtest."
@@ -11965,18 +11151,18 @@ msgstr ""
 "recuperar os dados de telemetria."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:186
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:188
 msgid "Klicke nun den Reiter *_Report_*."
 msgstr "Agora, clique no separador *_Report_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:187
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:189
 msgid "Wähle das Datum, von welchem du die Telemetriedaten abrufen möchtest."
 msgstr ""
 "Selecione a data a partir da qual pretende recuperar os dados de telemetria."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:191
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:193
 msgid ""
 "Der grüne Kreis im Kalender zeigt an, von welchen Daten Telemetriedaten "
 "verfügbar sind."
@@ -11985,17 +11171,17 @@ msgstr ""
 "disponíveis dados de telemetria."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:195
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
 msgid "Klicke auf *_Ansehen_*."
 msgstr "Clicar em *_Ver_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:197
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:199
 msgid "### Über den Task Viewer"
 msgstr "### Acerca do Visualizador de Tarefas"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:205
 msgid ""
 "Wähle im Dropdown-Menü unter *_Maschinen und Werkzeuge_* die Maschine oder "
 "das Werkzeug aus, von welchen du die Telemetriedaten abrufen möchtest."
@@ -12004,7 +11190,7 @@ msgstr ""
 "ferramenta da qual se pretende recuperar os dados de telemetria."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:203
+#: de/modules/ROOT/pages/solution-guides/xfarm.adoc:205
 msgid ""
 "In der Aufgabenliste erkennst du die Telemtriedaten daran, dass die zip-"
 "Datei den Namenszusatz *_telemetry_* hat."
@@ -12125,7 +11311,7 @@ msgstr "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:24
 msgid "xref:solution-guides/next-farming.adoc[NEXT Farming]"
-msgstr "xref:solution-guides/next-farming.adoc[PRÓXIMA Agricultura]"
+msgstr "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:25
@@ -12152,20 +11338,598 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
-#, fuzzy
-#~| msgid ""
-#~| "Solltest du die E-Mail mit dem 8-stelligen Code nicht empfangen, schaue "
-#~| "in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~| "dauern, bis die E-Mail bei dir ankommt."
+#, no-wrap
+#~ msgid "Gruppe"
+#~ msgstr "Grupo"
+
 #~ msgid ""
-#~ "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#~ "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#~ "dauern, bis die E-Mail bei dir ankommt.  >>>>>>> c15a6ef (Update how to "
-#~ "change email address)"
+#~ "Fasse Endpunkte in xref:introduction.adoc#group[Gruppen] zusammen, z.B. "
+#~ "nach Hersteller, Maschinentyp oder Maßnahme. + Der Vorteil: Das xref:"
+#~ "introduction.adoc#route[Routing], das du für die Gruppe einstellst, gilt "
+#~ "für alle Mitglieder der Gruppe."
 #~ msgstr ""
-#~ "Se não receber a mensagem de correio eletrónico com o código de 8 "
-#~ "dígitos, verifique a sua pasta *_spam_*. Por vezes, também pode demorar "
-#~ "*_alguns minutos_* a chegar a mensagem de correio eletrónico."
+#~ "Resumir os pontos finais em xref:introduction.adoc#group[groups], por "
+#~ "exemplo, por fabricante, tipo de máquina ou medida. + A vantagem: O xref:"
+#~ "introduction.adoc#route[Routing] que definir para o Grupo aplica-se a "
+#~ "todos os membros do Grupo."
+
+#~ msgid "wie du eine Gruppe hinzufügst und bearbeitest"
+#~ msgstr "Como adicionar e editar um Grupo"
+
+#~ msgid "wie du der Gruppe Mitglieder hinzufügst"
+#~ msgstr "como adicionar membros ao Grupo"
+
+#~ msgid ""
+#~ "wie du xref:introduction.adoc#route[die Routen] für die Gruppe erstellst"
+#~ msgstr "como criar xref:introduction.adoc#route[as rotas] para o Grupo"
+
+#, no-wrap
+#~ msgid "Das Kontrollzentrum"
+#~ msgstr "O Centro de controlo"
+
+#~ msgid ""
+#~ "Öffne das xref:introduction.adoc#control-center[Kontrollzentrum], um eine "
+#~ "Gruppe hinzuzufügen und zu verwalten:"
+#~ msgstr ""
+#~ "Abra o xref:introduction.adoc#control-center[Centro de Controlo] para "
+#~ "adicionar e gerir um Grupo:"
+
+#~ msgid ""
+#~ "Klicke im Dashboard die Kachel *_Kontrollzentrum_*.  [.result]#Das "
+#~ "Kontrollzentrum wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no mosaico *_Centro de controlo_* no painel de controlo.  [."
+#~ "result]É apresentado o Centro de controlo.#"
+
+#~ msgid ""
+#~ "Klicke den Button *_Gruppen_*.  [.result]#Links wird die Gruppenliste "
+#~ "angezeigt.# [.result]#Rechts wird die Detailansicht angezeigt.#"
+#~ msgstr ""
+#~ "Clique no botão *_Grupos_*.  [.result]#A lista de grupos é apresentada à "
+#~ "esquerda. A vista detalhada é apresentada à direita.#"
+
+#, no-wrap
+#~ msgid "Gruppenliste"
+#~ msgstr "Lista de grupos"
+
+#~ msgid ""
+#~ "Die Gruppenliste ist anhand des Namens alphabetisch sortiert. + Du kannst"
+#~ msgstr "A lista de grupos é ordenada alfabeticamente por nome. + É possível"
+
+#~ msgid "eine Gruppe hinzufügen,"
+#~ msgstr "adicionar um Grupo,"
+
+#~ msgid "eine Gruppe suchen,"
+#~ msgstr "procurar um grupo,"
+
+#~ msgid "die Gruppenliste aktualisieren."
+#~ msgstr "Atualizar a lista de grupos."
+
+#~ msgid "Auf einem Tablet öffnest du die Gruppenliste über das Burger-Menü:"
+#~ msgstr "Num tablet, abra a lista de grupos através do menu de hambúrgueres:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Burger-Menü_* image:ar_burger.icon.png[burger, 30, "
+#~ "30].  [.result]#Die Endpunkteliste wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no ícone *_menu de hambúrguer_* image:ar_burger.icon.png[burger, "
+#~ "30, 30].  [.result]É apresentada a lista final de pontos.#"
+
+#~ msgid ""
+#~ "Klicke den Button *_Gruppen_*.  [.result]#Die Gruppenliste wird angezeigt."
+#~ "#"
+#~ msgstr ""
+#~ "Clicar no botão *_Grupos_*.  [.result]#A lista de grupos é apresentada.#"
+
+#~ msgid "Ein Listeneintrag besteht aus"
+#~ msgstr "Uma entrada de lista consiste em"
+
+#, no-wrap
+#~ msgid "Group list"
+#~ msgstr "Lista de grupos"
+
+#~ msgid "Namen"
+#~ msgstr "Nomes"
+
+#~ msgid "Typ (nur bei den zwei Standard-Gruppen)"
+#~ msgstr "Tipo (apenas para os dois Grupos padrão)"
+
+#, no-wrap
+#~ msgid "Gruppe hinzufügen"
+#~ msgstr "Adicionar grupo"
+
+#~ msgid ""
+#~ "Klicke den Button *_+ Gruppe_*.  [.result]#Das Fenster `Neue Gruppe` wird "
+#~ "angezeigt.#"
+#~ msgstr ""
+#~ "Clique no botão *_+ Grupo_*.  [.result]É apresentada a janela \"Novo "
+#~ "grupo\".#"
+
+#~ msgid "Gebe den Namen und optional eine kurze Beschreibung ein."
+#~ msgstr "Introduzir o nome e, opcionalmente, uma breve descrição."
+
+#~ msgid ""
+#~ "Klicke den Button *_Bestätigen_*.  [.result]#Die Gruppenliste wird "
+#~ "angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no botão *_Confirmar_*.  [.result]#A lista de grupos é apresentada."
+#~ "#"
+
+#~ msgid ""
+#~ "Wenn du viele Gruppen hast, empfiehlt es sich, eine erklärende "
+#~ "Beschreibung einzugeben. Diese wird in der Detailansicht angezeigt."
+#~ msgstr ""
+#~ "Se tiver muitos Grupos, é aconselhável introduzir uma descrição "
+#~ "explicativa. Esta é apresentada na vista detalhada."
+
+#, no-wrap
+#~ msgid "Gruppe suchen"
+#~ msgstr "Grupo de pesquisa"
+
+#~ msgid ""
+#~ "Wenn die Gruppenliste viele Einträge enthält, kannst Du eine Gruppe "
+#~ "suchen:"
+#~ msgstr ""
+#~ "Se a lista de grupos contiver muitas entradas, é possível procurar um "
+#~ "grupo:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Suchen_* über der Gruppenliste image:ar_search.icon."
+#~ "png[search, 30, 30].  [.result]#Der Cursor blinkt im Eingabefeld "
+#~ "*_Suchen_*.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_Search_* por cima da lista de grupos image:ar_search."
+#~ "icon.png[search, 30, 30].  [.result]#O cursor fica intermitente no campo de "
+#~ "entrada *_Search_*.#"
+
+#~ msgid ""
+#~ "Gebe den Namen oder Teile des Namens der gesuchten Gruppe ein.  [."
+#~ "result]#Bereits beim Tippen wird die Gruppenliste aktualisiert.#"
+#~ msgstr ""
+#~ "Introduza o nome ou parte do nome do Grupo que está a procurar.  [.result]#A lista "
+#~ "de grupos é actualizada à medida que se escreve.#"
+
+#~ msgid "Mache die Suche rückgängig wie folgt:"
+#~ msgstr "Anular a pesquisa da seguinte forma:"
+
+#~ msgid ""
+#~ "Klicke das Icon image:ar_revert.icon.png[revert, 30, 30] rechts neben dem "
+#~ "Eingabefeld *_Suchen_*.  [.result]#Alle Gruppen werden angezeigt.#"
+#~ msgstr ""
+#~ "Clique no ícone image:ar_revert.icon.png[revert, 30, 30] à direita do "
+#~ "campo de entrada *_Search_*.  [.result]#Todos os grupos são apresentados.#"
+
+#, no-wrap
+#~ msgid "Liste aktualisieren"
+#~ msgstr "Lista de atualização"
+
+#~ msgid ""
+#~ "Wenn deine neu erstellte Gruppe nicht in der Liste erscheint, "
+#~ "aktualisiere die Liste:"
+#~ msgstr "Se o grupo recém-criado não aparecer na lista, actualize a lista:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Aktualisieren_* image:ar_refresh.icon.png[refresh, 30, "
+#~ "30] über der Gruppenliste.  [.result]#Die Gruppenliste wird aktualisiert.#"
+#~ msgstr ""
+#~ "Clique no ícone *_refresh_* image:ar_refresh.icon.png[refresh, 30, 30] "
+#~ "acima da lista de grupos.  [.result]#A lista de grupos será actualizada.#"
+
+#~ msgid ""
+#~ "In der Detailansicht sind alle Informationen zur Gruppe zusammengefasst.  "
+#~ "Hier verwaltest du die Endpunkte und Gruppen, die Daten mit der Gruppe "
+#~ "austauschen und fügst der Gruppe Mitglieder hinzu."
+#~ msgstr ""
+#~ "Todas as informações sobre o Grupo são resumidas na vista detalhada.  É "
+#~ "aqui que gere os pontos finais e os grupos que trocam dados com o grupo e "
+#~ "adiciona membros ao grupo."
+
+#~ msgid ""
+#~ "Die Detailansicht ist in die Reiter <<senden-an,Senden an>>, <<empfangen-"
+#~ "von,Empfangen von>> und <<mitglieder,Mitglieder>> unterteilt."
+#~ msgstr ""
+#~ "A vista detalhada está dividida nos separadores <<enviar para,enviar "
+#~ "para>>, <<receber de,receber de>> e <<membros,membros>>."
+
+#, no-wrap
+#~ msgid "Senden an"
+#~ msgstr "Enviar para"
+
+#~ msgid "Der Reiter enthält eine Liste der Empfänger. + Empfänger"
+#~ msgstr "O separador contém uma lista de destinatários. + Destinatários"
+
+#~ msgid "befinden sich am Ende einer abgehenden Route"
+#~ msgstr "estão localizados no final de uma rota de saída"
+
+#~ msgid ""
+#~ "sind Endpunkte und Gruppen, an welche die Mitglieder der Gruppe Daten "
+#~ "senden"
+#~ msgstr ""
+#~ "são pontos finais e grupos para os quais os membros do grupo enviam dados"
+
+#~ msgid "Du kannst"
+#~ msgstr "Pode"
+
+#~ msgid ""
+#~ "Empfänger hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
+#~ "ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+#~ msgstr ""
+#~ "Adicionar destinatário image:ar_add.icon.png[add, 30, 30], editar image:"
+#~ "ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+
+#~ msgid ""
+#~ "definieren, welche Nachrichten die Empfänger von der Gruppe erhalten "
+#~ "sollen"
+#~ msgstr ""
+#~ "definir quais as Mensagens que os destinatários devem receber do Grupo"
+
+#, no-wrap
+#~ msgid "Empfänger hinzufügen"
+#~ msgstr "Adicionar destinatário"
+
+#~ msgid ""
+#~ "Du erstellst die Route für den Versand von Daten an eine andere Gruppe "
+#~ "oder einen Endpunkt:"
+#~ msgstr ""
+#~ "O utilizador cria a rota para enviar dados para outro Grupo ou para um "
+#~ "Ponto final:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
+#~ "result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [.result]#O "
+#~ "formulário `Novo roteiro` é apresentado.#"
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Empfänger_*.  [.result]#Die Auswahlliste "
+#~ "`Endpunkt auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no campo de entrada *_recipiente_*.  [.result]#É apresentada a "
+#~ "lista de seleção `Selecionar ponto final`.#"
+
+#~ msgid ""
+#~ "Wähle den Empfänger.  [.result]#Das Formular `Neues Routing` wird "
+#~ "angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o destinatário.  [.result]#É apresentado o formulário `Novo "
+#~ "encaminhamento`.#"
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Nachrichtenformate_*.  [.result]#Die "
+#~ "Auswahlliste `Nachrichtenformate auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no campo de entrada *_Formatos de mensagem_*.  [.result]#É "
+#~ "apresentada a lista de seleção \"Selecionar formatos de mensagem\".-"
+
+#~ msgid ""
+#~ "Wähle die Nachrichtenformate, die der Empfänger erhalten soll und klicke "
+#~ "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecione os formatos de mensagem que o destinatário deve receber e "
+#~ "clique em *_Confirmar_*.  [.result]#É apresentado o formulário `Novo "
+#~ "encaminhamento`.#"
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Telemetrie-Parameter-Kategorien_*.  [."
+#~ "result]#Das Formular `Telemetrie-Parameter-Kategorien` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no campo de entrada *_Telemetry-Parameter-Categories_*.  [."
+#~ "result]#É apresentado o formulário \"Categorias dos parâmetros de "
+#~ "telemetria\".#"
+
+#~ msgid ""
+#~ "Wähle eine oder mehrere Kategorien und klicke *_Bestätigen_*.  [."
+#~ "result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar uma ou mais categorias e clicar em *_Confirmar_*.  [.result]#O "
+#~ "formulário `Novo roteiro` é apresentado.#"
+
+#~ msgid ""
+#~ "Klicke den Button *_Bestätigen_*.  [.result]#Der Empfänger wird "
+#~ "hinzugefügt.#"
+#~ msgstr ""
+#~ "Clique no botão *_Confirmar_*.  [.result]#O destinatário será adicionado.#"
+
+#~ msgid ""
+#~ "Der neue Empfänger ist sofort sichtbar. Es kann jedoch mehrere Minuten "
+#~ "dauern, bis das Routing erstellt ist, d.h. der Empfänger Daten von der "
+#~ "Gruppe empfangen kann."
+#~ msgstr ""
+#~ "O novo destinatário fica imediatamente visível. No entanto, pode demorar "
+#~ "vários minutos até que o encaminhamento seja criado, ou seja, o "
+#~ "destinatário pode receber dados do Grupo."
+
+#~ msgid ""
+#~ "Das Formular `Telemetrie-Parameter-Kategorien` ist nur für Endpunkte "
+#~ "verfügbar, die Echtzeitdaten verarbeiten können."
+#~ msgstr ""
+#~ "O formulário \"Categorias dos parâmetros de telemetria\" só está "
+#~ "disponível para os pontos finais que podem processar dados em tempo real."
+
+#, no-wrap
+#~ msgid "Empfänger bearbeiten"
+#~ msgstr "Editar destinatário"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Bearbeiten_* image:ar_edit.icon.png[edit, 30, 30].  [."
+#~ "result]#Das Formular `Routing bearbeiten` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_edit_* image:ar_edit.icon.png[edit, 30, 30].  [."
+#~ "result]#É apresentado o formulário `Editar o roteiro`.#"
+
+#~ msgid ""
+#~ "Ändere die Eigenschaften des Empfängers und klicke den Button "
+#~ "*_Bestätigen_*."
+#~ msgstr ""
+#~ "Altere as propriedades do destinatário e clique no botão *_Confirmar_*."
+
+#, no-wrap
+#~ msgid "Empfänger löschen"
+#~ msgstr "Eliminar destinatário"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Löschen_* image:ar_delete.icon.png[delete, 30, 30].  [."
+#~ "result]#Das Meldungsfenster `Bestätigen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_delete_* image:ar_delete.icon.png[delete, 30, 30].  [."
+#~ "result]#É apresentada a janela de mensagem `Confirmar`.#"
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Der Empfänger erthält keine "
+#~ "Nachrichten mehr von der Gruppe.#"
+#~ msgstr ""
+#~ "Confirmar a consulta com *_OK_*.  [.result]#O destinatário já não recebe "
+#~ "Mensagens do Grupo.#"
+
+#, no-wrap
+#~ msgid "Empfangen von"
+#~ msgstr "Receber de"
+
+#~ msgid "Der Reiter enthält eine Liste der Sender. + Sender"
+#~ msgstr "O separador contém uma lista de transmissores. + Transmissor"
+
+#~ msgid "befinden sich am Anfang einer eingehenden Route"
+#~ msgstr "estão no início de uma rota Aberto"
+
+#~ msgid ""
+#~ "sind Endpunkte und Gruppen, die Daten an die Mitglieder der Gruppe senden"
+#~ msgstr ""
+#~ "são pontos finais e grupos que enviam dados para os membros do grupo"
+
+#~ msgid ""
+#~ "Sender hinzufügen image:ar_add.icon.png[add, 30, 30], bearbeiten image:"
+#~ "ar_edit.icon.png[edit, 30, 30] und löschen image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+#~ msgstr ""
+#~ "Adicionar transmissor image:ar_add.icon.png[add, 30, 30], editar image:"
+#~ "ar_edit.icon.png[edit, 30, 30] e eliminar image:ar_delete.icon."
+#~ "png[delete, 30, 30]"
+
+#~ msgid "definieren, welche Nachrichten die Gruppe vom Sender erhalten soll"
+#~ msgstr "Definir as Mensagens que o Grupo deve receber do remetente"
+
+#, no-wrap
+#~ msgid "Sender hinzufügen"
+#~ msgstr "Adicionar transmissor"
+
+#~ msgid ""
+#~ "Du erstellst die Route für den Empfang von Daten von einer anderen Gruppe "
+#~ "oder einem Endpunkt:"
+#~ msgstr ""
+#~ "O utilizador cria a rota para receber dados de outro Grupo ou de um Ponto "
+#~ "final:"
+
+#~ msgid ""
+#~ "Klicke in das Eingabefeld *_Sender_*.  [.result]#Die Auswahlliste "
+#~ "`Endpunkt auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no campo de entrada *_Sender_*.  [.result]#É apresentada a lista "
+#~ "de seleção \"Selecionar ponto final\".#"
+
+#~ msgid ""
+#~ "Wähle den Sender.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o remetente.  [.result]#É apresentado o formulário \"Novo "
+#~ "roteiro\".#"
+
+#~ msgid ""
+#~ "Wähle die Nachrichtenformate, die der Sender senden soll und klicke "
+#~ "*_Bestätigen_*.  [.result]#Das Formular `Neues Routing` wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecione os formatos de mensagem que o remetente deve enviar e clique em "
+#~ "*_Confirmar_*.  [.result]#O formulário `New Routing` é apresentado.#"
+
+#~ msgid ""
+#~ "Klicke den Button *_Bestätigen_*.  [.result]#Der Sender wird hinzugefügt.#"
+#~ msgstr ""
+#~ "Clique no botão *_Confirmar_*.  [.result]#O remetente será adicionado.#"
+
+#~ msgid ""
+#~ "Der neue Sender ist sofort sichtbar. Es kann jedoch mehrere Minuten "
+#~ "dauern, bis das Routing erstellt ist, d.h. der Sender Daten an die Gruppe "
+#~ "senden kann."
+#~ msgstr ""
+#~ "O novo transmissor fica visível imediatamente. No entanto, pode demorar "
+#~ "vários minutos até que o encaminhamento seja criado, ou seja, o "
+#~ "transmissor pode enviar dados para o Grupo."
+
+#, no-wrap
+#~ msgid "Sender bearbeiten"
+#~ msgstr "Editar transmissor"
+
+#~ msgid ""
+#~ "Ändere die Eigenschaften des Senders und klicke den Button *_Bestätigen_*."
+#~ msgstr ""
+#~ "Altere as propriedades do remetente e clique no botão *_Confirmar_*."
+
+#, no-wrap
+#~ msgid "Sender löschen"
+#~ msgstr "Eliminar o transmissor"
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Die Nachrichten des Senders "
+#~ "werden nicht mehr an die Gruppe weitergeleitet.#"
+#~ msgstr ""
+#~ "Confirmar a consulta com *_OK_*.  [.result]#As Mensagens do remetente já não são "
+#~ "reencaminhadas para o Grupo.#"
+
+#, no-wrap
+#~ msgid "Mitglieder"
+#~ msgstr "Membros"
+
+#~ msgid "Der Reiter enthält eine Liste der Mitglieder der Gruppe."
+#~ msgstr "O separador contém uma lista dos membros do Grupo."
+
+#~ msgid ""
+#~ "Du kannst Mitglieder hinzufügen image:ar_add.icon.png[add, 30, 30] und "
+#~ "entfernen image:ar_delete.icon.png[delete, 30, 30]"
+#~ msgstr ""
+#~ "Pode adicionar membros image:ar_add.icon.png[add, 30, 30] e remover "
+#~ "membros image:ar_delete.icon.png[delete, 30, 30]"
+
+#~ msgid ""
+#~ "Um ein Mitglied der Gruppe zu bearbeiten, öffne die Endpunkteliste, wähle "
+#~ "und bearbeite xref:endpoint.adoc#edit-endpoint[den Endpunkt] und xref:"
+#~ "endpoint.adoc#send-to[das Routing]."
+#~ msgstr ""
+#~ "Para editar um membro do Grupo, abra a lista de pontos finais, selecione "
+#~ "e edite xref:endpoint.adoc#edit-endpoint[o ponto final] e xref:endpoint."
+#~ "adoc#send-to[o encaminhamento]."
+
+#, no-wrap
+#~ msgid "Mitglied hinzufügen"
+#~ msgstr "Adicionar membro"
+
+#~ msgid ""
+#~ "Du kannst der Gruppe Endpunkte aus der Endpunkteliste und Gruppen aus der "
+#~ "Gruppenliste hinzufügen."
+#~ msgstr ""
+#~ "Pode adicionar pontos finais da lista de pontos finais e grupos da lista "
+#~ "de grupos ao grupo."
+
+#~ msgid ""
+#~ "Klicke das Icon *_Hinzufügen_* image:ar_add.icon.png[add, 30, 30].  [."
+#~ "result]#Das Formular `Mitglieder auswählen` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clique no ícone *_Add_* image:ar_add.icon.png[add, 30, 30].  [.result]#O "
+#~ "formulário `Selecionar membros` é apresentado."
+
+#~ msgid ""
+#~ "Wähle das neue Mitglied und klicke *_Bestätigen_*.  [.result]#Das "
+#~ "Mitglied wird hinzugefügt.#"
+#~ msgstr ""
+#~ "Selecione o novo membro e clique em *_Confirmar_*.  [.result]#O membro será "
+#~ "adicionado.#"
+
+#, no-wrap
+#~ msgid "Mitglied entfernen"
+#~ msgstr "Remover membro"
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Das Mitglied wird aus der "
+#~ "Gruppe entfernt.#"
+#~ msgstr "Confirmar a consulta com *_OK_*.  [.result]#O membro é removido do Grupo.#"
+
+#~ msgid ""
+#~ "Das Mitglied wird aus der Gruppe entfernt, aber nicht gelöscht. Endpunkte "
+#~ "und Gruppen löscht du in der Endpunkte- bzw. der Gruppenliste."
+#~ msgstr ""
+#~ "O membro é removido do Grupo, mas não é eliminado. Os pontos finais e os "
+#~ "grupos são eliminados na lista de pontos finais ou de grupos."
+
+#, no-wrap
+#~ msgid "Gruppe bearbeiten"
+#~ msgstr "Editar grupo"
+
+#~ msgid "den Name der Gruppe ändern,"
+#~ msgstr "alterar o nome do Grupo,"
+
+#~ msgid "die Beschreibung ändern."
+#~ msgstr "alterar a descrição."
+
+#~ msgid "Bearbeite die Gruppe wie folgt:"
+#~ msgstr "Processar o grupo da seguinte forma:"
+
+#~ msgid ""
+#~ "Wähle die Gruppe in der Gruppenliste.  [.result]#Im rechten Bereich des "
+#~ "Kontrollzentrums wird die Detailansicht der Gruppe angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o grupo na lista de grupos.  [.result]#A vista detalhada do Grupo é "
+#~ "apresentada no lado direito do Centro de Controlo.#"
+
+#~ msgid ""
+#~ "Klicke den Button *_Bearbeiten_*.  [.result]#Das Formular `Gruppe "
+#~ "bearbeiten` wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no botão *_Editar_*.  [.result]#O formulário `Editar grupo` é apresentado.#"
+
+#~ msgid ""
+#~ "Ändere Namen und Beschreibung und klicke *_Bestätigen_*.  [.result]#In "
+#~ "der Gruppenliste wird der neue Name angezeigt.# [.result]#In der "
+#~ "Detailansicht der Gruppe wird die neue Beschreibung angezeigt.#"
+#~ msgstr ""
+#~ "Altere o nome e a descrição e clique em *_Confirmar_*.  [.result]#O novo nome é "
+#~ "apresentado na lista do grupo. A nova descrição é apresentada na vista "
+#~ "detalhada do grupo.#"
+
+#~ msgid "Wenn eine Gruppe nicht mehr benötigt wird, lösche sie:"
+#~ msgstr "Se um Grupo já não for necessário, elimine-o:"
+
+#~ msgid ""
+#~ "Klicke den Button *_Löschen_*.  [.result]#Ein Meldungsfenster wird "
+#~ "angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no botão *_Delete_*.  [.result]É apresentada uma janela de "
+#~ "mensagem.#"
+
+#~ msgid ""
+#~ "Bestätige die Abfrage mit *_OK_*.  [.result]#Die Gruppe, alle Routings "
+#~ "und alle Mitgliedschaften der Gruppe werden gelöscht.# [.result]#Die "
+#~ "Gruppe wird aus der Gruppenliste entfernt.#"
+#~ msgstr ""
+#~ "Confirmar a consulta com *_OK_*.  [.result]#O grupo, todos os "
+#~ "encaminhamentos e todos os membros do grupo são eliminados.#"
+
+#~ msgid ""
+#~ "Es wird nur die Gruppe gelöscht; die Mitglieder bleiben mit dem "
+#~ "agrirouter verbunden und werden in der Endpunkteliste angezeigt."
+#~ msgstr ""
+#~ "Apenas o Grupo é eliminado; os membros permanecem ligados ao agrirouter e "
+#~ "são apresentados na lista de terminais."
+
+#, no-wrap
+#~ msgid "Technischer Support"
+#~ msgstr "Apoio técnico"
+
+#~ msgid ""
+#~ "Wenn du zu einer Gruppe eine Anfrage an unseren Support stellst, "
+#~ "benötigen wir die Diagnoseinformationen der Gruppe:"
+#~ msgstr ""
+#~ "Se enviar um Sedido à nossa equipa de apoio para um Grupo, precisamos das "
+#~ "informações de diagnóstico para o Grupo:"
+
+#~ msgid ""
+#~ "Klicke das Icon *_Mehr_*.  [.result]#Eine Auswahlliste wird angezeigt.#"
+#~ msgstr ""
+#~ "Clicar no ícone *_Mais_*.  [.result]#É apresentada uma lista de seleção.#"
+
+#~ msgid ""
+#~ "Wähle das Icon *_Support Informationen anzeigen_*.  [.result]#Das "
+#~ "Meldungsfenster *_Support-Information_* wird angezeigt.#"
+#~ msgstr ""
+#~ "Selecionar o ícone *_Mostrar informações de apoio_*.  [.result]#É "
+#~ "apresentada a janela de mensagem *_Informações de apoio_*.#"
+
+#~ msgid "Klicke das Icon *_In Zwischenablage kopieren_*."
+#~ msgstr "Clicar no ícone *_Copiar para a área de transferência_*."
+
+#~ msgid "Kopiere die Diagnoseinformationen in eine E-Mail an unseren Support."
+#~ msgstr ""
+#~ "Copie as informações de diagnóstico para uma mensagem de correio "
+#~ "eletrónico enviada à nossa equipa de apoio."
 
 #~ msgid "Deine E-Mail-Adresse kann nicht geändert werden."
 #~ msgstr "O seu endereço eletrónico não pode ser alterado."
@@ -12391,7 +12155,7 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
 #~ msgid ""
 #~ "Gib den *_Registrierungscode_* ein, den du dir in Schritt 3 notiert hast."
-#~ msgstr "Introduza o *código de registo_* que anotou no passo 3."
+#~ msgstr "Introduza o *_código de registo_* que anotou no passo 3."
 
 #~ msgid "Klicke auf *_Verbindung herstellen_*."
 #~ msgstr "Clicar em *_Criar ligação_*."
@@ -13920,10 +13684,10 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
 #~ msgid ""
 #~ "Öffne die Internetadresse https://agrirouter.statuspage.io[agrirouter."
-#~ "statuspage.io^] .  [.result]#Der Systemmonitor wird angezeigt.#"
+#~ "statuspage.io^].  [.result]#Der Systemmonitor wird angezeigt.#"
 #~ msgstr ""
 #~ "No seu navegador de Internet, aceda a https://agrirouter.statuspage."
-#~ "io[agrirouter.statuspage.io^] .  [.result]#É exibida a monitorização do "
+#~ "io[agrirouter.statuspage.io^].  [.result]#É exibida a monitorização do "
 #~ "sistema.#"
 
 #~ msgid ""
