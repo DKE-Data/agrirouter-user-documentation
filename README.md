@@ -10,6 +10,16 @@ This is a repository for the end user documentation.
 
 ## maintenance tasks
 
+### preview & production deployment
+
+Preview deployments will automatically be deployed for every pull request and for pushes on ´main´.
+
+ * For Pull Requests, the preview URL will be commented in the PR discussion.
+ * For Main, the URL is fixed to https://manual.agrirouter.com/_branches/main.
+
+Production deployments are triggered by creating a new Github release. For name, we are using YYYYMMDD\[-#\], with -# being an optional suffix in case we have multiple releases on a given day.
+
+
 ### add new documents
 
 New pages always have to first be added in English!
