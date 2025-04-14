@@ -10,8 +10,9 @@ on:
   push:
     branches:
       - main
-      - production
   pull_request:
+  release:
+    types: [published]
 
 jobs:
   build:
@@ -76,7 +77,7 @@ jobs:
           echo "PR number is ${{ github.event.number }}";
           if [ "$GITHUB_REF" = "refs/heads/main" ]; then
             TARGET_PATH=_branches/main
-          elif [ "$GITHUB_REF" = "refs/heads/production" ]; then
+          elif [ "${{ github.event_name }}" == "release" ]; then
             TARGET_PATH=
           else
             TARGET_PATH=_branches/pr/${{ github.event.number }}
