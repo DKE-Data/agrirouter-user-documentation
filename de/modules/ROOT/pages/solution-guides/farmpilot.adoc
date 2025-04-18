@@ -1,6 +1,6 @@
-= FARMPILOT Solution Guide
+= farmpilot Solution Guide
 
-Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
+Mit farmpilot kannst du Daten vom agrirouter empfangen. Dazu müssen allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in diesem Abschnitt behandelt:
 
 * Verbindung mit dem agrirouter herstellen
 * Maschinen hinzufügen
@@ -9,13 +9,13 @@ Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen allerdings 
 
 == Verbindung mit dem agrirouter herstellen
 
-Um Daten von deinem Terminal über den agrirouter drahtlos an FAMRPILOT senden zu können, muss zuerst eine Verbindung zwischen deinem FARMPILOT-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
+Um Daten von deinem Terminal über den agrirouter drahtlos an farmpilot senden zu können, muss zuerst eine Verbindung zwischen deinem farmpilot-Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, einfachen Schritten.
 
-Bevor du anfangen kannst, musst du dich über die link:https://portal.farmpilot.de/[FARMPILOT-Website, window="_blank"] in dein Konto einloggen.
+Bevor du anfangen kannst, musst du dich über die link:https://portal.farmpilot.de/[farmpilot-Website, window="_blank"] in dein Konto einloggen.
 
 image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-1-de.png[Select Register, 800]
 
-. Klicke im FARMPILOT Portal auf *_Verwaltung_*.
+. Klicke im farmpilot Portal auf *_Verwaltung_*.
 . Klicke auf *_Partner_*.
 . Klicke auf *_+ NEU_* und wähle *_agrirouter_* aus.
 . Klicke auf *Verbinden mit agrirouter*.
@@ -24,7 +24,7 @@ image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-1-de.png[Se
 [.float-group]
 --
 [.right]
-image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-2-de.png[Select Register, 400]
+image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-2-en.png[Select Register, 400]
 
 [start=6]
 . Klicke auf *_VERBINDEN_*.
@@ -33,19 +33,19 @@ image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-2-de.png[Se
 image::interactive_agrirouter/farmpilot/farmpilot-connect-agrirouter-3-de.png[Select Register, 800]
 
 [start=7]
-. In deinem FARMPILOT-Konto ist nun eine neue Partnerverknüpfung angelegt.
+. In deinem farmpilot-Konto ist nun eine neue Partnerverknüpfung angelegt.
 
 
 == Maschinen hinzufügen
 
-Damit du alle Vorzüge von agrirouter und FARMPILOT optimal nutzen kannst, ist es essenziell die Maschinenverknüpfung in FARMPILOT einzurichten.
+Damit du alle Vorzüge von agrirouter und farmpilot optimal nutzen kannst, ist es essenziell die Maschinenverknüpfung in farmpilot einzurichten.
 
 [TIP]
 ====
 Du kannst beliebig viele Maschinen an dein agrirouter-Konto anschließen. Die Verbindung erfolgt immer über die Telemetrieeinheit deiner Maschine. Wie das für die einzelnen Maschinen funktioniert, ist unter dem Punkt *_Telemetrieeinheiten_* in der Seitenleiste links aufgeführt.
 ====
 
-Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen werden. Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf der Maschine, welches FARMPILOT installiert hat, mit der Referenzmaschine verknüpft werden.
+Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen werden. Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf der Maschine, welches farmpilot installiert hat, mit der Referenzmaschine verknüpft werden.
 
 image::interactive_agrirouter/farmpilot/farmpilot-add-machine-1-de.png[Select Register, 800]
 
@@ -58,11 +58,26 @@ Die Maschinendaten werden live in der Maschinenübersicht sowie in der Auswertun
 
 Beim Anklicken eines Fahrzeugs in der Maschinenliste auf der rechten Seite öffnen sich mehrere Tabs. Der zweite Tab unter diesem Symbol image:interactive_agrirouter/farmpilot/farmpilot-icon.png[30, 30] zeigt die Live-Daten der Maschine an.
 
+Und so geht's:
+
+[.float-group]
+--
+[.left]
+image::interactive_agrirouter/farmpilot/farmpilot-machine-data-1.png[Select Register, 300]
+
+. Klicke in der Leiste links auf *_Auswertung_*.
+. Wähle dann *_Aufträge_*.
+--
+
+[start=3]
+. Öffne unter dem Reiter *_Autologgin_* die Maschinendaten.
 Die Ansicht in der Auswertung am Beispiel des Autologgings einer Maschine könnte so aussehen:
 
-image::interactive_agrirouter/farmpilot/farmpilot-machine-data-1-de.png[Select Register, 800]
+image::interactive_agrirouter/farmpilot/farmpilot-machine-data-2.png[Select Register, 800]
+
+
 
 [TIP]
 ====
-Solltest du weitere Fragen bezüglich agrirouter und FARMPILOT haben, wende dich bitte an das FARMPILOT-Team unter team@farmpilot.de oder telefonisch unter +49(0)5241/80-40753.
+Solltest du weitere Fragen bezüglich agrirouter und farmpilot haben, wende dich bitte an das farmpilot-Team unter team@farmpilot.de oder telefonisch unter +49(0)5241/80-40753.
 ====
