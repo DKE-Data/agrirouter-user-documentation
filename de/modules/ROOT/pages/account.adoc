@@ -46,9 +46,9 @@ Syntax für einen Rahmen:
 
 [.float-group]
 --
-image::account/create-account-1.png[Select Register, 200, float=right]
+image::account/create-account-1.png[Select Register, 400, float=right]
 
-Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. 
 [.result]#Du wirst auf eine neue Seite weitergeleitet.#
 
 . Wähle *_Registrieren_*.
@@ -57,64 +57,85 @@ image::account/create-account-1.png[Select Register, 200, float=right]
 
 [.float-group]
 --
-image::account/create-account-2.png[Select Register, 397, float=left]
+image::account/create-account-2.png[Select Register, 400, float=left]
 
 [start=2]
-. Wähle im Dropdownmenü die Hersteller der Maschinen deines Fuhrparks. Die Logos der Hersteller erscheinen dann auf der rechten Seite.
-. Klicke auf *_Weiter_*.
+. Gib deine E-Mail Adresse, deinen Namen und deinen Nachnamen ein.
+. Bestätige die allgemeinen Geschäftsbedingungen (AGB) und löse das CAPTCHA.
+. Klicke auf *_Registrieren_*
 --
+
+[IMPORTANT]
+====
+Notiere dir die E-Mail-Adresse, mit der du dich registriert hast. Diese benötigst du, um dich beim agrirouter <<login, anzumelden>>.
+====
 
 [.float-group]
 --
-image::account/create-account-3.png[Select Register, 397, float=right]
+image::account/create-account-3.png[Select Register, 400, float=right]
 
-[start=4]
-. Wähle im Dropdownmenü die Anbieter der Software, die du verwendest. Die Logos der Anbieter erscheinen dann auf der rechten Seite.
-. Klicke auf *_Weiter_*.
+[start=5]
+. Dir wurde eine E-Mail zugesandt. Folge den Anweisungen in der E-Mail, um dein Konto zu verifizieren.
 --
+
+[IMPORTANT]
+====
+Solltest du die E-Mail mit den Anweisungen nicht empfangen haben, schaue in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis die E-Mail bei dir ankommt.
+====
+
 
 [.float-group]
 --
 image::account/create-account-4.png[Select Register, 400, float=left]
 
 [start=6]
-. Gib den *_Namen deines Betriebs_* bzw. deines Unternehmens ein.
-. Gib eine kurze *_Beschreibung_* deines Unternehmens ein.
-. Klicke auf den Button *_Speichern_*.
+. Wähle im Dropdownmenü die Hersteller der Maschinen deines Fuhrparks. Die Logos der Hersteller erscheinen dann auf der rechten Seite.
+. Klicke auf *_Weiter_*.
 --
 
 [.float-group]
 --
-image::account/create-account-5.png[Select Register, 300, float=right]
+image::account/create-account-5.png[Select Register, 400, float=right]
 
-[start=9]
-. Gib deinen *_Vor- und Nachnamen_*, sowie deine *_E-Mail-Adresse_* ein.
-. Klicke in das *_Kästchen_*, um zu bestätigen, dass du ein Mensch bist.
-. Schließe den Prozess ab, indem du den Button *_Registrieren_* klickst.
+[start=8]
+. Wähle im Dropdownmenü die Anbieter der Software, die du verwendest. Die Logos der Anbieter erscheinen dann auf der rechten Seite.
+. Klicke auf *_Weiter_*.
+
 --
 
 [.float-group]
 --
 image::account/create-account-6.png[Select Register, 400, float=left]
 
-[start=12]
-. Du bist nun in dein agrirouter-Konto eingeloggt und der Registrierungsprozess war erfolgreich.
+[start=10]
+. Gib den *_Namen deines Unternehmens_*, sowie eine *_Beschreibung_* an.
+. Wähle dein *_Land_* aus.
+. Klicke auf *_Speichern_*.
 --
-
-IMPORTANT: Notiere dir die E-Mail-Adresse, mit der du dich registriert hast. Diese benötigst du, um dich beim agrirouter <<login, anzumelden>>.
-
-[#login]
-== Anmelden
 
 [.float-group]
 --
-image::account/login-account-1.png[Select Register, 200, float=right]
+image::account/create-account-7.png[Select Register, 400, float=right]
 
-Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.
+[start=13]
+. Du bist nun in dein agrirouter-Konto eingeloggt und der Registrierungsprozess war erfolgreich.
+--
+
+
+== Anmelden
+
+[#login]
+=== Anmelden mit Login-Code
+
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. 
 [.result]#Du wirst auf eine neue Seite weitergeleitet.#
 
-. Wähle *_Login_*.
-[.result]#Der Login-Prozess wird gestartet.#
+[.float-group]
+--
+image::account/login-account-1.png[Select Register, 400, float=right]
+
+. Gib deine E-Mail-Adresse ein und klicke auf *_Login_*.
+[.result]#Dir wird nun eine E-Mail mit einem Login-Code an deine E-Mail-Adresse gesendet.#
 --
 
 [.float-group]
@@ -122,24 +143,15 @@ image::account/login-account-1.png[Select Register, 200, float=right]
 image::account/login-account-2.png[Select Register, 400, float=left]
 
 [start=2]
-. Gib die *_E-Mail-Adresse_* ein, mit der du dich bereits beim agrirouter <<benutzerkonto-erstellen, registriert>> hast.
+. Kopiere den Code aus der Mail und gib ihn in ein.
 . Klicke auf *_Anmelden_*.
-. Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. Kopiere den Code aus der Mail.
+[.result]#Du bist jetzt bei deinem agrirouter-Konto angemeldet.#
 --
+
 [IMPORTANT]
 ====
 Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis die E-Mail bei dir ankommt.
 ====
-
-[.float-group]
---
-image::account/login-account-3.png[Select Register, 400, float=right]
-
-[start=5]
-. Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert hast.
-. Klicke auf *_Anmelden_*.
---
-
 
 [TIP]
 ====
@@ -150,6 +162,93 @@ Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, ohne
 . Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [.underline]#ohne# dich abzumelden.
 [.result]#Wenn du das nächste Mal https://app.agrirouter.com/[die Anmeldeseite] öffnest, wird sofort deine xref:introduction.adoc/myagrirouter[my agrirouter Seite] angezeigt.#
 ====
+
+[#login-with-pw]
+=== Anmelden mit Passwort
+
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. 
+[.result]#Du wirst auf eine neue Seite weitergeleitet.#
+
+TIP: Die Anmeldung mit Passwort ist nur möglich, wenn du vorher bereits ein Passwort gesetzt hast. Die Nutzung eines Passworts ist optional und wird <<create-forgot-pw, hier>> beschrieben.
+
+[.float-group]
+--
+image::account/login-with-pw-1.png[Select Register, 400, float=right]
+
+. Klicke auf den Satz *_Lieber mit Passwort einloggen?_*, der sich unter dem Eingabefenster der E-Mail-Adresse befindet.
+[.result]#Ein neues Anmeldefenster wird geöffnet.#
+--
+
+[.float-group]
+--
+image::account/login-with-pw-2.png[Select Register, 400, float=left]
+
+[start=2]
+. Gib deine E-Mail-Adresse ein.
+. Gib dein Passwort ein.
+. Klicke auf *_Anmelden_*
+[.result]#Du bist jetzt bei deinem agrirouter-Konto angemeldet.#
+--
+
+[#create-forgot-pw]
+=== Passwort setzen / Passwort vergessen
+Die Standard Login-Methode erfolgt über die Anmeldung mit Login-Code. Wenn du den Login mit Passwort bevorzugst, kannst du in wenigen einfachen Schritten ein Passwort setzen. Der Prozess ist der selbe, wie wenn du dein Passwort vergessen hast und ein neues Passwort generieren möchtest.
+
+Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] und klicke auf den Login Button image:account/login-button.png[logon, 50, 30] am oberen rechten Rand der Website. 
+[.result]#Du wirst auf eine neue Seite weitergeleitet.#
+
+[.float-group]
+--
+image::account/create-forgot-pw-1.png[Select Register, 400, float=right]
+
+. Klicke auf den Satz *_Lieber mit Passwort einloggen?_*, der sich unter dem Eingabefenster der E-Mail-Adresse befindet.
+[.result]#Ein neues Anmeldefenster wird geöffnet.#
+--
+
+[.float-group]
+--
+image::account/create-forgot-pw-2.png[Select Register, 400, float=left]
+
+[Start=2]
+. Klicke auf den Satz *_Passwort ändern / vergessen_*, der sich über dem Eingabefenster des Passworts befindet.
+[.result]#Ein neues Fenster wird geöffnet.#
+--
+
+[.float-group]
+--
+image::account/create-forgot-pw-3.png[Select Register, 400, float=right]
+
+[Start=3]
+. Gib die E-Mail-Adresse deines agrirouter-Kontos ein.
+. Klicke auf *_Absenden_*.
+[.result]#Dir wird nun eine E-Mail mit einem Link geschickt, über den du dein (neues) Passwort setzen kannst.#
+--
+
+[IMPORTANT]
+====
+Solltest du die E-Mail mit dem Link nicht empfangen haben, schaue in deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis die E-Mail bei dir ankommt.
+====
+
+[.float-group]
+--
+image::account/create-forgot-pw-4.png[Select Register, 400, float=left]
+
+[Start=5]
+. Klicke auf den Link in der E-Mail, um dein (neues) Passwort setzen zu können.
+. Gib dein (neues) Passwort ein und bestätige es durch eine weitere Eingabe.
+. Klicke auf *_Absenden_*.
+[.result]#Du wirst nun in dein agrirouter-Konto eingeloggt.#
+--
+
+[.float-group]
+--
+image::account/create-forgot-pw-5.png[Select Register, 400, float=right]
+
+[Start=8]
+. Es kann sein, dass die hier gezeigte Meldung erscheint. Klicke in diesem Fall auf *_Sign in with Keycloak_*, um dich einzuloggen.
+--
+
+
 
 [#edit-account]
 == Hinterlegte Daten ändern

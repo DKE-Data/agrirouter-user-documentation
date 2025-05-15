@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-04-02 12:23+0000\n"
+"POT-Creation-Date: 2025-05-15 07:51+0000\n"
 "PO-Revision-Date: 2025-03-20 15:20+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
@@ -715,17 +715,24 @@ msgstr "Create a user account"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/account.adoc:49 de/modules/ROOT/pages/account.adoc:60
-#: de/modules/ROOT/pages/account.adoc:69 de/modules/ROOT/pages/account.adoc:78
-#: de/modules/ROOT/pages/account.adoc:88 de/modules/ROOT/pages/account.adoc:98
-#: de/modules/ROOT/pages/account.adoc:111
-#: de/modules/ROOT/pages/account.adoc:122
-#: de/modules/ROOT/pages/account.adoc:136
-#: de/modules/ROOT/pages/account.adoc:160
-#: de/modules/ROOT/pages/account.adoc:169
-#: de/modules/ROOT/pages/account.adoc:181
-#: de/modules/ROOT/pages/account.adoc:189
+#: de/modules/ROOT/pages/account.adoc:75 de/modules/ROOT/pages/account.adoc:89
+#: de/modules/ROOT/pages/account.adoc:98 de/modules/ROOT/pages/account.adoc:108
+#: de/modules/ROOT/pages/account.adoc:118
+#: de/modules/ROOT/pages/account.adoc:135
+#: de/modules/ROOT/pages/account.adoc:143
+#: de/modules/ROOT/pages/account.adoc:176
+#: de/modules/ROOT/pages/account.adoc:184
 #: de/modules/ROOT/pages/account.adoc:202
-#: de/modules/ROOT/pages/account.adoc:209
+#: de/modules/ROOT/pages/account.adoc:210
+#: de/modules/ROOT/pages/account.adoc:219
+#: de/modules/ROOT/pages/account.adoc:234
+#: de/modules/ROOT/pages/account.adoc:245
+#: de/modules/ROOT/pages/account.adoc:259
+#: de/modules/ROOT/pages/account.adoc:268
+#: de/modules/ROOT/pages/account.adoc:280
+#: de/modules/ROOT/pages/account.adoc:288
+#: de/modules/ROOT/pages/account.adoc:301
+#: de/modules/ROOT/pages/account.adoc:308
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:18
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:23
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:31
@@ -848,7 +855,8 @@ msgstr "Create a user account"
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:27
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:33
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:50
-#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:63
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:66
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:76
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:12
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:23
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:32
@@ -1015,14 +1023,22 @@ msgid "Select Register"
 msgstr "Select Register"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:53 de/modules/ROOT/pages/account.adoc:115
+#: de/modules/ROOT/pages/account.adoc:53 de/modules/ROOT/pages/account.adoc:132
+#: de/modules/ROOT/pages/account.adoc:171
+#: de/modules/ROOT/pages/account.adoc:199
+#, fuzzy
+#| msgid ""
+#| "Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter."
+#| "com] und klicke auf den Login Button image:account/login-button."
+#| "png[logon, 50, 30] am oberen rechten Rand der Website. Es könnte auch "
+#| "sein, dass du dort ein Burger-Icon image:account/burger-icon.png[logon, "
+#| "30, 30] siehst. Klicke in diesem Fall auf das Burger-Icon und wähle dann "
+#| "*_Login_*.  [.result]#Du wirst auf eine neue Seite weitergeleitet.#"
 msgid ""
 "Öffne im Browser die Internetadresse https://agrirouter.com[agrirouter.com] "
 "und klicke auf den Login Button image:account/login-button.png[logon, 50, "
-"30] am oberen rechten Rand der Website. Es könnte auch sein, dass du dort "
-"ein Burger-Icon image:account/burger-icon.png[logon, 30, 30] siehst. Klicke "
-"in diesem Fall auf das Burger-Icon und wähle dann *_Login_*.  [.result]#Du "
-"wirst auf eine neue Seite weitergeleitet.#"
+"30] am oberen rechten Rand der Website.  [.result]#Du wirst auf eine neue "
+"Seite weitergeleitet.#"
 msgstr ""
 "Open the Internet address https://agrirouter.com[agrirouter.com] in your "
 "browser and click on the login button image:account/login-button.png[logon, "
@@ -1040,6 +1056,55 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:64
+msgid "Gib deine E-Mail Adresse, deinen Namen und deinen Nachnamen ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:65
+msgid ""
+"Bestätige die allgemeinen Geschäftsbedingungen (AGB) und löse das CAPTCHA."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:66
+#, fuzzy
+#| msgid "Klicke auf *_Weiter_*."
+msgid "Klicke auf *_Registrieren_*"
+msgstr "Click on *_Next_*."
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:71
+msgid ""
+"Notiere dir die E-Mail-Adresse, mit der du dich registriert hast. Diese "
+"benötigst du, um dich beim agrirouter <<login, anzumelden>>."
+msgstr ""
+"Make a note of the e-mail address you used to register. You will need this "
+"to <<login, login>> to the agrirouter."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:79
+msgid ""
+"Dir wurde eine E-Mail zugesandt. Folge den Anweisungen in der E-Mail, um "
+"dein Konto zu verifizieren."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:84
+#, fuzzy
+#| msgid ""
+#| "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
+#| "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+#| "dauern, bis die E-Mail bei dir ankommt."
+msgid ""
+"Solltest du die E-Mail mit den Anweisungen nicht empfangen haben, schaue in "
+"deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+"dauern, bis die E-Mail bei dir ankommt."
+msgstr ""
+"If you do not receive the e-mail with the code, check your *_spam folder_*. "
+"Sometimes it can also take *_a few minutes_* for the e-mail to arrive."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:93
 msgid ""
 "Wähle im Dropdownmenü die Hersteller der Maschinen deines Fuhrparks. Die "
 "Logos der Hersteller erscheinen dann auf der rechten Seite."
@@ -1048,7 +1113,7 @@ msgstr ""
 "menu. The manufacturers' logos will then appear on the right-hand side."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:65 de/modules/ROOT/pages/account.adoc:74
+#: de/modules/ROOT/pages/account.adoc:94 de/modules/ROOT/pages/account.adoc:103
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:132
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:139
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:87
@@ -1056,7 +1121,7 @@ msgid "Klicke auf *_Weiter_*."
 msgstr "Click on *_Next_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:73
+#: de/modules/ROOT/pages/account.adoc:102
 msgid ""
 "Wähle im Dropdownmenü die Anbieter der Software, die du verwendest. Die "
 "Logos der Anbieter erscheinen dann auf der rechten Seite."
@@ -1065,37 +1130,28 @@ msgstr ""
 "logos of the vendors will then appear on the right-hand side."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:82
-msgid "Gib den *_Namen deines Betriebs_* bzw. deines Unternehmens ein."
+#: de/modules/ROOT/pages/account.adoc:112
+#, fuzzy
+#| msgid "Gib den *_Namen deines Betriebs_* bzw. deines Unternehmens ein."
+msgid "Gib den *_Namen deines Unternehmens_*, sowie eine *_Beschreibung_* an."
 msgstr "Enter the *_name of your business_* or company."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:83
-msgid "Gib eine kurze *_Beschreibung_* deines Unternehmens ein."
-msgstr "Enter a short *_description_* of your company."
+#: de/modules/ROOT/pages/account.adoc:113
+#, fuzzy
+#| msgid "Wähle eine *_Datei_* aus."
+msgid "Wähle dein *_Land_* aus."
+msgstr "Select a *_file_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:84
-msgid "Klicke auf den Button *_Speichern_*."
-msgstr "Click on the *_Save_* button."
+#: de/modules/ROOT/pages/account.adoc:114
+#: de/modules/ROOT/pages/endpoint.adoc:148
+#: de/modules/ROOT/pages/solution-guides/agricolus.adoc:102
+msgid "Klicke auf *_Speichern_*."
+msgstr "Click on *_Save_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:92
-msgid "Gib deinen *_Vor- und Nachnamen_*, sowie deine *_E-Mail-Adresse_* ein."
-msgstr "Enter your *_first and last name_* and your *_e-mail address_*."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:93
-msgid "Klicke in das *_Kästchen_*, um zu bestätigen, dass du ein Mensch bist."
-msgstr "Click in the *_box_* to confirm that you are human."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:94
-msgid "Schließe den Prozess ab, indem du den Button *_Registrieren_* klickst."
-msgstr "Complete the process by clicking the *_Register_* button."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:102
+#: de/modules/ROOT/pages/account.adoc:122
 msgid ""
 "Du bist nun in dein agrirouter-Konto eingeloggt und der "
 "Registrierungsprozess war erfolgreich."
@@ -1103,54 +1159,51 @@ msgstr ""
 "You are now logged in to your agrirouter account and the registration "
 "process was successful."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:105
-msgid ""
-"Notiere dir die E-Mail-Adresse, mit der du dich registriert hast. Diese "
-"benötigst du, um dich beim agrirouter <<login, anzumelden>>."
-msgstr ""
-"Make a note of the e-mail address you used to register. You will need this "
-"to <<login, login>> to the agrirouter."
-
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:107
+#: de/modules/ROOT/pages/account.adoc:125
 #, no-wrap
 msgid "Anmelden"
 msgstr "Login"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:118
-msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
-msgstr ". Select *_Login_*.  [.result]#The login process is started.#"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:126
-msgid ""
-"Gib die *_E-Mail-Adresse_* ein, mit der du dich bereits beim agrirouter "
-"<<benutzerkonto-erstellen, registriert>> hast."
-msgstr ""
-"Enter the *_e-mail address_* with which you have already registered with the "
-"agrirouter <<create user account, registered>>."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:127
-#: de/modules/ROOT/pages/account.adoc:141
-msgid "Klicke auf *_Anmelden_*."
-msgstr "Click on *_Login_*."
-
-#. type: Plain text
+#. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:128
-msgid ""
-"Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, mit "
-"der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> hast. "
-"Kopiere den Code aus der Mail."
+#, no-wrap
+msgid "Anmelden mit Login-Code"
 msgstr ""
-"You will now receive an *_email with a code_* to the email address you used "
-"to register with the agrirouter <<create user account>>. Copy the code from "
-"the email."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:139
+#, fuzzy
+#| msgid ""
+#| "Gib deine E-Mail-Adresse ein und klicke auf *_Weiter_*.  [.result]#Eine "
+#| "neue Seite wird geöffnet.#"
+msgid ""
+"Gib deine E-Mail-Adresse ein und klicke auf *_Login_*.  [.result]#Dir wird "
+"nun eine E-Mail mit einem Login-Code an deine E-Mail-Adresse gesendet.#"
+msgstr ""
+". Enter your e-mail address and click on *_Next_*.  [.result]#A new page "
+"will be opened.#"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:147
+msgid "Kopiere den Code aus der Mail und gib ihn in ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:149
+#, fuzzy
+#| msgid ""
+#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
+#| "_my agrirouter_ Seite.#"
+msgid ""
+"Klicke auf *_Anmelden_*.  [.result]#Du bist jetzt bei deinem agrirouter-"
+"Konto angemeldet.#"
+msgstr ""
+". Click on the *_Save_* button.  [.result]#You will be returned to the _my "
+"agrirouter_ page.#"
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:132
+#: de/modules/ROOT/pages/account.adoc:154
 msgid ""
 "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
@@ -1159,14 +1212,8 @@ msgstr ""
 "If you do not receive the e-mail with the code, check your *_spam folder_*. "
 "Sometimes it can also take *_a few minutes_* for the e-mail to arrive."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:140
-msgid ""
-"Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert hast."
-msgstr "Now paste the code you copied from your e-mail program."
-
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:147
+#: de/modules/ROOT/pages/account.adoc:159
 msgid ""
 "Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, "
 "ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:"
@@ -1175,18 +1222,18 @@ msgstr ""
 "having to enter the user data, proceed as follows:"
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:149
+#: de/modules/ROOT/pages/account.adoc:161
 msgid ""
 "Öffne die https://app.agrirouter.com/[die Anmeldeseite] wie oben beschrieben."
 msgstr "Open https://app.agrirouter.com/[the login page] as described above."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:150
+#: de/modules/ROOT/pages/account.adoc:162
 msgid "Aktiviere die Checkbox \"_Angemeldet bleiben_\" und melde dich an."
 msgstr "Activate the \"_Stay logged in_\" checkbox and log in."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/account.adoc:152
+#: de/modules/ROOT/pages/account.adoc:164
 msgid ""
 "Wenn du deine Arbeit im Dashboard beendet hast, schließe die Internetseite [."
 "underline]#ohne# dich abzumelden.  [.result]#Wenn du das nächste Mal https://"
@@ -1198,20 +1245,158 @@ msgstr ""
 "app.agrirouter.com/[the login page], your xref:introduction.adoc/"
 "myagrirouter[my agrirouter page] will be displayed immediately.#"
 
+#. type: Title ===
+#: de/modules/ROOT/pages/account.adoc:167
+#, no-wrap
+msgid "Anmelden mit Passwort"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:173
+msgid ""
+"Die Anmeldung mit Passwort ist nur möglich, wenn du vorher bereits ein "
+"Passwort gesetzt hast. Die Nutzung eines Passworts ist optional und wird "
+"<<create-forgot-pw, hier>> beschrieben."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:180
+#: de/modules/ROOT/pages/account.adoc:206
+msgid ""
+"Klicke auf den Satz *_Lieber mit Passwort einloggen?_*, der sich unter dem "
+"Eingabefenster der E-Mail-Adresse befindet.  [.result]#Ein neues "
+"Anmeldefenster wird geöffnet.#"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:188
+#, fuzzy
+#| msgid "Gib deinen Aktivierungscode ein."
+msgid "Gib deine E-Mail-Adresse ein."
+msgstr "Enter your activation code."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:189
+msgid "Gib dein Passwort ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:191
+#, fuzzy
+#| msgid ""
+#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
+#| "_my agrirouter_ Seite.#"
+msgid ""
+"Klicke auf *_Anmelden_* [.result]#Du bist jetzt bei deinem agrirouter-Konto "
+"angemeldet.#"
+msgstr ""
+". Click on the *_Save_* button.  [.result]#You will be returned to the _my "
+"agrirouter_ page.#"
+
+#. type: Title ===
+#: de/modules/ROOT/pages/account.adoc:194
+#, no-wrap
+msgid "Passwort setzen / Passwort vergessen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:196
+msgid ""
+"Die Standard Login-Methode erfolgt über die Anmeldung mit Login-Code. Wenn "
+"du den Login mit Passwort bevorzugst, kannst du in wenigen einfachen "
+"Schritten ein Passwort setzen. Der Prozess ist der selbe, wie wenn du dein "
+"Passwort vergessen hast und ein neues Passwort generieren möchtest."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:215
+msgid ""
+"Klicke auf den Satz *_Passwort ändern / vergessen_*, der sich über dem "
+"Eingabefenster des Passworts befindet.  [.result]#Ein neues Fenster wird "
+"geöffnet.#"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:223
+#, fuzzy
+#| msgid ""
+#| "Gib die E-Mail deines agrirouter-Kontos ein und klicke auf *_Hinzufügen_*."
+msgid "Gib die E-Mail-Adresse deines agrirouter-Kontos ein."
+msgstr ""
+"Enter the e-mail address of your agrirouter account and click on *_Add_*."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:225
+msgid ""
+"Klicke auf *_Absenden_*.  [.result]#Dir wird nun eine E-Mail mit einem Link "
+"geschickt, über den du dein (neues) Passwort setzen kannst.#"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/account.adoc:230
+#, fuzzy
+#| msgid ""
+#| "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
+#| "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
+#| "dauern, bis die E-Mail bei dir ankommt."
+msgid ""
+"Solltest du die E-Mail mit dem Link nicht empfangen haben, schaue in deinem "
+"*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
+"die E-Mail bei dir ankommt."
+msgstr ""
+"If you do not receive the e-mail with the code, check your *_spam folder_*. "
+"Sometimes it can also take *_a few minutes_* for the e-mail to arrive."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:238
+msgid ""
+"Klicke auf den Link in der E-Mail, um dein (neues) Passwort setzen zu können."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:239
+#, fuzzy
+#| msgid ""
+#| "Wähle ein WLAN-Netzwerk aus, gebe das Passwort ein und bestätige deine "
+#| "Angabe."
+msgid ""
+"Gib dein (neues) Passwort ein und bestätige es durch eine weitere Eingabe."
+msgstr "Select a WLAN network, enter the password and confirm your entry."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:241
+#, fuzzy
+#| msgid ""
+#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
+#| "_my agrirouter_ Seite.#"
+msgid ""
+"Klicke auf *_Absenden_*.  [.result]#Du wirst nun in dein agrirouter-Konto "
+"eingeloggt.#"
+msgstr ""
+". Click on the *_Save_* button.  [.result]#You will be returned to the _my "
+"agrirouter_ page.#"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/account.adoc:249
+msgid ""
+"Es kann sein, dass die hier gezeigte Meldung erscheint. Klicke in diesem "
+"Fall auf *_Sign in with Keycloak_*, um dich einzuloggen."
+msgstr ""
+
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:155
+#: de/modules/ROOT/pages/account.adoc:254
 #, no-wrap
 msgid "Hinterlegte Daten ändern"
 msgstr "Change stored data"
 
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:156
+#: de/modules/ROOT/pages/account.adoc:255
 #, no-wrap
 msgid "Kontoinformationen ändern"
 msgstr "Change account information"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:164
+#: de/modules/ROOT/pages/account.adoc:263
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deiner xref:introduction.adoc/"
@@ -1224,7 +1409,7 @@ msgstr ""
 "`Settings` will open.#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:167
+#: de/modules/ROOT/pages/account.adoc:266
 msgid ""
 "Klicke auf der linken Seite auf *_Konto_*.  [.result]#Die "
 "`Kontoinformationen` werden angezeigt.#"
@@ -1233,7 +1418,7 @@ msgstr ""
 "information` is displayed.#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:173
+#: de/modules/ROOT/pages/account.adoc:272
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Konto hinterlegt sind. "
 "Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
@@ -1242,7 +1427,7 @@ msgstr ""
 "or change data_* as you wish."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:174
+#: de/modules/ROOT/pages/account.adoc:273
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Konto "
 "aktualisieren_*"
@@ -1250,25 +1435,26 @@ msgstr ""
 "If you want to save your changes, click on the button *_Update account_*"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:176
+#: de/modules/ROOT/pages/account.adoc:275
 msgid ""
 "Deine E-Mail-Adresse kann nicht geändert werden. Um diese zu ändern, wende "
 "dich mit einer E-Mail an mailto:support@agrirouter.com[support@agrirouter."
 "com]. Nach Prüfung deiner E-Mail-Adresse wird diese für dich geändert und du "
 "erhältst Rückmeldung durch unser Support-Team."
 msgstr ""
-"Your email address cannot be changed. To change it, please contact "
-"by sending an e-mail to mailto:support@agrirouter.com[support@agrirouter."
-"com]. After checking your email address, it will be changed for you and you "
-"will receive feedback from our support team."
+"Your email address cannot be changed. To change it, please contact by "
+"sending an e-mail to mailto:support@agrirouter.com[support@agrirouter.com]. "
+"After checking your email address, it will be changed for you and you will "
+"receive feedback from our support team."
+
 #. type: Title ===
-#: de/modules/ROOT/pages/account.adoc:177
+#: de/modules/ROOT/pages/account.adoc:276
 #, no-wrap
 msgid "Unternehmensinformationen ändern"
 msgstr "Change company information"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:185
+#: de/modules/ROOT/pages/account.adoc:284
 msgid ""
 "Klicke auf das *_Icon_* image:basics/profile.png[logon, 30, 30] mit deinen "
 "Initialien in der rechten oberen Ecke deines Dashboards und klicke auf "
@@ -1279,7 +1465,7 @@ msgstr ""
 "*_Settings_*.  [.result]#The `Settings` will be displayed.#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:187
+#: de/modules/ROOT/pages/account.adoc:286
 msgid ""
 "Klicke auf der linken Seite auf *_Unternehmen_*.  [.result]#Die "
 "`Unternehmenseinstellungen` werden angezeigt.#"
@@ -1288,7 +1474,7 @@ msgstr ""
 "settings` are displayed.#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:193
+#: de/modules/ROOT/pages/account.adoc:292
 msgid ""
 "Es erscheinen nun alle Informationen, die zu deinem Unternehmen hinterlegt "
 "sind. Du kannst nach belieben *_Daten hinzufügen oder ändern_*."
@@ -1297,7 +1483,7 @@ msgstr ""
 "or change data_* as you wish."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:194
+#: de/modules/ROOT/pages/account.adoc:293
 msgid ""
 "Wenn du deine Änderungen speichern möchtest, klicke auf den Button *_Firma "
 "aktualisieren_*"
@@ -1305,18 +1491,18 @@ msgstr ""
 "If you want to save your changes, click on the button *_Update company_*"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/account.adoc:196
+#: de/modules/ROOT/pages/account.adoc:295
 #, no-wrap
 msgid "Konto löschen"
 msgstr "Delete your account"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:198
+#: de/modules/ROOT/pages/account.adoc:297
 msgid "Lösche das Benutzerkonto, wenn du es nicht mehr benötigst:"
 msgstr "Delete the user account if you don't need it anymore:"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:201
+#: de/modules/ROOT/pages/account.adoc:300
 msgid ""
 "Folge hierzu den Schritten 1 & 2 des Kapitels <<edit-account, "
 "Kontoinformationen ändern>>.  [.result]#Du bist nun im Bereich der "
@@ -1328,12 +1514,12 @@ msgstr ""
 "Scroll all the way down here and you will see this section:#"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:206
+#: de/modules/ROOT/pages/account.adoc:305
 msgid "Klicke auf den Button *_Ihr Konto löschen_*."
 msgstr "Click on the button *_Delete your account_*."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:213
+#: de/modules/ROOT/pages/account.adoc:312
 msgid ""
 "Nun erscheint eine Meldung, die dich bittet, das Löschen des Kontos zu "
 "bestätigen. Klicke auf den Button *_Bestätigen_*."
@@ -1342,7 +1528,7 @@ msgstr ""
 "Click on the *_Confirm_* button."
 
 #. type: Plain text
-#: de/modules/ROOT/pages/account.adoc:214
+#: de/modules/ROOT/pages/account.adoc:313
 msgid ""
 "Im unteren rechten Eck wird dir nun die Erfolgsmeldung image:account/delete-"
 "account-3.png[logon, 180, 30] angezeigt."
@@ -1831,12 +2017,6 @@ msgstr ""
 #: de/modules/ROOT/pages/endpoint.adoc:147
 msgid "Wähle den Hersteller aus, dem du deine Verbindung zuordnen willst."
 msgstr "Select the manufacturer you want to assign your Pairing to."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/endpoint.adoc:148
-#: de/modules/ROOT/pages/solution-guides/agricolus.adoc:102
-msgid "Klicke auf *_Speichern_*."
-msgstr "Click on *_Save_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:153
@@ -6345,14 +6525,20 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:1
-#, no-wrap
-msgid "FARMPILOT Solution Guide"
-msgstr "FARMPILOT Solution Guide"
+#, fuzzy, no-wrap
+#| msgid "xFarm Solution Guide"
+msgid "farmpilot Solution Guide"
+msgstr "xFarm Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:4
+#, fuzzy
+#| msgid ""
+#| "Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen "
+#| "allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden "
+#| "in diesem Abschnitt behandelt:"
 msgid ""
-"Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen "
+"Mit farmpilot kannst du Daten vom agrirouter empfangen. Dazu müssen "
 "allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in "
 "diesem Abschnitt behandelt:"
 msgstr ""
@@ -6369,9 +6555,15 @@ msgstr "Insight into the machine data"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:13
+#, fuzzy
+#| msgid ""
+#| "Um Daten von deinem Terminal über den agrirouter drahtlos an FAMRPILOT "
+#| "senden zu können, muss zuerst eine Verbindung zwischen deinem FARMPILOT-"
+#| "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert "
+#| "in wenigen, einfachen Schritten."
 msgid ""
-"Um Daten von deinem Terminal über den agrirouter drahtlos an FAMRPILOT "
-"senden zu können, muss zuerst eine Verbindung zwischen deinem FARMPILOT-"
+"Um Daten von deinem Terminal über den agrirouter drahtlos an farmpilot "
+"senden zu können, muss zuerst eine Verbindung zwischen deinem farmpilot-"
 "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
 "wenigen, einfachen Schritten."
 msgstr ""
@@ -6381,16 +6573,23 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:15
+#, fuzzy
+#| msgid ""
+#| "Bevor du anfangen kannst, musst du dich über die link:https://portal."
+#| "farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto "
+#| "einloggen."
 msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://portal."
-"farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto einloggen."
+"farmpilot.de/[farmpilot-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
 "Before you can start, you must log in to your account via the link:https://"
 "portal.farmpilot.de/[FARMPILOT website, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:19
-msgid "Klicke im FARMPILOT Portal auf *_Verwaltung_*."
+#, fuzzy
+#| msgid "Klicke im FARMPILOT Portal auf *_Verwaltung_*."
+msgid "Klicke im farmpilot Portal auf *_Verwaltung_*."
 msgstr "Click on *_Administration_* in the FARMPILOT portal."
 
 #. type: Plain text
@@ -6410,15 +6609,22 @@ msgstr "Click on *Connect to agrirouter*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:37
+#, fuzzy
+#| msgid ""
+#| "In deinem FARMPILOT-Konto ist nun eine neue Partnerverknüpfung angelegt."
 msgid ""
-"In deinem FARMPILOT-Konto ist nun eine neue Partnerverknüpfung angelegt."
+"In deinem farmpilot-Konto ist nun eine neue Partnerverknüpfung angelegt."
 msgstr "A new partner link has now been created in your FARMPILOT account."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:42
+#, fuzzy
+#| msgid ""
+#| "Damit du alle Vorzüge von agrirouter und FARMPILOT optimal nutzen kannst, "
+#| "ist es essenziell die Maschinenverknüpfung in FARMPILOT einzurichten."
 msgid ""
-"Damit du alle Vorzüge von agrirouter und FARMPILOT optimal nutzen kannst, "
-"ist es essenziell die Maschinenverknüpfung in FARMPILOT einzurichten."
+"Damit du alle Vorzüge von agrirouter und farmpilot optimal nutzen kannst, "
+"ist es essenziell die Maschinenverknüpfung in farmpilot einzurichten."
 msgstr ""
 "To make the most of all the benefits of agrirouter and FARMPILOT, it is "
 "essential to set up the machine link in FARMPILOT."
@@ -6438,11 +6644,18 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:49
+#, fuzzy
+#| msgid ""
+#| "Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter "
+#| "eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen "
+#| "werden. Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf "
+#| "der Maschine, welches FARMPILOT installiert hat, mit der Referenzmaschine "
+#| "verknüpft werden."
 msgid ""
 "Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter "
 "eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen werden. "
 "Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf der "
-"Maschine, welches FARMPILOT installiert hat, mit der Referenzmaschine "
+"Maschine, welches farmpilot installiert hat, mit der Referenzmaschine "
 "verknüpft werden."
 msgstr ""
 "The telemetry box is automatically set up as the Terminal agrirouter vehicle "
@@ -6490,18 +6703,47 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:62
+msgid "Und so geht's:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:69
+#, fuzzy
+#| msgid "Klicke in der Seitenleiste links auf *_Applikationskarten_*."
+msgid "Klicke in der Leiste links auf *_Auswertung_*."
+msgstr "Click on *_Application cards_* in the sidebar on the left."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:70
+#, fuzzy
+#| msgid "Wähle dann *_Externe Daten_*."
+msgid "Wähle dann *_Aufträge_*."
+msgstr "Then select *_External data_*."
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:75
+#, fuzzy
+#| msgid ""
+#| "Die Ansicht in der Auswertung am Beispiel des Autologgings einer Maschine "
+#| "könnte so aussehen:"
 msgid ""
-"Die Ansicht in der Auswertung am Beispiel des Autologgings einer Maschine "
-"könnte so aussehen:"
+"Öffne unter dem Reiter *_Autologgin_* die Maschinendaten.  Die Ansicht in "
+"der Auswertung am Beispiel des Autologgings einer Maschine könnte so "
+"aussehen:"
 msgstr ""
 "The view in the evaluation using the example of the autologging of a machine "
 "could look like this:"
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:68
+#: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:83
+#, fuzzy
+#| msgid ""
+#| "Solltest du weitere Fragen bezüglich agrirouter und FARMPILOT haben, "
+#| "wende dich bitte an das FARMPILOT-Team unter team@farmpilot.de oder "
+#| "telefonisch unter +49(0)5241/80-40753."
 msgid ""
-"Solltest du weitere Fragen bezüglich agrirouter und FARMPILOT haben, wende "
-"dich bitte an das FARMPILOT-Team unter team@farmpilot.de oder telefonisch "
+"Solltest du weitere Fragen bezüglich agrirouter und farmpilot haben, wende "
+"dich bitte an das farmpilot-Team unter team@farmpilot.de oder telefonisch "
 "unter +49(0)5241/80-40753."
 msgstr ""
 "If you have any further questions about agrirouter and FARMPILOT, please "
@@ -6688,7 +6930,9 @@ msgstr "Connection via KRONE SmartConnect Solar"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:12
-msgid "Verbindung über KRONE SmartConnect 300/500"
+#, fuzzy
+#| msgid "Verbindung über KRONE SmartConnect 300/500"
+msgid "Verbindung über KRONE SmartConnect 500"
 msgstr "Connection via KRONE SmartConnect 300/500"
 
 #. type: Plain text
@@ -6845,11 +7089,10 @@ msgstr "Click on *_KSC SOLAR CONNECT_*."
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:96
 msgid ""
-"Über einen Klick auf *_MASCHINE VERKNÜPFEN_* kannst du das Krone "
-"SmartConnect Solar noch der Maschine zuordnen, auf der es angebracht ist."
+"Über einen Klick auf *_Maschine Verknüpfen_* wird die KRONE SmartConnect "
+"Solar einer Maschine aus deinem Bestand zugeordnet. Diese Maschine erscheint "
+"dann in den Systemen, die am agrirouter angeschlossen sind."
 msgstr ""
-"You can assign the Krone SmartConnect Solar to the machine to which it is "
-"attached by clicking on *_MASCHINE LINK_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:97
@@ -6864,17 +7107,24 @@ msgstr ""
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:99
-#, no-wrap
-msgid "Verbindung über Krone SmartConnect 300/500"
+#, fuzzy, no-wrap
+#| msgid "Verbindung über Krone SmartConnect 300/500"
+msgid "Verbindung über Krone SmartConnect 500"
 msgstr "Connection via Krone SmartConnect 300/500"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:102
+#, fuzzy
+#| msgid ""
+#| "Die integrierten Telemetrieeinheiten Krone SmartConnect 300 und 500 von "
+#| "KRONE vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind "
+#| "mit dem BUS-System verbunden und erfassen Daten in Echtzeit. Diese Daten "
+#| "werden an KRONE Smart Telematics und den agrirouter gesendet."
 msgid ""
-"Die integrierten Telemetrieeinheiten Krone SmartConnect 300 und 500 von "
-"KRONE vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind mit "
-"dem BUS-System verbunden und erfassen Daten in Echtzeit. Diese Daten werden "
-"an KRONE Smart Telematics und den agrirouter gesendet."
+"Die integrierten Telemetrieeinheiten Krone SmartConnect 500 von KRONE "
+"vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind mit dem BUS-"
+"System verbunden und erfassen Daten in Echtzeit. Diese Daten werden an KRONE "
+"Smart Telematics und den agrirouter gesendet."
 msgstr ""
 "The integrated Krone SmartConnect 300 and 500 telemetry units from KRONE "
 "digitally network your agricultural machinery. They are connected to the BUS "
@@ -6929,8 +7179,12 @@ msgstr "Enter your agrirouter registration code and click on *_SAVE_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:119
+#, fuzzy
+#| msgid ""
+#| "Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect "
+#| "300/500 sendet nun durchgehend alle gesammelten Daten an den agrirouter."
 msgid ""
-"Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect 300/500 "
+"Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect 500 "
 "sendet nun durchgehend alle gesammelten Daten an den agrirouter."
 msgstr ""
 "Done, your machine with the Krone SmartConnect 300/500 telemetry unit now "
@@ -11172,8 +11426,10 @@ msgstr "xref:solution-guides/dacom.adoc[DACOM]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:21
-msgid "xref:solution-guides/farmpilot.adoc[FARMPILOT]"
-msgstr "xref:solution-guides/farmpilot.adoc[FARMPILOT]"
+#, fuzzy
+#| msgid "xref:solution-guides/xfarm.adoc[xFarm]"
+msgid "xref:solution-guides/farmpilot.adoc[farmpilot]"
+msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:22
@@ -11214,6 +11470,65 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+
+#~ msgid "Gib eine kurze *_Beschreibung_* deines Unternehmens ein."
+#~ msgstr "Enter a short *_description_* of your company."
+
+#~ msgid "Klicke auf den Button *_Speichern_*."
+#~ msgstr "Click on the *_Save_* button."
+
+#~ msgid ""
+#~ "Gib deinen *_Vor- und Nachnamen_*, sowie deine *_E-Mail-Adresse_* ein."
+#~ msgstr "Enter your *_first and last name_* and your *_e-mail address_*."
+
+#~ msgid ""
+#~ "Klicke in das *_Kästchen_*, um zu bestätigen, dass du ein Mensch bist."
+#~ msgstr "Click in the *_box_* to confirm that you are human."
+
+#~ msgid ""
+#~ "Schließe den Prozess ab, indem du den Button *_Registrieren_* klickst."
+#~ msgstr "Complete the process by clicking the *_Register_* button."
+
+#~ msgid "Wähle *_Login_*.  [.result]#Der Login-Prozess wird gestartet.#"
+#~ msgstr ". Select *_Login_*.  [.result]#The login process is started.#"
+
+#~ msgid ""
+#~ "Gib die *_E-Mail-Adresse_* ein, mit der du dich bereits beim agrirouter "
+#~ "<<benutzerkonto-erstellen, registriert>> hast."
+#~ msgstr ""
+#~ "Enter the *_e-mail address_* with which you have already registered with "
+#~ "the agrirouter <<create user account, registered>>."
+
+#~ msgid "Klicke auf *_Anmelden_*."
+#~ msgstr "Click on *_Login_*."
+
+#~ msgid ""
+#~ "Du erhältst nun eine *_E-Mail mit einem Code_* auf die E-Mail-Adresse, "
+#~ "mit der du dich beim agrirouter <<benutzerkonto-erstellen, registriert>> "
+#~ "hast. Kopiere den Code aus der Mail."
+#~ msgstr ""
+#~ "You will now receive an *_email with a code_* to the email address you "
+#~ "used to register with the agrirouter <<create user account>>. Copy the "
+#~ "code from the email."
+
+#~ msgid ""
+#~ "Füge jetzt den Code ein, den du dir aus deinem E-Mail Programm kopiert "
+#~ "hast."
+#~ msgstr "Now paste the code you copied from your e-mail program."
+
+#, no-wrap
+#~ msgid "FARMPILOT Solution Guide"
+#~ msgstr "FARMPILOT Solution Guide"
+
+#~ msgid ""
+#~ "Über einen Klick auf *_MASCHINE VERKNÜPFEN_* kannst du das Krone "
+#~ "SmartConnect Solar noch der Maschine zuordnen, auf der es angebracht ist."
+#~ msgstr ""
+#~ "You can assign the Krone SmartConnect Solar to the machine to which it is "
+#~ "attached by clicking on *_MASCHINE LINK_*."
+
+#~ msgid "xref:solution-guides/farmpilot.adoc[FARMPILOT]"
+#~ msgstr "xref:solution-guides/farmpilot.adoc[FARMPILOT]"
 
 #, no-wrap
 #~ msgid "Gruppe"
