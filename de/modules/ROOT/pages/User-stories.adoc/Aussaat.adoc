@@ -1,0 +1,180 @@
+= Aussaat
+
+link:Einleitung.adoc[← Zurück zur Übersicht der agrirouter Anwendungsfälle] 
+
+In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Aussaat unterstützen kann.  
+Vom einfachen Versand einer TaskData, teilflächenspezifischen Applikationskarten über die drahtlose Übermittlung an die Maschine bis hin zur automatischen Rückmeldung von Maschinendaten – so werden Arbeitsabläufe effizienter, Fehlerquellen minimiert und die Dokumentation vereinfacht.
+
+== Aufträge ohne Applikationskarte
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich einen Auftrag an eine Maschine senden 
+|sodass die Maschine die Aussaat gemäß meiner Planung durchführen kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich einen Auftrag an mehrere Maschinen senden 
+|sodass mehrere Maschinen parallel auf einer Fläche arbeiten können.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich mehrere Aufträge an eine Maschine senden 
+|sodass sie nacheinander verschiedene Aussaataufträge abarbeiten kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich einen Auftrag mit mehreren Tätigkeiten an eine Maschinen senden 
+|sodass die Maschine die Aussaat gemäß meiner Planung durchführen kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können 
+|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
+
+|===
+
+== Teilflächenspezifische Applikationskarten
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich eine Applikationskarte an eine Maschine senden 
+|sodass die Maschine teilflächenspezifisch säen kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich mehrere Applikationskarten an eine Maschine senden 
+|sodass unterschiedliche Felder oder Kulturen bearbeitet werden können.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich eine Applikationskarte an mehrere Maschinen senden 
+|sodass mehrere Maschinen dieselbe Planung nutzen können.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich mehrere Applikationskarten an mehrere Maschinen senden 
+|sodass verschiedene Maschinen gleichzeitig unterschiedliche Flächen bearbeiten können.
+
+|Als Maschinenführer 
+|möchte ich Applikationskarten direkt auf meinem Terminal empfangen 
+|sodass ich die Maßnahmen ohne manuelle Eingaben ausführen kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich Applikationskarten spontan an meinen Fahrer übermitteln können 
+|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
+|===
+
+== Applikationskarten für Saatgut, Dünger und Pflanzenschutz
+
+=== Kombinierte teilflächenspezifische Planung
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an eine Maschine senden 
+|sodass alle Maßnahmen in einem Arbeitsgang ausgeführt werden können.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich mehrere kombinierte Applikationskarten an eine Maschine senden 
+|sodass unterschiedliche komplexe Kulturmaßnahmen abgearbeitet werden können.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an mehrere Maschinen senden 
+|sodass mehrere Maschinen dieselbe Planung nutzen können.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich mehrere kombinierte Applikationskarten an mehrere Maschinen senden 
+|sodass parallele komplexe Aussaataufträge möglich sind.
+|===
+
+== Telemetrie & Dokumentation
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich Telemetriedaten von meinen Maschinen an die Software gesendet bekommen 
+|sodass ich die durchgeführten Maßnahmen automatisch dokumentieren kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich Telemetriedaten von Maschinen an die Software gesendet bekommen 
+|sodass ich die durchgeführten Maßnahmen ohne Fehleingaben abrechnen kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich agronomische Ist-Daten von einer Maschine an die Software gesendet bekommen 
+|sodass ich die durchgeführten Maßnahmen automatisch dokumentieren kann.
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich eine Taskdata von einer Maschine an die Software gesendet bekommen 
+|sodass ich nachvollziehen kann, welche Tätigkeit auf dem Feld durchgeführt wurde.
+
+|Als Maschinenführer 
+|möchte ich mehrere Taskdata von einer Maschine an die Software senden 
+|sodass ich mehrere bearbeitete Flächen effizient und nicht einzeln übermitteln muss.
+
+|Als Maschinenführer 
+|möchte ich automatisiert Telemetriedaten an die Software senden 
+|sodass ich bei der Dokumentation meiner Arbeit entlastet werde und keine Tippfehler entstehen können.
+
+|Als Lohnunternehmer
+|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+|===
+
+== Maschine-zu-Maschine-Kommunikation (z. B. Spurlinien)
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+
+|Als Betriebsinhaber
+|möchte ich Daten von einer Maschine an eine weitere Maschine senden
+|sodass einheitliche Daten genutzt werden können.
+
+|Als Maschinenführer
+|möchte ich, dass Daten von einer Maschine an eine weitere Maschine gesendet werden kann
+|sodass Fahrspuren nicht mehrfach aufgezeichnet werden müssen.
+
+|Als Landwirt
+|möchte ich Daten von einer Maschine an mehrere Maschinen senden
+|sodass parallele und koordinierte Arbeiten möglich sind.
+
+|Als Landwirt
+|möchte ich, dass Daten von einer organischen Düngung von einer Maschine an eine weitere Maschine gesendet werden können
+|sodass das Saatgut dort abgelegt werden kann, wo der Dünger ausgebracht wurde.
+
+|Als Maschinenplaner
+|möchte ich, dass Daten von einer Maschine an mehrere Maschinen gesendet werden können
+|sodass parallele und koordinierte Arbeiten möglich sind.
+|===
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Max erstellt in seiner Ackerschlagkartei eine Applikationskarte zur Maisaussaat. Diese sendet er über seine Farmsoftware direkt an den Traktor von Laura. Das Terminal empfängt die Karte automatisch über den agrirouter – ohne USB-Stick oder andere Zwischenschritte.  
+Während der Aussaat werden die agronomische und Maschinendaten automatisch zurückübertragen und in der Software dokumentiert. Max hat dadurch jederzeit den Überblick über den Arbeitsfortschritt und spart sich die manuelle Nachbearbeitung.
+====
+[NOTE]
+.Praxisbeispiel 2
+====
+Max plant mehrere Applikationskarten für verschiedene Kulturarten und verteilt diese an die Maschinenflotte. So kann jeder Fahrer direkt mit der teilflächenspezifischen Aussaat beginnen, ohne manuelle Übertragung. Die Ergebnisse werden automatisiert und in Echtzeit an die Betriebsleitung zurückgemeldet.
+====
+[NOTE]
+.Praxisbeispiel 3
+====
+Durch die Übertragung der Telemetriedaten behält Max seine Maschinenflotte  im Portal jederzeit im Blick. So kann er genau verfolgen, wie viel Arbeit bereits erledigt wurde, ob jemand Unterstützung benötigt, wenn sich z.B. das Wetter ändert oder ob Saatgut nachgeliefert werden muss. Dadurch kann er die Nachlieferung optimal koordinieren und den Einsatz flexibel steuern.
+====
+[NOTE]
+.Praxisbeispiel 4
+====
+Durch die automatische Übertragung agronomischer Daten sowie Maschinendaten werden manuelle Eingaben eines Maschinenführers des Lohnunternehmers deutlich reduziert. Dadurch werden Tippfehler vermieden und die Abrechnung erfolgt präziser. So gehen keine Arbeiten mehr verloren oder bleiben unberücksichtigt.
+====
+[NOTE]
+.Praxisbeispiel 5
+====
+Durch die Übertragung der Fahrspuren von einer Maschine zur anderen kann beispielsweise nach der Düngung das Saatgut genau dort abgelegt werden, wo zuvor das Gülleband ausgebracht wurde. Ebenso können Kartoffeln präzise an den Stellen gepflanzt werden, an denen zuvor die Pflanzdämme vorbereitet wurden.
+====

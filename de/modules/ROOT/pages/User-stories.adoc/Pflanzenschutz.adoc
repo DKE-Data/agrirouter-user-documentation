@@ -1,0 +1,109 @@
+= Pflanzenschutz
+
+link:Einleitung.adoc[← Zurück zur Übersicht der agrirouter Anwendungsfälle] 
+
+In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich chemischen und mechanischen Pflanzenschutz untersützen kann.
+
+
+[#mechanic-plantprotection]
+== Mechanischer Pflanzenschutz
+Der mechanische Pflanzenschutz ist vor allem im Bereich der Biolandwirtschaft ein wichtiger Bestandteil. Beim mechanischem Pflanzenschutz wird mit einem Striegel, einer Hacke oder mit einer Brennkammer über den Bestand gefahren. Die Hacke und Brennkammer sind meist mit Kameras ausgestattet, die dann das Unkraut erkennen und proaktiv bekämpfen. Der mechanische Pflanzenschutz wird von einem Traktor oder einem autonomen Arbeitsgerät (z.B. Roboter) durchgeführt.
+
+Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des mechanischen Pflanzenschutz in Kombination mit dem agrirouter Anwendung finden.
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+
+|Als Landwirt
+|möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden
+|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+
+|Als Landwirt 
+|möchte ich, dass Telemetriedaten automatisch zurückgemeldet werden 
+|sodass Arbeitszeit, bearbeitete Fläche und Fortschritt dokumentiert sind, ohne manuellen Aufwand.
+
+|Als Landwirt 
+|möchte ich, einen Auftrag an mehrere Geräte gleichzeitig senden können 
+|sodass die Flotte effizient eingesetzt wird.
+
+|Als Disponent im Lohnunternehmen 
+|möchte ich die Telemetriedaten aller Maschinen einsehen 
+|sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann.
+
+|Als Lohnunternehmer 
+|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen 
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+
+== Praxisbeispiele
+
+|=== 
+
+[#chemical-plantprotection]
+== Chemischer Pflanzenschutz
+Beim chemischen Pflanzenschztz wird meistens mit einer Pflanzenschutzspritze über das Feld gefahren. Dabei kann der Bestand auf dem Feld entweder großflächig oder punktuell behandelt werden. Es besteht aber auch die Möglichkeit mit einem Roboter über das Feld zu fahren. Dabei wird der das Feöd größflächig behandelt oder die einzelne Pflanze.
+
+Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des chemischen Pflanzenschutz in Kombination mit dem agrirouter Anwendung finden. 
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+|Als Landwirt 
+|möchte ich einen Auftrag mit geplanten Fahrspuren an eine Maschine senden 
+|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+
+|Als Dienstleister für Drohnen 
+|möchte ich Unkraut- und Krankheitsdruck per Drohne erfassen und an die Farmsoftware senden 
+|sodass der Landwirt genau sieht, wo Pflanzenschutzmittel benötigt werden und eine Applikationskarte erstellt werden kann.
+
+|Als Dienstleister für Drohnen
+|möchte ich aus den per Drohne erfassten Unkraut- und Krankheitsdrücken eine Applikationskarte erstellen und an den Landwirt senden
+|sodass der Pflanzenschutz gezielt und effizient auf dem Feld durchgeführt werden kann.
+
+|Als Landwirt
+|möchte ich Applikationskarten an mehrere Maschinen senden
+|sodass mehrere Maschinen gleichzeitig teilflächenspezifisch arbeiten können.
+
+|Als Landwirt
+|möchte ich, dass Telemetriedaten automatisch an meine Software gesendet werden
+|sodass Ausbringmenge, Zeitpunkt, Uhrzeit und Fahrer gesetzeskonform dokumentiert werden.
+
+|Als Betriebsleiter
+|möchte ich, dass die Maschinen den Applikationskarten folgen 
+sodass auch weniger erfahrene Fahrer fehlerfrei arbeiten können.
+
+|Als Lohnunternehmer
+|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+
+|Als Landwirt
+|möchte ich Maschinendaten senden
+|damit ich sie im Büro weiterverarbeiten kann.
+
+|===
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Laura nutzt Drohnen, um Unkrautdruck auf ihren Feldern zu erfassen. Die Daten werden automatisch an ihre Farmsoftware gesendet. Darauf basierend wird in der Software eine Applikationskarte für den Pflanzenschutz erstellt. Laura kann die Karte direkt an ihren Traktor senden, der die chemischen Mittel punktgenau ausbringt. Telemetriedaten werden automatisch zurückgemeldet, sodass Ausbringmenge, Zeitpunkt und Fahrer dokumentiert sind.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Max plant mehrere Applikationskarten für unterschiedliche Felder und Schläge. Diese Karten werden über den agrirouter an die Maschinenflotte gesendet. Jeder Fahrer kann sofort die geplanten Aufträge abarbeiten, ohne selbst Karten erstellen oder manuell Daten erfassen zu müssen.  
+Die automatische Rückmeldung stellt sicher, dass die gesetzlich vorgeschriebene Dokumentation jederzeit vorliegt.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Durch die Telemetriedaten der Maschinen sieht Laura jederzeit, welche Flächen bereits behandelt wurden. Sie kann den Fortschritt genau überwachen und bei Bedarf nachjustieren.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Max erstellt eine Applikationskarte für einen benachbarten Schlag, die an mehrere Maschinen gesendet wird. Die Fahrer können gleichzeitig arbeiten, während die Software die Telemetrie sammelt und automatisch dokumentiert. Die zentrale Rückmeldung erspart manuelle Aufzeichnungen und verringert Fehler bei der Dokumentation.
+====
