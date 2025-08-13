@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-05-15 07:51+0000\n"
+"POT-Creation-Date: 2025-08-13 12:16+0000\n"
 "PO-Revision-Date: 2025-05-16 07:51+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
@@ -31,7 +31,7 @@ msgid "@antora/lunr-extension"
 msgstr "@antora/lunr-extension"
 
 #. type: Plain text
-#: de/antora-playbook.yml:0 de/modules/ROOT/nav.adoc:11
+#: de/antora-playbook.yml:0 de/modules/ROOT/nav.adoc:13
 #, no-wrap
 msgid "Anhang"
 msgstr "Allegati"
@@ -307,7 +307,24 @@ msgid "xref:solution-guides.adoc[Solution Guides]"
 msgstr "xref:solution-guides.adoc[Guide alle soluzioni]."
 
 #. type: Plain text
-#: de/modules/ROOT/nav.adoc:12
+#: de/modules/ROOT/nav.adoc:8
+#, fuzzy
+#| msgid "xref:solution-guides/kuhn.adoc[KUHN]"
+msgid "include::partial$solutionguides/nav.adoc[]"
+msgstr "xref:solution-guides/kuhn.adoc[KUHN]"
+
+#. type: Plain text
+#: de/modules/ROOT/nav.adoc:10
+msgid "xref:Einleitung.adoc[User Stories]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/nav.adoc:11
+msgid "include::partial$User-stories/nav.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/nav.adoc:14
 msgid "xref:appendix/ddis.adoc[DDI-Definition]"
 msgstr "xref:appendix/ddis.adoc[Definizione DDI]"
 
@@ -1045,9 +1062,9 @@ msgid ""
 "Seite weitergeleitet.#"
 msgstr ""
 "Aprire l'indirizzo Internet https://agrirouter.com[agrirouter.com] nel "
-"browser e fare clic sul pulsante di accesso image:account/login-button.png"
-"[logon, 50, 30] in alto a destra del sito. [.result]#Verrete reindirizzati a "
-"una nuova pagina.#"
+"browser e fare clic sul pulsante di accesso image:account/login-button."
+"png[logon, 50, 30] in alto a destra del sito. [.result]#Verrete "
+"reindirizzati a una nuova pagina.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/account.adoc:56
