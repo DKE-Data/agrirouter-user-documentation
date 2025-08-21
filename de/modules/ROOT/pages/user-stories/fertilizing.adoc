@@ -1,8 +1,6 @@
 = Düngung
 
-link:user-stories.adoc[← Zurück zur Übersicht der agrirouter Anwendungsfälle] 
-
-In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich organische und mineralische Düngung untersützen kann.
+In diesem Kapitel wird erläutert, wie der agrirouter die Planung und Durchführung von organischer und mineralischer Düngung unterstützt. Er ermöglicht die Vernetzung von Maschinen und Software, liefert relevante Daten in Echtzeit und erleichtert die Übertragung von Applikationskarten sowie die Dokumentation der ausgebrachten Mengen. Dadurch werden Prozesse effizienter gestaltet, Fehler reduziert und die Nachvollziehbarkeit für Dokumentation und Compliance gewährleistet.
 
 [#organic-fertilization]
 == Organische Düngung
@@ -69,6 +67,12 @@ Max plant mehrere Applikationskarten für unterschiedliche Felder und verteilt d
 Dank der automatischen Dokumentation von Nährstoffmengen, Sperrzonen und Ausbringungszeitpunkten kann Max die organische Düngung präzise und gesetzeskonform durchführen. Weniger erfahrene Fahrer können den Auftrag problemlos abarbeiten, da die Maschine die Dosierung automatisch steuert und Max jederzeit den Überblick behält. Das spart Zeit und reduziert Fehler durch manuelle Dokumentation.
 ====
 
+[NOTE]
+.Praxisbeispiel 4
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
+====
+
 [#mineral-fertilization]
 == Mineralische Düngung
 
@@ -132,4 +136,10 @@ Max plant mehrere Applikationskarten für unterschiedliche Felder und verteilt d
 .Praxisbeispiel 3
 ====
 Durch die geplanten Fahrspuren und automatische Dosierung kann die mineralische Düngung auch von weniger erfahrenen Fahrern korrekt ausgeführt werden. Die Einhaltung von Abständen zu Sperrzonen und Gewässern ist garantiert, und die Abrechnung erfolgt fehlerfrei nach Fläche, Zeit oder Menge.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
 ====

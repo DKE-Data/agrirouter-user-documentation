@@ -1,9 +1,6 @@
 = Aussaat
 
-link:user-stories.adoc[← Zurück zur Übersicht der agrirouter Anwendungsfälle] 
-
-In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Aussaat unterstützen kann.  
-Vom einfachen Versand einer TaskData, teilflächenspezifischen Applikationskarten über die drahtlose Übermittlung an die Maschine bis hin zur automatischen Rückmeldung von Maschinendaten – so werden Arbeitsabläufe effizienter, Fehlerquellen minimiert und die Dokumentation vereinfacht.
+In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat unterstützt. Vom Versand einfacher TaskData über teilflächenspezifische Applikationskarten bis hin zur drahtlosen Übermittlung an die Maschine und der automatischen Rückmeldung von Maschinendaten – der agrirouter erleichtert die Arbeitsabläufe, reduziert Fehlerquellen und vereinfacht die Dokumentation.
 
 == Aufträge ohne Applikationskarte
 
@@ -64,9 +61,7 @@ Vom einfachen Versand einer TaskData, teilflächenspezifischen Applikationskarte
 |sodass ich die Datei nicht erst per USB-Stick übergeben muss.
 |===
 
-== Applikationskarten für Saatgut, Dünger und Pflanzenschutz
-
-=== Kombinierte teilflächenspezifische Planung
+== Kombinierte teilflächenspezifische Applikationskarten 
 
 [cols="3*", options="header"]
 |===
@@ -158,23 +153,33 @@ Vom einfachen Versand einer TaskData, teilflächenspezifischen Applikationskarte
 Max erstellt in seiner Ackerschlagkartei eine Applikationskarte zur Maisaussaat. Diese sendet er über seine Farmsoftware direkt an den Traktor von Laura. Das Terminal empfängt die Karte automatisch über den agrirouter – ohne USB-Stick oder andere Zwischenschritte.  
 Während der Aussaat werden die agronomische und Maschinendaten automatisch zurückübertragen und in der Software dokumentiert. Max hat dadurch jederzeit den Überblick über den Arbeitsfortschritt und spart sich die manuelle Nachbearbeitung.
 ====
+
 [NOTE]
 .Praxisbeispiel 2
 ====
 Max plant mehrere Applikationskarten für verschiedene Kulturarten und verteilt diese an die Maschinenflotte. So kann jeder Fahrer direkt mit der teilflächenspezifischen Aussaat beginnen, ohne manuelle Übertragung. Die Ergebnisse werden automatisiert und in Echtzeit an die Betriebsleitung zurückgemeldet.
 ====
+
 [NOTE]
 .Praxisbeispiel 3
 ====
 Durch die Übertragung der Telemetriedaten behält Max seine Maschinenflotte  im Portal jederzeit im Blick. So kann er genau verfolgen, wie viel Arbeit bereits erledigt wurde, ob jemand Unterstützung benötigt, wenn sich z.B. das Wetter ändert oder ob Saatgut nachgeliefert werden muss. Dadurch kann er die Nachlieferung optimal koordinieren und den Einsatz flexibel steuern.
 ====
+
 [NOTE]
 .Praxisbeispiel 4
 ====
 Durch die automatische Übertragung agronomischer Daten sowie Maschinendaten werden manuelle Eingaben eines Maschinenführers des Lohnunternehmers deutlich reduziert. Dadurch werden Tippfehler vermieden und die Abrechnung erfolgt präziser. So gehen keine Arbeiten mehr verloren oder bleiben unberücksichtigt.
 ====
+
 [NOTE]
 .Praxisbeispiel 5
 ====
 Durch die Übertragung der Fahrspuren von einer Maschine zur anderen kann beispielsweise nach der Düngung das Saatgut genau dort abgelegt werden, wo zuvor das Gülleband ausgebracht wurde. Ebenso können Kartoffeln präzise an den Stellen gepflanzt werden, an denen zuvor die Pflanzdämme vorbereitet wurden.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
 ====

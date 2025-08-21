@@ -1,9 +1,6 @@
 = Pflanzenschutz
 
-link:user-stories.adoc[← Zurück zur Übersicht der agrirouter Anwendungsfälle] 
-
-In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich chemischen und mechanischen Pflanzenschutz untersützen kann.
-
+In diesem Kapitel wird erläutert, wie der agrirouter die Durchführung von chemischem und mechanischem Pflanzenschutz unterstützt. Er vernetzt Maschinen und Software, liefert relevante Daten in Echtzeit und erleichtert die Planung, Steuerung und Dokumentation der Maßnahmen. Dadurch werden Abläufe effizienter gestaltet, Fehler reduziert und die Nachvollziehbarkeit für Dokumentation und Compliance sichergestellt.
 
 [#mechanic-plantprotection]
 == Mechanischer Pflanzenschutz
@@ -40,13 +37,49 @@ Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des mech
 == Praxisbeispiele
 [NOTE]
 .Praxisbeispiel 1
-===
-//Hier fehlen die Praxisbeispiele noch!!
-===
+====
+Peter plant in seiner Farmmanagementsoftware einen Hackdurchgang für Mais auf einem 20 ha großen Feld. Der Auftrag wird über den agrirouter direkt an die Maschine seines Mitarbeiters übermittelt. Dieser erhält die Feldgrenzen und Bearbeitungsdetails auf dem Terminal in der Kabine. So weiß er genau, wo und wie die Arbeit durchgeführt werden soll.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Während Anna mit der Striegelmaschine über das Feld fährt, werden Telemetriedaten wie Arbeitszeit, bearbeitete Fläche und Fortschritt automatisch an ihre Betriebssoftware gesendet. Dadurch spart sie sich die manuelle Dokumentation und hat jederzeit einen aktuellen Überblick über den Stand der Arbeiten.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Ein Lohnunternehmen setzt drei Hackgeräte parallel auf verschiedenen Schlägen ein. Über den agrirouter können die Aufträge gleichzeitig an alle Maschinen verteilt werden. Die Fahrer starten ohne zusätzlichen Abstimmungsaufwand – und die Flotte wird optimal ausgelastet.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Thomas, Disponent in einem Lohnunternehmen, sieht in seiner Software die Telemetriedaten aller eingesetzten Hackmaschinen in Echtzeit. Er erkennt, dass eine Maschine schneller fertig wird als geplant, und disponiert den Fahrer kurzfristig auf ein anderes Feld um.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Nach Abschluss der Arbeiten prüft Claudia, Lohnunternehmerin, die automatisch erfassten Telemetriedaten. Sie nutzt diese zur Abrechnung gegenüber ihren Kunden und hat gleichzeitig eine revisionssichere Dokumentation. Tippfehler oder verlorene Stundenzettel der Fahrer gehören damit der Vergangenheit an.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Während der Arbeit fragt ein Landwirt den Fahrer des Lohnunternehmer, ob er ein angrenzendes Feld direkt mitbearbeiten kann. Der Auftrag war nicht in der Software geplant, wird aber dennoch durchgeführt. Dank der automatisch aufgezeichneten Telemetriedaten erkennt die Betriebssoftware später, dass ein zusätzliches Feld bearbeitet wurde. So kann der Einsatz korrekt dokumentiert und abgerechnet werden.
+====
+
+[NOTE]
+.Praxisbeispiel 7
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
+====
 
 [#chemical-plantprotection]
 == Chemischer Pflanzenschutz
-Beim chemischen Pflanzenschztz wird meistens mit einer Pflanzenschutzspritze über das Feld gefahren. Dabei kann der Bestand auf dem Feld entweder großflächig oder punktuell behandelt werden. Es besteht aber auch die Möglichkeit mit einem Roboter über das Feld zu fahren. Dabei wird der das Feöd größflächig behandelt oder die einzelne Pflanze.
+Beim chemischen Pflanzenschztz wird meistens mit einer Pflanzenschutzspritze über das Feld gefahren. Dabei kann der Bestand auf dem Feld entweder großflächig oder punktuell behandelt werden. Es besteht aber auch die Möglichkeit mit einem Roboter über das Feld zu fahren. Dabei wird der das Feld größflächig behandelt oder die einzelne Pflanze.
 
 Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des chemischen Pflanzenschutz in Kombination mit dem agrirouter Anwendung finden. 
 
@@ -75,15 +108,11 @@ Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des chem
 
 |Als Betriebsleiter
 |möchte ich, dass die Maschinen den Applikationskarten folgen 
-sodass auch weniger erfahrene Fahrer fehlerfrei arbeiten können.
+|sodass auch weniger erfahrene Fahrer fehlerfrei arbeiten können.
 
-Als Lohnunternehmer
+|Als Lohnunternehmer
 |möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen können
 |sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
-
-|Als Landwirt
-|möchte ich Maschinendaten senden
-|damit ich sie im Büro weiterverarbeiten kann.
 
 |===
 
@@ -111,4 +140,10 @@ Durch die Telemetriedaten der Maschinen sieht Laura jederzeit, welche Flächen b
 .Praxisbeispiel 4
 ====
 Max erstellt eine Applikationskarte für einen benachbarten Schlag, die an mehrere Maschinen gesendet wird. Die Fahrer können gleichzeitig arbeiten, während die Software die Telemetrie sammelt und automatisch dokumentiert. Die zentrale Rückmeldung erspart manuelle Aufzeichnungen und verringert Fehler bei der Dokumentation.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
 ====

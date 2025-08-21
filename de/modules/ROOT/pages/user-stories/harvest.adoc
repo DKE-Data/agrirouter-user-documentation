@@ -1,7 +1,5 @@
 = Ernte
 
-link:user-stories.adoc[← Zurück zur Übersicht der agrirouter Anwendungsfälle] 
-
 In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Ernte untersützen kann.
 
 == Getreideernte
@@ -10,10 +8,111 @@ In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Ernte unters�
 |===
 |Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
 |Als Landwirt
-|möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
-|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+|möchte ich einen Ernteauftrag für ein bestimmtes Feld planen und an die Maschine senden
+|sodass der Fahrer genau weiß, welche Fläche geerntet werden soll und wie die Ernte durchgeführt werden soll.
+
+|Als Landwirt
+|möchte ich, dass Telemetriedaten automatisch zurückgemeldet werden
+|sodass Erntezeit, gefahrene Flächen und Ertrag dokumentiert werden, ohne manuellen Aufwand.
+
+|Als Landwirt
+|möchte ich Aufträge an mehrere Maschinen gleichzeitig senden können
+|sodass die Flotte effizient eingesetzt wird und Verzögerungen minimiert werden
+
+|Als Landwirt
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert werden können.
+
+|Als Disponent im Lohnunternehmen
+|möchte ich die Telemetriedaten aller Maschinen einsehen
+|sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann.
+
+|Als Lohnunternehmer
+|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen können
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+
+|Als Landwirt
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können.
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Max plant die Getreideernte auf seinen Feldern und erstellt dafür Ernteaufträge in der Farmsoftware. Die Aufträge werden direkt an den Lohnunternehmer übermittelt. Die Fahrer sehen sofort, welches Feld sie ernten müssen und welche Fläche wie bearbeitet werden soll.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Während der Ernte werden Telemetriedaten in Echtzeit an die Software zurückgemeldet. Max kann somit direkt einsehen, welche Fläche bereits abgeerntet wurde, wie lange die Maschine im Einsatz war und wie viel Ertrag eingebracht wurde – ohne dass er manuell Protokolle führen muss.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Max verteilt Ernteaufträge auf zwei Mähdrescher gleichzeitig. Beide Maschinen arbeiten parallel auf unterschiedlichen Feldern. Dank der automatischen Telemetrierückmeldung kann Max jederzeit den Fortschritt der gesamten Flotte überwachen und Engpässe frühzeitig erkennen.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Der Disponent eines Lohnunternehmens überwacht alle Maschinen in Echtzeit. Als eine Maschine ausfällt, kann er sofort die Einsatzplanung anpassen und einem anderen Fahrer Aufgaben zuweisen, um den Zeitplan einzuhalten.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Nach der Ernte überprüft der Lohnunternehmer die Telemetriedaten. Er erkennt, dass auf einem Feld versehentlich weniger geerntet wurde als geplant. Mit den Telemetriedaten kann er die Abrechnung korrigieren und sicherstellen, dass keine Arbeit verloren geht.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Ein Fahrer hat spontan ein zusätzliches Feld geerntet, das nicht in der ursprünglichen Planung enthalten war. Die Telemetriedaten zeigen diese zusätzliche Arbeit genau an. Der Lohnunternehmer kann die erbrachte Leistung nachvollziehen und korrekt abrechnen, ohne dass die spontane Arbeit verloren geht.
+====
+
+[NOTE]
+.Praxisbeispiel 7
+====
+Dank der detaillierten Telemetriedaten und Ertragsaufzeichnungen kann der Landwirt im Folgejahr präzise Dünge- und Aussaatkarten erstellen. Die Software nutzt die Ertragsinformationen des Vorjahres, um die Empfehlungen für teilflächenspezifische Maßnahmen zu optimieren.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Die erfassten Erntemengen werden automatisch in der Farmsoftware dokumentiert. Der Landwirt kann diese Daten für interne Auswertungen, aber auch für gesetzliche oder betriebliche Nachweise verwenden, ohne dass zusätzliche manuelle Aufzeichnungen nötig sind.
+====
 
 == Strohernte
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+|Als Landwirt
+|möchte Strohpressaufträge planen und an die Maschine senden
+|damit der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen.      |
+| Als Landwirt           | möchte Telemetriedaten automatisch zurückgemeldet bekommen                  | damit Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand.        |
+| Als Landwirt           | möchte einen Auftrag an mehrere Geräte gleichzeitig senden können           | damit die Flotte effizient eingesetzt wird.                                                    |
+| Als Disponent im Lohnunternehmen | möchte Telemetriedaten aller Maschinen einsehen                        | damit Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können.       |
+| Als Lohnunternehmer    | möchte Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen    | damit Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.                        |
+| Als Landwirt           | möchte Fahrspuren einer Maschine an andere Maschinen übermitteln           | damit nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen.  |
+
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
 == Grasernte
 
 [cols="3*", options="header"]
@@ -26,16 +125,19 @@ In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Ernte unters�
     Pressen
     Häckseln
     Heu machen
-
-== Strohernte
-[cols="3*", options="header"]
 |===
-|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
-|Als Landwirt
-|möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
-|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
 
-    Ballenpressen
+[NOTE]
+.Praxisbeispiel 2
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
 
 == Maisernte
 
@@ -45,6 +147,20 @@ In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Ernte unters�
 |Als Landwirt
 |möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
 |sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+|===
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita.
+====
 
 == Ganzpflanzensilage
 
@@ -54,5 +170,17 @@ In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Ernte unters�
 |Als Landwirt
 |möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
 |sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+|===
 
-===
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====

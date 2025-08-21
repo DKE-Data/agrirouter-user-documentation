@@ -1,8 +1,8 @@
 = Logistik
 
-link:user-stories.adoc[← Zurück zur Übersicht der agrirouter Anwendungsfälle] 
+In der Landwirtschaft sind Transport und Maschinenkoordination oft eine Herausforderung: Rundballen, Silage oder andere Ernteprodukte müssen pünktlich bewegt werden, und die Abläufe sollen effizient und transparent ablaufen. Der agrirouter unterstützt in diesem Bereich, indem er Maschinen, Transportfahrzeuge und Software vernetzt, Telemetriedaten in Echtzeit liefert und die Planung, Koordination sowie Abrechnung von Transporten erleichtert. Dadurch wird jederzeit der Überblick über die Abläufe gewährleistet, und auf Änderungen kann schneller reagiert werden.
 
-In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Logistik untersützen kann.
+== Übermittlung von Aufträgen
 
 [cols="3*", options="header"]
 |===
@@ -11,16 +11,40 @@ In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Logistik unte
 |möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
 |sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
 
-|Als Disponent in einem Lohnunternehmen
-|möchte ich Telemetriedaten der Maschinen in Echtzeit ins Büro übertragen
-|sodass ich die Abrechnung exakt und ohne manuelle Nacharbeit erstellen kann.
+|Als Landwirt
+|möchte ich die transportierten Mengen dokumentieren
+|sodass die Nachvollziehbarkeit für Dokumentation und Compliance gewährleistet ist
 
 |Als Disponent in einem Lohnunternehmen
 |möchte ich Telemetriedaten zur Position und zum Arbeitsfortschritt meiner Flotte erhalten
 |sodass ich den Einsatz der Maschinen effizient koordinieren und bei Bedarf kurzfristig umdisponieren kann.
 
 |Als Lohnunternehmer
-|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen können
-|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
-
+|möchte ich Telemetriedaten der Transportfahrzeuge automatisch erfassen
+|sodass ich die Abrechnung der Transportaufträge transparent und fehlerfrei durchführen kann.
 |=== 
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Max plant einen Transport von Rundballen von Feld A zur Lagerstätte in seiner Farmsoftware. Er erstellt den Auftrag und sendet ihn direkt an den Fahrer. Der Fahrer erhält alle Informationen über Route, Startzeit und Ziel. Während der Fahrt werden Telemetriedaten des Traktors übertragen, sodass Max jederzeit sehen kann, wo sich das Fahrzeug befindet und ob der Transport planmäßig verläuft.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Tom ist Disponent eines Lohnunternehmens. Er erhält in Echtzeit die Position und den Fortschritt aller Transportfahrzeuge auf seinem Dashboard. Als ein Silagetransportfahrzeug auf dem Weg zu Feld B ausfällt, kann Tom sofort einen freien Fahrer mit einem anderen Fahrzeug umleiten, sodass die Ernte ohne Verzögerungen fortgesetzt wird.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Sven betreibt ein Lohnunternehmen und nutzt die Telemetriedaten seiner Transportfahrzeuge. Start, Stopp, gefahrene Strecken und transportierte Mengen werden automatisch an die Abrechnungssoftware übermittelt. Sven kann daraufhin die Rechnungen für die Landwirte transparent und fehlerfrei erstellen, ohne manuelle Kontrolle der einzelnen Transporte.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
+====
