@@ -19,12 +19,16 @@ RUN apt-get update && apt-get install -y \
     liblocale-gettext-perl \
     libterm-readkey-perl \
     libtext-wrapi18n-perl \
+    libxml2-utils \
     xsltproc \
     docbook-xsl \
     && rm -rf /var/lib/apt/lists/*
 
 # Install po4a from GitHub
-RUN git clone --branch v0.66 https://github.com/mquinson/po4a.git /po4a \
+
+# this is a temporary change until https://github.com/mquinson/po4a/pull/611/ is merged and released
+# RUN git clone --branch v0.74 https://github.com/mquinson/po4a.git /po4a \
+RUN git clone --branch fix-asciidoc-include-in-lists https://github.com/oliverrahner/po4a.git /po4a \
     && cd /po4a \
     && perl Build.PL \
     && ./Build \
