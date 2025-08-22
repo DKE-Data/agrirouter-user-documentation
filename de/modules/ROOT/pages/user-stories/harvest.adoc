@@ -34,7 +34,7 @@ In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Ernte unters�
 |Als Landwirt
 |möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
 |sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können.
-
+|===
 == Praxisbeispiele
 [NOTE]
 .Praxisbeispiel 1
@@ -92,25 +92,58 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 |Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
 |Als Landwirt
 |möchte Strohpressaufträge planen und an die Maschine senden
-|damit der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen.      |
-| Als Landwirt           | möchte Telemetriedaten automatisch zurückgemeldet bekommen                  | damit Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand.        |
-| Als Landwirt           | möchte einen Auftrag an mehrere Geräte gleichzeitig senden können           | damit die Flotte effizient eingesetzt wird.                                                    |
-| Als Disponent im Lohnunternehmen | möchte Telemetriedaten aller Maschinen einsehen                        | damit Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können.       |
-| Als Lohnunternehmer    | möchte Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen    | damit Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.                        |
-| Als Landwirt           | möchte Fahrspuren einer Maschine an andere Maschinen übermitteln           | damit nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen.  |
+|sodass der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen.
 
+|Als Landwirt
+|möchte Telemetriedaten automatisch zurückgemeldet bekommen
+|sodass Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand.
+
+|Als Landwirt
+|möchte einen Auftrag an mehrere Geräte gleichzeitig senden können
+|sodass die Flotte effizient eingesetzt wird.
+
+|Als Disponent im Lohnunternehmen
+|möchte Telemetriedaten aller Maschinen einsehen
+|sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können.
+
+|Als Lohnunternehmer
+|möchte Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+
+|Als Landwirt
+|möchte Fahrspuren einer Maschine an andere Maschinen übermitteln
+|sodass nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen.
+|===
 
 == Praxisbeispiele
 [NOTE]
 .Praxisbeispiel 1
 ====
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Nach der Getreideernte plant ein Landwirt den Stroheinsatz. Der Pressenfahrer erhält den Auftrag direkt über den agrirouter auf seine Maschine. Während der Arbeit werden Ballenanzahl, Gewicht und Feuchtigkeit automatisch erfasst und in die Farmmanagement-Software übertragen. Der Landwirt hat dadurch jederzeit einen Überblick über die Menge und Qualität des Strohs.
 ====
 
 [NOTE]
 .Praxisbeispiel 2
 ====
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Ein Lohnunternehmen setzt mehrere Pressen parallel ein. Dank der über den agrirouter synchronisierten Aufträge wissen alle Fahrer, auf welchen Flächen sie arbeiten sollen. Die erfassten Telemetriedaten laufen im Büro zusammen und ermöglichen es dem Disponenten, die Auslastung der Maschinen zu überwachen und bei Bedarf kurzfristig umzudisponieren.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Ein Mähdrescher überträgt beim Dreschen seine Fahrspuren an den nachfolgenden Pressenfahrer. Dieser muss keine eigenen Fahrspuren mehr anlegen und kann sich direkt an den bestehenden orientieren. Dadurch wird die Arbeit effizienter und unnötige Doppelspurfahrten werden vermieden.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Bei der Abrechnung stellt ein Lohnunternehmer fest, dass ein Feld zusätzlich mitgepresst wurde, obwohl dies nicht im ursprünglichen Auftrag vorgesehen war. Durch die automatisch erfassten Telemetriedaten ist der Zusatzauftrag dennoch dokumentiert und kann korrekt in Rechnung gestellt werden.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Ein Mitarbeiter vergisst, einen spontanen Pressauftrag im System zu erfassen. Später erkennt der Disponent im Büro anhand der Telemetriedaten, dass auf einer zusätzlichen Fläche Ballen gepresst wurden. Diese Daten können zur Nachdokumentation genutzt werden, sodass der Auftrag nicht verloren geht und trotzdem abgerechnet werden kann.
 ====
 
 == Grasernte
@@ -118,23 +151,93 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 [cols="3*", options="header"]
 |===
 |Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+
 |Als Landwirt
 |möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
-|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll und der weitere Arbeitsablauf (Wenden, Schwaden, Häckseln) optimal vorbereitet ist.
 
-    Pressen
-    Häckseln
-    Heu machen
+|Als Disponent im Lohnunternehmen
+|möchte ich für den Schwaderfahrer eine A-B-Linie planen und an die Maschine senden
+|sodass die Schwaden gerade und überlappend angelegt werden können.
+
+|Als Schwaderfahrer
+|möchte ich meine aufgezeichnete A-B-Linie an den Häckslerfahrer übermitteln
+|sodass dieser die Schwaden optimal aufnehmen kann.
+
+|Als Landwirt
+|möchte ich für den Häcksler die Schnittlänge (Häckselgutlänge) digital festlegen können
+|sodass die Silagequalität an die gewünschte Fütterung angepasst ist.
+
+|Als Landwirt
+|möchte ich, dass die Telemetriedaten der Walzfahrzeuge auf dem Silo erfasst werden
+|sodass dokumentiert ist, wie viel Zeit und Überfahrten in die Verdichtung investiert wurden.
+
+|Als Lohnunternehmer
+|möchte ich die gesamten Maschinendaten (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) zusammenführen
+|sodass ich die Arbeit für die Abrechnung und für den Kunden transparent dokumentieren kann.
+
+|Als Landwirt
+|möchte ich die erfassten Ertragsmengen aus der Grasernte speichern
+|sodass ich die Daten für die Futterplanung und für die Optimierung zukünftiger Ernten nutzen kann.
+
+|Als Landwirt
+|möchte ich die erfassten Ertragsmengen aus der Grasernte speichern
+|sodass ich die Daten für die Optimierung zukünftiger Düngungen nutzen kann.
+
+|Als Landwirt
+|möchte ich die erfassten Ertragsmengen aus der Grasernte speichern
+|sodass ich die Daten für die Dokumentation nutzen kann.
+
+|Als Disponent im Lohnunternehmen
+|möchte Telemetriedaten aller Maschinen einsehen
+|sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können.
+
+|Als Landwirt
+|möchte Heupressaufträge planen und an die Maschine senden
+|sodass der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen.
+
+|Als Lohnunternehmer
+|möchte Telemetriedaten automatisch zurückgemeldet bekommen
+|sodass Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand.
 |===
+
 == Praxisbeispiele
 [NOTE]
 .Praxisbeispiel 1
+====
+Laura plant die Grasernte auf ihrem Betrieb. Über ihre Farmsoftware legt sie die Arbeitsaufträge für Mähen, Wenden und Schwaden an und sendet diese an die Maschinen. Die Fahrer wissen dadurch genau, welches Feld in welcher Reihenfolge bearbeitet werden muss. So wird der gesamte Ablauf der Grasernte effizient organisiert.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Thomas, Disponent in einem Lohnunternehmen, erstellt eine A-B-Linie für den Schwaderfahrer. Dieser erhält die Linie direkt auf sein Terminal und kann die Schwaden gerade und sauber anlegen. Der Schwaderfahrer übermittelt anschließend seine aufgezeichnete A-B-Linie an den Häckslerfahrer. Dadurch kann der Häcksler die Schwaden optimal aufnehmen, was die Ernteleistung steigert.
+====
+
+.Praxisbeispiel 3
+====
+Anna legt für den Häcksler die gewünschte Schnittlänge digital fest. Diese Einstellung wird automatisch an den Fahrer und die Maschine übermittelt. So wird sichergestellt, dass die Silagequalität genau auf die Bedürfnisse der Fütterung abgestimmt ist.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+.Praxisbeispiel 5
 ====
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ====
 
 [NOTE]
-.Praxisbeispiel 2
+.Praxisbeispiel 6
+====
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+====
+
+[NOTE]
+.Praxisbeispiel 7
 ====
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ====
