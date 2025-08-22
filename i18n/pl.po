@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-22 12:21+0000\n"
+"POT-Creation-Date: 2025-08-22 13:42+0000\n"
 "PO-Revision-Date: 2025-05-16 07:52+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Polish <https://weblate.my-agrirouter.com/projects/agrirouter/"
@@ -25,17 +25,179 @@ msgstr ""
 msgid "agrirouter Bedienungsanleitung"
 msgstr "Instrukcja obsługi agrirouter"
 
-#. type: Array Element: antora extensions
-#: de/antora-playbook.yml:1
+#. type: Plain text
+#: de/antora-playbook.yml:1 de/modules/ROOT/nav.adoc:11
 #, no-wrap
-msgid "@antora/lunr-extension"
-msgstr "@antora/lunr-extension"
+msgid "Anhang"
+msgstr "Dodatek"
 
-#. type: Array Element: asciidoc extensions
+#. type: Hash Value: asciidoc attributes caution-caption
 #: de/antora-playbook.yml:1
 #, no-wrap
-msgid "asciidoctor-kroki"
-msgstr "asciidoctor-kroki"
+msgid "Achtung"
+msgstr "Uwaga"
+
+#. type: Hash Value: asciidoc attributes chapter-signifier
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Kapitel"
+msgstr "Rozdział"
+
+#. type: Hash Value: asciidoc attributes example-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Beispiel"
+msgstr "Przykład"
+
+#. type: Hash Value: asciidoc attributes figure-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Abbildung"
+msgstr "Ilustracja"
+
+#. type: Hash Value: asciidoc attributes icons
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "font"
+msgstr "font"
+
+#. type: Hash Value: asciidoc attributes idseparator
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "-"
+msgstr "-"
+
+#. type: Hash Value: asciidoc attributes important-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Wichtig"
+msgstr "Ważne"
+
+#. type: Hash Value: asciidoc attributes lang
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "de"
+msgstr "pl"
+
+#. type: Hash Value: asciidoc attributes last-update-label
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Zuletzt aktualisiert"
+msgstr "Ostatnia aktualizacja"
+
+#. type: Hash Value: asciidoc attributes listing-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Listing"
+msgstr "Notowania"
+
+#. type: Hash Value: asciidoc attributes manname-title
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Bezeichnung"
+msgstr "Oznaczenie"
+
+#. type: Hash Value: asciidoc attributes note-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Anmerkung"
+msgstr "Uwaga"
+
+#. type: Hash Value: asciidoc attributes page-edit-this-page
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Diese Seite bearbeiten"
+msgstr "Edytuj tę stronę"
+
+#. type: Hash Value: asciidoc attributes page-legal-notice
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Impressum"
+msgstr "Nadruk"
+
+#. type: Hash Value: asciidoc attributes page-privacy-policy
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Datenschutz"
+msgstr "Ochrona danych"
+
+#. type: Hash Value: asciidoc attributes page-search-note
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Suchen"
+msgstr "Wyszukiwanie"
+
+#. type: Hash Value: asciidoc attributes page-toctitle
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Inhalt"
+msgstr "Zawartość"
+
+#. type: Hash Value: asciidoc attributes part-signifier
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Teil"
+msgstr "Część"
+
+#. type: Hash Value: asciidoc attributes preface-title
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Vorwort"
+msgstr "Przedmowa"
+
+#. type: Hash Value: asciidoc attributes section-refsig
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Abschnitt"
+msgstr "Sekcja"
+
+#. type: Hash Value: asciidoc attributes table-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Tabelle"
+msgstr "Tabela"
+
+#. type: Hash Value: asciidoc attributes tip-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Hinweis"
+msgstr "Wskazówka"
+
+#. type: Hash Value: asciidoc attributes toc-title
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Inhaltsverzeichnis"
+msgstr "Spis treści"
+
+#. type: Hash Value: asciidoc attributes untitled-label
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Ohne Titel"
+msgstr "Bez tytułu"
+
+#. type: Hash Value: asciidoc attributes version-label
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Version"
+msgstr "Wersja"
+
+#. type: Hash Value: asciidoc attributes warning-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Warnung"
+msgstr "Ostrzeżenie"
+
+#. type: Hash Value: content sources start_path
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "de/"
+msgstr "pl/"
+
+#. type: Hash Value: site url
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "/de"
+msgstr "/pl"
 
 #. type: Content of: <div><div><div>
 #: de/supplemental-ui/partials/header-menu.hbs:4
@@ -89,11 +251,6 @@ msgstr "xref:solution-guides.adoc[Solution Guides]"
 #: de/modules/ROOT/nav.adoc:9
 msgid "xref:user-stories.adoc[User Stories]"
 msgstr "xref:user-stories.adoc[Narracje Użytkowników]"
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:11
-msgid "Anhang"
-msgstr "Dodatek"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:12
@@ -13246,116 +13403,20 @@ msgid ""
 msgstr ""
 
 #, no-wrap
-#~ msgid "Achtung"
-#~ msgstr "Uwaga"
-
-#, no-wrap
-#~ msgid "Kapitel"
-#~ msgstr "Rozdział"
-
-#, no-wrap
-#~ msgid "Beispiel"
-#~ msgstr "Przykład"
-
-#, no-wrap
-#~ msgid "Abbildung"
-#~ msgstr "Ilustracja"
-
-#, no-wrap
-#~ msgid "font"
-#~ msgstr "font"
-
-#, no-wrap
-#~ msgid "-"
-#~ msgstr "-"
-
-#, no-wrap
-#~ msgid "Wichtig"
-#~ msgstr "Ważne"
-
-#, no-wrap
-#~ msgid "true"
-#~ msgstr "true"
-
-#, no-wrap
 #~ msgid "style.puml"
 #~ msgstr "style.puml"
 
 #, no-wrap
-#~ msgid "de"
-#~ msgstr "pl"
+#~ msgid "@antora/lunr-extension"
+#~ msgstr "@antora/lunr-extension"
 
 #, no-wrap
-#~ msgid "Zuletzt aktualisiert"
-#~ msgstr "Ostatnia aktualizacja"
+#~ msgid "asciidoctor-kroki"
+#~ msgstr "asciidoctor-kroki"
 
 #, no-wrap
-#~ msgid "Listing"
-#~ msgstr "Notowania"
-
-#, no-wrap
-#~ msgid "Bezeichnung"
-#~ msgstr "Oznaczenie"
-
-#, no-wrap
-#~ msgid "Anmerkung"
-#~ msgstr "Uwaga"
-
-#, no-wrap
-#~ msgid "Diese Seite bearbeiten"
-#~ msgstr "Edytuj tę stronę"
-
-#, no-wrap
-#~ msgid "Impressum"
-#~ msgstr "Nadruk"
-
-#, no-wrap
-#~ msgid "Datenschutz"
-#~ msgstr "Ochrona danych"
-
-#, no-wrap
-#~ msgid "Suchen"
-#~ msgstr "Wyszukiwanie"
-
-#, no-wrap
-#~ msgid "Inhalt"
-#~ msgstr "Zawartość"
-
-#, no-wrap
-#~ msgid "Teil"
-#~ msgstr "Część"
-
-#, no-wrap
-#~ msgid "Vorwort"
-#~ msgstr "Przedmowa"
-
-#, no-wrap
-#~ msgid "Abschnitt"
-#~ msgstr "Sekcja"
-
-#, no-wrap
-#~ msgid "Tabelle"
-#~ msgstr "Tabela"
-
-#, no-wrap
-#~ msgid "Hinweis"
-#~ msgstr "Wskazówka"
-
-#, no-wrap
-#~ msgid "Inhaltsverzeichnis"
-#~ msgstr "Spis treści"
-
-#, no-wrap
-#~ msgid "Ohne Titel"
-#~ msgstr "Bez tytułu"
-
-#, no-wrap
-#~ msgid "Version"
-#~ msgstr "Wersja"
-
-#, no-wrap
-#~ msgid "Warnung"
-#~ msgstr "Ostrzeżenie"
+#~ msgid "true"
+#~ msgstr "true"
 
 #, no-wrap
 #~ msgid "{web_url}/edit/main/{path}"
@@ -13366,20 +13427,12 @@ msgstr ""
 #~ msgstr "HEAD"
 
 #, no-wrap
-#~ msgid "de/"
-#~ msgstr "pl/"
-
-#, no-wrap
 #~ msgid ".."
 #~ msgstr ".."
 
 #, no-wrap
 #~ msgid "manual:ROOT:introduction.adoc"
 #~ msgstr "manual:ROOT:introduction.adoc"
-
-#, no-wrap
-#~ msgid "/de"
-#~ msgstr "/pl"
 
 #, no-wrap
 #~ msgid "https://files.my-agrirouter.com/ui-bundle-release.zip"
