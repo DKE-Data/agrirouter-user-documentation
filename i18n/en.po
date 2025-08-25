@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-08-25 19:31+0000\n"
-"PO-Revision-Date: 2025-08-25 21:29+0000\n"
+"PO-Revision-Date: 2025-08-25 21:42+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -3555,10 +3555,9 @@ msgstr "Simply click on the corresponding link."
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories.adoc:1
-#, fuzzy, no-wrap
-#| msgid "agrirouter verbinden"
+#, no-wrap
 msgid "agrirouter User Stories"
-msgstr "Connect agrirouter"
+msgstr "agrirouter User Stories"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories.adoc:4
@@ -12158,7 +12157,7 @@ msgstr "I want to send several prescription maps to several machines"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:109
 #, no-wrap
 msgid "möchte ich vor Beginn die geplanten Fahrspuren erhalten"
-msgstr "I would like to receive the planned guidance lines before starting"
+msgstr "I want to receive the planned guidance lines before starting"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:32
@@ -12356,10 +12355,9 @@ msgstr "so that the driver knows exactly which area is to be harvested and how."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:17
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#, no-wrap
 msgid "möchte ich Aufträge an mehrere Maschinen gleichzeitig senden können"
-msgstr "I want to be able to send several tasks to several machines at the same time"
+msgstr "I want to be able to send orders to several machines at the same time"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:19
@@ -12709,10 +12707,10 @@ msgstr "so that the driver knows exactly which work is to be carried out on whic
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:184
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich für den Schwaderfahrer eine A-B-Linie planen und an die Maschine senden"
-msgstr "I want to plan an A-B line for the rake operator and send it to the machine"
+msgstr ""
+"I want to plan an A-B line for the rake operator and send it to the machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:186
@@ -13235,10 +13233,9 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Datenschutz"
+#, no-wrap
 msgid "Pflanzenschutz"
-msgstr "Privacy"
+msgstr "Plant Protection"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:4
@@ -13295,10 +13292,9 @@ msgstr "so that working time, processed area and progress are documented without
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
-msgstr "Send an application map to several Endpoints simultaneously"
+msgstr "I want to be able to send an order to several devices at the same time"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:43
@@ -13596,8 +13592,7 @@ msgstr "so that it can process different sowing orders one after the other."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:29
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Aufträge an mehrere Maschinen senden"
 msgstr "I want to send several tasks to several machines"
 
@@ -13658,15 +13653,13 @@ msgstr "so that different machines can process different surfaces at the same ti
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:56
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+#, no-wrap
 msgid "möchte ich Applikationskarten spontan an meinen Fahrer übermitteln können"
-msgstr "I want to be able to send application cards spontaneously to my driver"
+msgstr "I want to be able to send application maps spontaneously to my driver"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:60
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+#, no-wrap
 msgid "möchte ich Applikationskarten direkt auf meinem Terminal empfangen"
 msgstr "I want to receive application maps directly on my terminal"
 
@@ -13726,8 +13719,7 @@ msgstr "so that complex sowing jobs can be carried out in parallel."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:94
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Auftragsdateien (TaskData) von einer Maschine an die Agrarsoftware senden"
 msgstr "I want to send several task files (TaskData) from a machine to the agricultural software"
 
