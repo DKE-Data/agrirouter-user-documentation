@@ -16,14 +16,33 @@ In der Landwirtschaft sind Transport und Maschinenkoordination oft eine Herausfo
 |möchte ich die transportierten Mengen dokumentieren
 |sodass die Nachvollziehbarkeit für Dokumentation und Compliance gewährleistet ist
 
+|Als Nutzer einer Agrarsoftware
+|möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen
+|sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist.
+|=== 
+
+== Telemetrie & Dokumentation
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
 |Als Disponent in einem Lohnunternehmen
 |möchte ich Telemetriedaten zur Position und zum Arbeitsfortschritt meiner Flotte erhalten
 |sodass ich den Einsatz der Maschinen effizient koordinieren und bei Bedarf kurzfristig umdisponieren kann.
 
+|Als Maschinenführer
+|möchte ich, dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet
+|sodass die Dokumentation für mich reduziert wird.
+
+|Als Lohnunternehmer
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
 |Als Lohnunternehmer
 |möchte ich Telemetriedaten der Transportfahrzeuge automatisch erfassen
 |sodass ich die Abrechnung der Transportaufträge transparent und fehlerfrei durchführen kann.
-|=== 
+|===
 
 == Praxisbeispiele
 [NOTE]

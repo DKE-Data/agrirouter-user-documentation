@@ -1,6 +1,6 @@
 = Aussaat
 
-In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat unterstützt. Vom Versand einfacher TaskData über teilflächenspezifische Applikationskarten bis hin zur automatischen Rückmeldung von Maschinendaten – der agrirouter erleichtert die Arbeitsabläufe, reduziert Fehlerquellen und vereinfacht die Dokumentation.
+In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat unterstützt. Vom Versand einfacher Auftragsdateien (TaskData) über teilflächenspezifische Applikationskarten bis hin zur automatischen Rückmeldung von Maschinendaten – der agrirouter erleichtert die Arbeitsabläufe, reduziert Fehlerquellen und vereinfacht die Dokumentation.
 
 == Aufträge ohne Applikationskarte
 
@@ -8,26 +8,25 @@ In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat unterstützt. 
 |===
 |Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können 
-|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
-
-|Als Nutzer einer Agrarsoftware 
-|möchte ich einen Auftrag an eine Maschine senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich einen Auftrag an eine Maschine senden
 |sodass die Maschine die Aussaat gemäß meiner Planung durchführen kann.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich einen Auftrag an mehrere Maschinen senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können
+|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
+
+|Als Nutzer einer Agrarsoftware
+|möchte ich einen Auftrag an mehrere Maschinen senden
 |sodass mehrere Maschinen parallel auf einer Fläche arbeiten können.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich mehrere Aufträge an eine Maschine senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich mehrere Aufträge an eine Maschine senden
 |sodass sie nacheinander verschiedene Aussaataufträge abarbeiten kann.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich mehrere Aufträge an mehrere Maschinen senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich mehrere Aufträge an mehrere Maschinen senden
 |sodass die Maschinen die Aussaat gemäß meiner Planung durchführen können.
-
 |===
 
 == Teilflächenspezifische Applikationskarten
@@ -36,28 +35,28 @@ In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat unterstützt. 
 |===
 |Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich Applikationskarten spontan an meinen Fahrer übermitteln können 
-|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
-
-|Als Nutzer einer Agrarsoftware 
-|möchte ich eine Applikationskarte an eine Maschine senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich eine Applikationskarte an eine Maschine senden
 |sodass die Maschine teilflächenspezifisch säen kann.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich mehrere Applikationskarten an eine Maschine senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich mehrere Applikationskarten an eine Maschine senden
 |sodass unterschiedliche Felder bearbeitet werden können.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich eine Applikationskarte an mehrere Maschinen senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich eine Applikationskarte an mehrere Maschinen senden
 |sodass mehrere Maschinen dieselbe Planung eines Feldes nutzen können.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich mehrere Applikationskarten an mehrere Maschinen senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich mehrere Applikationskarten an mehrere Maschinen senden
 |sodass verschiedene Maschinen gleichzeitig unterschiedliche Flächen bearbeiten können.
 
-|Als Maschinenführer 
-|möchte ich Applikationskarten direkt auf meinem Terminal empfangen 
+|Als Nutzer einer Agrarsoftware
+|möchte ich Applikationskarten spontan an meinen Fahrer übermitteln können
+|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
+
+|Als Maschinenführer
+|möchte ich Applikationskarten direkt auf meinem Terminal empfangen
 |sodass ich die Maßnahmen ohne manuelle Eingaben ausführen kann.
 |===
 
@@ -67,20 +66,20 @@ In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat unterstützt. 
 |===
 |Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an eine Maschine senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an eine Maschine senden
 |sodass alle Maßnahmen in einem Arbeitsgang ausgeführt werden können.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich mehrere kombinierte Applikationskarten an eine Maschine senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich mehrere kombinierte Applikationskarten an eine Maschine senden
 |sodass unterschiedliche komplexe Kulturmaßnahmen nacheinander abgearbeitet werden können.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an mehrere Maschinen senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an mehrere Maschinen senden
 |sodass mehrere Maschinen dieselbe Planung eines Feldes nutzen können.
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich mehrere kombinierte Applikationskarten an mehrere Maschinen senden 
+|Als Nutzer einer Agrarsoftware
+|möchte ich mehrere kombinierte Applikationskarten an mehrere Maschinen senden
 |sodass parallele komplexe Aussaataufträge möglich sind.
 |===
 
@@ -90,29 +89,29 @@ In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat unterstützt. 
 |===
 |Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich Ist-Daten von meinen Maschinen an die Agrarsoftware gesendet bekommen 
-|sodass ich die durchgeführten Maßnahmen automatisch dokumentieren kann.
-
-|Als Nutzer einer Agrarsoftware 
-|möchte ich eine Auftragsdatei (TaskData) von einer Maschine an die Agrarsoftware gesendet bekommen 
-|sodass ich nachvollziehen kann, welche Tätigkeit auf dem Feld durchgeführt wurde.
-
-|Als Maschinenführer 
-|möchte ich mehrere Auftragsdateien (TaskData) von einer Maschine an die Agrarsoftware senden 
+|Als Maschinenführer
+|möchte ich mehrere Auftragsdateien (TaskData) von einer Maschine an die Agrarsoftware senden
 |sodass ich mehrere bearbeitete Flächen effizient und nicht einzeln übermitteln muss.
 
-|Als Maschinenführer 
-|möchte ich automatisiert Telemetriedaten an die Agrarsoftware senden 
+|Als Maschinenführer
+|möchte ich automatisiert Telemetriedaten an die Agrarsoftware senden
 |sodass ich bei der Dokumentation meiner Arbeit entlastet werde und keine Tippfehler entstehen können.
 
-|Als Lohnunternehmer 
+|Als Nutzer einer Agrarsoftware
+|möchte ich eine Auftragsdatei (TaskData) von einer Maschine an die Agrarsoftware gesendet bekommen
+|sodass ich nachvollziehen kann, welche Tätigkeit auf dem Feld durchgeführt wurde.
+
+|Als Nutzer einer Agrarsoftware
+|möchte ich Ist-Daten von meinen Maschinen an die Agrarsoftware gesendet bekommen
+|sodass ich die durchgeführten Maßnahmen automatisch dokumentieren kann.
+
+|Als Lohnunternehmer
 |möchte ich Maschinendaten in der Agrarsoftware erhalten
 |sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
 
-|Als Lohnunternehmer 
-|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
-|sodass die Abrechnung präzise nach ha, Zeit oder Menge erfolgen kann.
+|Als Lohnunternehmer
+|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
 |===
 
 == Maschine-zu-Maschine-Kommunikation (z. B. Spurlinien)

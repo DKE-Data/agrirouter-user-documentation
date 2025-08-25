@@ -8,20 +8,20 @@ Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen ode
 |===
 |Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
 
-|Als Nutzer einer Agrarsoftware 
-|möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können 
-|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
-
 |Als Landwirt
 |möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
 |sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
 
 |Als Nutzer einer Agrarsoftware
-|möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)
+|möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können
+|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
+
+|Als Nutzer einer Agrarsoftware
+|möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)
 |sodass die Arbeit präzise entlang der geplanten Spuren erfolgt.
 
 |Als Nutzer einer Agrarsoftware
-|möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe)
+|möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe)
 |sodass die Maschine die Bearbeitung gemäß den Vorgaben ausführt.
 
 |Als Nutzer einer Agrarsoftware
@@ -35,6 +35,10 @@ Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen ode
 |Als Maschinenführer
 |möchte ich Daten von Maschine A an Maschine B senden
 |sodass diese nahtlos mit den vorherigen Arbeitsergebnissen fortfahren kann.
+
+|Als Nutzer einer Agrarsoftware
+|möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen
+|sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist.
 |===
 
 == Telemetrie & Dokumentation
@@ -47,21 +51,17 @@ Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen ode
 |möchte ich Telemetriedaten in Echtzeit in der Agrarsoftware erhalten
 |sodass im Lohnunternehmen der Arbeitsfortschritt verfolgt und weitere Planung optimiert werden kann.
 
-|Als Nutzer einer Agrarsoftware
-|möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen
-|sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist.
-
 |Als Maschinenführer
-|möchte ich dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet
+|möchte ich, dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet
 |sodass die Dokumentation für mich reduziert wird.
 
-|Als Lohnunternehmer 
+|Als Lohnunternehmer
 |möchte ich Maschinendaten in der Agrarsoftware erhalten
 |sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
 
-|Als Lohnunternehmer 
-|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
-|sodass die Abrechnung präzise nach ha, Zeit oder Menge erfolgen kann.
+|Als Lohnunternehmer
+|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
 |===
 
 == Praxisbeispiele
