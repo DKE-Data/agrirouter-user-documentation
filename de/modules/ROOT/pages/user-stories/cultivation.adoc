@@ -1,12 +1,16 @@
 = Bodenbearbeitung
 
-Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen oder Hackgeräte zum Einsatz. Der agrirouter ermöglicht dabei den Austausch von Daten zwischen Maschinen, Bürosoftware und weiteren Beteiligten. Auf diese Weise lassen sich Arbeitsaufträge effizient übertragen, Maschinendaten automatisch dokumentieren und die Nachvollziehbarkeit der durchgeführten Maßnahmen sicherstellen.
+Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen oder Hackgeräte zum Einsatz. Der agrirouter ermöglicht dabei den Austausch von Daten zwischen Maschinen, Agrarsoftware und weiteren Beteiligten. Auf diese Weise lassen sich Arbeitsaufträge effizient übertragen, Maschinendaten automatisch dokumentieren und die Nachvollziehbarkeit der durchgeführten Maßnahmen sicherstellen.
 
 == Übermittlung von Aufträgen
 
 [cols="3*", options="header"]
 |===
 |Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
+|Als Nutzer einer Agrarsoftware 
+|möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können 
+|sodass ich die Datei nicht erst per USB-Stick übergeben muss.
 
 |Als Landwirt
 |möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
@@ -17,7 +21,7 @@ Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen ode
 |sodass die Arbeit präzise entlang der geplanten Spuren erfolgt.
 
 |Als Nutzer einer Agrarsoftware
-|möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe, Schnitthöhen, Schnittlängen)
+|möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe)
 |sodass die Maschine die Bearbeitung gemäß den Vorgaben ausführt.
 
 |Als Nutzer einer Agrarsoftware
@@ -25,39 +29,39 @@ Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen ode
 |sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können.
 
 |Als Maschinenführer
-|möchte ich abgearbeitete Auftragsdaten als Taskdata von der Maschine an die Software übertragen
-|sodass die durchgeführten Arbeiten dokumentiert werden.
+|möchte ich abgearbeitete Auftragsdaten von der Maschine an die Agrarsoftware übertragen
+|sodass die durchgeführten Arbeiten dokumentiert werden können.
 
 |Als Maschinenführer
 |möchte ich Daten von Maschine A an Maschine B senden
 |sodass diese nahtlos mit den vorherigen Arbeitsergebnissen fortfahren kann.
-
-|Als Nutzer einer Agrarsoftware
-|möchte ich Feldgrenzen oder Bearbeitungsflächen vor Beginn der Arbeit an Maschinen senden
-|sodass die Bearbeitung exakt auf die vorgesehene Fläche begrenzt wird.
 |===
 
 == Telemetrie & Dokumentation
 
 [cols="3*", options="header"]
 |===
-|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
 
 |Als Disponent
-|möchte ich Telemetriedaten in Echtzeit in der Software erhalten
+|möchte ich Telemetriedaten in Echtzeit in der Agrarsoftware erhalten
 |sodass im Lohnunternehmen der Arbeitsfortschritt verfolgt und weitere Planung optimiert werden kann.
 
 |Als Nutzer einer Agrarsoftware
-|möchte ich den Auftragsstatus zwischen Bürosoftware und Maschine abgleichen
+|möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen
 |sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist.
 
 |Als Maschinenführer
-|möchte ich dass die Maschine Telemetriedaten automatisch an die Bürosoftware sendet
+|möchte ich dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet
 |sodass die Dokumentation für mich reduziert wird.
 
 |Als Lohnunternehmer 
-|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen können
-|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
+|Als Lohnunternehmer 
+|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach ha, Zeit oder Menge erfolgen kann.
 |===
 
 == Praxisbeispiele
@@ -65,25 +69,25 @@ Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen ode
 [NOTE]
 .Praxisbeispiel 1
 ====
-Der Lohnunternehmer Jens sendet direkt aus seiner Bürosoftware einen Pflugauftrag an den Traktorfahrer Paul. Paul erhält die Daten automatisch über den agrirouter und kann sofort mit der Arbeit beginnen, ohne USB-Sticks oder Papier. So sparen beide Zeit und Fehlerquellen werden minimiert.
+Der Lohnunternehmer sendet direkt aus seiner Agrarsoftware einen Pflugauftrag an den Fahrer. Dieder erhält die Daten automatisch über den agrirouter und kann sofort mit der Arbeit beginnen, ohne USB-Sticks oder Papier. So sparen beide Zeit und Fehlerquellen werden minimiert.
 ====
 
 [NOTE]
 .Praxisbeispiel 2
 ====
-Beim Control Traffic Farming (CTF) überträgt die Software von Anna die geplanten Fahrspuren an den Traktor von Markus. Markus fährt sodass genau nur die vorgesehenen Spurlinien, um Bodenverdichtung zu vermeiden. Durch gezielte Befahrung bestimmter Fahrspuren wird die Bodenverdichtung reduziert, was die Wasser- und Nährstoffaufnahme verbessert und so die Bodenfruchtbarkeit sowie Erträge nachhaltig gesichert.
+Beim Control Traffic Farming (CTF) überträgt die Agrarsoftware vom Landwirt die geplanten Fahrspuren an den Traktor. Der Fahrer fährt genau nur die vorgesehenen Spurlinien. Durch gezielte Befahrung bestimmter Fahrspuren wird die Bodenverdichtung reduziert, was die Wasser- und Nährstoffaufnahme verbessert und so die Bodenfruchtbarkeit sowie Erträge nachhaltig gesichert.
 ====
 
 [NOTE]
 .Praxisbeispiel 3
 ====
-Der Landwirt Thomas erstellt eine Grubberkarte mit unterschiedlichen Arbeitstiefen für sein Feld. Diese Karte sendet er an seine Maschine, die so automatisch und präzise unterschiedliche Bodenschichten bearbeitet. Die Arbeit wird effizienter und gleichmäßiger.
+Der Landwirt erstellt eine Grubberkarte mit unterschiedlichen Arbeitstiefen für sein Feld. Diese Karte sendet er an seine Maschine, die so automatisch und präzise unterschiedliche Bodenschichten bearbeitet. Die Arbeit wird somit effizienter und gleichmäßiger.
 ====
 
 [NOTE]
 .Praxisbeispiel 4
 ====
-Auf einem großen Betrieb arbeiten zwei Traktoren parallel am gleichen Feld und nutzen dieselbe Bearbeitungskarte. So können die Fahrer ohne Überschneidungen arbeiten und der Auftrag ist schneller erledigt. Die Koordination läuft über die zentrale Software.
+Auf einem großen Betrieb arbeiten zwei Traktoren parallel am gleichen Feld und nutzen dieselbe Bearbeitungskarte. So können die Fahrer ohne Überschneidungen arbeiten und der Auftrag ist schneller erledigt.
 ====
 
 [NOTE]
@@ -95,19 +99,19 @@ Nach dem Pflügen werden die bearbeiteten Flächen automatisch an die Ackerschla
 [NOTE]
 .Praxisbeispiel 6
 ====
-Der Disponent Sebastian sieht in Echtzeit auf seinem Bildschirm, dass ein Schlepper das Feld bald fertig bearbeitet hat. Er kann daraufhin den nächsten Einsatz planen, wodurch Ausfallzeiten vermieden und der Betrieb reibungsloser läuft.
+Der Disponent des Lohnunternehmers sieht in Echtzeit auf seinem Bildschirm, dass ein Schlepper das Feld bald fertig bearbeitet hat. Er kann daraufhin den nächsten Einsatz planen, wodurch Standzeiten vermieden und der Betrieb reibungsloser läuft.
 ====
 
 [NOTE]
 .Praxisbeispiel 7
 ====
-Die Software informiert die Betriebsleitung darüber, dass der Bodenbearbeitungsauftrag um 14:35 Uhr abgeschlossen wurde. So sind alle Beteiligten jederzeit auf dem aktuellen Stand, was die Nachbearbeitung erleichtert.
+Die Agrarsoftware informiert den Betriebsleiter darüber, dass der Bodenbearbeitungsauftrag um 14:35 Uhr abgeschlossen wurde. So sind alle Beteiligten jederzeit auf dem aktuellen Stand, was die Nachbearbeitung ohne Rückfragen erleichtert.
 ====
 
 [NOTE]
 .Praxisbeispiel 8
 ====
-Der Traktorfahrer erhält die exakten Feldgrenzen und Fahrspuren vor Beginn der Arbeit. So kann er Überlappungen mit benachbarten Flächen vermeiden und seine Arbeitszeit optimal nutzen. Das vermeidet Ärger mit dem Inhaber der Nachbarfläche und steigert die Effizienz der Arbeit.
+Der Fahrer erhält die exakten Feldgrenzen und Fahrspuren vor Beginn der Arbeit. So kann er Überlappungen mit benachbarten Flächen vermeiden und seine Arbeitszeit optimal nutzen. Zudem vermeidet das Ärger mit dem Inhaber der Nachbarfläche und steigert die Effizienz der Arbeit.
 ====
 
 [NOTE]

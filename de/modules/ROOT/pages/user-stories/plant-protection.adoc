@@ -1,27 +1,25 @@
 = Pflanzenschutz
 
-In diesem Kapitel wird erläutert, wie der agrirouter die Durchführung von chemischem und mechanischem Pflanzenschutz unterstützt. Er vernetzt Maschinen und Software, liefert relevante Daten in Echtzeit und erleichtert die Planung, Steuerung und Dokumentation der Maßnahmen. Dadurch werden Abläufe effizienter gestaltet, Fehler reduziert und die Nachvollziehbarkeit für Dokumentation und Compliance sichergestellt.
+In diesem Kapitel wird erläutert, wie der agrirouter die Durchführung von chemischem und mechanischem Pflanzenschutz unterstützt. Er ermöglicht die Vernetzung von Maschinen und Agrarsoftware und erleichtert die Übertragung von Applikationskarten sowie die Dokumentation der ausgebrachten Mengen. Dadurch werden Prozesse effizienter gestaltet, Fehler reduziert und die Rückverfolgung gewährleistet.
 
 [#mechanic-plantprotection]
 == Mechanischer Pflanzenschutz
 Der mechanische Pflanzenschutz ist vor allem im Bereich der Biolandwirtschaft ein wichtiger Bestandteil. Beim mechanischem Pflanzenschutz wird mit einem Striegel, einer Hacke oder mit einer Brennkammer über den Bestand gefahren. Die Hacke und Brennkammer sind meist mit Kameras ausgestattet, die dann das Unkraut erkennen und proaktiv bekämpfen. Der mechanische Pflanzenschutz wird von einem Traktor oder einem autonomen Arbeitsgerät (z.B. Roboter) durchgeführt.
 
-Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des mechanischen Pflanzenschutz in Kombination mit dem agrirouter Anwendung finden.
-
 [cols="3*", options="header"]
 |===
-|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
 
 |Als Landwirt
 |möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden
 |sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
 
 |Als Landwirt 
-|möchte ich, dass Telemetriedaten automatisch zurückgemeldet werden 
-|sodass Arbeitszeit, bearbeitete Fläche und Fortschritt dokumentiert sind, ohne manuellen Aufwand.
+|möchte ich das Telemetriedaten automatisch zurückgemeldet werden 
+|sodass Arbeitszeit, bearbeitete Fläche und Fortschritt ohne manuellen Aufwand dokumentiert sind.
 
-|Als Landwirt 
-|möchte ich, einen Auftrag an mehrere Geräte gleichzeitig senden können 
+|Als Disponent im Lohnunternehmen  
+|möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können 
 |sodass die Flotte effizient eingesetzt wird.
 
 |Als Disponent im Lohnunternehmen 
@@ -29,46 +27,49 @@ Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des mech
 |sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann.
 
 |Als Lohnunternehmer 
-|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen können
-|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
 
+|Als Lohnunternehmer 
+|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach ha, Zeit oder Menge erfolgen kann.
 |=== 
 
 == Praxisbeispiele
 [NOTE]
 .Praxisbeispiel 1
 ====
-Peter plant in seiner Farmmanagementsoftware einen Hackdurchgang für Mais auf einem 20 ha großen Feld. Der Auftrag wird über den agrirouter direkt an die Maschine seines Mitarbeiters übermittelt. Dieser erhält die Feldgrenzen und Bearbeitungsdetails auf dem Terminal in der Kabine. So weiß er genau, wo und wie die Arbeit durchgeführt werden soll.
+Der Landwirt plant in seiner Agrarsoftware einen Hackdurchgang für Mais auf einem 20 ha großen Feld. Der Auftrag wird über den agrirouter direkt an die Maschine seines Mitarbeiters übermittelt. Dieser erhält die Feldgrenzen und Bearbeitungsdetails auf dem Terminal in der Kabine. So weiß er genau, wo und wie die Arbeit durchgeführt werden soll.
 ====
 
 [NOTE]
 .Praxisbeispiel 2
 ====
-Während Anna mit der Striegelmaschine über das Feld fährt, werden Telemetriedaten wie Arbeitszeit, bearbeitete Fläche und Fortschritt automatisch an ihre Betriebssoftware gesendet. Dadurch spart sie sich die manuelle Dokumentation und hat jederzeit einen aktuellen Überblick über den Stand der Arbeiten.
+Während der Maschinenführer mit der Striegelmaschine über das Feld fährt, werden Telemetriedaten wie Arbeitszeit, bearbeitete Fläche und Fortschritt automatisch an die Agrarsoftware gesendet. Dadurch spart der Maschinenführer sich die manuelle Dokumentation und der Lohnunternehmer hat in der Agrarsoftware jederzeit einen aktuellen Überblick über den Stand der Arbeiten.
 ====
 
 [NOTE]
 .Praxisbeispiel 3
 ====
-Ein Lohnunternehmen setzt drei Hackgeräte parallel auf verschiedenen Schlägen ein. Über den agrirouter können die Aufträge gleichzeitig an alle Maschinen verteilt werden. Die Fahrer starten ohne zusätzlichen Abstimmungsaufwand – und die Flotte wird optimal ausgelastet.
+Ein Lohnunternehmen setzt drei Hackgeräte parallel auf verschiedenen Schlägen ein. Über den agrirouter können die Aufträge gleichzeitig an alle Maschinen verteilt werden. Die Fahrer starten ohne zusätzlichen Abstimmungsaufwand und die Flotte wird optimal ausgelastet.
 ====
 
 [NOTE]
 .Praxisbeispiel 4
 ====
-Thomas, Disponent in einem Lohnunternehmen, sieht in seiner Software die Telemetriedaten aller eingesetzten Hackmaschinen in Echtzeit. Er erkennt, dass eine Maschine schneller fertig wird als geplant, und disponiert den Fahrer kurzfristig auf ein anderes Feld um.
+Der Disponent in einem Lohnunternehmen, sieht in seiner Agrarsoftware die Telemetriedaten aller eingesetzten Hackmaschinen in Echtzeit. Er erkennt, dass eine Maschine schneller fertig wird als geplant, und disponiert den Fahrer kurzfristig auf ein anderes Feld um.
 ====
 
 [NOTE]
 .Praxisbeispiel 5
 ====
-Nach Abschluss der Arbeiten prüft Claudia, Lohnunternehmerin, die automatisch erfassten Telemetriedaten. Sie nutzt diese zur Abrechnung gegenüber ihren Kunden und hat gleichzeitig eine revisionssichere Dokumentation. Tippfehler oder verlorene Stundenzettel der Fahrer gehören damit der Vergangenheit an.
+Nach Abschluss der Arbeiten prüft der Lohnunternehmer die automatisch erfassten Telemetriedaten. Dieser nutzt diese Daten zur Abrechnung gegenüber den Kunden und hat gleichzeitig eine revisionssichere Dokumentation. Tippfehler oder verlorene Stundenzettel der Fahrer gehören damit der Vergangenheit an.
 ====
 
 [NOTE]
 .Praxisbeispiel 6
 ====
-Während der Arbeit fragt ein Landwirt den Fahrer des Lohnunternehmer, ob er ein angrenzendes Feld direkt mitbearbeiten kann. Der Auftrag war nicht in der Software geplant, wird aber dennoch durchgeführt. Dank der automatisch aufgezeichneten Telemetriedaten erkennt die Betriebssoftware später, dass ein zusätzliches Feld bearbeitet wurde. So kann der Einsatz korrekt dokumentiert und abgerechnet werden.
+Während der Arbeit fragt ein Landwirt den Fahrer des Lohnunternehmer, ob er ein angrenzendes Feld direkt mitbearbeiten kann. Der Auftrag war nicht in der Agrarsoftware geplant, wird aber dennoch durchgeführt. Dank der automatisch aufgezeichneten Telemetriedaten wird die zusätzliche Arbeit dokumentiert.
 ====
 
 [NOTE]
@@ -79,19 +80,18 @@ Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erf
 
 [#chemical-plantprotection]
 == Chemischer Pflanzenschutz
-Beim chemischen Pflanzenschztz wird meistens mit einer Pflanzenschutzspritze über das Feld gefahren. Dabei kann der Bestand auf dem Feld entweder großflächig oder punktuell behandelt werden. Es besteht aber auch die Möglichkeit mit einem Roboter über das Feld zu fahren. Dabei wird der das Feld größflächig behandelt oder die einzelne Pflanze.
-
-Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des chemischen Pflanzenschutz in Kombination mit dem agrirouter Anwendung finden. 
+Beim chemischen Pflanzenschutz wird meistens mit einer Pflanzenschutzspritze über das Feld gefahren. Dabei kann der Bestand auf dem Feld entweder großflächig oder punktuell behandelt werden. Es besteht aber auch die Möglichkeit mit einem Roboter über das Feld zu fahren.
 
 [cols="3*", options="header"]
 |===
-|Als (Rolle) |Wunsch (möchte ich) |Zweck (sodass)
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
 |Als Landwirt 
-|möchte ich einen Auftrag mit geplanten Fahrspuren an eine Maschine senden 
+|möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden
 |sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
 
 |Als Dienstleister für Drohnen 
-|möchte ich Unkraut- und Krankheitsdruck per Drohne erfassen und an die Farmsoftware senden 
+|möchte ich Unkraut- und Krankheitsdruck per Drohne erfassen und an die Agrarsoftware senden 
 |sodass der Landwirt genau sieht, wo Pflanzenschutzmittel benötigt werden und eine Applikationskarte erstellt werden kann.
 
 |Als Dienstleister für Drohnen
@@ -103,43 +103,46 @@ Im weiteren Verlauf werden Anwendungsfälle beschrieben, die im Bereich des chem
 |sodass mehrere Maschinen gleichzeitig teilflächenspezifisch arbeiten können.
 
 |Als Landwirt
-|möchte ich, dass Telemetriedaten automatisch an meine Software gesendet werden
-|sodass Ausbringmenge, Zeitpunkt, Uhrzeit und Fahrer gesetzeskonform dokumentiert werden.
+|möchte ich, dass Telemetriedaten automatisch an meine Agrarsoftware gesendet werden
+|sodass Ausbringmenge, Zeitpunkt, Uhrzeit und Fahrer gesetzeskonform dokumentiert werden können.
 
 |Als Betriebsleiter
-|möchte ich, dass die Maschinen den Applikationskarten folgen 
+|möchte ich, dass die Traktoren die Anbaugeräte automatisch nach Applikationskarten steuern
 |sodass auch weniger erfahrene Fahrer fehlerfrei arbeiten können.
 
-|Als Lohnunternehmer
-|möchte ich die Telemetriedaten nachträglich prüfen oder für Abrechnungen nutzen können
-|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden.
+|Als Lohnunternehmer 
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
 
+|Als Lohnunternehmer 
+|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach ha, Zeit oder Menge erfolgen kann.
 |===
 
 == Praxisbeispiele
 [NOTE]
 .Praxisbeispiel 1
 ====
-Laura nutzt Drohnen, um Unkrautdruck auf ihren Feldern zu erfassen. Die Daten werden automatisch an ihre Farmsoftware gesendet. Darauf basierend wird in der Software eine Applikationskarte für den Pflanzenschutz erstellt. Laura kann die Karte direkt an ihren Traktor senden, der die chemischen Mittel punktgenau ausbringt. Telemetriedaten werden automatisch zurückgemeldet, sodass Ausbringmenge, Zeitpunkt und Fahrer dokumentiert sind.
+Der Dienstleister für Drohnen nutzt Drohnen, um Unkrautdruck auf den Feldern des Landwirts zu erfassen. Die Daten werden automatisch an die Agrarsoftware gesendet. Darauf basierend wird in der Agrarsoftware eine Applikationskarte für den Pflanzenschutz erstellt. Der Landwirt kann die Karte direkt an den Traktor senden, der die chemischen Mittel punktgenau ausbringt. Telemetriedaten werden automatisch zurückgemeldet, sodass Ausbringmenge, Zeitpunkt und Fahrer dokumentiert sind.
 ====
 
 [NOTE]
 .Praxisbeispiel 2
 ====
-Max plant mehrere Applikationskarten für unterschiedliche Felder und Schläge. Diese Karten werden über den agrirouter an die Maschinenflotte gesendet. Jeder Fahrer kann sofort die geplanten Aufträge abarbeiten, ohne selbst Karten erstellen oder manuell Daten erfassen zu müssen.  
+Der Lohnunternehmer plant mehrere Applikationskarten für unterschiedliche Felder und Schläge. Diese Karten werden über den agrirouter an die Maschinenflotte gesendet. Jeder Fahrer kann sofort die geplanten Aufträge abarbeiten, ohne selbst Karten erstellen oder manuell Daten erfassen zu müssen.  
 Die automatische Rückmeldung stellt sicher, dass die gesetzlich vorgeschriebene Dokumentation jederzeit vorliegt.
 ====
 
 [NOTE]
 .Praxisbeispiel 3
 ====
-Durch die Telemetriedaten der Maschinen sieht Laura jederzeit, welche Flächen bereits behandelt wurden. Sie kann den Fortschritt genau überwachen und bei Bedarf nachjustieren.
+Durch die Telemetriedaten der Maschinen sieht der Lohnunternehmer jederzeit, welche Flächen bereits behandelt wurden. Somit kann dieser den Fortschritt genau überwachen und bei Bedarf nachjustieren.
 ====
 
 [NOTE]
 .Praxisbeispiel 4
 ====
-Max erstellt eine Applikationskarte für einen benachbarten Schlag, die an mehrere Maschinen gesendet wird. Die Fahrer können gleichzeitig arbeiten, während die Software die Telemetrie sammelt und automatisch dokumentiert. Die zentrale Rückmeldung erspart manuelle Aufzeichnungen und verringert Fehler bei der Dokumentation.
+Der Landwirt erstellt eine Applikationskarte für einen benachbarten Schlag, der an mehrere Maschinen gesendet wird. Die Fahrer können gleichzeitig arbeiten, während die Agrarsoftware die Telemetrie sammelt und automatisch dokumentiert. Die zentrale Rückmeldung erspart manuelle Aufzeichnungen und verringert Fehler bei der Dokumentation.
 ====
 
 [NOTE]
