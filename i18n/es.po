@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-25 06:14+0000\n"
+"POT-Creation-Date: 2025-08-25 06:15+0000\n"
 "PO-Revision-Date: 2025-05-16 07:51+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Spanish <https://weblate.my-agrirouter.com/projects/"
@@ -24,8 +24,8 @@ msgstr ""
 msgid "agrirouter Bedienungsanleitung"
 msgstr "Manual de uso de agrirouter"
 
-#. type: Plain text
-#: de/antora-playbook.yml:1 de/modules/ROOT/nav.adoc:11
+#. type: Hash Value: asciidoc attributes appendix-refsig
+#: de/antora-playbook.yml:1
 #, no-wrap
 msgid "Anhang"
 msgstr "Anexo"
@@ -250,11 +250,6 @@ msgstr "xref:solution-guides.adoc[Guias-de-la-solucion]"
 #: de/modules/ROOT/nav.adoc:9
 msgid "xref:user-stories.adoc[User Stories]"
 msgstr "xref:user-stories.adoc[Casos de Uso]"
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:12
-msgid "xref:appendix/ddis.adoc[DDI-Definition]"
-msgstr "xref:appendix/ddis.adoc[Definición de DDI]"
 
 #. type: Title =
 #: de/modules/ROOT/pages/account-pairing.adoc:1
@@ -3635,232 +3630,7 @@ msgid ""
 "einsteigen."
 msgstr ""
 
-#. type: Title =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:4
-#, no-wrap
-msgid "Anhang A, DDIs"
-msgstr "Anexo A, DDI"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:7
-msgid ""
-"Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
-"Prozessparameter in Echtzeit versenden."
-msgstr ""
-"Muchas máquinas son capaces de enviar parámetros de máquinas, de posición y "
-"de procesos en tiempo real durante las labores en el campo."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:9
-msgid "Es gibt über 600 solcher Parameter, z.B."
-msgstr "Hay más de 600 parámetros de este tipo, por ej."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:11
-msgid "Soll- und Istwerte in den Auftragsdaten"
-msgstr "Valores nominales y reales en los datos de la tarea"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:12
-msgid "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
-msgstr ""
-"Consumo de combustible, velocidad o nivel de llenado del depósito en los "
-"datos de la máquina"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:16
-msgid ""
-"Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
-"zusammengefasst.  Wie in den Abschnitten xref:endpoint.adoc#detail-"
-"view[Endpunkt] bzw. xref:group.adoc#detail-view[Gruppe] beschrieben, wählst "
-"du bei der Erstellung von Routen eine oder mehrere Kategorien aus.  [."
-"result]#Alle der gewählten Kategorie zugeordneten Parameter können dann "
-"zwischen den Endpunkten ausgetauscht werden.#"
-msgstr ""
-"Para mayor claridad, hemos resumido los parámetros en 12 categorías.  Tal "
-"como se describe en las secciones xref:endpoint.adoc#detail-view[Punto de "
-"conexión] o xref:group.adoc#detail-view[Grupo], durante la creación de las "
-"rutas seleccionarás una o varias categorías.  [.result]#Después, todos los "
-"parámetros asignados a las categorías seleccionadas podrán intercambiarse "
-"entre los puntos de conexión.#"
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:21
-#, fuzzy, no-wrap
-#| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
-msgid ""
-"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
-"Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
-msgstr "Los parámetros de máquina, posición y proceso se definen en la norma ISOBUS ISO 11783 y se denominan DDI (Data Dictionary Identifier). + Los DDI se publican en https://www.isobus.net/isobus/dDEntity[Diccionario de datos ISOBUS^]."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:24
-msgid ""
-"Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
-msgstr ""
-"A continuación encontrarás una lista de todas las categorías y de los "
-"parámetros que tienen asociados:"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:25
-#, no-wrap
-msgid "GPS Positionsdaten und Guidance-Informationen"
-msgstr "Datos de posición GPS e información de orientación"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:29
-msgid ""
-"GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die Telemetriedaten "
-"gemessen oder protokolliert wurden.  Daten mit Bezug zu geografischen und "
-"Guidance.Informationen."
-msgstr ""
-"Datos de posición GPS (coordenadas norte y este) en los que se han medido o "
-"registrado los datos de telemetría.  Datos relativos a la información "
-"geográfica y de orientación."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:32
-#, no-wrap
-msgid "Allgemeine Prozessdaten"
-msgstr "Datos generales del proceso"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:34
-msgid ""
-"Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
-"Ausbringung und/oder Ertrag nicht relevant sind)."
-msgstr ""
-"Contadores de tareas y vida útil o valores medios (contadores irrelevantes "
-"para la aplicación y/o la cosecha)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:37
-#, no-wrap
-msgid "Kraftstoff und Harnstofflösung"
-msgstr "Combustible y solución de urea"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:40
-msgid ""
-"Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
-"Maschinen (Gesamtenergieverbrauch)."
-msgstr ""
-"Datos relativos al consumo de combustible y de solución de urea de las "
-"máquinas (consumo energético total)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:43
-#, no-wrap
-msgid "Maschineneigenschaften"
-msgstr "Características de la máquina"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:46
-msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
-msgstr ""
-"Datos irrelevantes para el proceso relativos a las características de la "
-"máquina."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:49
-#, no-wrap
-msgid "Ausbringung"
-msgstr "Aplicación"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:52
-msgid ""
-"Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
-"Pflanzenschutzmittel, Trockenmasse, usw.)."
-msgstr ""
-"Datos relativos a la aplicación en el campo (por ej. abonos, semillas, "
-"productos fitosanitarios, materia seca, etc.)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:56
-#, no-wrap
-msgid "Ertragsdaten"
-msgstr "Datos relativos a la cosecha"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:59
-msgid "Menge und Eigenschaften des Erntegutes"
-msgstr "Cantidad y características del material cosechado"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:62
-#, no-wrap
-msgid "Prozessdaten"
-msgstr "Datos del proceso"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:65
-msgid "Daten über den Hauptarbeitsprozess der Maschine."
-msgstr "Datos relativos al proceso de trabajo principal de la máquina."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:68
-#, no-wrap
-msgid "Umgebungsbedingungen"
-msgstr "Condiciones ambientales"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:71
-msgid "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
-msgstr ""
-"Datos relativos a las condiciones ambientales (por ej. velocidad del viento)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:74
-#, no-wrap
-msgid "Basisdaten"
-msgstr "Datos básicos"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:77
-msgid "Grundlegende Werte, die für das gesamte System relevant sind."
-msgstr "Valores fundamentales relevantes para todo el sistema."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:80
-#, no-wrap
-msgid "Maschinendaten (nur PGN)"
-msgstr "Datos de la máquina (solo PGN)"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:83
-msgid ""
-"Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
-"Hubwerksposition, Zapfwellendrehzahl, etc."
-msgstr ""
-"Datos de la máquina pertenecientes al PGN (Parameter Group Number, número "
-"del grupo de parámetros); por ejemplo, posición del mecanismo elevador, "
-"velocidad de rotación de la toma de fuerza, etc."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:86
-#, no-wrap
-msgid "Proprietäre Daten"
-msgstr "Datos propios"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:89
-msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
-msgstr "Datos específicos del fabricante (no forman parte de la norma)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:92
-#, no-wrap
-msgid "Bodendaten"
-msgstr "Datos del suelo"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:95
-msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
-msgstr ""
-"Condiciones y datos de los sensores en relación con las condiciones del "
-"suelo."
-
+#. TODO: Unten auf jeder Seite kommt später eine Grafik, die den Datenaustausch grafisch darstellt.
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:1
 #, no-wrap
@@ -13591,6 +13361,174 @@ msgid ""
 "den Stellen gepflanzt werden, an denen zuvor die Pflanzdämme vorbereitet "
 "wurden."
 msgstr ""
+
+#~ msgid "xref:appendix/ddis.adoc[DDI-Definition]"
+#~ msgstr "xref:appendix/ddis.adoc[Definición de DDI]"
+
+#, no-wrap
+#~ msgid "Anhang A, DDIs"
+#~ msgstr "Anexo A, DDI"
+
+#~ msgid ""
+#~ "Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
+#~ "Prozessparameter in Echtzeit versenden."
+#~ msgstr ""
+#~ "Muchas máquinas son capaces de enviar parámetros de máquinas, de posición "
+#~ "y de procesos en tiempo real durante las labores en el campo."
+
+#~ msgid "Es gibt über 600 solcher Parameter, z.B."
+#~ msgstr "Hay más de 600 parámetros de este tipo, por ej."
+
+#~ msgid "Soll- und Istwerte in den Auftragsdaten"
+#~ msgstr "Valores nominales y reales en los datos de la tarea"
+
+#~ msgid ""
+#~ "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
+#~ msgstr ""
+#~ "Consumo de combustible, velocidad o nivel de llenado del depósito en los "
+#~ "datos de la máquina"
+
+#~ msgid ""
+#~ "Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
+#~ "zusammengefasst.  Wie in den Abschnitten xref:endpoint.adoc#detail-"
+#~ "view[Endpunkt] bzw. xref:group.adoc#detail-view[Gruppe] beschrieben, "
+#~ "wählst du bei der Erstellung von Routen eine oder mehrere Kategorien "
+#~ "aus.  [.result]#Alle der gewählten Kategorie zugeordneten Parameter "
+#~ "können dann zwischen den Endpunkten ausgetauscht werden.#"
+#~ msgstr ""
+#~ "Para mayor claridad, hemos resumido los parámetros en 12 categorías.  Tal "
+#~ "como se describe en las secciones xref:endpoint.adoc#detail-view[Punto de "
+#~ "conexión] o xref:group.adoc#detail-view[Grupo], durante la creación de "
+#~ "las rutas seleccionarás una o varias categorías.  [.result]#Después, "
+#~ "todos los parámetros asignados a las categorías seleccionadas podrán "
+#~ "intercambiarse entre los puntos de conexión.#"
+
+#, fuzzy, no-wrap
+#~| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+#~ msgid ""
+#~ "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
+#~ "Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+#~ msgstr "Los parámetros de máquina, posición y proceso se definen en la norma ISOBUS ISO 11783 y se denominan DDI (Data Dictionary Identifier). + Los DDI se publican en https://www.isobus.net/isobus/dDEntity[Diccionario de datos ISOBUS^]."
+
+#~ msgid ""
+#~ "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
+#~ msgstr ""
+#~ "A continuación encontrarás una lista de todas las categorías y de los "
+#~ "parámetros que tienen asociados:"
+
+#, no-wrap
+#~ msgid "GPS Positionsdaten und Guidance-Informationen"
+#~ msgstr "Datos de posición GPS e información de orientación"
+
+#~ msgid ""
+#~ "GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die "
+#~ "Telemetriedaten gemessen oder protokolliert wurden.  Daten mit Bezug zu "
+#~ "geografischen und Guidance.Informationen."
+#~ msgstr ""
+#~ "Datos de posición GPS (coordenadas norte y este) en los que se han medido "
+#~ "o registrado los datos de telemetría.  Datos relativos a la información "
+#~ "geográfica y de orientación."
+
+#, no-wrap
+#~ msgid "Allgemeine Prozessdaten"
+#~ msgstr "Datos generales del proceso"
+
+#~ msgid ""
+#~ "Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
+#~ "Ausbringung und/oder Ertrag nicht relevant sind)."
+#~ msgstr ""
+#~ "Contadores de tareas y vida útil o valores medios (contadores "
+#~ "irrelevantes para la aplicación y/o la cosecha)."
+
+#, no-wrap
+#~ msgid "Kraftstoff und Harnstofflösung"
+#~ msgstr "Combustible y solución de urea"
+
+#~ msgid ""
+#~ "Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
+#~ "Maschinen (Gesamtenergieverbrauch)."
+#~ msgstr ""
+#~ "Datos relativos al consumo de combustible y de solución de urea de las "
+#~ "máquinas (consumo energético total)."
+
+#, no-wrap
+#~ msgid "Maschineneigenschaften"
+#~ msgstr "Características de la máquina"
+
+#~ msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
+#~ msgstr ""
+#~ "Datos irrelevantes para el proceso relativos a las características de la "
+#~ "máquina."
+
+#, no-wrap
+#~ msgid "Ausbringung"
+#~ msgstr "Aplicación"
+
+#~ msgid ""
+#~ "Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
+#~ "Pflanzenschutzmittel, Trockenmasse, usw.)."
+#~ msgstr ""
+#~ "Datos relativos a la aplicación en el campo (por ej. abonos, semillas, "
+#~ "productos fitosanitarios, materia seca, etc.)."
+
+#, no-wrap
+#~ msgid "Ertragsdaten"
+#~ msgstr "Datos relativos a la cosecha"
+
+#~ msgid "Menge und Eigenschaften des Erntegutes"
+#~ msgstr "Cantidad y características del material cosechado"
+
+#, no-wrap
+#~ msgid "Prozessdaten"
+#~ msgstr "Datos del proceso"
+
+#~ msgid "Daten über den Hauptarbeitsprozess der Maschine."
+#~ msgstr "Datos relativos al proceso de trabajo principal de la máquina."
+
+#, no-wrap
+#~ msgid "Umgebungsbedingungen"
+#~ msgstr "Condiciones ambientales"
+
+#~ msgid ""
+#~ "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
+#~ msgstr ""
+#~ "Datos relativos a las condiciones ambientales (por ej. velocidad del "
+#~ "viento)."
+
+#, no-wrap
+#~ msgid "Basisdaten"
+#~ msgstr "Datos básicos"
+
+#~ msgid "Grundlegende Werte, die für das gesamte System relevant sind."
+#~ msgstr "Valores fundamentales relevantes para todo el sistema."
+
+#, no-wrap
+#~ msgid "Maschinendaten (nur PGN)"
+#~ msgstr "Datos de la máquina (solo PGN)"
+
+#~ msgid ""
+#~ "Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
+#~ "Hubwerksposition, Zapfwellendrehzahl, etc."
+#~ msgstr ""
+#~ "Datos de la máquina pertenecientes al PGN (Parameter Group Number, número "
+#~ "del grupo de parámetros); por ejemplo, posición del mecanismo elevador, "
+#~ "velocidad de rotación de la toma de fuerza, etc."
+
+#, no-wrap
+#~ msgid "Proprietäre Daten"
+#~ msgstr "Datos propios"
+
+#~ msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
+#~ msgstr "Datos específicos del fabricante (no forman parte de la norma)."
+
+#, no-wrap
+#~ msgid "Bodendaten"
+#~ msgstr "Datos del suelo"
+
+#~ msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
+#~ msgstr ""
+#~ "Condiciones y datos de los sensores en relación con las condiciones del "
+#~ "suelo."
 
 #, no-wrap
 #~ msgid "style.puml"

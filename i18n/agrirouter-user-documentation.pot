@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-25 06:14+0000\n"
+"POT-Creation-Date: 2025-08-25 06:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid "agrirouter Bedienungsanleitung"
 msgstr ""
 
-#. type: Plain text
-#: de/antora-playbook.yml:1 de/modules/ROOT/nav.adoc:11
+#. type: Hash Value: asciidoc attributes appendix-refsig
+#: de/antora-playbook.yml:1
 #, no-wrap
 msgid "Anhang"
 msgstr ""
@@ -243,11 +243,6 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:9
 msgid "xref:user-stories.adoc[User Stories]"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:12
-msgid "xref:appendix/ddis.adoc[DDI-Definition]"
 msgstr ""
 
 #. type: Title =
@@ -2977,204 +2972,7 @@ msgid ""
 "einsteigen."
 msgstr ""
 
-#. type: Title =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:4
-#, no-wrap
-msgid "Anhang A, DDIs"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:7
-msgid ""
-"Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
-"Prozessparameter in Echtzeit versenden."
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:9
-msgid "Es gibt über 600 solcher Parameter, z.B."
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:11
-msgid "Soll- und Istwerte in den Auftragsdaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:12
-msgid "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:16
-msgid ""
-"Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
-"zusammengefasst.  Wie in den Abschnitten "
-"xref:endpoint.adoc#detail-view[Endpunkt] "
-"bzw. xref:group.adoc#detail-view[Gruppe] beschrieben, wählst du bei der "
-"Erstellung von Routen eine oder mehrere Kategorien aus.  [.result]#Alle der "
-"gewählten Kategorie zugeordneten Parameter können dann zwischen den "
-"Endpunkten ausgetauscht werden.#"
-msgstr ""
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:21
-#, no-wrap
-msgid ""
-"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO "
-"11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
-"Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data "
-"Dictionary^] veröffentlicht."
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:24
-msgid "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:25
-#, no-wrap
-msgid "GPS Positionsdaten und Guidance-Informationen"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:29
-msgid ""
-"GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die Telemetriedaten "
-"gemessen oder protokolliert wurden.  Daten mit Bezug zu geografischen und "
-"Guidance.Informationen."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:32
-#, no-wrap
-msgid "Allgemeine Prozessdaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:34
-msgid ""
-"Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
-"Ausbringung und/oder Ertrag nicht relevant sind)."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:37
-#, no-wrap
-msgid "Kraftstoff und Harnstofflösung"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:40
-msgid ""
-"Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
-"Maschinen (Gesamtenergieverbrauch)."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:43
-#, no-wrap
-msgid "Maschineneigenschaften"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:46
-msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:49
-#, no-wrap
-msgid "Ausbringung"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:52
-msgid ""
-"Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
-"Pflanzenschutzmittel, Trockenmasse, usw.)."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:56
-#, no-wrap
-msgid "Ertragsdaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:59
-msgid "Menge und Eigenschaften des Erntegutes"
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:62
-#, no-wrap
-msgid "Prozessdaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:65
-msgid "Daten über den Hauptarbeitsprozess der Maschine."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:68
-#, no-wrap
-msgid "Umgebungsbedingungen"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:71
-msgid "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:74
-#, no-wrap
-msgid "Basisdaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:77
-msgid "Grundlegende Werte, die für das gesamte System relevant sind."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:80
-#, no-wrap
-msgid "Maschinendaten (nur PGN)"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:83
-msgid ""
-"Maschinendaten, die zur PGN (Parameter Group Number) gehören; "
-"z.B. Hubwerksposition, Zapfwellendrehzahl, etc."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:86
-#, no-wrap
-msgid "Proprietäre Daten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:89
-msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
-msgstr ""
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:92
-#, no-wrap
-msgid "Bodendaten"
-msgstr ""
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:95
-msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
-msgstr ""
-
+#. TODO: Unten auf jeder Seite kommt später eine Grafik, die den Datenaustausch grafisch darstellt.
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:1
 #, no-wrap

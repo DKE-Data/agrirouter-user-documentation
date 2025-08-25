@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-25 06:14+0000\n"
+"POT-Creation-Date: 2025-08-25 06:15+0000\n"
 "PO-Revision-Date: 2025-05-16 07:52+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Polish <https://weblate.my-agrirouter.com/projects/agrirouter/"
@@ -25,8 +25,8 @@ msgstr ""
 msgid "agrirouter Bedienungsanleitung"
 msgstr "Instrukcja obsługi agrirouter"
 
-#. type: Plain text
-#: de/antora-playbook.yml:1 de/modules/ROOT/nav.adoc:11
+#. type: Hash Value: asciidoc attributes appendix-refsig
+#: de/antora-playbook.yml:1
 #, no-wrap
 msgid "Anhang"
 msgstr "Dodatek"
@@ -251,11 +251,6 @@ msgstr "xref:solution-guides.adoc[Solution Guides]"
 #: de/modules/ROOT/nav.adoc:9
 msgid "xref:user-stories.adoc[User Stories]"
 msgstr "xref:user-stories.adoc[Narracje Użytkowników]"
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:12
-msgid "xref:appendix/ddis.adoc[DDI-Definition]"
-msgstr "xref:appendix/ddis.adoc[Definicja DDI]"
 
 #. type: Title =
 #: de/modules/ROOT/pages/account-pairing.adoc:1
@@ -3608,223 +3603,7 @@ msgid ""
 "einsteigen."
 msgstr ""
 
-#. type: Title =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:4
-#, no-wrap
-msgid "Anhang A, DDIs"
-msgstr "Dodatek A, DDI"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:7
-msgid ""
-"Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
-"Prozessparameter in Echtzeit versenden."
-msgstr ""
-"Wiele maszyn może przesyłać parametry maszyny, pozycji i procesu w czasie "
-"rzeczywistym podczas pracy w terenie."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:9
-msgid "Es gibt über 600 solcher Parameter, z.B."
-msgstr "Istnieje ponad 600 takich parametrów, np."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:11
-msgid "Soll- und Istwerte in den Auftragsdaten"
-msgstr "Wartości docelowe i rzeczywiste w danych zamówienia"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:12
-msgid "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
-msgstr "Zużycie paliwa, prędkość lub napełnienie zbiornika w danych maszyny"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:16
-msgid ""
-"Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
-"zusammengefasst.  Wie in den Abschnitten xref:endpoint.adoc#detail-"
-"view[Endpunkt] bzw. xref:group.adoc#detail-view[Gruppe] beschrieben, wählst "
-"du bei der Erstellung von Routen eine oder mehrere Kategorien aus.  [."
-"result]#Alle der gewählten Kategorie zugeordneten Parameter können dann "
-"zwischen den Endpunkten ausgetauscht werden.#"
-msgstr ""
-"Podsumowaliśmy parametry w 12 kategoriach dla lepszego przeglądu.  Jak "
-"opisano w sekcjach xref:endpoint.adoc#detail-view[endpoint] i xref:group."
-"adoc#detail-view[group], podczas tworzenia tras można wybrać jedną lub "
-"więcej kategorii.  [.result]#Wszystkie parametry przypisane do wybranej "
-"kategorii mogą być następnie wymieniane między punktami końcowymi.#"
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:21
-#, fuzzy, no-wrap
-#| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
-msgid ""
-"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
-"Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
-msgstr "Parametry maszyny, pozycji i procesu są zdefiniowane w standardzie ISOBUS ISO 11783 i są nazywane DDI (Data Dictionary Identifier). + Identyfikatory DDI są publikowane na stronie https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^]."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:24
-msgid ""
-"Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
-msgstr ""
-"Poniżej znajduje się lista wszystkich kategorii i przypisanych do nich "
-"parametrów:"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:25
-#, no-wrap
-msgid "GPS Positionsdaten und Guidance-Informationen"
-msgstr "Dane pozycji GPS i informacje o naprowadzaniu"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:29
-msgid ""
-"GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die Telemetriedaten "
-"gemessen oder protokolliert wurden.  Daten mit Bezug zu geografischen und "
-"Guidance.Informationen."
-msgstr ""
-"Dane pozycji GPS (współrzędne północne i wschodnie), w których dane "
-"telemetryczne zostały zmierzone lub zarejestrowane.  Dane odnoszące się do "
-"informacji geograficznych i naprowadzających."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:32
-#, no-wrap
-msgid "Allgemeine Prozessdaten"
-msgstr "Ogólne dane procesowe"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:34
-msgid ""
-"Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
-"Ausbringung und/oder Ertrag nicht relevant sind)."
-msgstr ""
-"Liczniki zamówień i żywotności lub wartości średnie (liczniki, które nie są "
-"istotne dla produkcji i/lub wydajności)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:37
-#, no-wrap
-msgid "Kraftstoff und Harnstofflösung"
-msgstr "Roztwór paliwa i mocznika"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:40
-msgid ""
-"Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
-"Maschinen (Gesamtenergieverbrauch)."
-msgstr ""
-"Dane dotyczące zużycia paliwa i roztworu mocznika przez maszyny (całkowite "
-"zużycie energii)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:43
-#, no-wrap
-msgid "Maschineneigenschaften"
-msgstr "Właściwości maszyny"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:46
-msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
-msgstr "Nieistotne dla procesu dane dotyczące właściwości urządzenia."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:49
-#, no-wrap
-msgid "Ausbringung"
-msgstr "Zastosowanie"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:52
-msgid ""
-"Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
-"Pflanzenschutzmittel, Trockenmasse, usw.)."
-msgstr ""
-"Dane dotyczące stosowania na polu (np. nawozy, nasiona, pestycydy, sucha "
-"masa itp.)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:56
-#, no-wrap
-msgid "Ertragsdaten"
-msgstr "Dane dotyczące wydajności"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:59
-msgid "Menge und Eigenschaften des Erntegutes"
-msgstr "Ilość i charakterystyka zebranych plonów"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:62
-#, no-wrap
-msgid "Prozessdaten"
-msgstr "Dane procesowe"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:65
-msgid "Daten über den Hauptarbeitsprozess der Maschine."
-msgstr "Dane dotyczące głównego procesu roboczego maszyny."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:68
-#, no-wrap
-msgid "Umgebungsbedingungen"
-msgstr "Warunki otoczenia"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:71
-msgid "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
-msgstr "Dane w odniesieniu do warunków otoczenia (np. prędkość wiatru)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:74
-#, no-wrap
-msgid "Basisdaten"
-msgstr "Podstawowe dane"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:77
-msgid "Grundlegende Werte, die für das gesamte System relevant sind."
-msgstr "Podstawowe wartości, które są istotne dla całego systemu."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:80
-#, no-wrap
-msgid "Maschinendaten (nur PGN)"
-msgstr "Dane maszyny (tylko PGN)"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:83
-msgid ""
-"Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
-"Hubwerksposition, Zapfwellendrehzahl, etc."
-msgstr ""
-"Dane maszyny należące do PGN (Parameter Group Number); np. pozycja "
-"podnośnika, prędkość PTO itp."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:86
-#, no-wrap
-msgid "Proprietäre Daten"
-msgstr "Dane zastrzeżone"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:89
-msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
-msgstr "Dane specyficzne dla producenta (nie są częścią standardu)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:92
-#, no-wrap
-msgid "Bodendaten"
-msgstr "Dane dotyczące gleby"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:95
-msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
-msgstr "Warunki i dane z czujników dotyczące właściwości gleby."
-
+#. TODO: Unten auf jeder Seite kommt später eine Grafik, die den Datenaustausch grafisch darstellt.
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:1
 #, no-wrap
@@ -13401,6 +13180,164 @@ msgid ""
 "den Stellen gepflanzt werden, an denen zuvor die Pflanzdämme vorbereitet "
 "wurden."
 msgstr ""
+
+#~ msgid "xref:appendix/ddis.adoc[DDI-Definition]"
+#~ msgstr "xref:appendix/ddis.adoc[Definicja DDI]"
+
+#, no-wrap
+#~ msgid "Anhang A, DDIs"
+#~ msgstr "Dodatek A, DDI"
+
+#~ msgid ""
+#~ "Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
+#~ "Prozessparameter in Echtzeit versenden."
+#~ msgstr ""
+#~ "Wiele maszyn może przesyłać parametry maszyny, pozycji i procesu w czasie "
+#~ "rzeczywistym podczas pracy w terenie."
+
+#~ msgid "Es gibt über 600 solcher Parameter, z.B."
+#~ msgstr "Istnieje ponad 600 takich parametrów, np."
+
+#~ msgid "Soll- und Istwerte in den Auftragsdaten"
+#~ msgstr "Wartości docelowe i rzeczywiste w danych zamówienia"
+
+#~ msgid ""
+#~ "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
+#~ msgstr "Zużycie paliwa, prędkość lub napełnienie zbiornika w danych maszyny"
+
+#~ msgid ""
+#~ "Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
+#~ "zusammengefasst.  Wie in den Abschnitten xref:endpoint.adoc#detail-"
+#~ "view[Endpunkt] bzw. xref:group.adoc#detail-view[Gruppe] beschrieben, "
+#~ "wählst du bei der Erstellung von Routen eine oder mehrere Kategorien "
+#~ "aus.  [.result]#Alle der gewählten Kategorie zugeordneten Parameter "
+#~ "können dann zwischen den Endpunkten ausgetauscht werden.#"
+#~ msgstr ""
+#~ "Podsumowaliśmy parametry w 12 kategoriach dla lepszego przeglądu.  Jak "
+#~ "opisano w sekcjach xref:endpoint.adoc#detail-view[endpoint] i xref:group."
+#~ "adoc#detail-view[group], podczas tworzenia tras można wybrać jedną lub "
+#~ "więcej kategorii.  [.result]#Wszystkie parametry przypisane do wybranej "
+#~ "kategorii mogą być następnie wymieniane między punktami końcowymi.#"
+
+#, fuzzy, no-wrap
+#~| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+#~ msgid ""
+#~ "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
+#~ "Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+#~ msgstr "Parametry maszyny, pozycji i procesu są zdefiniowane w standardzie ISOBUS ISO 11783 i są nazywane DDI (Data Dictionary Identifier). + Identyfikatory DDI są publikowane na stronie https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^]."
+
+#~ msgid ""
+#~ "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
+#~ msgstr ""
+#~ "Poniżej znajduje się lista wszystkich kategorii i przypisanych do nich "
+#~ "parametrów:"
+
+#, no-wrap
+#~ msgid "GPS Positionsdaten und Guidance-Informationen"
+#~ msgstr "Dane pozycji GPS i informacje o naprowadzaniu"
+
+#~ msgid ""
+#~ "GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die "
+#~ "Telemetriedaten gemessen oder protokolliert wurden.  Daten mit Bezug zu "
+#~ "geografischen und Guidance.Informationen."
+#~ msgstr ""
+#~ "Dane pozycji GPS (współrzędne północne i wschodnie), w których dane "
+#~ "telemetryczne zostały zmierzone lub zarejestrowane.  Dane odnoszące się "
+#~ "do informacji geograficznych i naprowadzających."
+
+#, no-wrap
+#~ msgid "Allgemeine Prozessdaten"
+#~ msgstr "Ogólne dane procesowe"
+
+#~ msgid ""
+#~ "Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
+#~ "Ausbringung und/oder Ertrag nicht relevant sind)."
+#~ msgstr ""
+#~ "Liczniki zamówień i żywotności lub wartości średnie (liczniki, które nie "
+#~ "są istotne dla produkcji i/lub wydajności)."
+
+#, no-wrap
+#~ msgid "Kraftstoff und Harnstofflösung"
+#~ msgstr "Roztwór paliwa i mocznika"
+
+#~ msgid ""
+#~ "Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
+#~ "Maschinen (Gesamtenergieverbrauch)."
+#~ msgstr ""
+#~ "Dane dotyczące zużycia paliwa i roztworu mocznika przez maszyny "
+#~ "(całkowite zużycie energii)."
+
+#, no-wrap
+#~ msgid "Maschineneigenschaften"
+#~ msgstr "Właściwości maszyny"
+
+#~ msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
+#~ msgstr "Nieistotne dla procesu dane dotyczące właściwości urządzenia."
+
+#, no-wrap
+#~ msgid "Ausbringung"
+#~ msgstr "Zastosowanie"
+
+#~ msgid ""
+#~ "Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
+#~ "Pflanzenschutzmittel, Trockenmasse, usw.)."
+#~ msgstr ""
+#~ "Dane dotyczące stosowania na polu (np. nawozy, nasiona, pestycydy, sucha "
+#~ "masa itp.)."
+
+#, no-wrap
+#~ msgid "Ertragsdaten"
+#~ msgstr "Dane dotyczące wydajności"
+
+#~ msgid "Menge und Eigenschaften des Erntegutes"
+#~ msgstr "Ilość i charakterystyka zebranych plonów"
+
+#, no-wrap
+#~ msgid "Prozessdaten"
+#~ msgstr "Dane procesowe"
+
+#~ msgid "Daten über den Hauptarbeitsprozess der Maschine."
+#~ msgstr "Dane dotyczące głównego procesu roboczego maszyny."
+
+#, no-wrap
+#~ msgid "Umgebungsbedingungen"
+#~ msgstr "Warunki otoczenia"
+
+#~ msgid ""
+#~ "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
+#~ msgstr "Dane w odniesieniu do warunków otoczenia (np. prędkość wiatru)."
+
+#, no-wrap
+#~ msgid "Basisdaten"
+#~ msgstr "Podstawowe dane"
+
+#~ msgid "Grundlegende Werte, die für das gesamte System relevant sind."
+#~ msgstr "Podstawowe wartości, które są istotne dla całego systemu."
+
+#, no-wrap
+#~ msgid "Maschinendaten (nur PGN)"
+#~ msgstr "Dane maszyny (tylko PGN)"
+
+#~ msgid ""
+#~ "Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
+#~ "Hubwerksposition, Zapfwellendrehzahl, etc."
+#~ msgstr ""
+#~ "Dane maszyny należące do PGN (Parameter Group Number); np. pozycja "
+#~ "podnośnika, prędkość PTO itp."
+
+#, no-wrap
+#~ msgid "Proprietäre Daten"
+#~ msgstr "Dane zastrzeżone"
+
+#~ msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
+#~ msgstr "Dane specyficzne dla producenta (nie są częścią standardu)."
+
+#, no-wrap
+#~ msgid "Bodendaten"
+#~ msgstr "Dane dotyczące gleby"
+
+#~ msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
+#~ msgstr "Warunki i dane z czujników dotyczące właściwości gleby."
 
 #, no-wrap
 #~ msgid "style.puml"
