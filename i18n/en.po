@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-25 21:53+0000\n"
+"POT-Creation-Date: 2025-08-25 22:12+0000\n"
 "PO-Revision-Date: 2025-08-25 21:07+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
@@ -12565,7 +12565,6 @@ msgstr "so that the driver knows exactly which work is to be carried out on whic
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:106
-#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
 #, fuzzy, no-wrap
 msgid "möchte ich einen Auftrag an mehrere Maschinen gleichzeitig senden können"
 msgstr "I wamt to be able to send an order to several machines at the same time"
@@ -13298,6 +13297,13 @@ msgstr "I want to plan a mechanical crop protection task for a field and send it
 msgid "sodass Arbeitszeit, bearbeitete Fläche und Fortschritt ohne manuellen Aufwand dokumentiert sind."
 msgstr "so that working time, processed area and progress are documented without manual effort."
 
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
+#, fuzzy, no-wrap
+#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
+msgstr "Send an application map to several Endpoints simultaneously"
+
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:43
 msgid ""
@@ -13925,11 +13931,6 @@ msgstr ""
 #, no-wrap
 #~ msgid "Als Disponent im Lohnunternehmen"
 #~ msgstr "As a dispatcher in a contracting company"
-
-#, fuzzy, no-wrap
-#~| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
-#~ msgid "möchte einen Auftrag an mehrere Geräte gleichzeitig senden können"
-#~ msgstr "Send an application map to several Endpoints simultaneously"
 
 #, fuzzy, no-wrap
 #~| msgid "Mehrere Karten an eine Maschine senden"
