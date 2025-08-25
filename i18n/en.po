@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-25 19:31+0000\n"
+"POT-Creation-Date: 2025-08-25 21:29+0000\n"
 "PO-Revision-Date: 2025-08-25 21:07+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
@@ -11591,9 +11591,7 @@ msgstr "so that I don't have to transfer the file via USB stick first."
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:21
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)"
-msgstr ""
-"I want to send a lane plan to a machine (e.g. for control traffic farming, "
-"autonomous driving)"
+msgstr "I want to send a lane plan to a machine (e.g. for control traffic farming, autonomous driving)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:23
@@ -11612,9 +11610,7 @@ msgstr "Send several prescription maps to one machine"
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:27
 #, no-wrap
 msgid "sodass die Maschine die Bearbeitung gemäß den Vorgaben ausführt."
-msgstr ""
-"so that the machine carries out the processing according to the "
-"specifications."
+msgstr "so that the machine carries out the processing according to the specifications."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:29
@@ -11629,8 +11625,7 @@ msgstr "Send several prescription maps to one machine"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:115
 #, no-wrap
 msgid "sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können."
-msgstr ""
-"so that several machines can use the same specifications at the same time."
+msgstr "so that several machines can use the same specifications at the same time."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:32
@@ -11638,6 +11633,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:55
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:29
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:108
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:191
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:195
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:35
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:59
@@ -11681,18 +11677,14 @@ msgstr "so that it can continue seamlessly with the previous work results."
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:21
 #, no-wrap
 msgid "möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen"
-msgstr ""
-"I want to synchronise the tasks status between the agricultural software and "
-"the machine"
+msgstr "I want to synchronise the tasks status between the agricultural software and the machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:42
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:22
 #, no-wrap
 msgid "sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist."
-msgstr ""
-"so that you can see at any time whether the order has been started or "
-"completed."
+msgstr "so that you can see at any time whether the order has been started or completed."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:44
@@ -11704,6 +11696,15 @@ msgstr "Telemetry & Documentation"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:51
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:20
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:105
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:113
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:183
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:215
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:313
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:31
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:22
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:26
 #, no-wrap
 msgid "Als Disponent"
 msgstr "As a dispatcher"
@@ -11719,18 +11720,14 @@ msgstr "The machine's telemetry data will now be displayed."
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:54
 #, no-wrap
 msgid "sodass im Lohnunternehmen der Arbeitsfortschritt verfolgt und weitere Planung optimiert werden kann."
-msgstr ""
-"so that work progress can be tracked and further planning optimised in the "
-"contracting company."
+msgstr "so that work progress can be tracked and further planning optimised in the contracting company."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:56
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:36
 #, no-wrap
 msgid "möchte ich, dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet"
-msgstr ""
-"I want the machine to automatically send telemetry data to the agricultural "
-"software"
+msgstr "I want the machine to automatically send telemetry data to the agricultural software"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:58
@@ -11807,9 +11804,7 @@ msgstr "I want to receive machine data in the agricultural software"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:112
 #, no-wrap
 msgid "sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist."
-msgstr ""
-"so that typing errors or lost documents by drivers are avoided and "
-"transparent documentation is guaranteed."
+msgstr "so that typing errors or lost documents by drivers are avoided and transparent documentation is guaranteed."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:64
@@ -11820,9 +11815,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:114
 #, no-wrap
 msgid "möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
-msgstr ""
-"I want to automatically record application rates, area coverage and "
-"operating times"
+msgstr "I want to automatically record application rates, area coverage and operating times"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:65
@@ -11837,9 +11830,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:115
 #, no-wrap
 msgid "sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann."
-msgstr ""
-"so that invoicing can be carried out precisely according to area, time or "
-"quantity."
+msgstr "so that invoicing can be carried out precisely according to area, time or quantity."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:67
@@ -12134,27 +12125,21 @@ msgstr "As operations manager"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:101
 #, no-wrap
 msgid "möchte ich geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
-msgstr ""
-"I want to send planned tasks with guidance lines and dosing quantities to a "
-"machine"
+msgstr "I want to send planned tasks with guidance lines and dosing quantities to a machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:20
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:103
 #, no-wrap
 msgid "sodass auch weniger erfahrene Mitarbeiter fehlerfrei und effizient düngen können."
-msgstr ""
-"so that even less experienced employees can fertilise efficiently and "
-"without errors."
+msgstr "so that even less experienced employees can fertilise efficiently and without errors."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:22
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:105
 #, no-wrap
 msgid "möchte ich Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr ""
-"I want to send application maps with exact dosing information to one or more "
-"machines"
+msgstr "I want to send application maps with exact dosing information to one or more machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:24
@@ -12183,9 +12168,7 @@ msgstr "I would like to receive the planned guidance lines before starting"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:111
 #, no-wrap
 msgid "sodass ich den Auftrag effizient abarbeiten kann, ohne selbst zunächst Fahrspuren aufnehmen zu müssen."
-msgstr ""
-"so that I can complete the job efficiently without having to create guidance "
-"lines by myself first."
+msgstr "so that I can complete the job efficiently without having to create guidance lines by myself first."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:34
@@ -12205,9 +12188,7 @@ msgstr "so that subsequent work can be carried out on the same guidance lines."
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:97
 #, no-wrap
 msgid "möchte ich während der Ausbringung automatisch dokumentieren, dass Nährstoffmengen, Sperrzonen und Einsatzzeiten eingehalten werden"
-msgstr ""
-"I want to automatically document during application that nutrient "
-"quantities, exclusion zones and application times are adhered to"
+msgstr "I want to automatically document during application that nutrient quantities, exclusion zones and application times are adhered to"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:40
@@ -12286,9 +12267,7 @@ msgstr "Mineral Fertilizing"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:95
 #, no-wrap
 msgid "sodass nachfolgende Arbeiten (z. B. Pflanzenschutz) auf denselben Spuren erfolgen können."
-msgstr ""
-"so that subsequent work (e.g. plant protection) can be carried out on the "
-"same guidance lines."
+msgstr "so that subsequent work (e.g. plant protection) can be carried out on the same guidance lines."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:99
@@ -12370,9 +12349,7 @@ msgstr "Grain harvest"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:13
 #, no-wrap
 msgid "möchte ich einen Ernteauftrag für ein bestimmtes Feld planen und an die Maschine senden"
-msgstr ""
-"I want to plan a harvest order for a specific field and send it to the "
-"machine"
+msgstr "I want to plan a harvest order for a specific field and send it to the machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:15
@@ -12394,19 +12371,6 @@ msgid "sodass die Flotte effizient eingesetzt wird und Verzögerungen minimiert 
 msgstr "so that the fleet is deployed efficiently and delays are minimised."
 
 #. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:20
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:105
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:113
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:183
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:215
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:313
-#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:22
-#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:26
-#, no-wrap
-msgid "Als Disponent im Lohnunternehmen"
-msgstr "As a dispatcher in a contracting company"
-
-#. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:21
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:27
 #, no-wrap
@@ -12418,9 +12382,7 @@ msgstr "I want to view the telemetry data of all machines"
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:29
 #, no-wrap
 msgid "sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann."
-msgstr ""
-"so that I can adjust fleet assignments or reschedule employees at short "
-"notice."
+msgstr "so that I can adjust fleet assignments or reschedule employees at short notice."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:25
@@ -12432,18 +12394,14 @@ msgstr "I want the telemetry data to be sent back automatically"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:27
 #, no-wrap
 msgid "sodass Erntezeit, gefahrene Flächen und Ertrag ohne manuellen Aufwand dokumentiert werden."
-msgstr ""
-"so that harvest time, driven areas and yield are documented without manual "
-"effort."
+msgstr "so that harvest time, driven areas and yield are documented without manual effort."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:29
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:122
 #, no-wrap
 msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das vorher nicht geplant war"
-msgstr ""
-"I want to recognise when a field has been spontaneously harvested that was "
-"not previously planned"
+msgstr "I want to recognise when a field has been spontaneously harvested that was not previously planned"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:31
@@ -12461,9 +12419,7 @@ msgstr "so that even unforeseen work can be documented correctly."
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:326
 #, no-wrap
 msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war"
-msgstr ""
-"I want to recognise when a field has been spontaneously harvested that was "
-"not planned beforehand"
+msgstr "I want to recognise when a field has been spontaneously harvested that was not planned beforehand"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:35
@@ -12481,9 +12437,7 @@ msgstr "so that even unforeseen work can be correctly documented and invoiced."
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:330
 #, no-wrap
 msgid "möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
-msgstr ""
-"I want to automatically record harvest quantities, area output and operating "
-"times"
+msgstr "I want to automatically record harvest quantities, area output and operating times"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:50
@@ -12606,15 +12560,14 @@ msgstr "Send multiple cards to one machine"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:104
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Arbeit auf welchen Feldern durchgeführt werden soll."
-msgstr ""
-"so that the driver knows exactly which work is to be carried out on which "
-"fields."
+msgstr "so that the driver knows exactly which work is to be carried out on which fields."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:106
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
 #, fuzzy, no-wrap
 #| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
-msgid "möchte einen Auftrag an mehrere Geräte gleichzeitig senden können"
+msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
 msgstr "Send an application map to several Endpoints simultaneously"
 
 #. type: Table
@@ -12626,48 +12579,43 @@ msgstr "so that the fleet is utilised efficiently."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:110
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
-msgid "möchte Fahrspuren einer Maschine an andere Maschinen übermitteln"
-msgstr "Send multiple cards to one machine"
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:302
+#, no-wrap
+msgid "möchte ich Fahrspuren einer Maschine an andere Maschinen übermitteln"
+msgstr "I want to transmit the guidance lines of a machine to other machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:112
 #, no-wrap
 msgid "sodass nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
-msgstr ""
-"so that following drivers, e.g. press drivers, no longer have to record "
-"their own guidance lines."
+msgstr "so that following drivers, e.g. press drivers, no longer have to record their own guidance lines."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:114
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
-msgid "möchte Telemetriedaten aller Maschinen einsehen"
-msgstr "The machine's telemetry data will now be displayed."
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:216
+#, no-wrap
+msgid "möchte ich Telemetriedaten aller Maschinen einsehen"
+msgstr "I want to view the telemetry data of all machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:116
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:218
 #, no-wrap
 msgid "sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können."
-msgstr ""
-"so that fleet deployments can be adjusted at short notice or employees can "
-"be redeployed."
+msgstr "so that fleet deployments can be adjusted at short notice or employees can be redeployed."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:118
-#, no-wrap
-msgid "möchte Telemetriedaten automatisch zurückgemeldet bekommen"
+#, fuzzy, no-wrap
+#| msgid "möchte Telemetriedaten automatisch zurückgemeldet bekommen"
+msgid "möchte ich Telemetriedaten automatisch zurückgemeldet bekommen"
 msgstr "I want to have telemetry data reported back automatically"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:120
 #, no-wrap
 msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand."
-msgstr ""
-"so that the number of bales, weight and moisture are documented without any "
-"manual effort."
+msgstr "so that the number of bales, weight and moisture are documented without any manual effort."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:142
@@ -12750,9 +12698,7 @@ msgstr "Grass harvest"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:178
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll und der weitere Arbeitsablauf optimal vorbereitet ist."
-msgstr ""
-"so that my employee knows exactly which work is to be carried out where and "
-"the further workflow is optimally prepared."
+msgstr "so that my employee knows exactly which work is to be carried out where and the further workflow is optimally prepared."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:180
@@ -12764,9 +12710,7 @@ msgstr "I want to plan hay baling tasks and send them to the machine"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:182
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen."
-msgstr ""
-"so that the driver knows exactly which work is to be carried out on which "
-"field."
+msgstr "so that the driver knows exactly which work is to be carried out on which field."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:184
@@ -12779,29 +12723,19 @@ msgstr "Send several prescription maps to one machine"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:186
 #, no-wrap
 msgid "sodass die Schwaden optimal für den nachfolgenden Arbeitsablauf vorbereitet werden."
-msgstr ""
-"so that the swaths are optimally prepared for the subsequent work process."
+msgstr "so that the swaths are optimally prepared for the subsequent work process."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:188
 #, no-wrap
 msgid "möchte ich für den Häcksler die Parameter (Häckselgutlänge, Silagemittelmenge etc.) vorbereiten und versenden können"
-msgstr ""
-"I want to be able to prepare and send the parameters (chopped material "
-"length, silage quantity, etc.) for the forage harvester"
+msgstr "I want to be able to prepare and send the parameters (chopped material length, silage quantity, etc.) for the forage harvester"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:190
 #, no-wrap
 msgid "sodass die Silagequalität an die gewünschte Fütterung angepasst ist."
 msgstr "so that the silage quality is adapted to the desired feed."
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:191
-#, fuzzy, no-wrap
-#| msgid "Maschinen hinzufügen"
-msgid "Als Schwaderfahrer"
-msgstr "Add machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:192
@@ -12825,45 +12759,33 @@ msgstr "I want the machine to report the data automatically"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:198
 #, no-wrap
 msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit ohne manuellen Aufwand dokumentiert werden."
-msgstr ""
-"so that the number of bales, weight and moisture are documented without "
-"manual effort."
+msgstr "so that the number of bales, weight and moisture are documented without manual effort."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:200
 #, no-wrap
 msgid "möchte ich, dass die Telemetriedaten der Walzfahrzeuge auf dem Silo erfasst werden"
-msgstr ""
-"I wanto the telemetry data of the rolling vehicles to be recorded on the silo"
+msgstr "I wanto the telemetry data of the rolling vehicles to be recorded on the silo"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:202
 #, no-wrap
 msgid "sodass dokumentiert ist, wie viel Zeit und Überfahrten in die Verdichtung investiert wurden."
-msgstr ""
-"so that it is documented how much time and passes were invested in the "
-"compaction."
+msgstr "so that it is documented how much time and passes were invested in the compaction."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:204
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:208
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:212
 #, no-wrap
-msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern und verarbeiten können"
-msgstr ""
-"I want to be able to save and process the recorded yield quantities from the "
-"grass harvest"
+msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern"
+msgstr "I want to save the recorded yield quantities from the grass harvest"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:206
 #, no-wrap
 msgid "sodass ich die Daten für die Futterplanung nutzen kann."
 msgstr "so that I can use the data for feed planning."
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:208
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:212
-#, no-wrap
-msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern"
-msgstr "I want to save the recorded yield quantities from the grass harvest"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:210
@@ -12878,26 +12800,16 @@ msgid "sodass ich die Daten für die Dokumentation nutzen kann."
 msgstr "so that I can use the data for the documentation."
 
 #. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:216
-#, no-wrap
-msgid "möchte ich Telemetriedaten aller Maschinen einsehen"
-msgstr "I want to view the telemetry data of all machines"
-
-#. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:232
 #, no-wrap
 msgid "möchte ich die gesamten Maschinendaten (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) zusammenführen"
-msgstr ""
-"I would like to merge all the machine data (mowing, turning, swathing, "
-"chopping, driving off, rolling)"
+msgstr "I would like to merge all the machine data (mowing, turning, swathing, chopping, driving off, rolling)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:233
 #, no-wrap
 msgid "sodass ich die Arbeit für die Abrechnung und für den Kunden transparent dokumentieren kann."
-msgstr ""
-"so that I can document the work transparently for billing and for the "
-"customer."
+msgstr "so that I can document the work transparently for billing and for the customer."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:240
@@ -12965,8 +12877,8 @@ msgid ""
 "und stellt diese seinem Kunden zur Verfügung. So sind sowohl die Abrechnung "
 "als auch die Dokumentation der Arbeiten transparent und nachvollziehbar."
 msgstr ""
-"A contractor automatically collects the machine data of all vehicles used ("
-"mowing, turning, swathing, chopping, driving off, rolling) and makes it "
+"A contractor automatically collects the machine data of all vehicles used "
+"(mowing, turning, swathing, chopping, driving off, rolling) and makes it "
 "available to the customer. This makes both the invoicing and the "
 "documentation of the work transparent and traceable."
 
@@ -13020,47 +12932,31 @@ msgstr "so that the harvesting work is clearly defined and traceable."
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:294
 #, no-wrap
 msgid "möchte ich Aufträge für die Abfahrer erstellen, in denen die zu erntenden Schläge hinterlegt sind"
-msgstr ""
-"I want to create tasks for the harvesters in which the fields to be "
-"harvested are stored"
+msgstr "I want to create tasks for the harvesters in which the fields to be harvested are stored"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:296
 #, no-wrap
 msgid "sodass die Abfahrer genau wissen, von welchen Flächen sie den Mais abholen müssen."
-msgstr ""
-"so that the drivers know exactly from which areas they have to collect the "
-"maize."
+msgstr "so that the drivers know exactly from which areas they have to collect the maize."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:298
 #, no-wrap
 msgid "möchte ich Applikationskarten an den Häcksler übermitteln, die auf den Aussaatkarten basieren"
-msgstr ""
-"I want to transmit application maps to the forage harvester that are based "
-"on the sowing maps"
+msgstr "I want to transmit application maps to the forage harvester that are based on the sowing maps"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:300
 #, no-wrap
 msgid "sodass Fahrspuren und die Ausrichtung der Maisreihen berücksichtigt werden und der Häcksler effizient arbeiten kann."
-msgstr ""
-"so that lanes and the alignment of the maize rows are taken into account and "
-"the forage harvester can work efficiently."
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:302
-#, no-wrap
-msgid "möchte ich Fahrspuren einer Maschine an andere Maschinen übermitteln"
-msgstr "I want to transmit the guidance lines of a machine to other machines"
+msgstr "so that lanes and the alignment of the maize rows are taken into account and the forage harvester can work efficiently."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:304
 #, no-wrap
 msgid "sodass nachfolgende Fahrer, z. B. Häckslerfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
-msgstr ""
-"so that following drivers, e.g. forage harvester drivers, no longer have to "
-"record their own guidance lines."
+msgstr "so that following drivers, e.g. forage harvester drivers, no longer have to record their own guidance lines."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:310
@@ -13072,24 +12968,19 @@ msgstr "I want the data about the maize harvest to be recorded automatically"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:312
 #, no-wrap
 msgid "sodass Arbeitszeit, Flächenleistung und Maschinenauslastung nachvollziehbar sind."
-msgstr ""
-"so that working time, area output and machine utilisation can be tracked."
+msgstr "so that working time, area output and machine utilisation can be tracked."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:314
 #, no-wrap
 msgid "möchte ich anhand von Telemetriedaten sehen, wie weit ein Schlag bereits abgeerntet wurde"
-msgstr ""
-"I want to use telemetry data to see how far a field has already been "
-"harvested"
+msgstr "I want to use telemetry data to see how far a field has already been harvested"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:316
 #, no-wrap
 msgid "sodass ich die weiteren Einsätze (z. B. Abfahrer, Silofahrzeuge, nächste Schläge) optimal planen kann."
-msgstr ""
-"so that I can optimally plan the further operations (e.g. driver, silage "
-"vehicles, next fields)."
+msgstr "so that I can optimally plan the further operations (e.g. driver, silage vehicles, next fields)."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:318
@@ -13101,25 +12992,19 @@ msgstr "I want to save the recorded yield quantities from the maize harvest"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:320
 #, no-wrap
 msgid "sodass ich diese Daten für die Dokumentation und für die Erstellung zukünftiger Aussaat- und Düngerkarten verwenden kann."
-msgstr ""
-"so that I can use this data for documentation and for the creation of future "
-"sowing and fertiliser maps."
+msgstr "so that I can use this data for documentation and for the creation of future sowing and fertiliser maps."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:334
 #, no-wrap
 msgid "möchte ich die Telemetriedaten der Maisernte für die Abrechnung nutzen können"
-msgstr ""
-"I want to be able to use the telemetry data from the maize harvest for "
-"billing purposes"
+msgstr "I want to be able to use the telemetry data from the maize harvest for billing purposes"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:335
 #, no-wrap
 msgid "sodass die geleisteten Arbeiten transparent und fehlerfrei gegenüber dem Kunden abgerechnet werden können."
-msgstr ""
-"so that the work performed can be billed transparently and accurately to the "
-"customer."
+msgstr "so that the work performed can be billed transparently and accurately to the customer."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:344
@@ -13272,41 +13157,28 @@ msgid "sodass die Nachvollziehbarkeit für Dokumentation und Compliance gewährl
 msgstr "so that traceability for documentation and compliance is guaranteed"
 
 #. type: Table
-#: de/modules/ROOT/pages/user-stories/logistic.adoc:31
-#, no-wrap
-msgid "Als Disponent in einem Lohnunternehmen"
-msgstr "As a dispatcher in a contracting company"
-
-#. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:32
 #, no-wrap
 msgid "möchte ich Telemetriedaten zur Position und zum Arbeitsfortschritt meiner Flotte erhalten"
-msgstr ""
-"I want to receive telemetry data on the position and work progress of my "
-"fleet"
+msgstr "I want to receive telemetry data on the position and work progress of my fleet"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:34
 #, no-wrap
 msgid "sodass ich den Einsatz der Maschinen effizient koordinieren und bei Bedarf kurzfristig umdisponieren kann."
-msgstr ""
-"so that I can coordinate the use of the machines efficiently and reschedule "
-"them at short notice if necessary."
+msgstr "so that I can coordinate the use of the machines efficiently and reschedule them at short notice if necessary."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:44
 #, no-wrap
 msgid "möchte ich Telemetriedaten der Transportfahrzeuge automatisch erfassen"
-msgstr ""
-"I want to automatically record telemetry data from the transport vehicles"
+msgstr "I want to automatically record telemetry data from the transport vehicles"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:45
 #, no-wrap
 msgid "sodass ich die Abrechnung der Transportaufträge transparent und fehlerfrei durchführen kann."
-msgstr ""
-"so that I can carry out the invoicing of transport orders transparently and "
-"without errors."
+msgstr "so that I can carry out the invoicing of transport orders transparently and without errors."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:52
@@ -13418,30 +13290,20 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:99
 #, no-wrap
 msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden"
-msgstr ""
-"I want to plan a mechanical crop protection task for a field and send it to "
-"the machine"
+msgstr "I want to plan a mechanical crop protection task for a field and send it to the machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:19
-#, no-wrap
-msgid "möchte ich das Telemetriedaten automatisch zurückgemeldet werden"
+#, fuzzy, no-wrap
+#| msgid "möchte ich, dass Telemetriedaten automatisch zurückgemeldet werden"
+msgid "möchte ich, das Telemetriedaten automatisch zurückgemeldet werden"
 msgstr "I want the telemetry data to be sent back automatically"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:21
 #, no-wrap
 msgid "sodass Arbeitszeit, bearbeitete Fläche und Fortschritt ohne manuellen Aufwand dokumentiert sind."
-msgstr ""
-"so that working time, processed area and progress are documented without "
-"manual effort."
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
-msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
-msgstr "Send an application map to several Endpoints simultaneously"
+msgstr "so that working time, processed area and progress are documented without manual effort."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:43
@@ -13558,33 +13420,25 @@ msgstr "As a service provider for drones"
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:91
 #, no-wrap
 msgid "möchte ich Unkraut- und Krankheitsdruck per Drohne erfassen und an die Agrarsoftware senden"
-msgstr ""
-"I want to record weed and disease pressure by drone and send it to the "
-"agricultural software"
+msgstr "I want to record weed and disease pressure by drone and send it to the agricultural software"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:93
 #, no-wrap
 msgid "sodass der Landwirt genau sieht, wo Pflanzenschutzmittel benötigt werden und eine Applikationskarte erstellt werden kann."
-msgstr ""
-"so that the farmer can see exactly where crop protection products are needed "
-"and an application map can be created."
+msgstr "so that the farmer can see exactly where crop protection products are needed and an application map can be created."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:95
 #, no-wrap
 msgid "möchte ich aus den per Drohne erfassten Unkraut- und Krankheitsdrücken eine Applikationskarte erstellen und an den Landwirt senden"
-msgstr ""
-"I want to create an application map from the weed and disease pressures "
-"recorded by drone and send it to the farmer"
+msgstr "I want to create an application map from the weed and disease pressures recorded by drone and send it to the farmer"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:97
 #, no-wrap
 msgid "sodass der Pflanzenschutz gezielt und effizient auf dem Feld durchgeführt werden kann."
-msgstr ""
-"so that plant protection can be carried out specifically and efficiently in "
-"the field."
+msgstr "so that plant protection can be carried out specifically and efficiently in the field."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:103
@@ -13603,9 +13457,7 @@ msgstr "so that several machines can work simultaneously on specific sections."
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:107
 #, no-wrap
 msgid "möchte ich, dass die Traktoren die Anbaugeräte automatisch nach Applikationskarten steuern"
-msgstr ""
-"I want the tractors to control the implements automatically, according to "
-"the maps that show what the tractors can use"
+msgstr "I want the tractors to control the implements automatically, according to the maps that show what the tractors can use"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:109
@@ -13624,9 +13476,7 @@ msgstr "The machine's telemetry data will now be displayed."
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:113
 #, no-wrap
 msgid "sodass Ausbringmenge, Zeitpunkt, Uhrzeit und Fahrer gesetzeskonform dokumentiert werden können."
-msgstr ""
-"so that the application quantity, time, date and driver can be documented in "
-"accordance with the law."
+msgstr "so that the application quantity, time, date and driver can be documented in accordance with the law."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:127
@@ -13813,8 +13663,7 @@ msgstr "so that several machines can use the same planning of a field."
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:54
 #, no-wrap
 msgid "sodass verschiedene Maschinen gleichzeitig unterschiedliche Flächen bearbeiten können."
-msgstr ""
-"so that different machines can process different surfaces at the same time."
+msgstr "so that different machines can process different surfaces at the same time."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:56
@@ -13846,9 +13695,7 @@ msgstr "Combined partial area-specific application maps "
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:71
 #, no-wrap
 msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an eine Maschine senden"
-msgstr ""
-"I would like to send a combined application map for seed, fertiliser and "
-"crop protection to a machine"
+msgstr "I would like to send a combined application map for seed, fertiliser and crop protection to a machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:73
@@ -13866,17 +13713,13 @@ msgstr "I want to send several combined prescription maps to one machine"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:77
 #, no-wrap
 msgid "sodass unterschiedliche komplexe Kulturmaßnahmen nacheinander abgearbeitet werden können."
-msgstr ""
-"so that different complex cultivation measures can be processed one after "
-"the other."
+msgstr "so that different complex cultivation measures can be processed one after the other."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:79
 #, no-wrap
 msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an mehrere Maschinen senden"
-msgstr ""
-"I would like to send a combined application map for seed, fertiliser and "
-"crop protection to several machines"
+msgstr "I would like to send a combined application map for seed, fertiliser and crop protection to several machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:83
@@ -13902,9 +13745,7 @@ msgstr "Send multiple cards to one machine"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:96
 #, no-wrap
 msgid "sodass ich mehrere bearbeitete Flächen effizient und nicht einzeln übermitteln muss."
-msgstr ""
-"so that I have to transmit several processed areas efficiently and not "
-"individually."
+msgstr "so that I have to transmit several processed areas efficiently and not individually."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:98
@@ -13917,9 +13758,7 @@ msgstr "The machine's telemetry data will now be displayed."
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:100
 #, no-wrap
 msgid "sodass ich bei der Dokumentation meiner Arbeit entlastet werde und keine Tippfehler entstehen können."
-msgstr ""
-"so that I am relieved of the burden of documenting my work and no typing "
-"errors can occur."
+msgstr "so that I am relieved of the burden of documenting my work and no typing errors can occur."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:102
@@ -14000,9 +13839,7 @@ msgstr "so that parallel and coordinated work is possible."
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:137
 #, no-wrap
 msgid "möchte ich, dass Daten von einer organischen Düngung von einer Maschine an eine weitere Maschine gesendet werden können"
-msgstr ""
-"I would like to be able to send data from an organic fertiliser application "
-"from one machine to another machine"
+msgstr "I would like to be able to send data from an organic fertiliser application from one machine to another machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:138
@@ -14086,6 +13923,42 @@ msgstr ""
 "reduces manual input by the contractor's driver. Typing errors are avoided "
 "and invoicing is more precise. This means that no more work is lost or "
 "disregarded."
+
+#, no-wrap
+#~ msgid "Als Disponent im Lohnunternehmen"
+#~ msgstr "As a dispatcher in a contracting company"
+
+#, fuzzy, no-wrap
+#~| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#~ msgid "möchte einen Auftrag an mehrere Geräte gleichzeitig senden können"
+#~ msgstr "Send an application map to several Endpoints simultaneously"
+
+#, fuzzy, no-wrap
+#~| msgid "Mehrere Karten an eine Maschine senden"
+#~ msgid "möchte Fahrspuren einer Maschine an andere Maschinen übermitteln"
+#~ msgstr "Send multiple cards to one machine"
+
+#, fuzzy, no-wrap
+#~| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#~ msgid "möchte Telemetriedaten aller Maschinen einsehen"
+#~ msgstr "The machine's telemetry data will now be displayed."
+
+#, fuzzy, no-wrap
+#~| msgid "Maschinen hinzufügen"
+#~ msgid "Als Schwaderfahrer"
+#~ msgstr "Add machines"
+
+#, no-wrap
+#~ msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern und verarbeiten können"
+#~ msgstr "I want to be able to save and process the recorded yield quantities from the grass harvest"
+
+#, no-wrap
+#~ msgid "Als Disponent in einem Lohnunternehmen"
+#~ msgstr "As a dispatcher in a contracting company"
+
+#, no-wrap
+#~ msgid "möchte ich das Telemetriedaten automatisch zurückgemeldet werden"
+#~ msgstr "I want the telemetry data to be sent back automatically"
 
 #, fuzzy, no-wrap
 #~| msgid "agrirouter Bedienungsanleitung"

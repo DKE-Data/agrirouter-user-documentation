@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-25 19:31+0000\n"
+"POT-Creation-Date: 2025-08-25 21:29+0000\n"
 "PO-Revision-Date: 2025-05-16 07:51+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: French (formal) <https://weblate.my-agrirouter.com/projects/"
@@ -11968,6 +11968,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:55
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:29
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:108
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:191
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:195
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:35
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:59
@@ -12033,6 +12034,15 @@ msgstr "Données télémétriques"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:51
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:20
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:105
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:113
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:183
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:215
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:313
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:31
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:22
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:26
 #, no-wrap
 msgid "Als Disponent"
 msgstr ""
@@ -12624,19 +12634,6 @@ msgid "sodass die Flotte effizient eingesetzt wird und Verzögerungen minimiert 
 msgstr ""
 
 #. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:20
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:105
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:113
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:183
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:215
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:313
-#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:22
-#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:26
-#, no-wrap
-msgid "Als Disponent im Lohnunternehmen"
-msgstr ""
-
-#. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:21
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:27
 #, fuzzy, no-wrap
@@ -12800,9 +12797,10 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:106
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
 #, fuzzy, no-wrap
 #| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
-msgid "möchte einen Auftrag an mehrere Geräte gleichzeitig senden können"
+msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
 msgstr "Envoyer une carte d'application à plusieurs points de terminaison en même temps"
 
 #. type: Table
@@ -12814,9 +12812,10 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:110
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:302
 #, fuzzy, no-wrap
 #| msgid "Mehrere Karten an eine Maschine senden"
-msgid "möchte Fahrspuren einer Maschine an andere Maschinen übermitteln"
+msgid "möchte ich Fahrspuren einer Maschine an andere Maschinen übermitteln"
 msgstr "Envoyer plusieurs cartes à une machine"
 
 #. type: Table
@@ -12827,9 +12826,10 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:114
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:216
 #, fuzzy, no-wrap
 #| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
-msgid "möchte Telemetriedaten aller Maschinen einsehen"
+msgid "möchte ich Telemetriedaten aller Maschinen einsehen"
 msgstr "Vous verrez alors s'afficher les données télémétriques de la machine."
 
 #. type: Table
@@ -12841,9 +12841,10 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:118
-#, no-wrap
-msgid "möchte Telemetriedaten automatisch zurückgemeldet bekommen"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich Telemetriedaten automatisch zurückgemeldet bekommen"
+msgstr "Vous verrez alors s'afficher les données télémétriques de la machine."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:120
@@ -12950,13 +12951,6 @@ msgid "sodass die Silagequalität an die gewünschte Fütterung angepasst ist."
 msgstr ""
 
 #. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:191
-#, fuzzy, no-wrap
-#| msgid "Maschinen hinzufügen"
-msgid "Als Schwaderfahrer"
-msgstr "Ajouter des machines"
-
-#. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:192
 #, no-wrap
 msgid "möchte ich meine aufgezeichnete A-B-Linie an den Häckslerfahrer übermitteln"
@@ -12995,24 +12989,18 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:204
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
-msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern und verarbeiten können"
-msgstr "Envoyer une carte d'application à plusieurs points de terminaison en même temps"
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:206
-#, no-wrap
-msgid "sodass ich die Daten für die Futterplanung nutzen kann."
-msgstr ""
-
-#. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:208
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:212
 #, fuzzy, no-wrap
 #| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
 msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern"
 msgstr "Vous verrez alors s'afficher les données télémétriques de la machine."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:206
+#, no-wrap
+msgid "sodass ich die Daten für die Futterplanung nutzen kann."
+msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:210
@@ -13025,13 +13013,6 @@ msgstr ""
 #, no-wrap
 msgid "sodass ich die Daten für die Dokumentation nutzen kann."
 msgstr ""
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:216
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
-msgid "möchte ich Telemetriedaten aller Maschinen einsehen"
-msgstr "Vous verrez alors s'afficher les données télémétriques de la machine."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:232
@@ -13156,13 +13137,6 @@ msgstr "Envoi de plusieurs cartes d'application à un terminal"
 #, no-wrap
 msgid "sodass Fahrspuren und die Ausrichtung der Maisreihen berücksichtigt werden und der Häcksler effizient arbeiten kann."
 msgstr ""
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/harvest.adoc:302
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
-msgid "möchte ich Fahrspuren einer Maschine an andere Maschinen übermitteln"
-msgstr "Envoyer plusieurs cartes à une machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:304
@@ -13332,12 +13306,6 @@ msgid "sodass die Nachvollziehbarkeit für Dokumentation und Compliance gewährl
 msgstr ""
 
 #. type: Table
-#: de/modules/ROOT/pages/user-stories/logistic.adoc:31
-#, no-wrap
-msgid "Als Disponent in einem Lohnunternehmen"
-msgstr ""
-
-#. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:32
 #, no-wrap
 msgid "möchte ich Telemetriedaten zur Position und zum Arbeitsfortschritt meiner Flotte erhalten"
@@ -13448,7 +13416,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:19
 #, fuzzy, no-wrap
 #| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
-msgid "möchte ich das Telemetriedaten automatisch zurückgemeldet werden"
+msgid "möchte ich, das Telemetriedaten automatisch zurückgemeldet werden"
 msgstr "Vous verrez alors s'afficher les données télémétriques de la machine."
 
 #. type: Table
@@ -13456,13 +13424,6 @@ msgstr "Vous verrez alors s'afficher les données télémétriques de la machine
 #, no-wrap
 msgid "sodass Arbeitszeit, bearbeitete Fläche und Fortschritt ohne manuellen Aufwand dokumentiert sind."
 msgstr ""
-
-#. type: Table
-#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
-msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
-msgstr "Envoyer une carte d'application à plusieurs points de terminaison en même temps"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:43
@@ -14012,6 +13973,31 @@ msgid ""
 "reduziert. Tippfehler werden vermieden und die Abrechnung erfolgt präziser. "
 "So gehen keine Arbeiten mehr verloren oder bleiben unberücksichtigt."
 msgstr ""
+
+#, fuzzy, no-wrap
+#~| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#~ msgid "möchte einen Auftrag an mehrere Geräte gleichzeitig senden können"
+#~ msgstr "Envoyer une carte d'application à plusieurs points de terminaison en même temps"
+
+#, fuzzy, no-wrap
+#~| msgid "Mehrere Karten an eine Maschine senden"
+#~ msgid "möchte Fahrspuren einer Maschine an andere Maschinen übermitteln"
+#~ msgstr "Envoyer plusieurs cartes à une machine"
+
+#, fuzzy, no-wrap
+#~| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#~ msgid "möchte Telemetriedaten aller Maschinen einsehen"
+#~ msgstr "Vous verrez alors s'afficher les données télémétriques de la machine."
+
+#, fuzzy, no-wrap
+#~| msgid "Maschinen hinzufügen"
+#~ msgid "Als Schwaderfahrer"
+#~ msgstr "Ajouter des machines"
+
+#, fuzzy, no-wrap
+#~| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#~ msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern und verarbeiten können"
+#~ msgstr "Envoyer une carte d'application à plusieurs points de terminaison en même temps"
 
 #, fuzzy, no-wrap
 #~| msgid "agrirouter Bedienungsanleitung"
