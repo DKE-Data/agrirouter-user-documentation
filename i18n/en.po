@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-08-25 19:31+0000\n"
-"PO-Revision-Date: 2025-08-25 20:36+0000\n"
+"PO-Revision-Date: 2025-08-25 20:50+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: English <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/en/>\n"
@@ -11361,10 +11361,8 @@ msgstr "xref:user-stories/fertilizing.adoc#mineral-fertilization[Mineral]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:7
-#, fuzzy
-#| msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
 msgid "xref:user-stories/plant-protection.adoc[Pflanzenschutz]"
-msgstr "xref:solution-guides/plantivo.adoc[Plantivo]"
+msgstr "xref:user-stories/plant-protection.adoc[Plant Protection]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:8
@@ -11382,10 +11380,8 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:10
-#, fuzzy
-#| msgid "xref:solution-guides/agforce.adoc[AgForce]"
 msgid "xref:user-stories/harvest.adoc[Ernte]"
-msgstr "xref:solution-guides/agforce.adoc[AgForce]"
+msgstr "xref:user-stories/harvest.adoc[Harvest]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:10
@@ -11394,10 +11390,9 @@ msgstr "xref:user-stories/logistic.adoc[Logistic]"
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Sender bearbeiten"
+#, no-wrap
 msgid "Bodenbearbeitung"
-msgstr ". Edit a sender"
+msgstr "Cultivation"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:4
@@ -11704,10 +11699,9 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:44
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:24
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:86
-#, fuzzy, no-wrap
-#| msgid "Telemetriedaten"
+#, no-wrap
 msgid "Telemetrie & Dokumentation"
-msgstr "Telemetry data"
+msgstr "Telemetry & Documentation"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:51
@@ -13244,10 +13238,9 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Listing"
+#, no-wrap
 msgid "Logistik"
-msgstr "Listing"
+msgstr "Logistic"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:4
@@ -13404,7 +13397,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:6
 #, no-wrap
 msgid "Mechanischer Pflanzenschutz"
-msgstr "Mechanical plant protection"
+msgstr "Mechanical Plant Protection"
 
 #. type: #mechanic-plantprotection
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:8
@@ -13544,7 +13537,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:82
 #, no-wrap
 msgid "Chemischer Pflanzenschutz"
-msgstr "Chemical plant protection"
+msgstr "Chemical Plant Protection"
 
 #. type: #chemical-plantprotection
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:84
@@ -13723,10 +13716,9 @@ msgstr ""
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:5
-#, fuzzy, no-wrap
-#| msgid "ISOBUS Auftragsdaten, Applikationskarten"
+#, no-wrap
 msgid "Aufträge ohne Applikationskarte"
-msgstr "ISOBUS order information, application maps"
+msgstr "Tasks without application maps"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:13
@@ -13782,10 +13774,9 @@ msgstr "so that the machines can carry out the sowing according to my planning."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:32
-#, fuzzy, no-wrap
-#| msgid "Erstelle eine Applikationskarte."
+#, no-wrap
 msgid "Teilflächenspezifische Applikationskarten"
-msgstr "Create an application map."
+msgstr "Partial area-specific application maps"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:40
@@ -13856,10 +13847,9 @@ msgstr "so that I can carry out the measures without manual input."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:63
-#, fuzzy, no-wrap
-#| msgid "Erstelle eine Applikationskarte."
+#, no-wrap
 msgid "Kombinierte teilflächenspezifische Applikationskarten "
-msgstr "Create an application map."
+msgstr "Combined partial area-specific application maps "
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:71
@@ -13971,7 +13961,7 @@ msgstr "so that I can automatically document the measures taken."
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:117
 #, no-wrap
 msgid "Maschine-zu-Maschine-Kommunikation (z. B. Spurlinien)"
-msgstr "machine-to-machine communication (e.g. guidance lines)"
+msgstr "Machine-to-machine communication (e.g. guidance lines)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:124
