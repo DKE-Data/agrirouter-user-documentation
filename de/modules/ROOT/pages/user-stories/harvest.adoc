@@ -1,0 +1,386 @@
+= Ernte
+
+In diesem Kapitel wird erläutert, wie der agrirouter die Abläufe während der Ernte unterstützt. Er ermöglicht die Vernetzung von Maschinen und Agrarsoftware und erleichtert die Planung und Übermittlung von Aufträgen sowie die automatische Erfassung von Telemetriedaten und Erträgen. Dadurch werden Prozesse transparenter gestaltet, die Abrechnung vereinfacht und wertvolle Daten für zukünftige Entscheidungen, wie Aussaat- oder Düngeplanung, bereitgestellt.
+
+== Getreideernte
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
+|Als Landwirt
+|möchte ich einen Ernteauftrag für ein bestimmtes Feld planen und an die Maschine senden
+|sodass der Fahrer genau weiß, welche Fläche wie geerntet werden soll.
+
+|Als Landwirt
+|möchte ich Aufträge an mehrere Maschinen gleichzeitig senden können
+|sodass die Flotte effizient eingesetzt wird und Verzögerungen minimiert werden.
+
+|Als Disponent im Lohnunternehmen
+|möchte ich die Telemetriedaten aller Maschinen einsehen
+|sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann.
+
+|Als Landwirt
+|möchte ich, dass Telemetriedaten automatisch zurückgemeldet werden
+|sodass Erntezeit, gefahrene Flächen und Ertrag ohne manuellen Aufwand dokumentiert werden.
+
+|Als Landwirt
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das vorher nicht geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert werden können.
+
+|Als Lohnunternehmer
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können.
+
+|Als Lohnunternehmer 
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
+|Als Lohnunternehmer 
+|möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
+|===
+
+== Praxisbeispiele
+
+[NOTE]
+.Praxisbeispiel 1
+====
+Der Landwirt plant die Getreideernte auf seinen Feldern und erstellt dafür Ernteaufträge in der Agrarsoftware. Die Aufträge werden direkt an den Lohnunternehmer übermittelt. Die Fahrer sehen sofort, welches Feld sie ernten müssen und welche Fläche wie bearbeitet werden soll.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Während der Ernte werden Telemetriedaten in Echtzeit an die Agrarsoftware zurückgemeldet. Der Landwirt kann somit direkt einsehen, welche Fläche bereits abgeerntet wurde, wie lange die Maschine im Einsatz war und wie viel Ertrag eingebracht wurde – ohne dass dieser manuell Protokolle führen muss.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Der Disponent im Lohnunternehmen verteilt Ernteaufträge auf zwei Mähdrescher gleichzeitig. Beide Maschinen arbeiten parallel auf unterschiedlichen Feldern. Dank der automatischen Telemetrierückmeldung kann der Disponent jederzeit den Fortschritt der gesamten Flotte überwachen und Engpässe frühzeitig erkennen.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Der Disponent eines Lohnunternehmens überwacht alle Maschinen in Echtzeit. Als eine Maschine ausfällt, kann er sofort die Einsatzplanung anpassen und einem anderen Fahrer Aufgaben zuweisen, um den Zeitplan einzuhalten.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Nach der Ernte überprüft der Lohnunternehmer die Telemetriedaten. Er erkennt, dass auf einem Feld versehentlich weniger geerntet wurde als geplant. Mit den Telemetriedaten kann er die Abrechnung korrigieren und sicherstellen, dass keine Arbeit verloren geht.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Ein Fahrer hat spontan ein zusätzliches Feld geerntet, welches nicht in der ursprünglichen Planung enthalten war. Die Telemetriedaten zeigen diese zusätzliche Arbeit genau an. Der Lohnunternehmer kann die erbrachte Leistung nachvollziehen und korrekt abrechnen, ohne dass die spontane Arbeit verloren geht.
+====
+
+[NOTE]
+.Praxisbeispiel 7
+====
+Dank der detaillierten Telemetriedaten und Ertragsaufzeichnungen kann der Landwirt im Folgejahr präzise Dünge- und Aussaatkarten erstellen. Die Agrarsoftware nutzt dann die Ertragsinformationen des Vorjahres, um die Empfehlungen für teilflächenspezifische Maßnahmen zu optimieren.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Die erfassten Erntemengen werden automatisch in der Agrarsoftware dokumentiert. Der Landwirt kann diese Daten für interne Auswertungen, aber auch für gesetzliche oder betriebliche Nachweise verwenden, ohne dass zusätzliche manuelle Aufzeichnungen nötig sind.
+====
+
+== Strohernte
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
+|Als Landwirt
+|möchte ich Strohpressaufträge planen und an eine Maschine senden
+|sodass der Fahrer genau weiß, welche Arbeit auf welchen Feldern durchgeführt werden soll.
+
+|Als Disponent im Lohnunternehmen
+|möchte einen Auftrag an mehrere Geräte gleichzeitig senden können
+|sodass die Flotte effizient eingesetzt wird.
+
+|Als Landwirt
+|möchte Fahrspuren einer Maschine an andere Maschinen übermitteln
+|sodass nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen.
+
+|Als Disponent im Lohnunternehmen
+|möchte Telemetriedaten aller Maschinen einsehen
+|sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können.
+
+|Als Landwirt
+|möchte Telemetriedaten automatisch zurückgemeldet bekommen
+|sodass Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand.
+
+|Als Landwirt
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das vorher nicht geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert werden können.
+
+|Als Lohnunternehmer
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können.
+
+|Als Lohnunternehmer 
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
+|Als Lohnunternehmer 
+|möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
+|===
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Nach der Getreideernte plant ein Landwirt den Stroheinsatz. Der Pressenfahrer erhält den Auftrag direkt über den agrirouter auf seine Maschine. Während der Arbeit werden Ballenanzahl, Gewicht und Feuchtigkeit automatisch erfasst und in die Agrarsoftware übertragen. Der Landwirt hat dadurch jederzeit einen Überblick über die Menge und Qualität des Strohs.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Ein Lohnunternehmen setzt mehrere Pressen parallel ein. Dank der über den agrirouter synchronisierten Aufträge wissen alle Fahrer, auf welchen Flächen sie arbeiten sollen. Die erfassten Telemetriedaten laufen im Büro zusammen und ermöglichen es dem Disponenten, die Auslastung der Maschinen zu überwachen und bei Bedarf kurzfristig umzudisponieren.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Ein Mähdrescher überträgt nach der Ernte seine Fahrspuren an den nachfolgenden Pressenfahrer. Dieser muss keine eigenen Fahrspuren mehr anlegen und kann sich direkt an den bestehenden orientieren. Dadurch wird die Arbeit effizienter und unnötige Aufzeichnungen werden vermieden.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Bei der Abrechnung stellt ein Lohnunternehmer fest, dass ein Feld zusätzlich mitgepresst wurde, obwohl dies nicht im ursprünglichen Auftrag vorgesehen war. Durch die automatisch erfassten Telemetriedaten ist der Zusatzauftrag dennoch dokumentiert und kann somit in Rechnung gestellt werden.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Ein Mitarbeiter vergisst, einen spontanen Pressauftrag im System zu erfassen. Später erkennt der Disponent im Büro anhand der Telemetriedaten, dass nach Auftragsende noch Ballen gepresst wurden. Diese Daten können zur Nachdokumentation genutzt werden, sodass der nicht dokumentierte Auftrag nicht verloren geht und trotzdem abgerechnet werden kann.
+====
+
+== Grasernte
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
+|Als Landwirt
+|möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
+|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll und der weitere Arbeitsablauf optimal vorbereitet ist.
+
+|Als Landwirt
+|möchte ich Heupressaufträge planen und an die Maschine senden
+|sodass der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen.
+
+|Als Disponent im Lohnunternehmen
+|möchte ich für den Schwaderfahrer eine A-B-Linie planen und an die Maschine senden
+|sodass die Schwaden optimal für den nachfolgenden Arbeitsablauf vorbereitet werden.
+
+|Als Landwirt
+|möchte ich für den Häcksler die Parameter (Häckselgutlänge, Silagemittelmenge etc.) vorbereiten und versenden können
+|sodass die Silagequalität an die gewünschte Fütterung angepasst ist.
+
+|Als Schwaderfahrer
+|möchte ich meine aufgezeichnete A-B-Linie an den Häckslerfahrer übermitteln
+|sodass dieser die Schwaden optimal aufnehmen kann.
+
+|Als Maschinenführer
+|möchte ich, dass Maschinendaten automatisch zurückgemeldet werden
+|sodass Ballenanzahl, Gewicht und Feuchtigkeit ohne manuellen Aufwand dokumentiert werden.
+
+|Als Lohnunternehmer
+|möchte ich, dass die Telemetriedaten der Walzfahrzeuge auf dem Silo erfasst werden
+|sodass dokumentiert ist, wie viel Zeit und Überfahrten in die Verdichtung investiert wurden.
+
+|Als Landwirt
+|möchte ich die erfassten Ertragsmengen aus der Grasernte speichern und verarbeiten können
+|sodass ich die Daten für die Futterplanung nutzen kann.
+
+|Als Landwirt
+|möchte ich die erfassten Ertragsmengen aus der Grasernte speichern
+|sodass ich die Daten für die Optimierung zukünftiger Düngungen nutzen kann.
+
+|Als Landwirt
+|möchte ich die erfassten Ertragsmengen aus der Grasernte speichern
+|sodass ich die Daten für die Dokumentation nutzen kann.
+
+|Als Disponent im Lohnunternehmen
+|möchte ich Telemetriedaten aller Maschinen einsehen
+|sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können.
+
+|Als Lohnunternehmer
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können.
+
+|Als Lohnunternehmer 
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
+|Als Lohnunternehmer 
+|möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
+
+|Als Lohnunternehmer
+|möchte ich die gesamten Maschinendaten (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) zusammenführen
+|sodass ich die Arbeit für die Abrechnung und für den Kunden transparent dokumentieren kann.
+|===
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Der Landwirt plant die Grasernte auf seinem Betrieb. Über die Agrarsoftware legt dieser Arbeitsaufträge für Mähen, Wenden und Schwaden an und sendet diese an die Maschinen. Die Fahrer wissen dadurch genau, welches Feld in welcher Reihenfolge bearbeitet werden muss. So wird der gesamte Ablauf der Grasernte effizient organisiert.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Der Disponent in einem Lohnunternehmen, erstellt eine A-B-Linie für den Schwaderfahrer. Dieser erhält die Linie direkt auf sein Terminal und kann die Schwaden gerade und sauber anlegen. Der Schwaderfahrer übermittelt anschließend seine aufgezeichnete A-B-Linie an den Häckslerfahrer. Dadurch kann der Häcksler die Schwaden optimal aufnehmen, was die Ernteleistung steigert.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Der Disponent legt für den Häcksler die gewünschte Schnittlänge sowie den Einsatz von Siliermittel digital fest. Diese Einstellungen werden automatisch an den Fahrer und die Maschine übermittelt. So wird sichergestellt, dass die Silagequalität genau auf die Bedürfnisse der Fütterung abgestimmt ist.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Auf dem Silo werden die Telemetriedaten der Walzfahrzeuge erfasst. Es wird dokumentiert, wie viele Überfahrten und wie viel Zeit in die Verdichtung investiert wurden. Diese Daten nutzt der Landwirt, um die Qualität der Silage später besser einschätzen zu können.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Ein Lohnunternehmer sammelt automatisch die Maschinendaten aller eingesetzten Fahrzeuge (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) und stellt diese seinem Kunden zur Verfügung. So sind sowohl die Abrechnung als auch die Dokumentation der Arbeiten transparent und nachvollziehbar.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Die bei der Grasernte erfassten Ertragsmengen werden gespeichert. Diese Daten nutzt der Landwirt für die Futterplanung, die Optimierung zukünftiger Düngungen und für die Dokumentation. Dadurch stehen alle relevanten Informationen langfristig und ohne zusätzlichen Aufwand bereit.
+====
+
+[NOTE]
+.Praxisbeispiel 7
+====
+Der Landwirt erstellt in der Agrarsoftware einen Auftrag zur Heuernte. Der Fahrer erhält die Daten auf seinem Terminal und weiß genau, welche Felder zu bearbeiten sind. Gleichzeitig werden während der Heupressung automatisch Telemetriedaten wie Ballenanzahl, Gewicht und Feuchtigkeit erfasst und in die Agrarsoftware zurückgemeldet.
+====
+
+== Maisernte
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
+|Als Landwirt
+|möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
+|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+
+|Als Landwirt
+|möchte ich Aufträge für den Häcksler erstellen
+|sodass die Erntearbeiten klar definiert und nachvollziehbar sind.
+
+|Als Landwirt
+|möchte ich Aufträge für die Abfahrer erstellen, in denen die zu erntenden Schläge hinterlegt sind
+|sodass die Abfahrer genau wissen, von welchen Flächen sie den Mais abholen müssen.
+
+|Als Landwirt
+|möchte ich Applikationskarten an den Häcksler übermitteln, die auf den Aussaatkarten basieren
+|sodass Fahrspuren und die Ausrichtung der Maisreihen berücksichtigt werden und der Häcksler effizient arbeiten kann.
+
+|Als Lohnunternehmer
+|möchte ich Fahrspuren einer Maschine an andere Maschinen übermitteln
+|sodass nachfolgende Fahrer, z. B. Häckslerfahrer, keine eigenen Spuren mehr aufzeichnen müssen.
+
+|Als Lohnunternehmer 
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
+|Als Lohnunternehmer
+|möchte ich, dass Telemetriedaten der Maisernte automatisch dokumentiert werden
+|sodass Arbeitszeit, Flächenleistung und Maschinenauslastung nachvollziehbar sind.
+
+|Als Disponent im Lohnunternehmen
+|möchte ich anhand von Telemetriedaten sehen, wie weit ein Schlag bereits abgeerntet wurde
+|sodass ich die weiteren Einsätze (z. B. Abfahrer, Silofahrzeuge, nächste Schläge) optimal planen kann.
+
+|Als Landwirt
+|möchte ich die erfassten Ertragsmengen aus der Maisernte speichern
+|sodass ich diese Daten für die Dokumentation und für die Erstellung zukünftiger Aussaat- und Düngerkarten verwenden kann.
+
+|Als Landwirt
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert werden können.
+
+|Als Lohnunternehmer
+|möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war
+|sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können.
+
+|Als Lohnunternehmer 
+|möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
+
+|Als Lohnunternehmer
+|möchte ich die Telemetriedaten der Maisernte für die Abrechnung nutzen können
+|sodass die geleisteten Arbeiten transparent und fehlerfrei gegenüber dem Kunden abgerechnet werden können.
+|===
+
+== Praxisbeispiele
+
+
+[NOTE]
+.Praxisbeispiel 1
+====
+Der Landwirt legt in seiner Agrarsoftware Aufträge für die Mitarbeiter seines Betriebs an. Darin sind die Schläge hinterlegt, von denen der Mais abgeholt werden soll. Jeder Fahrer hat den Auftrag direkt auf seinem Terminal und weiß dadurch genau, auf welchem Feld er einsetzen muss. Verwechslungen oder unnötige Rückfragen entfallen.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Die Agrargenossenschaft erstellt für den Lohnunternehmer einen Ernteauftrag für den Häcksler. Darin sind Schlaggröße und Feldgrenzen enthalten. Der Fahrer des Häckslers kann den Auftrag direkt übernehmen, ohne manuell Daten eingeben zu müssen. So ist der Ablauf klar definiert und der Start der Ernte verzögert sich nicht.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Auf Basis der im Frühjahr eingesetzten Aussaatkarten wird für den Häcksler ein Auftrag erstellt. Dieser enthält Informationen über die Ausrichtung der Reihen und Fahrspuren. Der Häckslerfahrer kann dadurch exakt entlang der Maisreihen arbeiten, was den Ernteprozess beschleunigt und Verluste reduziert.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Während der Ernte sendet der Häcksler automatisch Telemetriedaten ins Büro. Darin sind bearbeitete Fläche, Auslastung und Erntefortschritt enthalten. Der Disponent hat so jederzeit einen Überblick, wie weit die Arbeiten bereits fortgeschritten sind, ohne ständig telefonieren zu müssen.
+====
+
+[NOTE]
+.Praxisbeispiel 5
+====
+Der Disponent im Lohnunternehmen sieht auf seinem Bildschirm, dass ein Schlag bereits zu 70 % abgeerntet wurde. Er kann dadurch den nächsten rechtzeitig vorbereiten und gleichzeitig die Walzfahrzeuge auf dem Silo hinweisen. Stillstandzeiten werden vermieden, und die Maschinenflotte wird optimal eingesetzt.
+====
+
+[NOTE]
+.Praxisbeispiel 6
+====
+Nach Abschluss der Ernte liegen dem Lohnunternehmer automatisch die Telemetriedaten aller eingesetzten Maschinen vor. Er kann diese für die Abrechnung nutzen und dem Kunden eine transparente Übersicht über die erbrachten Leistungen geben. Fehlerhafte Stundenzettel oder unvollständige Angaben durch Fahrer gehören der Vergangenheit an.
+====
+
+[NOTE]
+.Praxisbeispiel 7
+====
+Nach der Ernte überprüft der Lohnunternehmer die Telemetriedaten. Er erkennt, dass auf einem Feld versehentlich weniger abgeerntet wurde als geplant. Mit den Telemetriedaten kann er die Abrechnung korrigieren und sicherstellen, dass keine Arbeit verloren geht.
+====
+
+[NOTE]
+.Praxisbeispiel 8
+====
+Die vom Häcksler aufgezeichneten Ertragsdaten werden automatisch gespeichert. Der Landwirt nutzt diese Daten sowohl für seine Dokumentation und um im nächsten Jahr optimierte Aussaat- und Düngerkarten zu erstellen. Damit kann er die Erträge langfristig steigern und die Flächen effizienter bewirtschaften.
+====

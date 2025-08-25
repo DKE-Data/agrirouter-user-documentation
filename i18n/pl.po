@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-08-22 12:21+0000\n"
+"POT-Creation-Date: 2025-08-25 19:31+0000\n"
 "PO-Revision-Date: 2025-05-16 07:52+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Polish <https://weblate.my-agrirouter.com/projects/agrirouter/"
@@ -19,23 +19,185 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.10.4\n"
 
-#. type: Hash Value: title
-#: de/antora.yml:1
+#. type: Hash Value: site title
+#: de/antora.yml:1 de/antora-playbook.yml:1
 #, no-wrap
 msgid "agrirouter Bedienungsanleitung"
 msgstr "Instrukcja obsługi agrirouter"
 
-#. type: Array Element: antora extensions
+#. type: Hash Value: asciidoc attributes appendix-refsig
 #: de/antora-playbook.yml:1
 #, no-wrap
-msgid "@antora/lunr-extension"
-msgstr "@antora/lunr-extension"
+msgid "Anhang"
+msgstr "Dodatek"
 
-#. type: Array Element: asciidoc extensions
+#. type: Hash Value: asciidoc attributes caution-caption
 #: de/antora-playbook.yml:1
 #, no-wrap
-msgid "asciidoctor-kroki"
-msgstr "asciidoctor-kroki"
+msgid "Achtung"
+msgstr "Uwaga"
+
+#. type: Hash Value: asciidoc attributes chapter-signifier
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Kapitel"
+msgstr "Rozdział"
+
+#. type: Hash Value: asciidoc attributes example-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Beispiel"
+msgstr "Przykład"
+
+#. type: Hash Value: asciidoc attributes figure-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Abbildung"
+msgstr "Ilustracja"
+
+#. type: Hash Value: asciidoc attributes icons
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "font"
+msgstr "font"
+
+#. type: Hash Value: asciidoc attributes idseparator
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "-"
+msgstr "-"
+
+#. type: Hash Value: asciidoc attributes important-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Wichtig"
+msgstr "Ważne"
+
+#. type: Hash Value: asciidoc attributes lang
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "de"
+msgstr "pl"
+
+#. type: Hash Value: asciidoc attributes last-update-label
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Zuletzt aktualisiert"
+msgstr "Ostatnia aktualizacja"
+
+#. type: Hash Value: asciidoc attributes listing-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Listing"
+msgstr "Notowania"
+
+#. type: Hash Value: asciidoc attributes manname-title
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Bezeichnung"
+msgstr "Oznaczenie"
+
+#. type: Hash Value: asciidoc attributes note-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Anmerkung"
+msgstr "Uwaga"
+
+#. type: Hash Value: asciidoc attributes page-edit-this-page
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Diese Seite bearbeiten"
+msgstr "Edytuj tę stronę"
+
+#. type: Hash Value: asciidoc attributes page-legal-notice
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Impressum"
+msgstr "Nadruk"
+
+#. type: Hash Value: asciidoc attributes page-privacy-policy
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Datenschutz"
+msgstr "Ochrona danych"
+
+#. type: Hash Value: asciidoc attributes page-search-note
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Suchen"
+msgstr "Wyszukiwanie"
+
+#. type: Hash Value: asciidoc attributes page-toctitle
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Inhalt"
+msgstr "Zawartość"
+
+#. type: Hash Value: asciidoc attributes part-signifier
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Teil"
+msgstr "Część"
+
+#. type: Hash Value: asciidoc attributes preface-title
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Vorwort"
+msgstr "Przedmowa"
+
+#. type: Hash Value: asciidoc attributes section-refsig
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Abschnitt"
+msgstr "Sekcja"
+
+#. type: Hash Value: asciidoc attributes table-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Tabelle"
+msgstr "Tabela"
+
+#. type: Hash Value: asciidoc attributes tip-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Hinweis"
+msgstr "Wskazówka"
+
+#. type: Hash Value: asciidoc attributes toc-title
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Inhaltsverzeichnis"
+msgstr "Spis treści"
+
+#. type: Hash Value: asciidoc attributes untitled-label
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Ohne Titel"
+msgstr "Bez tytułu"
+
+#. type: Hash Value: asciidoc attributes version-label
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Version"
+msgstr "Wersja"
+
+#. type: Hash Value: asciidoc attributes warning-caption
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "Warnung"
+msgstr "Ostrzeżenie"
+
+#. type: Hash Value: content sources start_path
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "de/"
+msgstr "pl/"
+
+#. type: Hash Value: site url
+#: de/antora-playbook.yml:1
+#, no-wrap
+msgid "/de"
+msgstr "/pl"
 
 #. type: Content of: <div><div><div>
 #: de/supplemental-ui/partials/header-menu.hbs:4
@@ -86,14 +248,9 @@ msgid "xref:solution-guides.adoc[Solution Guides]"
 msgstr "xref:solution-guides.adoc[Solution Guides]"
 
 #. type: Plain text
-#: de/modules/ROOT/nav.adoc:11
-msgid "Anhang"
-msgstr "Dodatek"
-
-#. type: Plain text
-#: de/modules/ROOT/nav.adoc:12
-msgid "xref:appendix/ddis.adoc[DDI-Definition]"
-msgstr "xref:appendix/ddis.adoc[Definicja DDI]"
+#: de/modules/ROOT/nav.adoc:9
+msgid "xref:user-stories.adoc[User Stories]"
+msgstr "xref:user-stories.adoc[Narracje Użytkowników]"
 
 #. type: Title =
 #: de/modules/ROOT/pages/account-pairing.adoc:1
@@ -3431,221 +3588,20 @@ msgid "Klicke dazu einfach auf den entsprechenden Link."
 msgstr "Wystarczy kliknąć odpowiedni link."
 
 #. type: Title =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:4
-#, no-wrap
-msgid "Anhang A, DDIs"
-msgstr "Dodatek A, DDI"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:7
-msgid ""
-"Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
-"Prozessparameter in Echtzeit versenden."
-msgstr ""
-"Wiele maszyn może przesyłać parametry maszyny, pozycji i procesu w czasie "
-"rzeczywistym podczas pracy w terenie."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:9
-msgid "Es gibt über 600 solcher Parameter, z.B."
-msgstr "Istnieje ponad 600 takich parametrów, np."
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:11
-msgid "Soll- und Istwerte in den Auftragsdaten"
-msgstr "Wartości docelowe i rzeczywiste w danych zamówienia"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:12
-msgid "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
-msgstr "Zużycie paliwa, prędkość lub napełnienie zbiornika w danych maszyny"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:16
-msgid ""
-"Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
-"zusammengefasst.  Wie in den Abschnitten xref:endpoint.adoc#detail-"
-"view[Endpunkt] bzw. xref:group.adoc#detail-view[Gruppe] beschrieben, wählst "
-"du bei der Erstellung von Routen eine oder mehrere Kategorien aus.  [."
-"result]#Alle der gewählten Kategorie zugeordneten Parameter können dann "
-"zwischen den Endpunkten ausgetauscht werden.#"
-msgstr ""
-"Podsumowaliśmy parametry w 12 kategoriach dla lepszego przeglądu.  Jak "
-"opisano w sekcjach xref:endpoint.adoc#detail-view[endpoint] i xref:group."
-"adoc#detail-view[group], podczas tworzenia tras można wybrać jedną lub "
-"więcej kategorii.  [.result]#Wszystkie parametry przypisane do wybranej "
-"kategorii mogą być następnie wymieniane między punktami końcowymi.#"
-
-#. type: delimited block =
-#: de/modules/ROOT/pages/appendix/ddis.adoc:21
+#: de/modules/ROOT/pages/user-stories.adoc:1
 #, fuzzy, no-wrap
-#| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
-msgid ""
-"Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
-"Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
-msgstr "Parametry maszyny, pozycji i procesu są zdefiniowane w standardzie ISOBUS ISO 11783 i są nazywane DDI (Data Dictionary Identifier). + Identyfikatory DDI są publikowane na stronie https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^]."
+#| msgid "agrirouter verbinden"
+msgid "agrirouter User Stories"
+msgstr "Podłącz agrirouter"
 
 #. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:24
+#: de/modules/ROOT/pages/user-stories.adoc:4
 msgid ""
-"Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
+"In diesem Abschnitt sind die verschiedenen Einsatzgebiete des agrirouters "
+"dargestellt – von der Aussaat über die Düngung bis zur Ernte. Über die "
+"nachfolgenden Verweise lässt sich gezielt in die einzelnen Themenbereiche "
+"einsteigen."
 msgstr ""
-"Poniżej znajduje się lista wszystkich kategorii i przypisanych do nich "
-"parametrów:"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:25
-#, no-wrap
-msgid "GPS Positionsdaten und Guidance-Informationen"
-msgstr "Dane pozycji GPS i informacje o naprowadzaniu"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:29
-msgid ""
-"GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die Telemetriedaten "
-"gemessen oder protokolliert wurden.  Daten mit Bezug zu geografischen und "
-"Guidance.Informationen."
-msgstr ""
-"Dane pozycji GPS (współrzędne północne i wschodnie), w których dane "
-"telemetryczne zostały zmierzone lub zarejestrowane.  Dane odnoszące się do "
-"informacji geograficznych i naprowadzających."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:32
-#, no-wrap
-msgid "Allgemeine Prozessdaten"
-msgstr "Ogólne dane procesowe"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:34
-msgid ""
-"Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
-"Ausbringung und/oder Ertrag nicht relevant sind)."
-msgstr ""
-"Liczniki zamówień i żywotności lub wartości średnie (liczniki, które nie są "
-"istotne dla produkcji i/lub wydajności)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:37
-#, no-wrap
-msgid "Kraftstoff und Harnstofflösung"
-msgstr "Roztwór paliwa i mocznika"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:40
-msgid ""
-"Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
-"Maschinen (Gesamtenergieverbrauch)."
-msgstr ""
-"Dane dotyczące zużycia paliwa i roztworu mocznika przez maszyny (całkowite "
-"zużycie energii)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:43
-#, no-wrap
-msgid "Maschineneigenschaften"
-msgstr "Właściwości maszyny"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:46
-msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
-msgstr "Nieistotne dla procesu dane dotyczące właściwości urządzenia."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:49
-#, no-wrap
-msgid "Ausbringung"
-msgstr "Zastosowanie"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:52
-msgid ""
-"Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
-"Pflanzenschutzmittel, Trockenmasse, usw.)."
-msgstr ""
-"Dane dotyczące stosowania na polu (np. nawozy, nasiona, pestycydy, sucha "
-"masa itp.)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:56
-#, no-wrap
-msgid "Ertragsdaten"
-msgstr "Dane dotyczące wydajności"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:59
-msgid "Menge und Eigenschaften des Erntegutes"
-msgstr "Ilość i charakterystyka zebranych plonów"
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:62
-#, no-wrap
-msgid "Prozessdaten"
-msgstr "Dane procesowe"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:65
-msgid "Daten über den Hauptarbeitsprozess der Maschine."
-msgstr "Dane dotyczące głównego procesu roboczego maszyny."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:68
-#, no-wrap
-msgid "Umgebungsbedingungen"
-msgstr "Warunki otoczenia"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:71
-msgid "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
-msgstr "Dane w odniesieniu do warunków otoczenia (np. prędkość wiatru)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:74
-#, no-wrap
-msgid "Basisdaten"
-msgstr "Podstawowe dane"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:77
-msgid "Grundlegende Werte, die für das gesamte System relevant sind."
-msgstr "Podstawowe wartości, które są istotne dla całego systemu."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:80
-#, no-wrap
-msgid "Maschinendaten (nur PGN)"
-msgstr "Dane maszyny (tylko PGN)"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:83
-msgid ""
-"Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
-"Hubwerksposition, Zapfwellendrehzahl, etc."
-msgstr ""
-"Dane maszyny należące do PGN (Parameter Group Number); np. pozycja "
-"podnośnika, prędkość PTO itp."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:86
-#, no-wrap
-msgid "Proprietäre Daten"
-msgstr "Dane zastrzeżone"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:89
-msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
-msgstr "Dane specyficzne dla producenta (nie są częścią standardu)."
-
-#. type: Title ==
-#: de/modules/ROOT/pages/appendix/ddis.adoc:92
-#, no-wrap
-msgid "Bodendaten"
-msgstr "Dane dotyczące gleby"
-
-#. type: Plain text
-#: de/modules/ROOT/pages/appendix/ddis.adoc:95
-msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
-msgstr "Warunki i dane z czujników dotyczące właściwości gleby."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:1
@@ -11390,117 +11346,2548 @@ msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:2
+msgid "xref:user-stories/cultivation.adoc[Bodenbearbeitung]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:3
+msgid "xref:user-stories/seeding.adoc[Aussaat]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:4
+msgid "xref:user-stories/fertilizing.adoc[Düngung]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:5
+msgid "xref:user-stories/fertilizing.adoc#organic-fertilization[Organisch]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:6
+msgid "xref:user-stories/fertilizing.adoc#mineral-fertilization[Mineralisch]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:7
+#, fuzzy
+#| msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
+msgid "xref:user-stories/plant-protection.adoc[Pflanzenschutz]"
+msgstr "xref:solution-guides/plantivo.adoc[Plantivo]"
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:8
+msgid ""
+"xref:user-stories/plant-protection.adoc#mechanic-plantprotection[Mechanisch]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:9
+msgid ""
+"xref:user-stories/plant-protection.adoc#chemical-plantprotection[Chemisch]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:10
+#, fuzzy
+#| msgid "xref:solution-guides/agforce.adoc[AgForce]"
+msgid "xref:user-stories/harvest.adoc[Ernte]"
+msgstr "xref:solution-guides/agforce.adoc[AgForce]"
+
+#. type: Plain text
+#: de/modules/ROOT/partials/user-stories/nav.adoc:10
+msgid "xref:user-stories/logistic.adoc[Logistik]"
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:1
+#, fuzzy, no-wrap
+#| msgid "Bodendaten"
+msgid "Bodenbearbeitung"
+msgstr "Dane dotyczące gleby"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:4
+msgid ""
+"Im Bereich der Bodenbearbeitung kommen Maschinen wie Pflüge, Grubber, Eggen "
+"oder Hackgeräte zum Einsatz. Der agrirouter ermöglicht dabei den Austausch "
+"von Daten zwischen Maschinen, Agrarsoftware und weiteren Beteiligten. Auf "
+"diese Weise lassen sich Arbeitsaufträge effizient übertragen, Maschinendaten "
+"automatisch dokumentieren und die Nachvollziehbarkeit der durchgeführten "
+"Maßnahmen sicherstellen."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:5
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:5
 #, no-wrap
-#~ msgid "Achtung"
-#~ msgstr "Uwaga"
+msgid "Übermittlung von Aufträgen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:9
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:48
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:10
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:85
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:9
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:98
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:172
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:282
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:9
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:28
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:11
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:87
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:9
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:36
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:67
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:90
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:121
+#, no-wrap
+msgid "Als (Rolle)"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:9
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:48
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:10
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:85
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:9
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:98
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:172
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:282
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:9
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:28
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:11
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:87
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:9
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:36
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:67
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:90
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:121
+#, no-wrap
+msgid "möchte ich (Wunsch)"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:11
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:50
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:12
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:87
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:11
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:100
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:174
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:284
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:11
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:30
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:13
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:89
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:11
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:38
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:69
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:92
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:123
+#, no-wrap
+msgid "sodass (Zweck)"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:12
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:13
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:33
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:37
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:88
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:92
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:96
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:12
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:16
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:24
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:28
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:101
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:109
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:117
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:121
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:175
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:179
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:187
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:203
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:207
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:211
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:285
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:289
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:293
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:297
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:317
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:321
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:12
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:16
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:14
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:18
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:98
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:102
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:110
+#, no-wrap
+msgid "Als Landwirt"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:13
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:14
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:89
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:176
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:286
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:13
+#, no-wrap
+msgid "möchte ich einen Auftrag für ein Feld planen und an die Maschine senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:15
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:16
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:91
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:288
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:15
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:17
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:101
+#, no-wrap
+msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:16
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:20
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:24
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:28
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:40
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:20
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:12
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:16
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:20
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:24
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:28
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:39
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:43
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:47
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:51
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:55
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:70
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:74
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:78
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:82
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:101
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:105
+#, fuzzy, no-wrap
+#| msgid "Agrarsoftware"
+msgid "Als Nutzer einer Agrarsoftware"
+msgstr "Oprogramowanie rolnicze"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:17
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:17
+#, no-wrap
+msgid "möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:19
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:19
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:58
+#, no-wrap
+msgid "sodass ich die Datei nicht erst per USB-Stick übergeben muss."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:21
+#, no-wrap
+msgid "möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:23
+#, no-wrap
+msgid "sodass die Arbeit präzise entlang der geplanten Spuren erfolgt."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:25
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe)"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:27
+#, no-wrap
+msgid "sodass die Maschine die Bearbeitung gemäß den Vorgaben ausführt."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:29
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich Bodenbearbeitungskarten an mehrere Maschinen senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:31
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:28
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:115
+#, no-wrap
+msgid "sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:32
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:36
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:55
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:29
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:108
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:195
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:35
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:59
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:93
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:97
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:128
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:132
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:136
+#, fuzzy, no-wrap
+#| msgid "Maschinen hinzufügen"
+msgid "Als Maschinenführer"
+msgstr "Dodaj maszyny"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:33
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich abgearbeitete Auftragsdaten von der Maschine an die Agrarsoftware übertragen"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:35
+#, no-wrap
+msgid "sodass die durchgeführten Arbeiten dokumentiert werden können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:37
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich Daten von Maschine A an Maschine B senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:39
+#, no-wrap
+msgid "sodass diese nahtlos mit den vorherigen Arbeitsergebnissen fortfahren kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:41
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:21
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:42
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:22
+#, no-wrap
+msgid "sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:44
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:24
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:86
+#, fuzzy, no-wrap
+#| msgid "Telemetrieeinheiten"
+msgid "Telemetrie & Dokumentation"
+msgstr "Jednostki telemetryczne"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:51
+#, no-wrap
+msgid "Als Disponent"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:52
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich Telemetriedaten in Echtzeit in der Agrarsoftware erhalten"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:54
+#, no-wrap
+msgid "sodass im Lohnunternehmen der Arbeitsfortschritt verfolgt und weitere Planung optimiert werden kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:56
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:36
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich, dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:58
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:38
+#, no-wrap
+msgid "sodass die Dokumentation für mich reduziert wird."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:59
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:63
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:25
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:41
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:45
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:112
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:116
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:120
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:32
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:36
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:40
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:125
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:129
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:133
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:199
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:219
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:223
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:227
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:231
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:301
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:305
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:309
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:325
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:329
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:333
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:39
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:43
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:30
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:34
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:114
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:118
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:109
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:113
+#, no-wrap
+msgid "Als Lohnunternehmer"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:60
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:42
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:117
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:37
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:130
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:224
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:306
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:40
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:31
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:115
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:110
+#, no-wrap
+msgid "möchte ich Maschinendaten in der Agrarsoftware erhalten"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:62
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:44
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:119
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:39
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:132
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:226
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:308
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:42
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:33
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:117
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:112
+#, no-wrap
+msgid "sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:64
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:46
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:121
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:35
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:119
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:114
+#, no-wrap
+msgid "möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:65
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:47
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:122
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:42
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:135
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:230
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:332
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:36
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:120
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:115
+#, no-wrap
+msgid "sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:67
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:49
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:124
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:44
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:137
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:235
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:337
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:47
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:38
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:122
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:140
+#, fuzzy, no-wrap
+#| msgid "Beispiel"
+msgid "Praxisbeispiele"
+msgstr "Przykład"
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:70
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:51
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:126
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:47
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:139
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:237
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:341
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:49
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:40
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:124
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:142
+#, no-wrap
+msgid "Praxisbeispiel 1"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:73
+msgid ""
+"Der Lohnunternehmer sendet direkt aus seiner Agrarsoftware einen "
+"Pflugauftrag an den Fahrer. Dieder erhält die Daten automatisch über den "
+"agrirouter und kann sofort mit der Arbeit beginnen, ohne USB-Sticks oder "
+"Papier. So sparen beide Zeit und Fehlerquellen werden minimiert."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:76
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:58
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:133
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:53
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:145
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:243
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:347
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:55
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:46
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:130
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:149
+#, no-wrap
+msgid "Praxisbeispiel 2"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:79
+msgid ""
+"Beim Control Traffic Farming (CTF) überträgt die Agrarsoftware vom Landwirt "
+"die geplanten Fahrspuren an den Traktor. Der Fahrer fährt genau nur die "
+"vorgesehenen Spurlinien. Durch gezielte Befahrung bestimmter Fahrspuren wird "
+"die Bodenverdichtung reduziert, was die Wasser- und Nährstoffaufnahme "
+"verbessert und so die Bodenfruchtbarkeit sowie Erträge nachhaltig gesichert."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:82
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:64
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:139
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:59
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:151
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:249
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:353
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:61
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:52
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:137
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:155
+#, no-wrap
+msgid "Praxisbeispiel 3"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:85
+msgid ""
+"Der Landwirt erstellt eine Grubberkarte mit unterschiedlichen Arbeitstiefen "
+"für sein Feld. Diese Karte sendet er an seine Maschine, die so automatisch "
+"und präzise unterschiedliche Bodenschichten bearbeitet. Die Arbeit wird "
+"somit effizienter und gleichmäßiger."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:88
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:70
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:145
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:65
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:157
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:255
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:359
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:67
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:58
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:143
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:161
+#, no-wrap
+msgid "Praxisbeispiel 4"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:91
+msgid ""
+"Auf einem großen Betrieb arbeiten zwei Traktoren parallel am gleichen Feld "
+"und nutzen dieselbe Bearbeitungskarte. So können die Fahrer ohne "
+"Überschneidungen arbeiten und der Auftrag ist schneller erledigt."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:94
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:75
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:71
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:163
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:261
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:365
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:64
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:149
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:167
+#, no-wrap
+msgid "Praxisbeispiel 5"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:97
+msgid ""
+"Nach dem Pflügen werden die bearbeiteten Flächen automatisch an die "
+"Ackerschlagkartei des Landwirts übermittelt. Dadurch entfällt die manuelle "
+"Dokumentation, was Zeit spart und die Datenqualität verbessert."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:100
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:77
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:89
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:267
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:371
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:70
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:173
+#, no-wrap
+msgid "Praxisbeispiel 6"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:103
+msgid ""
+"Der Disponent des Lohnunternehmers sieht in Echtzeit auf seinem Bildschirm, "
+"dass ein Schlepper das Feld bald fertig bearbeitet hat. Er kann daraufhin "
+"den nächsten Einsatz planen, wodurch Standzeiten vermieden und der Betrieb "
+"reibungsloser läuft."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:106
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:83
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:273
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:377
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:76
+#, no-wrap
+msgid "Praxisbeispiel 7"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:109
+msgid ""
+"Die Agrarsoftware informiert den Betriebsleiter darüber, dass der "
+"Bodenbearbeitungsauftrag um 14:35 Uhr abgeschlossen wurde. So sind alle "
+"Beteiligten jederzeit auf dem aktuellen Stand, was die Nachbearbeitung ohne "
+"Rückfragen erleichtert."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:112
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:383
+#, no-wrap
+msgid "Praxisbeispiel 8"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:115
+msgid ""
+"Der Fahrer erhält die exakten Feldgrenzen und Fahrspuren vor Beginn der "
+"Arbeit. So kann er Überlappungen mit benachbarten Flächen vermeiden und "
+"seine Arbeitszeit optimal nutzen. Zudem vermeidet das Ärger mit dem Inhaber "
+"der Nachbarfläche und steigert die Effizienz der Arbeit."
+msgstr ""
+
+#. type: Block title
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:118
+#, no-wrap
+msgid "Praxisbeispiel 9"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/cultivation.adoc:121
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:78
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:148
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:79
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:152
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:176
+msgid ""
+"Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu "
+"erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein "
+"weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die "
+"Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche "
+"Auftrag verloren gegangen und nicht bezahlt worden."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:1
+#, no-wrap
+msgid "Düngung"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:4
+msgid ""
+"In diesem Kapitel wird erläutert, wie der agrirouter bei der Planung und "
+"Durchführung von organischer und mineralischer Düngung unterstützt. Er "
+"ermöglicht die Vernetzung von Maschinen und Agrarsoftware und erleichtert "
+"die Übertragung von Applikationskarten sowie die Dokumentation der "
+"ausgebrachten Mengen. Dadurch werden Prozesse effizienter gestaltet, Fehler "
+"reduziert und die Rückverfolgung gewährleistet."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:6
+#, no-wrap
+msgid "Organische Düngung"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:17
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:21
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:100
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:104
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:106
+#, no-wrap
+msgid "Als Betriebsleiter"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:18
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:101
+#, no-wrap
+msgid "möchte ich geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:20
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:103
+#, no-wrap
+msgid "sodass auch weniger erfahrene Mitarbeiter fehlerfrei und effizient düngen können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:22
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:105
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:24
+#, no-wrap
+msgid "sodass die Ausbringung präzise und effizient erfolgt."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:26
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:113
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:52
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich mehrere Applikationskarten an mehrere Maschinen senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:30
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:109
+#, no-wrap
+msgid "möchte ich vor Beginn die geplanten Fahrspuren erhalten"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:32
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:111
+#, no-wrap
+msgid "sodass ich den Auftrag effizient abarbeiten kann, ohne selbst zunächst Fahrspuren aufnehmen zu müssen."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:34
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:93
+#, no-wrap
+msgid "möchte ich Fahrspuren von Traktor A an Traktor B übermitteln"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:36
+#, no-wrap
+msgid "sodass nachfolgende Arbeiten auf denselben Spuren erfolgen können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:38
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:97
+#, no-wrap
+msgid "möchte ich während der Ausbringung automatisch dokumentieren, dass Nährstoffmengen, Sperrzonen und Einsatzzeiten eingehalten werden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:40
+#, no-wrap
+msgid "sodass ich rechtssicher arbeite und meine Subvensionen gesichert sind."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:55
+msgid ""
+"Der Landwirt erstellt in seiner Ackerschlagkartei eine Applikationskarte für "
+"die organische Düngung. Diese sendet er über den agrirouter an den Traktor. "
+"Das Terminal empfängt die Karte automatisch – ohne USB-Stick oder andere "
+"Zwischenschritte.  Während der Ausbringung werden die Nährstoffmengen, "
+"Fahrspuren und Maschinendaten automatisch dokumentiert. Der Landwirt hat so "
+"jederzeit den Überblick über die Einhaltung der Vorschriften und spart sich "
+"die manuelle Nachbearbeitung."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:61
+msgid ""
+"Der Lohnunternehmer plant mehrere Applikationskarten für unterschiedliche "
+"Felder und verteilt diese an die Maschinenflotte. Jeder Fahrer kann direkt "
+"mit der teilflächenspezifischen Düngung beginnen, ohne manuelle "
+"Maschineneinstellungen vornehmen zu müssen. Die Ergebnisse werden "
+"automatisch und in Echtzeit an die Betriebsleitung zurückgemeldet."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:67
+msgid ""
+"Dank der automatischen Dokumentation von Nährstoffmengen, Sperrzonen und "
+"Ausbringungszeitpunkten kann der Landwirt die organische Düngung präzise und "
+"gesetzeskonform durchführen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:73
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:142
+msgid ""
+"Dank vorgeplanter Aufträge im Büro und automatischer Maschineneinstellungen "
+"können auch weniger erfahrene Fahrer einen Auftrag problemlos durchführen. "
+"Die Maschine steuert die Dosierung automatisch, während der Fahrer jederzeit "
+"den Überblick behält. Dies spart sowohl Zeit im Büro als auch auf dem Feld "
+"und reduziert Fehler durch manuelle Dokumentation."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:81
+#, no-wrap
+msgid "Mineralische Düngung"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:95
+#, no-wrap
+msgid "sodass nachfolgende Arbeiten (z. B. Pflanzenschutz) auf denselben Spuren erfolgen können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:99
+#, no-wrap
+msgid "sodass ich rechtssicher arbeite."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:107
+#, no-wrap
+msgid "sodass die Ausbringung präzise und effizient erfolgen kann."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:130
+msgid ""
+"Der Landwirt erstellt in seiner Ackerschlagkartei eine Applikationskarte für "
+"die mineralische Düngung. Diese sendet er über den agrirouter an den "
+"Traktor. Das Terminal empfängt die Karte automatisch – ohne USB-Stick oder "
+"andere Zwischenschritte.  Während der Ausbringung werden die "
+"Nährstoffmengen, Sperrzonen, Fahrspuren und Maschinendaten automatisch "
+"dokumentiert. Der Landwirt hat so jederzeit den Überblick über die "
+"Einhaltung der Vorschriften und spart sich die manuelle Nachbearbeitung."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/fertilizing.adoc:136
+msgid ""
+"Der Lohnunternehmer plant mehrere Applikationskarten für unterschiedliche "
+"Felder und verteilt diese an die Maschinenflotte. Jeder Fahrer kann direkt "
+"mit der teilflächenspezifischen mineralischen Düngung beginnen, ohne "
+"manuelle Maschineneinstellungen vornehmen zu müssen. Die Ergebnisse werden "
+"automatisch und in Echtzeit an die Betriebsleitung zurückgemeldet."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:1
+#, no-wrap
+msgid "Ernte"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:4
+msgid ""
+"In diesem Kapitel wird erläutert, wie der agrirouter die Abläufe während der "
+"Ernte unterstützt. Er ermöglicht die Vernetzung von Maschinen und "
+"Agrarsoftware und erleichtert die Planung und Übermittlung von Aufträgen "
+"sowie die automatische Erfassung von Telemetriedaten und Erträgen. Dadurch "
+"werden Prozesse transparenter gestaltet, die Abrechnung vereinfacht und "
+"wertvolle Daten für zukünftige Entscheidungen, wie Aussaat- oder "
+"Düngeplanung, bereitgestellt."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:5
+#, no-wrap
+msgid "Getreideernte"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:13
+#, no-wrap
+msgid "möchte ich einen Ernteauftrag für ein bestimmtes Feld planen und an die Maschine senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:15
+#, no-wrap
+msgid "sodass der Fahrer genau weiß, welche Fläche wie geerntet werden soll."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:17
+#, fuzzy, no-wrap
+#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+msgid "möchte ich Aufträge an mehrere Maschinen gleichzeitig senden können"
+msgstr "Wysyłanie mapy aplikacji do kilku punktów końcowych jednocześnie"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:19
+#, no-wrap
+msgid "sodass die Flotte effizient eingesetzt wird und Verzögerungen minimiert werden."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:20
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:105
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:113
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:183
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:215
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:313
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:22
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:26
+#, no-wrap
+msgid "Als Disponent im Lohnunternehmen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:21
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:27
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich die Telemetriedaten aller Maschinen einsehen"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:23
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:29
+#, no-wrap
+msgid "sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:25
+#, no-wrap
+msgid "möchte ich, dass Telemetriedaten automatisch zurückgemeldet werden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:27
+#, no-wrap
+msgid "sodass Erntezeit, gefahrene Flächen und Ertrag ohne manuellen Aufwand dokumentiert werden."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:29
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:122
+#, no-wrap
+msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das vorher nicht geplant war"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:31
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:124
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:324
+#, no-wrap
+msgid "sodass auch unvorhergesehene Arbeiten korrekt dokumentiert werden können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:33
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:126
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:220
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:322
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:326
+#, no-wrap
+msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:35
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:128
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:222
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:328
+#, no-wrap
+msgid "sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:41
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:134
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:228
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:330
+#, no-wrap
+msgid "möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:50
+msgid ""
+"Der Landwirt plant die Getreideernte auf seinen Feldern und erstellt dafür "
+"Ernteaufträge in der Agrarsoftware. Die Aufträge werden direkt an den "
+"Lohnunternehmer übermittelt. Die Fahrer sehen sofort, welches Feld sie "
+"ernten müssen und welche Fläche wie bearbeitet werden soll."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:56
+msgid ""
+"Während der Ernte werden Telemetriedaten in Echtzeit an die Agrarsoftware "
+"zurückgemeldet. Der Landwirt kann somit direkt einsehen, welche Fläche "
+"bereits abgeerntet wurde, wie lange die Maschine im Einsatz war und wie viel "
+"Ertrag eingebracht wurde – ohne dass dieser manuell Protokolle führen muss."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:62
+msgid ""
+"Der Disponent im Lohnunternehmen verteilt Ernteaufträge auf zwei Mähdrescher "
+"gleichzeitig. Beide Maschinen arbeiten parallel auf unterschiedlichen "
+"Feldern. Dank der automatischen Telemetrierückmeldung kann der Disponent "
+"jederzeit den Fortschritt der gesamten Flotte überwachen und Engpässe "
+"frühzeitig erkennen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:68
+msgid ""
+"Der Disponent eines Lohnunternehmens überwacht alle Maschinen in Echtzeit. "
+"Als eine Maschine ausfällt, kann er sofort die Einsatzplanung anpassen und "
+"einem anderen Fahrer Aufgaben zuweisen, um den Zeitplan einzuhalten."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:74
+msgid ""
+"Nach der Ernte überprüft der Lohnunternehmer die Telemetriedaten. Er "
+"erkennt, dass auf einem Feld versehentlich weniger geerntet wurde als "
+"geplant. Mit den Telemetriedaten kann er die Abrechnung korrigieren und "
+"sicherstellen, dass keine Arbeit verloren geht."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:80
+msgid ""
+"Ein Fahrer hat spontan ein zusätzliches Feld geerntet, welches nicht in der "
+"ursprünglichen Planung enthalten war. Die Telemetriedaten zeigen diese "
+"zusätzliche Arbeit genau an. Der Lohnunternehmer kann die erbrachte Leistung "
+"nachvollziehen und korrekt abrechnen, ohne dass die spontane Arbeit verloren "
+"geht."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:86
+msgid ""
+"Dank der detaillierten Telemetriedaten und Ertragsaufzeichnungen kann der "
+"Landwirt im Folgejahr präzise Dünge- und Aussaatkarten erstellen. Die "
+"Agrarsoftware nutzt dann die Ertragsinformationen des Vorjahres, um die "
+"Empfehlungen für teilflächenspezifische Maßnahmen zu optimieren."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:92
+msgid ""
+"Die erfassten Erntemengen werden automatisch in der Agrarsoftware "
+"dokumentiert. Der Landwirt kann diese Daten für interne Auswertungen, aber "
+"auch für gesetzliche oder betriebliche Nachweise verwenden, ohne dass "
+"zusätzliche manuelle Aufzeichnungen nötig sind."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:94
+#, no-wrap
+msgid "Strohernte"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:102
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich Strohpressaufträge planen und an eine Maschine senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:104
+#, no-wrap
+msgid "sodass der Fahrer genau weiß, welche Arbeit auf welchen Feldern durchgeführt werden soll."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:106
+#, fuzzy, no-wrap
+#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+msgid "möchte einen Auftrag an mehrere Geräte gleichzeitig senden können"
+msgstr "Wysyłanie mapy aplikacji do kilku punktów końcowych jednocześnie"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:108
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:25
+#, no-wrap
+msgid "sodass die Flotte effizient eingesetzt wird."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:110
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte Fahrspuren einer Maschine an andere Maschinen übermitteln"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:112
+#, no-wrap
+msgid "sodass nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:114
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte Telemetriedaten aller Maschinen einsehen"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:116
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:218
+#, no-wrap
+msgid "sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:118
+#, no-wrap
+msgid "möchte Telemetriedaten automatisch zurückgemeldet bekommen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:120
+#, no-wrap
+msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:142
+msgid ""
+"Nach der Getreideernte plant ein Landwirt den Stroheinsatz. Der "
+"Pressenfahrer erhält den Auftrag direkt über den agrirouter auf seine "
+"Maschine. Während der Arbeit werden Ballenanzahl, Gewicht und Feuchtigkeit "
+"automatisch erfasst und in die Agrarsoftware übertragen. Der Landwirt hat "
+"dadurch jederzeit einen Überblick über die Menge und Qualität des Strohs."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:148
+msgid ""
+"Ein Lohnunternehmen setzt mehrere Pressen parallel ein. Dank der über den "
+"agrirouter synchronisierten Aufträge wissen alle Fahrer, auf welchen Flächen "
+"sie arbeiten sollen. Die erfassten Telemetriedaten laufen im Büro zusammen "
+"und ermöglichen es dem Disponenten, die Auslastung der Maschinen zu "
+"überwachen und bei Bedarf kurzfristig umzudisponieren."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:154
+msgid ""
+"Ein Mähdrescher überträgt nach der Ernte seine Fahrspuren an den "
+"nachfolgenden Pressenfahrer. Dieser muss keine eigenen Fahrspuren mehr "
+"anlegen und kann sich direkt an den bestehenden orientieren. Dadurch wird "
+"die Arbeit effizienter und unnötige Aufzeichnungen werden vermieden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:160
+msgid ""
+"Bei der Abrechnung stellt ein Lohnunternehmer fest, dass ein Feld zusätzlich "
+"mitgepresst wurde, obwohl dies nicht im ursprünglichen Auftrag vorgesehen "
+"war. Durch die automatisch erfassten Telemetriedaten ist der Zusatzauftrag "
+"dennoch dokumentiert und kann somit in Rechnung gestellt werden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:166
+msgid ""
+"Ein Mitarbeiter vergisst, einen spontanen Pressauftrag im System zu "
+"erfassen. Später erkennt der Disponent im Büro anhand der Telemetriedaten, "
+"dass nach Auftragsende noch Ballen gepresst wurden. Diese Daten können zur "
+"Nachdokumentation genutzt werden, sodass der nicht dokumentierte Auftrag "
+"nicht verloren geht und trotzdem abgerechnet werden kann."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:168
+#, no-wrap
+msgid "Grasernte"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:178
+#, no-wrap
+msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll und der weitere Arbeitsablauf optimal vorbereitet ist."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:180
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich Heupressaufträge planen und an die Maschine senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:182
+#, no-wrap
+msgid "sodass der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:184
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich für den Schwaderfahrer eine A-B-Linie planen und an die Maschine senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:186
+#, no-wrap
+msgid "sodass die Schwaden optimal für den nachfolgenden Arbeitsablauf vorbereitet werden."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:188
+#, no-wrap
+msgid "möchte ich für den Häcksler die Parameter (Häckselgutlänge, Silagemittelmenge etc.) vorbereiten und versenden können"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:190
+#, no-wrap
+msgid "sodass die Silagequalität an die gewünschte Fütterung angepasst ist."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:191
+#, fuzzy, no-wrap
+#| msgid "Maschinen hinzufügen"
+msgid "Als Schwaderfahrer"
+msgstr "Dodaj maszyny"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:192
+#, no-wrap
+msgid "möchte ich meine aufgezeichnete A-B-Linie an den Häckslerfahrer übermitteln"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:194
+#, no-wrap
+msgid "sodass dieser die Schwaden optimal aufnehmen kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:196
+#, no-wrap
+msgid "möchte ich, dass Maschinendaten automatisch zurückgemeldet werden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:198
+#, no-wrap
+msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit ohne manuellen Aufwand dokumentiert werden."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:200
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich, dass die Telemetriedaten der Walzfahrzeuge auf dem Silo erfasst werden"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:202
+#, no-wrap
+msgid "sodass dokumentiert ist, wie viel Zeit und Überfahrten in die Verdichtung investiert wurden."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:204
+#, fuzzy, no-wrap
+#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern und verarbeiten können"
+msgstr "Wysyłanie mapy aplikacji do kilku punktów końcowych jednocześnie"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:206
+#, no-wrap
+msgid "sodass ich die Daten für die Futterplanung nutzen kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:208
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:212
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:210
+#, no-wrap
+msgid "sodass ich die Daten für die Optimierung zukünftiger Düngungen nutzen kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:214
+#, no-wrap
+msgid "sodass ich die Daten für die Dokumentation nutzen kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:216
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich Telemetriedaten aller Maschinen einsehen"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:232
+#, no-wrap
+msgid "möchte ich die gesamten Maschinendaten (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) zusammenführen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:233
+#, no-wrap
+msgid "sodass ich die Arbeit für die Abrechnung und für den Kunden transparent dokumentieren kann."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:240
+msgid ""
+"Der Landwirt plant die Grasernte auf seinem Betrieb. Über die Agrarsoftware "
+"legt dieser Arbeitsaufträge für Mähen, Wenden und Schwaden an und sendet "
+"diese an die Maschinen. Die Fahrer wissen dadurch genau, welches Feld in "
+"welcher Reihenfolge bearbeitet werden muss. So wird der gesamte Ablauf der "
+"Grasernte effizient organisiert."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:246
+msgid ""
+"Der Disponent in einem Lohnunternehmen, erstellt eine A-B-Linie für den "
+"Schwaderfahrer. Dieser erhält die Linie direkt auf sein Terminal und kann "
+"die Schwaden gerade und sauber anlegen. Der Schwaderfahrer übermittelt "
+"anschließend seine aufgezeichnete A-B-Linie an den Häckslerfahrer. Dadurch "
+"kann der Häcksler die Schwaden optimal aufnehmen, was die Ernteleistung "
+"steigert."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:252
+msgid ""
+"Der Disponent legt für den Häcksler die gewünschte Schnittlänge sowie den "
+"Einsatz von Siliermittel digital fest. Diese Einstellungen werden "
+"automatisch an den Fahrer und die Maschine übermittelt. So wird "
+"sichergestellt, dass die Silagequalität genau auf die Bedürfnisse der "
+"Fütterung abgestimmt ist."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:258
+msgid ""
+"Auf dem Silo werden die Telemetriedaten der Walzfahrzeuge erfasst. Es wird "
+"dokumentiert, wie viele Überfahrten und wie viel Zeit in die Verdichtung "
+"investiert wurden. Diese Daten nutzt der Landwirt, um die Qualität der "
+"Silage später besser einschätzen zu können."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:264
+msgid ""
+"Ein Lohnunternehmer sammelt automatisch die Maschinendaten aller "
+"eingesetzten Fahrzeuge (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) "
+"und stellt diese seinem Kunden zur Verfügung. So sind sowohl die Abrechnung "
+"als auch die Dokumentation der Arbeiten transparent und nachvollziehbar."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:270
+msgid ""
+"Die bei der Grasernte erfassten Ertragsmengen werden gespeichert. Diese "
+"Daten nutzt der Landwirt für die Futterplanung, die Optimierung zukünftiger "
+"Düngungen und für die Dokumentation. Dadurch stehen alle relevanten "
+"Informationen langfristig und ohne zusätzlichen Aufwand bereit."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:276
+msgid ""
+"Der Landwirt erstellt in der Agrarsoftware einen Auftrag zur Heuernte. Der "
+"Fahrer erhält die Daten auf seinem Terminal und weiß genau, welche Felder zu "
+"bearbeiten sind. Gleichzeitig werden während der Heupressung automatisch "
+"Telemetriedaten wie Ballenanzahl, Gewicht und Feuchtigkeit erfasst und in "
+"die Agrarsoftware zurückgemeldet."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:278
+#, no-wrap
+msgid "Maisernte"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:290
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich Aufträge für den Häcksler erstellen"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:292
+#, no-wrap
+msgid "sodass die Erntearbeiten klar definiert und nachvollziehbar sind."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:294
+#, no-wrap
+msgid "möchte ich Aufträge für die Abfahrer erstellen, in denen die zu erntenden Schläge hinterlegt sind"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:296
+#, no-wrap
+msgid "sodass die Abfahrer genau wissen, von welchen Flächen sie den Mais abholen müssen."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:298
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+msgid "möchte ich Applikationskarten an den Häcksler übermitteln, die auf den Aussaatkarten basieren"
+msgstr "Wysyłanie kilku map aplikacyjnych do jednego terminala"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:300
+#, no-wrap
+msgid "sodass Fahrspuren und die Ausrichtung der Maisreihen berücksichtigt werden und der Häcksler effizient arbeiten kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:302
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich Fahrspuren einer Maschine an andere Maschinen übermitteln"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:304
+#, no-wrap
+msgid "sodass nachfolgende Fahrer, z. B. Häckslerfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:310
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich, dass Telemetriedaten der Maisernte automatisch dokumentiert werden"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:312
+#, no-wrap
+msgid "sodass Arbeitszeit, Flächenleistung und Maschinenauslastung nachvollziehbar sind."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:314
+#, no-wrap
+msgid "möchte ich anhand von Telemetriedaten sehen, wie weit ein Schlag bereits abgeerntet wurde"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:316
+#, no-wrap
+msgid "sodass ich die weiteren Einsätze (z. B. Abfahrer, Silofahrzeuge, nächste Schläge) optimal planen kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:318
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich die erfassten Ertragsmengen aus der Maisernte speichern"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:320
+#, no-wrap
+msgid "sodass ich diese Daten für die Dokumentation und für die Erstellung zukünftiger Aussaat- und Düngerkarten verwenden kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:334
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich die Telemetriedaten der Maisernte für die Abrechnung nutzen können"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:335
+#, no-wrap
+msgid "sodass die geleisteten Arbeiten transparent und fehlerfrei gegenüber dem Kunden abgerechnet werden können."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:344
+msgid ""
+"Der Landwirt legt in seiner Agrarsoftware Aufträge für die Mitarbeiter "
+"seines Betriebs an. Darin sind die Schläge hinterlegt, von denen der Mais "
+"abgeholt werden soll. Jeder Fahrer hat den Auftrag direkt auf seinem "
+"Terminal und weiß dadurch genau, auf welchem Feld er einsetzen muss. "
+"Verwechslungen oder unnötige Rückfragen entfallen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:350
+msgid ""
+"Die Agrargenossenschaft erstellt für den Lohnunternehmer einen Ernteauftrag "
+"für den Häcksler. Darin sind Schlaggröße und Feldgrenzen enthalten. Der "
+"Fahrer des Häckslers kann den Auftrag direkt übernehmen, ohne manuell Daten "
+"eingeben zu müssen. So ist der Ablauf klar definiert und der Start der Ernte "
+"verzögert sich nicht."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:356
+msgid ""
+"Auf Basis der im Frühjahr eingesetzten Aussaatkarten wird für den Häcksler "
+"ein Auftrag erstellt. Dieser enthält Informationen über die Ausrichtung der "
+"Reihen und Fahrspuren. Der Häckslerfahrer kann dadurch exakt entlang der "
+"Maisreihen arbeiten, was den Ernteprozess beschleunigt und Verluste "
+"reduziert."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:362
+msgid ""
+"Während der Ernte sendet der Häcksler automatisch Telemetriedaten ins Büro. "
+"Darin sind bearbeitete Fläche, Auslastung und Erntefortschritt enthalten. "
+"Der Disponent hat so jederzeit einen Überblick, wie weit die Arbeiten "
+"bereits fortgeschritten sind, ohne ständig telefonieren zu müssen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:368
+msgid ""
+"Der Disponent im Lohnunternehmen sieht auf seinem Bildschirm, dass ein "
+"Schlag bereits zu 70 % abgeerntet wurde. Er kann dadurch den nächsten "
+"rechtzeitig vorbereiten und gleichzeitig die Walzfahrzeuge auf dem Silo "
+"hinweisen. Stillstandzeiten werden vermieden, und die Maschinenflotte wird "
+"optimal eingesetzt."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:374
+msgid ""
+"Nach Abschluss der Ernte liegen dem Lohnunternehmer automatisch die "
+"Telemetriedaten aller eingesetzten Maschinen vor. Er kann diese für die "
+"Abrechnung nutzen und dem Kunden eine transparente Übersicht über die "
+"erbrachten Leistungen geben. Fehlerhafte Stundenzettel oder unvollständige "
+"Angaben durch Fahrer gehören der Vergangenheit an."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:380
+msgid ""
+"Nach der Ernte überprüft der Lohnunternehmer die Telemetriedaten. Er "
+"erkennt, dass auf einem Feld versehentlich weniger abgeerntet wurde als "
+"geplant. Mit den Telemetriedaten kann er die Abrechnung korrigieren und "
+"sicherstellen, dass keine Arbeit verloren geht."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/harvest.adoc:386
+msgid ""
+"Die vom Häcksler aufgezeichneten Ertragsdaten werden automatisch "
+"gespeichert. Der Landwirt nutzt diese Daten sowohl für seine Dokumentation "
+"und um im nächsten Jahr optimierte Aussaat- und Düngerkarten zu erstellen. "
+"Damit kann er die Erträge langfristig steigern und die Flächen effizienter "
+"bewirtschaften."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:1
+#, fuzzy, no-wrap
+#| msgid "Listing"
+msgid "Logistik"
+msgstr "Notowania"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:4
+msgid ""
+"In der Landwirtschaft sind Transport und Maschinenkoordination oft eine "
+"Herausforderung: Rundballen, Silage oder andere Ernteprodukte müssen "
+"pünktlich bewegt werden und die Abläufe sollen effizient und transparent "
+"ablaufen. Der agrirouter unterstützt in diesem Bereich, indem er Maschinen, "
+"Transportfahrzeuge und Agrarsoftware vernetzt, Telemetriedaten in Echtzeit "
+"liefert und die Planung, Koordination sowie Abrechnung von Transporten "
+"erleichtert. Dadurch wird jederzeit der Überblick über die Abläufe "
+"gewährleistet und auf Änderungen kann schneller reagiert werden."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:17
+#, no-wrap
+msgid "möchte ich die transportierten Mengen dokumentieren"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:19
+#, no-wrap
+msgid "sodass die Nachvollziehbarkeit für Dokumentation und Compliance gewährleistet ist"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:31
+#, no-wrap
+msgid "Als Disponent in einem Lohnunternehmen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:32
+#, no-wrap
+msgid "möchte ich Telemetriedaten zur Position und zum Arbeitsfortschritt meiner Flotte erhalten"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:34
+#, no-wrap
+msgid "sodass ich den Einsatz der Maschinen effizient koordinieren und bei Bedarf kurzfristig umdisponieren kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:44
+#, no-wrap
+msgid "möchte ich Telemetriedaten der Transportfahrzeuge automatisch erfassen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:45
+#, no-wrap
+msgid "sodass ich die Abrechnung der Transportaufträge transparent und fehlerfrei durchführen kann."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:52
+msgid ""
+"Der Betriebsleiter plant einen Transport von Rundballen von Feld A zur "
+"Lagerstätte in seiner Agrarsoftware. Er erstellt den Auftrag und sendet ihn "
+"direkt an den Fahrer. Der Fahrer erhält alle Informationen über Route, "
+"Startzeit und Ziel. Während der Fahrt werden Telemetriedaten des Traktors "
+"übertragen, sodass der Betriebsleiter jederzeit sehen kann, wo sich das "
+"Fahrzeug befindet und ob der Transport planmäßig verläuft."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:58
+msgid ""
+"Der Disponent eines Lohnunternehmens erhält in Echtzeit die Position und den "
+"Fortschritt aller Transportfahrzeuge auf seinem Dashboard. Als ein "
+"Silagetransportfahrzeug auf dem Weg zu Feld B ausfällt, kann dieser sofort "
+"einen freien Fahrer mit einem anderen Fahrzeug umleiten, sodass die Ernte "
+"ohne Verzögerungen fortgesetzt wird."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:64
+msgid ""
+"Der Lohnunternehmer nutzt die Telemetriedaten seiner Transportfahrzeuge und "
+"kann daraufhin die Rechnungen für die Landwirte transparent und fehlerfrei "
+"erstellen, ohne Kontrolle der manuellen Dokumentationen der Fahrer."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/logistic.adoc:70
+msgid ""
+"Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu "
+"erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein nach "
+"Abschluss eines Auftrags ein weiteres Feld bearbeitet wurde. Dadurch kann "
+"der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die "
+"Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht "
+"bezahlt worden."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:1
+#, fuzzy, no-wrap
+#| msgid "Datenschutz"
+msgid "Pflanzenschutz"
+msgstr "Ochrona danych"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:4
+msgid ""
+"In diesem Kapitel wird erläutert, wie der agrirouter die Durchführung von "
+"chemischem und mechanischem Pflanzenschutz unterstützt. Er ermöglicht die "
+"Vernetzung von Maschinen und Agrarsoftware und erleichtert die Übertragung "
+"von Applikationskarten sowie die Dokumentation der ausgebrachten Mengen. "
+"Dadurch werden Prozesse effizienter gestaltet, Fehler reduziert und die "
+"Rückverfolgung gewährleistet."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:6
+#, no-wrap
+msgid "Mechanischer Pflanzenschutz"
+msgstr ""
+
+#. type: #mechanic-plantprotection
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:8
+msgid ""
+"Der mechanische Pflanzenschutz ist vor allem im Bereich der "
+"Biolandwirtschaft ein wichtiger Bestandteil. Beim mechanischem "
+"Pflanzenschutz wird mit einem Striegel, einer Hacke oder mit einer "
+"Brennkammer über den Bestand gefahren. Die Hacke und Brennkammer sind meist "
+"mit Kameras ausgestattet, die dann das Unkraut erkennen und proaktiv "
+"bekämpfen. Der mechanische Pflanzenschutz wird von einem Traktor oder einem "
+"autonomen Arbeitsgerät (z.B. Roboter) durchgeführt."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:15
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:99
+#, no-wrap
+msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:19
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich das Telemetriedaten automatisch zurückgemeldet werden"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:21
+#, no-wrap
+msgid "sodass Arbeitszeit, bearbeitete Fläche und Fortschritt ohne manuellen Aufwand dokumentiert sind."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
+#, fuzzy, no-wrap
+#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
+msgstr "Wysyłanie mapy aplikacji do kilku punktów końcowych jednocześnie"
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:43
+msgid ""
+"Der Landwirt plant in seiner Agrarsoftware einen Hackdurchgang für Mais auf "
+"einem 20 ha großen Feld. Der Auftrag wird über den agrirouter direkt an die "
+"Maschine seines Mitarbeiters übermittelt. Dieser erhält die Feldgrenzen und "
+"Bearbeitungsdetails auf dem Terminal in der Kabine. So weiß er genau, wo und "
+"wie die Arbeit durchgeführt werden soll."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:49
+msgid ""
+"Während der Maschinenführer mit der Striegelmaschine über das Feld fährt, "
+"werden Telemetriedaten wie Arbeitszeit, bearbeitete Fläche und Fortschritt "
+"automatisch an die Agrarsoftware gesendet. Dadurch spart der Maschinenführer "
+"sich die manuelle Dokumentation und der Lohnunternehmer hat in der "
+"Agrarsoftware jederzeit einen aktuellen Überblick über den Stand der "
+"Arbeiten."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:55
+msgid ""
+"Ein Lohnunternehmen setzt drei Hackgeräte parallel auf verschiedenen "
+"Schlägen ein. Über den agrirouter können die Aufträge gleichzeitig an alle "
+"Maschinen verteilt werden. Die Fahrer starten ohne zusätzlichen "
+"Abstimmungsaufwand und die Flotte wird optimal ausgelastet."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:61
+msgid ""
+"Der Disponent in einem Lohnunternehmen, sieht in seiner Agrarsoftware die "
+"Telemetriedaten aller eingesetzten Hackmaschinen in Echtzeit. Er erkennt, "
+"dass eine Maschine schneller fertig wird als geplant, und disponiert den "
+"Fahrer kurzfristig auf ein anderes Feld um."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:67
+msgid ""
+"Nach Abschluss der Arbeiten prüft der Lohnunternehmer die automatisch "
+"erfassten Telemetriedaten. Dieser nutzt diese Daten zur Abrechnung gegenüber "
+"den Kunden und hat gleichzeitig eine revisionssichere Dokumentation. "
+"Tippfehler oder verlorene Stundenzettel der Fahrer gehören damit der "
+"Vergangenheit an."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:73
+msgid ""
+"Während der Arbeit fragt ein Landwirt den Fahrer des Lohnunternehmer, ob er "
+"ein angrenzendes Feld direkt mitbearbeiten kann. Der Auftrag war nicht in "
+"der Agrarsoftware geplant, wird aber dennoch durchgeführt. Dank der "
+"automatisch aufgezeichneten Telemetriedaten wird die zusätzliche Arbeit "
+"dokumentiert."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:82
+#, no-wrap
+msgid "Chemischer Pflanzenschutz"
+msgstr ""
+
+#. type: #chemical-plantprotection
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:84
+msgid ""
+"Beim chemischen Pflanzenschutz wird meistens mit einer Pflanzenschutzspritze "
+"über das Feld gefahren. Dabei kann der Bestand auf dem Feld entweder "
+"großflächig oder punktuell behandelt werden. Es besteht aber auch die "
+"Möglichkeit mit einem Roboter über das Feld zu fahren."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:90
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:94
+#, no-wrap
+msgid "Als Dienstleister für Drohnen"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:91
+#, no-wrap
+msgid "möchte ich Unkraut- und Krankheitsdruck per Drohne erfassen und an die Agrarsoftware senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:93
+#, no-wrap
+msgid "sodass der Landwirt genau sieht, wo Pflanzenschutzmittel benötigt werden und eine Applikationskarte erstellt werden kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:95
+#, no-wrap
+msgid "möchte ich aus den per Drohne erfassten Unkraut- und Krankheitsdrücken eine Applikationskarte erstellen und an den Landwirt senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:97
+#, no-wrap
+msgid "sodass der Pflanzenschutz gezielt und effizient auf dem Feld durchgeführt werden kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:103
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich Applikationskarten an mehrere Maschinen senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:105
+#, no-wrap
+msgid "sodass mehrere Maschinen gleichzeitig teilflächenspezifisch arbeiten können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:107
+#, no-wrap
+msgid "möchte ich, dass die Traktoren die Anbaugeräte automatisch nach Applikationskarten steuern"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:109
+#, no-wrap
+msgid "sodass auch weniger erfahrene Fahrer fehlerfrei arbeiten können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:111
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich, dass Telemetriedaten automatisch an meine Agrarsoftware gesendet werden"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:113
+#, no-wrap
+msgid "sodass Ausbringmenge, Zeitpunkt, Uhrzeit und Fahrer gesetzeskonform dokumentiert werden können."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:127
+msgid ""
+"Der Dienstleister für Drohnen nutzt Drohnen, um Unkrautdruck auf den Feldern "
+"des Landwirts zu erfassen. Die Daten werden automatisch an die Agrarsoftware "
+"gesendet. Darauf basierend wird in der Agrarsoftware eine Applikationskarte "
+"für den Pflanzenschutz erstellt. Der Landwirt kann die Karte direkt an den "
+"Traktor senden, der die chemischen Mittel punktgenau ausbringt. "
+"Telemetriedaten werden automatisch zurückgemeldet, sodass Ausbringmenge, "
+"Zeitpunkt und Fahrer dokumentiert sind."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:134
+msgid ""
+"Der Lohnunternehmer plant mehrere Applikationskarten für unterschiedliche "
+"Felder und Schläge. Diese Karten werden über den agrirouter an die "
+"Maschinenflotte gesendet. Jeder Fahrer kann sofort die geplanten Aufträge "
+"abarbeiten, ohne selbst Karten erstellen oder manuell Daten erfassen zu "
+"müssen.  Die automatische Rückmeldung stellt sicher, dass die gesetzlich "
+"vorgeschriebene Dokumentation jederzeit vorliegt."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:140
+msgid ""
+"Durch die Telemetriedaten der Maschinen sieht der Lohnunternehmer jederzeit, "
+"welche Flächen bereits behandelt wurden. Somit kann dieser den Fortschritt "
+"genau überwachen und bei Bedarf nachjustieren."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/plant-protection.adoc:146
+msgid ""
+"Der Landwirt erstellt eine Applikationskarte für einen benachbarten Schlag, "
+"der an mehrere Maschinen gesendet wird. Die Fahrer können gleichzeitig "
+"arbeiten, während die Agrarsoftware die Telemetrie sammelt und automatisch "
+"dokumentiert. Die zentrale Rückmeldung erspart manuelle Aufzeichnungen und "
+"verringert Fehler bei der Dokumentation."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:1
+#, no-wrap
+msgid "Aussaat"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:4
+msgid ""
+"In diesem Kapitel wird erläutert, wie der agrirouter die Aussaat "
+"unterstützt. Vom Versand einfacher Auftragsdateien (TaskData) über "
+"teilflächenspezifische Applikationskarten bis hin zur automatischen "
+"Rückmeldung von Maschinendaten – der agrirouter erleichtert die "
+"Arbeitsabläufe, reduziert Fehlerquellen und vereinfacht die Dokumentation."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:5
+#, fuzzy, no-wrap
+#| msgid "ISOBUS Auftragsdaten, Applikationskarten"
+msgid "Aufträge ohne Applikationskarte"
+msgstr "Dane zadań ISOBUS, mapy aplikacji"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:13
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich einen Auftrag an eine Maschine senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:15
+#, no-wrap
+msgid "sodass die Maschine die Aussaat gemäß meiner Planung durchführen kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:21
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich einen Auftrag an mehrere Maschinen senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:23
+#, no-wrap
+msgid "sodass mehrere Maschinen parallel auf einer Fläche arbeiten können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:25
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich mehrere Aufträge an eine Maschine senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:27
+#, no-wrap
+msgid "sodass sie nacheinander verschiedene Aussaataufträge abarbeiten kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:29
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich mehrere Aufträge an mehrere Maschinen senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:30
+#, no-wrap
+msgid "sodass die Maschinen die Aussaat gemäß meiner Planung durchführen können."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:32
+#, fuzzy, no-wrap
+#| msgid "Erstelle eine Applikationskarte."
+msgid "Teilflächenspezifische Applikationskarten"
+msgstr "Utwórz mapę aplikacji."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:40
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich eine Applikationskarte an eine Maschine senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:42
+#, no-wrap
+msgid "sodass die Maschine teilflächenspezifisch säen kann."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:44
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich mehrere Applikationskarten an eine Maschine senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:46
+#, no-wrap
+msgid "sodass unterschiedliche Felder bearbeitet werden können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:48
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich eine Applikationskarte an mehrere Maschinen senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:50
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:81
+#, no-wrap
+msgid "sodass mehrere Maschinen dieselbe Planung eines Feldes nutzen können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:54
+#, no-wrap
+msgid "sodass verschiedene Maschinen gleichzeitig unterschiedliche Flächen bearbeiten können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:56
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+msgid "möchte ich Applikationskarten spontan an meinen Fahrer übermitteln können"
+msgstr "Wysyłanie kilku map aplikacyjnych do jednego terminala"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:60
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+msgid "möchte ich Applikationskarten direkt auf meinem Terminal empfangen"
+msgstr "Wysyłanie kilku map aplikacyjnych do jednego terminala"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:61
+#, no-wrap
+msgid "sodass ich die Maßnahmen ohne manuelle Eingaben ausführen kann."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:63
+#, fuzzy, no-wrap
+#| msgid "Erstelle eine Applikationskarte."
+msgid "Kombinierte teilflächenspezifische Applikationskarten "
+msgstr "Utwórz mapę aplikacji."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:71
+#, no-wrap
+msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an eine Maschine senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:73
+#, no-wrap
+msgid "sodass alle Maßnahmen in einem Arbeitsgang ausgeführt werden können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:75
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich mehrere kombinierte Applikationskarten an eine Maschine senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:77
+#, no-wrap
+msgid "sodass unterschiedliche komplexe Kulturmaßnahmen nacheinander abgearbeitet werden können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:79
+#, no-wrap
+msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an mehrere Maschinen senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:83
+#, fuzzy, no-wrap
+#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+msgid "möchte ich mehrere kombinierte Applikationskarten an mehrere Maschinen senden"
+msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:84
+#, no-wrap
+msgid "sodass parallele komplexe Aussaataufträge möglich sind."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:94
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich mehrere Auftragsdateien (TaskData) von einer Maschine an die Agrarsoftware senden"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:96
+#, no-wrap
+msgid "sodass ich mehrere bearbeitete Flächen effizient und nicht einzeln übermitteln muss."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:98
+#, fuzzy, no-wrap
+#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+msgid "möchte ich automatisiert Telemetriedaten an die Agrarsoftware senden"
+msgstr "Wyświetlone zostaną dane telemetryczne urządzenia."
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:100
+#, no-wrap
+msgid "sodass ich bei der Dokumentation meiner Arbeit entlastet werde und keine Tippfehler entstehen können."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:102
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich eine Auftragsdatei (TaskData) von einer Maschine an die Agrarsoftware gesendet bekommen"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:104
+#, no-wrap
+msgid "sodass ich nachvollziehen kann, welche Tätigkeit auf dem Feld durchgeführt wurde."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:106
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich Ist-Daten von meinen Maschinen an die Agrarsoftware gesendet bekommen"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:108
+#, no-wrap
+msgid "sodass ich die durchgeführten Maßnahmen automatisch dokumentieren kann."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:117
+#, no-wrap
+msgid "Maschine-zu-Maschine-Kommunikation (z. B. Spurlinien)"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:124
+#, no-wrap
+msgid "Als Betriebsinhaber"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:125
+#, fuzzy, no-wrap
+#| msgid "Mehrere Karten an eine Maschine senden"
+msgid "möchte ich Daten von einer Maschine an eine weitere Maschine senden können"
+msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:127
+#, fuzzy, no-wrap
+#| msgid "welche Daten ausgetauscht werden"
+msgid "sodass einheitliche Daten genutzt werden."
+msgstr "które dane są wymieniane"
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:129
+#, no-wrap
+msgid "möchte ich Daten von einer Maschine an eine weitere Maschine senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:131
+#, no-wrap
+msgid "sodass Fahrspuren nicht mehrfach aufgezeichnet werden müssen."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:133
+#, no-wrap
+msgid "möchte ich Daten von einer Maschine an mehrere Maschinen senden"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:135
+#, no-wrap
+msgid "sodass parallele und koordinierte Arbeiten möglich sind."
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:137
+#, no-wrap
+msgid "möchte ich, dass Daten von einer organischen Düngung von einer Maschine an eine weitere Maschine gesendet werden können"
+msgstr ""
+
+#. type: Table
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:138
+#, no-wrap
+msgid "sodass das Saatgut dort abgelegt werden kann, wo der Dünger ausgebracht wurde."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:146
+msgid ""
+"Der Landwirt erstellt in seiner Ackerschlagkartei eine Applikationskarte zur "
+"Maisaussaat. Diese sendet er über seine Agrarsoftware direkt an den Traktor. "
+"Das Terminal empfängt die Karte automatisch über den agrirouter – ohne USB-"
+"Stick oder andere Zwischenschritte.  Während der Aussaat werden die "
+"agronomische und Maschinendaten automatisch zurückübertragen und in der "
+"Agrarsoftware dokumentiert. Der Landwirt hat dadurch jederzeit den Überblick "
+"über den Arbeitsfortschritt und spart sich die manuelle Nachbearbeitung."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:152
+msgid ""
+"Der Lohnunternehmer plant mehrere Applikationskarten für verschiedene "
+"Kulturarten und verteilt diese an die Maschinenflotte. So kann jeder Fahrer "
+"direkt mit der teilflächenspezifischen Aussaat beginnen, ohne manuelle "
+"Übertragung. Die Ergebnisse werden automatisiert und in Echtzeit an die "
+"Agrarsoftware zurückgemeldet."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:158
+msgid ""
+"Durch die Übertragung der Telemetriedaten behält der Lohnunternehmer seine "
+"Maschinenflotte im Portal jederzeit im Blick. So kann er genau verfolgen, "
+"wie viel Arbeit bereits erledigt wurde, ob jemand Unterstützung benötigt, "
+"wenn sich z.B. das Wetter ändert oder ob Saatgut nachgeliefert werden muss. "
+"Infolgedessen kann er die Nachlieferung optimal koordinieren und den Einsatz "
+"flexibel steuern."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:164
+msgid ""
+"Durch die Übertragung der Fahrspuren von einer Maschine zur anderen kann "
+"beispielsweise nach der Düngung das Saatgut genau dort abgelegt werden, wo "
+"zuvor das Gülleband ausgebracht wurde. Ebenso können Kartoffeln präzise an "
+"den Stellen gepflanzt werden, an denen zuvor die Pflanzdämme vorbereitet "
+"wurden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/user-stories/seeding.adoc:170
+msgid ""
+"Durch die automatische Übertragung agronomischer Daten sowie Maschinendaten "
+"werden manuelle Eingaben eines Fahrers des Lohnunternehmers deutlich "
+"reduziert. Tippfehler werden vermieden und die Abrechnung erfolgt präziser. "
+"So gehen keine Arbeiten mehr verloren oder bleiben unberücksichtigt."
+msgstr ""
+
+#, fuzzy, no-wrap
+#~| msgid "agrirouter Bedienungsanleitung"
+#~ msgid "agrirouter Anwendungsfälle"
+#~ msgstr "Instrukcja obsługi agrirouter"
+
+#, fuzzy, no-wrap
+#~| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#~ msgid "möchte ich mehrere Applikationskarten an eine oder mehrere Maschinen senden"
+#~ msgstr "Wysyłanie kilku map recept do jednego urządzenia"
+
+#, fuzzy, no-wrap
+#~| msgid "Mehrere Karten an eine Maschine senden"
+#~ msgid "möchte ich mehrere Karten an eine oder mehrere Maschinen senden"
+#~ msgstr "Wysyłanie wielu kart do jednego urządzenia"
+
+#, fuzzy
+#~| msgid ""
+#~| "In diesem Kapitel erfährst du, wie du Telemetriedaten vom agrirouter auf "
+#~| "deinem AgForce-Konto abrufen kannst."
+#~ msgid ""
+#~ "In diesem Kapitel erfährst du, wie der agrirouter dich im Bereich Ernte "
+#~ "untersützen kann."
+#~ msgstr ""
+#~ "W tym rozdziale dowiesz się, jak pobierać dane telemetryczne z agrirouter "
+#~ "na konto AgForce."
+
+#~ msgid "xref:appendix/ddis.adoc[DDI-Definition]"
+#~ msgstr "xref:appendix/ddis.adoc[Definicja DDI]"
 
 #, no-wrap
-#~ msgid "Kapitel"
-#~ msgstr "Rozdział"
+#~ msgid "Anhang A, DDIs"
+#~ msgstr "Dodatek A, DDI"
+
+#~ msgid ""
+#~ "Viele Maschinen können während der Feldarbeit Maschinen-, Positions- und "
+#~ "Prozessparameter in Echtzeit versenden."
+#~ msgstr ""
+#~ "Wiele maszyn może przesyłać parametry maszyny, pozycji i procesu w czasie "
+#~ "rzeczywistym podczas pracy w terenie."
+
+#~ msgid "Es gibt über 600 solcher Parameter, z.B."
+#~ msgstr "Istnieje ponad 600 takich parametrów, np."
+
+#~ msgid "Soll- und Istwerte in den Auftragsdaten"
+#~ msgstr "Wartości docelowe i rzeczywiste w danych zamówienia"
+
+#~ msgid ""
+#~ "Spritverbrauch, Geschwindigkeit oder Tankfüllung in den Maschinendaten"
+#~ msgstr "Zużycie paliwa, prędkość lub napełnienie zbiornika w danych maszyny"
+
+#~ msgid ""
+#~ "Wir haben die Parameter zur besseren Übersicht in 12 Kategorien "
+#~ "zusammengefasst.  Wie in den Abschnitten xref:endpoint.adoc#detail-"
+#~ "view[Endpunkt] bzw. xref:group.adoc#detail-view[Gruppe] beschrieben, "
+#~ "wählst du bei der Erstellung von Routen eine oder mehrere Kategorien "
+#~ "aus.  [.result]#Alle der gewählten Kategorie zugeordneten Parameter "
+#~ "können dann zwischen den Endpunkten ausgetauscht werden.#"
+#~ msgstr ""
+#~ "Podsumowaliśmy parametry w 12 kategoriach dla lepszego przeglądu.  Jak "
+#~ "opisano w sekcjach xref:endpoint.adoc#detail-view[endpoint] i xref:group."
+#~ "adoc#detail-view[group], podczas tworzenia tras można wybrać jedną lub "
+#~ "więcej kategorii.  [.result]#Wszystkie parametry przypisane do wybranej "
+#~ "kategorii mogą być następnie wymieniane między punktami końcowymi.#"
+
+#, fuzzy, no-wrap
+#~| msgid "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier). + Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+#~ msgid ""
+#~ "Die Maschinen-, Positions- und Prozessparameter sind in der ISOBUS-Norm ISO 11783 definiert und heißen dort DDI (Data Dictionary Identifier).\n"
+#~ "Die DDIs sind im https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^] veröffentlicht."
+#~ msgstr "Parametry maszyny, pozycji i procesu są zdefiniowane w standardzie ISOBUS ISO 11783 i są nazywane DDI (Data Dictionary Identifier). + Identyfikatory DDI są publikowane na stronie https://www.isobus.net/isobus/dDEntity[ISOBUS Data Dictionary^]."
+
+#~ msgid ""
+#~ "Es folgt eine Liste aller Kategorien und der ihnen zugeordneten Parameter:"
+#~ msgstr ""
+#~ "Poniżej znajduje się lista wszystkich kategorii i przypisanych do nich "
+#~ "parametrów:"
 
 #, no-wrap
-#~ msgid "Beispiel"
-#~ msgstr "Przykład"
+#~ msgid "GPS Positionsdaten und Guidance-Informationen"
+#~ msgstr "Dane pozycji GPS i informacje o naprowadzaniu"
+
+#~ msgid ""
+#~ "GPS Positionsdaten (Nord- und Ost-Koordinaten), an der die "
+#~ "Telemetriedaten gemessen oder protokolliert wurden.  Daten mit Bezug zu "
+#~ "geografischen und Guidance.Informationen."
+#~ msgstr ""
+#~ "Dane pozycji GPS (współrzędne północne i wschodnie), w których dane "
+#~ "telemetryczne zostały zmierzone lub zarejestrowane.  Dane odnoszące się "
+#~ "do informacji geograficznych i naprowadzających."
 
 #, no-wrap
-#~ msgid "Abbildung"
-#~ msgstr "Ilustracja"
+#~ msgid "Allgemeine Prozessdaten"
+#~ msgstr "Ogólne dane procesowe"
+
+#~ msgid ""
+#~ "Auftrags- und Lebensdauerzähler oder Durchschnittswerte (Zähler, die für "
+#~ "Ausbringung und/oder Ertrag nicht relevant sind)."
+#~ msgstr ""
+#~ "Liczniki zamówień i żywotności lub wartości średnie (liczniki, które nie "
+#~ "są istotne dla produkcji i/lub wydajności)."
 
 #, no-wrap
-#~ msgid "font"
-#~ msgstr "font"
+#~ msgid "Kraftstoff und Harnstofflösung"
+#~ msgstr "Roztwór paliwa i mocznika"
+
+#~ msgid ""
+#~ "Daten mit Bezug zum Verbrauch von Kraftstoff und Harnstofflösung von "
+#~ "Maschinen (Gesamtenergieverbrauch)."
+#~ msgstr ""
+#~ "Dane dotyczące zużycia paliwa i roztworu mocznika przez maszyny "
+#~ "(całkowite zużycie energii)."
 
 #, no-wrap
-#~ msgid "-"
-#~ msgstr "-"
+#~ msgid "Maschineneigenschaften"
+#~ msgstr "Właściwości maszyny"
+
+#~ msgid "Nicht prozessrelevante Daten zu den Maschineneigenschaften."
+#~ msgstr "Nieistotne dla procesu dane dotyczące właściwości urządzenia."
 
 #, no-wrap
-#~ msgid "Wichtig"
-#~ msgstr "Ważne"
+#~ msgid "Ausbringung"
+#~ msgstr "Zastosowanie"
+
+#~ msgid ""
+#~ "Daten über die Ausbringung auf dem Feld (z.B. Düngemittel, Saatgut, "
+#~ "Pflanzenschutzmittel, Trockenmasse, usw.)."
+#~ msgstr ""
+#~ "Dane dotyczące stosowania na polu (np. nawozy, nasiona, pestycydy, sucha "
+#~ "masa itp.)."
 
 #, no-wrap
-#~ msgid "true"
-#~ msgstr "true"
+#~ msgid "Ertragsdaten"
+#~ msgstr "Dane dotyczące wydajności"
+
+#~ msgid "Menge und Eigenschaften des Erntegutes"
+#~ msgstr "Ilość i charakterystyka zebranych plonów"
+
+#, no-wrap
+#~ msgid "Prozessdaten"
+#~ msgstr "Dane procesowe"
+
+#~ msgid "Daten über den Hauptarbeitsprozess der Maschine."
+#~ msgstr "Dane dotyczące głównego procesu roboczego maszyny."
+
+#, no-wrap
+#~ msgid "Umgebungsbedingungen"
+#~ msgstr "Warunki otoczenia"
+
+#~ msgid ""
+#~ "Daten mit Bezug zu den Umgebungsbedingungen (z.B. Windgeschwindigkeit)."
+#~ msgstr "Dane w odniesieniu do warunków otoczenia (np. prędkość wiatru)."
+
+#, no-wrap
+#~ msgid "Basisdaten"
+#~ msgstr "Podstawowe dane"
+
+#~ msgid "Grundlegende Werte, die für das gesamte System relevant sind."
+#~ msgstr "Podstawowe wartości, które są istotne dla całego systemu."
+
+#, no-wrap
+#~ msgid "Maschinendaten (nur PGN)"
+#~ msgstr "Dane maszyny (tylko PGN)"
+
+#~ msgid ""
+#~ "Maschinendaten, die zur PGN (Parameter Group Number) gehören; z.B. "
+#~ "Hubwerksposition, Zapfwellendrehzahl, etc."
+#~ msgstr ""
+#~ "Dane maszyny należące do PGN (Parameter Group Number); np. pozycja "
+#~ "podnośnika, prędkość PTO itp."
+
+#, no-wrap
+#~ msgid "Proprietäre Daten"
+#~ msgstr "Dane zastrzeżone"
+
+#~ msgid "Herstellerspezifische Daten (nicht Bestandteil des Standards)."
+#~ msgstr "Dane specyficzne dla producenta (nie są częścią standardu)."
+
+#, no-wrap
+#~ msgid "Bodendaten"
+#~ msgstr "Dane dotyczące gleby"
+
+#~ msgid "Bedingungen und Sensordaten zur Bodenbeschaffenheit."
+#~ msgstr "Warunki i dane z czujników dotyczące właściwości gleby."
 
 #, no-wrap
 #~ msgid "style.puml"
 #~ msgstr "style.puml"
 
 #, no-wrap
-#~ msgid "de"
-#~ msgstr "pl"
+#~ msgid "@antora/lunr-extension"
+#~ msgstr "@antora/lunr-extension"
 
 #, no-wrap
-#~ msgid "Zuletzt aktualisiert"
-#~ msgstr "Ostatnia aktualizacja"
+#~ msgid "asciidoctor-kroki"
+#~ msgstr "asciidoctor-kroki"
 
 #, no-wrap
-#~ msgid "Listing"
-#~ msgstr "Notowania"
-
-#, no-wrap
-#~ msgid "Bezeichnung"
-#~ msgstr "Oznaczenie"
-
-#, no-wrap
-#~ msgid "Anmerkung"
-#~ msgstr "Uwaga"
-
-#, no-wrap
-#~ msgid "Diese Seite bearbeiten"
-#~ msgstr "Edytuj tę stronę"
-
-#, no-wrap
-#~ msgid "Impressum"
-#~ msgstr "Nadruk"
-
-#, no-wrap
-#~ msgid "Datenschutz"
-#~ msgstr "Ochrona danych"
-
-#, no-wrap
-#~ msgid "Suchen"
-#~ msgstr "Wyszukiwanie"
-
-#, no-wrap
-#~ msgid "Inhalt"
-#~ msgstr "Zawartość"
-
-#, no-wrap
-#~ msgid "Teil"
-#~ msgstr "Część"
-
-#, no-wrap
-#~ msgid "Vorwort"
-#~ msgstr "Przedmowa"
-
-#, no-wrap
-#~ msgid "Abschnitt"
-#~ msgstr "Sekcja"
-
-#, no-wrap
-#~ msgid "Tabelle"
-#~ msgstr "Tabela"
-
-#, no-wrap
-#~ msgid "Hinweis"
-#~ msgstr "Wskazówka"
-
-#, no-wrap
-#~ msgid "Inhaltsverzeichnis"
-#~ msgstr "Spis treści"
-
-#, no-wrap
-#~ msgid "Ohne Titel"
-#~ msgstr "Bez tytułu"
-
-#, no-wrap
-#~ msgid "Version"
-#~ msgstr "Wersja"
-
-#, no-wrap
-#~ msgid "Warnung"
-#~ msgstr "Ostrzeżenie"
+#~ msgid "true"
+#~ msgstr "true"
 
 #, no-wrap
 #~ msgid "{web_url}/edit/main/{path}"
@@ -11511,20 +13898,12 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 #~ msgstr "HEAD"
 
 #, no-wrap
-#~ msgid "de/"
-#~ msgstr "pl/"
-
-#, no-wrap
 #~ msgid ".."
 #~ msgstr ".."
 
 #, no-wrap
 #~ msgid "manual:ROOT:introduction.adoc"
 #~ msgstr "manual:ROOT:introduction.adoc"
-
-#, no-wrap
-#~ msgid "/de"
-#~ msgstr "/pl"
 
 #, no-wrap
 #~ msgid "https://files.my-agrirouter.com/ui-bundle-release.zip"

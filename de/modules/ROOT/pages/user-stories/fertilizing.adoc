@@ -1,0 +1,148 @@
+= Düngung
+
+In diesem Kapitel wird erläutert, wie der agrirouter bei der Planung und Durchführung von organischer und mineralischer Düngung unterstützt. Er ermöglicht die Vernetzung von Maschinen und Agrarsoftware und erleichtert die Übertragung von Applikationskarten sowie die Dokumentation der ausgebrachten Mengen. Dadurch werden Prozesse effizienter gestaltet, Fehler reduziert und die Rückverfolgung gewährleistet.
+
+[#organic-fertilization]
+== Organische Düngung
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
+|Als Landwirt
+|möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
+|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+
+|Als Betriebsleiter
+|möchte ich geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden
+|sodass auch weniger erfahrene Mitarbeiter fehlerfrei und effizient düngen können.
+
+|Als Betriebsleiter
+|möchte ich Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden
+|sodass die Ausbringung präzise und effizient erfolgt.
+
+|Als Lohnunternehmer
+|möchte ich mehrere Applikationskarten an mehrere Maschinen senden
+|sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können.
+
+|Als Maschinenführer
+|möchte ich vor Beginn die geplanten Fahrspuren erhalten
+|sodass ich den Auftrag effizient abarbeiten kann, ohne selbst zunächst Fahrspuren aufnehmen zu müssen.
+
+|Als Landwirt
+|möchte ich Fahrspuren von Traktor A an Traktor B übermitteln
+|sodass nachfolgende Arbeiten auf denselben Spuren erfolgen können.
+
+|Als Landwirt
+|möchte ich während der Ausbringung automatisch dokumentieren, dass Nährstoffmengen, Sperrzonen und Einsatzzeiten eingehalten werden
+|sodass ich rechtssicher arbeite und meine Subvensionen gesichert sind.
+
+|Als Lohnunternehmer
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
+|Als Lohnunternehmer
+|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
+|===
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Der Landwirt erstellt in seiner Ackerschlagkartei eine Applikationskarte für die organische Düngung. Diese sendet er über den agrirouter an den Traktor. Das Terminal empfängt die Karte automatisch – ohne USB-Stick oder andere Zwischenschritte.  
+Während der Ausbringung werden die Nährstoffmengen, Fahrspuren und Maschinendaten automatisch dokumentiert. Der Landwirt hat so jederzeit den Überblick über die Einhaltung der Vorschriften und spart sich die manuelle Nachbearbeitung.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Der Lohnunternehmer plant mehrere Applikationskarten für unterschiedliche Felder und verteilt diese an die Maschinenflotte. Jeder Fahrer kann direkt mit der teilflächenspezifischen Düngung beginnen, ohne manuelle Maschineneinstellungen vornehmen zu müssen. Die Ergebnisse werden automatisch und in Echtzeit an die Betriebsleitung zurückgemeldet.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Dank der automatischen Dokumentation von Nährstoffmengen, Sperrzonen und Ausbringungszeitpunkten kann der Landwirt die organische Düngung präzise und gesetzeskonform durchführen.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Dank vorgeplanter Aufträge im Büro und automatischer Maschineneinstellungen können auch weniger erfahrene Fahrer einen Auftrag problemlos durchführen. Die Maschine steuert die Dosierung automatisch, während der Fahrer jederzeit den Überblick behält. Dies spart sowohl Zeit im Büro als auch auf dem Feld und reduziert Fehler durch manuelle Dokumentation.
+====
+[NOTE]
+.Praxisbeispiel 5
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
+====
+
+[#mineral-fertilization]
+== Mineralische Düngung
+
+[cols="3*", options="header"]
+|===
+|Als (Rolle) |möchte ich (Wunsch) |sodass (Zweck)
+
+|Als Landwirt
+|möchte ich einen Auftrag für ein Feld planen und an die Maschine senden
+|sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll.
+
+|Als Landwirt
+|möchte ich Fahrspuren von Traktor A an Traktor B übermitteln
+|sodass nachfolgende Arbeiten (z. B. Pflanzenschutz) auf denselben Spuren erfolgen können.
+
+|Als Landwirt
+|möchte ich während der Ausbringung automatisch dokumentieren, dass Nährstoffmengen, Sperrzonen und Einsatzzeiten eingehalten werden
+|sodass ich rechtssicher arbeite.
+
+|Als Betriebsleiter
+|möchte ich geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden
+|sodass auch weniger erfahrene Mitarbeiter fehlerfrei und effizient düngen können.
+
+|Als Betriebsleiter 
+|möchte ich Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden
+|sodass die Ausbringung präzise und effizient erfolgen kann.
+
+|Als Maschinenführer 
+|möchte ich vor Beginn die geplanten Fahrspuren erhalten 
+|sodass ich den Auftrag effizient abarbeiten kann, ohne selbst zunächst Fahrspuren aufnehmen zu müssen.
+
+|Als Lohnunternehmer
+|möchte ich mehrere Applikationskarten an mehrere Maschinen senden
+|sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können.
+
+|Als Lohnunternehmer 
+|möchte ich Maschinendaten in der Agrarsoftware erhalten
+|sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist.
+
+|Als Lohnunternehmer 
+|möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen 
+|sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann.
+|===
+
+== Praxisbeispiele
+[NOTE]
+.Praxisbeispiel 1
+====
+Der Landwirt erstellt in seiner Ackerschlagkartei eine Applikationskarte für die mineralische Düngung. Diese sendet er über den agrirouter an den Traktor. Das Terminal empfängt die Karte automatisch – ohne USB-Stick oder andere Zwischenschritte.  
+Während der Ausbringung werden die Nährstoffmengen, Sperrzonen, Fahrspuren und Maschinendaten automatisch dokumentiert. Der Landwirt hat so jederzeit den Überblick über die Einhaltung der Vorschriften und spart sich die manuelle Nachbearbeitung.
+====
+
+[NOTE]
+.Praxisbeispiel 2
+====
+Der Lohnunternehmer plant mehrere Applikationskarten für unterschiedliche Felder und verteilt diese an die Maschinenflotte. Jeder Fahrer kann direkt mit der teilflächenspezifischen mineralischen Düngung beginnen, ohne manuelle Maschineneinstellungen vornehmen zu müssen. Die Ergebnisse werden automatisch und in Echtzeit an die Betriebsleitung zurückgemeldet.
+====
+
+[NOTE]
+.Praxisbeispiel 3
+====
+Dank vorgeplanter Aufträge im Büro und automatischer Maschineneinstellungen können auch weniger erfahrene Fahrer einen Auftrag problemlos durchführen. Die Maschine steuert die Dosierung automatisch, während der Fahrer jederzeit den Überblick behält. Dies spart sowohl Zeit im Büro als auch auf dem Feld und reduziert Fehler durch manuelle Dokumentation.
+====
+
+[NOTE]
+.Praxisbeispiel 4
+====
+Im Büro hat ein Mitarbeiter vergessen, einen spontanen Auftrag im System zu erfassen. Nach Übertragung der Telemetriedaten wird sichtbar, dass ein weiteres Feld bearbeitet wurde. Dadurch kann der Einsatz nachträglich in die Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht bezahlt worden.
+====

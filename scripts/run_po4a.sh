@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# fix for MSYS2/Git Bash on Windows
+export MSYS2_ARG_CONV_EXCL=*
+
 # Check if the po4a image exists
 if ! docker image inspect po4a >/dev/null 2>&1; then
     echo "Building po4a Docker image..."
