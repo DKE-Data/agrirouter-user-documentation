@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-09-09 14:57+0000\n"
-"PO-Revision-Date: 2025-09-09 16:52+0000\n"
+"PO-Revision-Date: 2025-09-10 07:52+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Spanish <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/es/>\n"
@@ -3631,6 +3631,13 @@ msgid ""
 "auszutauschen, Arbeitsabläufe zu vereinfachen oder Maschinen "
 "unterschiedlicher Hersteller besser zu vernetzen."
 msgstr ""
+"En esta sección se muestran los diferentes ámbitos de aplicación del "
+"agrirouter – desde la siembra y la fertilización hasta la cosecha. Las User "
+"Stories aquí presentadas son breves ejemplos prácticos: muestran cómo "
+"agricultores, contratistas, asesores, fabricantes y otros participantes "
+"utilizan el agrirouter en su trabajo cotidiano – por ejemplo para "
+"intercambiar datos de manera más sencilla, simplificar los flujos de trabajo "
+"o conectar mejor máquinas de distintos fabricantes."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories.adoc:6
@@ -6500,10 +6507,9 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:1
-#, fuzzy, no-wrap
-#| msgid "xFarm Solution Guide"
+#, no-wrap
 msgid "farmpilot Solution Guide"
-msgstr "xFarm Solution Guide"
+msgstr "farmpilot Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:4
@@ -11538,65 +11544,62 @@ msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:2
 msgid "xref:user-stories/cultivation.adoc[Bodenbearbeitung]"
-msgstr ""
+msgstr "xref:user-stories/cultivation.adoc[Laboreo del suelo]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:3
 msgid "xref:user-stories/seeding.adoc[Aussaat]"
-msgstr ""
+msgstr "xref:user-stories/seeding.adoc[Siembra]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:4
 msgid "xref:user-stories/fertilizing.adoc[Düngung]"
-msgstr ""
+msgstr "xref:user-stories/fertilizing.adoc[Fertilización]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:5
 msgid "xref:user-stories/fertilizing.adoc#organic-fertilization[Organisch]"
-msgstr ""
+msgstr "xref:user-stories/fertilizing.adoc#organic-fertilization[Orgánico]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:6
 msgid "xref:user-stories/fertilizing.adoc#mineral-fertilization[Mineralisch]"
-msgstr ""
+msgstr "xref:user-stories/fertilizing.adoc#mineral-fertilization[Mineral]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:7
-#, fuzzy
-#| msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
 msgid "xref:user-stories/plant-protection.adoc[Pflanzenschutz]"
-msgstr "xref:solution-guides/plantivo.adoc[Plantivo]"
+msgstr "xref:user-stories/plant-protection.adoc[Protección de plantas]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:8
 msgid ""
 "xref:user-stories/plant-protection.adoc#mechanic-plantprotection[Mechanisch]"
 msgstr ""
+"xref:user-stories/plant-protection.adoc#mechanic-plantprotection[Mecánico]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:9
 msgid ""
 "xref:user-stories/plant-protection.adoc#chemical-plantprotection[Chemisch]"
 msgstr ""
+"xref:user-stories/plant-protection.adoc#chemical-plantprotection[Químico]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:10
-#, fuzzy
-#| msgid "xref:solution-guides/agforce.adoc[AgForce]"
 msgid "xref:user-stories/harvest.adoc[Ernte]"
-msgstr "xref:solution-guides/agforce.adoc[AgForce]"
+msgstr "xref:user-stories/harvest.adoc[Cosecha]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/user-stories/nav.adoc:10
 msgid "xref:user-stories/logistic.adoc[Logistik]"
-msgstr ""
+msgstr "xref:user-stories/logistic.adoc[Logística]"
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Sender bearbeiten"
+#, no-wrap
 msgid "Bodenbearbeitung"
-msgstr "Editar remitente"
+msgstr "Laboreo del suelo"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:4
@@ -11608,13 +11611,19 @@ msgid ""
 "automatisch dokumentieren und die Nachvollziehbarkeit der durchgeführten "
 "Maßnahmen sicherstellen."
 msgstr ""
+"En el ámbito del laboreo del suelo se utilizan máquinas como arados, "
+"cultivadores, rastras o azadones mecánicos. El agrirouter permite el "
+"intercambio de datos entre máquinas, software agrícola y otros "
+"participantes. De este modo, es posible transferir órdenes de trabajo de "
+"manera eficiente, documentar automáticamente los datos de las máquinas y "
+"garantizar la trazabilidad de las acciones realizadas."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:5
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:5
 #, no-wrap
 msgid "Übermittlung von Aufträgen"
-msgstr ""
+msgstr "Transmisión de órdenes"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:9
@@ -11636,7 +11645,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:121
 #, no-wrap
 msgid "Als (Rolle)"
-msgstr ""
+msgstr "Como (rol)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:9
@@ -11658,7 +11667,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:121
 #, no-wrap
 msgid "möchte ich (Wunsch)"
-msgstr ""
+msgstr "Quiero (deseo)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:11
@@ -11680,7 +11689,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:123
 #, no-wrap
 msgid "sodass (Zweck)"
-msgstr ""
+msgstr "de modo que (propósito)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:12
@@ -11706,17 +11715,16 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:82
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:101
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:105
-#, fuzzy, no-wrap
-#| msgid "Starte die Agrarsoftware."
+#, no-wrap
 msgid "Als Nutzer einer Agrarsoftware"
-msgstr "Inicia el software agrícola."
+msgstr "Como usuario de un software agrícola"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:13
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:13
 #, no-wrap
 msgid "möchte ich einen Auftrag spontan an meinen Fahrer übermitteln können"
-msgstr ""
+msgstr "Quiero poder enviar un pedido de forma espontánea a mi conductor"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:15
@@ -11931,10 +11939,11 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:56
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich Telemetriedaten in Echtzeit in der Agrarsoftware erhalten"
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr ""
+"Me gustaría recibir datos de telemetría en tiempo real en el software "
+"agrícola"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:58
@@ -11945,10 +11954,11 @@ msgstr ""
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:60
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:48
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich, dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet"
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr ""
+"Quiero que la máquina envíe automáticamente los datos de telemetría al "
+"software agrícola"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:62
@@ -12538,10 +12548,9 @@ msgstr ""
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:21
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:31
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich die Telemetriedaten aller Maschinen einsehen"
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr "Quiero ver los datos de telemetría de todas las máquinas"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:23
@@ -13717,10 +13726,9 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:60
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+#, no-wrap
 msgid "möchte ich Applikationskarten direkt auf meinem Terminal empfangen"
-msgstr "Enviar varios mapas de recetas a un terminal"
+msgstr "Quiero recibir mapas de aplicación directamente en mi terminal"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:61
@@ -13852,10 +13860,9 @@ msgstr "Enviar varias tarjetas a una máquina"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:127
-#, fuzzy, no-wrap
-#| msgid "welche Daten ausgetauscht werden"
+#, no-wrap
 msgid "sodass einheitliche Daten genutzt werden."
-msgstr "qué datos se intercambian"
+msgstr "para que se utilicen datos uniformes."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:129
