@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-09-09 14:57+0000\n"
-"PO-Revision-Date: 2025-09-10 09:52+0000\n"
+"PO-Revision-Date: 2025-09-10 10:28+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Italian <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/it/>\n"
@@ -1238,7 +1238,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:194
 #, no-wrap
 msgid "Passwort setzen / Passwort vergessen"
-msgstr ""
+msgstr "Imposta password / Password dimenticata"
 
 #. type: #create-forgot-pw
 #: de/modules/ROOT/pages/account.adoc:196
@@ -11763,7 +11763,7 @@ msgstr "Desidero poter inviare un incarico spontaneamente al mio autista"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:42
 #, no-wrap
 msgid "sodass ich die Datei nicht erst per USB-Stick übergeben muss."
-msgstr ""
+msgstr "in modo da non dover prima trasferire il file tramite chiavetta USB."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:16
@@ -11818,7 +11818,7 @@ msgstr "In qualità di agricoltore"
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:13
 #, no-wrap
 msgid "möchte ich einen Auftrag für ein Feld planen und an die Maschine senden"
-msgstr ""
+msgstr "desidero pianificare un ordine per un campo e inviarlo alla macchina"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:19
@@ -11830,50 +11830,58 @@ msgstr ""
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
 msgstr ""
+"in modo che il mio collaboratore sappia esattamente quale lavoro deve essere "
+"svolto e dove."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:21
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)"
 msgstr ""
+"Vorrei inviare un piano di corsia a una macchina (ad esempio, per il "
+"controllo del traffico agricolo, per la guida autonoma)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:23
 #, no-wrap
 msgid "sodass die Arbeit präzise entlang der geplanten Spuren erfolgt."
 msgstr ""
+"in modo che i lavori vengano eseguiti con precisione lungo i binari previsti."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:25
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an mehrere Maschinen senden (z. B. für Control Traffic Farming, autonomes Fahren)"
 msgstr ""
+"Vorrei inviare un piano di corsia a diverse macchine (ad esempio per il "
+"controllo del traffico agricolo, per la guida autonoma)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:27
 #, no-wrap
 msgid "sodass alle Maschinen eine einheitliche Basis nutzen können."
 msgstr ""
+"in modo che tutte le macchine possano utilizzare una base standardizzata."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:29
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe)"
-msgstr "Inviare più mappe di prescrizione a una sola macchina"
+msgstr ""
+"desidero inviare a una macchina le mappe di lavorazione del terreno (ad "
+"esempio, la profondità di lavoro)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:31
 #, no-wrap
 msgid "sodass die Maschine die Bearbeitung gemäß den Vorgaben ausführt."
-msgstr ""
+msgstr "in modo che la macchina esegua la lavorazione secondo le specifiche."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:33
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Bodenbearbeitungskarten an mehrere Maschinen senden"
-msgstr "Inviare più mappe di prescrizione a una sola macchina"
+msgstr "desidero inviare le mappe di lavorazione del terreno a diverse macchine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:35
@@ -11882,6 +11890,8 @@ msgstr "Inviare più mappe di prescrizione a una sola macchina"
 #, no-wrap
 msgid "sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können."
 msgstr ""
+"in modo che più macchine possano utilizzare contemporaneamente le stesse "
+"specifiche."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:36
@@ -11898,44 +11908,46 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:128
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:132
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:136
-#, fuzzy, no-wrap
-#| msgid "Maschinen hinzufügen"
+#, no-wrap
 msgid "Als Maschinenführer"
-msgstr "Aggiungi macchine"
+msgstr "Come operatore di macchina"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:37
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich abgearbeitete Auftragsdaten von der Maschine an die Agrarsoftware übertragen"
-msgstr "Inviare più mappe di prescrizione a una sola macchina"
+msgstr ""
+"vorrei trasferire i dati degli ordini elaborati dalla macchina al software "
+"agricolo"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:39
 #, no-wrap
 msgid "sodass die durchgeführten Arbeiten dokumentiert werden können."
-msgstr ""
+msgstr "in modo da poter documentare il lavoro svolto."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:41
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Daten von Maschine A an Maschine B senden"
-msgstr "Inviare più schede a una macchina"
+msgstr "Voglio inviare dati dalla macchina A alla macchina B"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:43
 #, no-wrap
 msgid "sodass diese nahtlos mit den vorherigen Arbeitsergebnissen fortfahren kann."
 msgstr ""
+"in modo da poter proseguire senza soluzione di continuità con i risultati "
+"del lavoro precedente."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:45
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:33
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen"
-msgstr "Inviare più mappe di prescrizione a una sola macchina"
+msgstr ""
+"vorrei sincronizzare lo stato degli ordini tra il software agricolo e la "
+"macchina"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:46
@@ -11943,15 +11955,16 @@ msgstr "Inviare più mappe di prescrizione a una sola macchina"
 #, no-wrap
 msgid "sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist."
 msgstr ""
+"in modo da poter vedere in qualsiasi momento se l'ordine è stato avviato o "
+"completato."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:48
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:36
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:86
-#, fuzzy, no-wrap
-#| msgid "Telemetriedaten"
+#, no-wrap
 msgid "Telemetrie & Dokumentation"
-msgstr "Dati di telemetria"
+msgstr "Telemetria & Documentazione"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:55
@@ -11966,19 +11979,21 @@ msgstr "Dati di telemetria"
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:30
 #, no-wrap
 msgid "Als Disponent"
-msgstr ""
+msgstr "Come dispacciatore"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:56
 #, no-wrap
 msgid "möchte ich Telemetriedaten in Echtzeit in der Agrarsoftware erhalten"
-msgstr "Vorrei ricevere dati telemetrici in tempo reale nel software agricolo"
+msgstr "vorrei ricevere dati telemetrici in tempo reale nel software agricolo"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:58
 #, no-wrap
 msgid "sodass im Lohnunternehmen der Arbeitsfortschritt verfolgt und weitere Planung optimiert werden kann."
 msgstr ""
+"in modo da poter seguire l'avanzamento dei lavori e ottimizzare l'ulteriore "
+"pianificazione nell'azienda appaltatrice."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:60
@@ -11986,7 +12001,7 @@ msgstr ""
 #, no-wrap
 msgid "möchte ich, dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet"
 msgstr ""
-"Vorrei che la macchina inviasse automaticamente i dati telemetrici al "
+"vorrei che la macchina inviasse automaticamente i dati telemetrici al "
 "software agricolo"
 
 #. type: Table
@@ -11994,7 +12009,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:50
 #, no-wrap
 msgid "sodass die Dokumentation für mich reduziert wird."
-msgstr ""
+msgstr "in modo che la documentazione sia ridotta per me."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:63
@@ -12032,7 +12047,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:113
 #, no-wrap
 msgid "Als Lohnunternehmer"
-msgstr ""
+msgstr "Come appaltatore"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:64
@@ -12048,7 +12063,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:110
 #, no-wrap
 msgid "möchte ich Maschinendaten in der Agrarsoftware erhalten"
-msgstr ""
+msgstr "desidero ricevere i dati della macchina nel software agricolo"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:66
@@ -12065,6 +12080,8 @@ msgstr ""
 #, no-wrap
 msgid "sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist."
 msgstr ""
+"in modo da evitare errori di battitura o perdita di documenti da parte degli "
+"autisti e garantire una documentazione trasparente."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:68
@@ -12076,6 +12093,8 @@ msgstr ""
 #, no-wrap
 msgid "möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
 msgstr ""
+"vorrei registrare automaticamente i tassi di applicazione, la copertura "
+"dell'area e i tempi di funzionamento"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:69
@@ -12091,6 +12110,8 @@ msgstr ""
 #, no-wrap
 msgid "sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann."
 msgstr ""
+"in modo che la fatturazione possa essere effettuata con precisione in base "
+"all'area, al tempo o alla quantità."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:71
@@ -12104,10 +12125,9 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:42
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:134
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:140
-#, fuzzy, no-wrap
-#| msgid "Beispiel"
+#, no-wrap
 msgid "Praxisbeispiele"
-msgstr "Esempio"
+msgstr "Esempi pratici"
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:74
@@ -12123,7 +12143,7 @@ msgstr "Esempio"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:142
 #, no-wrap
 msgid "Praxisbeispiel 1"
-msgstr ""
+msgstr "Esempio pratico 1"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:77
@@ -12133,6 +12153,11 @@ msgid ""
 "agrirouter und kann sofort mit der Arbeit beginnen, ohne USB-Sticks oder "
 "Papier. So sparen beide Zeit und Fehlerquellen werden minimiert."
 msgstr ""
+"Il contoterzista invia un lavoro di aratura al conducente direttamente dal "
+"suo software agricolo. L'agricoltore riceve i dati automaticamente tramite "
+"l'agrirouter e può iniziare a lavorare immediatamente, senza chiavette USB o "
+"carta. In questo modo si risparmia tempo per entrambe le parti e si riducono "
+"al minimo le fonti di errore."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:80
@@ -12148,7 +12173,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:149
 #, no-wrap
 msgid "Praxisbeispiel 2"
-msgstr ""
+msgstr "Esempio pratico 2"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:83
@@ -12159,6 +12184,12 @@ msgid ""
 "die Bodenverdichtung reduziert, was die Wasser- und Nährstoffaufnahme "
 "verbessert und so die Bodenfruchtbarkeit sowie Erträge nachhaltig gesichert."
 msgstr ""
+"Con il Control Traffic Farming (CTF), il software agricolo dell'agricoltore "
+"trasmette al trattore le corsie pianificate. Il conducente si limita a "
+"guidare esattamente nelle corsie pianificate. Guidando in corsie specifiche, "
+"si riduce la compattazione del suolo, migliorando l'assorbimento dell'acqua "
+"e dei nutrienti e garantendo così una fertilità del suolo e una resa "
+"sostenibili."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:86
@@ -12174,7 +12205,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:155
 #, no-wrap
 msgid "Praxisbeispiel 3"
-msgstr ""
+msgstr "Esempio pratico 3"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:89
@@ -12184,6 +12215,10 @@ msgid ""
 "und präzise unterschiedliche Bodenschichten bearbeitet. Die Arbeit wird "
 "somit effizienter und gleichmäßiger."
 msgstr ""
+"L'agricoltore crea una mappa del coltivatore con diverse profondità di "
+"lavoro per il suo campo. Invia questa mappa alla macchina, che coltiva "
+"automaticamente e con precisione i diversi strati del terreno. Questo rende "
+"il lavoro più efficiente e uniforme."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:92
@@ -12199,7 +12234,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:161
 #, no-wrap
 msgid "Praxisbeispiel 4"
-msgstr ""
+msgstr "Esempio pratico 4"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:95
@@ -12208,6 +12243,10 @@ msgid ""
 "und nutzen dieselbe Bearbeitungskarte. So können die Fahrer ohne "
 "Überschneidungen arbeiten und der Auftrag ist schneller erledigt."
 msgstr ""
+"In una grande azienda agricola, due trattori lavorano in parallelo sullo "
+"stesso campo e utilizzano la stessa mappa di coltivazione. In questo modo i "
+"conducenti possono lavorare senza sovrapporsi e il lavoro viene completato "
+"più rapidamente."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:98
@@ -12221,7 +12260,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:167
 #, no-wrap
 msgid "Praxisbeispiel 5"
-msgstr ""
+msgstr "Esempio pratico 5"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:101
@@ -12230,6 +12269,10 @@ msgid ""
 "Ackerschlagkartei des Landwirts übermittelt. Dadurch entfällt die manuelle "
 "Dokumentation, was Zeit spart und die Datenqualität verbessert."
 msgstr ""
+"Dopo l'aratura, le aree lavorate vengono trasferite automaticamente nel "
+"database del campo dell'agricoltore. In questo modo si elimina la necessità "
+"di una documentazione manuale, risparmiando tempo e migliorando la qualità "
+"dei dati."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:104
@@ -12241,7 +12284,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:173
 #, no-wrap
 msgid "Praxisbeispiel 6"
-msgstr ""
+msgstr "Esempio pratico 6"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:107
@@ -12251,6 +12294,10 @@ msgid ""
 "den nächsten Einsatz planen, wodurch Standzeiten vermieden und der Betrieb "
 "reibungsloser läuft."
 msgstr ""
+"Il responsabile delle spedizioni dell'appaltatore può vedere in tempo reale "
+"sullo schermo che un trattore avrà presto finito di lavorare sul campo. Può "
+"quindi pianificare il lavoro successivo, evitando così i tempi di inattività "
+"e garantendo un funzionamento più fluido delle operazioni."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:110
@@ -12260,7 +12307,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:80
 #, no-wrap
 msgid "Praxisbeispiel 7"
-msgstr ""
+msgstr "Esempio pratico 7"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:113
@@ -12270,13 +12317,17 @@ msgid ""
 "Beteiligten jederzeit auf dem aktuellen Stand, was die Nachbearbeitung ohne "
 "Rückfragen erleichtert."
 msgstr ""
+"Il software agricolo informa il responsabile dell'azienda che il lavoro di "
+"lavorazione del terreno è stato completato alle 14:35. In questo modo tutte "
+"le persone coinvolte sono sempre aggiornate, il che facilita il follow-up in "
+"caso di domande."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:116
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:383
 #, no-wrap
 msgid "Praxisbeispiel 8"
-msgstr ""
+msgstr "Esempio pratico 8"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:119
@@ -12286,12 +12337,17 @@ msgid ""
 "seine Arbeitszeit optimal nutzen. Zudem vermeidet das Ärger mit dem Inhaber "
 "der Nachbarfläche und steigert die Effizienz der Arbeit."
 msgstr ""
+"Il conducente riceve i confini esatti del campo e le corsie prima di "
+"iniziare il lavoro. Ciò consente di evitare sovrapposizioni con le aree "
+"vicine e di sfruttare al meglio il tempo di lavoro. In questo modo si "
+"evitano anche problemi con il proprietario del campo vicino e si aumenta "
+"l'efficienza del lavoro."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:122
 #, no-wrap
 msgid "Praxisbeispiel 9"
-msgstr ""
+msgstr "Esempio pratico 9"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:125
@@ -12307,12 +12363,17 @@ msgid ""
 "Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche "
 "Auftrag verloren gegangen und nicht bezahlt worden."
 msgstr ""
+"In ufficio, un dipendente ha dimenticato di inserire nel sistema un ordine "
+"spontaneo. Dopo il trasferimento dei dati telemetrici, si nota che un altro "
+"campo è stato elaborato. Ciò consente di includere il lavoro nel libro paga. "
+"Senza i dati di telemetria, il lavoro aggiuntivo sarebbe andato perso e non "
+"sarebbe stato pagato."
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:1
 #, no-wrap
 msgid "Düngung"
-msgstr ""
+msgstr "Concimazione"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:4
@@ -12324,19 +12385,24 @@ msgid ""
 "ausgebrachten Mengen. Dadurch werden Prozesse effizienter gestaltet, Fehler "
 "reduziert und die Rückverfolgung gewährleistet."
 msgstr ""
+"Questo capitolo spiega come l'agrirouter supporta la pianificazione e "
+"l'attuazione della concimazione organica e minerale. Consente il "
+"collegamento in rete di macchine e software agricoli e facilita il "
+"trasferimento delle mappe di applicazione e la documentazione delle quantità "
+"applicate. Ciò rende i processi più efficienti, riduce gli errori e "
+"garantisce la tracciabilità."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:6
 #, no-wrap
 msgid "Organische Düngung"
-msgstr ""
+msgstr "Concimazione organica"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:14
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag für ein Feld planen und an eine Maschine senden"
-msgstr "Inviare più schede a una macchina"
+msgstr "vorrei pianificare un lavoro per un campo e inviarlo a una macchina"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:17
@@ -12346,14 +12412,15 @@ msgstr "Inviare più schede a una macchina"
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:118
 #, no-wrap
 msgid "Als Betriebsleiter"
-msgstr ""
+msgstr "In qualità di responsabile dell’azienda"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:18
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
-msgstr "Inviare più schede a una macchina"
+msgstr ""
+"vorrei inviare a una macchina diversi lavori pianificati con corsie e "
+"quantità di dosaggio"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:20
@@ -12361,36 +12428,38 @@ msgstr "Inviare più schede a una macchina"
 #, no-wrap
 msgid "sodass auch weniger erfahrene Mitarbeiter fehlerfrei und effizient düngen können."
 msgstr ""
+"in modo che anche i dipendenti meno esperti possano concimare in modo "
+"efficiente e senza errori."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:22
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr "Inviare più mappe di prescrizione a una sola macchina"
+msgstr ""
+"vorrei inviare diverse mappe di applicazione con informazioni precise sul "
+"dosaggio a una o più macchine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:24
 #, no-wrap
 msgid "sodass die Ausbringung präzise und effizient erfolgt."
-msgstr ""
+msgstr "in modo che l'applicazione sia precisa ed efficiente."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:26
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:113
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:115
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:56
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten an mehrere Maschinen senden"
-msgstr "Inviare più mappe di prescrizione a una sola macchina"
+msgstr "desidero inviare diverse mappe di prescrizione a più macchine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:30
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:109
 #, no-wrap
 msgid "möchte ich vor Beginn die geplanten Fahrspuren erhalten"
-msgstr ""
+msgstr "desidero ricevere le corsie pianificate prima dell'inizio dell'attività"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:32
@@ -12398,19 +12467,22 @@ msgstr ""
 #, no-wrap
 msgid "sodass ich den Auftrag effizient abarbeiten kann, ohne selbst zunächst Fahrspuren aufnehmen zu müssen."
 msgstr ""
+"in modo da poter completare il lavoro in modo efficiente senza dover prima "
+"raccogliere le corsie."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:34
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:93
 #, no-wrap
 msgid "möchte ich Fahrspuren von Traktor A an Traktor B übermitteln"
-msgstr ""
+msgstr "vorrei trasmettere le tracce dal trattore A al trattore B"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:36
 #, no-wrap
 msgid "sodass nachfolgende Arbeiten auf denselben Spuren erfolgen können."
 msgstr ""
+"in modo che i lavori successivi possano essere eseguiti sugli stessi binari."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:38
@@ -12721,7 +12793,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:94
 #, no-wrap
 msgid "Strohernte"
-msgstr ""
+msgstr "Raccolta della paglia"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:102
@@ -12735,6 +12807,8 @@ msgstr "Inviare più schede a una macchina"
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Arbeit auf welchen Feldern durchgeführt werden soll."
 msgstr ""
+"in modo che l’operatore sappia esattamente quale lavoro deve essere eseguito "
+"in quali campi."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:106
