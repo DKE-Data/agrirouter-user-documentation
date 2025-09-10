@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-09-09 14:57+0000\n"
-"PO-Revision-Date: 2025-09-10 07:52+0000\n"
+"PO-Revision-Date: 2025-09-10 09:52+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Spanish <https://weblate.my-agrirouter.com/projects/"
 "agrirouter/user-manual/es/>\n"
@@ -2229,30 +2229,22 @@ msgstr ""
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:241
-#, fuzzy
-#| msgid ""
-#| "*_Letzer Austausch der Abonnements_*: Der letzte Tag, an dem "
-#| "Echtzeitdaten gesendet oder empfagen wurden.\n"
 msgid ""
 "*_Letzer Austausch der Abonnements_*: Der letzte Tag, an dem Echtzeitdaten "
 "gesendet oder empfagen wurden."
 msgstr ""
 "*_Último intercambio de suscripciones_*: El último día en que se remitieron "
-"o recibieron datos en tiempo real.\n"
+"o recibieron datos en tiempo real."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:242
-#, fuzzy
-#| msgid ""
-#| "*_Push Beachrichtigungen_* Gibt Auskunft darüber, ob Push-"
-#| "Benachrichtigungen zu diesem Endpunkt aktiviert oder deaktiviert sind.\n"
 msgid ""
 "*_Push Beachrichtigungen_* Gibt Auskunft darüber, ob Push-Benachrichtigungen "
 "zu diesem Endpunkt aktiviert oder deaktiviert sind."
 msgstr ""
 "*_Notificaciones push de playa_* Proporciona información sobre si las "
 "notificaciones push están activadas o desactivadas para este Punto de "
-"conexión.\n"
+"conexión."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:245
@@ -2299,16 +2291,12 @@ msgstr ""
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:255
-#, fuzzy
-#| msgid ""
-#| "*_Typ_*: Gibt Auskunft darüber, um welche Art von Endpunkt (Software, "
-#| "Telemetrieeinheit, Maschine, ...) es sich handelt.\n"
 msgid ""
 "*_Typ_*: Gibt Auskunft darüber, um welche Art von Endpunkt (Software, "
 "Telemetrieeinheit, Maschine, ...) es sich handelt."
 msgstr ""
-"*_Tipo_*: Proporciona información sobre qué tipo de Punto de conexión "
-"(software, unidad de telemetría, Máquina, ...) es.\n"
+"*_Tipo_*: Proporciona información sobre qué tipo de Punto de conexión ("
+"software, unidad de telemetría, Máquina, ...) es."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:256
@@ -6794,7 +6782,7 @@ msgstr ""
 #. type: #connect-internet
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:18
 msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr "Los datos de telemetría de la máquina se mostrarán ahora."
 
 #. type: #connect-internet
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:19
@@ -11496,10 +11484,8 @@ msgstr "xref:solution-guides/dacom.adoc[DACOM]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:21
-#, fuzzy
-#| msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgid "xref:solution-guides/farmpilot.adoc[farmpilot]"
-msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
+msgstr "xref:solution-guides/farmpilot.adoc[farmpilot]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:22
@@ -11777,7 +11763,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:122
 #, no-wrap
 msgid "Als Landwirt"
-msgstr ""
+msgstr "Como agricultor"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:17
@@ -12887,10 +12873,10 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:200
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich, dass die Telemetriedaten der Walzfahrzeuge auf dem Silo erfasst werden"
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr ""
+"Quiero que los datos de telemetría de los rodillos se registren en el silo"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:202
@@ -12902,10 +12888,11 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:204
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:208
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:212
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich die erfassten Ertragsmengen aus der Grasernte speichern"
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr ""
+"Quiero guardar las cantidades de rendimiento registradas de la cosecha de "
+"hierba"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:206
@@ -13057,10 +13044,11 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:310
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich, dass Telemetriedaten der Maisernte automatisch dokumentiert werden"
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr ""
+"Quiero guardar las cantidades de rendimiento registradas de la cosecha de "
+"maíz"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:312
@@ -13082,10 +13070,11 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:318
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich die erfassten Ertragsmengen aus der Maisernte speichern"
-msgstr "Ahora se mostrarán los datos de telemetría de la máquina."
+msgstr ""
+"Quiero guardar las cantidades de rendimiento registradas de la cosecha de "
+"maíz"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:320
@@ -13748,12 +13737,14 @@ msgstr "Crear un mapa de aplicación."
 #, no-wrap
 msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an eine Maschine senden"
 msgstr ""
+"Quiero enviar un mapa de aplicación combinado para semillas, fertilizantes y "
+"protección de cultivos a una máquina"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:73
 #, no-wrap
 msgid "sodass alle Maßnahmen in einem Arbeitsgang ausgeführt werden können."
-msgstr ""
+msgstr "de modo que todas las acciones puedan realizarse en una sola pasada."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:75
