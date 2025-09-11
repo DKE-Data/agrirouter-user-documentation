@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-09-09 14:57+0000\n"
-"PO-Revision-Date: 2025-09-10 10:28+0000\n"
-"Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
-"Language-Team: English <https://weblate.my-agrirouter.com/projects/"
-"agrirouter/user-manual/en/>\n"
+"PO-Revision-Date: 2025-09-11 16:40+0000\n"
+"Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
+"Language-Team: English <https://weblate.agrirouter.com/projects/agrirouter/"
+"user-manual/en/>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.13.2\n"
 
 #. type: Hash Value: site title
 #: de/antora.yml:1 de/antora-playbook.yml:1
@@ -479,30 +479,38 @@ msgstr "Data sharing"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:97
-#, fuzzy, no-wrap
-#| msgid "Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
+#, no-wrap
 msgid ""
 "Inzwischen weißt du: ohne Route kein Datenaustausch!\n"
 "Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
-msgstr "By now you know: no data exchange without a route! + For data exchange to work with a connected account, routes must be created in [.underline]#both# accounts:"
+msgstr ""
+"By now you know: no data exchange without a route!\n"
+"For data exchange to work with a connected account, routes must be created "
+"in [.underline]#both# accounts:"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:100
-#, fuzzy, no-wrap
-#| msgid "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
+#, no-wrap
 msgid ""
 "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet.\n"
 "Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
-msgstr "With outgoing routes in your account, you determine which of your endpoints sends data to the connected account. + In order for the data to reach the recipient, the owner of the other account must create incoming routes."
+msgstr ""
+"With outgoing routes in your account, you determine which of your endpoints "
+"sends data to the connected account.\n"
+"In order for the data to reach the recipient, the owner of the other account "
+"must create incoming routes."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:102
-#, fuzzy, no-wrap
-#| msgid "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
+#, no-wrap
 msgid ""
 "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen.\n"
 "Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
-msgstr "With inbound routes in your account, you determine which of your endpoints receive data from the connected account. + In order for you to receive data, the owner of the other account must create outgoing routes."
+msgstr ""
+"With inbound routes in your account, you determine which of your endpoints "
+"receive data from the connected account.\n"
+"In order for you to receive data, the owner of the other account must create "
+"outgoing routes."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
