@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-09-09 14:57+0000\n"
 "PO-Revision-Date: 2025-09-11 16:40+0000\n"
-"Last-Translator: Oliver Rahner <o.rahner@dke-data.com>\n"
+"Last-Translator: OpenAI <noreply-mt-openai@weblate.org>\n"
 "Language-Team: English <https://weblate.agrirouter.com/projects/agrirouter/"
 "user-manual/en/>\n"
 "Language: en\n"
@@ -995,14 +995,12 @@ msgstr "Enter your first and last name and your e-mail address."
 #: de/modules/ROOT/pages/account.adoc:65
 msgid ""
 "Bestätige die allgemeinen Geschäftsbedingungen (AGB) und löse das CAPTCHA."
-msgstr ""
+msgstr "Accept the Terms and Conditions (T&Cs) and complete the CAPTCHA."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:66
-#, fuzzy
-#| msgid "Klicke auf *_Weiter_*."
 msgid "Klicke auf *_Registrieren_*"
-msgstr "Click on *_Next_*."
+msgstr "Click on *_Register_*"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:71
@@ -1019,21 +1017,18 @@ msgid ""
 "Dir wurde eine E-Mail zugesandt. Folge den Anweisungen in der E-Mail, um "
 "dein Konto zu verifizieren."
 msgstr ""
+"An email has been sent to you. Follow the instructions in the email to "
+"verify your account."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:84
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#| "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit den Anweisungen nicht empfangen haben, schaue in "
 "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
 "dauern, bis die E-Mail bei dir ankommt."
 msgstr ""
-"If you do not receive the e-mail with the code, check your *_spam folder_*. "
-"Sometimes it can also take *_a few minutes_* for the e-mail to arrive."
+"If you did not receive the email with the instructions, check your *_Spam "
+"folder_*. Sometimes it may take a few minutes for the email to arrive."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:93
@@ -1063,17 +1058,13 @@ msgstr ""
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:112
-#, fuzzy
-#| msgid "Gib den *_Namen deines Betriebs_* bzw. deines Unternehmens ein."
 msgid "Gib den *_Namen deines Unternehmens_*, sowie eine *_Beschreibung_* an."
-msgstr "Enter the *_name of your business_* or company."
+msgstr "Enter the *_name of your company_*, as well as a *_description_*."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:113
-#, fuzzy
-#| msgid "Wähle eine *_Datei_* aus."
 msgid "Wähle dein *_Land_* aus."
-msgstr "Select a *_file_*."
+msgstr "Select your *_country_*."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:114
@@ -1101,38 +1092,30 @@ msgstr "Login"
 #: de/modules/ROOT/pages/account.adoc:128
 #, no-wrap
 msgid "Anmelden mit Login-Code"
-msgstr ""
+msgstr "Log on with login code"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account.adoc:139
-#, fuzzy
-#| msgid ""
-#| "Gib deine E-Mail-Adresse ein und klicke auf *_Weiter_*.  [.result]#Eine "
-#| "neue Seite wird geöffnet.#"
 msgid ""
 "Gib deine E-Mail-Adresse ein und klicke auf *_Login_*.  [.result]#Dir wird "
 "nun eine E-Mail mit einem Login-Code an deine E-Mail-Adresse gesendet.#"
 msgstr ""
-". Enter your e-mail address and click on *_Next_*.  [.result]#A new page "
-"will be opened.#"
+"Enter your email address and click on *_Login_*.  [.result]#An email with a "
+"login code will now be sent to your email address.#"
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:147
 msgid "Kopiere den Code aus der Mail und gib ihn in ein."
-msgstr ""
+msgstr "Copy the code from the email and enter it into one."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:149
-#, fuzzy
-#| msgid ""
-#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
-#| "_my agrirouter_ Seite.#"
 msgid ""
 "Klicke auf *_Anmelden_*.  [.result]#Du bist jetzt bei deinem agrirouter-"
 "Konto angemeldet.#"
 msgstr ""
-". Click on the *_Save_* button.  [.result]#You will be returned to the _my "
-"agrirouter_ page.#"
+"Click on *_Log on_*.  [.result]#You are now logged in to your agrirouter "
+"account.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:154
@@ -1181,7 +1164,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:167
 #, no-wrap
 msgid "Anmelden mit Passwort"
-msgstr ""
+msgstr "Log on with password"
 
 #. type: #login-with-pw
 #: de/modules/ROOT/pages/account.adoc:173
@@ -1190,6 +1173,9 @@ msgid ""
 "Passwort gesetzt hast. Die Nutzung eines Passworts ist optional und wird "
 "<<create-forgot-pw, hier>> beschrieben."
 msgstr ""
+"Logging in with a password is only possible if you have previously set a "
+"password. The use of a password is optional and is described <<create-forgot-"
+"pw, here>>."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account.adoc:180
@@ -1199,31 +1185,28 @@ msgid ""
 "Eingabefenster der E-Mail-Adresse befindet.  [.result]#Ein neues "
 "Anmeldefenster wird geöffnet.#"
 msgstr ""
+"Click on the phrase *_Prefer to log in with a password?_*, which is located "
+"under the input field for the email address.  [.result]#A new login window "
+"will open.#"
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:188
-#, fuzzy
-#| msgid "Gib deinen Aktivierungscode ein."
 msgid "Gib deine E-Mail-Adresse ein."
-msgstr "Enter your activation code."
+msgstr "Enter your email address."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:189
 msgid "Gib dein Passwort ein."
-msgstr ""
+msgstr "Enter your password."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:191
-#, fuzzy
-#| msgid ""
-#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
-#| "_my agrirouter_ Seite.#"
 msgid ""
 "Klicke auf *_Anmelden_* [.result]#Du bist jetzt bei deinem agrirouter-Konto "
 "angemeldet.#"
 msgstr ""
-". Click on the *_Save_* button.  [.result]#You will be returned to the _my "
-"agrirouter_ page.#"
+"Click on *_Log on_*.  [.result]#You are now logged in to your agrirouter "
+"account.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:194
@@ -1239,6 +1222,9 @@ msgid ""
 "Schritten ein Passwort setzen. Der Prozess ist der selbe, wie wenn du dein "
 "Passwort vergessen hast und ein neues Passwort generieren möchtest."
 msgstr ""
+"The standard login method is via login-code sign-in. If you prefer to log in "
+"with a password, you can set a password in a few simple steps. The process "
+"is the same as when you forget your password and want to generate a new one."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:215
@@ -1247,15 +1233,13 @@ msgid ""
 "Eingabefenster des Passworts befindet.  [.result]#Ein neues Fenster wird "
 "geöffnet.#"
 msgstr ""
+"Click on the sentence *_Change password / forgot_*, which is located above "
+"the password input field.  [.result]#A new window will open.#"
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:223
-#, fuzzy
-#| msgid ""
-#| "Gib die E-Mail deines agrirouter-Kontos ein und klicke auf *_Hinzufügen_*."
 msgid "Gib die E-Mail-Adresse deines agrirouter-Kontos ein."
-msgstr ""
-"Enter the e-mail address of your agrirouter account and click on *_Add_*."
+msgstr "Enter the email address of your agrirouter account."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:225
@@ -1263,50 +1247,39 @@ msgid ""
 "Klicke auf *_Absenden_*.  [.result]#Dir wird nun eine E-Mail mit einem Link "
 "geschickt, über den du dein (neues) Passwort setzen kannst.#"
 msgstr ""
+"[.result]#An email with a link will now be sent to you, through which you "
+"can set your (new) password.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:230
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#| "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit dem Link nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
 "die E-Mail bei dir ankommt."
 msgstr ""
-"If you do not receive the e-mail with the code, check your *_spam folder_*. "
-"Sometimes it can also take *_a few minutes_* for the e-mail to arrive."
+"If you did not receive the email with the link, check your *_Spam folder_*. "
+"Sometimes it may take *_a few minutes_* for the email to arrive."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:238
 msgid ""
 "Klicke auf den Link in der E-Mail, um dein (neues) Passwort setzen zu können."
-msgstr ""
+msgstr "Click the link in the email to set your (new) password."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:239
-#, fuzzy
-#| msgid ""
-#| "Wähle ein WLAN-Netzwerk aus, gebe das Passwort ein und bestätige deine "
-#| "Angabe."
 msgid ""
 "Gib dein (neues) Passwort ein und bestätige es durch eine weitere Eingabe."
-msgstr "Select a WLAN network, enter the password and confirm your entry."
+msgstr "Enter your (new) password and confirm it by entering it again."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:241
-#, fuzzy
-#| msgid ""
-#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
-#| "_my agrirouter_ Seite.#"
 msgid ""
 "Klicke auf *_Absenden_*.  [.result]#Du wirst nun in dein agrirouter-Konto "
 "eingeloggt.#"
 msgstr ""
-". Click on the *_Save_* button.  [.result]#You will be returned to the _my "
-"agrirouter_ page.#"
+"Klicke auf *_Absenden_*.  [.result]#You will now be logged into your "
+"agrirouter account.#"
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:249
@@ -1314,6 +1287,8 @@ msgid ""
 "Es kann sein, dass die hier gezeigte Meldung erscheint. Klicke in diesem "
 "Fall auf *_Sign in with Keycloak_*, um dich einzuloggen."
 msgstr ""
+"It may happen that the message shown here appears. If this occurs, click on *"
+"_Sign in with Keycloak_*, to log in."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:254
@@ -1506,10 +1481,9 @@ msgstr "View detailed information about your Endpoints."
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:15
 #: de/modules/ROOT/pages/introduction.adoc:32
-#, fuzzy, no-wrap
-#| msgid "My agrirouter Seite"
+#, no-wrap
 msgid "my agrirouter Seite"
-msgstr "My agrirouter page"
+msgstr "my agrirouter Seite"
 
 #. type: #my-agrirouter
 #: de/modules/ROOT/pages/endpoint.adoc:17
@@ -1840,12 +1814,14 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:110
-#, fuzzy, no-wrap
-#| msgid "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um den Code auszudrucken."
+#, no-wrap
 msgid ""
 "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
 "Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um den Code auszudrucken."
-msgstr "Click the icon *_copy_* image:endpoints/copy-button.png[copy, 30, 30] to copy the code to the clipboard. + Click the icon *_Print_* image:endpoints/print-button.png[print, 30, 30] to print the code."
+msgstr ""
+"Click the *_Copy_* icon image:endpoints/copy-button.png[Copy, 30, 30], to "
+"copy the code to the clipboard. Click the *_Print_* icon image:endpoints/"
+"print-button.png[Print, 30, 30], to print the code."
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:114
@@ -2188,16 +2164,12 @@ msgstr "image:endpoints/capabilities.png[Capabilities, 400, float=right]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:240
-#, fuzzy
-#| msgid ""
-#| "*_Letzter Austausch der Fähigkeiten_*: Der letzte Tag, an dem Daten "
-#| "gesendet oder empfangen wurden.\n"
 msgid ""
 "*_Letzter Austausch der Fähigkeiten_*: Der letzte Tag, an dem Daten gesendet "
 "oder empfangen wurden."
 msgstr ""
-"*_Last exchange of capabilities_*: The last day on which data was sent or "
-"received.\n"
+"*_Last exchange of capabilities_*: The last day on which data were sent or "
+"received."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:241
@@ -2269,50 +2241,32 @@ msgstr ""
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:256
-#, fuzzy
-#| msgid "*_Verbunden_*: Zeitpunkt, an dem der Endpunkt verbunden wurde.\n"
 msgid "*_Verbunden_*: Zeitpunkt, an dem der Endpunkt verbunden wurde."
-msgstr "*_Connected_*: Time at which the Endpoint was connected.\n"
+msgstr "*_Connected_*: Time at which the endpoint was connected."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:257
-#, fuzzy
-#| msgid "*_Software-Anbieter_*: Anbieter der zugehörigen Software.\n"
 msgid "*_Software-Anbieter_*: Anbieter der zugehörigen Software."
-msgstr "*_Software provider_*: Vendor of the associated software.\n"
+msgstr "*_Software vendor_*: Provider of the related software."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:258
-#, fuzzy
-#| msgid "*_Software-Endpunkt_*: -  \n"
 msgid "*_Software-Endpunkt_*: -"
-msgstr "*_Software endpoint_*: -  \n"
+msgstr "*_Software Endpoint_*: -"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:259
-#, fuzzy
-#| msgid ""
-#| "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines "
-#| "Endpunkts gibt.\n"
 msgid ""
 "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines Endpunkts "
 "gibt."
-msgstr ""
-"*_Version number_*: In the event that there are multiple versions of an "
-"Endpoint.\n"
+msgstr "*_Version number_*: In case there are multiple versions of an endpoint."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:260
-#, fuzzy
-#| msgid ""
-#| "*_Montiert auf_*: Gibt Auskunft darüber, auf welcher Maschine der "
-#| "Endpunkt montiert ist.\n"
 msgid ""
 "*_Montiert auf_*: Gibt Auskunft darüber, auf welcher Maschine der Endpunkt "
 "montiert ist."
-msgstr ""
-"*_Mounted on_*: Provides information about which machine the Endpoint is "
-"mounted on.\n"
+msgstr "*_Mounted on_*: Indicates on which machine the endpoint is mounted."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:262
@@ -2349,13 +2303,6 @@ msgstr ""
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:272
-#, fuzzy
-#| msgid ""
-#| "*_Von agrirouter verwaltete Routen_*: Wenn diese Option gewählt ist image:"
-#| "endpoints/active-routing-icon.png[Active Icon, 25], dann sind die "
-#| "Routeneinstellungen nach den Standardeinstellungen des agrirouters aktiv. "
-#| "Die Routeneinstellungen können auch xref:routing.adoc#edit-"
-#| "connection[manuell angepasst] werden.\n"
 msgid ""
 "*_Von agrirouter verwaltete Routen_*: Wenn diese Option gewählt ist image:"
 "endpoints/active-routing-icon.png[Active Icon, 25], dann sind die "
@@ -2363,43 +2310,31 @@ msgid ""
 "Die Routeneinstellungen können auch xref:routing.adoc#edit-"
 "connection[manuell angepasst] werden."
 msgstr ""
-"*_Routes administered by agrirouter_*: If this option is selected image:"
-"endpoints/active-routing-icon.png[Active Icon, 25], then the route settings "
-"are active according to the default settings of the agrirouter. The route "
-"settings can also be xref:routing.adoc#edit-connection[manually adjusted].\n"
+"*_agrirouter-managed routes_*: If this option is selected, image:endpoints/"
+"active-routing-icon.png[Active Icon, 25], then the routing settings follow "
+"the agrirouter's default settings. The routing settings can also be manually "
+"adjusted."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:273
-#, fuzzy
-#| msgid ""
-#| "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
-#| "gesendet wurden.\n"
 msgid ""
 "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "gesendet wurden."
-msgstr "*_Last message sent_*: Time at which data was last sent.\n"
+msgstr "*_Last sent message_*: Time at which data were last sent."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:274
-#, fuzzy
-#| msgid ""
-#| "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
-#| "empfangen wurden.\n"
 msgid ""
 "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "empfangen wurden."
-msgstr "*_Last received message_*: Time at which data was last received.\n"
+msgstr "*_Last received message_*: Time at which data were last received."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:275
-#, fuzzy
-#| msgid ""
-#| "*_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell "
-#| "vorliegen.\n"
 msgid ""
 "*_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell vorliegen."
 msgstr ""
-"*_Current messages_*: Indicates how many messages are currently available.\n"
+"*_Current messages_*: Indicates how many messages are currently available."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:278
@@ -2499,49 +2434,29 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:19
-#, fuzzy
-#| msgid ""
-#| "*Konto:* Zur Nutzung des agrirouter benötigst du ein Benutzerkonto:\n"
-#| "[.result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account."
-#| "adoc[Konto] beschrieben.#\n"
 msgid ""
 "*Konto:* Zur Nutzung des agrirouter benötigst du ein Benutzerkonto: [."
 "result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account."
 "adoc[Konto] beschrieben.#"
 msgstr ""
-"*Account:* You need a user account to use the agrirouter:\n"
-"[.result]#Create and administer your account as described in the chapter "
-"xref:account.adoc[account].#\n"
+"*Account:* To use the agrirouter you need a user account: [.result]#Create "
+"and manage your account, as described in the chapter xref:account.adoc[Konto]"
+"#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:22
-#, fuzzy
-#| msgid ""
-#| "*My agrirouter:* Wenn du dich am agrirouter anmeldest, wird deine "
-#| "persönliche Startseite, die <<myagrirouter, my agrirouter>> Seite, "
-#| "angezeigt:\n"
-#| "[.result]#Über die *my agrirouter* Seite hast du Zugriff auf alle "
-#| "Funktionen des agrirouters.#\n"
 msgid ""
 "*My agrirouter:* Wenn du dich am agrirouter anmeldest, wird deine "
 "persönliche Startseite, die <<myagrirouter, my agrirouter>> Seite, "
 "angezeigt: [.result]#Über die *my agrirouter* Seite hast du Zugriff auf alle "
 "Funktionen des agrirouters.#"
 msgstr ""
-"*My agrirouter:* When you log on to the agrirouter, your personal start "
-"page, the <<myagrirouter, my agrirouter>> page, is displayed:\n"
-"[.result]#Using the *my agrirouter* page, you have access to all the "
-"functions of the agrirouter.#\n"
+"*My agrirouter:* When you sign in to the agrirouter, your personal homepage, "
+"the <<myagrirouter, my agrirouter>> page, is displayed: [.result]#On the *my "
+"agrirouter* page you have access to all functions of the agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:25
-#, fuzzy
-#| msgid ""
-#| "*Endpunkte:* Maschinen und Agrarsoftware können Daten austauschen, wenn "
-#| "du sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.\n"
-#| "[.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint."
-#| "adoc#connect-machine[Maschine verbinden] und xref:endpoint.adoc#connect-"
-#| "software[Agrarsoftware verbinden] beschrieben.#\n"
 msgid ""
 "*Endpunkte:* Maschinen und Agrarsoftware können Daten austauschen, wenn du "
 "sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.  [.result]#Füge "
@@ -2550,23 +2465,19 @@ msgid ""
 "software[Agrarsoftware verbinden] beschrieben.#"
 msgstr ""
 "*Endpoints:* Machines and agricultural software can exchange data if you add "
-"them to the agrirouter as <<endpoint,endpoints>>.\n"
-"[.result]#Add Endpoints as described in the chapters xref:endpoint."
-"adoc#connect-machine[Connect machine] and xref:endpoint.adoc#connect-"
-"software[Connect agricultural software].#\n"
+"them to the agrirouter as <<Endpoint,Endpoints>>.  [.result]#Add endpoints "
+"as described in the chapters xref:endpoint.adoc#connect-machine"
+"[Connect machine] and xref:endpoint.adoc#connect-software"
+"[Connect agricultural software].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:27
-#, fuzzy
-#| msgid ""
-#| "*Routen:* Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt "
-#| "sendet und/oder empfängt.\n"
 msgid ""
 "*Routen:* Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt "
 "sendet und/oder empfängt."
 msgstr ""
-"*Routes:* With <<Route,Routes>> you define which data an Endpoint sends and/"
-"or receives.\n"
+"*Routes:* With <<Route,Routes>> you specify which data an endpoint sends and/"
+"or receives."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/introduction.adoc:28
@@ -3334,62 +3245,42 @@ msgstr "Select one of the three options displayed:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:69
-#, fuzzy
-#| msgid ""
-#| "*_report an agrirouter incident_*: Wenn du einen Vorfall (Fehler, Login-"
-#| "Probleme etc.) mit deinem agrirouter Konto hast.\n"
 msgid ""
 "*_report an agrirouter incident_*: Wenn du einen Vorfall (Fehler, Login-"
 "Probleme etc.) mit deinem agrirouter Konto hast."
 msgstr ""
-"*_report to agrirouter incident_*: If you have an incident (error, login "
+"*_Report an agrirouter incident_*: If you have an incident (error, login "
 "problems etc.) with your agrirouter account.\n"
+"==WEBLATE_PART=="
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:70
-#, fuzzy
-#| msgid ""
-#| "*_agrirouter general reuquest_*: Wenn du weitere Fragen hast oder "
-#| "zusätzliche Informationen zur agrirouter-Integration und -Partnerschaft "
-#| "benötigst oder eine Idee für ein neues Feature hast.\n"
 msgid ""
 "*_agrirouter general reuquest_*: Wenn du weitere Fragen hast oder "
 "zusätzliche Informationen zur agrirouter-Integration und -Partnerschaft "
 "benötigst oder eine Idee für ein neues Feature hast."
 msgstr ""
-"*_agrirouter general reuquest_*: If you have further questions or need "
+"*_agrirouter general reuquest_*: If you have any further questions or need "
 "additional information about the agrirouter integration and partnership or "
-"have an idea for a new feature.\n"
+"if you have an idea for a new feature."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:72
-#, fuzzy
-#| msgid ""
-#| "*_membership inquiries_*: Wenn du Fragen zu deiner Mitgliedschaft im "
-#| "agrirouter Ecosystem, insbesondere im Verein DKE-Data agrirouter e.V. "
-#| "hast.\n"
-#| "[.result]#Ein Formular wird geöffnet.#\n"
 msgid ""
 "*_membership inquiries_*: Wenn du Fragen zu deiner Mitgliedschaft im "
 "agrirouter Ecosystem, insbesondere im Verein DKE-Data agrirouter e.V. hast.  "
 "[.result]#Ein Formular wird geöffnet.#"
 msgstr ""
 "*_membership inquiries_*: If you have questions about your membership in the "
-"agrirouter ecosystem, especially in the DKE-Data agrirouter e.V. "
-"association.\n"
-"[.result]#A form will be opened.#\n"
+"agrirouter ecosystem, particularly in the association DKE-Data agrirouter "
+"e.V. [.result]#A form will be opened.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:73
-#, fuzzy
-#| msgid ""
-#| "Fülle das Formular mit allen relevanten Informationen aus und klicke auf "
-#| "*_Senden_*.\n"
 msgid ""
 "Fülle das Formular mit allen relevanten Informationen aus und klicke auf "
 "*_Senden_*."
-msgstr ""
-"Fill out the form with all relevant information and click on *_Send_*.\n"
+msgstr "Fill out the form with all relevant information and click on *_Send_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:76
@@ -6402,19 +6293,13 @@ msgstr "farmpilot Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen "
-#| "allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden "
-#| "in diesem Abschnitt behandelt:"
 msgid ""
 "Mit farmpilot kannst du Daten vom agrirouter empfangen. Dazu müssen "
 "allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in "
 "diesem Abschnitt behandelt:"
 msgstr ""
-"With FARMPILOT you can receive data from the agrirouter. However, some "
-"precautions must be taken to do this. The following points are covered in "
-"this section:"
+"With farmpilot you can receive data from the agrirouter. However, some "
+"precautions must be taken. The following points are covered in this section:"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:8
@@ -6425,42 +6310,29 @@ msgstr "Insight into the machine data"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:13
-#, fuzzy
-#| msgid ""
-#| "Um Daten von deinem Terminal über den agrirouter drahtlos an FAMRPILOT "
-#| "senden zu können, muss zuerst eine Verbindung zwischen deinem FARMPILOT-"
-#| "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert "
-#| "in wenigen, einfachen Schritten."
 msgid ""
 "Um Daten von deinem Terminal über den agrirouter drahtlos an farmpilot "
 "senden zu können, muss zuerst eine Verbindung zwischen deinem farmpilot-"
 "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
 "wenigen, einfachen Schritten."
 msgstr ""
-"To be able to send data wirelessly from your terminal to FAMRPILOT via the "
-"agrirouter, a connection must first be established between your FARMPILOT "
-"account and your agrirouter account. This is done in a few simple steps."
+"To be able to send data from your terminal via the agrirouter wirelessly to "
+"farmpilot, a connection between your farmpilot account and your agrirouter "
+"account must first be established. This works in a few simple steps."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:15
-#, fuzzy
-#| msgid ""
-#| "Bevor du anfangen kannst, musst du dich über die link:https://portal."
-#| "farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto "
-#| "einloggen."
 msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://portal."
 "farmpilot.de/[farmpilot-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
-"Before you can start, you must log in to your account via the link:https://"
-"portal.farmpilot.de/[FARMPILOT website, window=\"_blank\"]."
+"Before you can begin, you must log in to your account via the link: https://"
+"portal.farmpilot.de/[farmpilot-Website, window=\"_blank\"]"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:19
-#, fuzzy
-#| msgid "Klicke im FARMPILOT Portal auf *_Verwaltung_*."
 msgid "Klicke im farmpilot Portal auf *_Verwaltung_*."
-msgstr "Click on *_Administration_* in the FARMPILOT portal."
+msgstr "In the farmpilot portal, click on *_Administration_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:20
@@ -6479,25 +6351,18 @@ msgstr "Click on *Connect to agrirouter*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:37
-#, fuzzy
-#| msgid ""
-#| "In deinem FARMPILOT-Konto ist nun eine neue Partnerverknüpfung angelegt."
 msgid ""
 "In deinem farmpilot-Konto ist nun eine neue Partnerverknüpfung angelegt."
-msgstr "A new partner link has now been created in your FARMPILOT account."
+msgstr "A new partner linkage has now been created in your farmpilot account."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:42
-#, fuzzy
-#| msgid ""
-#| "Damit du alle Vorzüge von agrirouter und FARMPILOT optimal nutzen kannst, "
-#| "ist es essenziell die Maschinenverknüpfung in FARMPILOT einzurichten."
 msgid ""
 "Damit du alle Vorzüge von agrirouter und farmpilot optimal nutzen kannst, "
 "ist es essenziell die Maschinenverknüpfung in farmpilot einzurichten."
 msgstr ""
-"To make the most of all the benefits of agrirouter and FARMPILOT, it is "
-"essential to set up the machine link in FARMPILOT."
+"To fully take advantage of agrirouter and farmpilot, it is essential to set "
+"up the machine pairing in farmpilot."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:46
@@ -6514,13 +6379,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:49
-#, fuzzy
-#| msgid ""
-#| "Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter "
-#| "eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen "
-#| "werden. Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf "
-#| "der Maschine, welches FARMPILOT installiert hat, mit der Referenzmaschine "
-#| "verknüpft werden."
 msgid ""
 "Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter "
 "eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen werden. "
@@ -6528,10 +6386,10 @@ msgid ""
 "Maschine, welches farmpilot installiert hat, mit der Referenzmaschine "
 "verknüpft werden."
 msgstr ""
-"The telemetry box is automatically set up as the Terminal agrirouter vehicle "
-"type. No further settings need to be made here. Next, the terminal device, "
-"such as the tablet on the machine that has FARMPILOT installed, must be "
-"linked to the reference machine."
+"The telemetry box is automatically configured as vehicle type Terminal "
+"agrirouter. No further settings are required here. Next, the device, such as "
+"the tablet on the machine that has farmpilot installed, must be linked to "
+"the reference machine."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:53
@@ -6574,50 +6432,38 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:62
 msgid "Und so geht's:"
-msgstr ""
+msgstr "And here's how it works:"
 
 #. type: .left
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:69
-#, fuzzy
-#| msgid "Klicke in der Seitenleiste links auf *_Applikationskarten_*."
 msgid "Klicke in der Leiste links auf *_Auswertung_*."
-msgstr "Click on *_Application cards_* in the sidebar on the left."
+msgstr "Click on *_Analytics_* in the left-hand bar."
 
 #. type: .left
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:70
-#, fuzzy
-#| msgid "Wähle dann *_Externe Daten_*."
 msgid "Wähle dann *_Aufträge_*."
-msgstr "Then select *_External data_*."
+msgstr "Then select *_Orders_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:75
-#, fuzzy
-#| msgid ""
-#| "Die Ansicht in der Auswertung am Beispiel des Autologgings einer Maschine "
-#| "könnte so aussehen:"
 msgid ""
 "Öffne unter dem Reiter *_Autologgin_* die Maschinendaten.  Die Ansicht in "
 "der Auswertung am Beispiel des Autologgings einer Maschine könnte so "
 "aussehen:"
 msgstr ""
-"The view in the evaluation using the example of the autologging of a machine "
-"could look like this:"
+"Open under the tab *_Autologin_* the machine data. The view in Analytics, "
+"using the Autologging of a machine as an example, could look like this:"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:83
-#, fuzzy
-#| msgid ""
-#| "Solltest du weitere Fragen bezüglich agrirouter und FARMPILOT haben, "
-#| "wende dich bitte an das FARMPILOT-Team unter team@farmpilot.de oder "
-#| "telefonisch unter +49(0)5241/80-40753."
 msgid ""
 "Solltest du weitere Fragen bezüglich agrirouter und farmpilot haben, wende "
 "dich bitte an das farmpilot-Team unter team@farmpilot.de oder telefonisch "
 "unter +49(0)5241/80-40753."
 msgstr ""
-"If you have any further questions about agrirouter and FARMPILOT, please "
-"contact the FARMPILOT team at team@farmpilot.de or call +49(0)5241/80-40753."
+"If you have any further questions about agrirouter and farmpilot, please "
+"contact the farmpilot team at team@farmpilot.de or by phone at +49(0)5241/"
+"80-40753."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:1
@@ -6800,10 +6646,8 @@ msgstr "Connection via KRONE SmartConnect Solar"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:12
-#, fuzzy
-#| msgid "Verbindung über KRONE SmartConnect 300/500"
 msgid "Verbindung über KRONE SmartConnect 500"
-msgstr "Connection via KRONE SmartConnect 300/500"
+msgstr "Pairing via KRONE SmartConnect 500"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:13
@@ -6840,22 +6684,16 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:23
-#, fuzzy
-#| msgid ""
-#| "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
-#| "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
-#| "freigeschaltet. Wähle hierzu unter *_Services_* die Option *_Smart "
-#| "Telematics_* aus und folge dem Prozess."
 msgid ""
 "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
 "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
 "freigeschaltet. Wähle hierzu unter *Services_* die Option *_Smart "
 "Telematics_* aus und folge dem Prozess."
 msgstr ""
-"The Smart Telematics service is not yet activated in a newly created link:"
-"https://mykrone.green/[mykrone.green account, window=\"_blank\"]. To do "
-"this, select the option *_Smart Telematics_* under *_Services_* and follow "
-"the process."
+"In a newly created link: https://mykrone.green/"
+"[mykrone.green account, window=\"_blank\"] the Smart Telematics Service is "
+"not yet activated. Choose under *Services* the option *_Smart Telematics_* "
+"and follow the process."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:32
@@ -6963,6 +6801,10 @@ msgid ""
 "Solar einer Maschine aus deinem Bestand zugeordnet. Diese Maschine erscheint "
 "dann in den Systemen, die am agrirouter angeschlossen sind."
 msgstr ""
+"==WEBLATE_PART==\n"
+"By clicking on *_Link machine_*, the KRONE SmartConnect Solar of a machine "
+"from your inventory is assigned. This machine will then appear in the "
+"systems connected to the agrirouter."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:97
@@ -6977,29 +6819,22 @@ msgstr ""
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:99
-#, fuzzy, no-wrap
-#| msgid "Verbindung über Krone SmartConnect 300/500"
+#, no-wrap
 msgid "Verbindung über Krone SmartConnect 500"
-msgstr "Connection via Krone SmartConnect 300/500"
+msgstr "Pairing via Krone SmartConnect 500"
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:102
-#, fuzzy
-#| msgid ""
-#| "Die integrierten Telemetrieeinheiten Krone SmartConnect 300 und 500 von "
-#| "KRONE vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind "
-#| "mit dem BUS-System verbunden und erfassen Daten in Echtzeit. Diese Daten "
-#| "werden an KRONE Smart Telematics und den agrirouter gesendet."
 msgid ""
 "Die integrierten Telemetrieeinheiten Krone SmartConnect 500 von KRONE "
 "vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind mit dem BUS-"
 "System verbunden und erfassen Daten in Echtzeit. Diese Daten werden an KRONE "
 "Smart Telematics und den agrirouter gesendet."
 msgstr ""
-"The integrated Krone SmartConnect 300 and 500 telemetry units from KRONE "
-"digitally network your agricultural machinery. They are connected to the BUS "
-"system and collect data in real time. This data is sent to KRONE Smart "
-"Telematics and the agrirouter."
+"The integrated Krone SmartConnect 500 telemetry units from KRONE digitally "
+"network your agricultural machines. They are connected to the BUS system and "
+"collect data in real time. This data is sent to KRONE Smart Telematics and "
+"the agrirouter."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:104
@@ -7049,16 +6884,12 @@ msgstr "Enter your agrirouter registration code and click on *_SAVE_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:119
-#, fuzzy
-#| msgid ""
-#| "Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect "
-#| "300/500 sendet nun durchgehend alle gesammelten Daten an den agrirouter."
 msgid ""
 "Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect 500 "
 "sendet nun durchgehend alle gesammelten Daten an den agrirouter."
 msgstr ""
-"Done, your machine with the Krone SmartConnect 300/500 telemetry unit now "
-"continuously sends all collected data to the agrirouter."
+"Done, your machine with the Krone SmartConnect 500 telemetry unit is now "
+"continuously sending all collected data to the agrirouter."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:120
@@ -11611,17 +11442,17 @@ msgstr "so that the work is carried out precisely along the planned tracks."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:25
-#, fuzzy, no-wrap
-#| msgid "möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)"
+#, no-wrap
 msgid "möchte ich eine Fahrspurplanung an mehrere Maschinen senden (z. B. für Control Traffic Farming, autonomes Fahren)"
-msgstr "I want to send a lane plan to a machine (e.g. for control traffic farming, autonomous driving)"
+msgstr ""
+"I want to send a driving lane plan to multiple machines (e.g., for Control "
+"Traffic Farming, autonomous driving)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:27
-#, fuzzy, no-wrap
-#| msgid "sodass mehrere Maschinen dieselbe Planung eines Feldes nutzen können."
+#, no-wrap
 msgid "sodass alle Maschinen eine einheitliche Basis nutzen können."
-msgstr "so that several machines can use the same planning of a field."
+msgstr "so that all machines can use a common baseline."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:29
@@ -12131,10 +11962,9 @@ msgstr "Organic Fertilizing"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:14
-#, fuzzy, no-wrap
-#| msgid "möchte ich einen Auftrag für ein Feld planen und an die Maschine senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag für ein Feld planen und an eine Maschine senden"
-msgstr "I want to plan a task for a field and send it to the machine"
+msgstr "I want to plan a field task and send it to a machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:17
@@ -12148,10 +11978,11 @@ msgstr "As operations manager"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:18
-#, fuzzy, no-wrap
-#| msgid "möchte ich geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
-msgstr "I want to send planned tasks with guidance lines and dosing quantities to a machine"
+msgstr ""
+"I want to send several planned orders with driving lanes and application "
+"rates to a machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:20
@@ -12162,10 +11993,11 @@ msgstr "so that even less experienced employees can fertilise efficiently and wi
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:22
-#, fuzzy, no-wrap
-#| msgid "möchte ich Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr "I want to send application maps with exact dosing information to one or more machines"
+msgstr ""
+"I want to send several application maps with exact dosage specifications to "
+"one or more machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:24
@@ -13179,41 +13011,39 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:17
-#, fuzzy, no-wrap
-#| msgid "möchte ich einen Auftrag für ein Feld planen und an die Maschine senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr "I want to plan a task for a field and send it to the machine"
+msgstr "I want to plan a field task and send it to multiple machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:19
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:27
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:21
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:109
-#, fuzzy, no-wrap
-#| msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
+#, no-wrap
 msgid "sodass meine Mitarbeiter genau wissen, welche Arbeit wo durchgeführt werden soll."
-msgstr "so that my employee knows exactly what work needs to be done and where."
+msgstr "so that my staff know exactly where the work should be carried out."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:21
-#, fuzzy, no-wrap
-#| msgid "möchte ich einen Auftrag für ein Feld planen und an die Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an die Maschine senden"
-msgstr "I want to plan a task for a field and send it to the machine"
+msgstr ""
+"I want to plan several tasks for several fields and send them to the machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:23
-#, fuzzy, no-wrap
-#| msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
+#, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeiten wo durchgeführt werden sollen."
-msgstr "so that my employee knows exactly what work needs to be done and where."
+msgstr "so that my employee knows exactly where the work should be carried out."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:25
-#, fuzzy, no-wrap
-#| msgid "möchte ich einen Auftrag für ein Feld planen und an die Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an mehrere Maschinen senden"
-msgstr "I want to plan a task for a field and send it to the machine"
+msgstr ""
+"I want to plan several tasks for several fields and send them to multiple "
+"machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:29
@@ -13363,10 +13193,11 @@ msgstr "I want to plan a mechanical crop protection task for a field and send it
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:19
-#, fuzzy, no-wrap
-#| msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden"
+#, no-wrap
 msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr "I want to plan a mechanical crop protection task for a field and send it to the machine"
+msgstr ""
+"I want to plan a mechanical plant protection task for a field and send it to "
+"several machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:25
@@ -13517,45 +13348,43 @@ msgstr "so that plant protection can be carried out specifically and efficiently
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:103
-#, fuzzy, no-wrap
-#| msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden"
+#, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an eine Maschine senden"
-msgstr "I want to plan a mechanical crop protection task for a field and send it to the machine"
+msgstr ""
+"I want to plan a chemical plant protection task for a field and send it to a "
+"machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:105
-#, fuzzy, no-wrap
-#| msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
+#, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeiten wo durchgeführt werden soll."
-msgstr "so that my employee knows exactly what work needs to be done and where."
+msgstr "so that my employee knows exactly where the work should be carried out."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:107
-#, fuzzy, no-wrap
-#| msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden"
+#, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr "I want to plan a mechanical crop protection task for a field and send it to the machine"
+msgstr ""
+"I want to plan a chemical plant protection task for a field and send it to "
+"multiple machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:111
-#, fuzzy, no-wrap
-#| msgid "möchte ich mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten an eine Maschinen senden"
-msgstr "I want to send several prescription maps to one machine"
+msgstr "I want to send several application maps to a machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:113
-#, fuzzy, no-wrap
-#| msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
+#, no-wrap
 msgid "sodass mein Mitarbeiter punktuell Spotspraying durchführen kann."
-msgstr "so that my employee knows exactly what work needs to be done and where."
+msgstr "so that my employee can perform spot spraying at targeted locations."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:117
-#, fuzzy, no-wrap
-#| msgid "sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können."
+#, no-wrap
 msgid "sodass mehrere Maschinen gleichzeitig punktuell Spotspraying durchführen können."
-msgstr "so that several machines can use the same specifications at the same time."
+msgstr "so that multiple machines can perform spot spraying simultaneously."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:119
