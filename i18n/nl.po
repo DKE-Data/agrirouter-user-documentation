@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-09-09 14:57+0000\n"
-"PO-Revision-Date: 2025-09-10 10:28+0000\n"
-"Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
-"Language-Team: Dutch <https://weblate.my-agrirouter.com/projects/agrirouter/"
+"PO-Revision-Date: 2025-12-01 05:24+0000\n"
+"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"Language-Team: Dutch <https://weblate.agrirouter.com/projects/agrirouter/"
 "user-manual/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.13.2\n"
 
 #. type: Hash Value: site title
 #: de/antora.yml:1 de/antora-playbook.yml:1
@@ -486,30 +486,38 @@ msgstr "Uitwisseling van gegevens"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:97
-#, fuzzy, no-wrap
-#| msgid "Inzwischen weißt du: ohne Route kein Datenaustausch! + Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
+#, no-wrap
 msgid ""
 "Inzwischen weißt du: ohne Route kein Datenaustausch!\n"
 "Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
-msgstr "Inmiddels weet je: geen gegevensuitwisseling zonder route! + Om gegevensuitwisseling te laten werken met een verbonden account, moeten routes worden aangemaakt in [.underline]#beide# accounts:"
+msgstr ""
+"Je weet inmiddels: geen gegevensuitwisseling zonder route!\n"
+"Om gegevensuitwisseling te laten werken met een verbonden account, moeten "
+"routes worden aangemaakt in [.underline]#beide# accounts:"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:100
-#, fuzzy, no-wrap
-#| msgid "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet. + Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
+#, no-wrap
 msgid ""
 "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet.\n"
 "Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
-msgstr "Met uitgaande routes in uw account bepaalt u welk van uw eindpunten gegevens verstuurt naar de verbonden account. + Om de gegevens bij de ontvanger te krijgen, moet de eigenaar van de andere account inkomende routes maken."
+msgstr ""
+"Met uitgaande routes in uw account bepaalt u welk van uw eindpunten gegevens "
+"verstuurt naar de verbonden account.\n"
+"Om de gegevens bij de ontvanger te krijgen, moet de eigenaar van het andere "
+"account inkomende routes maken."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:102
-#, fuzzy, no-wrap
-#| msgid "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen. + Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
+#, no-wrap
 msgid ""
 "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen.\n"
 "Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
-msgstr "Met inkomende routes in uw account bepaalt u welke van uw eindpunten gegevens ontvangen van de verbonden account. + Om u gegevens te laten ontvangen, moet de eigenaar van de andere account uitgaande routes aanmaken."
+msgstr ""
+"Met inkomende routes in uw account bepaalt u welke van uw eindpunten "
+"gegevens ontvangen van de verbonden account.\n"
+"Om u gegevens te laten ontvangen, moet de eigenaar van de andere account "
+"uitgaande routes aanmaken."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
@@ -986,20 +994,18 @@ msgstr ""
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:64
 msgid "Gib deine E-Mail Adresse, deinen Namen und deinen Nachnamen ein."
-msgstr ""
+msgstr "Voer je e-mailadres, je naam en achternaam in."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:65
 msgid ""
 "Bestätige die allgemeinen Geschäftsbedingungen (AGB) und löse das CAPTCHA."
-msgstr ""
+msgstr "Bevestig de Algemene voorwaarden (AV) en los de CAPTCHA op."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:66
-#, fuzzy
-#| msgid "Klicke auf *_Weiter_*."
 msgid "Klicke auf *_Registrieren_*"
-msgstr "Klik op *_Volgende_*."
+msgstr "Klik op *_registreren_*"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:71
@@ -1016,21 +1022,19 @@ msgid ""
 "Dir wurde eine E-Mail zugesandt. Folge den Anweisungen in der E-Mail, um "
 "dein Konto zu verifizieren."
 msgstr ""
+"Er is een e-mail naar u verzonden. Volg de instructies in de e-mail om je "
+"account te verifiëren."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:84
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#| "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit den Anweisungen nicht empfangen haben, schaue in "
 "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
 "dauern, bis die E-Mail bei dir ankommt."
 msgstr ""
-"Als je de e-mail met de code niet hebt ontvangen, controleer dan je *_spam "
-"map_*. Soms kan het *_een paar minuten_* duren voordat de e-mail aankomt."
+"Als je de e-mail met de instructies niet hebt ontvangen, controleer dan je *"
+"_spam map_*. Soms kan het *_een paar minuten_* duren voordat de e-mail "
+"aankomt."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:93
@@ -1062,17 +1066,13 @@ msgstr ""
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:112
-#, fuzzy
-#| msgid "Gib den *_Namen deines Betriebs_* bzw. deines Unternehmens ein."
 msgid "Gib den *_Namen deines Unternehmens_*, sowie eine *_Beschreibung_* an."
-msgstr "Voer de *_naam van uw bedrijf_* of firma in."
+msgstr "Voer de *_naam van je bedrijf_* en een *_omschrijving_* in."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:113
-#, fuzzy
-#| msgid "Wähle eine *_Datei_* aus."
 msgid "Wähle dein *_Land_* aus."
-msgstr "Selecteer een *_bestand_*."
+msgstr "Selecteer je *_land_*."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:114
@@ -1100,38 +1100,29 @@ msgstr "Inloggen"
 #: de/modules/ROOT/pages/account.adoc:128
 #, no-wrap
 msgid "Anmelden mit Login-Code"
-msgstr ""
+msgstr "Inloggen met inlogcode"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account.adoc:139
-#, fuzzy
-#| msgid ""
-#| "Gib deine E-Mail-Adresse ein und klicke auf *_Weiter_*.  [.result]#Eine "
-#| "neue Seite wird geöffnet.#"
 msgid ""
 "Gib deine E-Mail-Adresse ein und klicke auf *_Login_*.  [.result]#Dir wird "
 "nun eine E-Mail mit einem Login-Code an deine E-Mail-Adresse gesendet.#"
 msgstr ""
-". Voer je e-mailadres in en klik op *_Volgende_*.  [.result]#Een nieuwe "
-"pagina wordt geopend.#"
+"Voer je e-mailadres in en klik op *_Login_*.  [Resultaat]#U ontvangt nu een "
+"e-mail met een inlogcode op uw e-mailadres."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:147
 msgid "Kopiere den Code aus der Mail und gib ihn in ein."
-msgstr ""
+msgstr "Kopieer de code uit de e-mail en voer deze in."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:149
-#, fuzzy
-#| msgid ""
-#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
-#| "_my agrirouter_ Seite.#"
 msgid ""
 "Klicke auf *_Anmelden_*.  [.result]#Du bist jetzt bei deinem agrirouter-"
 "Konto angemeldet.#"
 msgstr ""
-". Klik op de knop *_Opslaan_*.  [.result]#U keert terug naar de _mijn "
-"agrirouter_ pagina.#"
+"Klik op *_Login_*.  [Resultaat]#U bent nu ingelogd op uw agrirouter account."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:154
@@ -1183,7 +1174,7 @@ msgstr ""
 #: de/modules/ROOT/pages/account.adoc:167
 #, no-wrap
 msgid "Anmelden mit Passwort"
-msgstr ""
+msgstr "Inloggen met wachtwoord"
 
 #. type: #login-with-pw
 #: de/modules/ROOT/pages/account.adoc:173
@@ -1192,6 +1183,9 @@ msgid ""
 "Passwort gesetzt hast. Die Nutzung eines Passworts ist optional und wird "
 "<<create-forgot-pw, hier>> beschrieben."
 msgstr ""
+"Inloggen met een wachtwoord is alleen mogelijk als je al een wachtwoord hebt "
+"ingesteld. Het gebruik van een wachtwoord is optioneel en wordt beschreven "
+"<<create-forgot-pw, here>>."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account.adoc:180
@@ -1201,31 +1195,27 @@ msgid ""
 "Eingabefenster der E-Mail-Adresse befindet.  [.result]#Ein neues "
 "Anmeldefenster wird geöffnet.#"
 msgstr ""
+"Klik op de zin *Log in met wachtwoord?_*, die zich onder het invoervenster "
+"voor het e-mailadres bevindt.  [Resultaat]#Een nieuw inlogvenster wordt "
+"geopend."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:188
-#, fuzzy
-#| msgid "Gib deinen Aktivierungscode ein."
 msgid "Gib deine E-Mail-Adresse ein."
-msgstr "Voer je activeringscode in."
+msgstr "Voer je e-mailadres in."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:189
 msgid "Gib dein Passwort ein."
-msgstr ""
+msgstr "Voer je wachtwoord in."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:191
-#, fuzzy
-#| msgid ""
-#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
-#| "_my agrirouter_ Seite.#"
 msgid ""
 "Klicke auf *_Anmelden_* [.result]#Du bist jetzt bei deinem agrirouter-Konto "
 "angemeldet.#"
 msgstr ""
-". Klik op de knop *_Opslaan_*.  [.result]#U keert terug naar de _mijn "
-"agrirouter_ pagina.#"
+"Klik op *_login_* [.resultaat]#U bent nu ingelogd in uw agrirouter account."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:194
@@ -1241,6 +1231,10 @@ msgid ""
 "Schritten ein Passwort setzen. Der Prozess ist der selbe, wie wenn du dein "
 "Passwort vergessen hast und ein neues Passwort generieren möchtest."
 msgstr ""
+"De standaard inlogmethode is inloggen met een inlogcode. Als u liever inlogt "
+"met een wachtwoord, kunt u in een paar eenvoudige stappen een wachtwoord "
+"instellen. Het proces is hetzelfde als wanneer u uw wachtwoord bent vergeten "
+"en een nieuw wachtwoord wilt aanmaken."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:215
@@ -1249,14 +1243,14 @@ msgid ""
 "Eingabefenster des Passworts befindet.  [.result]#Ein neues Fenster wird "
 "geöffnet.#"
 msgstr ""
+"Klik op de zin *_Change / forgot password_*, die zich boven het "
+"invoervenster voor het wachtwoord bevindt.  [Resultaat]#Een nieuw venster "
+"wordt geopend."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:223
-#, fuzzy
-#| msgid ""
-#| "Gib die E-Mail deines agrirouter-Kontos ein und klicke auf *_Hinzufügen_*."
 msgid "Gib die E-Mail-Adresse deines agrirouter-Kontos ein."
-msgstr "Voer het e-mailadres van uw agrirouter-account in en klik op *_Add_*."
+msgstr "Voer het e-mailadres van uw agrirouter in."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:225
@@ -1264,51 +1258,40 @@ msgid ""
 "Klicke auf *_Absenden_*.  [.result]#Dir wird nun eine E-Mail mit einem Link "
 "geschickt, über den du dein (neues) Passwort setzen kannst.#"
 msgstr ""
+"Klik op *_Send_*.  [Resultaat]#U krijgt nu een e-mail met een link waarmee u "
+"uw (nieuwe) wachtwoord kunt instellen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:230
-#, fuzzy
-#| msgid ""
-#| "Solltest du die E-Mail mit dem Code nicht empfangen haben, schaue in "
-#| "deinem *_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* "
-#| "dauern, bis die E-Mail bei dir ankommt."
 msgid ""
 "Solltest du die E-Mail mit dem Link nicht empfangen haben, schaue in deinem "
 "*_Spam-Ordner_* nach. Manchmal kann es auch *_einige Minuten_* dauern, bis "
 "die E-Mail bei dir ankommt."
 msgstr ""
-"Als je de e-mail met de code niet hebt ontvangen, controleer dan je *_spam "
+"Als je de e-mail met de link niet hebt ontvangen, controleer dan je *_spam "
 "map_*. Soms kan het *_een paar minuten_* duren voordat de e-mail aankomt."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:238
 msgid ""
 "Klicke auf den Link in der E-Mail, um dein (neues) Passwort setzen zu können."
-msgstr ""
+msgstr "Klik op de link in de e-mail om je (nieuwe) wachtwoord in te stellen."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:239
-#, fuzzy
-#| msgid ""
-#| "Wähle ein WLAN-Netzwerk aus, gebe das Passwort ein und bestätige deine "
-#| "Angabe."
 msgid ""
 "Gib dein (neues) Passwort ein und bestätige es durch eine weitere Eingabe."
 msgstr ""
-"Selecteer een WLAN-netwerk, voer het wachtwoord in en bevestig uw invoer."
+"Voer je (nieuwe) wachtwoord in en bevestig het door het nogmaals in te "
+"voeren."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:241
-#, fuzzy
-#| msgid ""
-#| "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die "
-#| "_my agrirouter_ Seite.#"
 msgid ""
 "Klicke auf *_Absenden_*.  [.result]#Du wirst nun in dein agrirouter-Konto "
 "eingeloggt.#"
 msgstr ""
-". Klik op de knop *_Opslaan_*.  [.result]#U keert terug naar de _mijn "
-"agrirouter_ pagina.#"
+"Klik op *_Submit_*.  [Resultaat]#U bent nu ingelogd in uw agrirouter account."
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:249
@@ -1316,6 +1299,8 @@ msgid ""
 "Es kann sein, dass die hier gezeigte Meldung erscheint. Klicke in diesem "
 "Fall auf *_Sign in with Keycloak_*, um dich einzuloggen."
 msgstr ""
+"De hier getoonde melding kan verschijnen. Klik in dat geval op *Aanmelden "
+"met Keycloak_* om in te loggen."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:254
@@ -1847,12 +1832,15 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/endpoint.adoc:110
-#, fuzzy, no-wrap
-#| msgid "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren. + Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um den Code auszudrucken."
+#, no-wrap
 msgid ""
 "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
 "Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um den Code auszudrucken."
-msgstr "Klik op het pictogram *_Kopieer_* image:endpoints/copy-button.png[copy, 30, 30] om de code naar het klembord te kopiëren. + Klik op het pictogram *_Afdrukken_* image:endpoints/print-button.png[print, 30, 30] om de code af te drukken."
+msgstr ""
+"Klik op het pictogram *_copy_* image:endpoints/copy-button.png[copy, 30, 30] "
+"om de code naar het klembord te kopiëren.\n"
+"Klik op het pictogram *_Print_* image:endpoints/print-button.png"
+"[print, 30, 30] om de code af te drukken."
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:114
@@ -2278,50 +2266,35 @@ msgstr ""
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:256
-#, fuzzy
-#| msgid "*_Verbunden_*: Zeitpunkt, an dem der Endpunkt verbunden wurde.\n"
 msgid "*_Verbunden_*: Zeitpunkt, an dem der Endpunkt verbunden wurde."
-msgstr "*_Verbonden_*: Tijd waarop het eindpunt verbonden was.\n"
+msgstr "*_Connected_*: Tijd waarop het eindpunt verbonden was."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:257
-#, fuzzy
-#| msgid "*_Software-Anbieter_*: Anbieter der zugehörigen Software.\n"
 msgid "*_Software-Anbieter_*: Anbieter der zugehörigen Software."
-msgstr "*_Softwareleverancier_*: Provider van de geassocieerde software.\n"
+msgstr "*Softwareleverancier_*: Provider van de geassocieerde software."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:258
-#, fuzzy
-#| msgid "*_Software-Endpunkt_*: -  \n"
 msgid "*_Software-Endpunkt_*: -"
-msgstr "*_Software eindpunt_*: -  \n"
+msgstr "*_Software eindpunt_*: -"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:259
-#, fuzzy
-#| msgid ""
-#| "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines "
-#| "Endpunkts gibt.\n"
 msgid ""
 "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines Endpunkts "
 "gibt."
 msgstr ""
-"*_Versienummer_*: In het geval dat er meerdere versies van een eindpunt "
-"zijn.\n"
+"*_Versienummer_*: In het geval dat er meerdere versies van een eindpunt zijn."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:260
-#, fuzzy
-#| msgid ""
-#| "*_Montiert auf_*: Gibt Auskunft darüber, auf welcher Maschine der "
-#| "Endpunkt montiert ist.\n"
 msgid ""
 "*_Montiert auf_*: Gibt Auskunft darüber, auf welcher Maschine der Endpunkt "
 "montiert ist."
 msgstr ""
 "*_Mounted on_*: Geeft informatie over op welke machine het eindpunt is "
-"aangekoppeld.\n"
+"aangekoppeld."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:262
@@ -2359,13 +2332,6 @@ msgstr ""
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:272
-#, fuzzy
-#| msgid ""
-#| "*_Von agrirouter verwaltete Routen_*: Wenn diese Option gewählt ist image:"
-#| "endpoints/active-routing-icon.png[Active Icon, 25], dann sind die "
-#| "Routeneinstellungen nach den Standardeinstellungen des agrirouters aktiv. "
-#| "Die Routeneinstellungen können auch xref:routing.adoc#edit-"
-#| "connection[manuell angepasst] werden.\n"
 msgid ""
 "*_Von agrirouter verwaltete Routen_*: Wenn diese Option gewählt ist image:"
 "endpoints/active-routing-icon.png[Active Icon, 25], dann sind die "
@@ -2376,46 +2342,34 @@ msgstr ""
 "*_Routes beheerd door agrirouter_*: Als deze optie is geselecteerd image:"
 "endpoints/active-routing-icon.png[Actief pictogram, 25], dan zijn de route-"
 "instellingen actief volgens de standaardinstellingen van de agrirouter. De "
-"route-instellingen kunnen ook xref:routing.adoc#edit-connection[handmatig "
-"aangepast] worden.\n"
+"route-instellingen kunnen ook xref:routing.adoc#edit-connection"
+"[handmatig aangepast] worden."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:273
-#, fuzzy
-#| msgid ""
-#| "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
-#| "gesendet wurden.\n"
 msgid ""
 "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "gesendet wurden."
 msgstr ""
-"*_Last verzonden bericht_*: Tijdstip waarop gegevens voor het laatst zijn "
-"verzonden.\n"
+"*Last verzonden bericht_*: Tijdstip waarop gegevens voor het laatst zijn "
+"verzonden."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:274
-#, fuzzy
-#| msgid ""
-#| "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
-#| "empfangen wurden.\n"
 msgid ""
 "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "empfangen wurden."
 msgstr ""
-"*_Last ontvangen bericht_*: Tijd waarop gegevens voor het laatst zijn "
-"ontvangen.\n"
+"*Last ontvangen bericht_*: Tijd waarop gegevens voor het laatst zijn "
+"ontvangen."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:275
-#, fuzzy
-#| msgid ""
-#| "*_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell "
-#| "vorliegen.\n"
 msgid ""
 "*_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell vorliegen."
 msgstr ""
-"*_Huidige berichten_*: Geeft aan hoeveel berichten er momenteel beschikbaar "
-"zijn.\n"
+"*Huidige berichten_*: Geeft aan hoeveel berichten er momenteel beschikbaar "
+"zijn."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:278
@@ -2517,30 +2471,17 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:19
-#, fuzzy
-#| msgid ""
-#| "*Konto:* Zur Nutzung des agrirouter benötigst du ein Benutzerkonto:\n"
-#| "[.result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account."
-#| "adoc[Konto] beschrieben.#\n"
 msgid ""
 "*Konto:* Zur Nutzung des agrirouter benötigst du ein Benutzerkonto: [."
 "result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account."
 "adoc[Konto] beschrieben.#"
 msgstr ""
-"*Account:* U hebt een gebruikersaccount nodig om de agrirouter te "
-"gebruiken:\n"
-"[.result]#Maak en beheer uw account zoals beschreven in het hoofdstuk xref:"
-"account.adoc[account].#\n"
+"*Account:* U hebt een gebruikersaccount nodig om de agrirouter te gebruiken: "
+"[.result]#Maak en beheer uw account zoals beschreven in het hoofdstuk "
+"xref:account.adoc[account].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:22
-#, fuzzy
-#| msgid ""
-#| "*My agrirouter:* Wenn du dich am agrirouter anmeldest, wird deine "
-#| "persönliche Startseite, die <<myagrirouter, my agrirouter>> Seite, "
-#| "angezeigt:\n"
-#| "[.result]#Über die *my agrirouter* Seite hast du Zugriff auf alle "
-#| "Funktionen des agrirouters.#\n"
 msgid ""
 "*My agrirouter:* Wenn du dich am agrirouter anmeldest, wird deine "
 "persönliche Startseite, die <<myagrirouter, my agrirouter>> Seite, "
@@ -2548,19 +2489,12 @@ msgid ""
 "Funktionen des agrirouters.#"
 msgstr ""
 "*Mijn agrirouter:* Wanneer u inlogt op de agrirouter, wordt uw persoonlijke "
-"startpagina, de <<mijnagrirouter, mijn agrirouter>> pagina weergegeven:\n"
+"startpagina, de <<mijnagrirouter, mijn agrirouter>> pagina, weergegeven: "
 "[.result]#De *mijn agrirouter* pagina geeft u toegang tot alle functies van "
-"de agrirouter.#\n"
+"de agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:25
-#, fuzzy
-#| msgid ""
-#| "*Endpunkte:* Maschinen und Agrarsoftware können Daten austauschen, wenn "
-#| "du sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.\n"
-#| "[.result]#Füge Endpunkte hinzu, wie in den Kapiteln xref:endpoint."
-#| "adoc#connect-machine[Maschine verbinden] und xref:endpoint.adoc#connect-"
-#| "software[Agrarsoftware verbinden] beschrieben.#\n"
 msgid ""
 "*Endpunkte:* Maschinen und Agrarsoftware können Daten austauschen, wenn du "
 "sie dem agrirouter als <<Endpunkt,Endpunkte>> hinzufügst.  [.result]#Füge "
@@ -2569,23 +2503,19 @@ msgid ""
 "software[Agrarsoftware verbinden] beschrieben.#"
 msgstr ""
 "*Endpoints:* Machines en landbouwsoftware kunnen gegevens uitwisselen als u "
-"ze aan de agrirouter toevoegt als <<endpoint,endpoints>>.\n"
-"[.result]#Voeg endpoints toe zoals beschreven in de hoofdstukken xref:"
-"endpoint.adoc#connect-machine[connect machine] en xref:endpoint.adoc#connect-"
-"software[connect landbouwsoftware].#\n"
+"ze aan de agrirouter toevoegt als <<endpoint,endpoints>>.  [Resultaat]* Voeg "
+"endpoints toe zoals beschreven in de hoofdstukken xref:endpoint.adoc#connect-"
+"machine[connect-machine] en xref:endpoint.adoc#connect-software"
+"[connect-landbouwsoftware]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:27
-#, fuzzy
-#| msgid ""
-#| "*Routen:* Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt "
-#| "sendet und/oder empfängt.\n"
 msgid ""
 "*Routen:* Mit <<Route,Routen>> legst du fest, welche Daten ein Endpunkt "
 "sendet und/oder empfängt."
 msgstr ""
-"*Routes:* Met <<Route,Routes>> definieer je welke gegevens een eindpunt "
-"verzendt en/of ontvangt.\n"
+"*Routes:* Met <<Route,Routen>> definieer je welke gegevens een eindpunt "
+"verzendt en/of ontvangt."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/introduction.adoc:28
@@ -3366,63 +3296,41 @@ msgstr "Selecteer een van de drie weergegeven opties:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:69
-#, fuzzy
-#| msgid ""
-#| "*_report an agrirouter incident_*: Wenn du einen Vorfall (Fehler, Login-"
-#| "Probleme etc.) mit deinem agrirouter Konto hast.\n"
 msgid ""
 "*_report an agrirouter incident_*: Wenn du einen Vorfall (Fehler, Login-"
 "Probleme etc.) mit deinem agrirouter Konto hast."
 msgstr ""
 "*_incident melden aan agrirouter_*: Als u een incident (fout, "
-"inlogproblemen, etc.) hebt met uw agrirouter-account.\n"
+"aanmeldingsproblemen, enz.) hebt met uw agrirouter-account."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:70
-#, fuzzy
-#| msgid ""
-#| "*_agrirouter general reuquest_*: Wenn du weitere Fragen hast oder "
-#| "zusätzliche Informationen zur agrirouter-Integration und -Partnerschaft "
-#| "benötigst oder eine Idee für ein neues Feature hast.\n"
 msgid ""
 "*_agrirouter general reuquest_*: Wenn du weitere Fragen hast oder "
 "zusätzliche Informationen zur agrirouter-Integration und -Partnerschaft "
 "benötigst oder eine Idee für ein neues Feature hast."
 msgstr ""
 "*_agrirouter algemeen verzoek_*: Als je nog vragen hebt of meer informatie "
-"wilt over de agrirouter integratie en samenwerking of als je een idee hebt "
-"voor een nieuwe functie.\n"
+"wilt over de agrirouter integratie en het partnerschap of als je een idee "
+"hebt voor een nieuwe functie."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:72
-#, fuzzy
-#| msgid ""
-#| "*_membership inquiries_*: Wenn du Fragen zu deiner Mitgliedschaft im "
-#| "agrirouter Ecosystem, insbesondere im Verein DKE-Data agrirouter e.V. "
-#| "hast.\n"
-#| "[.result]#Ein Formular wird geöffnet.#\n"
 msgid ""
 "*_membership inquiries_*: Wenn du Fragen zu deiner Mitgliedschaft im "
 "agrirouter Ecosystem, insbesondere im Verein DKE-Data agrirouter e.V. hast.  "
 "[.result]#Ein Formular wird geöffnet.#"
 msgstr ""
-"*_vragen over lidmaatschap_*: Als u vragen heeft over uw lidmaatschap van "
-"het agrirouter ecosysteem, in het bijzonder van de DKE-Data agrirouter e.V. "
-"vereniging.\n"
-"[.result]#Er wordt een formulier geopend.#\n"
+"*vragen over lidmaatschap_*: Als u vragen heeft over uw lidmaatschap van het "
+"agrirouter ecosysteem, in het bijzonder van de DKE-Data agrirouter e.V. "
+"vereniging.  [Er wordt een formulier geopend."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:73
-#, fuzzy
-#| msgid ""
-#| "Fülle das Formular mit allen relevanten Informationen aus und klicke auf "
-#| "*_Senden_*.\n"
 msgid ""
 "Fülle das Formular mit allen relevanten Informationen aus und klicke auf "
 "*_Senden_*."
-msgstr ""
-"Vul het formulier in met alle relevante informatie en klik op "
-"*_verzenden_*.\n"
+msgstr "Vul het formulier in met alle relevante informatie en klik op *_Send_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:76
@@ -6463,19 +6371,14 @@ msgstr "farmpilot Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:4
-#, fuzzy
-#| msgid ""
-#| "Mit FARMPILOT kannst du Daten vom agrirouter empfangen. Dazu müssen "
-#| "allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden "
-#| "in diesem Abschnitt behandelt:"
 msgid ""
 "Mit farmpilot kannst du Daten vom agrirouter empfangen. Dazu müssen "
 "allerdings einige Vorkehrungen getroffen werden. Folgende Punkte werden in "
 "diesem Abschnitt behandelt:"
 msgstr ""
-"Met FARMPILOT kunt u gegevens ontvangen van de agrirouter. Hiervoor moeten "
+"Met farmpilot kun je gegevens van de agrirouter ontvangen. Hiervoor moeten "
 "echter enkele voorzorgsmaatregelen worden genomen. De volgende punten worden "
-"in dit hoofdstuk behandeld:"
+"in dit gedeelte behandeld:"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:8
@@ -6486,43 +6389,30 @@ msgstr "Inzicht in de machinegegevens"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:13
-#, fuzzy
-#| msgid ""
-#| "Um Daten von deinem Terminal über den agrirouter drahtlos an FAMRPILOT "
-#| "senden zu können, muss zuerst eine Verbindung zwischen deinem FARMPILOT-"
-#| "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert "
-#| "in wenigen, einfachen Schritten."
 msgid ""
 "Um Daten von deinem Terminal über den agrirouter drahtlos an farmpilot "
 "senden zu können, muss zuerst eine Verbindung zwischen deinem farmpilot-"
 "Konto und deinem agrirouter-Konto hergestellt werden. Dies funktioniert in "
 "wenigen, einfachen Schritten."
 msgstr ""
-"Om gegevens draadloos van uw terminal naar FAMRPILOT te kunnen sturen via de "
+"Om gegevens draadloos van uw terminal naar farmpilot te kunnen sturen via de "
 "agrirouter, moet er eerst een verbinding tot stand worden gebracht tussen uw "
-"FARMPILOT account en uw agrirouter account. Dit gebeurt in een paar "
-"eenvoudige stappen."
+"farmpilot account en uw agrirouter account. Dit gaat in een paar eenvoudige "
+"stappen."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:15
-#, fuzzy
-#| msgid ""
-#| "Bevor du anfangen kannst, musst du dich über die link:https://portal."
-#| "farmpilot.de/[FARMPILOT-Website, window=\"_blank\"] in dein Konto "
-#| "einloggen."
 msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://portal."
 "farmpilot.de/[farmpilot-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
-"Voordat u kunt beginnen, moet u inloggen op uw account via de link:https://"
-"portal.farmpilot.de/[FARMPILOT website, window=\"_blank\"]."
+"Voordat je kunt beginnen, moet je inloggen op je account via de link:https://"
+"portal.farmpilot.de/[farmpilot website, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:19
-#, fuzzy
-#| msgid "Klicke im FARMPILOT Portal auf *_Verwaltung_*."
 msgid "Klicke im farmpilot Portal auf *_Verwaltung_*."
-msgstr "Klik op *_Administratie_* in het FARMPILOT portaal."
+msgstr "Klik op *_Administration_* in het farmpilot portaal."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:20
@@ -6541,25 +6431,18 @@ msgstr "Klik op *Verbind met agrirouter*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:37
-#, fuzzy
-#| msgid ""
-#| "In deinem FARMPILOT-Konto ist nun eine neue Partnerverknüpfung angelegt."
 msgid ""
 "In deinem farmpilot-Konto ist nun eine neue Partnerverknüpfung angelegt."
-msgstr "Er is nu een nieuwe partnerlink gemaakt in uw FARMPILOT account."
+msgstr "Er is nu een nieuwe partnerlink aangemaakt in je farmpilot account."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:42
-#, fuzzy
-#| msgid ""
-#| "Damit du alle Vorzüge von agrirouter und FARMPILOT optimal nutzen kannst, "
-#| "ist es essenziell die Maschinenverknüpfung in FARMPILOT einzurichten."
 msgid ""
 "Damit du alle Vorzüge von agrirouter und farmpilot optimal nutzen kannst, "
 "ist es essenziell die Maschinenverknüpfung in farmpilot einzurichten."
 msgstr ""
-"Om alle voordelen van agrirouter en FARMPILOT optimaal te benutten, is het "
-"essentieel om de machinekoppeling in FARMPILOT in te stellen."
+"Het is essentieel om de machinekoppeling in farmpilot in te stellen, zodat u "
+"optimaal gebruik kunt maken van alle voordelen van agrirouter en farmpilot."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:46
@@ -6576,13 +6459,6 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:49
-#, fuzzy
-#| msgid ""
-#| "Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter "
-#| "eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen "
-#| "werden. Als Nächstes muss das Endgerät, wie beispielsweise das Tablet auf "
-#| "der Maschine, welches FARMPILOT installiert hat, mit der Referenzmaschine "
-#| "verknüpft werden."
 msgid ""
 "Die Telemetrie-Box wird automatisch als Fahrzeugtyp Terminal agrirouter "
 "eingerichtet. Hier müssen keine weiteren Einstellungen vorgenommen werden. "
@@ -6590,10 +6466,11 @@ msgid ""
 "Maschine, welches farmpilot installiert hat, mit der Referenzmaschine "
 "verknüpft werden."
 msgstr ""
-"De telemetriebox wordt automatisch ingesteld als het voertuigtype Terminal "
-"agrirouter. Hier hoeven geen verdere instellingen te worden uitgevoerd. "
-"Vervolgens moet het terminalapparaat, zoals het tablet op de machine waarop "
-"FARMPILOT is geïnstalleerd, worden gekoppeld aan de referentiemachine."
+"De telemetriebox wordt automatisch ingesteld als voertuigtype van de "
+"Terminal agrirouter. Hier hoeven geen verdere instellingen te worden "
+"gemaakt. Vervolgens moet het terminalapparaat, zoals het tablet op de "
+"machine waarop farmpilot is geïnstalleerd, worden gekoppeld aan de "
+"referentiemachine."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:53
@@ -6638,50 +6515,38 @@ msgstr ""
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:62
 msgid "Und so geht's:"
-msgstr ""
+msgstr "En zo werkt het:"
 
 #. type: .left
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:69
-#, fuzzy
-#| msgid "Klicke in der Seitenleiste links auf *_Applikationskarten_*."
 msgid "Klicke in der Leiste links auf *_Auswertung_*."
-msgstr "Klik op *_Applicatiekaarten_* in de zijbalk aan de linkerkant."
+msgstr "Klik op *_Evaluatie_* in de balk aan de linkerkant."
 
 #. type: .left
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:70
-#, fuzzy
-#| msgid "Wähle dann *_Externe Daten_*."
 msgid "Wähle dann *_Aufträge_*."
-msgstr "Selecteer dan *_Externe gegevens_*."
+msgstr "Selecteer dan *_Orders_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:75
-#, fuzzy
-#| msgid ""
-#| "Die Ansicht in der Auswertung am Beispiel des Autologgings einer Maschine "
-#| "könnte so aussehen:"
 msgid ""
 "Öffne unter dem Reiter *_Autologgin_* die Maschinendaten.  Die Ansicht in "
 "der Auswertung am Beispiel des Autologgings einer Maschine könnte so "
 "aussehen:"
 msgstr ""
-"De weergave in de evaluatie aan de hand van het voorbeeld van het "
-"autologeren van een machine zou er als volgt uit kunnen zien:"
+"Open de machinegegevens onder het tabblad *_Autologgin_*.  De weergave in de "
+"evaluatie aan de hand van het voorbeeld van het autologeren van een machine "
+"zou er als volgt uit kunnen zien:"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:83
-#, fuzzy
-#| msgid ""
-#| "Solltest du weitere Fragen bezüglich agrirouter und FARMPILOT haben, "
-#| "wende dich bitte an das FARMPILOT-Team unter team@farmpilot.de oder "
-#| "telefonisch unter +49(0)5241/80-40753."
 msgid ""
 "Solltest du weitere Fragen bezüglich agrirouter und farmpilot haben, wende "
 "dich bitte an das farmpilot-Team unter team@farmpilot.de oder telefonisch "
 "unter +49(0)5241/80-40753."
 msgstr ""
-"Als u nog vragen hebt over agrirouter en FARMPILOT, neem dan contact op met "
-"het FARMPILOT-team via team@farmpilot.de of bel +49(0)5241/80-40753."
+"Als u nog vragen hebt over agrirouter en farmpilot, neem dan contact op met "
+"het farmpilot team op team@farmpilot.de of bel +49(0)5241/80-40753."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:1
@@ -6868,10 +6733,8 @@ msgstr "Aansluiting via KRONE SmartConnect Solar"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:12
-#, fuzzy
-#| msgid "Verbindung über KRONE SmartConnect 300/500"
 msgid "Verbindung über KRONE SmartConnect 500"
-msgstr "Aansluiting via KRONE SmartConnect 300/500"
+msgstr "Aansluiting via KRONE SmartConnect 500"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:13
@@ -6908,12 +6771,6 @@ msgstr ""
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:23
-#, fuzzy
-#| msgid ""
-#| "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
-#| "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
-#| "freigeschaltet. Wähle hierzu unter *_Services_* die Option *_Smart "
-#| "Telematics_* aus und folge dem Prozess."
 msgid ""
 "In einem neu angelegten link:https://mykrone.green/[mykrone.green Konto, "
 "window=\"_blank\"] ist der Smart Telematics Service noch nicht "
@@ -6922,7 +6779,7 @@ msgid ""
 msgstr ""
 "De Smart Telematics-service is nog niet geactiveerd in een nieuw aangemaakte "
 "link:https://mykrone.green/[mykrone.green-account, window=\"_blank\"]. "
-"Selecteer hiervoor de optie *_Smart Telematics_* onder *_Services_* en volg "
+"Selecteer hiervoor de optie *_Smart Telematics_* onder *Services_* en volg "
 "het proces."
 
 #. type: .right
@@ -7031,6 +6888,9 @@ msgid ""
 "Solar einer Maschine aus deinem Bestand zugeordnet. Diese Maschine erscheint "
 "dann in den Systemen, die am agrirouter angeschlossen sind."
 msgstr ""
+"Klik op *_Link machine_* om de KRONE SmartConnect Solar toe te wijzen aan "
+"een machine uit uw wagenpark. Deze machine verschijnt dan in de systemen die "
+"met de agrirouter verbonden zijn."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:97
@@ -7045,29 +6905,22 @@ msgstr ""
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:99
-#, fuzzy, no-wrap
-#| msgid "Verbindung über Krone SmartConnect 300/500"
+#, no-wrap
 msgid "Verbindung über Krone SmartConnect 500"
-msgstr "Aansluiting via Krone SmartConnect 300/500"
+msgstr "Aansluiting via Krone SmartConnect 500"
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:102
-#, fuzzy
-#| msgid ""
-#| "Die integrierten Telemetrieeinheiten Krone SmartConnect 300 und 500 von "
-#| "KRONE vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind "
-#| "mit dem BUS-System verbunden und erfassen Daten in Echtzeit. Diese Daten "
-#| "werden an KRONE Smart Telematics und den agrirouter gesendet."
 msgid ""
 "Die integrierten Telemetrieeinheiten Krone SmartConnect 500 von KRONE "
 "vernetzen deine landwirtschaftlichen Maschinen digital. Sie sind mit dem BUS-"
 "System verbunden und erfassen Daten in Echtzeit. Diese Daten werden an KRONE "
 "Smart Telematics und den agrirouter gesendet."
 msgstr ""
-"De geïntegreerde Krone SmartConnect 300 en 500 telemetrie-eenheden van KRONE "
+"De geïntegreerde Krone SmartConnect 500 telemetrie-eenheden van KRONE "
 "brengen uw landbouwmachines digitaal in een netwerk samen. Ze zijn "
 "aangesloten op het BUS-systeem en verzamelen gegevens in realtime. Deze "
-"gegevens worden doorgestuurd naar KRONE Smart Telematics en de agrirouter."
+"gegevens worden naar KRONE Smart Telematics en de agrirouter gestuurd."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:104
@@ -7118,15 +6971,11 @@ msgstr "Voer uw agrirouter registratiecode in en klik op *_SAVE_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:119
-#, fuzzy
-#| msgid ""
-#| "Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect "
-#| "300/500 sendet nun durchgehend alle gesammelten Daten an den agrirouter."
 msgid ""
 "Fertig, deine Maschine mit der Telemetrieeinheit Krone SmartConnect 500 "
 "sendet nun durchgehend alle gesammelten Daten an den agrirouter."
 msgstr ""
-"Als u klaar bent, stuurt uw machine met de Krone SmartConnect 300/500 "
+"Als je klaar bent, stuurt je machine met de Krone SmartConnect 500 "
 "telemetrie-eenheid nu continu alle verzamelde gegevens naar de agrirouter."
 
 #. type: Title ===
@@ -11644,7 +11493,7 @@ msgstr "Ik wil een opdracht spontaan aan mijn chauffeur kunnen doorgeven"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:42
 #, no-wrap
 msgid "sodass ich die Datei nicht erst per USB-Stick übergeben muss."
-msgstr ""
+msgstr "zodat ik het bestand niet eerst via een USB-stick hoef over te zetten."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:16
@@ -11711,50 +11560,54 @@ msgstr "Ik wil een opdracht voor een perceel plannen en naar de machine sturen"
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
 msgstr ""
+"zodat mijn werknemer precies weet welk werk waar moet worden uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:21
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)"
 msgstr ""
+"Ik wil een rijstrookplan naar een machine sturen (bijv. voor "
+"verkeersregeling, autonoom rijden)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:23
 #, no-wrap
 msgid "sodass die Arbeit präzise entlang der geplanten Spuren erfolgt."
-msgstr ""
+msgstr "zodat het werk precies volgens de geplande sporen wordt uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:25
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an mehrere Maschinen senden (z. B. für Control Traffic Farming, autonomes Fahren)"
 msgstr ""
+"Ik wil een rijstrookplan naar verschillende machines sturen (bijv. voor "
+"verkeersregeling, autonoom rijden)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:27
 #, no-wrap
 msgid "sodass alle Maschinen eine einheitliche Basis nutzen können."
-msgstr ""
+msgstr "zodat alle machines een gestandaardiseerde basis kunnen gebruiken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:29
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe)"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil grondbewerkingskaarten naar een machine sturen (bijv. werkdiepte)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:31
 #, no-wrap
 msgid "sodass die Maschine die Bearbeitung gemäß den Vorgaben ausführt."
-msgstr ""
+msgstr "zodat de machine de verwerking uitvoert volgens de specificaties."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:33
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Bodenbearbeitungskarten an mehrere Maschinen senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr "Ik wil grondbewerkingskaarten naar verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:35
@@ -11763,6 +11616,8 @@ msgstr "Meerdere receptkaarten naar één machine sturen"
 #, no-wrap
 msgid "sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können."
 msgstr ""
+"zodat meerdere machines tegelijkertijd dezelfde specificaties kunnen "
+"gebruiken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:36
@@ -11779,44 +11634,43 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:128
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:132
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:136
-#, fuzzy, no-wrap
-#| msgid "Maschinen hinzufügen"
+#, no-wrap
 msgid "Als Maschinenführer"
-msgstr "Machines toevoegen"
+msgstr "Als machineoperator"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:37
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich abgearbeitete Auftragsdaten von der Maschine an die Agrarsoftware übertragen"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil verwerkte ordergegevens overbrengen van de machine naar de "
+"landbouwsoftware"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:39
 #, no-wrap
 msgid "sodass die durchgeführten Arbeiten dokumentiert werden können."
-msgstr ""
+msgstr "zodat het uitgevoerde werk kan worden gedocumenteerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:41
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Daten von Maschine A an Maschine B senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil gegevens verzenden van machine A naar machine B"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:43
 #, no-wrap
 msgid "sodass diese nahtlos mit den vorherigen Arbeitsergebnissen fortfahren kann."
-msgstr ""
+msgstr "zodat het naadloos kan aansluiten op de eerdere werkresultaten."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:45
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:33
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil de orderstatus synchroniseren tussen de landbouwsoftware en de machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:46
@@ -11824,6 +11678,7 @@ msgstr "Meerdere receptkaarten naar één machine sturen"
 #, no-wrap
 msgid "sodass jederzeit erkennbar ist, ob der Auftrag gestartet oder abgeschlossen ist."
 msgstr ""
+"zodat je op elk moment kunt zien of de bestelling is gestart of voltooid."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:48
@@ -11846,7 +11701,7 @@ msgstr "Telemetrie & Documentatie"
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:30
 #, no-wrap
 msgid "Als Disponent"
-msgstr ""
+msgstr "Als verzender"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:56
@@ -11859,6 +11714,8 @@ msgstr "Ik wil telemetriegegevens in realtime ontvangen in de landbouwsoftware"
 #, no-wrap
 msgid "sodass im Lohnunternehmen der Arbeitsfortschritt verfolgt und weitere Planung optimiert werden kann."
 msgstr ""
+"zodat de voortgang van het werk kan worden gevolgd en de verdere planning in "
+"het Loonbedrijf kan worden geoptimaliseerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:60
@@ -11874,7 +11731,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:50
 #, no-wrap
 msgid "sodass die Dokumentation für mich reduziert wird."
-msgstr ""
+msgstr "zodat ik minder documentatie nodig heb."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:63
@@ -11912,7 +11769,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:113
 #, no-wrap
 msgid "Als Lohnunternehmer"
-msgstr ""
+msgstr "Als Loonbedrijf"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:64
@@ -11928,7 +11785,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:110
 #, no-wrap
 msgid "möchte ich Maschinendaten in der Agrarsoftware erhalten"
-msgstr ""
+msgstr "Ik wil graag machinegegevens ontvangen in de landbouwsoftware"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:66
@@ -11945,6 +11802,8 @@ msgstr ""
 #, no-wrap
 msgid "sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist."
 msgstr ""
+"zodat typefouten of zoekgeraakte documenten door chauffeurs worden voorkomen "
+"en transparante documentatie gegarandeerd is."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:68
@@ -11956,6 +11815,8 @@ msgstr ""
 #, no-wrap
 msgid "möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
 msgstr ""
+"Ik wil automatisch de toedieningshoeveelheden, de oppervlaktedekking en de "
+"bedrijfstijden registreren"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:69
@@ -11971,6 +11832,8 @@ msgstr ""
 #, no-wrap
 msgid "sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann."
 msgstr ""
+"zodat facturering nauwkeurig kan worden uitgevoerd op basis van oppervlakte, "
+"tijd of hoeveelheid."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:71
@@ -11984,10 +11847,9 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:42
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:134
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:140
-#, fuzzy, no-wrap
-#| msgid "Beispiel"
+#, no-wrap
 msgid "Praxisbeispiele"
-msgstr "Voorbeeld"
+msgstr "Praktische voorbeelden"
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:74
@@ -12003,7 +11865,7 @@ msgstr "Voorbeeld"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:142
 #, no-wrap
 msgid "Praxisbeispiel 1"
-msgstr ""
+msgstr "Praktijkvoorbeeld 1"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:77
@@ -12013,6 +11875,11 @@ msgid ""
 "agrirouter und kann sofort mit der Arbeit beginnen, ohne USB-Sticks oder "
 "Papier. So sparen beide Zeit und Fehlerquellen werden minimiert."
 msgstr ""
+"Het Loonbedrijf stuurt een ploegopdracht rechtstreeks vanuit zijn "
+"landbouwsoftware naar de chauffeur. De chauffeur ontvangt de gegevens "
+"automatisch via de agrirouter en kan meteen aan de slag, zonder USB-sticks "
+"of papier. Dit bespaart tijd voor beide partijen en minimaliseert de kans op "
+"fouten."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:80
@@ -12028,7 +11895,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:149
 #, no-wrap
 msgid "Praxisbeispiel 2"
-msgstr ""
+msgstr "Praktijkvoorbeeld 2"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:83
@@ -12039,6 +11906,11 @@ msgid ""
 "die Bodenverdichtung reduziert, was die Wasser- und Nährstoffaufnahme "
 "verbessert und so die Bodenfruchtbarkeit sowie Erträge nachhaltig gesichert."
 msgstr ""
+"Met Control Traffic Farming (CTF) stuurt de landbouwsoftware van de boer de "
+"geplande rijstroken naar de tractor. De bestuurder rijdt alleen precies in "
+"de geplande rijstroken. Door in specifieke rijstroken te rijden, wordt de "
+"bodemverdichting verminderd, wat de opname van water en voedingsstoffen "
+"verbetert en zo zorgt voor duurzame bodemvruchtbaarheid en opbrengsten."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:86
@@ -12054,7 +11926,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:155
 #, no-wrap
 msgid "Praxisbeispiel 3"
-msgstr ""
+msgstr "Praktijkvoorbeeld 3"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:89
@@ -12064,6 +11936,10 @@ msgid ""
 "und präzise unterschiedliche Bodenschichten bearbeitet. Die Arbeit wird "
 "somit effizienter und gleichmäßiger."
 msgstr ""
+"De boer maakt een cultivatorkaart met verschillende werkdieptes voor zijn "
+"veld. Hij stuurt deze kaart naar zijn machine, die vervolgens automatisch en "
+"nauwkeurig verschillende bodemlagen bewerkt. Dit maakt het werk efficiënter "
+"en gelijkmatiger."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:92
@@ -12079,7 +11955,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:161
 #, no-wrap
 msgid "Praxisbeispiel 4"
-msgstr ""
+msgstr "Praktijkvoorbeeld 4"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:95
@@ -12088,6 +11964,9 @@ msgid ""
 "und nutzen dieselbe Bearbeitungskarte. So können die Fahrer ohne "
 "Überschneidungen arbeiten und der Auftrag ist schneller erledigt."
 msgstr ""
+"Op een grote boerderij werken twee tractoren parallel op hetzelfde veld en "
+"gebruiken ze dezelfde teeltkaart. Hierdoor kunnen de bestuurders elkaar niet "
+"overlappen en is het werk sneller klaar."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:98
@@ -12101,7 +11980,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:167
 #, no-wrap
 msgid "Praxisbeispiel 5"
-msgstr ""
+msgstr "Praktijkvoorbeeld 5"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:101
@@ -12110,6 +11989,9 @@ msgid ""
 "Ackerschlagkartei des Landwirts übermittelt. Dadurch entfällt die manuelle "
 "Dokumentation, was Zeit spart und die Datenqualität verbessert."
 msgstr ""
+"Na het ploegen worden de bewerkte gebieden automatisch overgebracht naar de "
+"velddatabase van de boer. Hierdoor is handmatige documentatie niet meer "
+"nodig, wat tijd bespaart en de kwaliteit van de gegevens verbetert."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:104
@@ -12121,7 +12003,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:173
 #, no-wrap
 msgid "Praxisbeispiel 6"
-msgstr ""
+msgstr "Praktijkvoorbeeld 6"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:107
@@ -12131,6 +12013,10 @@ msgid ""
 "den nächsten Einsatz planen, wodurch Standzeiten vermieden und der Betrieb "
 "reibungsloser läuft."
 msgstr ""
+"De planner van het Loonbedrijf kan op zijn scherm in realtime zien dat een "
+"trekker binnenkort klaar is met werken op het veld. Hij kan dan de volgende "
+"klus plannen, waardoor stilstand wordt voorkomen en de werkzaamheden vlotter "
+"verlopen."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:110
@@ -12140,7 +12026,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:80
 #, no-wrap
 msgid "Praxisbeispiel 7"
-msgstr ""
+msgstr "Praktijkvoorbeeld 7"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:113
@@ -12150,13 +12036,16 @@ msgid ""
 "Beteiligten jederzeit auf dem aktuellen Stand, was die Nachbearbeitung ohne "
 "Rückfragen erleichtert."
 msgstr ""
+"De landbouwsoftware informeert de bedrijfsleider dat de grondbewerking om 14:"
+"35 is voltooid. Zo blijven alle betrokkenen altijd op de hoogte, wat het "
+"gemakkelijker maakt om vragen op te volgen."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:116
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:383
 #, no-wrap
 msgid "Praxisbeispiel 8"
-msgstr ""
+msgstr "Praktijkvoorbeeld 8"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:119
@@ -12166,12 +12055,17 @@ msgid ""
 "seine Arbeitszeit optimal nutzen. Zudem vermeidet das Ärger mit dem Inhaber "
 "der Nachbarfläche und steigert die Effizienz der Arbeit."
 msgstr ""
+"De bestuurder ontvangt de exacte perceelsgrenzen en rijstroken voordat hij "
+"aan het werk gaat. Hierdoor kunnen ze overlappingen met aangrenzende "
+"gebieden vermijden en hun werktijd optimaal benutten. Dit voorkomt ook "
+"problemen met de eigenaar van het naburige veld en verhoogt de efficiëntie "
+"van het werk."
 
 #. type: Block title
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:122
 #, no-wrap
 msgid "Praxisbeispiel 9"
-msgstr ""
+msgstr "Praktijkvoorbeeld 9"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:125
@@ -12187,6 +12081,11 @@ msgid ""
 "Abrechnung übernommen werden. Ohne die Telemetriedaten wäre der zusätzliche "
 "Auftrag verloren gegangen und nicht bezahlt worden."
 msgstr ""
+"Op kantoor is een medewerker vergeten een spontane bestelling in het systeem "
+"in te voeren. Na het verzenden van de telemetriegegevens wordt zichtbaar dat "
+"een ander veld is verwerkt. Hierdoor kan de opdracht alsnog in de loonlijst "
+"worden opgenomen. Zonder de telemetriegegevens zou de extra opdracht "
+"verloren zijn gegaan en niet betaald zijn."
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:1
@@ -12204,6 +12103,12 @@ msgid ""
 "ausgebrachten Mengen. Dadurch werden Prozesse effizienter gestaltet, Fehler "
 "reduziert und die Rückverfolgung gewährleistet."
 msgstr ""
+"In dit hoofdstuk wordt uitgelegd hoe de agrirouter de planning en uitvoering "
+"van organische en minerale bemesting ondersteunt. Hij maakt het mogelijk om "
+"machines en landbouwsoftware in een netwerk op te nemen en vergemakkelijkt "
+"de overdracht van toepassingskaarten en de documentatie van de toegediende "
+"hoeveelheden. Dit maakt processen efficiënter, vermindert fouten en zorgt "
+"voor traceerbaarheid."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:6
@@ -12213,10 +12118,9 @@ msgstr "Organische bemesting"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:14
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag für ein Feld planen und an eine Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil een taak voor een veld plannen en naar een machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:17
@@ -12230,10 +12134,11 @@ msgstr "Als bedrijfsleider"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:18
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil verschillende geplande jobs met banen en doseerhoeveelheden naar één "
+"machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:20
@@ -12241,36 +12146,38 @@ msgstr "Meerdere kaarten naar één machine sturen"
 #, no-wrap
 msgid "sodass auch weniger erfahrene Mitarbeiter fehlerfrei und effizient düngen können."
 msgstr ""
+"zodat zelfs minder ervaren werknemers efficiënt en zonder fouten kunnen "
+"bemesten."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:22
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil verschillende toepassingskaarten met exacte doseerinformatie naar een "
+"of meer machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:24
 #, no-wrap
 msgid "sodass die Ausbringung präzise und effizient erfolgt."
-msgstr ""
+msgstr "zodat de toepassing nauwkeurig en efficiënt is."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:26
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:113
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:115
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:56
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten an mehrere Maschinen senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr "Ik wil verschillende receptkaarten naar verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:30
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:109
 #, no-wrap
 msgid "möchte ich vor Beginn die geplanten Fahrspuren erhalten"
-msgstr ""
+msgstr "Ik wil graag de geplande rijstroken ontvangen voordat ik begin"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:32
@@ -12278,19 +12185,21 @@ msgstr ""
 #, no-wrap
 msgid "sodass ich den Auftrag effizient abarbeiten kann, ohne selbst zunächst Fahrspuren aufnehmen zu müssen."
 msgstr ""
+"Zodat ik de klus efficiënt kan klaren zonder eerst zelf banen te moeten "
+"rapen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:34
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:93
 #, no-wrap
 msgid "möchte ich Fahrspuren von Traktor A an Traktor B übermitteln"
-msgstr ""
+msgstr "Ik wil graag sporen overbrengen van trekker A naar trekker B"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:36
 #, no-wrap
 msgid "sodass nachfolgende Arbeiten auf denselben Spuren erfolgen können."
-msgstr ""
+msgstr "zodat latere werkzaamheden op dezelfde sporen kunnen worden uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:38
@@ -12298,12 +12207,15 @@ msgstr ""
 #, no-wrap
 msgid "möchte ich während der Ausbringung automatisch dokumentieren, dass Nährstoffmengen, Sperrzonen und Einsatzzeiten eingehalten werden"
 msgstr ""
+"Ik wil graag automatisch tijdens de toepassing documenteren dat de "
+"hoeveelheden voedingsstoffen, uitsluitingszones en toepassingstijden worden "
+"nageleefd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:40
 #, no-wrap
 msgid "sodass ich rechtssicher arbeite und meine Subvensionen gesichert sind."
-msgstr ""
+msgstr "zodat mijn werk aan de wet voldoet en mijn subsidies veilig zijn."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:55
@@ -12316,6 +12228,13 @@ msgid ""
 "jederzeit den Überblick über die Einhaltung der Vorschriften und spart sich "
 "die manuelle Nachbearbeitung."
 msgstr ""
+"De landbouwer maakt een toepassingskaart voor organische bemesting in zijn "
+"velddatabase. Hij stuurt deze via de agrirouter naar de tractor. De terminal "
+"ontvangt de kaart automatisch - zonder USB-stick of andere tussenstappen.  "
+"Tijdens het uitrijden worden de hoeveelheden voedingsstoffen, sporen en "
+"machinegegevens automatisch gedocumenteerd. Dit geeft de landbouwer altijd "
+"een overzicht van de naleving van de voorschriften en bespaart handmatige "
+"nabewerking."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:61
@@ -12326,6 +12245,11 @@ msgid ""
 "Maschineneinstellungen vornehmen zu müssen. Die Ergebnisse werden "
 "automatisch und in Echtzeit an die Betriebsleitung zurückgemeldet."
 msgstr ""
+"Het Loonbedrijf plant verschillende toepassingskaarten voor verschillende "
+"velden en verdeelt deze over het machinepark. Elke bestuurder kan direct "
+"beginnen met de plaatsspecifieke bemesting zonder handmatige machine-"
+"instellingen. De resultaten worden automatisch en in realtime teruggekoppeld "
+"naar het bedrijfsmanagement."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:67
@@ -12334,6 +12258,9 @@ msgid ""
 "Ausbringungszeitpunkten kann der Landwirt die organische Düngung präzise und "
 "gesetzeskonform durchführen."
 msgstr ""
+"Dankzij de automatische documentatie van nutriënthoeveelheden, "
+"uitsluitingszones en toedieningstijden kan de boer organische bemesting "
+"nauwkeurig en in overeenstemming met de wet uitvoeren."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:73
@@ -12345,43 +12272,53 @@ msgid ""
 "den Überblick behält. Dies spart sowohl Zeit im Büro als auch auf dem Feld "
 "und reduziert Fehler durch manuelle Dokumentation."
 msgstr ""
+"Dankzij vooraf geplande taken op kantoor en automatische machine-"
+"instellingen kunnen zelfs minder ervaren bestuurders een taak met gemak "
+"afronden. De machine regelt de dosering automatisch, terwijl de chauffeur te "
+"allen tijde het overzicht behoudt. Dit bespaart tijd op kantoor en in het "
+"veld en vermindert fouten door handmatige documentatie."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:81
 #, no-wrap
 msgid "Mineralische Düngung"
-msgstr ""
+msgstr "Minerale bemesting"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:95
 #, no-wrap
 msgid "sodass nachfolgende Arbeiten (z. B. Pflanzenschutz) auf denselben Spuren erfolgen können."
 msgstr ""
+"zodat latere werkzaamheden (bijv. gewasbescherming) op dezelfde sporen "
+"kunnen worden uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:99
 #, no-wrap
 msgid "sodass ich rechtssicher arbeite."
-msgstr ""
+msgstr "zodat mijn werk wettelijk voldoet."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:101
 #, no-wrap
 msgid "möchte ich geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
 msgstr ""
+"Ik wil geplande orders met rijstroken en doseerhoeveelheden naar een machine "
+"sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:105
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil toepassingskaarten met exacte doseerinformatie naar een of meer "
+"machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:107
 #, no-wrap
 msgid "sodass die Ausbringung präzise und effizient erfolgen kann."
-msgstr ""
+msgstr "zodat de toepassing nauwkeurig en efficiënt kan worden uitgevoerd."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:130
@@ -12394,6 +12331,13 @@ msgid ""
 "dokumentiert. Der Landwirt hat so jederzeit den Überblick über die "
 "Einhaltung der Vorschriften und spart sich die manuelle Nachbearbeitung."
 msgstr ""
+"De landbouwer maakt een toepassingskaart voor minerale bemesting in zijn "
+"velddatabase. Hij stuurt deze via de agrirouter naar de tractor. De terminal "
+"ontvangt de kaart automatisch - zonder USB-stick of andere tussenstappen.  "
+"Tijdens het uitrijden worden de hoeveelheden voedingsstoffen, "
+"uitsluitingszones, sporen en machinegegevens automatisch gedocumenteerd. Dit "
+"geeft de landbouwer op elk moment een overzicht van de naleving van de "
+"voorschriften en bespaart handmatige nabewerking."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:136
@@ -12404,12 +12348,17 @@ msgid ""
 "manuelle Maschineneinstellungen vornehmen zu müssen. Die Ergebnisse werden "
 "automatisch und in Echtzeit an die Betriebsleitung zurückgemeldet."
 msgstr ""
+"Het Loonbedrijf plant verschillende toepassingskaarten voor verschillende "
+"velden en verdeelt deze over het machinepark. Elke bestuurder kan direct "
+"beginnen met de locatiespecifieke minerale bemesting zonder handmatige "
+"machine-instellingen. De resultaten worden automatisch en in realtime "
+"teruggemeld aan het bedrijfsmanagement."
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:1
 #, no-wrap
 msgid "Ernte"
-msgstr ""
+msgstr "Oogst"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:4
@@ -12422,37 +12371,48 @@ msgid ""
 "wertvolle Daten für zukünftige Entscheidungen, wie Aussaat- oder "
 "Düngeplanung, bereitgestellt."
 msgstr ""
+"In dit hoofdstuk wordt uitgelegd hoe de agrirouter processen tijdens de "
+"oogst ondersteunt. Hij maakt het mogelijk om machines en landbouwsoftware in "
+"een netwerk op te nemen en vergemakkelijkt de planning en verzending van "
+"orders en de automatische registratie van telemetriegegevens en opbrengsten. "
+"Dit maakt processen transparanter, vereenvoudigt de facturering en levert "
+"waardevolle gegevens voor toekomstige beslissingen, zoals de planning van "
+"zaaien of bemesten."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:5
 #, no-wrap
 msgid "Getreideernte"
-msgstr ""
+msgstr "Graanoogst"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:13
 #, no-wrap
 msgid "möchte ich einen Ernteauftrag für ein bestimmtes Feld planen und an die Maschine senden"
 msgstr ""
+"Ik wil een oogstorder plannen voor een specifiek veld en deze naar de "
+"machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:15
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Fläche wie geerntet werden soll."
 msgstr ""
+"zodat de bestuurder precies weet welk gebied geoogst moet worden en hoe."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:17
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#, no-wrap
 msgid "möchte ich Aufträge an mehrere Maschinen gleichzeitig senden können"
-msgstr "Een toepassingskaart tegelijkertijd naar meerdere eindpunten verzenden"
+msgstr "Ik wil orders naar meerdere machines tegelijk kunnen sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:19
 #, no-wrap
 msgid "sodass die Flotte effizient eingesetzt wird und Verzögerungen minimiert werden."
 msgstr ""
+"zodat de vloot efficiënt wordt ingezet en vertragingen tot een minimum "
+"worden beperkt."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:21
@@ -12467,19 +12427,23 @@ msgstr "Ik wil de telemetriegegevens van alle machines bekijken"
 #, no-wrap
 msgid "sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann."
 msgstr ""
+"zodat ik vloottoewijzingen kan aanpassen of werknemers op korte termijn kan "
+"inroosteren."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:25
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:23
 #, no-wrap
 msgid "möchte ich, dass Telemetriedaten automatisch zurückgemeldet werden"
-msgstr ""
+msgstr "Ik wil dat telemetriegegevens automatisch worden gerapporteerd"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:27
 #, no-wrap
 msgid "sodass Erntezeit, gefahrene Flächen und Ertrag ohne manuellen Aufwand dokumentiert werden."
 msgstr ""
+"zodat de oogsttijd, de bereden gebieden en de opbrengst worden "
+"gedocumenteerd zonder handmatige inspanning."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:29
@@ -12487,6 +12451,8 @@ msgstr ""
 #, no-wrap
 msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das vorher nicht geplant war"
 msgstr ""
+"Ik wil graag herkennen wanneer een veld spontaan is geoogst dat niet van "
+"tevoren was gepland"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:31
@@ -12494,7 +12460,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:324
 #, no-wrap
 msgid "sodass auch unvorhergesehene Arbeiten korrekt dokumentiert werden können."
-msgstr ""
+msgstr "zodat zelfs onvoorzien werk correct kan worden gedocumenteerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:33
@@ -12505,6 +12471,8 @@ msgstr ""
 #, no-wrap
 msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war"
 msgstr ""
+"Ik wil graag herkennen wanneer een veld spontaan is geoogst dat niet van "
+"tevoren was gepland"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:35
@@ -12514,6 +12482,8 @@ msgstr ""
 #, no-wrap
 msgid "sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können."
 msgstr ""
+"zodat zelfs onvoorziene werkzaamheden correct kunnen worden gedocumenteerd "
+"en gefactureerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:41
@@ -12523,6 +12493,8 @@ msgstr ""
 #, no-wrap
 msgid "möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
 msgstr ""
+"Ik wil automatisch de oogsthoeveelheden, de oppervlakte-output en de "
+"bedrijfstijden registreren"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:50
@@ -12532,6 +12504,10 @@ msgid ""
 "Lohnunternehmer übermittelt. Die Fahrer sehen sofort, welches Feld sie "
 "ernten müssen und welche Fläche wie bearbeitet werden soll."
 msgstr ""
+"De boer plant de graanoogst op zijn velden en maakt oogstopdrachten aan in "
+"de landbouwsoftware. De orders worden rechtstreeks naar het Loonbedrijf "
+"gestuurd. De chauffeurs kunnen meteen zien welk veld ze moeten oogsten en "
+"welk gebied moet worden bewerkt en hoe."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:56
@@ -12541,6 +12517,10 @@ msgid ""
 "bereits abgeerntet wurde, wie lange die Maschine im Einsatz war und wie viel "
 "Ertrag eingebracht wurde – ohne dass dieser manuell Protokolle führen muss."
 msgstr ""
+"Tijdens de oogst worden de telemetriegegevens in realtime teruggemeld aan de "
+"landbouwsoftware. De boer kan dus direct zien welke oppervlakte al is "
+"geoogst, hoe lang de machine al in gebruik is en hoeveel opbrengst er is "
+"geoogst - zonder dat hij handmatige logboeken hoeft bij te houden."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:62
@@ -12551,6 +12531,11 @@ msgid ""
 "jederzeit den Fortschritt der gesamten Flotte überwachen und Engpässe "
 "frühzeitig erkennen."
 msgstr ""
+"De dispatcher van het Loonbedrijf verdeelt de oogstopdrachten over twee "
+"maaidorsers tegelijk. Beide machines werken parallel op verschillende "
+"velden. Dankzij de automatische telemetrie-feedback kan de planner de "
+"voortgang van de hele vloot op elk moment controleren en knelpunten in een "
+"vroeg stadium herkennen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:68
@@ -12559,6 +12544,9 @@ msgid ""
 "Als eine Maschine ausfällt, kann er sofort die Einsatzplanung anpassen und "
 "einem anderen Fahrer Aufgaben zuweisen, um den Zeitplan einzuhalten."
 msgstr ""
+"De planner van een Loonbedrijf houdt alle machines in realtime in de gaten. "
+"Als een machine kapot gaat, kan hij onmiddellijk de planning aanpassen en "
+"taken aan een andere bestuurder toewijzen om de planning aan te houden."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:74
@@ -12568,6 +12556,10 @@ msgid ""
 "geplant. Mit den Telemetriedaten kann er die Abrechnung korrigieren und "
 "sicherstellen, dass keine Arbeit verloren geht."
 msgstr ""
+"Na de oogst controleert het Loonbedrijf de telemetriegegevens. Hij ziet dat "
+"een veld per ongeluk minder is geoogst dan gepland. Hij kan de "
+"telemetriegegevens gebruiken om de facturering te corrigeren en ervoor te "
+"zorgen dat er geen werk verloren gaat."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:80
@@ -12578,6 +12570,10 @@ msgid ""
 "nachvollziehen und korrekt abrechnen, ohne dass die spontane Arbeit verloren "
 "geht."
 msgstr ""
+"Een bestuurder heeft spontaan een extra veld geoogst dat niet in het "
+"oorspronkelijke plan was opgenomen. De telemetriegegevens laten dit extra "
+"werk precies zien. Het Loonbedrijf kan het uitgevoerde werk traceren en "
+"correct factureren zonder het spontane werk te verliezen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:86
@@ -12587,6 +12583,10 @@ msgid ""
 "Agrarsoftware nutzt dann die Ertragsinformationen des Vorjahres, um die "
 "Empfehlungen für teilflächenspezifische Maßnahmen zu optimieren."
 msgstr ""
+"Dankzij de gedetailleerde telemetriegegevens en opbrengstrecords kan de boer "
+"nauwkeurige bemestings- en zaaikaarten maken voor het volgende jaar. De "
+"landbouwsoftware gebruikt dan de opbrengstgegevens van het voorgaande jaar "
+"om de aanbevelingen voor locatiespecifieke maatregelen te optimaliseren."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:92
@@ -12596,6 +12596,10 @@ msgid ""
 "auch für gesetzliche oder betriebliche Nachweise verwenden, ohne dass "
 "zusätzliche manuelle Aufzeichnungen nötig sind."
 msgstr ""
+"De geregistreerde oogsthoeveelheden worden automatisch gedocumenteerd in de "
+"landbouwsoftware. De boer kan deze gegevens gebruiken voor interne analyses, "
+"maar ook voor wettelijke of operationele verificatie, zonder dat er extra "
+"handmatige registraties nodig zijn."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:94
@@ -12605,10 +12609,9 @@ msgstr "Strooogst"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:102
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Strohpressaufträge planen und an eine Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil strobalen plannen en naar een machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:104
@@ -12620,39 +12623,38 @@ msgstr ""
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:106
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag an mehrere Maschinen gleichzeitig senden können"
-msgstr "Een toepassingskaart tegelijkertijd naar meerdere eindpunten verzenden"
+msgstr "Ik wil een bestelling naar meerdere machines tegelijk kunnen sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:108
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:29
 #, no-wrap
 msgid "sodass die Flotte effizient eingesetzt wird."
-msgstr ""
+msgstr "zodat de vloot efficiënt wordt gebruikt."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:110
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:302
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Fahrspuren einer Maschine an andere Maschinen übermitteln"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil de sporen van een machine naar andere machines verzenden"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:112
 #, no-wrap
 msgid "sodass nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
 msgstr ""
+"zodat volgende bestuurders, bijvoorbeeld persrijders, niet langer hun eigen "
+"rijstroken hoeven te registreren."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:114
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:216
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich Telemetriedaten aller Maschinen einsehen"
-msgstr "De telemetriegegevens van de machine worden nu weergegeven."
+msgstr "Ik wil telemetriegegevens van alle machines bekijken"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:116
@@ -12660,19 +12662,22 @@ msgstr "De telemetriegegevens van de machine worden nu weergegeven."
 #, no-wrap
 msgid "sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können."
 msgstr ""
+"zodat de inzet van de vloot op korte termijn kan worden aangepast of "
+"werknemers kunnen worden overgeplaatst."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:118
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich Telemetriedaten automatisch zurückgemeldet bekommen"
-msgstr "De telemetriegegevens van de machine worden nu weergegeven."
+msgstr "Ik wil graag dat telemetriegegevens automatisch worden gerapporteerd"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:120
 #, no-wrap
 msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand."
 msgstr ""
+"zodat het aantal balen, het gewicht en de vochtigheid worden gedocumenteerd "
+"zonder enige handmatige inspanning."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:142
@@ -12683,6 +12688,12 @@ msgid ""
 "automatisch erfasst und in die Agrarsoftware übertragen. Der Landwirt hat "
 "dadurch jederzeit einen Überblick über die Menge und Qualität des Strohs."
 msgstr ""
+"Na de graanoogst plant een landbouwer het gebruik van stro. De bestuurder "
+"van de balenpers ontvangt de opdracht rechtstreeks via de agrirouter op zijn "
+"machine. Tijdens het werk worden het aantal balen, het gewicht en de "
+"vochtigheid automatisch geregistreerd en doorgestuurd naar de "
+"landbouwsoftware. Zo heeft de landbouwer op elk moment een overzicht van de "
+"hoeveelheid en de kwaliteit van het stro."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:148
@@ -12693,6 +12704,12 @@ msgid ""
 "und ermöglichen es dem Disponenten, die Auslastung der Maschinen zu "
 "überwachen und bei Bedarf kurzfristig umzudisponieren."
 msgstr ""
+"Een Loonbedrijf gebruikt meerdere balenpersen parallel. Dankzij de orders "
+"die via de agrirouter worden gesynchroniseerd, weten alle bestuurders op "
+"welke gebieden ze moeten werken. De geregistreerde telemetriegegevens worden "
+"op kantoor verzameld en stellen de planner in staat om het gebruik van de "
+"machines te controleren en ze indien nodig op korte termijn opnieuw in te "
+"plannen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:154
@@ -12702,6 +12719,10 @@ msgid ""
 "anlegen und kann sich direkt an den bestehenden orientieren. Dadurch wird "
 "die Arbeit effizienter und unnötige Aufzeichnungen werden vermieden."
 msgstr ""
+"Na het oogsten draagt een maaidorser zijn sporen over aan de volgende "
+"balenpersbestuurder. Deze hoeft niet langer zijn eigen sporen aan te maken "
+"en kan zich direct op de bestaande sporen oriënteren. Dit maakt het werk "
+"efficiënter en voorkomt onnodige registraties."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:160
@@ -12711,6 +12732,10 @@ msgid ""
 "war. Durch die automatisch erfassten Telemetriedaten ist der Zusatzauftrag "
 "dennoch dokumentiert und kann somit in Rechnung gestellt werden."
 msgstr ""
+"Tijdens de facturering realiseert een Loonbedrijf zich dat er een extra veld "
+"is verdicht, hoewel dit niet was opgenomen in de oorspronkelijke bestelling. "
+"Dankzij de automatisch geregistreerde telemetriegegevens wordt de extra "
+"opdracht toch gedocumenteerd en kan deze dus worden gefactureerd."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:166
@@ -12721,80 +12746,96 @@ msgid ""
 "Nachdokumentation genutzt werden, sodass der nicht dokumentierte Auftrag "
 "nicht verloren geht und trotzdem abgerechnet werden kann."
 msgstr ""
+"Een werknemer vergeet een spontane persorder in te voeren in het systeem. "
+"Later herkent de dispatcher op kantoor aan de telemetriegegevens dat er nog "
+"balen werden geperst nadat de order was voltooid. Deze gegevens kunnen "
+"worden gebruikt voor latere documentatie, zodat de ongedocumenteerde order "
+"niet verloren gaat en alsnog kan worden gefactureerd."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:168
 #, no-wrap
 msgid "Grasernte"
-msgstr ""
+msgstr "Grasoogst"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:178
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll und der weitere Arbeitsablauf optimal vorbereitet ist."
 msgstr ""
+"zodat mijn medewerker precies weet welk werk waar moet worden uitgevoerd en "
+"de verdere workflow optimaal is voorbereid."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:180
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Heupressaufträge planen und an die Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil graag hooibalen plannen en ze naar de machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:182
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen."
 msgstr ""
+"zodat de bestuurder precies weet welk werk op welk veld moet worden "
+"uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:184
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich für den Schwaderfahrer eine A-B-Linie planen und an die Maschine senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil graag een A-B-lijn plannen voor de harkmachinist en deze naar de "
+"machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:186
 #, no-wrap
 msgid "sodass die Schwaden optimal für den nachfolgenden Arbeitsablauf vorbereitet werden."
 msgstr ""
+"zodat de zwaden optimaal voorbereid zijn voor het daaropvolgende "
+"bewerkingsproces."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:188
 #, no-wrap
 msgid "möchte ich für den Häcksler die Parameter (Häckselgutlänge, Silagemittelmenge etc.) vorbereiten und versenden können"
 msgstr ""
+"Ik zou graag de parameters (lengte gehakseld materiaal, hoeveelheid "
+"kuilvoer, enz.) voor de hakselaar kunnen voorbereiden en verzenden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:190
 #, no-wrap
 msgid "sodass die Silagequalität an die gewünschte Fütterung angepasst ist."
-msgstr ""
+msgstr "zodat de kuilkwaliteit wordt aangepast aan het gewenste voer."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:192
 #, no-wrap
 msgid "möchte ich meine aufgezeichnete A-B-Linie an den Häckslerfahrer übermitteln"
 msgstr ""
+"Ik wil mijn opgenomen A-B lijn naar de chauffeur van de veldhakselaar sturen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:194
 #, no-wrap
 msgid "sodass dieser die Schwaden optimal aufnehmen kann."
-msgstr ""
+msgstr "zodat het de dampen optimaal kan absorberen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:196
 #, no-wrap
 msgid "möchte ich, dass Maschinendaten automatisch zurückgemeldet werden"
-msgstr ""
+msgstr "Ik wil dat machinegegevens automatisch worden teruggemeld"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:198
 #, no-wrap
 msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit ohne manuellen Aufwand dokumentiert werden."
 msgstr ""
+"zodat het aantal balen, het gewicht en de vochtigheid worden gedocumenteerd "
+"zonder handmatige inspanning."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:200
@@ -12809,6 +12850,8 @@ msgstr ""
 #, no-wrap
 msgid "sodass dokumentiert ist, wie viel Zeit und Überfahrten in die Verdichtung investiert wurden."
 msgstr ""
+"zodat gedocumenteerd kan worden hoeveel tijd en passen er in de verdichting "
+"zijn geïnvesteerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:204
@@ -12823,31 +12866,36 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:206
 #, no-wrap
 msgid "sodass ich die Daten für die Futterplanung nutzen kann."
-msgstr ""
+msgstr "zodat ik de gegevens kan gebruiken voor de voederplanning."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:210
 #, no-wrap
 msgid "sodass ich die Daten für die Optimierung zukünftiger Düngungen nutzen kann."
 msgstr ""
+"zodat ik de gegevens kan gebruiken om toekomstige bemesting te optimaliseren."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:214
 #, no-wrap
 msgid "sodass ich die Daten für die Dokumentation nutzen kann."
-msgstr ""
+msgstr "zodat ik de gegevens kan gebruiken voor de documentatie."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:232
 #, no-wrap
 msgid "möchte ich die gesamten Maschinendaten (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) zusammenführen"
 msgstr ""
+"Ik wil graag alle machinegegevens samenvoegen (maaien, draaien, zwadden, "
+"hakselen, afrijden, rollen)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:233
 #, no-wrap
 msgid "sodass ich die Arbeit für die Abrechnung und für den Kunden transparent dokumentieren kann."
 msgstr ""
+"zodat ik het werk transparant kan documenteren voor de facturering en voor "
+"de klant."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:240
@@ -12858,6 +12906,11 @@ msgid ""
 "welcher Reihenfolge bearbeitet werden muss. So wird der gesamte Ablauf der "
 "Grasernte effizient organisiert."
 msgstr ""
+"De landbouwer plant de grasoogst op zijn boerderij. Hij gebruikt de "
+"landbouwsoftware om werkopdrachten te maken voor maaien, keren en zwadden en "
+"stuurt deze naar de machines. De bestuurders weten dan precies welk veld "
+"bewerkt moet worden en in welke volgorde. Op deze manier wordt het hele "
+"grasoogstproces efficiënt georganiseerd."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:246
@@ -12869,6 +12922,12 @@ msgid ""
 "kann der Häcksler die Schwaden optimal aufnehmen, was die Ernteleistung "
 "steigert."
 msgstr ""
+"De dispatcher van een Loonbedrijf maakt een A-B lijn aan voor de machinist. "
+"De bestuurder ontvangt de lijn rechtstreeks op zijn terminal en kan de "
+"zwaden recht en schoon leggen. De bestuurder van de zwadhakselaar geeft "
+"vervolgens zijn opgenomen A-B lijn door aan de bestuurder van de hakselaar. "
+"Hierdoor kan de hakselaar de zwaden optimaal oppakken, wat de "
+"oogstprestaties verhoogt."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:252
@@ -12879,6 +12938,10 @@ msgid ""
 "sichergestellt, dass die Silagequalität genau auf die Bedürfnisse der "
 "Fütterung abgestimmt ist."
 msgstr ""
+"De dispatcher bepaalt digitaal de gewenste snijlengte en het gebruik van "
+"inkuiladditieven voor de hakselaar. Deze instellingen worden automatisch "
+"doorgegeven aan de chauffeur en de machine. Dit zorgt ervoor dat de "
+"silagekwaliteit precies is afgestemd op de voereisen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:258
@@ -12888,6 +12951,10 @@ msgid ""
 "investiert wurden. Diese Daten nutzt der Landwirt, um die Qualität der "
 "Silage später besser einschätzen zu können."
 msgstr ""
+"De telemetriegegevens van de rollende voertuigen worden geregistreerd op de "
+"silo. Het documenteert hoeveel werkgangen en hoeveel tijd er is geïnvesteerd "
+"in de verdichting. De boer gebruikt deze gegevens om de kwaliteit van de "
+"kuil later beter te kunnen beoordelen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:264
@@ -12897,6 +12964,10 @@ msgid ""
 "und stellt diese seinem Kunden zur Verfügung. So sind sowohl die Abrechnung "
 "als auch die Dokumentation der Arbeiten transparent und nachvollziehbar."
 msgstr ""
+"Een Loonbedrijf verzamelt automatisch de machinegegevens van alle gebruikte "
+"voertuigen (maaien, keren, zwadharken, hakselen, afrijden, rollen) en stelt "
+"deze ter beschikking aan de klant. Dit maakt zowel de facturatie als de "
+"documentatie van het werk transparant en traceerbaar."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:270
@@ -12906,6 +12977,11 @@ msgid ""
 "Düngungen und für die Dokumentation. Dadurch stehen alle relevanten "
 "Informationen langfristig und ohne zusätzlichen Aufwand bereit."
 msgstr ""
+"De opbrengsthoeveelheden die tijdens de grasoogst worden geregistreerd, "
+"worden opgeslagen. De boer gebruikt deze gegevens voor voederplanning, het "
+"optimaliseren van toekomstige bemesting en voor documentatiedoeleinden. Dit "
+"betekent dat alle relevante informatie op lange termijn en zonder extra "
+"inspanningen beschikbaar is."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:276
@@ -12916,56 +12992,69 @@ msgid ""
 "Telemetriedaten wie Ballenanzahl, Gewicht und Feuchtigkeit erfasst und in "
 "die Agrarsoftware zurückgemeldet."
 msgstr ""
+"De landbouwer maakt een hooi-oogstorder aan in de landbouwsoftware. De "
+"bestuurder ontvangt de gegevens op zijn terminal en weet precies welke "
+"velden bewerkt moeten worden. Tegelijkertijd worden telemetriegegevens zoals "
+"het aantal balen, het gewicht en de vochtigheid automatisch geregistreerd "
+"tijdens het hooibalen en teruggemeld aan de landbouwsoftware."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:278
 #, no-wrap
 msgid "Maisernte"
-msgstr ""
+msgstr "Maïsoogst"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:290
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Aufträge für den Häcksler erstellen"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil graag orders aanmaken voor de hakselaar"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:292
 #, no-wrap
 msgid "sodass die Erntearbeiten klar definiert und nachvollziehbar sind."
-msgstr ""
+msgstr "zodat het oogstwerk duidelijk gedefinieerd en traceerbaar is."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:294
 #, no-wrap
 msgid "möchte ich Aufträge für die Abfahrer erstellen, in denen die zu erntenden Schläge hinterlegt sind"
 msgstr ""
+"Ik wil orders maken voor de oogstmachines waarin de te oogsten velden zijn "
+"opgeslagen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:296
 #, no-wrap
 msgid "sodass die Abfahrer genau wissen, von welchen Flächen sie den Mais abholen müssen."
 msgstr ""
+"zodat de chauffeurs precies weten in welke gebieden ze de maïs moeten "
+"ophalen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:298
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+#, no-wrap
 msgid "möchte ich Applikationskarten an den Häcksler übermitteln, die auf den Aussaatkarten basieren"
-msgstr "Meerdere toepassingskaarten naar één terminal sturen"
+msgstr ""
+"Ik wil toepassingskaarten naar de veldhakselaar sturen die zijn gebaseerd op "
+"de zaaikaarten"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:300
 #, no-wrap
 msgid "sodass Fahrspuren und die Ausrichtung der Maisreihen berücksichtigt werden und der Häcksler effizient arbeiten kann."
 msgstr ""
+"zodat er rekening wordt gehouden met de rijstroken en de uitlijning van de "
+"maïsrijen en de hakselaar efficiënt kan werken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:304
 #, no-wrap
 msgid "sodass nachfolgende Fahrer, z. B. Häckslerfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
 msgstr ""
+"zodat volgende bestuurders, bijvoorbeeld bestuurders van hakselaars, niet "
+"langer hun eigen rijbaan hoeven te registreren."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:310
@@ -12980,18 +13069,24 @@ msgstr ""
 #, no-wrap
 msgid "sodass Arbeitszeit, Flächenleistung und Maschinenauslastung nachvollziehbar sind."
 msgstr ""
+"zodat de werktijd, de oppervlakte-output en het machinegebruik kunnen worden "
+"bijgehouden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:314
 #, no-wrap
 msgid "möchte ich anhand von Telemetriedaten sehen, wie weit ein Schlag bereits abgeerntet wurde"
 msgstr ""
+"Ik wil telemetriegegevens gebruiken om te zien hoe ver een veld al is "
+"geoogst."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:316
 #, no-wrap
 msgid "sodass ich die weiteren Einsätze (z. B. Abfahrer, Silofahrzeuge, nächste Schläge) optimal planen kann."
 msgstr ""
+"zodat ik verdere operaties optimaal kan plannen (bijv. vertrekken, "
+"silagewagens, volgende inslagen)."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:318
@@ -13004,19 +13099,24 @@ msgstr "Ik wil de vastgelegde opbrengsthoeveelheden van de maïs-oogst opslaan"
 #, no-wrap
 msgid "sodass ich diese Daten für die Dokumentation und für die Erstellung zukünftiger Aussaat- und Düngerkarten verwenden kann."
 msgstr ""
+"zodat ik deze gegevens kan gebruiken voor documentatie en voor het maken van "
+"toekomstige zaai- en bemestingskaarten."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:334
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich die Telemetriedaten der Maisernte für die Abrechnung nutzen können"
-msgstr "De telemetriegegevens van de machine worden nu weergegeven."
+msgstr ""
+"Ik wil de telemetriegegevens van de maïsoogst kunnen gebruiken voor "
+"facturatiedoeleinden"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:335
 #, no-wrap
 msgid "sodass die geleisteten Arbeiten transparent und fehlerfrei gegenüber dem Kunden abgerechnet werden können."
 msgstr ""
+"zodat het uitgevoerde werk transparant en nauwkeurig kan worden gefactureerd "
+"aan de klant."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:344
@@ -13027,6 +13127,10 @@ msgid ""
 "Terminal und weiß dadurch genau, auf welchem Feld er einsetzen muss. "
 "Verwechslungen oder unnötige Rückfragen entfallen."
 msgstr ""
+"De boer maakt in zijn landbouwsoftware orders aan voor de werknemers op zijn "
+"bedrijf. Hierin staan de velden waar de maïs moet worden opgehaald. Elke "
+"chauffeur heeft de opdracht direct op zijn terminal en weet dus precies op "
+"welk veld hij moet werken. Er zijn geen verwisselingen of onnodige vragen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:350
@@ -13037,6 +13141,11 @@ msgid ""
 "eingeben zu müssen. So ist der Ablauf klar definiert und der Start der Ernte "
 "verzögert sich nicht."
 msgstr ""
+"De landbouwcoöperatie maakt een oogstorder voor de hakselaar voor het "
+"Loonbedrijf. Deze bevat de veldgrootte en veldgrenzen. De bestuurder van de "
+"hakselaar kan de opdracht direct aannemen zonder handmatig gegevens in te "
+"voeren. Hierdoor is het proces duidelijk gedefinieerd en wordt de start van "
+"de oogst niet vertraagd."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:356
@@ -13047,6 +13156,11 @@ msgid ""
 "Maisreihen arbeiten, was den Ernteprozess beschleunigt und Verluste "
 "reduziert."
 msgstr ""
+"Er wordt een opdracht aangemaakt voor de hakselaar op basis van de "
+"zaaikaarten die in de lente zijn gebruikt. Deze bevat informatie over de "
+"uitlijning van de rijen en sporen. Hierdoor kan de chauffeur van de "
+"hakselaar precies langs de maïsrijen werken, wat het oogstproces versnelt en "
+"verliezen vermindert."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:362
@@ -13056,6 +13170,10 @@ msgid ""
 "Der Disponent hat so jederzeit einen Überblick, wie weit die Arbeiten "
 "bereits fortgeschritten sind, ohne ständig telefonieren zu müssen."
 msgstr ""
+"Tijdens het oogsten stuurt de hakselaar automatisch telemetriegegevens naar "
+"het kantoor. Deze omvatten de bewerkte oppervlakte, de bezettingsgraad en de "
+"voortgang van de oogst. De planner heeft dus op elk moment een overzicht van "
+"hoe ver het werk gevorderd is, zonder dat hij constant hoeft te bellen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:368
@@ -13066,6 +13184,10 @@ msgid ""
 "hinweisen. Stillstandzeiten werden vermieden, und die Maschinenflotte wird "
 "optimal eingesetzt."
 msgstr ""
+"De dispatcher in het Loonbedrijf kan op zijn scherm zien dat één veld al "
+"voor 70% is geoogst. Hij kan dan de volgende tijdig voorbereiden en "
+"tegelijkertijd de walsen op de silo adviseren. Stilstand wordt vermeden en "
+"het machinepark wordt optimaal benut."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:374
@@ -13076,6 +13198,11 @@ msgid ""
 "erbrachten Leistungen geben. Fehlerhafte Stundenzettel oder unvollständige "
 "Angaben durch Fahrer gehören der Vergangenheit an."
 msgstr ""
+"Zodra de oogst klaar is, beschikt het Loonbedrijf automatisch over de "
+"telemetriegegevens van alle gebruikte machines. Hij kan deze gebruiken voor "
+"de facturatie en de klant een transparant overzicht geven van de geleverde "
+"diensten. Onjuiste urenstaten of onvolledige informatie van bestuurders "
+"behoren tot het verleden."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:380
@@ -13085,6 +13212,10 @@ msgid ""
 "geplant. Mit den Telemetriedaten kann er die Abrechnung korrigieren und "
 "sicherstellen, dass keine Arbeit verloren geht."
 msgstr ""
+"Na de oogst controleert het Loonbedrijf de telemetriegegevens. Hij ziet dat "
+"een veld per ongeluk minder werd geoogst dan gepland. Hij kan de "
+"telemetriegegevens gebruiken om de facturering te corrigeren en ervoor te "
+"zorgen dat er geen werk verloren gaat."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:386
@@ -13095,13 +13226,17 @@ msgid ""
 "Damit kann er die Erträge langfristig steigern und die Flächen effizienter "
 "bewirtschaften."
 msgstr ""
+"De opbrengstgegevens die door de hakselaar worden geregistreerd, worden "
+"automatisch opgeslagen. De boer gebruikt deze gegevens zowel voor zijn "
+"documentatie als voor het maken van geoptimaliseerde zaai- en "
+"bemestingskaarten voor het volgende jaar. Dit stelt hem in staat om de "
+"opbrengst op de lange termijn te verhogen en het land efficiënter te beheren."
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Listing"
+#, no-wrap
 msgid "Logistik"
-msgstr "Vermelding"
+msgstr "Logistiek"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:4
@@ -13115,13 +13250,22 @@ msgid ""
 "erleichtert. Dadurch wird jederzeit der Überblick über die Abläufe "
 "gewährleistet und auf Änderungen kann schneller reagiert werden."
 msgstr ""
+"Transport en machinecoördinatie zijn vaak een uitdaging in de landbouw: "
+"ronde balen, kuilvoer of andere geoogste producten moeten op tijd worden "
+"verplaatst en processen moeten efficiënt en transparant zijn. De agrirouter "
+"biedt ondersteuning op dit gebied door machines, transportvoertuigen en "
+"landbouwsoftware in een netwerk op te nemen, telemetriegegevens in realtime "
+"te leveren en de planning, coördinatie en facturering van transporten te "
+"vergemakkelijken. Hierdoor is er altijd overzicht over de processen en kan "
+"er sneller worden gereageerd op veranderingen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:17
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil een taak plannen voor een veld en deze naar verschillende machines "
+"sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:19
@@ -13130,63 +13274,73 @@ msgstr "Meerdere kaarten naar één machine sturen"
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:109
 #, no-wrap
 msgid "sodass meine Mitarbeiter genau wissen, welche Arbeit wo durchgeführt werden soll."
-msgstr ""
+msgstr "zodat mijn werknemers precies weten welk werk waar gedaan moet worden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:21
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an die Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil verschillende orders plannen voor verschillende velden en ze naar de "
+"machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:23
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeiten wo durchgeführt werden sollen."
 msgstr ""
+"zodat mijn werknemer precies weet welk werk waar moet worden uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:25
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an mehrere Maschinen senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil verschillende orders plannen voor verschillende velden en ze naar "
+"verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:29
 #, no-wrap
 msgid "möchte ich die transportierten Mengen dokumentieren"
-msgstr ""
+msgstr "Ik wil graag de getransporteerde hoeveelheden documenteren"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:31
 #, no-wrap
 msgid "sodass die Nachvollziehbarkeit für Dokumentation und Compliance gewährleistet ist"
-msgstr ""
+msgstr "zodat de traceerbaarheid voor documentatie en naleving gegarandeerd is"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:44
 #, no-wrap
 msgid "möchte ich Telemetriedaten zur Position und zum Arbeitsfortschritt meiner Flotte erhalten"
 msgstr ""
+"Ik wil graag telemetriegegevens ontvangen over de positie en voortgang van "
+"de werkzaamheden van mijn vloot"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:46
 #, no-wrap
 msgid "sodass ich den Einsatz der Maschinen effizient koordinieren und bei Bedarf kurzfristig umdisponieren kann."
 msgstr ""
+"zodat ik het gebruik van de machines efficiënt kan coördineren en indien "
+"nodig op korte termijn kan verplaatsen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:56
 #, no-wrap
 msgid "möchte ich Telemetriedaten der Transportfahrzeuge automatisch erfassen"
 msgstr ""
+"Ik wil telemetriegegevens van de transportvoertuigen automatisch registreren"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:57
 #, no-wrap
 msgid "sodass ich die Abrechnung der Transportaufträge transparent und fehlerfrei durchführen kann."
 msgstr ""
+"zodat ik de facturatie van transportorders transparant en foutloos kan "
+"uitvoeren."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:64
@@ -13198,6 +13352,13 @@ msgid ""
 "übertragen, sodass der Betriebsleiter jederzeit sehen kann, wo sich das "
 "Fahrzeug befindet und ob der Transport planmäßig verläuft."
 msgstr ""
+"De landbouwmanager plant een transport van ronde balen van veld A naar de "
+"opslaglocatie in zijn landbouwsoftware. Hij maakt de order aan en stuurt "
+"deze rechtstreeks naar de chauffeur. De chauffeur ontvangt alle informatie "
+"over de route, de starttijd en de bestemming. Tijdens de rit worden "
+"telemetriegegevens van de trekker doorgestuurd, zodat de bedrijfsleider te "
+"allen tijde kan zien waar het voertuig zich bevindt en of het transport "
+"volgens plan verloopt."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:70
@@ -13208,6 +13369,11 @@ msgid ""
 "einen freien Fahrer mit einem anderen Fahrzeug umleiten, sodass die Ernte "
 "ohne Verzögerungen fortgesetzt wird."
 msgstr ""
+"De dispatcher van een Loonbedrijf ontvangt de positie en voortgang van alle "
+"transportvoertuigen in realtime op zijn dashboard. Wanneer een "
+"silagevoertuig pech krijgt op weg naar veld B, kan hij onmiddellijk een "
+"vrije chauffeur met een ander voertuig omleiden zodat de oogst zonder "
+"vertraging kan doorgaan."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:76
@@ -13216,6 +13382,9 @@ msgid ""
 "kann daraufhin die Rechnungen für die Landwirte transparent und fehlerfrei "
 "erstellen, ohne Kontrolle der manuellen Dokumentationen der Fahrer."
 msgstr ""
+"Het Loonbedrijf gebruikt de telemetriegegevens van zijn transportvoertuigen "
+"en kan vervolgens transparante en foutloze facturen maken voor de boeren "
+"zonder de handmatige documentatie van de chauffeurs te hoeven controleren."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:82
@@ -13227,13 +13396,18 @@ msgid ""
 "Telemetriedaten wäre der zusätzliche Auftrag verloren gegangen und nicht "
 "bezahlt worden."
 msgstr ""
+"Op kantoor is een medewerker vergeten een spontane bestelling in het systeem "
+"in te voeren. Zodra de telemetriegegevens zijn verzonden, wordt duidelijk "
+"dat een ander veld is verwerkt nadat een opdracht is voltooid. Hierdoor kan "
+"de opdracht achteraf in de loonlijst worden opgenomen. Zonder de "
+"telemetriegegevens zou de extra opdracht verloren zijn gegaan en niet zijn "
+"uitbetaald."
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:1
-#, fuzzy, no-wrap
-#| msgid "Datenschutz"
+#, no-wrap
 msgid "Pflanzenschutz"
-msgstr "Gegevensbescherming"
+msgstr "Bescherming van planten"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:4
@@ -13245,12 +13419,18 @@ msgid ""
 "Dadurch werden Prozesse effizienter gestaltet, Fehler reduziert und die "
 "Rückverfolgung gewährleistet."
 msgstr ""
+"In dit hoofdstuk wordt uitgelegd hoe de agrirouter de implementatie van "
+"chemische en mechanische gewasbescherming ondersteunt. Het maakt het "
+"netwerken van machines en landbouwsoftware mogelijk en vergemakkelijkt de "
+"overdracht van toepassingskaarten en de documentatie van de toegepaste "
+"hoeveelheden. Dit maakt processen efficiënter, vermindert fouten en zorgt "
+"voor traceerbaarheid."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:6
 #, no-wrap
 msgid "Mechanischer Pflanzenschutz"
-msgstr ""
+msgstr "Mechanische gewasbescherming"
 
 #. type: #mechanic-plantprotection
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:8
@@ -13263,32 +13443,43 @@ msgid ""
 "bekämpfen. Der mechanische Pflanzenschutz wird von einem Traktor oder einem "
 "autonomen Arbeitsgerät (z.B. Roboter) durchgeführt."
 msgstr ""
+"Mechanische gewasbescherming is een belangrijk onderdeel, vooral in "
+"biologische landbouw. Mechanische gewasbescherming houdt in dat er over het "
+"gewas wordt gereden met een eg, een schoffel of een verbrandingskamer. De "
+"schoffel en verbrandingskamer zijn meestal uitgerust met camera's, die "
+"vervolgens het onkruid herkennen en proactief bestrijden. Mechanische "
+"gewasbescherming wordt uitgevoerd door een trekker of een autonoom werktuig ("
+"bijvoorbeeld een robot)."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:15
 #, no-wrap
 msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden"
 msgstr ""
+"Ik wil een mechanische gewasbeschermingstaak plannen voor een veld en deze "
+"naar de machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:19
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil een mechanische gewasbeschermingstaak plannen voor een veld en deze "
+"naar verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:25
 #, no-wrap
 msgid "sodass Arbeitszeit, bearbeitete Fläche und Fortschritt ohne manuellen Aufwand dokumentiert sind."
 msgstr ""
+"zodat de werktijd, het verwerkte gebied en de voortgang worden "
+"gedocumenteerd zonder handmatige inspanning."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:27
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
-msgstr "Een toepassingskaart tegelijkertijd naar meerdere eindpunten verzenden"
+msgstr "Ik wil een bestelling naar meerdere apparaten tegelijk kunnen sturen"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:47
@@ -13299,6 +13490,11 @@ msgid ""
 "Bearbeitungsdetails auf dem Terminal in der Kabine. So weiß er genau, wo und "
 "wie die Arbeit durchgeführt werden soll."
 msgstr ""
+"De landbouwer plant een schoffelgang voor maïs op een veld van 20 ha in zijn "
+"landbouwsoftware. De opdracht wordt via de agrirouter rechtstreeks naar de "
+"machine van zijn werknemer gestuurd. Hij ontvangt de perceelsgrenzen en "
+"verwerkingsdetails op de terminal in de cabine. Dit betekent dat hij precies "
+"weet waar en hoe het werk moet worden uitgevoerd."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:53
@@ -13310,6 +13506,11 @@ msgid ""
 "Agrarsoftware jederzeit einen aktuellen Überblick über den Stand der "
 "Arbeiten."
 msgstr ""
+"Terwijl de machinist de eg over het veld rijdt, worden telemetriegegevens "
+"zoals werktijd, bewerkte oppervlakte en voortgang automatisch naar de "
+"landbouwsoftware verzonden. Dit bespaart de machinebestuurder handmatige "
+"documentatie en het Loonbedrijf heeft te allen tijde een actueel overzicht "
+"van de status van het werk in de landbouwsoftware."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:59
@@ -13319,6 +13520,10 @@ msgid ""
 "Maschinen verteilt werden. Die Fahrer starten ohne zusätzlichen "
 "Abstimmungsaufwand und die Flotte wird optimal ausgelastet."
 msgstr ""
+"Een Loonbedrijf gebruikt drie schoffelmachines parallel op verschillende "
+"velden. De taken kunnen via de agrirouter gelijktijdig over alle machines "
+"worden verdeeld. De bestuurders starten zonder extra coördinatie-inspanning "
+"en het machinepark wordt optimaal benut."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:65
@@ -13328,6 +13533,10 @@ msgid ""
 "dass eine Maschine schneller fertig wird als geplant, und disponiert den "
 "Fahrer kurzfristig auf ein anderes Feld um."
 msgstr ""
+"De planner van een Loonbedrijf ziet de telemetriegegevens van alle gebruikte "
+"schoffelmachines in realtime in zijn landbouwsoftware. Hij ziet dat een "
+"machine sneller klaar is dan gepland en stuurt de bestuurder op korte "
+"termijn naar een ander veld."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:71
@@ -13338,6 +13547,11 @@ msgid ""
 "Tippfehler oder verlorene Stundenzettel der Fahrer gehören damit der "
 "Vergangenheit an."
 msgstr ""
+"Zodra het werk is voltooid, controleert het Loonbedrijf de automatisch "
+"geregistreerde telemetriegegevens. De aannemer gebruikt deze gegevens om de "
+"klant te factureren en heeft tegelijkertijd controleerbare documentatie. "
+"Typefouten of zoekgeraakte urenstaten van chauffeurs behoren daarmee tot het "
+"verleden."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:77
@@ -13348,12 +13562,16 @@ msgid ""
 "automatisch aufgezeichneten Telemetriedaten wird die zusätzliche Arbeit "
 "dokumentiert."
 msgstr ""
+"Tijdens het werk vraagt een boer aan de chauffeur van het Loonbedrijf of hij "
+"direct op een naburig veld mag werken. Het werk was niet gepland in de "
+"landbouwsoftware, maar wordt toch uitgevoerd. Dankzij de automatisch "
+"geregistreerde telemetriegegevens wordt het extra werk gedocumenteerd."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:86
 #, no-wrap
 msgid "Chemischer Pflanzenschutz"
-msgstr ""
+msgstr "Chemische gewasbescherming"
 
 #. type: #chemical-plantprotection
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:88
@@ -13363,102 +13581,120 @@ msgid ""
 "großflächig oder punktuell behandelt werden. Es besteht aber auch die "
 "Möglichkeit mit einem Roboter über das Feld zu fahren."
 msgstr ""
+"Bij chemische gewasbescherming wordt meestal met een gewasbeschermingsspuit "
+"over het veld gereden. Het gewas op het veld kan over een groot gebied of "
+"selectief behandeld worden. Het is echter ook mogelijk om met een robot over "
+"het veld te rijden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:94
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:98
 #, no-wrap
 msgid "Als Dienstleister für Drohnen"
-msgstr ""
+msgstr "Als dienstverlener voor drones"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:95
 #, no-wrap
 msgid "möchte ich Unkraut- und Krankheitsdruck per Drohne erfassen und an die Agrarsoftware senden"
 msgstr ""
+"Ik wil graag de onkruid- en ziektedruk per drone registreren en naar de "
+"landbouwsoftware sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:97
 #, no-wrap
 msgid "sodass der Landwirt genau sieht, wo Pflanzenschutzmittel benötigt werden und eine Applikationskarte erstellt werden kann."
 msgstr ""
+"zodat de boer precies kan zien waar gewasbeschermingsmiddelen nodig zijn en "
+"er een toepassingskaart kan worden gemaakt."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:99
 #, no-wrap
 msgid "möchte ich aus den per Drohne erfassten Unkraut- und Krankheitsdrücken eine Applikationskarte erstellen und an den Landwirt senden"
 msgstr ""
+"Ik wil graag een toepassingskaart maken van de onkruid- en ziektedruk die "
+"met een drone is geregistreerd en deze naar de boer sturen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:101
 #, no-wrap
 msgid "sodass der Pflanzenschutz gezielt und effizient auf dem Feld durchgeführt werden kann."
 msgstr ""
+"zodat gewasbescherming in het veld doelgericht en efficiënt kan worden "
+"uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:103
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an eine Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil een chemische gewasbeschermingstaak plannen voor een veld en deze "
+"naar een machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:105
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeiten wo durchgeführt werden soll."
 msgstr ""
+"zodat mijn werknemer precies weet welk werk waar moet worden uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:107
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil een chemische gewasbeschermingstaak plannen voor een veld en deze "
+"naar verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:111
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten an eine Maschinen senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr "Ik wil meerdere receptkaarten naar één machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:113
 #, no-wrap
 msgid "sodass mein Mitarbeiter punktuell Spotspraying durchführen kann."
-msgstr ""
+msgstr "zodat mijn werknemer op bepaalde punten ter plekke kan sproeien."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:117
-#, fuzzy, no-wrap
-#| msgid "Eine Applikationskarte an mehrere Endpunkte gleichzeitig senden"
+#, no-wrap
 msgid "sodass mehrere Maschinen gleichzeitig punktuell Spotspraying durchführen können."
-msgstr "Een toepassingskaart tegelijkertijd naar meerdere eindpunten verzenden"
+msgstr "zodat meerdere machines tegelijkertijd kunnen spuiten."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:119
 #, no-wrap
 msgid "möchte ich, dass die Traktoren die Anbaugeräte automatisch nach Applikationskarten steuern"
 msgstr ""
+"Ik wil graag dat de trekkers de werktuigen automatisch besturen op basis van "
+"de toepassingskaarten."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:121
 #, no-wrap
 msgid "sodass auch weniger erfahrene Fahrer fehlerfrei arbeiten können."
-msgstr ""
+msgstr "zodat zelfs minder ervaren bestuurders probleemloos kunnen werken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:123
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich, dass Telemetriedaten automatisch an meine Agrarsoftware gesendet werden"
-msgstr "De telemetriegegevens van de machine worden nu weergegeven."
+msgstr ""
+"Ik wil dat telemetriegegevens automatisch naar mijn landbouwsoftware worden "
+"verzonden"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:125
 #, no-wrap
 msgid "sodass Ausbringmenge, Zeitpunkt, Uhrzeit und Fahrer gesetzeskonform dokumentiert werden können."
 msgstr ""
+"zodat de hoeveelheid, het tijdstip, de datum en de bestuurder van de "
+"aanvraag kunnen worden gedocumenteerd in overeenstemming met de wet."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:139
@@ -13471,6 +13707,14 @@ msgid ""
 "Telemetriedaten werden automatisch zurückgemeldet, sodass Ausbringmenge, "
 "Zeitpunkt und Fahrer dokumentiert sind."
 msgstr ""
+"De droneserviceprovider gebruikt drones om de onkruiddruk op de velden van "
+"de boer te detecteren. De gegevens worden automatisch naar de "
+"landbouwsoftware gestuurd. Op basis hiervan wordt in de landbouwsoftware een "
+"toepassingskaart voor gewasbescherming gemaakt. De boer kan de kaart "
+"rechtstreeks naar de tractor sturen, die de chemische middelen met uiterste "
+"precisie toepast. Telemetriegegevens worden automatisch teruggemeld, zodat "
+"de toepassingshoeveelheid, het tijdstip en de bestuurder worden "
+"gedocumenteerd."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:146
@@ -13482,6 +13726,12 @@ msgid ""
 "müssen.  Die automatische Rückmeldung stellt sicher, dass die gesetzlich "
 "vorgeschriebene Dokumentation jederzeit vorliegt."
 msgstr ""
+"Het Loonbedrijf plant verschillende toepassingskaarten voor verschillende "
+"velden en akkers. Deze kaarten worden via de agrirouter naar het machinepark "
+"gestuurd. Elke bestuurder kan de geplande opdrachten onmiddellijk verwerken "
+"zonder zelf kaarten te moeten maken of gegevens handmatig in te voeren.  De "
+"automatische terugkoppeling zorgt ervoor dat de wettelijk vereiste "
+"documentatie altijd beschikbaar is."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:152
@@ -13490,6 +13740,9 @@ msgid ""
 "welche Flächen bereits behandelt wurden. Somit kann dieser den Fortschritt "
 "genau überwachen und bei Bedarf nachjustieren."
 msgstr ""
+"Dankzij de telemetriegegevens van de machines kan het Loonbedrijf op elk "
+"moment zien welke gebieden al behandeld zijn. Zo kunnen ze de voortgang op "
+"de voet volgen en indien nodig aanpassingen doen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:158
@@ -13500,12 +13753,17 @@ msgid ""
 "dokumentiert. Die zentrale Rückmeldung erspart manuelle Aufzeichnungen und "
 "verringert Fehler bei der Dokumentation."
 msgstr ""
+"De landbouwer maakt een toepassingskaart voor een naburig veld, die naar "
+"verschillende machines wordt gestuurd. De bestuurders kunnen gelijktijdig "
+"werken terwijl de landbouwsoftware de telemetrie verzamelt en automatisch "
+"documenteert. De gecentraliseerde feedback bespaart handmatige registraties "
+"en vermindert fouten in de documentatie."
 
 #. type: Title =
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:1
 #, no-wrap
 msgid "Aussaat"
-msgstr ""
+msgstr "Zaaien"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:4
@@ -13516,112 +13774,107 @@ msgid ""
 "Rückmeldung von Maschinendaten – der agrirouter erleichtert die "
 "Arbeitsabläufe, reduziert Fehlerquellen und vereinfacht die Dokumentation."
 msgstr ""
+"In dit hoofdstuk wordt uitgelegd hoe de agrirouter het zaaien ondersteunt. "
+"Van het verzenden van eenvoudige taakbestanden (TaskData) tot "
+"locatiespecifieke toepassingskaarten en automatische feedback van "
+"machinegegevens - de agrirouter vereenvoudigt werkprocessen, vermindert "
+"foutbronnen en vereenvoudigt documentatie."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:5
-#, fuzzy, no-wrap
-#| msgid "ISOBUS Auftragsdaten, Applikationskarten"
+#, no-wrap
 msgid "Aufträge ohne Applikationskarte"
-msgstr "ISOBUS-taakgegevens, toepassingskaarten"
+msgstr "Bestellingen zonder aanvraagkaart"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:17
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag an eine Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil een bestelling naar een machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:19
 #, no-wrap
 msgid "sodass die Maschine die Aussaat gemäß meiner Planung durchführen kann."
-msgstr ""
+msgstr "zodat de machine het zaaien volgens mijn planning kan uitvoeren."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:21
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich einen Auftrag an mehrere Maschinen senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil een bestelling naar verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:23
 #, no-wrap
 msgid "sodass mehrere Maschinen parallel auf einer Fläche arbeiten können."
-msgstr ""
+msgstr "zodat meerdere machines parallel aan één gebied kunnen werken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:25
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Aufträge an eine Maschine senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil meerdere orders naar één machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:27
 #, no-wrap
 msgid "sodass sie nacheinander verschiedene Aussaataufträge abarbeiten kann."
-msgstr ""
+msgstr "zodat het verschillende zaai-opdrachten na elkaar kan verwerken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:29
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Aufträge an mehrere Maschinen senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil verschillende orders naar verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:30
 #, no-wrap
 msgid "sodass die Maschinen die Aussaat gemäß meiner Planung durchführen können."
-msgstr ""
+msgstr "zodat de machines het zaaien volgens mijn planning kunnen uitvoeren."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:32
-#, fuzzy, no-wrap
-#| msgid "Erstelle eine Applikationskarte."
+#, no-wrap
 msgid "Teilflächenspezifische Applikationskarten"
-msgstr "Maak een toepassingskaart."
+msgstr "Gedeeltelijke gebiedsspecifieke toepassingskaarten"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:40
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an ein Terminal senden"
+#, no-wrap
 msgid "möchte ich Applikationskarten spontan an meinen Fahrer übermitteln können"
-msgstr "Meerdere toepassingskaarten naar één terminal sturen"
+msgstr "Ik wil spontaan sollicitatiekaarten naar mijn chauffeur kunnen sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:44
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich eine Applikationskarte an eine Maschine senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr "Ik wil een receptkaart naar een machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:46
 #, no-wrap
 msgid "sodass die Maschine teilflächenspezifisch säen kann."
-msgstr ""
+msgstr "zodat de machine op locatie-specifieke basis kan zaaien."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:48
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Applikationskarten an eine Maschine senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr "Ik wil meerdere receptkaarten naar één machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:50
 #, no-wrap
 msgid "sodass unterschiedliche Felder bearbeitet werden können."
-msgstr ""
+msgstr "zodat verschillende velden bewerkt kunnen worden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:52
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich eine Applikationskarte an mehrere Maschinen senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr "Ik wil een toepassingskaart naar meerdere machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:54
@@ -13629,12 +13882,15 @@ msgstr "Meerdere receptkaarten naar één machine sturen"
 #, no-wrap
 msgid "sodass mehrere Maschinen dieselbe Planung eines Feldes nutzen können."
 msgstr ""
+"zodat meerdere machines dezelfde planning van een veld kunnen gebruiken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:58
 #, no-wrap
 msgid "sodass verschiedene Maschinen gleichzeitig unterschiedliche Flächen bearbeiten können."
 msgstr ""
+"zodat verschillende machines tegelijkertijd verschillende oppervlakken "
+"kunnen bewerken."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:60
@@ -13646,14 +13902,13 @@ msgstr "Ik wil toepassingskaarten rechtstreeks op mijn terminal ontvangen"
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:61
 #, no-wrap
 msgid "sodass ich die Maßnahmen ohne manuelle Eingaben ausführen kann."
-msgstr ""
+msgstr "zodat ik de maatregelen kan uitvoeren zonder handmatige invoer."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:63
-#, fuzzy, no-wrap
-#| msgid "Erstelle eine Applikationskarte."
+#, no-wrap
 msgid "Kombinierte teilflächenspezifische Applikationskarten "
-msgstr "Maak een toepassingskaart."
+msgstr "Gecombineerde gedeeltelijke gebiedsspecifieke toepassingskaarten "
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:71
@@ -13671,106 +13926,118 @@ msgstr "zodat alle werkzaamheden in één bewerking kunnen worden uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:75
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere kombinierte Applikationskarten an eine Maschine senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil graag meerdere gecombineerde receptkaarten naar één machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:77
 #, no-wrap
 msgid "sodass unterschiedliche komplexe Kulturmaßnahmen nacheinander abgearbeitet werden können."
 msgstr ""
+"zodat verschillende complexe teeltmaatregelen na elkaar verwerkt kunnen "
+"worden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:79
 #, no-wrap
 msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an mehrere Maschinen senden"
 msgstr ""
+"Ik wil een gecombineerde toepassingskaart voor zaad, meststof en "
+"gewasbescherming naar verschillende machines sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:83
-#, fuzzy, no-wrap
-#| msgid "Mehrere Applikationskarten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere kombinierte Applikationskarten an mehrere Maschinen senden"
-msgstr "Meerdere receptkaarten naar één machine sturen"
+msgstr ""
+"Ik wil verschillende gecombineerde receptkaarten naar verschillende machines "
+"sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:84
 #, no-wrap
 msgid "sodass parallele komplexe Aussaataufträge möglich sind."
-msgstr ""
+msgstr "zodat complexe zaaitaken parallel kunnen worden uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:94
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich mehrere Auftragsdateien (TaskData) von einer Maschine an die Agrarsoftware senden"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil verschillende taakbestanden (TaskData) van een machine naar de "
+"landbouwsoftware sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:96
 #, no-wrap
 msgid "sodass ich mehrere bearbeitete Flächen effizient und nicht einzeln übermitteln muss."
 msgstr ""
+"zodat ik verschillende verwerkte gebieden efficiënt en niet afzonderlijk "
+"moet verzenden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:98
-#, fuzzy, no-wrap
-#| msgid "Nun werden dir die Telemetriedaten der Maschine angezeigt."
+#, no-wrap
 msgid "möchte ich automatisiert Telemetriedaten an die Agrarsoftware senden"
-msgstr "De telemetriegegevens van de machine worden nu weergegeven."
+msgstr ""
+"Ik wil graag geautomatiseerde telemetriegegevens naar de landbouwsoftware "
+"sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:100
 #, no-wrap
 msgid "sodass ich bei der Dokumentation meiner Arbeit entlastet werde und keine Tippfehler entstehen können."
 msgstr ""
+"zodat ik mijn werk niet meer hoef te documenteren en er geen typefouten "
+"kunnen optreden."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:102
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich eine Auftragsdatei (TaskData) von einer Maschine an die Agrarsoftware gesendet bekommen"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil een taakbestand (TaskData) van een machine naar de landbouwsoftware "
+"sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:104
 #, no-wrap
 msgid "sodass ich nachvollziehen kann, welche Tätigkeit auf dem Feld durchgeführt wurde."
-msgstr ""
+msgstr "zodat ik kan begrijpen welke activiteit in het veld werd uitgevoerd."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:106
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Ist-Daten von meinen Maschinen an die Agrarsoftware gesendet bekommen"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr ""
+"Ik wil graag actuele gegevens van mijn machines naar de landbouwsoftware "
+"sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:108
 #, no-wrap
 msgid "sodass ich die durchgeführten Maßnahmen automatisch dokumentieren kann."
-msgstr ""
+msgstr "zodat ik de genomen maatregelen automatisch kan documenteren."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:117
 #, no-wrap
 msgid "Maschine-zu-Maschine-Kommunikation (z. B. Spurlinien)"
-msgstr ""
+msgstr "Machine-naar-machine communicatie (bijv. rijstroken)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:124
 #, no-wrap
 msgid "Als Betriebsinhaber"
-msgstr ""
+msgstr "Als bedrijfseigenaar"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:125
-#, fuzzy, no-wrap
-#| msgid "Mehrere Karten an eine Maschine senden"
+#, no-wrap
 msgid "möchte ich Daten von einer Maschine an eine weitere Maschine senden können"
-msgstr "Meerdere kaarten naar één machine sturen"
+msgstr "Ik wil gegevens van de ene machine naar de andere machine kunnen sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:127
@@ -13782,37 +14049,41 @@ msgstr "zodat uniforme gegevens worden gebruikt."
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:129
 #, no-wrap
 msgid "möchte ich Daten von einer Maschine an eine weitere Maschine senden"
-msgstr ""
+msgstr "Ik wil gegevens van de ene machine naar de andere machine verzenden"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:131
 #, no-wrap
 msgid "sodass Fahrspuren nicht mehrfach aufgezeichnet werden müssen."
-msgstr ""
+msgstr "zodat rijstroken niet meerdere keren hoeven te worden opgenomen."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:133
 #, no-wrap
 msgid "möchte ich Daten von einer Maschine an mehrere Maschinen senden"
-msgstr ""
+msgstr "Ik wil gegevens van één machine naar meerdere machines verzenden"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:135
 #, no-wrap
 msgid "sodass parallele und koordinierte Arbeiten möglich sind."
-msgstr ""
+msgstr "zodat parallel en gecoördineerd werk mogelijk is."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:137
 #, no-wrap
 msgid "möchte ich, dass Daten von einer organischen Düngung von einer Maschine an eine weitere Maschine gesendet werden können"
 msgstr ""
+"Ik wil gegevens van een organische bemesting van de ene machine naar de "
+"andere machine sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:138
 #, no-wrap
 msgid "sodass das Saatgut dort abgelegt werden kann, wo der Dünger ausgebracht wurde."
 msgstr ""
+"zodat het zaad geplaatst kan worden op de plek waar de meststof is "
+"aangebracht."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:146
@@ -13825,6 +14096,14 @@ msgid ""
 "Agrarsoftware dokumentiert. Der Landwirt hat dadurch jederzeit den Überblick "
 "über den Arbeitsfortschritt und spart sich die manuelle Nachbearbeitung."
 msgstr ""
+"De landbouwer maakt een toepassingskaart voor het zaaien van maïs in zijn "
+"veldcatalogus. Hij stuurt deze rechtstreeks naar de tractor via zijn "
+"landbouwsoftware. De terminal ontvangt de kaart automatisch via de "
+"agrirouter - zonder USB-stick of andere tussenstappen.  Tijdens het zaaien "
+"worden de agronomische en machinegegevens automatisch teruggestuurd en "
+"gedocumenteerd in de landbouwsoftware. Dit geeft de landbouwer op elk moment "
+"een overzicht van de voortgang van het werk en bespaart handmatige "
+"nabewerking."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:152
@@ -13835,6 +14114,11 @@ msgid ""
 "Übertragung. Die Ergebnisse werden automatisiert und in Echtzeit an die "
 "Agrarsoftware zurückgemeldet."
 msgstr ""
+"Het Loonbedrijf plant verschillende toepassingskaarten voor verschillende "
+"gewastypen en verdeelt deze over het machinepark. Hierdoor kan elke "
+"bestuurder direct beginnen met het plaatsspecifieke zaaien zonder handmatige "
+"overdracht. De resultaten worden automatisch en in realtime teruggemeld aan "
+"de landbouwsoftware."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:158
@@ -13846,6 +14130,11 @@ msgid ""
 "Infolgedessen kann er die Nachlieferung optimal koordinieren und den Einsatz "
 "flexibel steuern."
 msgstr ""
+"Door telemetriegegevens te verzenden, kan het Loonbedrijf zijn machinepark "
+"in het portaal altijd in de gaten houden. Zo kan hij precies bijhouden "
+"hoeveel werk er al is gedaan, of iemand hulp nodig heeft als het weer "
+"bijvoorbeeld verandert, of dat er zaad moet worden geleverd. Hierdoor kan "
+"hij volgende leveringen optimaal coördineren en de inzet flexibel aansturen."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:164
@@ -13856,6 +14145,10 @@ msgid ""
 "den Stellen gepflanzt werden, an denen zuvor die Pflanzdämme vorbereitet "
 "wurden."
 msgstr ""
+"Door bijvoorbeeld de rupsbanden van de ene machine naar de andere over te "
+"zetten, kan het zaad precies op de plek worden gelegd waar de drijfmestband "
+"eerder werd verspreid na het bemesten. Aardappelen kunnen ook precies worden "
+"geplant op de punten waar de plantruggen eerder werden voorbereid."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:170
@@ -13865,6 +14158,10 @@ msgid ""
 "reduziert. Tippfehler werden vermieden und die Abrechnung erfolgt präziser. "
 "So gehen keine Arbeiten mehr verloren oder bleiben unberücksichtigt."
 msgstr ""
+"De automatische overdracht van agronomische gegevens en machinegegevens "
+"vermindert de handmatige invoer door de chauffeur van het Loonbedrijf "
+"aanzienlijk. Typefouten worden vermeden en de facturatie is nauwkeuriger. "
+"Dit betekent dat er geen werk meer verloren gaat of genegeerd wordt."
 
 #, fuzzy, no-wrap
 #~| msgid "Mehrere Applikationskarten an eine Maschine senden"
