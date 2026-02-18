@@ -1,0 +1,13 @@
+diff --git a/node_modules/@antora/content-classifier/lib/content-catalog.js b/node_modules/@antora/content-classifier/lib/content-catalog.js
+index 9c4e149..50b8414 100644
+--- a/node_modules/@antora/content-classifier/lib/content-catalog.js
++++ b/node_modules/@antora/content-classifier/lib/content-catalog.js
+@@ -494,7 +494,7 @@ function computeOut (src, family, version, htmlUrlExtensionStyle) {
+   }
+ 
+   const modulePath = path.join(component, version, module_)
+-  const dirname = path.join(modulePath, familyPathSegment, path.dirname(relative), indexifyPathSegment)
++  const dirname = path.join(/* modulePath , */familyPathSegment, path.dirname(relative), indexifyPathSegment)
+   const path_ = path.join(dirname, basename)
+   const moduleRootPath = path.relative(dirname, modulePath) || '.'
+   const rootPath = path.relative(dirname, '') || '.'
