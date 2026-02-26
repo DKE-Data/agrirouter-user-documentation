@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-02-18 14:51+0000\n"
+"POT-Creation-Date: 2026-02-26 15:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3039,6 +3039,8 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:11
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:6
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:12
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:6
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:9
 #, no-wrap
 msgid "Verbindung mit dem agrirouter herstellen"
 msgstr ""
@@ -9281,6 +9283,246 @@ msgstr ""
 msgid ""
 "In der Aufgabenliste erkennst du die Telemtriedaten daran, dass die "
 "zip-Datei den Namenszusatz *_telemetry_* hat."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:1
+#, no-wrap
+msgid "John Deere Operations Center Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:4
+msgid ""
+"Mit dem **John Deere Operations Center (JDOC)** kannst du Betriebsdaten "
+"(Maschinen, Felder, Prozessdaten) zentralisieren, analysieren und "
+"Arbeitsabläufe optimieren. In diesem Kapitel werden folgende Punkte "
+"behandelt:"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:7
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:74
+#, no-wrap
+msgid "ISOXML-Dateien an das John Deere Operations Center senden"
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:12
+msgid ""
+"Um Daten von JDOC über den agrirouter senden und empfangen zu können, muss "
+"zuerst eine Verbindung zwischen deinem JDOC-Konto und deinem "
+"agrirouter-Konto hergestellt werden. Dies kann auf zwei Wegen erfolgen:"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:13
+#, no-wrap
+msgid "Verbindung aus dem agrirouter Control Center herstellen"
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:16
+msgid ""
+"Melde dich im **agrirouter Control Center** mit deinen Zugangsdaten an "
+"(Einmalcode oder Passwort)."
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:17
+msgid "Klicke auf **\"+ Software hinzufügen\"**."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:18
+#, no-wrap
+msgid "Software hinzufügen"
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:21
+msgid ""
+"Suche deine Lösung in der Suchleiste oder scrolle zu deiner gewünschten "
+"Lösung."
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:22
+msgid "Klicke auf **verbinden**"
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:23
+#, no-wrap
+msgid "Verbindung starten"
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:26
+msgid "Falls erforderlich: Gib deine individuellen Zugangsdaten des JDOC ein"
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:27
+msgid ""
+"Wähle das Unternehmen aus, das mit dem agrirouter verbunden werden "
+"soll. Mehrere Unternehmen im JDOC können mit dem agrirouter verbunden "
+"werden."
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:28
+msgid ""
+"Nach der erfolgreichen Verbindung werden **automatisch Routen zwischen JDOC "
+"und bereits verbundenen Maschinen** erstellt."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:29
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:57
+#, no-wrap
+msgid "Verbundene Endpunkte"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:34
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:62
+msgid ""
+"Routen zwischen zwei Softwarelösungen müssen **manuell** mittels Drag and "
+"Drop erstellt werden, da automatische Routen nur zwischen Maschine und "
+"Software erstellt werden."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:36
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:64
+#, no-wrap
+msgid "Verbindung manuell anlegen"
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:41
+msgid ""
+"Falls keine automatische Route erstellt wird, ist die Funktion für "
+"automatische Verbindungen im Endpunkt deaktiviert. Öffne den Endpunkt, "
+"aktiviere die Funktion, und künftige Verbindungen werden automatisch "
+"hergestellt."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:43
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:71
+#, no-wrap
+msgid "Automatische Verbindung aktivieren"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:45
+#, no-wrap
+msgid "Verbindung aus dem John Deere Operations Center herstellen"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:48
+msgid "Melde dich im **John Deere Operations Center** an."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:49
+msgid "Gehe zu **Einrichten → Verbindungen**."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:50
+msgid ""
+"Suche nach **agrirouter** oder scrolle zu der Kachel. Du kannst auch nach "
+"Firmen wie „Grimme“ oder „Krone“ oder anderen agrirouter Partnerfirmen "
+"suchen, da diese Lösungen über den agrirouter Daten mit dem JDOC "
+"austauschen."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:51
+msgid ""
+"Klicke auf **verbinden** und gib deine Zugangsdaten deines agrirouter Konto "
+"ein."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:52
+msgid ""
+"Bestätige das Verbindungsfenster mit **Connect** und wähle das Unternehmen "
+"aus, das verbunden werden soll. Anschließend speichere diesen Schritt."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:53
+#, no-wrap
+msgid "JDOC Zugriff aktivieren"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:56
+msgid ""
+"Nach der erfolgreichen Verbindung werden die Routen zu bereits verbundenen "
+"Maschinen **automatisch hergestellt**."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:69
+msgid ""
+"Wenn keine automatische Route erstellt wird, überprüfe die Endpunktdetails "
+"und aktiviere die automatische Verbindung. Künftige Verbindungen werden dann "
+"wieder automatisch hergestellt."
+msgstr ""
+
+#. type: #isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:77
+msgid ""
+"Im ersten Schritt können nur **ISOXML-Dateien** (Ertragskarten, "
+"Applikationskarten, Arbeitspläne) von einer mit dem agrirouter verbundenen "
+"Maschine oder Softwarelösung an das JDOC gesendet werden."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:78
+#, no-wrap
+msgid "John Deere Operations Center Capabilities"
+msgstr ""
+
+#. type: #isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:81
+msgid ""
+"Die vom agrirouter gesendeten Dateien werden im Bereich **„Dateien / "
+"Files“** abgelegt und vom JDOC verarbeitet."
+msgstr ""
+
+#. type: #isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:82
+msgid ""
+"Stammdaten wie Schlag, Betrieb und Mandant werden automatisch ausgelesen und "
+"angelegt (falls noch nicht vorhanden)."
+msgstr ""
+
+#. type: #isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:83
+msgid ""
+"Vorhandene Ertrags- und Ausbringdaten werden im JDOC "
+"übernommen/visualisiert."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:84
+#, no-wrap
+msgid "Datenprozessierung im John Deere Operations Center"
+msgstr ""
+
+#. type: #isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:86
+msgid ""
+"Weitere Informationen zu den Ausbaustufen findest du im "
+"**https://agrirouter.com/de/solutions/john-deere-operations-center[Solution-Finder, "
+"window=\"_blank\"]**."
 msgstr ""
 
 #. type: Plain text
