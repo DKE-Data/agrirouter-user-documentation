@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-09-09 14:57+0000\n"
+"POT-Creation-Date: 2026-02-18 14:51+0000\n"
 "PO-Revision-Date: 2025-12-01 05:24+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: Russian <https://weblate.agrirouter.com/projects/agrirouter/"
@@ -205,8 +205,8 @@ msgid ""
 "<span class=\"control\"> <a class=\"button\" href=\"https://my-agrirouter."
 "com\">Website</a> </span>"
 msgstr ""
-"<span class=\"control\"> <a class=\"button\" href="
-"\"https://my-agrirouter.com\">Сайт</a> </span>"
+"<span class=\"control\"> <a class=\"button\" href=\"https://my-agrirouter."
+"com\">Сайт</a> </span>"
 
 #. type: Content of: <div><div><div>
 #: de/supplemental-ui/partials/header-menu.hbs:9
@@ -214,8 +214,8 @@ msgid ""
 "<span class=\"control\"> <a class=\"button is-primary\" href=\"https://goto."
 "my-agrirouter.com\">agrirouter</a> </span>"
 msgstr ""
-"<span class=\"control\"> <a class=\"button is-primary\" href="
-"\"https://goto.my-agrirouter.com\">agrirouter</a> </span>"
+"<span class=\"control\"> <a class=\"button is-primary\" href=\"https://goto."
+"my-agrirouter.com\">agrirouter</a> </span>"
 
 #. type: Plain text
 #: de/modules/ROOT/nav.adoc:2
@@ -313,8 +313,8 @@ msgid ""
 "Klicke im Dashboard die Kachel *_Konten verbinden_*.  [.result]#Das Fenster "
 "`Konten verbinden` wird angezeigt.#"
 msgstr ""
-"Нажмите на плитку *_Подключить учетные записи_* на панели управления.  "
-"[.result]# Откроется окно \"Соединение аккаунтов\"."
+"Нажмите на плитку *_Подключить учетные записи_* на панели управления.  [."
+"result]# Откроется окно \"Соединение аккаунтов\"."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:25
@@ -356,8 +356,8 @@ msgid ""
 "result]#Das Konto wird in den Reiter `Verbunden` verschoben.# [.result]#Das "
 "Konto wird der Endpunkteliste hinzugefügt.#"
 msgstr ""
-"Если владелец счета принимает приглашение, то происходит следующее: [.result]"
-"# Вы получаете электронное письмо.# [.result]# Два счета соединены.# "
+"Если владелец счета принимает приглашение, то происходит следующее: [."
+"result]# Вы получаете электронное письмо.# [.result]# Два счета соединены.# "
 "[.result]# Счет перемещается на вкладку \"Связанные\".# [.result]# Счет "
 "добавляется в список финальных баллов.#"
 
@@ -403,9 +403,9 @@ msgid ""
 "und noch nicht bearbeitet hast."
 msgstr ""
 "Описанная выше процедура работает и в обратном направлении: вы можете "
-"получить приглашение от другой учетной записи.  В плитке "
-"\"Соединение аккаунтов\" в строке \"Входящие\" отображаются приглашения, "
-"которые вы получили, но еще не обработали."
+"получить приглашение от другой учетной записи.  В плитке \"Соединение "
+"аккаунтов\" в строке \"Входящие\" отображаются приглашения, которые вы "
+"получили, но еще не обработали."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:65
@@ -473,8 +473,8 @@ msgid ""
 "Konten ausgetauscht.#"
 msgstr ""
 "Нажмите кнопку *_Отсоединить_*.  [.result]# Два аккаунта больше не соединены "
-"друг с другом.# [.result]# Аккаунт удален из списка конечных точек.# "
-"[.result]# Обмен данными между аккаунтами больше не производится.#"
+"друг с другом.# [.result]# Аккаунт удален из списка конечных точек.# [."
+"result]# Обмен данными между аккаунтами больше не производится.#"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account-pairing.adoc:94
@@ -490,8 +490,7 @@ msgid ""
 "Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
 msgstr ""
 "Теперь вы знаете: без маршрута нет обмена данными!\n"
-"Чтобы обмен данными работал с присоединенным аккаунтом, маршруты должны быть "
-"созданы в [.underline]#обоих# аккаунтах:"
+"Чтобы обмен данными работал с присоединенным аккаунтом, маршруты должны быть созданы в [.underline]#обоих# аккаунтах:"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:100
@@ -500,10 +499,8 @@ msgid ""
 "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet.\n"
 "Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
 msgstr ""
-"С помощью исходящих маршрутов в своем аккаунте вы определяете, какой из "
-"ваших конечных пунктов отправляет данные на присоединенный аккаунт.\n"
-"Чтобы данные достигли получателя, владелец другой учетной записи должен "
-"создать входящие маршруты."
+"С помощью исходящих маршрутов в своем аккаунте вы определяете, какой из ваших конечных пунктов отправляет данные на присоединенный аккаунт.\n"
+"Чтобы данные достигли получателя, владелец другой учетной записи должен создать входящие маршруты."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:102
@@ -512,10 +509,8 @@ msgid ""
 "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen.\n"
 "Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
 msgstr ""
-"С помощью входящих маршрутов в своем аккаунте вы определяете, какие из ваших "
-"конечных пунктов получают данные от присоединенного аккаунта.\n"
-"Чтобы вы могли получать данные, владелец другой учетной записи должен "
-"создать исходящие маршруты."
+"С помощью входящих маршрутов в своем аккаунте вы определяете, какие из ваших конечных пунктов получают данные от присоединенного аккаунта.\n"
+"Чтобы вы могли получать данные, владелец другой учетной записи должен создать исходящие маршруты."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
@@ -604,8 +599,8 @@ msgid ""
 msgstr ""
 "Если вы не хотите временно обмениваться данными с присоединенным аккаунтом, "
 "переключите *_data flow_* на `OFF`.  Для постоянного отключения от "
-"присоединенного аккаунта используйте команду <<terminate-connection"
-",terminate-connection>>."
+"присоединенного аккаунта используйте команду <<terminate-connection,"
+"terminate-connection>>."
 
 #. type: Title =
 #: de/modules/ROOT/pages/account.adoc:4
@@ -1136,9 +1131,8 @@ msgid ""
 "Um die xref:introduction.adoc/myagrirouter[my agrirouter Seite] zu öffnen, "
 "ohne die Benutzerdaten eingeben zu müssen, gehe vor wie folgt:"
 msgstr ""
-"Чтобы открыть страницу xref:introduction.adoc/myagrirouter "
-"[моя страница agrirouter] без ввода данных пользователя, выполните следующие "
-"действия:"
+"Чтобы открыть страницу xref:introduction.adoc/myagrirouter [моя страница "
+"agrirouter] без ввода данных пользователя, выполните следующие действия:"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:161
@@ -1162,9 +1156,9 @@ msgid ""
 "introduction.adoc/myagrirouter[my agrirouter Seite] angezeigt.#"
 msgstr ""
 "После завершения работы в панели управления закройте сайт [.underline]#без# "
-"выхода из системы.  [.result]#В следующий раз, когда вы откроете https://"
-"app.agrirouter.com/ [страницу входа], ваша xref:introduction.adoc/"
-"myagrirouter [страница моего agrirouter] будет сразу же отображена."
+"выхода из системы.  [.result]#В следующий раз, когда вы откроете https://app."
+"agrirouter.com/ [страницу входа], ваша xref:introduction.adoc/myagrirouter "
+"[страница моего agrirouter] будет сразу же отображена."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:167
@@ -1318,8 +1312,8 @@ msgid ""
 "result]#Die `Einstellungen` werden geöffnet.#"
 msgstr ""
 "Нажмите на *_Icon_* изображение:basics/profile.png[logon, 30, 30] с вашими "
-"инициалами в правом верхнем углу xref:introduction.adoc/myagrirouter"
-"[моя страница agrirouter] и нажмите на *_Settings_*.  [результат]#Откроются "
+"инициалами в правом верхнем углу xref:introduction.adoc/myagrirouter[моя "
+"страница agrirouter] и нажмите на *_Settings_*.  [результат]#Откроются "
 "`Настройки`."
 
 #. type: .float-group
@@ -1358,9 +1352,9 @@ msgid ""
 "erhältst Rückmeldung durch unser Support-Team."
 msgstr ""
 "Ваш адрес электронной почты не может быть изменен. Чтобы изменить его, "
-"отправьте письмо на адрес mailto:support@agrirouter.com"
-"[support@agrirouter.com]. После проверки адреса электронной почты он будет "
-"изменен, и вы получите ответ от нашей команды поддержки."
+"отправьте письмо на адрес mailto:support@agrirouter.com[support@agrirouter."
+"com]. После проверки адреса электронной почты он будет изменен, и вы "
+"получите ответ от нашей команды поддержки."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:276
@@ -1424,9 +1418,9 @@ msgid ""
 "Kontoeinstellungen. Scrolle hier ganz nach unten und du siehst diesen "
 "Abschnitt:#"
 msgstr ""
-"Выполните шаги 1 и 2 главы <<edit-account, change account information>>.  "
-"[.result]# Теперь вы находитесь в области настроек учетной записи. "
-"Прокрутите страницу вниз, и вы увидите этот раздел:#"
+"Выполните шаги 1 и 2 главы <<edit-account, change account information>>.  [."
+"result]# Теперь вы находитесь в области настроек учетной записи. Прокрутите "
+"страницу вниз, и вы увидите этот раздел:#"
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:305
@@ -1465,8 +1459,8 @@ msgid ""
 "hinzufügen."
 msgstr ""
 "Для каждой машины и сельскохозяйственного программного обеспечения, которые "
-"будут обмениваться данными через agrirouter, необходимо добавить "
-"xref:introduction.adoc#endpoint[Конечный пункт]."
+"будут обмениваться данными через agrirouter, необходимо добавить xref:"
+"introduction.adoc#endpoint[Конечный пункт]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:11
@@ -1518,9 +1512,8 @@ msgid ""
 "image:basics/profile.png[logon, 30, 30] mit deinen Initialien klickst und "
 "*_my agrirouter_* auswählst."
 msgstr ""
-"Вы также можете найти его, нажав на *_icon_* image:basics/profile.png"
-"[logon, 30, 30] с вашими инициалами в правом верхнем углу и выбрав *_my "
-"agrirouter_*."
+"Вы также можете найти его, нажав на *_icon_* image:basics/profile.png[logon, "
+"30, 30] с вашими инициалами в правом верхнем углу и выбрав *_my agrirouter_*."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:26
@@ -1591,8 +1584,8 @@ msgid ""
 "png[Deutz Logo, 40]: Zeigt die Marke des Herstellers. Jedem Hersteller "
 "können mehrere Endpunkte zugeordnet werden."
 msgstr ""
-"image:endpoints/sdf-logo.png[SDF-logo, 50] image:endpoints/deutz-logo.png"
-"[Deutz Logo, 40]: Показывает марку производителя. Каждому производителю "
+"image:endpoints/sdf-logo.png[SDF-logo, 50] image:endpoints/deutz-logo."
+"png[Deutz Logo, 40]: Показывает марку производителя. Каждому производителю "
 "может быть назначено несколько конечных точек."
 
 #. type: #endpoints
@@ -1721,8 +1714,8 @@ msgid ""
 "wird geöffnet:#"
 msgstr ""
 "Нажмите на кнопку *_Добавить производителя_* image:endpoints/add-"
-"manufacturer-button.png[Кнопка добавления производителя, 120].  [.result]#"
-"Откроется следующая страница:#"
+"manufacturer-button.png[Кнопка добавления производителя, 120].  [."
+"result]#Откроется следующая страница:#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:66
@@ -1761,8 +1754,8 @@ msgid ""
 "image:endpoints/add-manufacturer-3.png[Hersteller verbunden, 400, "
 "float=right]"
 msgstr ""
-"image:endpoints/add-manufacturer-3.png"
-"[производитель связан, 400, float=right]"
+"image:endpoints/add-manufacturer-3.png[производитель связан, 400, "
+"float=right]"
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:88
@@ -1809,8 +1802,8 @@ msgid ""
 "button.png[Verbindung hinzufügen Button, 120].  [.result]#Die folgende Seite "
 "wird geöffnet:#"
 msgstr ""
-"Нажмите кнопку *_Add connection_* image:endpoints/add-connection-button.png"
-"[Кнопка добавления соединения, 120].  [.result]#Откроется следующая "
+"Нажмите кнопку *_Add connection_* image:endpoints/add-connection-button."
+"png[Кнопка добавления соединения, 120].  [.result]#Откроется следующая "
 "страница:#"
 
 #. type: #connect-machine
@@ -1836,10 +1829,8 @@ msgid ""
 "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
 "Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um den Code auszudrucken."
 msgstr ""
-"Щелкните на значке *_copy_* image:endpoints/copy-button.png[copy, 30, 30], "
-"чтобы скопировать код в буфер обмена.\n"
-"Щелкните на значке *_Print_* image:endpoints/print-button.png[print, 30, 30]"
-", чтобы распечатать код."
+"Щелкните на значке *_copy_* image:endpoints/copy-button.png[copy, 30, 30], чтобы скопировать код в буфер обмена.\n"
+"Щелкните на значке *_Print_* image:endpoints/print-button.png[print, 30, 30], чтобы распечатать код."
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:114
@@ -1867,8 +1858,8 @@ msgid ""
 "Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
-"Как ввести регистрационный код на телеметрическом устройстве, см. в xref"
-":solution-guides.adoc#solution-guides[Solution-Guide]."
+"Как ввести регистрационный код на телеметрическом устройстве, см. в xref:"
+"solution-guides.adoc#solution-guides[Solution-Guide]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:121
@@ -1894,8 +1885,8 @@ msgid ""
 "image:endpoints/add-connection-to-manufacturer-1.png[Verbindung Infos, 400, "
 "float=right]"
 msgstr ""
-"image:endpoints/add-connection-to-manufacturer-1.png"
-"[link info, 400, float=right]"
+"image:endpoints/add-connection-to-manufacturer-1.png[link info, 400, "
+"float=right]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:130
@@ -1904,9 +1895,9 @@ msgid ""
 "30] Icon der Verbindung, die du einem Hersteller zuordnen möchtest.  [."
 "result]#Die folgende Seite wird geöffnet.#"
 msgstr ""
-"Нажмите на значок *edit* image:endpoints/edit-endpoint-icon.png[copy, 30, 30]"
-" соединения, которое вы хотите назначить производителю.  [result]# Откроется "
-"следующая страница."
+"Нажмите на значок *edit* image:endpoints/edit-endpoint-icon.png[copy, 30, "
+"30] соединения, которое вы хотите назначить производителю.  [result]# "
+"Откроется следующая страница."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:135
@@ -1914,8 +1905,8 @@ msgid ""
 "image:endpoints/add-connection-to-manufacturer-2.png[Verbindung Infos, 400, "
 "float=left]"
 msgstr ""
-"image:endpoints/add-connection-to-manufacturer-2.png"
-"[link info, 400, float=left]"
+"image:endpoints/add-connection-to-manufacturer-2.png[link info, 400, "
+"float=left]"
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:138
@@ -1933,8 +1924,8 @@ msgid ""
 "image:endpoints/add-connection-to-manufacturer-3.png[Verbindung Infos, 400, "
 "float=right]"
 msgstr ""
-"image:endpoints/add-connection-to-manufacturer-3.png"
-"[link info, 400, float=right]"
+"image:endpoints/add-connection-to-manufacturer-3.png[link info, 400, "
+"float=right]"
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:147
@@ -1947,8 +1938,8 @@ msgid ""
 "image:endpoints/add-connection-to-manufacturer-4.png[Verbindung Infos, 400, "
 "float=left]"
 msgstr ""
-"image:endpoints/add-connection-to-manufacturer-4.png"
-"[link info, 400, float=left]"
+"image:endpoints/add-connection-to-manufacturer-4.png[link info, 400, "
+"float=left]"
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:156
@@ -1983,8 +1974,8 @@ msgstr ""
 msgid ""
 "image:endpoints/add-software-1.png[Software Auswahlseite, 400, float=right]"
 msgstr ""
-"image:endpoints/add-software-1.png"
-"[Страница выбора программного обеспечения, 400, float=right]"
+"image:endpoints/add-software-1.png[Страница выбора программного обеспечения, "
+"400, float=right]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:168
@@ -2005,8 +1996,8 @@ msgstr ""
 msgid ""
 "image:endpoints/add-software-2.png[Software Auswahlseite, 400, float=left]"
 msgstr ""
-"image:endpoints/add-software-2.png"
-"[Страница выбора программного обеспечения, 400, float=left]"
+"image:endpoints/add-software-2.png[Страница выбора программного обеспечения, "
+"400, float=left]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:184
@@ -2014,8 +2005,8 @@ msgid ""
 "image:endpoints/add-software-3.png[Software nicht verbunden, 400, "
 "float=right]"
 msgstr ""
-"image:endpoints/add-software-3.png"
-"[Программное обеспечение не соединено, 400, float=right]"
+"image:endpoints/add-software-3.png[Программное обеспечение не соединено, "
+"400, float=right]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:186
@@ -2033,8 +2024,8 @@ msgid ""
 "red.png[Software hinzufügen, 24].  [.result]#Du wirst auf dei Seite des "
 "Softwareanbieters weitergeleitet.#"
 msgstr ""
-"Нажмите на значок с красным элементом цепочки image:endpoints/link-icon-"
-"red.png[Добавить программное обеспечение, 24].  [.result]# Вы будете "
+"Нажмите на значок с красным элементом цепочки image:endpoints/link-icon-red."
+"png[Добавить программное обеспечение, 24].  [.result]# Вы будете "
 "перенаправлены на страницу поставщика программного обеспечения."
 
 #. type: start
@@ -2046,16 +2037,16 @@ msgid ""
 msgstr ""
 "Войдите в свое сельскохозяйственное программное обеспечение и выполните "
 "соединение с agrirouter. Вы можете узнать, как это работает для вашего "
-"программного обеспечения, в разделе xref:solution-guides.adoc#solution-guides"
-"[Solution-Guide]."
+"программного обеспечения, в разделе xref:solution-guides.adoc#solution-"
+"guides[Solution-Guide]."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:199
 msgid ""
 "image:endpoints/add-software-4.png[Software nicht verbunden, 400, float=left]"
 msgstr ""
-"image:endpoints/add-software-4.png"
-"[Программное обеспечение не соединено, 400, float=left]"
+"image:endpoints/add-software-4.png[Программное обеспечение не соединено, "
+"400, float=left]"
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:202
@@ -2067,8 +2058,8 @@ msgid ""
 msgstr ""
 "После успешного соединения сельскохозяйственного программного обеспечения "
 "обновите страницу _my agrirouter_. Значок с элементом цепочки теперь "
-"отображается зеленым цветом image:endpoints/link-icon-green.png"
-"[Добавить программное обеспечение, 24]. Соединение успешно установлено."
+"отображается зеленым цветом image:endpoints/link-icon-green.png[Добавить "
+"программное обеспечение, 24]. Соединение успешно установлено."
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:205
@@ -2078,10 +2069,10 @@ msgid ""
 "den xref:solution-guides.adoc#solution-guides[Solution-Guides] findest du "
 "eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest."
 msgstr ""
-"Функцию *_Connect to agrirouter_* (назначение в некоторых случаях отличается)"
-" обычно можно найти в настройках сельскохозяйственного программного "
-"обеспечения. В разделе xref:solution-guides.adoc#solution-guides"
-"[Solution-Guide] вы найдете инструкции по соединению вашего "
+"Функцию *_Connect to agrirouter_* (назначение в некоторых случаях "
+"отличается) обычно можно найти в настройках сельскохозяйственного "
+"программного обеспечения. В разделе xref:solution-guides.adoc#solution-"
+"guides[Solution-Guide] вы найдете инструкции по соединению вашего "
 "сельскохозяйственного программного обеспечения с agrirouter."
 
 #. type: start
@@ -2111,8 +2102,8 @@ msgid ""
 "image:endpoints/delete-endpoint.png[Software nicht verbunden, 380, "
 "float=right]"
 msgstr ""
-"image:endpoints/delete-endpoint.png"
-"[Программное обеспечение не подключено, 380, float=right]"
+"image:endpoints/delete-endpoint.png[Программное обеспечение не подключено, "
+"380, float=right]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:219
@@ -2229,9 +2220,10 @@ msgstr ""
 "ли получить, отправить или подписаться на ту или иную возможность или тип "
 "данных. Если соответствующая способность имеет изображение:endpoints/"
 "available-icon.png[available Icon, 25], это означает, что отправка, "
-"получение или подписка возможны. Изображение:endpoints/unavailable-icon.png"
-"[unavailable Icon, 25] означает обратное. О том, какие типы данных доступны, "
-"вы можете узнать в главе xref:introduction.adoc#datatypes[типы данных]."
+"получение или подписка возможны. Изображение:endpoints/unavailable-icon."
+"png[unavailable Icon, 25] означает обратное. О том, какие типы данных "
+"доступны, вы можете узнать в главе xref:introduction.adoc#datatypes[типы "
+"данных]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/endpoint.adoc:247
@@ -2253,8 +2245,8 @@ msgstr ""
 msgid ""
 "image:endpoints/endpoint-details.png[Endpunkt Details, 400, float=right]"
 msgstr ""
-"image:endpoints/endpoint-details.png"
-"[Детали Конечного пункта, 400, float=right]"
+"image:endpoints/endpoint-details.png[Детали Конечного пункта, 400, "
+"float=right]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:255
@@ -2397,9 +2389,9 @@ msgid ""
 "float=right] Diese Informationen benötigst du, um eine Anfrage an den xref:"
 "support.adoc#support[Support] senden zu können."
 msgstr ""
-"image:support/support-information.png"
-"[Информация о поддержке, 400, float=right] Эта информация нужна вам, чтобы "
-"отправить запрос в службу поддержки xref:support.adoc#support[Support]."
+"image:support/support-information.png[Информация о поддержке, 400, "
+"float=right] Эта информация нужна вам, чтобы отправить запрос в службу "
+"поддержки xref:support.adoc#support[Support]."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:288
@@ -2416,8 +2408,8 @@ msgid ""
 "Gehe zum Kapitel xref:support.adoc#support[Support] für weitere "
 "Informationen."
 msgstr ""
-"Для получения дополнительной информации перейдите к главе "
-"xref:support.adoc#support[Поддержка]."
+"Для получения дополнительной информации перейдите к главе xref:support."
+"adoc#support[Поддержка]."
 
 #. type: Title =
 #: de/modules/ROOT/pages/introduction.adoc:4
@@ -2507,9 +2499,9 @@ msgstr ""
 "*Конечные пункты:* Машины и сельскохозяйственное программное обеспечение "
 "могут обмениваться данными, если вы добавите их в agrirouter как <<конечные "
 "пункты,конечные пункты>>.  [.result]# Добавьте конечные пункты, как описано "
-"в главах xref:endpoint.adoc#connect-machine[соединение машины] и "
-"xref:endpoint.adoc#connect-software"
-"[соединение программного обеспечения конечного пункта].#"
+"в главах xref:endpoint.adoc#connect-machine[соединение машины] и xref:"
+"endpoint.adoc#connect-software[соединение программного обеспечения конечного "
+"пункта].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:27
@@ -2543,10 +2535,10 @@ msgid ""
 "Startseite.  Über die _my agrirouter_ Seite hast du Zugriff auf alle "
 "Funktionen des agrirouters:"
 msgstr ""
-"Если вы вошли в систему по адресу https://app.agrirouter.com[agrirouter.com]"
-", вам будет открыта страница _my agrirouter_ - ваша персональная стартовая "
-"страница.  Страница _my agrirouter_ дает вам доступ ко всем функциям "
-"agrirouter:"
+"Если вы вошли в систему по адресу https://app.agrirouter.com[agrirouter."
+"com], вам будет открыта страница _my agrirouter_ - ваша персональная "
+"стартовая страница.  Страница _my agrirouter_ дает вам доступ ко всем "
+"функциям agrirouter:"
 
 #. type: #myagrirouter
 #: de/modules/ROOT/pages/introduction.adoc:39
@@ -2564,8 +2556,8 @@ msgstr ""
 msgid ""
 "Du kannst neue xref:endpoint.adoc#add-endpoints[*_Endpunkte hinzufügen_*]."
 msgstr ""
-"Вы можете добавить новую точку xref:endpoint.adoc#add-endpoints"
-"[*_add endpoints_*]."
+"Вы можете добавить новую точку xref:endpoint.adoc#add-endpoints[*_add "
+"endpoints_*]."
 
 #. type: #myagrirouter
 #: de/modules/ROOT/pages/introduction.adoc:41
@@ -2591,8 +2583,8 @@ msgid ""
 "Du kannst die Bezeichnung und Herstellerzuordnung deiner Endpunkte xref:"
 "endpoint.adoc#manufacturer-machine-connection[*_bearbeiten_*]."
 msgstr ""
-"Вы можете изменить назначение и производителя ваших конечных пунктов "
-"xref:endpoint.adoc#manufacturer-machine-connection[*_edit_*]."
+"Вы можете изменить назначение и производителя ваших конечных пунктов xref:"
+"endpoint.adoc#manufacturer-machine-connection[*_edit_*]."
 
 #. type: #myagrirouter
 #: de/modules/ROOT/pages/introduction.adoc:44
@@ -2609,8 +2601,8 @@ msgid ""
 "Du kannst neue xref:endpoint.adoc#add-manufacturer[*_Hersteller "
 "hinzufügen_*]."
 msgstr ""
-"Вы можете добавить новый xref:endpoint.adoc#add-manufacturer"
-"[*_add-manufacturer_*]."
+"Вы можете добавить новый xref:endpoint.adoc#add-manufacturer[*_add-"
+"manufacturer_*]."
 
 #. type: #myagrirouter
 #: de/modules/ROOT/pages/introduction.adoc:46
@@ -2618,8 +2610,8 @@ msgid ""
 "Du hast die Möglichkeit, die xref:account.adoc#edit-"
 "account[*_Einstellungen_*] deines agrirouter Kontos zu bearbeiten."
 msgstr ""
-"У вас есть возможность редактировать xref:account.adoc#edit-account"
-"[*_settings_*] вашего аккаунта в сети agrirouter."
+"У вас есть возможность редактировать xref:account.adoc#edit-"
+"account[*_settings_*] вашего аккаунта в сети agrirouter."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/introduction.adoc:49
@@ -2686,8 +2678,8 @@ msgid ""
 "Finder] auf der agrirouter Website."
 msgstr ""
 "Все совместимые с agrirouter конечные пункты, как ПО для аграрного сектора, "
-"так и телеметрические устройства, можно найти в разделе https://"
-"agrirouter.com/solutions[Solution-Finder] на сайте agrirouter."
+"так и телеметрические устройства, можно найти в разделе https://agrirouter."
+"com/solutions[Solution-Finder] на сайте agrirouter."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/introduction.adoc:63
@@ -2843,10 +2835,10 @@ msgid ""
 "Daten zwischen zwei Endpunkten.  [.result]#Mit der Route legst du fest, wer "
 "welche Daten austauscht.#"
 msgstr ""
-"xref:introduction.adoc#route[Маршрут] - это соединение между двумя "
-"xref:introduction.adoc#endpoint[Конечный пункт], т. е. по маршруту "
-"происходит обмен данными между двумя конечными пунктами.  [.result]# С "
-"помощью маршрута вы определяете, кто обменивается какими данными."
+"xref:introduction.adoc#route[Маршрут] - это соединение между двумя xref:"
+"introduction.adoc#endpoint[Конечный пункт], т. е. по маршруту происходит "
+"обмен данными между двумя конечными пунктами.  [.result]# С помощью маршрута "
+"вы определяете, кто обменивается какими данными."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:11
@@ -2877,10 +2869,10 @@ msgid ""
 "hinzufügen_* image:endpoints/add-route-icon.png[Routen hinzufügen Icon, 22] "
 "Icon angezeigt.#"
 msgstr ""
-"Щелкните на значке *_View routes_* image:endpoints/see-routes-icon.png "
-"[View routes icon, 22] в том конечном пункте, который вы хотите соединить с "
-"другим конечным пунктом.  [.result]# Теперь вы увидите значок *_add-route_* "
-"image:endpoints/add-route-icon.png [Add routes icon, 22]."
+"Щелкните на значке *_View routes_* image:endpoints/see-routes-icon.png [View "
+"routes icon, 22] в том конечном пункте, который вы хотите соединить с другим "
+"конечным пунктом.  [.result]# Теперь вы увидите значок *_add-route_* image:"
+"endpoints/add-route-icon.png [Add routes icon, 22]."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/routing.adoc:22
@@ -2890,9 +2882,9 @@ msgid ""
 "erstellen_* image:endpoints/create-route-icon.png[Route erstellen Icon, 22] "
 "Icons angezeigt.#"
 msgstr ""
-"Нажмите на иконку *_add-route_* image:endpoints/add-route-icon.png "
-"[add-route-icon, 22].  [.result]# Теперь вы увидите иконки *_create-route_* "
-"image:endpoints/create-route-icon.png [Create route icon, 22]."
+"Нажмите на иконку *_add-route_* image:endpoints/add-route-icon.png [add-"
+"route-icon, 22].  [.result]# Теперь вы увидите иконки *_create-route_* image:"
+"endpoints/create-route-icon.png [Create route icon, 22]."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/routing.adoc:25
@@ -2903,11 +2895,11 @@ msgid ""
 "möglich ist. Wird dieses Icon nicht angezeigt, kannst du keine Route "
 "zwischen den beiden Endpunkten erstellen."
 msgstr ""
-"Значки *_Create route_* image:endpoints/create-route-icon.png"
-"[Create route icon, 22], обведенные здесь красным, указывают на возможность "
-"создания маршрута между выбранным вами Конечным пунктом и другими конечными "
-"пунктами. Если этот значок не отображается, вы не можете создать маршрут "
-"между двумя конечными пунктами."
+"Значки *_Create route_* image:endpoints/create-route-icon.png[Create route "
+"icon, 22], обведенные здесь красным, указывают на возможность создания "
+"маршрута между выбранным вами Конечным пунктом и другими конечными пунктами. "
+"Если этот значок не отображается, вы не можете создать маршрут между двумя "
+"конечными пунктами."
 
 #. type: start
 #: de/modules/ROOT/pages/routing.adoc:31
@@ -2916,9 +2908,9 @@ msgid ""
 "*_Route erstellen_* image:endpoints/create-route-icon.png[Routen hinzufügen "
 "Icon, 22] Icon.  [.result]#Das folgende Pop-up Fenster öffnet sich.#"
 msgstr ""
-"Щелкните на значке *_Create route_* image:endpoints/create-route-icon.png"
-"[Добавить значок маршрута, 22] у того конечного пункта, к которому вы хотите "
-"создать маршрут.  [.result]# Откроется следующее всплывающее окно."
+"Щелкните на значке *_Create route_* image:endpoints/create-route-icon."
+"png[Добавить значок маршрута, 22] у того конечного пункта, к которому вы "
+"хотите создать маршрут.  [.result]# Откроется следующее всплывающее окно."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/routing.adoc:35
@@ -2981,8 +2973,8 @@ msgid ""
 "Endpunkt A an Endpunkt B gesendet werden. Das heißt aber nicht, dass eine "
 "Verbindung in die andere Richtung nicht möglich ist."
 msgstr ""
-"image:endpoints/no-route-possible-icon.png[Значок \"Маршрут невозможен\", 40]"
-" Маршрут не может быть создан. Для этого типа данных невозможно отправить "
+"image:endpoints/no-route-possible-icon.png[Значок \"Маршрут невозможен\", "
+"40] Маршрут не может быть создан. Для этого типа данных невозможно отправить "
 "данные из Конечного пункта A в Конечный пункт B. Однако это не означает, что "
 "соединение в другом направлении невозможно."
 
@@ -3048,8 +3040,8 @@ msgid ""
 "Icon.  [.result]#Dir werden nun die Roten, die bereits zu anderen Endpunkten "
 "bestehen, über einen grauen Pfeil angezeigt.#"
 msgstr ""
-"Нажмите на значок *_Просмотреть маршруты_* image:endpoints/see-routes-"
-"icon.png[Просмотр маршрутов, 22] у того конечного пункта, который вы хотите "
+"Нажмите на значок *_Просмотреть маршруты_* image:endpoints/see-routes-icon."
+"png[Просмотр маршрутов, 22] у того конечного пункта, который вы хотите "
 "отредактировать.  [result]#Красные маршруты, которые уже существуют к другим "
 "Конечным пунктам, теперь отображаются серой стрелкой."
 
@@ -3060,8 +3052,8 @@ msgid ""
 "den Pfeil_* der Route, die du bearbeiten möchtest.  [.result]#Das folgende "
 "Menü wird geöffnet.#"
 msgstr ""
-"Если вы наведете курсор на стрелку, она станет зеленой. *Нажмите на стрелку_*"
-" маршрута, который вы хотите отредактировать.  [.result]# Откроется "
+"Если вы наведете курсор на стрелку, она станет зеленой. *Нажмите на "
+"стрелку_* маршрута, который вы хотите отредактировать.  [.result]# Откроется "
 "следующее меню."
 
 #. type: .float-group
@@ -3175,8 +3167,8 @@ msgid ""
 "image:support/support-information.png[Support Informationen, 400, "
 "float=right]"
 msgstr ""
-"image:support/support-information.png"
-"[Информация о поддержке, 400, float=right]"
+"image:support/support-information.png[Информация о поддержке, 400, "
+"float=right]"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/support.adoc:35
@@ -3254,8 +3246,8 @@ msgid ""
 "Klicke in der oberen rechten Ecke auf den Button *_Login_*.  [.result]#Ein "
 "Formular wird geöffnet.#"
 msgstr ""
-"Нажмите на кнопку *_Login_* в правом верхнем углу.  Откроется форма [.result]"
-"#."
+"Нажмите на кнопку *_Login_* в правом верхнем углу.  Откроется форма [."
+"result]#."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/support.adoc:57
@@ -3307,8 +3299,8 @@ msgid ""
 "*_report an agrirouter incident_*: Wenn du einen Vorfall (Fehler, Login-"
 "Probleme etc.) mit deinem agrirouter Konto hast."
 msgstr ""
-"*_сообщите об инциденте в agrirouter_*: Если у вас произошел инцидент ("
-"ошибка, проблемы со входом и т.д.) с вашим аккаунтом в сети agrirouter."
+"*_сообщите об инциденте в agrirouter_*: Если у вас произошел инцидент "
+"(ошибка, проблемы со входом и т.д.) с вашим аккаунтом в сети agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:70
@@ -3329,8 +3321,8 @@ msgid ""
 "[.result]#Ein Formular wird geöffnet.#"
 msgstr ""
 "*_вопросы по членству_*: Если у вас есть вопросы о вашем членстве в "
-"экосистеме agrirouter, в частности в ассоциации DKE-Data agrirouter e.V.  "
-"[.result]# Будет открыта форма."
+"экосистеме agrirouter, в частности в ассоциации DKE-Data agrirouter e.V.  [."
+"result]# Будет открыта форма."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:73
@@ -3430,9 +3422,9 @@ msgid ""
 "Unsere Hotline ist an Werktagen von 9 bis 18 Uhr{empty}footnote:[https://www."
 "timezones.de/germany/berlin/berlin.html[Zeitzone Europa/Berlin^]] erreichbar."
 msgstr ""
-"Наша горячая линия доступна в рабочие дни с 9 утра до 6 "
-"вечера{empty}footnote:[https://www.timezones.de/germany/berlin/berlin.html"
-"[часовой пояс Европа/Берлин^]]."
+"Наша горячая линия доступна в рабочие дни с 9 утра до 6 вечера{empty}"
+"footnote:[https://www.timezones.de/germany/berlin/berlin.html[часовой пояс "
+"Европа/Берлин^]]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/support.adoc:97
@@ -3882,7 +3874,8 @@ msgstr ""
 msgid ""
 "Wähle in der Menüleiste den Punkt *_Assets_* und klicke dann auf "
 "*_Equipments_*."
-msgstr "Выберите *_Активы_* в строке меню, а затем нажмите на *_Оборудование_*."
+msgstr ""
+"Выберите *_Активы_* в строке меню, а затем нажмите на *_Оборудование_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:103
@@ -3914,8 +3907,8 @@ msgid ""
 "die Endpoint ID, window=\"_blank\"]."
 msgstr ""
 "Введите идентификатор конечной точки машины в поле external_endpoint_id. "
-"https://manual.agrirouter.com/de/manual/latest/endpoint.html"
-"[Чтобы найти идентификатор конечной точки, window=\"_blank\"]."
+"https://manual.agrirouter.com/de/manual/latest/endpoint.html[Чтобы найти "
+"идентификатор конечной точки, window=\"_blank\"]."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:118
@@ -4035,8 +4028,8 @@ msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://ag-force.com/"
 "[AgForce-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
-"Прежде чем начать, вы должны войти в свой аккаунт по ссылке:https://ag-"
-"force.com/[Сайт AgForce, window=\"_blank\"]."
+"Прежде чем начать, вы должны войти в свой аккаунт по ссылке:https://ag-force."
+"com/[Сайт AgForce, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:18
@@ -4044,8 +4037,8 @@ msgid ""
 "Klicke im oberen Reiter den Tab *_Stammdaten_* und wähle "
 "*_Betriebseinstellungen_* aus."
 msgstr ""
-"Щелкните на вкладке *_Мастер-данные_* в верхней вкладке и выберите *"
-"_Настройки операции_*."
+"Щелкните на вкладке *_Мастер-данные_* в верхней вкладке и выберите "
+"*_Настройки операции_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:19
@@ -4157,8 +4150,8 @@ msgid ""
 "Nicht zugeordnete Maschinen können unter dem Punkt „Nicht zugeordnete "
 "Maschinen anzeigen“ ausgeklappt werden."
 msgstr ""
-"Не назначенные машины можно раскрыть в разделе "
-"\"Показать не назначенные машины\"."
+"Не назначенные машины можно раскрыть в разделе \"Показать не назначенные "
+"машины\"."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:62
@@ -4589,8 +4582,8 @@ msgid ""
 "www.agrarmonitor.de/[AGRARMONITOR, window=\"_blank\"] Zugang einloggen."
 msgstr ""
 "Прежде чем приступить к работе, необходимо войти в систему, используя свою "
-"индивидуальную учетную запись https://www.agrarmonitor.de/"
-"[AGRARMONITOR, window=\"_blank\"]."
+"индивидуальную учетную запись https://www.agrarmonitor.de/[AGRARMONITOR, "
+"window=\"_blank\"]."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:18
@@ -4658,9 +4651,9 @@ msgid ""
 "werden die Daten der Schnittstelle anschließend mit den erfassten Daten in "
 "AGRARMONITOR abgeglichen."
 msgstr ""
-"Передаваемые значения, такие как счетчик часов работы, счетчик гектаров и "
-"т.д., могут быть присвоены значениям в AGRARMONITOR. Таким образом, данные "
-"из интерфейса синхронизируются с данными, записанными в AGRARMONITOR."
+"Передаваемые значения, такие как счетчик часов работы, счетчик гектаров и т."
+"д., могут быть присвоены значениям в AGRARMONITOR. Таким образом, данные из "
+"интерфейса синхронизируются с данными, записанными в AGRARMONITOR."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:58
@@ -4784,8 +4777,8 @@ msgid ""
 "Logge dich in das link:https://argofleet.argotractors.com/#/auth/login[ARGO "
 "Fleet Management Portal, window=\"_blank\"] ein."
 msgstr ""
-"Войдите в систему по ссылке:https://argofleet.argotractors.com/#/auth/login"
-"[ARGO Fleet Management Portal, window=\"_blank\"]."
+"Войдите в систему по ссылке:https://argofleet.argotractors.com/#/auth/"
+"login[ARGO Fleet Management Portal, window=\"_blank\"]."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:28
@@ -4922,11 +4915,10 @@ msgid ""
 "com/de/manual/latest/endpoint.html#connect-machine[füge das Terminal als "
 "einen neuen Endpunkt (Horizon ARGO) hinzu, window=\"_blank\"]."
 msgstr ""
-"Теперь войдите в свой https://my-agrirouter.accounts.ondemand.com/"
-"[аккаунт в сети agrirouter, window=\"_blank\"] и https://"
-"manual.agrirouter.com/de/manual/latest/endpoint.html#connect-machine["
-"добавьте терминал как новый Конечный пункт (Horizon ARGO), window=\"_blank\""
-"]."
+"Теперь войдите в свой https://my-agrirouter.accounts.ondemand.com/[аккаунт в "
+"сети agrirouter, window=\"_blank\"] и https://manual.agrirouter.com/de/"
+"manual/latest/endpoint.html#connect-machine[добавьте терминал как новый "
+"Конечный пункт (Horizon ARGO), window=\"_blank\"]."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:106
@@ -4938,7 +4930,8 @@ msgstr "Запишите регистрационный код на послед
 msgid ""
 "Klicke in deinem X25 Terminal auf *_System Setup_* und dann auf "
 "*_AGRIROUTER_*."
-msgstr "В терминале X25 нажмите на *_System Setup_*, а затем на *_AGRIROUTER_*."
+msgstr ""
+"В терминале X25 нажмите на *_System Setup_*, а затем на *_AGRIROUTER_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/argo.adoc:124
@@ -5403,8 +5396,8 @@ msgid ""
 "currentLanguage=%22en%22[CropManager Website, window=\"_blank\"] in dein "
 "Cropmanager-Konto ein."
 msgstr ""
-"Войдите в свою учетную запись Cropmanager по ссылке:https://cropmanager.dk/#/"
-"?currentLanguage=%22en%22[веб-сайт CropManager, window=\"_blank\"]."
+"Войдите в свою учетную запись Cropmanager по ссылке:https://cropmanager.dk/"
+"#/?currentLanguage=%22en%22[веб-сайт CropManager, window=\"_blank\"]."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:18
@@ -5489,8 +5482,8 @@ msgid ""
 "(Düngung, Aussaat oder Pflanzenschutz) kannst du deine Applikationskarte "
 "über den agrirouter drahtlos an dein Terminal senden."
 msgstr ""
-"После планирования и создания задания для одного или нескольких полей ("
-"удобрение, посев или защита растений) вы можете отправить карту рецептов по "
+"После планирования и создания задания для одного или нескольких полей "
+"(удобрение, посев или защита растений) вы можете отправить карту рецептов по "
 "беспроводной связи на ваш терминал через agrirouter."
 
 #. type: Plain text
@@ -5614,9 +5607,9 @@ msgid ""
 "Aufgaben)sind Aufgaben verortet, die noch keiner Kategorie zugeordnet sind."
 msgstr ""
 "Теперь в правой боковой панели вы увидите подборку карт применения, "
-"отсортированных по категориям \"ПОСЕВ\", \"ФЕРТИЛИЗАТОР\" и "
-"\"ЗАЩИТА РАСТЕНИЙ\". В разделе НЕОПРЕДЕЛЕННЫЕ ЗАДАЧИ вы найдете задачи, "
-"которые еще не были отнесены к какой-либо категории."
+"отсортированных по категориям \"ПОСЕВ\", \"ФЕРТИЛИЗАТОР\" и \"ЗАЩИТА "
+"РАСТЕНИЙ\". В разделе НЕОПРЕДЕЛЕННЫЕ ЗАДАЧИ вы найдете задачи, которые еще "
+"не были отнесены к какой-либо категории."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/cropmanager.adoc:123
@@ -5687,11 +5680,11 @@ msgid ""
 msgstr ""
 "Чтобы иметь возможность получать и отправлять данные с agrirouter через "
 "аккаунт в сети agrirouter DACOM, вам необходима лицензия Cloudfarm. Вы "
-"можете узнать, какие лицензии предлагает DACOM, на сайте https://"
-"www.dacom.nl/de/produkte/cloudfarm/#pricing"
-"[веб-сайт DACOM, window=\"_blank\"] или на сайте https://www.dacom.nl/de/"
-"service/[служба поддержки DACOM, window=\"_blank\"]. Как только вы "
-"приобретете соответствующую лицензию, вы сможете установить соединение."
+"можете узнать, какие лицензии предлагает DACOM, на сайте https://www.dacom."
+"nl/de/produkte/cloudfarm/#pricing[веб-сайт DACOM, window=\"_blank\"] или на "
+"сайте https://www.dacom.nl/de/service/[служба поддержки DACOM, "
+"window=\"_blank\"]. Как только вы приобретете соответствующую лицензию, вы "
+"сможете установить соединение."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:19
@@ -5712,8 +5705,8 @@ msgid ""
 "Logge dich in dein https://dacom.farm/accounts/login/[DACOM-Konto, "
 "window=\"_blank\"] ein."
 msgstr ""
-"Войдите в свою учетную запись https://dacom.farm/accounts/login/"
-"[DACOM, window=\"_blank\"]."
+"Войдите в свою учетную запись https://dacom.farm/accounts/login/[DACOM, "
+"window=\"_blank\"]."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:27
@@ -5799,9 +5792,9 @@ msgid ""
 "com/de/manual/latest/account.html#benutzerdaten-%C3%A4ndern[Kontoverwaltung, "
 "window=\"_blank\"]."
 msgstr ""
-"Вы можете найти свой *_agrirouter Account ID_* на странице https://"
-"manual.agrirouter.com/de/manual/latest/account.html#benutzerdaten-%C3%A4ndern"
-"[Администрирование аккаунта, window=\"_blank\"]."
+"Вы можете найти свой *_agrirouter Account ID_* на странице https://manual."
+"agrirouter.com/de/manual/latest/account.html#benutzerdaten-"
+"%C3%A4ndern[Администрирование аккаунта, window=\"_blank\"]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:65
@@ -5910,8 +5903,8 @@ msgid ""
 msgstr ""
 "С помощью DACOM карты вашего приложения всегда автоматически отправляются "
 "напрямую на все конечные пункты, которые подключены к agrirouter через "
-"https://manual.agrirouter.com/de/manual/latest/routing.html"
-"[route, window=\"_blank\"]."
+"https://manual.agrirouter.com/de/manual/latest/routing.html[route, "
+"window=\"_blank\"]."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:119
@@ -5973,9 +5966,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:148
 #, no-wrap
 msgid "Import von Ist-Applikationskarten (As-Applied Maps) & Telemetriedaten"
-msgstr ""
-"Импорт карт фактического применения (карты по мере применения) и данных "
-"телеметрии"
+msgstr "Импорт карт фактического применения (карты по мере применения) и данных телеметрии"
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/dacom.adoc:150
@@ -6056,9 +6047,9 @@ msgid ""
 "4.3: „agrirouter verbinden“ 🌐 - YouTube, window=\"_blank\"]."
 msgstr ""
 "FarmBlick-Community также предлагает видео, объясняющее, как соединить "
-"agrirouter: link:https://www.youtube.com/"
-"watch?v=9Oml74ogvyY&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=8"
-"[🚜 Tutorial 4.3: \"Connect agrirouter\" 🌐 - YouTube, window=\"_blank\"]."
+"agrirouter: link:https://www.youtube.com/watch?"
+"v=9Oml74ogvyY&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=8[🚜 Tutorial "
+"4.3: \"Connect agrirouter\" 🌐 - YouTube, window=\"_blank\"]."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:26
@@ -6066,8 +6057,8 @@ msgid ""
 "Logge dich über die link:https://app.farmblick.de/[FarmBlick-Community "
 "Website, window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Войдите в свой аккаунт по ссылке:https://app.farmblick.de/"
-"[Сайт сообщества FarmBlick, window=\"_blank\"]."
+"Войдите в свой аккаунт по ссылке:https://app.farmblick.de/[Сайт сообщества "
+"FarmBlick, window=\"_blank\"]."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:27
@@ -6123,10 +6114,10 @@ msgid ""
 "übertragen“ 🌐 - YouTube, window=\"_blank\"]."
 msgstr ""
 "FarmBlick-Community также предлагает видео, объясняющее, как экспортировать "
-"карты рецептов: link:https://www.youtube.com/"
-"watch?v=ohr12FKvU6Q&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=29[🚜 "
-"Tutorial 13.19: \"Передача карт рецептов через agrirouter в терминал CCI\" 🌐"
-" - YouTube, window=\"_blank\"]."
+"карты рецептов: link:https://www.youtube.com/watch?"
+"v=ohr12FKvU6Q&list=PLZKtMZs2rqrHY3YjXFutxErdLCvm2w5Xo&index=29[🚜 Tutorial "
+"13.19: \"Передача карт рецептов через agrirouter в терминал CCI\" 🌐 - "
+"YouTube, window=\"_blank\"]."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:87
@@ -6185,8 +6176,8 @@ msgid ""
 "Düngung, Pflanzenschutz oder Aussaat) oder Jahr filtern."
 msgstr ""
 "На следующем шаге отображаются все данные, соответствующие выбранному вами "
-"формату. С помощью выпадающего меню можно отфильтровать данные по процессу ("
-"например, удобрение, защита растений или посев) или году."
+"формату. С помощью выпадающего меню можно отфильтровать данные по процессу "
+"(например, удобрение, защита растений или посев) или году."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:121
@@ -6250,8 +6241,8 @@ msgid ""
 msgstr ""
 "FarmBlick-Community также предлагает видеоролик, в котором рассказывается о "
 "соединении agrirouter: link:https://www.youtube.com/watch?v=Lx8lPAr7Dr0[🚜 "
-"Tutorial 8.4: \"Чтение обратных заказов с терминала CCI через agrirouter\" 🌐"
-" - YouTube, window=\"_blank\"]."
+"Tutorial 8.4: \"Чтение обратных заказов с терминала CCI через agrirouter\" "
+"🌐 - YouTube, window=\"_blank\"]."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:163
@@ -6285,8 +6276,8 @@ msgid ""
 "In der neuen Ansicht kannst du deiner Datei eine Bezeichnung geben und als "
 "Datentyp *_Ausbringkarten_* auswählen."
 msgstr ""
-"В новом представлении вы можете дать файлу назначение и выбрать тип данных *"
-"_Карты приложения_*."
+"В новом представлении вы можете дать файлу назначение и выбрать тип данных "
+"*_Карты приложения_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:200
@@ -6313,7 +6304,8 @@ msgstr ""
 msgid ""
 "Klicke in der linken Seitenleiste auf das Symbol für *_Anwendungen auf "
 "Feldebene_*."
-msgstr "Нажмите на значок *_Приложения на уровне поля_* в левой боковой панели."
+msgstr ""
+"Нажмите на значок *_Приложения на уровне поля_* в левой боковой панели."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:223
@@ -6335,8 +6327,8 @@ msgid ""
 "Unter *_verfügbare Daten_* werden die nun alle importierten Daten zu diesem "
 "Feld angezeigt. Klicke auf die Datei, die du bearbeiten möchtest."
 msgstr ""
-"Все импортированные данные для этого поля теперь отображаются в разделе *"
-"_доступные данные_*. Щелкните файл, который нужно отредактировать."
+"Все импортированные данные для этого поля теперь отображаются в разделе "
+"*_доступные данные_*. Щелкните файл, который нужно отредактировать."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/farmblick.adoc:230
@@ -6390,8 +6382,8 @@ msgid ""
 "Bevor du anfangen kannst, musst du dich über die link:https://portal."
 "farmpilot.de/[farmpilot-Website, window=\"_blank\"] in dein Konto einloggen."
 msgstr ""
-"Прежде чем начать, вы должны войти в свой аккаунт по ссылке:https://"
-"portal.farmpilot.de/[сайт farmpilot, window=\"_blank\"]."
+"Прежде чем начать, вы должны войти в свой аккаунт по ссылке:https://portal."
+"farmpilot.de/[сайт farmpilot, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:19
@@ -6459,7 +6451,8 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:53
 msgid ""
 "Klicke in der Seitenleiste links auf *_Fahrzeuge_* und wähle *_Maschinen_*."
-msgstr "Нажмите на *_Vehicles_* в боковой панели слева и выберите *_Machines_*."
+msgstr ""
+"Нажмите на *_Vehicles_* в боковой панели слева и выберите *_Machines_*."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:54
@@ -6572,8 +6565,8 @@ msgid ""
 "Logge dich im link:https://www.myholmer.com/[myHOLMER Portal, "
 "window=\"_blank\"] ein."
 msgstr ""
-"Войдите в систему по ссылке:https://www.myholmer.com/"
-"[myHOLMER Portal, window=\"_blank\"]."
+"Войдите в систему по ссылке:https://www.myholmer.com/[myHOLMER Portal, "
+"window=\"_blank\"]."
 
 #. type: #connect-internet
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:16
@@ -6702,8 +6695,8 @@ msgid ""
 "funktioniert die Verbindungsherstellung unterschiedlich:"
 msgstr ""
 "Ваши продукты KRONE могут быть подключены к agrirouter тремя различными "
-"способами. В зависимости от выбранного варианта подключение происходит "
-"по-разному:"
+"способами. В зависимости от выбранного варианта подключение происходит по-"
+"разному:"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:11
@@ -6757,9 +6750,9 @@ msgid ""
 "freigeschaltet. Wähle hierzu unter *Services_* die Option *_Smart "
 "Telematics_* aus und folge dem Prozess."
 msgstr ""
-"Услуга Smart Telematics еще не активирована во вновь созданной "
-"ссылке:https://mykrone.green/[mykrone.green account, window=\"_blank\"]. Для "
-"этого выберите опцию *_Smart Telematics_* в разделе *Services_* и следуйте "
+"Услуга Smart Telematics еще не активирована во вновь созданной ссылке:"
+"https://mykrone.green/[mykrone.green account, window=\"_blank\"]. Для этого "
+"выберите опцию *_Smart Telematics_* в разделе *Services_* и следуйте "
 "дальнейшим инструкциям."
 
 #. type: .right
@@ -6774,9 +6767,8 @@ msgid ""
 "Logge dich auf link:https://mykrone.green/[mykrone.green Konto, "
 "window=\"_blank\"] mit deinem Nutzerprofil ein."
 msgstr ""
-"Войдите на сайт link:https://mykrone.green/"
-"[mykrone.green account, window=\"_blank\"], используя свой профиль "
-"пользователя."
+"Войдите на сайт link:https://mykrone.green/[mykrone.green account, "
+"window=\"_blank\"], используя свой профиль пользователя."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:34
@@ -7028,8 +7020,8 @@ msgid ""
 "Logge dich in dein link:https://mykuhn.kuhn.com/[myKUHN-Konto, "
 "window=\"_blank\"] ein."
 msgstr ""
-"Войдите в свой аккаунт по ссылке:https://mykuhn.kuhn.com/"
-"[myKUHN account, window=\"_blank\"]."
+"Войдите в свой аккаунт по ссылке:https://mykuhn.kuhn.com/[myKUHN account, "
+"window=\"_blank\"]."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:25
@@ -7127,8 +7119,8 @@ msgid ""
 "Solution Guide]."
 msgstr ""
 "Теперь установите соединение между вашим терминалом и agrirouter. О том, как "
-"это работает, вы можете узнать из документа xref:./cci-terminals.adoc"
-"[CCI-Terminal Solution-Guide]."
+"это работает, вы можете узнать из документа xref:./cci-terminals.adoc[CCI-"
+"Terminal Solution-Guide]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/kuhn.adoc:90
@@ -7251,8 +7243,8 @@ msgid ""
 "Wenn du einen PDF-Report zu der Datei haben möchtest, klicke auf *_DOWNLOAD "
 "REPORT_* (Report herunterladen)."
 msgstr ""
-"Если вы хотите получить отчет в формате PDF, нажмите на *_DOWNLOAD REPORT_* ("
-"скачать отчет)."
+"Если вы хотите получить отчет в формате PDF, нажмите на *_DOWNLOAD REPORT_* "
+"(скачать отчет)."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:2
@@ -7307,9 +7299,9 @@ msgid ""
 "machine[Maschine] mit deinem agrirouter-Konto und *_notiere dir den "
 "Registrierungscode_*."
 msgstr ""
-"Соедините LEMKEN iQblue connect как xref:endpoint.adoc#connect-machine"
-"[machine] с вашим аккаунтом в сети agrirouter и *_запомните регистрационный "
-"код_*."
+"Соедините LEMKEN iQblue connect как xref:endpoint.adoc#connect-"
+"machine[machine] с вашим аккаунтом в сети agrirouter и *_запомните "
+"регистрационный код_*."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/lemken.adoc:15
@@ -7426,9 +7418,9 @@ msgid ""
 "Konto, window=\"_blank\"] ein und klicke in der Seitenleiste auf das Symbol "
 "für *Nutzerprofil*."
 msgstr ""
-"Войдите в свою учетную запись https://portal.mydataplant.com/#/fields"
-"[MyDataPlant, window=\"_blank\"] и нажмите на значок *Профиль пользователя* "
-"в боковой панели."
+"Войдите в свою учетную запись https://portal.mydataplant.com/#/"
+"fields[MyDataPlant, window=\"_blank\"] и нажмите на значок *Профиль "
+"пользователя* в боковой панели."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/mydataplant.adoc:23
@@ -7653,8 +7645,8 @@ msgid ""
 "einloggen."
 msgstr ""
 "Прежде чем приступить к работе, вам необходимо войти в свою учетную запись "
-"MyEasyFarm по ссылке:https://app.myeasyfarm.com/login"
-"[Сайт MyEasyFarm, window=\"_blank\"]."
+"MyEasyFarm по ссылке:https://app.myeasyfarm.com/login[Сайт MyEasyFarm, "
+"window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:20
@@ -7726,8 +7718,8 @@ msgid ""
 msgstr ""
 "Если вы добавили новую машину и хотите просмотреть ее через MyEasyFarm, "
 "убедитесь, что кнопка *_ИМПОРТИРОВАННОЕ ОБОРУДОВАНИЕ_* image:"
-"interactive_agrirouter/myeasyfarm/myeasyfarm-imported-equipment-button.png"
-"[Select Register ,100, 100]. в верхней части страницы активирована."
+"interactive_agrirouter/myeasyfarm/myeasyfarm-imported-equipment-button."
+"png[Select Register ,100, 100]. в верхней части страницы активирована."
 
 #. type: #export-maps
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:58
@@ -7870,8 +7862,8 @@ msgid ""
 "& IMPORT_*."
 msgstr ""
 "Для того чтобы импортировать файл, необходимо впоследствии ввести "
-"недостающие данные (например, поле, сотрудник, ...). Для этого нажмите на *"
-"_UPDATE & IMPORT_*."
+"недостающие данные (например, поле, сотрудник, ...). Для этого нажмите на "
+"*_UPDATE & IMPORT_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:124
@@ -7898,7 +7890,8 @@ msgstr ""
 msgid ""
 "Klicke, nachdem du die allgemeinen Informationen bearbeitet hast, auf "
 "*_AKTUALISIERUNG_*."
-msgstr "После того как вы отредактировали общую информацию, нажмите *_UPDATE_*."
+msgstr ""
+"После того как вы отредактировали общую информацию, нажмите *_UPDATE_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/myeasyfarm.adoc:132
@@ -7972,8 +7965,8 @@ msgid ""
 "Logge dich in dein link:https://my.grimme.com/de[myGrimme-Konto, "
 "window=\"_blank\"]."
 msgstr ""
-"Войдите в свой аккаунт по ссылке:https://my.grimme.com/de"
-"[myGrimme account, window=\"_blank\"]."
+"Войдите в свой аккаунт по ссылке:https://my.grimme.com/de[myGrimme account, "
+"window=\"_blank\"]."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:12
@@ -8090,8 +8083,8 @@ msgid ""
 msgstr ""
 "Если вы отправили карты рецептов на машину GRIMME через систему управления "
 "фермой, вы можете получить их через терминал в машине. О том, как это "
-"работает, вы можете узнать xref:solution-Guide/cci-terminals.adoc#importmaps"
-"[здесь]."
+"работает, вы можете узнать xref:solution-Guide/cci-terminals."
+"adoc#importmaps[здесь]."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/mygrimme.adoc:65
@@ -8116,8 +8109,8 @@ msgstr ""
 "Передаваемые данные включают в себя фактические карты применения и другие "
 "телеметрические данные, такие как расход топлива, глубина уборки или "
 "скорость движения. Вы можете узнать, как настроить конечные пункты, в "
-"которые должен передавать данные конечный пункт agrirouter "
-"xref:introduction.adoc#route[здесь]."
+"которые должен передавать данные конечный пункт agrirouter xref:introduction."
+"adoc#route[здесь]."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:1
@@ -8164,8 +8157,8 @@ msgid ""
 "Logge dich über die link:https://mein.nextfarming.de/j_security_check[NEXT "
 "Farming Login-Seite, window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Войдите в свой аккаунт по ссылке:https://mein.nextfarming.de/j_security_check"
-"[Страница входа в NEXT Farming, window=\"_blank\"]."
+"Войдите в свой аккаунт по ссылке:https://mein.nextfarming.de/"
+"j_security_check[Страница входа в NEXT Farming, window=\"_blank\"]."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:23
@@ -8243,8 +8236,8 @@ msgid ""
 msgstr ""
 "Если лицензия была привязана к конечному пункту, вы не сможете привязать к "
 "нему другой конечный пункт. Чтобы отменить привязку, необходимо "
-"воспользоваться ссылкой:https://www.nextfarming.de/kontakt/support/"
-"[Contact NEXT Farming Support, window=\"_blank\"]."
+"воспользоваться ссылкой:https://www.nextfarming.de/kontakt/support/[Contact "
+"NEXT Farming Support, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:60
@@ -8328,11 +8321,10 @@ msgid ""
 "window=\"_blank\"]. Wenn du bspw. Applikationskarten über das "
 "Applikationskartencenter versenden möchtest, gehst du wie folgt vor:"
 msgstr ""
-"Узнать, чем отличаются друг от друга эти три варианта, можно по "
-"ссылке:https://www.nextfarming.de/hilfe/"
-"[ Информационный портал NEXT Farming, window=\"_blank\"]. Например, если вы "
-"хотите отправить карты рецептов через центр карт рецептов, выполните "
-"следующие действия:"
+"Узнать, чем отличаются друг от друга эти три варианта, можно по ссылке:"
+"https://www.nextfarming.de/hilfe/[ Информационный портал NEXT Farming, "
+"window=\"_blank\"]. Например, если вы хотите отправить карты рецептов через "
+"центр карт рецептов, выполните следующие действия:"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/next-farming.adoc:92
@@ -8555,8 +8547,8 @@ msgid ""
 msgstr ""
 "Для соединения с agrirouter ваша учетная запись Plantivo должна быть "
 "активирована для функций точного земледелия. Более подробную информацию об "
-"этом можно найти по ссылке:https://www.plantivo.de/"
-"[веб-сайт Plantivo, window=\"_blank\"]."
+"этом можно найти по ссылке:https://www.plantivo.de/[веб-сайт Plantivo, "
+"window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:22
@@ -8565,8 +8557,8 @@ msgid ""
 "de/[Plantivo Website, window=\"_blank\"] in dein Plantivo-Konto einloggen."
 msgstr ""
 "Прежде чем приступить к работе, необходимо войти в свою учетную запись "
-"Plantivo по ссылке:https://www.plantivo.de/"
-"[веб-сайт Plantivo, window=\"_blank\"]."
+"Plantivo по ссылке:https://www.plantivo.de/[веб-сайт Plantivo, "
+"window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:23
@@ -8600,8 +8592,8 @@ msgid ""
 "besteht, klickst du auf *_Betrieb > Stammdaten > Agrirouter_*. Steht bei "
 "Status *_Verbunden_*, ist deine Verbindung aktiv."
 msgstr ""
-"Если вы хотите проверить, активно ли соединение с agrirouter, нажмите *"
-"_Операция > Основные данные > Agrirouter_*. Если в статусе указано "
+"Если вы хотите проверить, активно ли соединение с agrirouter, нажмите "
+"*_Операция > Основные данные > Agrirouter_*. Если в статусе указано "
 "*_Connected_*, соединение активно."
 
 #. type: start
@@ -8675,9 +8667,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:70
 #, no-wrap
 msgid "Import von Ist-Applikationskarten (As-Applied-Maps) & Telemetriedaten"
-msgstr ""
-"Импорт карт фактического применения (карты по мере применения) и данных "
-"телеметрии"
+msgstr "Импорт карт фактического применения (карты по мере применения) и данных телеметрии"
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:72
@@ -9043,8 +9033,8 @@ msgid ""
 "Bevor du anfangen kannst, musst du link:https://www.proflura.de/[ProFlura, "
 "window=\"_blank\"] auf deinem Endgerät öffnen und dich einloggen."
 msgstr ""
-"Прежде чем приступить к работе, необходимо открыть ссылку:https://"
-"www.proflura.de/[ProFlura, window=\"_blank\"] на своем конечном устройстве и "
+"Прежде чем приступить к работе, необходимо открыть ссылку:https://www."
+"proflura.de/[ProFlura, window=\"_blank\"] на своем конечном устройстве и "
 "войти в систему."
 
 #. type: #connect-agrirouter
@@ -9703,9 +9693,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:169
 #, no-wrap
 msgid "Export von Ist-Applikationskarten (As Applied Maps / Reale Ausbringkarten)"
-msgstr ""
-"Экспорт фактических карт приложений (как прикладные карты / реальные карты "
-"приложений)"
+msgstr "Экспорт фактических карт приложений (как прикладные карты / реальные карты приложений)"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/same-deutz-fahr.adoc:172
@@ -9792,12 +9780,12 @@ msgid ""
 msgstr ""
 "Бесперебойное использование agrirouter зависит от различных предпосылок, в "
 "частности, решающую роль играет оснащение машины, активация лицензии на "
-"программное обеспечение для машины и наличие действующей лицензии "
-"\"TaskDoc Pro Server\".  Во-первых, необходимо соответствующее оборудование "
-"машины; это относится, например, к тракторам или самоходным автомобилям.  "
-"Ваш дилер может сообщить вам, соответствует ли ваша машина этим требованиям. "
-"Он также может активировать или настроить лицензию для соответствующей "
-"машины и лицензию \"TaskDoc Pro Server\" для вас."
+"программное обеспечение для машины и наличие действующей лицензии \"TaskDoc "
+"Pro Server\".  Во-первых, необходимо соответствующее оборудование машины; "
+"это относится, например, к тракторам или самоходным автомобилям.  Ваш дилер "
+"может сообщить вам, соответствует ли ваша машина этим требованиям. Он также "
+"может активировать или настроить лицензию для соответствующей машины и "
+"лицензию \"TaskDoc Pro Server\" для вас."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:18
@@ -9807,8 +9795,8 @@ msgid ""
 "window=\"_blank\"] zu finden."
 msgstr ""
 "Информацию о решениях Fendt по сбору и обработке ваших данных можно найти по "
-"ссылке:https://www.fendt.com/de/smart-farming/agronomie"
-"[здесь, window=\"_blank\"]."
+"ссылке:https://www.fendt.com/de/smart-farming/agronomie[здесь, "
+"window=\"_blank\"]."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:23
@@ -9897,7 +9885,8 @@ msgstr "Соединение машин с agrirouter"
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:73
 msgid "Wähle im Hauptmenü des TaskDoc Servers die Option *_Fahrzeuge_*."
-msgstr "Выберите пункт *_Транспортные средства_* в главном меню TaskDoc Server."
+msgstr ""
+"Выберите пункт *_Транспортные средства_* в главном меню TaskDoc Server."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/taskdoc-server.adoc:82
@@ -9966,8 +9955,8 @@ msgid ""
 "Logge dich über link:https://trimbleag.com[Trimble, window=\"_blank\"] auf "
 "deinem Trimble-Konto ein."
 msgstr ""
-"Войдите в свою учетную запись Trimble по ссылке:https://trimbleag.com"
-"[Trimble, window=\"_blank\"]."
+"Войдите в свою учетную запись Trimble по ссылке:https://trimbleag."
+"com[Trimble, window=\"_blank\"]."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:19
@@ -10009,9 +9998,8 @@ msgid ""
 "Center, window=\"_blank\"] an und vervollständige dort das xref:routing."
 "adoc[Routing]"
 msgstr ""
-"Войдите в link:https://goto.my-agrirouter.com/app"
-"[agrirouter Control Centre, window=\"_blank\"] и заполните там "
-"xref:routing.adoc[Routing]."
+"Войдите в link:https://goto.my-agrirouter.com/app[agrirouter Control Centre, "
+"window=\"_blank\"] и заполните там xref:routing.adoc[Routing]."
 
 #. type: #check-connection
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:46
@@ -10053,8 +10041,8 @@ msgid ""
 msgstr ""
 "При установлении соединения с agrirouter задания не отправляются, так как "
 "маршрутизация должна быть настроена до того, как что-либо будет отправлено "
-"на agrirouter. Как только маршрутизация настроена, все исторические задачи ("
-"фактические карты приложений) можно отправлять вручную."
+"на agrirouter. Как только маршрутизация настроена, все исторические задачи "
+"(фактические карты приложений) можно отправлять вручную."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:62
@@ -10131,8 +10119,8 @@ msgid ""
 "Setze durch Klick auf das Kästchen einen Haken über dem Satz “*Automatically "
 "download all messages from agrirouter every 24 hours*”."
 msgstr ""
-"Установите флажок над предложением "
-"\"*Автоматически загружать все сообщения с agrirouter каждые 24 часа*\"."
+"Установите флажок над предложением \"*Автоматически загружать все сообщения "
+"с agrirouter каждые 24 часа*\"."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/trimble.adoc:97
@@ -10228,8 +10216,8 @@ msgid ""
 "Logge dich über die link:https://my.vineyard-cloud.com/#!/login[VYC Login "
 "Seite,window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Войдите в свой аккаунт по ссылке:https://my.vineyard-cloud.com/#!/login"
-"[страница входа в VYC, window=\"_blank\"]."
+"Войдите в свой аккаунт по ссылке:https://my.vineyard-cloud.com/#!/"
+"login[страница входа в VYC, window=\"_blank\"]."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:20
@@ -10294,7 +10282,8 @@ msgstr ""
 msgid ""
 "Möchtest du die Verbindung trennen, klickst du auf den Button *_Verbindung "
 "trennen_*."
-msgstr "Если вы хотите произвести соединение, нажмите на кнопку *_Disconnect_*."
+msgstr ""
+"Если вы хотите произвести соединение, нажмите на кнопку *_Disconnect_*."
 
 #. type: #check-connection
 #: de/modules/ROOT/pages/solution-guides/vyc.adoc:47
@@ -10408,8 +10397,8 @@ msgid ""
 "Logge dich über die link:https://fm.xarvio.com/de/de_de/login[xarvio Login "
 "Seite,window=\"_blank\"] in dein Konto ein."
 msgstr ""
-"Войдите в свою учетную запись по ссылке:https://fm.xarvio.com/de/de_de/login"
-"[xarvio login page,window=\"_blank\"]."
+"Войдите в свою учетную запись по ссылке:https://fm.xarvio.com/de/de_de/"
+"login[xarvio login page,window=\"_blank\"]."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:22
@@ -10492,8 +10481,8 @@ msgstr ""
 "В некоторых случаях для обновления Конечного пункта в xarvio FIELD MANAGER "
 "может потребоваться до 30 минут. Если это займет больше времени, попробуйте "
 "повторно подключить свой <<connect-agrirouter,agrirouter account>> или "
-"обратитесь по адресу https://www.xarvio.com/de/de/support.html"
-"[xarvio Support,window=\"_blank\"]."
+"обратитесь по адресу https://www.xarvio.com/de/de/support.html[xarvio "
+"Support,window=\"_blank\"]."
 
 #. type: #export-maps
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:68
@@ -10736,8 +10725,8 @@ msgstr ""
 msgid ""
 "Logge dich in dein https://app.xfarm.ag/[xFarm-Konto, window=\"_blank\"] ein."
 msgstr ""
-"Войдите в свою учетную запись https://app.xfarm.ag/[xFarm, window=\"_blank\"]"
-"."
+"Войдите в свою учетную запись https://app.xfarm.ag/[xFarm, "
+"window=\"_blank\"]."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:28
@@ -10787,8 +10776,8 @@ msgid ""
 "Überprüfe, ob bei der Kachel für *_Agrirouter_* der Status *_Verbunden_* "
 "angezeigt wird. Ist das der Fall, besteht eine aktive Verbindung."
 msgstr ""
-"Проверьте, отображается ли статус *_Connected_* на плитке для *_Agrirouter_*"
-". Если это так, то соединение активно."
+"Проверьте, отображается ли статус *_Connected_* на плитке для "
+"*_Agrirouter_*. Если это так, то соединение активно."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:62
@@ -11248,41 +11237,50 @@ msgstr "xref:solution-Guide/farmpilot.adoc[farmpilot]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:22
+#, fuzzy
+#| msgid "xref:solution-guides/cropmanager.adoc[CropManager]"
+msgid ""
+"xref:solution-guides/john-deere-operations-center.adoc[John Deere Operations "
+"Center]"
+msgstr "xref:solution-Guide/cropmanager.adoc[CropManager]"
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
 msgid "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
 msgstr "xref:solution-Guide/myeasyfarm.adoc[MyEasyFarm]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
 msgid "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 msgstr "xref:solution-Guide/mydataplant.adoc[MyDataPlant]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
 msgid "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 msgstr "xref:solution-Guide/next-farming.adoc[NEXT Farming]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
 msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
 msgstr "xref:solution-Guide/plantivo.adoc[Plantivo]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
 msgid "xref:solution-guides/proflura.adoc[ProFlura]"
 msgstr "xref:solution-Guide/proflura.adoc[ProFlura]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
 msgstr "xref:solution-Guide/vyc.adoc[VYC (Vineyard Cloud)]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
 msgid "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 msgstr "xref:solution-Guide/xarvio.adoc[xarvio FIELD MANAGER]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-Guide/xfarm.adoc[xFarm]"
 
@@ -11543,16 +11541,13 @@ msgstr "Я хочу спланировать задание для поля и �
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:17
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll."
-msgstr ""
-"чтобы мой сотрудник точно знал, какая работа и где должна быть выполнена."
+msgstr "чтобы мой сотрудник точно знал, какая работа и где должна быть выполнена."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:21
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an eine Maschine senden (z. B. für Control Traffic Farming, autonomes Fahren)"
-msgstr ""
-"Я хочу отправить план полосы движения машине (например, для управления "
-"дорожным хозяйством, автономным вождением)"
+msgstr "Я хочу отправить план полосы движения машине (например, для управления дорожным хозяйством, автономным вождением)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:23
@@ -11564,9 +11559,7 @@ msgstr "чтобы работа велась точно по намеченны�
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:25
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an mehrere Maschinen senden (z. B. für Control Traffic Farming, autonomes Fahren)"
-msgstr ""
-"Я хочу отправить план полосы движения нескольким машинам (например, для "
-"управления дорожным хозяйством, автономным вождением)."
+msgstr "Я хочу отправить план полосы движения нескольким машинам (например, для управления дорожным хозяйством, автономным вождением)."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:27
@@ -11578,9 +11571,7 @@ msgstr "чтобы все машины могли использовать ст�
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:29
 #, no-wrap
 msgid "möchte ich Bodenbearbeitungskarten an eine Maschine senden (z. B. Arbeitstiefe)"
-msgstr ""
-"Я хотел бы отправить машине карты обработки почвы (например, глубину "
-"обработки)"
+msgstr "Я хотел бы отправить машине карты обработки почвы (например, глубину обработки)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:31
@@ -11600,9 +11591,7 @@ msgstr "Я хочу отправить карты обработки почвы 
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:115
 #, no-wrap
 msgid "sodass mehrere Maschinen gleichzeitig dieselben Vorgaben nutzen können."
-msgstr ""
-"чтобы несколько машин могли одновременно использовать одни и те же "
-"спецификации."
+msgstr "чтобы несколько машин могли одновременно использовать одни и те же спецификации."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:36
@@ -11627,9 +11616,7 @@ msgstr "В качестве машиниста"
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:37
 #, no-wrap
 msgid "möchte ich abgearbeitete Auftragsdaten von der Maschine an die Agrarsoftware übertragen"
-msgstr ""
-"Я хотел бы перенести данные обработанных заказов с машины в "
-"сельскохозяйственное программное обеспечение"
+msgstr "Я хотел бы перенести данные обработанных заказов с машины в сельскохозяйственное программное обеспечение"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:39
@@ -11647,17 +11634,14 @@ msgstr "Я хочу отправить данные с машины A на ма�
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:43
 #, no-wrap
 msgid "sodass diese nahtlos mit den vorherigen Arbeitsergebnissen fortfahren kann."
-msgstr ""
-"так, чтобы она могла органично сочетаться с результатами предыдущей работы."
+msgstr "так, чтобы она могла органично сочетаться с результатами предыдущей работы."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:45
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:33
 #, no-wrap
 msgid "möchte ich den Auftragsstatus zwischen Agrarsoftware und Maschine abgleichen"
-msgstr ""
-"Я хотел бы синхронизировать статус заказа между сельскохозяйственным "
-"программным обеспечением и машиной"
+msgstr "Я хотел бы синхронизировать статус заказа между сельскохозяйственным программным обеспечением и машиной"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:46
@@ -11693,26 +11677,20 @@ msgstr "В качестве диспетчера"
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:56
 #, no-wrap
 msgid "möchte ich Telemetriedaten in Echtzeit in der Agrarsoftware erhalten"
-msgstr ""
-"Я хотел бы получать данные телеметрии в режиме реального времени в "
-"сельскохозяйственном программном обеспечении"
+msgstr "Я хотел бы получать данные телеметрии в режиме реального времени в сельскохозяйственном программном обеспечении"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:58
 #, no-wrap
 msgid "sodass im Lohnunternehmen der Arbeitsfortschritt verfolgt und weitere Planung optimiert werden kann."
-msgstr ""
-"чтобы исполнитель сельскохозяйственных работ мог отслеживать ход работ и "
-"оптимизировать дальнейшее планирование."
+msgstr "чтобы исполнитель сельскохозяйственных работ мог отслеживать ход работ и оптимизировать дальнейшее планирование."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:60
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:48
 #, no-wrap
 msgid "möchte ich, dass die Maschine Telemetriedaten automatisch an die Agrarsoftware sendet"
-msgstr ""
-"Я хочу, чтобы машина автоматически отправляла данные телеметрии в "
-"сельскохозяйственное программное обеспечение"
+msgstr "Я хочу, чтобы машина автоматически отправляла данные телеметрии в сельскохозяйственное программное обеспечение"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:62
@@ -11773,9 +11751,7 @@ msgstr "В качестве исполнителя сельскохозяйст�
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:110
 #, no-wrap
 msgid "möchte ich Maschinendaten in der Agrarsoftware erhalten"
-msgstr ""
-"Я хотел бы получать данные о машинах в сельскохозяйственном программном "
-"обеспечении"
+msgstr "Я хотел бы получать данные о машинах в сельскохозяйственном программном обеспечении"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:66
@@ -11791,9 +11767,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:112
 #, no-wrap
 msgid "sodass Tippfehler oder verlorene Dokumente durch Fahrer vermieden werden und eine transparente Dokumentation gewährleistet ist."
-msgstr ""
-"Таким образом, можно избежать ошибок при наборе текста или потери документов "
-"водителями и гарантировать прозрачность документации."
+msgstr "Таким образом, можно избежать ошибок при наборе текста или потери документов водителями и гарантировать прозрачность документации."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:68
@@ -11804,9 +11778,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:114
 #, no-wrap
 msgid "möchte ich Ausbringmengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
-msgstr ""
-"Я хотел бы автоматически регистрировать нормы внесения, площадь покрытия и "
-"время работы."
+msgstr "Я хотел бы автоматически регистрировать нормы внесения, площадь покрытия и время работы."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:69
@@ -11821,9 +11793,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:115
 #, no-wrap
 msgid "sodass die Abrechnung präzise nach Fläche, Zeit oder Menge erfolgen kann."
-msgstr ""
-"Таким образом, счета могут быть выставлены точно по площади, времени или "
-"количеству."
+msgstr "Таким образом, счета могут быть выставлены точно по площади, времени или количеству."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:71
@@ -12126,26 +12096,20 @@ msgstr "В качестве менеджера по операциям"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:18
 #, no-wrap
 msgid "möchte ich mehrere geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
-msgstr ""
-"Я хочу отправить несколько запланированных заданий с дорожками и количеством "
-"доз на одну машину"
+msgstr "Я хочу отправить несколько запланированных заданий с дорожками и количеством доз на одну машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:20
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:103
 #, no-wrap
 msgid "sodass auch weniger erfahrene Mitarbeiter fehlerfrei und effizient düngen können."
-msgstr ""
-"чтобы даже менее опытные сотрудники могли вносить удобрения эффективно и без "
-"ошибок."
+msgstr "чтобы даже менее опытные сотрудники могли вносить удобрения эффективно и без ошибок."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:22
 #, no-wrap
 msgid "möchte ich mehrere Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr ""
-"Я хотел бы отправить несколько карт применения с точной информацией о "
-"дозировке на одну или несколько машин"
+msgstr "Я хотел бы отправить несколько карт применения с точной информацией о дозировке на одну или несколько машин"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:24
@@ -12194,17 +12158,13 @@ msgstr "чтобы последующие работы можно было вы�
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:97
 #, no-wrap
 msgid "möchte ich während der Ausbringung automatisch dokumentieren, dass Nährstoffmengen, Sperrzonen und Einsatzzeiten eingehalten werden"
-msgstr ""
-"Я хотел бы автоматически документировать при внесении количество питательных "
-"веществ, зоны отчуждения и время внесения."
+msgstr "Я хотел бы автоматически документировать при внесении количество питательных веществ, зоны отчуждения и время внесения."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:40
 #, no-wrap
 msgid "sodass ich rechtssicher arbeite und meine Subvensionen gesichert sind."
-msgstr ""
-"чтобы моя работа соответствовала законодательству, а мои субсидии были в "
-"безопасности."
+msgstr "чтобы моя работа соответствовала законодательству, а мои субсидии были в безопасности."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:55
@@ -12277,9 +12237,7 @@ msgstr "Минеральные удобрения"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:95
 #, no-wrap
 msgid "sodass nachfolgende Arbeiten (z. B. Pflanzenschutz) auf denselben Spuren erfolgen können."
-msgstr ""
-"чтобы последующие работы (например, защита растений) проводились на тех же "
-"дорожках."
+msgstr "чтобы последующие работы (например, защита растений) проводились на тех же дорожках."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:99
@@ -12291,17 +12249,13 @@ msgstr "чтобы моя работа соответствовала требо
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:101
 #, no-wrap
 msgid "möchte ich geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
-msgstr ""
-"Я хочу отправлять запланированные заказы с дорожками и количеством доз на "
-"машину"
+msgstr "Я хочу отправлять запланированные заказы с дорожками и количеством доз на машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:105
 #, no-wrap
 msgid "möchte ich Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr ""
-"Я хотел бы отправить карты применения с точной информацией о дозировке на "
-"одну или несколько машин"
+msgstr "Я хотел бы отправить карты применения с точной информацией о дозировке на одну или несколько машин"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:107
@@ -12378,32 +12332,25 @@ msgstr "Уборка зерновых"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:13
 #, no-wrap
 msgid "möchte ich einen Ernteauftrag für ein bestimmtes Feld planen und an die Maschine senden"
-msgstr ""
-"Я хочу спланировать заказ на уборку урожая для определенного поля и "
-"отправить его на машину"
+msgstr "Я хочу спланировать заказ на уборку урожая для определенного поля и отправить его на машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:15
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Fläche wie geerntet werden soll."
-msgstr ""
-"чтобы водитель точно знал, на каком участке и каким образом будет "
-"производиться уборка."
+msgstr "чтобы водитель точно знал, на каком участке и каким образом будет производиться уборка."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:17
 #, no-wrap
 msgid "möchte ich Aufträge an mehrere Maschinen gleichzeitig senden können"
-msgstr ""
-"Я хотел бы иметь возможность отправлять заказы на несколько машин "
-"одновременно"
+msgstr "Я хотел бы иметь возможность отправлять заказы на несколько машин одновременно"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:19
 #, no-wrap
 msgid "sodass die Flotte effizient eingesetzt wird und Verzögerungen minimiert werden."
-msgstr ""
-"чтобы обеспечить эффективное использование парка и минимизировать задержки."
+msgstr "чтобы обеспечить эффективное использование парка и минимизировать задержки."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:21
@@ -12417,9 +12364,7 @@ msgstr "Я хотел бы просмотреть данные телеметр�
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:33
 #, no-wrap
 msgid "sodass ich kurzfristig Flotteneinsätze anpassen oder Mitarbeiter umdisponieren kann."
-msgstr ""
-"чтобы я мог корректировать задания парка или изменять график работы "
-"сотрудников по первому требованию."
+msgstr "чтобы я мог корректировать задания парка или изменять график работы сотрудников по первому требованию."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:25
@@ -12432,18 +12377,14 @@ msgstr "Я хотел бы, чтобы данные телеметрии пер�
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:27
 #, no-wrap
 msgid "sodass Erntezeit, gefahrene Flächen und Ertrag ohne manuellen Aufwand dokumentiert werden."
-msgstr ""
-"Таким образом, время сбора урожая, посевные площади и урожайность "
-"документируются без ручного труда."
+msgstr "Таким образом, время сбора урожая, посевные площади и урожайность документируются без ручного труда."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:29
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:122
 #, no-wrap
 msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das vorher nicht geplant war"
-msgstr ""
-"Я хотел бы распознавать, когда урожай с поля был собран спонтанно, без "
-"предварительного планирования"
+msgstr "Я хотел бы распознавать, когда урожай с поля был собран спонтанно, без предварительного планирования"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:31
@@ -12461,9 +12402,7 @@ msgstr "чтобы даже непредвиденные работы были �
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:326
 #, no-wrap
 msgid "möchte ich erkennen, wenn ein Feld spontan geerntet wurde, das nicht vorher geplant war"
-msgstr ""
-"Я хотел бы распознавать, когда урожай с поля был собран спонтанно, без "
-"предварительного планирования."
+msgstr "Я хотел бы распознавать, когда урожай с поля был собран спонтанно, без предварительного планирования."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:35
@@ -12472,9 +12411,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:328
 #, no-wrap
 msgid "sodass auch unvorhergesehene Arbeiten korrekt dokumentiert und abgerechnet werden können."
-msgstr ""
-"Таким образом, даже непредвиденные работы могут быть правильно "
-"задокументированы и выставлены счета."
+msgstr "Таким образом, даже непредвиденные работы могут быть правильно задокументированы и выставлены счета."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:41
@@ -12483,9 +12420,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:330
 #, no-wrap
 msgid "möchte ich Erntemengen, Flächenleistung und Einsatzzeiten automatisch erfassen"
-msgstr ""
-"Я хотел бы автоматически регистрировать количество урожая, площадь и время "
-"работы."
+msgstr "Я хотел бы автоматически регистрировать количество урожая, площадь и время работы."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:50
@@ -12606,22 +12541,19 @@ msgstr "Уборка соломы"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:102
 #, no-wrap
 msgid "möchte ich Strohpressaufträge planen und an eine Maschine senden"
-msgstr ""
-"Я хочу планировать работу по прессованию соломы и отправлять ее на машину"
+msgstr "Я хочу планировать работу по прессованию соломы и отправлять ее на машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:104
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Arbeit auf welchen Feldern durchgeführt werden soll."
-msgstr ""
-"чтобы водитель точно знал, какие работы на каких полях необходимо выполнить."
+msgstr "чтобы водитель точно знал, какие работы на каких полях необходимо выполнить."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:106
 #, no-wrap
 msgid "möchte ich einen Auftrag an mehrere Maschinen gleichzeitig senden können"
-msgstr ""
-"Я хотел бы иметь возможность отправлять заказ на несколько машин одновременно"
+msgstr "Я хотел бы иметь возможность отправлять заказ на несколько машин одновременно"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:108
@@ -12641,9 +12573,7 @@ msgstr "Я хочу передавать треки машины другим м
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:112
 #, no-wrap
 msgid "sodass nachfolgende Fahrer, z. B. Pressenfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
-msgstr ""
-"чтобы следующие за ними водители, например, водители прессы, больше не "
-"записывали свою полосу движения."
+msgstr "чтобы следующие за ними водители, например, водители прессы, больше не записывали свою полосу движения."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:114
@@ -12657,9 +12587,7 @@ msgstr "Я хотел бы просмотреть данные телеметр�
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:218
 #, no-wrap
 msgid "sodass Flotteneinsätze kurzfristig angepasst oder Mitarbeiter umdisponiert werden können."
-msgstr ""
-"Благодаря этому можно в кратчайшие сроки скорректировать дислокацию флота "
-"или перевести сотрудников на другую работу."
+msgstr "Благодаря этому можно в кратчайшие сроки скорректировать дислокацию флота или перевести сотрудников на другую работу."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:118
@@ -12671,9 +12599,7 @@ msgstr "Я бы хотел, чтобы данные телеметрии пер�
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:120
 #, no-wrap
 msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit dokumentiert sind, ohne manuellen Aufwand."
-msgstr ""
-"Таким образом, количество тюков, вес и влажность документируются без каких-"
-"либо ручных усилий."
+msgstr "Таким образом, количество тюков, вес и влажность документируются без каких-либо ручных усилий."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:142
@@ -12759,9 +12685,7 @@ msgstr "Уборка травы"
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:178
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeit wo durchgeführt werden soll und der weitere Arbeitsablauf optimal vorbereitet ist."
-msgstr ""
-"чтобы мой сотрудник точно знал, какая работа где должна быть выполнена, и "
-"дальнейший рабочий процесс был оптимально подготовлен."
+msgstr "чтобы мой сотрудник точно знал, какая работа где должна быть выполнена, и дальнейший рабочий процесс был оптимально подготовлен."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:180
@@ -12773,32 +12697,25 @@ msgstr "Я хочу планировать работу по прессован�
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:182
 #, no-wrap
 msgid "sodass der Fahrer genau weiß, welche Arbeiten auf welchem Feld durchgeführt werden sollen."
-msgstr ""
-"чтобы водитель точно знал, какие работы необходимо выполнить на том или ином "
-"поле."
+msgstr "чтобы водитель точно знал, какие работы необходимо выполнить на том или ином поле."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:184
 #, no-wrap
 msgid "möchte ich für den Schwaderfahrer eine A-B-Linie planen und an die Maschine senden"
-msgstr ""
-"Я хотел бы спланировать линию A-B для оператора граблей и отправить ее на "
-"машину"
+msgstr "Я хотел бы спланировать линию A-B для оператора граблей и отправить ее на машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:186
 #, no-wrap
 msgid "sodass die Schwaden optimal für den nachfolgenden Arbeitsablauf vorbereitet werden."
-msgstr ""
-"чтобы валки были оптимально подготовлены к последующему процессу обработки."
+msgstr "чтобы валки были оптимально подготовлены к последующему процессу обработки."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:188
 #, no-wrap
 msgid "möchte ich für den Häcksler die Parameter (Häckselgutlänge, Silagemittelmenge etc.) vorbereiten und versenden können"
-msgstr ""
-"Я хотел бы иметь возможность подготовить и отправить параметры (длина "
-"измельченного материала, количество силоса и т.д.) для измельчителя"
+msgstr "Я хотел бы иметь возможность подготовить и отправить параметры (длина измельченного материала, количество силоса и т.д.) для измельчителя"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:190
@@ -12810,9 +12727,7 @@ msgstr "чтобы качество силоса соответствовало 
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:192
 #, no-wrap
 msgid "möchte ich meine aufgezeichnete A-B-Linie an den Häckslerfahrer übermitteln"
-msgstr ""
-"Я хотел бы передать записанные мной линии A-B водителю кормоуборочного "
-"комбайна."
+msgstr "Я хотел бы передать записанные мной линии A-B водителю кормоуборочного комбайна."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:194
@@ -12830,25 +12745,19 @@ msgstr "Я хотел бы, чтобы данные о машине переда
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:198
 #, no-wrap
 msgid "sodass Ballenanzahl, Gewicht und Feuchtigkeit ohne manuellen Aufwand dokumentiert werden."
-msgstr ""
-"Таким образом, количество тюков, вес и влажность документируются без ручного "
-"труда."
+msgstr "Таким образом, количество тюков, вес и влажность документируются без ручного труда."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:200
 #, no-wrap
 msgid "möchte ich, dass die Telemetriedaten der Walzfahrzeuge auf dem Silo erfasst werden"
-msgstr ""
-"Я хотел бы, чтобы телеметрические данные подвижного состава записывались на "
-"бункер"
+msgstr "Я хотел бы, чтобы телеметрические данные подвижного состава записывались на бункер"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:202
 #, no-wrap
 msgid "sodass dokumentiert ist, wie viel Zeit und Überfahrten in die Verdichtung investiert wurden."
-msgstr ""
-"чтобы документально подтвердить, сколько времени и проходов было затрачено "
-"на уплотнение."
+msgstr "чтобы документально подтвердить, сколько времени и проходов было затрачено на уплотнение."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:204
@@ -12868,9 +12777,7 @@ msgstr "чтобы я мог использовать данные для пла
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:210
 #, no-wrap
 msgid "sodass ich die Daten für die Optimierung zukünftiger Düngungen nutzen kann."
-msgstr ""
-"чтобы я мог использовать полученные данные для оптимизации будущего внесения "
-"удобрений."
+msgstr "чтобы я мог использовать полученные данные для оптимизации будущего внесения удобрений."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:214
@@ -12882,17 +12789,13 @@ msgstr "чтобы я мог использовать данные для док
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:232
 #, no-wrap
 msgid "möchte ich die gesamten Maschinendaten (Mähen, Wenden, Schwaden, Häckseln, Abfahren, Walzen) zusammenführen"
-msgstr ""
-"Я хотел бы объединить все данные о машинах (кошение, поворот, валкование, "
-"измельчение, выезд, вальцевание)."
+msgstr "Я хотел бы объединить все данные о машинах (кошение, поворот, валкование, измельчение, выезд, вальцевание)."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:233
 #, no-wrap
 msgid "sodass ich die Arbeit für die Abrechnung und für den Kunden transparent dokumentieren kann."
-msgstr ""
-"чтобы я мог прозрачно документировать работу для выставления счетов и для "
-"заказчика."
+msgstr "чтобы я мог прозрачно документировать работу для выставления счетов и для заказчика."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:240
@@ -13016,72 +12919,55 @@ msgstr "чтобы работы по сбору урожая были четко
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:294
 #, no-wrap
 msgid "möchte ich Aufträge für die Abfahrer erstellen, in denen die zu erntenden Schläge hinterlegt sind"
-msgstr ""
-"Я хочу создать заказы для комбайнов, в которых хранятся поля, подлежащие "
-"уборке."
+msgstr "Я хочу создать заказы для комбайнов, в которых хранятся поля, подлежащие уборке."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:296
 #, no-wrap
 msgid "sodass die Abfahrer genau wissen, von welchen Flächen sie den Mais abholen müssen."
-msgstr ""
-"чтобы водители точно знали, в каких районах они должны собирать кукурузу."
+msgstr "чтобы водители точно знали, в каких районах они должны собирать кукурузу."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:298
 #, no-wrap
 msgid "möchte ich Applikationskarten an den Häcksler übermitteln, die auf den Aussaatkarten basieren"
-msgstr ""
-"Я хотел бы передавать карты внесения удобрений в кормоуборочный комбайн на "
-"основе карт посева."
+msgstr "Я хотел бы передавать карты внесения удобрений в кормоуборочный комбайн на основе карт посева."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:300
 #, no-wrap
 msgid "sodass Fahrspuren und die Ausrichtung der Maisreihen berücksichtigt werden und der Häcksler effizient arbeiten kann."
-msgstr ""
-"Таким образом, учитываются полосы движения и выравнивание рядов кукурузы, "
-"что позволяет измельчителю работать эффективно."
+msgstr "Таким образом, учитываются полосы движения и выравнивание рядов кукурузы, что позволяет измельчителю работать эффективно."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:304
 #, no-wrap
 msgid "sodass nachfolgende Fahrer, z. B. Häckslerfahrer, keine eigenen Spuren mehr aufzeichnen müssen."
-msgstr ""
-"чтобы следующие за ними водители, например, водители кормоуборочных "
-"комбайнов, больше не записывали свою полосу движения."
+msgstr "чтобы следующие за ними водители, например, водители кормоуборочных комбайнов, больше не записывали свою полосу движения."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:310
 #, no-wrap
 msgid "möchte ich, dass Telemetriedaten der Maisernte automatisch dokumentiert werden"
-msgstr ""
-"Я хотел бы, чтобы телеметрические данные, полученные при сборе урожая "
-"кукурузы, автоматически документировались"
+msgstr "Я хотел бы, чтобы телеметрические данные, полученные при сборе урожая кукурузы, автоматически документировались"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:312
 #, no-wrap
 msgid "sodass Arbeitszeit, Flächenleistung und Maschinenauslastung nachvollziehbar sind."
-msgstr ""
-"Таким образом, можно отслеживать рабочее время, производительность и "
-"загрузку оборудования."
+msgstr "Таким образом, можно отслеживать рабочее время, производительность и загрузку оборудования."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:314
 #, no-wrap
 msgid "möchte ich anhand von Telemetriedaten sehen, wie weit ein Schlag bereits abgeerntet wurde"
-msgstr ""
-"Я хотел бы использовать данные телеметрии, чтобы узнать, насколько далеко "
-"уже убрано поле."
+msgstr "Я хотел бы использовать данные телеметрии, чтобы узнать, насколько далеко уже убрано поле."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:316
 #, no-wrap
 msgid "sodass ich die weiteren Einsätze (z. B. Abfahrer, Silofahrzeuge, nächste Schläge) optimal planen kann."
-msgstr ""
-"чтобы я мог оптимально спланировать дальнейшие операции (например, выезды, "
-"силосоуборочные машины, следующие удары)."
+msgstr "чтобы я мог оптимально спланировать дальнейшие операции (например, выезды, силосоуборочные машины, следующие удары)."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:318
@@ -13093,25 +12979,19 @@ msgstr "Я хотел бы сохранить данные о количеств
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:320
 #, no-wrap
 msgid "sodass ich diese Daten für die Dokumentation und für die Erstellung zukünftiger Aussaat- und Düngerkarten verwenden kann."
-msgstr ""
-"чтобы я мог использовать эти данные для документации и для составления "
-"будущих карт посевов и удобрений."
+msgstr "чтобы я мог использовать эти данные для документации и для составления будущих карт посевов и удобрений."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:334
 #, no-wrap
 msgid "möchte ich die Telemetriedaten der Maisernte für die Abrechnung nutzen können"
-msgstr ""
-"Я хотел бы иметь возможность использовать данные телеметрии, полученные при "
-"сборе урожая кукурузы, для выставления счетов."
+msgstr "Я хотел бы иметь возможность использовать данные телеметрии, полученные при сборе урожая кукурузы, для выставления счетов."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:335
 #, no-wrap
 msgid "sodass die geleisteten Arbeiten transparent und fehlerfrei gegenüber dem Kunden abgerechnet werden können."
-msgstr ""
-"чтобы можно было прозрачно и точно выставить счет заказчику за выполненную "
-"работу."
+msgstr "чтобы можно было прозрачно и точно выставить счет заказчику за выполненную работу."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:344
@@ -13260,8 +13140,7 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:17
 #, no-wrap
 msgid "möchte ich einen Auftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr ""
-"Я хочу спланировать задание для поля и отправить его нескольким машинам."
+msgstr "Я хочу спланировать задание для поля и отправить его нескольким машинам."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:19
@@ -13276,24 +13155,19 @@ msgstr "чтобы мои сотрудники точно знали, какую
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:21
 #, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an die Maschine senden"
-msgstr ""
-"Я хочу спланировать несколько заказов для нескольких полей и отправить их на "
-"машину"
+msgstr "Я хочу спланировать несколько заказов для нескольких полей и отправить их на машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:23
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeiten wo durchgeführt werden sollen."
-msgstr ""
-"чтобы мой сотрудник точно знал, какая работа и где должна быть выполнена."
+msgstr "чтобы мой сотрудник точно знал, какая работа и где должна быть выполнена."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:25
 #, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an mehrere Maschinen senden"
-msgstr ""
-"Я хочу спланировать несколько заказов для нескольких полей и отправить их на "
-"несколько машин"
+msgstr "Я хочу спланировать несколько заказов для нескольких полей и отправить их на несколько машин"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:29
@@ -13305,39 +13179,31 @@ msgstr "Я хотел бы задокументировать количеств
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:31
 #, no-wrap
 msgid "sodass die Nachvollziehbarkeit für Dokumentation und Compliance gewährleistet ist"
-msgstr ""
-"чтобы гарантировать прослеживаемость документации и соответствие требованиям"
+msgstr "чтобы гарантировать прослеживаемость документации и соответствие требованиям"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:44
 #, no-wrap
 msgid "möchte ich Telemetriedaten zur Position und zum Arbeitsfortschritt meiner Flotte erhalten"
-msgstr ""
-"Я хотел бы получать телеметрические данные о положении и ходе работ моего "
-"флота"
+msgstr "Я хотел бы получать телеметрические данные о положении и ходе работ моего флота"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:46
 #, no-wrap
 msgid "sodass ich den Einsatz der Maschinen effizient koordinieren und bei Bedarf kurzfristig umdisponieren kann."
-msgstr ""
-"чтобы я мог эффективно координировать использование машин и при "
-"необходимости переносить их на более ранний срок."
+msgstr "чтобы я мог эффективно координировать использование машин и при необходимости переносить их на более ранний срок."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:56
 #, no-wrap
 msgid "möchte ich Telemetriedaten der Transportfahrzeuge automatisch erfassen"
-msgstr ""
-"Я хотел бы автоматически записывать телеметрические данные с транспортных "
-"средств"
+msgstr "Я хотел бы автоматически записывать телеметрические данные с транспортных средств"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:57
 #, no-wrap
 msgid "sodass ich die Abrechnung der Transportaufträge transparent und fehlerfrei durchführen kann."
-msgstr ""
-"чтобы я мог прозрачно и без ошибок выставлять счета за транспортные заказы."
+msgstr "чтобы я мог прозрачно и без ошибок выставлять счета за транспортные заказы."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:64
@@ -13449,33 +13315,25 @@ msgstr ""
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:15
 #, no-wrap
 msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an die Maschine senden"
-msgstr ""
-"Я хочу спланировать механическую работу по защите растений на поле и "
-"отправить ее на машину"
+msgstr "Я хочу спланировать механическую работу по защите растений на поле и отправить ее на машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:19
 #, no-wrap
 msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr ""
-"Я хочу спланировать работу по механической защите растений на поле и "
-"отправить ее нескольким машинам"
+msgstr "Я хочу спланировать работу по механической защите растений на поле и отправить ее нескольким машинам"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:25
 #, no-wrap
 msgid "sodass Arbeitszeit, bearbeitete Fläche und Fortschritt ohne manuellen Aufwand dokumentiert sind."
-msgstr ""
-"Таким образом, рабочее время, обрабатываемая площадь и ход работ "
-"документируются без ручного труда."
+msgstr "Таким образом, рабочее время, обрабатываемая площадь и ход работ документируются без ручного труда."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:27
 #, no-wrap
 msgid "möchte ich einen Auftrag an mehrere Geräte gleichzeitig senden können"
-msgstr ""
-"Я хотел бы иметь возможность отправлять заказ на несколько устройств "
-"одновременно"
+msgstr "Я хотел бы иметь возможность отправлять заказ на несколько устройств одновременно"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:47
@@ -13596,57 +13454,43 @@ msgstr "В качестве поставщика услуг для беспил�
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:95
 #, no-wrap
 msgid "möchte ich Unkraut- und Krankheitsdruck per Drohne erfassen und an die Agrarsoftware senden"
-msgstr ""
-"Я хотел бы регистрировать давление сорняков и болезней с помощью "
-"беспилотника и отправлять данные в сельскохозяйственное программное "
-"обеспечение."
+msgstr "Я хотел бы регистрировать давление сорняков и болезней с помощью беспилотника и отправлять данные в сельскохозяйственное программное обеспечение."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:97
 #, no-wrap
 msgid "sodass der Landwirt genau sieht, wo Pflanzenschutzmittel benötigt werden und eine Applikationskarte erstellt werden kann."
-msgstr ""
-"Таким образом, фермер может увидеть, где именно необходимы средства защиты "
-"растений, и составить карту применения."
+msgstr "Таким образом, фермер может увидеть, где именно необходимы средства защиты растений, и составить карту применения."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:99
 #, no-wrap
 msgid "möchte ich aus den per Drohne erfassten Unkraut- und Krankheitsdrücken eine Applikationskarte erstellen und an den Landwirt senden"
-msgstr ""
-"Я хотел бы создать карту применения на основе данных о давлении сорняков и "
-"болезней, полученных с помощью беспилотника, и отправить ее фермеру."
+msgstr "Я хотел бы создать карту применения на основе данных о давлении сорняков и болезней, полученных с помощью беспилотника, и отправить ее фермеру."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:101
 #, no-wrap
 msgid "sodass der Pflanzenschutz gezielt und effizient auf dem Feld durchgeführt werden kann."
-msgstr ""
-"чтобы защита растений в полевых условиях проводилась целенаправленно и "
-"эффективно."
+msgstr "чтобы защита растений в полевых условиях проводилась целенаправленно и эффективно."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:103
 #, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an eine Maschine senden"
-msgstr ""
-"Я хочу спланировать работу по химической защите растений на поле и отправить "
-"ее машине"
+msgstr "Я хочу спланировать работу по химической защите растений на поле и отправить ее машине"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:105
 #, no-wrap
 msgid "sodass mein Mitarbeiter genau weiß, welche Arbeiten wo durchgeführt werden soll."
-msgstr ""
-"чтобы мой сотрудник точно знал, какая работа и где должна быть выполнена."
+msgstr "чтобы мой сотрудник точно знал, какая работа и где должна быть выполнена."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:107
 #, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr ""
-"Я хочу спланировать работу по химической защите растений на поле и отправить "
-"ее нескольким машинам"
+msgstr "Я хочу спланировать работу по химической защите растений на поле и отправить ее нескольким машинам"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:111
@@ -13658,24 +13502,19 @@ msgstr "Я хотел бы отправить несколько рецепту�
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:113
 #, no-wrap
 msgid "sodass mein Mitarbeiter punktuell Spotspraying durchführen kann."
-msgstr ""
-"чтобы мой сотрудник мог проводить точечное опрыскивание в определенных "
-"местах."
+msgstr "чтобы мой сотрудник мог проводить точечное опрыскивание в определенных местах."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:117
 #, no-wrap
 msgid "sodass mehrere Maschinen gleichzeitig punktuell Spotspraying durchführen können."
-msgstr ""
-"чтобы несколько машин могли выполнять точечное опрыскивание одновременно."
+msgstr "чтобы несколько машин могли выполнять точечное опрыскивание одновременно."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:119
 #, no-wrap
 msgid "möchte ich, dass die Traktoren die Anbaugeräte automatisch nach Applikationskarten steuern"
-msgstr ""
-"Я хотел бы, чтобы тракторы автоматически управляли навесными орудиями в "
-"соответствии с картами применения."
+msgstr "Я хотел бы, чтобы тракторы автоматически управляли навесными орудиями в соответствии с картами применения."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:121
@@ -13687,17 +13526,13 @@ msgstr "чтобы даже менее опытные водители могл�
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:123
 #, no-wrap
 msgid "möchte ich, dass Telemetriedaten automatisch an meine Agrarsoftware gesendet werden"
-msgstr ""
-"Я хочу, чтобы данные телеметрии автоматически отправлялись в мое "
-"сельскохозяйственное программное обеспечение"
+msgstr "Я хочу, чтобы данные телеметрии автоматически отправлялись в мое сельскохозяйственное программное обеспечение"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:125
 #, no-wrap
 msgid "sodass Ausbringmenge, Zeitpunkt, Uhrzeit und Fahrer gesetzeskonform dokumentiert werden können."
-msgstr ""
-"чтобы количество, время, дата и водитель заявки были задокументированы в "
-"соответствии с законом."
+msgstr "чтобы количество, время, дата и водитель заявки были задокументированы в соответствии с законом."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:139
@@ -13848,8 +13683,7 @@ msgstr "Карты частичного применения для конкре
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:40
 #, no-wrap
 msgid "möchte ich Applikationskarten spontan an meinen Fahrer übermitteln können"
-msgstr ""
-"Я хотел бы иметь возможность спонтанно отправлять открытки своему водителю"
+msgstr "Я хотел бы иметь возможность спонтанно отправлять открытки своему водителю"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:44
@@ -13886,8 +13720,7 @@ msgstr "Я хотел бы отправить рецептурную карту 
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:81
 #, no-wrap
 msgid "sodass mehrere Maschinen dieselbe Planung eines Feldes nutzen können."
-msgstr ""
-"чтобы несколько машин могли использовать одно и то же планирование поля."
+msgstr "чтобы несколько машин могли использовать одно и то же планирование поля."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:58
@@ -13917,9 +13750,7 @@ msgstr "Комбинированные частичные карты прило�
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:71
 #, no-wrap
 msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an eine Maschine senden"
-msgstr ""
-"Я хотел бы отправить на машину карту комбинированного внесения семян, "
-"удобрений и средств защиты растений"
+msgstr "Я хотел бы отправить на машину карту комбинированного внесения семян, удобрений и средств защиты растений"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:73
@@ -13931,33 +13762,25 @@ msgstr "чтобы все меры можно было выполнить за �
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:75
 #, no-wrap
 msgid "möchte ich mehrere kombinierte Applikationskarten an eine Maschine senden"
-msgstr ""
-"Я хотел бы отправить несколько комбинированных рецептурных карт на одну "
-"машину"
+msgstr "Я хотел бы отправить несколько комбинированных рецептурных карт на одну машину"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:77
 #, no-wrap
 msgid "sodass unterschiedliche komplexe Kulturmaßnahmen nacheinander abgearbeitet werden können."
-msgstr ""
-"чтобы можно было последовательно обрабатывать различные комплексные "
-"мероприятия по выращиванию."
+msgstr "чтобы можно было последовательно обрабатывать различные комплексные мероприятия по выращиванию."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:79
 #, no-wrap
 msgid "möchte ich eine kombinierte Applikationskarte für Saatgut, Dünger und Pflanzenschutz an mehrere Maschinen senden"
-msgstr ""
-"Я хочу отправить комбинированную карту внесения семян, удобрений и средств "
-"защиты растений на несколько машин"
+msgstr "Я хочу отправить комбинированную карту внесения семян, удобрений и средств защиты растений на несколько машин"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:83
 #, no-wrap
 msgid "möchte ich mehrere kombinierte Applikationskarten an mehrere Maschinen senden"
-msgstr ""
-"Я хочу отправить несколько комбинированных рецептурных карт на несколько "
-"машин"
+msgstr "Я хочу отправить несколько комбинированных рецептурных карт на несколько машин"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:84
@@ -13969,41 +13792,31 @@ msgstr "что позволяет параллельно выполнять ко
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:94
 #, no-wrap
 msgid "möchte ich mehrere Auftragsdateien (TaskData) von einer Maschine an die Agrarsoftware senden"
-msgstr ""
-"Я хочу отправить несколько файлов задач (TaskData) с машины на "
-"сельскохозяйственное программное обеспечение"
+msgstr "Я хочу отправить несколько файлов задач (TaskData) с машины на сельскохозяйственное программное обеспечение"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:96
 #, no-wrap
 msgid "sodass ich mehrere bearbeitete Flächen effizient und nicht einzeln übermitteln muss."
-msgstr ""
-"так что мне приходится передавать несколько обработанных областей "
-"эффективно, а не по отдельности."
+msgstr "так что мне приходится передавать несколько обработанных областей эффективно, а не по отдельности."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:98
 #, no-wrap
 msgid "möchte ich automatisiert Telemetriedaten an die Agrarsoftware senden"
-msgstr ""
-"Я хотел бы отправлять данные автоматической телеметрии в "
-"сельскохозяйственное программное обеспечение"
+msgstr "Я хотел бы отправлять данные автоматической телеметрии в сельскохозяйственное программное обеспечение"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:100
 #, no-wrap
 msgid "sodass ich bei der Dokumentation meiner Arbeit entlastet werde und keine Tippfehler entstehen können."
-msgstr ""
-"так я освобождаюсь от необходимости документировать свою работу и не "
-"допускаю опечаток."
+msgstr "так я освобождаюсь от необходимости документировать свою работу и не допускаю опечаток."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:102
 #, no-wrap
 msgid "möchte ich eine Auftragsdatei (TaskData) von einer Maschine an die Agrarsoftware gesendet bekommen"
-msgstr ""
-"Я хочу, чтобы файл задачи (TaskData) отправлялся с машины на "
-"сельскохозяйственное программное обеспечение"
+msgstr "Я хочу, чтобы файл задачи (TaskData) отправлялся с машины на сельскохозяйственное программное обеспечение"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:104
@@ -14015,9 +13828,7 @@ msgstr "чтобы я мог понять, какая деятельность �
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:106
 #, no-wrap
 msgid "möchte ich Ist-Daten von meinen Maschinen an die Agrarsoftware gesendet bekommen"
-msgstr ""
-"Я бы хотел, чтобы фактические данные с моих машин передавались в "
-"сельскохозяйственное программное обеспечение"
+msgstr "Я бы хотел, чтобы фактические данные с моих машин передавались в сельскохозяйственное программное обеспечение"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:108
@@ -14077,9 +13888,7 @@ msgstr "чтобы обеспечить возможность параллел�
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:137
 #, no-wrap
 msgid "möchte ich, dass Daten von einer organischen Düngung von einer Maschine an eine weitere Maschine gesendet werden können"
-msgstr ""
-"Я хочу, чтобы данные о применении органических удобрений отправлялись с "
-"одной машины на другую."
+msgstr "Я хочу, чтобы данные о применении органических удобрений отправлялись с одной машины на другую."
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/seeding.adoc:138

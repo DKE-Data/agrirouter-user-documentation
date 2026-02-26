@@ -1,0 +1,86 @@
+= John Deere Operations Center Solution Guide
+
+Mit dem **John Deere Operations Center (JDOC)** kannst du Betriebsdaten (Maschinen, Felder, Prozessdaten) zentralisieren, analysieren und Arbeitsabläufe optimieren. In diesem Kapitel werden folgende Punkte behandelt:
+
+* Verbindung mit dem agrirouter herstellen  
+* ISOXML-Dateien an das John Deere Operations Center senden  
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Daten von JDOC über den agrirouter senden und empfangen zu können, muss zuerst eine Verbindung zwischen deinem JDOC-Konto und deinem agrirouter-Konto hergestellt werden. Dies kann auf zwei Wegen erfolgen:
+
+=== Verbindung aus dem agrirouter Control Center herstellen
+
+* Melde dich im **agrirouter Control Center** mit deinen Zugangsdaten an (Einmalcode oder Passwort).  
+* Klicke auf **"+ Software hinzufügen"**.  
+
+image::interactive_agrirouter/jdoc/jdoc-connect-1-de.png[Software hinzufügen, 800]
+
+* Suche deine Lösung in der Suchleiste oder scrolle zu deiner gewünschten Lösung.  
+* Klicke auf **verbinden**
+
+image::interactive_agrirouter/jdoc/jdoc-connect-2-de.png[Verbindung starten, 800]
+
+* Falls erforderlich: Gib deine individuellen Zugangsdaten des JDOC ein
+* Wähle das Unternehmen aus, das mit dem agrirouter verbunden werden soll. Mehrere Unternehmen im JDOC können mit dem agrirouter verbunden werden.  
+* Nach der erfolgreichen Verbindung werden **automatisch Routen zwischen JDOC und bereits verbundenen Maschinen** erstellt.  
+
+image::interactive_agrirouter/jdoc/jdoc-connect-3-de.png[Verbundene Endpunkte, 800]
+
+[TIP]
+====
+Routen zwischen zwei Softwarelösungen müssen **manuell** mittels Drag and Drop erstellt werden, da automatische Routen nur zwischen Maschine und Software erstellt werden.  
+====
+
+image::interactive_agrirouter/jdoc/jdoc-connect-4-de.png[Verbindung manuell anlegen, 800]
+
+[TIP]
+====
+Falls keine automatische Route erstellt wird, ist die Funktion für automatische Verbindungen im Endpunkt deaktiviert. Öffne den Endpunkt, aktiviere die Funktion, und künftige Verbindungen werden automatisch hergestellt.
+====
+
+image::interactive_agrirouter/jdoc/jdoc-connect-5-de.png[Automatische Verbindung aktivieren, 800]
+
+=== Verbindung aus dem John Deere Operations Center herstellen
+
+* Melde dich im **John Deere Operations Center** an.  
+* Gehe zu **Einrichten → Verbindungen**.  
+* Suche nach **agrirouter** oder scrolle zu der Kachel. Du kannst auch nach Firmen wie „Grimme“ oder „Krone“ oder anderen agrirouter Partnerfirmen suchen, da diese Lösungen über den agrirouter Daten mit dem JDOC austauschen.  
+* Klicke auf **verbinden** und gib deine Zugangsdaten deines agrirouter Konto ein.  
+* Bestätige das Verbindungsfenster mit **Connect** und wähle das Unternehmen aus, das verbunden werden soll. Anschließend speichere diesen Schritt. 
+
+image::interactive_agrirouter/jdoc/jdoc-connect-6-de.png[JDOC Zugriff aktivieren, 800]
+
+Nach der erfolgreichen Verbindung werden die Routen zu bereits verbundenen Maschinen **automatisch hergestellt**.  
+
+image::interactive_agrirouter/jdoc/jdoc-connect-3-de.png[Verbundene Endpunkte, 800]
+
+[TIP]
+====
+Routen zwischen zwei Softwarelösungen müssen **manuell** mittels Drag and Drop erstellt werden, da automatische Routen nur zwischen Maschine und Software erstellt werden.  
+====
+
+image::interactive_agrirouter/jdoc/jdoc-connect-4-de.png[Verbindung manuell anlegen, 800]
+
+[TIP]
+====
+Wenn keine automatische Route erstellt wird, überprüfe die Endpunktdetails und aktiviere die automatische Verbindung. Künftige Verbindungen werden dann wieder automatisch hergestellt.
+====
+
+image::interactive_agrirouter/jdoc/jdoc-connect-5-de.png[Automatische Verbindung aktivieren, 800]
+
+[#isoxml]
+== ISOXML-Dateien an das John Deere Operations Center senden
+
+Im ersten Schritt können nur **ISOXML-Dateien** (Ertragskarten, Applikationskarten, Arbeitspläne) von einer mit dem agrirouter verbundenen Maschine oder Softwarelösung an das JDOC gesendet werden.  
+
+image::interactive_agrirouter/jdoc/jdoc-connect-7-de.png[John Deere Operations Center Capabilities, 800]
+
+* Die vom agrirouter gesendeten Dateien werden im Bereich **„Dateien / Files“** abgelegt und vom JDOC verarbeitet.  
+* Stammdaten wie Schlag, Betrieb und Mandant werden automatisch ausgelesen und angelegt (falls noch nicht vorhanden).  
+* Vorhandene Ertrags- und Ausbringdaten werden im JDOC übernommen/visualisiert.  
+
+image::interactive_agrirouter/jdoc/jdoc-connect-8-de.png[Datenprozessierung im John Deere Operations Center, 800]
+
+Weitere Informationen zu den Ausbaustufen findest du im **https://agrirouter.com/de/solutions/john-deere-operations-center[Solution-Finder, window="_blank"]**.

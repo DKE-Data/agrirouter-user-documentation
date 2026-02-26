@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-09-09 14:57+0000\n"
+"POT-Creation-Date: 2026-02-18 14:51+0000\n"
 "PO-Revision-Date: 2025-09-11 16:40+0000\n"
 "Last-Translator: OpenAI <noreply-mt-openai@weblate.org>\n"
 "Language-Team: English <https://weblate.agrirouter.com/projects/agrirouter/"
@@ -485,8 +485,7 @@ msgid ""
 "Damit der Datenaustausch mit einem verbundenen Konto funktioniert, müssen in [.underline]#beiden# Konten Routen erstellt werden:"
 msgstr ""
 "By now you know: no data exchange without a route!\n"
-"For data exchange to work with a connected account, routes must be created "
-"in [.underline]#both# accounts:"
+"For data exchange to work with a connected account, routes must be created in [.underline]#both# accounts:"
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:100
@@ -495,10 +494,8 @@ msgid ""
 "Mit abgehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten an das verbundene Konto sendet.\n"
 "Damit die Daten auch beim Empfänger ankommen, muss der Inhaber des anderen Kontos eingehende Routen erstellen."
 msgstr ""
-"With outgoing routes in your account, you determine which of your endpoints "
-"sends data to the connected account.\n"
-"In order for the data to reach the recipient, the owner of the other account "
-"must create incoming routes."
+"With outgoing routes in your account, you determine which of your endpoints sends data to the connected account.\n"
+"In order for the data to reach the recipient, the owner of the other account must create incoming routes."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/account-pairing.adoc:102
@@ -507,10 +504,8 @@ msgid ""
 "Mit eingehenden Routen in deinem Konto legst du fest, welche deiner Endpunkte Daten vom verbundenen Konto empfangen.\n"
 "Damit du Daten erhälst, muss der Inhaber des anderen Kontos ausgehende Routen erstellen."
 msgstr ""
-"With inbound routes in your account, you determine which of your endpoints "
-"receive data from the connected account.\n"
-"In order for you to receive data, the owner of the other account must create "
-"outgoing routes."
+"With inbound routes in your account, you determine which of your endpoints receive data from the connected account.\n"
+"In order for you to receive data, the owner of the other account must create outgoing routes."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account-pairing.adoc:103
@@ -1287,8 +1282,8 @@ msgid ""
 "Es kann sein, dass die hier gezeigte Meldung erscheint. Klicke in diesem "
 "Fall auf *_Sign in with Keycloak_*, um dich einzuloggen."
 msgstr ""
-"It may happen that the message shown here appears. If this occurs, click on *"
-"_Sign in with Keycloak_*, to log in."
+"It may happen that the message shown here appears. If this occurs, click on "
+"*_Sign in with Keycloak_*, to log in."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/account.adoc:254
@@ -1818,10 +1813,7 @@ msgstr ""
 msgid ""
 "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
 "Klicke das Icon *_Drucken_* image:endpoints/print-button.png[print, 30, 30], um den Code auszudrucken."
-msgstr ""
-"Click the *_Copy_* icon image:endpoints/copy-button.png[Copy, 30, 30], to "
-"copy the code to the clipboard. Click the *_Print_* icon image:endpoints/"
-"print-button.png[Print, 30, 30], to print the code."
+msgstr "Click the *_Copy_* icon image:endpoints/copy-button.png[Copy, 30, 30], to copy the code to the clipboard. Click the *_Print_* icon image:endpoints/print-button.png[Print, 30, 30], to print the code."
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:114
@@ -2259,7 +2251,8 @@ msgstr "*_Software Endpoint_*: -"
 msgid ""
 "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines Endpunkts "
 "gibt."
-msgstr "*_Version number_*: In case there are multiple versions of an endpoint."
+msgstr ""
+"*_Version number_*: In case there are multiple versions of an endpoint."
 
 #. type: .float-group
 #: de/modules/ROOT/pages/endpoint.adoc:260
@@ -2440,8 +2433,8 @@ msgid ""
 "adoc[Konto] beschrieben.#"
 msgstr ""
 "*Account:* To use the agrirouter you need a user account: [.result]#Create "
-"and manage your account, as described in the chapter xref:account.adoc[Konto]"
-"#"
+"and manage your account, as described in the chapter xref:account."
+"adoc[Konto]#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:22
@@ -2466,9 +2459,9 @@ msgid ""
 msgstr ""
 "*Endpoints:* Machines and agricultural software can exchange data if you add "
 "them to the agrirouter as <<Endpoint,Endpoints>>.  [.result]#Add endpoints "
-"as described in the chapters xref:endpoint.adoc#connect-machine"
-"[Connect machine] and xref:endpoint.adoc#connect-software"
-"[Connect agricultural software].#"
+"as described in the chapters xref:endpoint.adoc#connect-machine[Connect "
+"machine] and xref:endpoint.adoc#connect-software[Connect agricultural "
+"software].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:27
@@ -3272,8 +3265,8 @@ msgid ""
 "[.result]#Ein Formular wird geöffnet.#"
 msgstr ""
 "*_membership inquiries_*: If you have questions about your membership in the "
-"agrirouter ecosystem, particularly in the association DKE-Data agrirouter "
-"e.V. [.result]#A form will be opened.#"
+"agrirouter ecosystem, particularly in the association DKE-Data agrirouter e."
+"V. [.result]#A form will be opened.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/support.adoc:73
@@ -6462,8 +6455,8 @@ msgid ""
 "unter +49(0)5241/80-40753."
 msgstr ""
 "If you have any further questions about agrirouter and farmpilot, please "
-"contact the farmpilot team at team@farmpilot.de or by phone at +49(0)5241/"
-"80-40753."
+"contact the farmpilot team at team@farmpilot.de or by phone at "
+"+49(0)5241/80-40753."
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/holmer-easy-help.adoc:1
@@ -6690,10 +6683,9 @@ msgid ""
 "freigeschaltet. Wähle hierzu unter *Services_* die Option *_Smart "
 "Telematics_* aus und folge dem Prozess."
 msgstr ""
-"In a newly created link: https://mykrone.green/"
-"[mykrone.green account, window=\"_blank\"] the Smart Telematics Service is "
-"not yet activated. Choose under *Services* the option *_Smart Telematics_* "
-"and follow the process."
+"In a newly created link: https://mykrone.green/[mykrone.green account, "
+"window=\"_blank\"] the Smart Telematics Service is not yet activated. Choose "
+"under *Services* the option *_Smart Telematics_* and follow the process."
 
 #. type: .right
 #: de/modules/ROOT/pages/solution-guides/krone.adoc:32
@@ -11132,41 +11124,50 @@ msgstr "xref:solution-guides/farmpilot.adoc[farmpilot]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:22
+#, fuzzy
+#| msgid "xref:solution-guides/cropmanager.adoc[CropManager]"
+msgid ""
+"xref:solution-guides/john-deere-operations-center.adoc[John Deere Operations "
+"Center]"
+msgstr "xref:solution-guides/cropmanager.adoc[CropManager]"
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
 msgid "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
 msgstr "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
 msgid "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 msgstr "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
 msgid "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 msgstr "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
 msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
 msgstr "xref:solution-guides/plantivo.adoc[Plantivo]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
 msgid "xref:solution-guides/proflura.adoc[ProFlura]"
 msgstr "xref:solution-guides/proflura.adoc[ProFlura]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
 msgstr "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
 msgid "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
@@ -11444,9 +11445,7 @@ msgstr "so that the work is carried out precisely along the planned tracks."
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:25
 #, no-wrap
 msgid "möchte ich eine Fahrspurplanung an mehrere Maschinen senden (z. B. für Control Traffic Farming, autonomes Fahren)"
-msgstr ""
-"I want to send a driving lane plan to multiple machines (e.g., for Control "
-"Traffic Farming, autonomous driving)"
+msgstr "I want to send a driving lane plan to multiple machines (e.g., for Control Traffic Farming, autonomous driving)"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/cultivation.adoc:27
@@ -11980,9 +11979,7 @@ msgstr "As operations manager"
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:18
 #, no-wrap
 msgid "möchte ich mehrere geplante Aufträge mit Fahrspuren und Dosiermengen an eine Maschine senden"
-msgstr ""
-"I want to send several planned orders with driving lanes and application "
-"rates to a machine"
+msgstr "I want to send several planned orders with driving lanes and application rates to a machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:20
@@ -11995,9 +11992,7 @@ msgstr "so that even less experienced employees can fertilise efficiently and wi
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:22
 #, no-wrap
 msgid "möchte ich mehrere Applikationskarten mit exakten Dosierangaben an eine oder mehrere Maschinen senden"
-msgstr ""
-"I want to send several application maps with exact dosage specifications to "
-"one or more machines"
+msgstr "I want to send several application maps with exact dosage specifications to one or more machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:24
@@ -13028,8 +13023,7 @@ msgstr "so that my staff know exactly where the work should be carried out."
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:21
 #, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an die Maschine senden"
-msgstr ""
-"I want to plan several tasks for several fields and send them to the machine"
+msgstr "I want to plan several tasks for several fields and send them to the machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:23
@@ -13041,9 +13035,7 @@ msgstr "so that my employee knows exactly where the work should be carried out."
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:25
 #, no-wrap
 msgid "möchte ich mehrere Aufträge für mehrere Felder planen und an mehrere Maschinen senden"
-msgstr ""
-"I want to plan several tasks for several fields and send them to multiple "
-"machines"
+msgstr "I want to plan several tasks for several fields and send them to multiple machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/logistic.adoc:29
@@ -13195,9 +13187,7 @@ msgstr "I want to plan a mechanical crop protection task for a field and send it
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:19
 #, no-wrap
 msgid "möchte ich einen mechanischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr ""
-"I want to plan a mechanical plant protection task for a field and send it to "
-"several machines"
+msgstr "I want to plan a mechanical plant protection task for a field and send it to several machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:25
@@ -13350,9 +13340,7 @@ msgstr "so that plant protection can be carried out specifically and efficiently
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:103
 #, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an eine Maschine senden"
-msgstr ""
-"I want to plan a chemical plant protection task for a field and send it to a "
-"machine"
+msgstr "I want to plan a chemical plant protection task for a field and send it to a machine"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:105
@@ -13364,9 +13352,7 @@ msgstr "so that my employee knows exactly where the work should be carried out."
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:107
 #, no-wrap
 msgid "möchte ich einen chemischen Pflanzenschutzauftrag für ein Feld planen und an mehrere Maschinen senden"
-msgstr ""
-"I want to plan a chemical plant protection task for a field and send it to "
-"multiple machines"
+msgstr "I want to plan a chemical plant protection task for a field and send it to multiple machines"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:111
