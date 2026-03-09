@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2026-02-26 15:31+0000\n"
-"PO-Revision-Date: 2025-12-01 05:24+0000\n"
+"PO-Revision-Date: 2026-03-09 10:40+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: Russian <https://weblate.agrirouter.com/projects/agrirouter/"
 "user-manual/ru/>\n"
@@ -11139,10 +11139,9 @@ msgstr ""
 
 #. type: Title =
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:1
-#, fuzzy, no-wrap
-#| msgid "KRONE Telemetrieeinheiten Solution Guide"
+#, no-wrap
 msgid "John Deere Operations Center Solution Guide"
-msgstr "KRONE Telemetry Units Solution-Guide"
+msgstr "Операционный центр компании \"Джон Дир\" Solution-Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:4
@@ -11152,37 +11151,34 @@ msgid ""
 "Arbeitsabläufe optimieren. In diesem Kapitel werden folgende Punkte "
 "behandelt:"
 msgstr ""
+"С помощью **John Deere Operations Center (JDOC)** вы можете централизовать и "
+"анализировать рабочие данные (машины, поля, технологические данные) и "
+"оптимизировать рабочие процессы. В этой главе рассматриваются следующие "
+"вопросы:"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:7
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:74
 #, no-wrap
 msgid "ISOXML-Dateien an das John Deere Operations Center senden"
-msgstr ""
+msgstr "Отправляйте файлы ISOXML в операционный центр \"Джон Дир\"."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:12
-#, fuzzy
-#| msgid ""
-#| "Um Daten von ABACO über den agrirouter senden und empfagen zu können, "
-#| "muss zuerst eine Verbindung zwischen deinem ABACO-Konto und deinem "
-#| "agrirouter-Konto hergestellt werden. Dies funktioniert in wenigen, "
-#| "einfachen Schritten."
 msgid ""
 "Um Daten von JDOC über den agrirouter senden und empfangen zu können, muss "
 "zuerst eine Verbindung zwischen deinem JDOC-Konto und deinem agrirouter-"
 "Konto hergestellt werden. Dies kann auf zwei Wegen erfolgen:"
 msgstr ""
-"Чтобы иметь возможность отправлять и получать данные от ABACO через сеть "
-"agrirouter, сначала необходимо установить соединение между вашим аккаунтом "
-"ABACO и аккаунтом в сети agrirouter. Это делается в несколько простых шагов."
+"Чтобы иметь возможность отправлять и получать данные с JDOC через "
+"agrirouter, сначала необходимо установить соединение между вашим счетом JDOC "
+"и вашим аккаунтом в сети agrirouter. Это можно сделать двумя способами:"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:13
-#, fuzzy, no-wrap
-#| msgid "Verbindung mit dem agrirouter herstellen"
+#, no-wrap
 msgid "Verbindung aus dem agrirouter Control Center herstellen"
-msgstr "Установление соединения с agrirouter"
+msgstr "Установление соединения из центра управления agrirouter"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:16
@@ -11190,20 +11186,19 @@ msgid ""
 "Melde dich im **agrirouter Control Center** mit deinen Zugangsdaten an "
 "(Einmalcode oder Passwort)."
 msgstr ""
+"Войдите в Центр управления **agrirouter**, используя свои данные доступа ("
+"одноразовый код или пароль)."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:17
-#, fuzzy
-#| msgid "Klicke anschließend auf *_Fahrzeug hinzufügen_*."
 msgid "Klicke auf **\"+ Software hinzufügen\"**."
-msgstr "Затем нажмите на *Добавить автомобиль_*."
+msgstr "Нажмите на кнопку **\"+ Добавить программное обеспечение \"**."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:18
-#, fuzzy, no-wrap
-#| msgid "Routen hinzufügen"
+#, no-wrap
 msgid "Software hinzufügen"
-msgstr "Добавить маршруты"
+msgstr "Добавить программное обеспечение"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:21
@@ -11211,25 +11206,24 @@ msgid ""
 "Suche deine Lösung in der Suchleiste oder scrolle zu deiner gewünschten "
 "Lösung."
 msgstr ""
+"Найдите нужное решение в строке поиска или прокрутите страницу до нужного "
+"решения."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:22
-#, fuzzy
-#| msgid "Klicke auf *_Verbinden Sie_*."
 msgid "Klicke auf **verbinden**"
-msgstr "Нажмите на *_Подключиться_*."
+msgstr "Нажмите на **соединение**."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:23
-#, fuzzy, no-wrap
-#| msgid "Verbindung beenden"
+#, no-wrap
 msgid "Verbindung starten"
-msgstr "Прервать соединение"
+msgstr "Начать соединение"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:26
 msgid "Falls erforderlich: Gib deine individuellen Zugangsdaten des JDOC ein"
-msgstr ""
+msgstr "Если требуется: введите ваши индивидуальные данные доступа к JDOC"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:27
@@ -11237,6 +11231,8 @@ msgid ""
 "Wähle das Unternehmen aus, das mit dem agrirouter verbunden werden soll. "
 "Mehrere Unternehmen im JDOC können mit dem agrirouter verbunden werden."
 msgstr ""
+"Выберите компанию для соединения с agrirouter. Несколько компаний в JDOC "
+"могут быть соединены с agrirouter."
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:28
@@ -11244,14 +11240,15 @@ msgid ""
 "Nach der erfolgreichen Verbindung werden **automatisch Routen zwischen JDOC "
 "und bereits verbundenen Maschinen** erstellt."
 msgstr ""
+"После успешного соединения между JDOC и уже подключенными машинами создаются "
+"**автоматические маршруты**."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:29
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:57
-#, fuzzy, no-wrap
-#| msgid "Endpunkte"
+#, no-wrap
 msgid "Verbundene Endpunkte"
-msgstr "Конечный пункт"
+msgstr "Конечные пункты"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:34
@@ -11261,14 +11258,16 @@ msgid ""
 "Drop erstellt werden, da automatische Routen nur zwischen Maschine und "
 "Software erstellt werden."
 msgstr ""
+"Маршруты между двумя программными решениями должны создаваться **вручную** с "
+"помощью перетаскивания, так как автоматические маршруты создаются только "
+"между машиной и программным обеспечением."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:36
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:64
-#, fuzzy, no-wrap
-#| msgid "Verbindung beenden"
+#, no-wrap
 msgid "Verbindung manuell anlegen"
-msgstr "Прервать соединение"
+msgstr "Создайте соединение вручную"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:41
@@ -11278,31 +11277,32 @@ msgid ""
 "aktiviere die Funktion, und künftige Verbindungen werden automatisch "
 "hergestellt."
 msgstr ""
+"Если автоматический маршрут не создан, функция автоматических соединений в "
+"Конечном пункте деактивирована. Откройте Конечный пункт, активируйте "
+"функцию, и последующие соединения будут устанавливаться автоматически."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:43
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:71
-#, fuzzy, no-wrap
-#| msgid "Online Verbindung kontrollieren"
+#, no-wrap
 msgid "Automatische Verbindung aktivieren"
-msgstr "Проверка соединения с сетью"
+msgstr "Активация автоматического соединения"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:45
-#, fuzzy, no-wrap
-#| msgid "Verbindung mit dem agrirouter herstellen"
+#, no-wrap
 msgid "Verbindung aus dem John Deere Operations Center herstellen"
-msgstr "Установление соединения с agrirouter"
+msgstr "Установление соединения с операционным центром John Deere"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:48
 msgid "Melde dich im **John Deere Operations Center** an."
-msgstr ""
+msgstr "Войдите в систему **John Deere Operations Centre**."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:49
 msgid "Gehe zu **Einrichten → Verbindungen**."
-msgstr ""
+msgstr "Перейдите в раздел **Настройка → Соединения**."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:50
@@ -11311,18 +11311,18 @@ msgid ""
 "Firmen wie „Grimme“ oder „Krone“ oder anderen agrirouter Partnerfirmen "
 "suchen, da diese Lösungen über den agrirouter Daten mit dem JDOC austauschen."
 msgstr ""
+"Найдите **agrirouter** или прокрутите страницу до плитки. Вы также можете "
+"искать такие компании, как \"Grimme\" или \"Krone\", или другие компании-"
+"партнеры agrirouter, поскольку эти решения обмениваются данными с JDOC через "
+"agrirouter."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:51
-#, fuzzy
-#| msgid ""
-#| "Klicke auf *_Absenden_*.  [.result]#Du wirst nun in dein agrirouter-Konto "
-#| "eingeloggt.#"
 msgid ""
 "Klicke auf **verbinden** und gib deine Zugangsdaten deines agrirouter Konto "
 "ein."
 msgstr ""
-"Нажмите на *_Submit_*.  [.result]# Теперь вы войдете в свой аккаунт в сети "
+"Нажмите на **соединение** и введите данные доступа к своему аккаунту в сети "
 "agrirouter."
 
 #. type: Plain text
@@ -11331,12 +11331,14 @@ msgid ""
 "Bestätige das Verbindungsfenster mit **Connect** und wähle das Unternehmen "
 "aus, das verbunden werden soll. Anschließend speichere diesen Schritt."
 msgstr ""
+"Подтвердите окно подключения командой **Соединить** и выберите компанию для "
+"соединения. Затем сохраните этот шаг."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:53
 #, no-wrap
 msgid "JDOC Zugriff aktivieren"
-msgstr ""
+msgstr "Активируйте доступ к JDOC"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:56
@@ -11344,6 +11346,8 @@ msgid ""
 "Nach der erfolgreichen Verbindung werden die Routen zu bereits verbundenen "
 "Maschinen **automatisch hergestellt**."
 msgstr ""
+"После успешного соединения маршруты к уже подключенным машинам "
+"устанавливаются **автоматически**."
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:69
@@ -11352,6 +11356,9 @@ msgid ""
 "und aktiviere die automatische Verbindung. Künftige Verbindungen werden dann "
 "wieder automatisch hergestellt."
 msgstr ""
+"Если автоматический маршрут не создан, проверьте данные о конечной точке и "
+"активируйте автоматическое соединение. После этого последующие соединения "
+"будут устанавливаться автоматически."
 
 #. type: #isoxml
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:77
@@ -11360,12 +11367,15 @@ msgid ""
 "Applikationskarten, Arbeitspläne) von einer mit dem agrirouter verbundenen "
 "Maschine oder Softwarelösung an das JDOC gesendet werden."
 msgstr ""
+"На первом этапе с машины или программного решения, подключенного к "
+"agrirouter, в JDOC можно отправлять только файлы **ISOXML** (карты "
+"урожайности, карты применения, рабочие планы)."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:78
 #, no-wrap
 msgid "John Deere Operations Center Capabilities"
-msgstr ""
+msgstr "Возможности операционного центра \"Джон Дир"
 
 #. type: #isoxml
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:81
@@ -11373,6 +11383,8 @@ msgid ""
 "Die vom agrirouter gesendeten Dateien werden im Bereich **„Dateien / "
 "Files“** abgelegt und vom JDOC verarbeitet."
 msgstr ""
+"Файлы, отправленные agrirouter, хранятся в области **\"Dateien / Files \"** "
+"и обрабатываются JDOC."
 
 #. type: #isoxml
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:82
@@ -11380,18 +11392,22 @@ msgid ""
 "Stammdaten wie Schlag, Betrieb und Mandant werden automatisch ausgelesen und "
 "angelegt (falls noch nicht vorhanden)."
 msgstr ""
+"Основные данные, такие как поле, компания и клиент, автоматически "
+"считываются и создаются (если их еще нет)."
 
 #. type: #isoxml
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:83
 msgid ""
 "Vorhandene Ertrags- und Ausbringdaten werden im JDOC übernommen/visualisiert."
 msgstr ""
+"Существующие данные об урожайности и выходе продукции переносятся/"
+"визуализируются в JDOC."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:84
 #, no-wrap
 msgid "Datenprozessierung im John Deere Operations Center"
-msgstr ""
+msgstr "Обработка данных в операционном центре John Deere"
 
 #. type: #isoxml
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:86
@@ -11400,6 +11416,9 @@ msgid ""
 "com/de/solutions/john-deere-operations-center[Solution-Finder, "
 "window=\"_blank\"]**."
 msgstr ""
+"Дополнительную информацию о стадиях расширения можно найти на сайте "
+"**https://agrirouter.com/de/solutions/john-deere-operations-center"
+"[Solution-Finder, window=\"_blank\"]**."
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:2
