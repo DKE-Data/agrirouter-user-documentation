@@ -1,10 +1,28 @@
-= John Deere Operations Center Solution Guide
+= FarmENGAGE - Fendt, Massey Ferguson, Valtra Solution Guide
 
-Mit dem **John Deere Operations Center (JDOC)** kannst du Betriebsdaten (Maschinen, Felder, Prozessdaten) zentralisieren, analysieren und Arbeitsabläufe optimieren. In diesem Kapitel werden folgende Punkte behandelt:
+Mit **FarmENGAGE - Fendt, Massey Ferguson, Valtra** kannst du Betriebsdaten (Maschinen, Felder, Prozessdaten) zentralisieren, analysieren und Arbeitsabläufe optimieren. In diesem Kapitel werden folgende Punkte behandelt:
 
-* Verbindung mit dem agrirouter herstellen  
-* ISOXML-Dateien an das John Deere Operations Center senden  
+* Verbindung mit dem agrirouter herstellen
+* Besonderheiten bei der FarmENGAGE Nutzung
+** FendtONE Offboard und FarmENGAGE parallel nutzen
+** Gemischte AGCO Flotten nutzen
+* Arbeitspläne (Work Order) an Fendt, Massey Ferguson und Valtra Maschinen senden
+* Applikationskarten an Fendt, Massey Ferguson und Valtra Maschinen senden
+* Arbeitsergebnisse von Fendt, Massey Ferguson und Valtra Maschinen an agrirouter angebundene FMIS weiterleiten
 
+
+
+
+
+
+
+
+
+
+
+
+
+[#connect-agrirouter]
 == Verbindung mit dem agrirouter herstellen
 
 Um Daten von JDOC über den agrirouter senden und empfangen zu können, muss zuerst eine Verbindung zwischen deinem JDOC-Konto und deinem agrirouter-Konto hergestellt werden. Dies kann auf zwei Wegen erfolgen:
