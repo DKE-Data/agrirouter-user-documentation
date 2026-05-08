@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-02-26 15:31+0000\n"
+"POT-Creation-Date: 2026-05-08 13:40+0000\n"
 "PO-Revision-Date: 2026-03-09 10:40+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: Portuguese <https://weblate.agrirouter.com/projects/"
@@ -1069,7 +1069,7 @@ msgstr "Selecione o seu *_país_*."
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:114
-#: de/modules/ROOT/pages/endpoint.adoc:148
+#: de/modules/ROOT/pages/endpoint.adoc:147
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:102
 msgid "Klicke auf *_Speichern_*."
 msgstr "Clique em *_Salvar_*."
@@ -1660,28 +1660,14 @@ msgstr ""
 "é apresentada a xref:introduction.adoc#route[routes] através da qual o ponto "
 "final está ligado a outros pontos finais."
 
-#. type: #endpoints
-#: de/modules/ROOT/pages/endpoint.adoc:51
-msgid ""
-"image:endpoints/link-icon-green.png[Green Link Icon, 30] image:endpoints/"
-"link-icon-red.png[Red Link Icon, 30]: Dieses Icon zeigt an, ob ein <<connect-"
-"software, Software-Endpunkt verbunden>> ist (grün) oder nicht (rot). Dieses "
-"Icon wird ausschließlich bei Software-Endpunkten angezeigt."
-msgstr ""
-"image:endpoints/link-icon-green.png[Ícone de ligação verde, 30] image:"
-"endpoints/link-icon-red.png[Ícone de ligação vermelho, 30]: Este ícone "
-"indica se um <<connect-software, Software do ponto final está ligado>> "
-"(verde) ou não (vermelho). Este ícone só é apresentado para pontos finais de "
-"software."
-
 #. type: Title ==
-#: de/modules/ROOT/pages/endpoint.adoc:54
+#: de/modules/ROOT/pages/endpoint.adoc:53
 #, no-wrap
 msgid "Endpunkte verbinden"
 msgstr "Ligação dos pontos finais"
 
 #. type: #add-endpoints
-#: de/modules/ROOT/pages/endpoint.adoc:56
+#: de/modules/ROOT/pages/endpoint.adoc:55
 msgid ""
 "Du kannst Telemetrieeinheiten und Agrar-Software als Endpunkte hinzufügen. "
 "Die Telemetrieeinheiten sind immer mit Maschinen verbunden, die wiederum "
@@ -1696,13 +1682,13 @@ msgstr ""
 "exploração agrícola."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:58
+#: de/modules/ROOT/pages/endpoint.adoc:57
 #, no-wrap
 msgid "Hersteller hinzufügen"
 msgstr "Adicionar fabricante"
 
 #. type: #add-manufacturer
-#: de/modules/ROOT/pages/endpoint.adoc:60
+#: de/modules/ROOT/pages/endpoint.adoc:59
 msgid ""
 "Mit einem \"*_Hersteller_*\" ist immer der Hersteller einer Maschine "
 "gemeint, die du über eine Telemetrieeinheit mit dem agrirouter verbinden "
@@ -1719,7 +1705,7 @@ msgstr ""
 "adicionar um fabricante:"
 
 #. type: #add-manufacturer
-#: de/modules/ROOT/pages/endpoint.adoc:63
+#: de/modules/ROOT/pages/endpoint.adoc:62
 msgid ""
 "Klicke den Button *_Hersteller hinzufügen_* image:endpoints/add-manufacturer-"
 "button.png[Hersteller hinzufügen Button, 120].  [.result]#Die folgende Seite "
@@ -1730,19 +1716,19 @@ msgstr ""
 "abre-se:#"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/endpoint.adoc:66
-#: de/modules/ROOT/pages/endpoint.adoc:75
+#: de/modules/ROOT/pages/endpoint.adoc:65
+#: de/modules/ROOT/pages/endpoint.adoc:74
 #, no-wrap
 msgid "Hersteller Auswahl"
 msgstr "Seleção do fabricante"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:69
+#: de/modules/ROOT/pages/endpoint.adoc:68
 msgid "Klicke auf das Dropdown-Menü."
 msgstr "Clique no menu pendente."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:71
+#: de/modules/ROOT/pages/endpoint.adoc:70
 msgid ""
 "Wähle den Hersteller aus, den du hinzufügen möchtest.  [.result]#Der "
 "ausgewählte Hersteller wird dir rechts neben deiner Auswahl angezeigt.#"
@@ -1751,8 +1737,8 @@ msgstr ""
 "selecionado é apresentado à direita da sua seleção.#"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:80
-#: de/modules/ROOT/pages/endpoint.adoc:179
+#: de/modules/ROOT/pages/endpoint.adoc:79
+#: de/modules/ROOT/pages/endpoint.adoc:178
 msgid ""
 "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die _my "
 "agrirouter_ Seite.#"
@@ -1761,7 +1747,7 @@ msgstr ""
 "agrirouter_.#"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:85
+#: de/modules/ROOT/pages/endpoint.adoc:84
 msgid ""
 "image:endpoints/add-manufacturer-3.png[Hersteller verbunden, 400, "
 "float=right]"
@@ -1769,7 +1755,7 @@ msgstr ""
 "image:endpoints/add-manufacturer-3.png[fabricante ligado, 400, float=direita]"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:88
+#: de/modules/ROOT/pages/endpoint.adoc:87
 msgid ""
 "Der ausgewählte Hersteller wird dir nun links auf deiner _my agrirouter_ "
 "Seite angezeigt. *_Das bedeutet allerdings nicht, dass deine Maschine "
@@ -1780,7 +1766,7 @@ msgstr ""
 "já possa enviar dados para o agrirouter!_*"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:91
+#: de/modules/ROOT/pages/endpoint.adoc:90
 msgid ""
 "Wenn du Daten von deiner Maschine an den agrirouter senden möchtest, "
 "<<connect-machine, verbinde eine neue Maschine>>. Die Maschine kannst du im "
@@ -1790,13 +1776,13 @@ msgstr ""
 "ligar uma nova máquina>>. Pode então atribuir a Máquina ao seu fabricante."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:94
+#: de/modules/ROOT/pages/endpoint.adoc:93
 #, no-wrap
 msgid "Maschine verbinden"
 msgstr "Ligação da Máquina"
 
 #. type: #connect-machine
-#: de/modules/ROOT/pages/endpoint.adoc:96
+#: de/modules/ROOT/pages/endpoint.adoc:95
 msgid ""
 "Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-"
 "Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter "
@@ -1807,7 +1793,7 @@ msgstr ""
 "adicionada à página _meu agrirouter_."
 
 #. type: #connect-machine
-#: de/modules/ROOT/pages/endpoint.adoc:99
+#: de/modules/ROOT/pages/endpoint.adoc:98
 msgid ""
 "Klicke den Button *_Verbindung hinzufügen_* image:endpoints/add-connection-"
 "button.png[Verbindung hinzufügen Button, 120].  [.result]#Die folgende Seite "
@@ -1818,13 +1804,13 @@ msgstr ""
 "aberta:#"
 
 #. type: #connect-machine
-#: de/modules/ROOT/pages/endpoint.adoc:101
+#: de/modules/ROOT/pages/endpoint.adoc:100
 msgid ""
 "image:endpoints/add-connection-information.png[Verbindung hinzufügen, 600]"
 msgstr "image:endpoints/add-connection-information.png[adicionar ligação, 600]"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:105
+#: de/modules/ROOT/pages/endpoint.adoc:104
 msgid ""
 "Notiere den Registrierungscode und klicke auf *_Zurück_*.  [.result]#Die _my "
 "agrirouter_ Seite wird angezeigt.#"
@@ -1833,7 +1819,7 @@ msgstr ""
 "a página _my agrirouter_.#"
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/endpoint.adoc:110
+#: de/modules/ROOT/pages/endpoint.adoc:109
 #, no-wrap
 msgid ""
 "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], um den Code in die Zwischenablage zu kopieren.\n"
@@ -1843,7 +1829,7 @@ msgstr ""
 "Clique no ícone *_Print_* image:endpoints/print-button.png[print, 30, 30] para imprimir o código."
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:114
+#: de/modules/ROOT/pages/endpoint.adoc:113
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den xref:solution-guides."
@@ -1854,7 +1840,7 @@ msgstr ""
 "guides[Solution Guides]."
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:116
+#: de/modules/ROOT/pages/endpoint.adoc:115
 msgid ""
 "Aktualisiere die _my agrirouter_ Seite.  [.result]#Die Telemetrie-Einheit "
 "wird auf der rechten Seite deiner _my agrirouter_ Seite angezeigt.#"
@@ -1863,7 +1849,7 @@ msgstr ""
 "apresentada no lado direito da sua página _my agrirouter_.#"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:119
+#: de/modules/ROOT/pages/endpoint.adoc:118
 msgid ""
 "Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
@@ -1872,13 +1858,13 @@ msgstr ""
 "saber como introduzir o código de registo na unidade de telemetria."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:121
+#: de/modules/ROOT/pages/endpoint.adoc:120
 #, no-wrap
 msgid "Maschine einem Hersteller zuordnen"
 msgstr "Atribuir Máquina a um fabricante"
 
 #. type: #manufacturer-machine-connection
-#: de/modules/ROOT/pages/endpoint.adoc:123
+#: de/modules/ROOT/pages/endpoint.adoc:122
 msgid ""
 "Für eine bessere Übersicht auf deiner _my agrirouter_ Seite, kannst du deine "
 "Maschinen einem Hersteller zuordnen. Voraussetzung hierfür ist, dass du "
@@ -1891,7 +1877,7 @@ msgstr ""
 "adicionado>>."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:127
+#: de/modules/ROOT/pages/endpoint.adoc:126
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-1.png[Verbindung Infos, 400, "
 "float=right]"
@@ -1900,7 +1886,7 @@ msgstr ""
 "float=right]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:130
+#: de/modules/ROOT/pages/endpoint.adoc:129
 msgid ""
 "Klicke auf das *Bearbeiten* image:endpoints/edit-endpoint-icon.png[copy, 30, "
 "30] Icon der Verbindung, die du einem Hersteller zuordnen möchtest.  [."
@@ -1911,7 +1897,7 @@ msgstr ""
 "seguinte abrir-se-á.#"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:135
+#: de/modules/ROOT/pages/endpoint.adoc:134
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-2.png[Verbindung Infos, 400, "
 "float=left]"
@@ -1920,17 +1906,17 @@ msgstr ""
 "float=left]"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:138
+#: de/modules/ROOT/pages/endpoint.adoc:137
 msgid "Unter *_Name_* kannst du die Bezeichnung deiner Verbindung anpassen."
 msgstr "Pode personalizar a Designação da Ligação em *_Name_*."
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:139
+#: de/modules/ROOT/pages/endpoint.adoc:138
 msgid "Klicke auf das *_Dropdown Menü_*, um einen Hersteller auszuwählen."
 msgstr "Clique no *_menu pendente_* para selecionar um fabricante."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:144
+#: de/modules/ROOT/pages/endpoint.adoc:143
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-3.png[Verbindung Infos, 400, "
 "float=right]"
@@ -1939,12 +1925,12 @@ msgstr ""
 "float=right]"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:147
+#: de/modules/ROOT/pages/endpoint.adoc:146
 msgid "Wähle den Hersteller aus, dem du deine Verbindung zuordnen willst."
 msgstr "Selecionar o fabricante ao qual se pretende atribuir a Ligação."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:153
+#: de/modules/ROOT/pages/endpoint.adoc:152
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-4.png[Verbindung Infos, 400, "
 "float=left]"
@@ -1953,7 +1939,7 @@ msgstr ""
 "float=left]"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:156
+#: de/modules/ROOT/pages/endpoint.adoc:155
 msgid ""
 "Wenn du zurück auf die _my agrirouter_ Seite gehst, siehst du nun, dass "
 "deine Verbindung dem gewünschten Hersteller zugeordnet wurde."
@@ -1962,13 +1948,13 @@ msgstr ""
 "fabricante pretendido."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:159
+#: de/modules/ROOT/pages/endpoint.adoc:158
 #, no-wrap
 msgid "Agrarsoftware verbinden"
 msgstr "Ligação do software agrícola"
 
 #. type: #connect-software
-#: de/modules/ROOT/pages/endpoint.adoc:162
+#: de/modules/ROOT/pages/endpoint.adoc:161
 msgid ""
 "Um eine Agrarsoftware mit dem agrirouter zu verbinden, öffne deine _my "
 "agrirouter_ Seite und klicke auf den Button *_Software hinzufügen_* image:"
@@ -1981,7 +1967,7 @@ msgstr ""
 "abre-se:#"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:166
+#: de/modules/ROOT/pages/endpoint.adoc:165
 msgid ""
 "image:endpoints/add-software-1.png[Software Auswahlseite, 400, float=right]"
 msgstr ""
@@ -1989,12 +1975,12 @@ msgstr ""
 "float=right]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:168
+#: de/modules/ROOT/pages/endpoint.adoc:167
 msgid "Klicke auf das *_Dropdown-Menü_*."
 msgstr "Clique no *_menu pendente_*."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:170
+#: de/modules/ROOT/pages/endpoint.adoc:169
 msgid ""
 "Wähle die Software aus, die du verbinden möchtest.  [.result]#Die "
 "ausgewählte Software wird dir rechts neben deiner Auswahl angezeigt.#"
@@ -2003,7 +1989,7 @@ msgstr ""
 "é apresentado à direita da sua seleção.#"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:175
+#: de/modules/ROOT/pages/endpoint.adoc:174
 msgid ""
 "image:endpoints/add-software-2.png[Software Auswahlseite, 400, float=left]"
 msgstr ""
@@ -2011,7 +1997,7 @@ msgstr ""
 "float=left]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:184
+#: de/modules/ROOT/pages/endpoint.adoc:183
 msgid ""
 "image:endpoints/add-software-3.png[Software nicht verbunden, 400, "
 "float=right]"
@@ -2019,7 +2005,7 @@ msgstr ""
 "image:endpoints/add-software-3.png[Software não ligado, 400, float=right]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:186
+#: de/modules/ROOT/pages/endpoint.adoc:185
 msgid ""
 "Die ausgewählte Software wird dir nun rechts auf deiner _my agrirouter_ "
 "Seite angezeigt. *_Sie ist aber noch nicht verbunden!_*"
@@ -2028,7 +2014,7 @@ msgstr ""
 "agrirouter_. *Mas ainda não está ligado."
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:191
+#: de/modules/ROOT/pages/endpoint.adoc:190
 msgid ""
 "Klicke auf das Icon mit dem roten Kettenelement image:endpoints/link-icon-"
 "red.png[Software hinzufügen, 24].  [.result]#Du wirst auf dei Seite des "
@@ -2039,7 +2025,7 @@ msgstr ""
 "página do fornecedor de software.#"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:195
+#: de/modules/ROOT/pages/endpoint.adoc:194
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den xref:solution-guides."
@@ -2050,14 +2036,14 @@ msgstr ""
 "guides[Solution Guides]."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:199
+#: de/modules/ROOT/pages/endpoint.adoc:198
 msgid ""
 "image:endpoints/add-software-4.png[Software nicht verbunden, 400, float=left]"
 msgstr ""
 "image:endpoints/add-software-4.png[Software não ligado, 400, float=left]"
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:202
+#: de/modules/ROOT/pages/endpoint.adoc:201
 msgid ""
 "Wenn du deine Agrarsoftware erfolgreich verbunden hast, aktualisiere die _my "
 "agrirouter_ Seite. Das Icon mit dem Kettenelement erscheint nun in grün "
@@ -2070,7 +2056,7 @@ msgstr ""
 "estabelecida com sucesso."
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:205
+#: de/modules/ROOT/pages/endpoint.adoc:204
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
@@ -2083,7 +2069,7 @@ msgstr ""
 "sobre como Ligar o seu software agrícola ao agrirouter."
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:207
+#: de/modules/ROOT/pages/endpoint.adoc:206
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du auf dem https://agrirouter.com/solutions[Solution-Finder]."
@@ -2092,19 +2078,19 @@ msgstr ""
 "em https://agrirouter.com/solutions[Solution Finder]."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:210
+#: de/modules/ROOT/pages/endpoint.adoc:209
 #, no-wrap
 msgid "Löschen"
 msgstr "Eliminar"
 
 #. type: #delete
-#: de/modules/ROOT/pages/endpoint.adoc:212
+#: de/modules/ROOT/pages/endpoint.adoc:211
 msgid ""
 "Wenn ein Endpunkt oder ein Hersteller nicht mehr benötigt wird, lösche ihn:"
 msgstr "Se um Ponto final ou fabricante já não for necessário, elimine-o:"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:216
+#: de/modules/ROOT/pages/endpoint.adoc:215
 msgid ""
 "image:endpoints/delete-endpoint.png[Software nicht verbunden, 380, "
 "float=right]"
@@ -2112,7 +2098,7 @@ msgstr ""
 "image:endpoints/delete-endpoint.png[Software not connected, 380, float=right]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:219
+#: de/modules/ROOT/pages/endpoint.adoc:218
 msgid ""
 "Um einen Endpunkt zu löschen, klicke auf das *löschen* image:endpoints/"
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Endpunkts.  [.result]#Ein "
@@ -2123,7 +2109,7 @@ msgstr ""
 "se uma janela pop-up. Clique no botão *_confirmar_*.#"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:221
+#: de/modules/ROOT/pages/endpoint.adoc:220
 msgid ""
 "Um einen Hersteller zu löschen, klicke auf das *löschen* image:endpoints/"
 "delete-icon.png[Delete Icon, 25] Icon auf Höhe des Herstellers.  [."
@@ -2134,57 +2120,57 @@ msgstr ""
 "janela de contexto. Clique no botão *_confirmar_*.#"
 
 #. type: Title ==
-#: de/modules/ROOT/pages/endpoint.adoc:224
+#: de/modules/ROOT/pages/endpoint.adoc:223
 #, no-wrap
 msgid "Detailansicht"
 msgstr "Vista pormenorizada"
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:226
+#: de/modules/ROOT/pages/endpoint.adoc:225
 msgid ""
 "In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:"
 msgstr ""
 "Todas as informações sobre o Ponto final são resumidas na vista detalhada:"
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:228
+#: de/modules/ROOT/pages/endpoint.adoc:227
 msgid "Die Fähigkeiten, also die unterstützen Datenformate."
 msgstr "As capacidades, ou seja, os formatos de dados suportados."
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:229
+#: de/modules/ROOT/pages/endpoint.adoc:228
 msgid "Wann zum letzten Mal Daten empfangen oder gesendet wurden."
 msgstr "Quando é que os dados foram recebidos ou enviados pela última vez."
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:230
+#: de/modules/ROOT/pages/endpoint.adoc:229
 msgid "Details wie Hersteller, Versionsnummer und zugeordnete Hersteller."
 msgstr ""
 "Detalhes como o fabricante, o número da versão e o fabricante atribuído."
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:231
+#: de/modules/ROOT/pages/endpoint.adoc:230
 msgid "Die Informationen, die du für den agrirouter-Support benötigst."
 msgstr "As informações necessárias para a Assistência técnica do agrirouter."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:232
+#: de/modules/ROOT/pages/endpoint.adoc:231
 #, no-wrap
 msgid "Fähigkeiten"
 msgstr "Competências"
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:234
+#: de/modules/ROOT/pages/endpoint.adoc:233
 msgid "Hier siehst du, was der Endpunkt senden oder empfangen kann."
 msgstr "Aqui pode ver o que o Ponto final pode enviar ou receber."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:238
+#: de/modules/ROOT/pages/endpoint.adoc:237
 msgid "image:endpoints/capabilities.png[Capabilities, 400, float=right]"
 msgstr "image:endpoints/capabilities.png[Capacidades, 400, float=direita]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:240
+#: de/modules/ROOT/pages/endpoint.adoc:239
 msgid ""
 "*_Letzter Austausch der Fähigkeiten_*: Der letzte Tag, an dem Daten gesendet "
 "oder empfangen wurden."
@@ -2193,7 +2179,7 @@ msgstr ""
 "enviados ou recebidos."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:241
+#: de/modules/ROOT/pages/endpoint.adoc:240
 msgid ""
 "*_Letzer Austausch der Abonnements_*: Der letzte Tag, an dem Echtzeitdaten "
 "gesendet oder empfagen wurden."
@@ -2202,7 +2188,7 @@ msgstr ""
 "recebidos dados em tempo real."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:242
+#: de/modules/ROOT/pages/endpoint.adoc:241
 msgid ""
 "*_Push Beachrichtigungen_* Gibt Auskunft darüber, ob Push-Benachrichtigungen "
 "zu diesem Endpunkt aktiviert oder deaktiviert sind."
@@ -2211,7 +2197,7 @@ msgstr ""
 "push estão activadas ou desactivadas para este Ponto final."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:245
+#: de/modules/ROOT/pages/endpoint.adoc:244
 msgid ""
 "Die *_Tabelle_* im unteren Bereich der Fähigkeiten gibt Auskunft darüber, ob "
 "eine Fähigkeit bzw. ein Datentyp empfangen, gesendet oder abonniert werden "
@@ -2230,13 +2216,13 @@ msgstr ""
 "capítulo sobre xref:introduction.adoc#datatypes[data types]."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:247
+#: de/modules/ROOT/pages/endpoint.adoc:246
 #, no-wrap
 msgid "Details zum Endpunkt"
 msgstr "Pormenores do Ponto final"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:249
+#: de/modules/ROOT/pages/endpoint.adoc:248
 msgid ""
 "Die Details geben Auskunft über Herkunft, Name und weitere grundlegende "
 "Informationen des Endpunkts."
@@ -2245,7 +2231,7 @@ msgstr ""
 "básicas sobre o Ponto final."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:253
+#: de/modules/ROOT/pages/endpoint.adoc:252
 msgid ""
 "image:endpoints/endpoint-details.png[Endpunkt Details, 400, float=right]"
 msgstr ""
@@ -2253,7 +2239,7 @@ msgstr ""
 "float=direita]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:255
+#: de/modules/ROOT/pages/endpoint.adoc:254
 msgid ""
 "*_Typ_*: Gibt Auskunft darüber, um welche Art von Endpunkt (Software, "
 "Telemetrieeinheit, Maschine, ...) es sich handelt."
@@ -2262,22 +2248,22 @@ msgstr ""
 "de telemetria, Máquina, ...)."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:256
+#: de/modules/ROOT/pages/endpoint.adoc:255
 msgid "*_Verbunden_*: Zeitpunkt, an dem der Endpunkt verbunden wurde."
 msgstr "*_Connected_*: Hora em que o Ponto final foi ligado."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:257
+#: de/modules/ROOT/pages/endpoint.adoc:256
 msgid "*_Software-Anbieter_*: Anbieter der zugehörigen Software."
 msgstr "*Fornecedor de software_*: Fornecedor do software associado."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:258
+#: de/modules/ROOT/pages/endpoint.adoc:257
 msgid "*_Software-Endpunkt_*: -"
 msgstr "*_Software endpoint_*: -"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:259
+#: de/modules/ROOT/pages/endpoint.adoc:258
 msgid ""
 "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines Endpunkts "
 "gibt."
@@ -2285,7 +2271,7 @@ msgstr ""
 "*Número da versão_*: No caso de existirem várias versões de um Ponto final."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:260
+#: de/modules/ROOT/pages/endpoint.adoc:259
 msgid ""
 "*_Montiert auf_*: Gibt Auskunft darüber, auf welcher Maschine der Endpunkt "
 "montiert ist."
@@ -2294,7 +2280,7 @@ msgstr ""
 "montado."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:262
+#: de/modules/ROOT/pages/endpoint.adoc:261
 msgid ""
 "Über einem Klick auf das Bearbeiten image:endpoints/edit-icon.png[Edit Icon, "
 "25] Icon, kannst du den <<manufacturer-machine-connection, Namen des "
@@ -2305,13 +2291,13 @@ msgstr ""
 "final>> e a Máquina em que está montado."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:264
+#: de/modules/ROOT/pages/endpoint.adoc:263
 #, no-wrap
 msgid "Routeneinstellungen und Nachrichtenspeicher"
 msgstr "Definições de itinerário e memória de mensagens"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:266
+#: de/modules/ROOT/pages/endpoint.adoc:265
 msgid ""
 "Hier siehst du, wann zum letzten mal Daten empfangen oder gesendet wurden "
 "und kannst deine Routeneinstellungen zurücksetzen."
@@ -2320,14 +2306,14 @@ msgstr ""
 "pode repor as suas definições de percurso."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:270
+#: de/modules/ROOT/pages/endpoint.adoc:269
 msgid ""
 "image:endpoints/route-settings.png[Support Informationen, 400, float=right]"
 msgstr ""
 "image:endpoints/route-settings.png[Informações de suporte, 400, float=right]"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:272
+#: de/modules/ROOT/pages/endpoint.adoc:271
 msgid ""
 "*_Von agrirouter verwaltete Routen_*: Wenn diese Option gewählt ist image:"
 "endpoints/active-routing-icon.png[Active Icon, 25], dann sind die "
@@ -2341,7 +2327,7 @@ msgstr ""
 "definições de itinerário também podem ser ajustadas manualmente."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:273
+#: de/modules/ROOT/pages/endpoint.adoc:272
 msgid ""
 "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "gesendet wurden."
@@ -2350,7 +2336,7 @@ msgstr ""
 "vez."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:274
+#: de/modules/ROOT/pages/endpoint.adoc:273
 msgid ""
 "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "empfangen wurden."
@@ -2359,14 +2345,14 @@ msgstr ""
 "última vez."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:275
+#: de/modules/ROOT/pages/endpoint.adoc:274
 msgid ""
 "*_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell vorliegen."
 msgstr ""
 "*Mensagens actuais_*: Indica quantas Mensagens estão atualmente disponíveis."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:278
+#: de/modules/ROOT/pages/endpoint.adoc:277
 msgid ""
 "Wenn du die Routeneinstellungen manuell abgeändert hast, kannst du sie über "
 "das anwählen des Kästschens image:endpoints/active-routing-icon.png[Active "
@@ -2377,13 +2363,13 @@ msgstr ""
 "*_Rotas geridas por agrirouter_*."
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:279
+#: de/modules/ROOT/pages/endpoint.adoc:278
 #, no-wrap
 msgid "Support Informationen"
 msgstr "Informações de apoio"
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:285
+#: de/modules/ROOT/pages/endpoint.adoc:284
 msgid ""
 "image:support/support-information.png[Support Informationen, 400, "
 "float=right] Diese Informationen benötigst du, um eine Anfrage an den xref:"
@@ -2394,7 +2380,7 @@ msgstr ""
 "xref:support.adoc#support[Suporte]."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:288
+#: de/modules/ROOT/pages/endpoint.adoc:287
 msgid ""
 "Klicke den *_Kopieren_*-Button, um die Diagnoseinformationen in die "
 "Zwischenablage zu kopieren."
@@ -2403,7 +2389,7 @@ msgstr ""
 "área de transferência."
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:290
+#: de/modules/ROOT/pages/endpoint.adoc:289
 msgid ""
 "Gehe zum Kapitel xref:support.adoc#support[Support] für weitere "
 "Informationen."
@@ -3582,8 +3568,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:11
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:6
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:12
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:6
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:9
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:11
 #, no-wrap
 msgid "Verbindung mit dem agrirouter herstellen"
 msgstr "Estabelecer uma Ligação com o agrirouter"
@@ -11174,15 +11159,41 @@ msgstr ""
 "analisar os dados operacionais (máquinas, campos, dados de processo) e "
 "otimizar os processos de trabalho. Este capítulo abrange os seguintes pontos:"
 
-#. type: Title ==
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:6
+#, fuzzy
+#| msgid "Verbindung mit dem agrirouter herstellen"
+msgid "<<connect-agrirouter-jdoc,Verbindung mit dem agrirouter herstellen>>"
+msgstr "Estabelecer uma Ligação com o agrirouter"
+
+#. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:7
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:74
-#, no-wrap
-msgid "ISOXML-Dateien an das John Deere Operations Center senden"
+#, fuzzy
+#| msgid "Verbindung aus dem agrirouter Control Center herstellen"
+msgid ""
+"<<connection-from-agrirouter-jdoc,Verbindung aus dem agrirouter Control "
+"Center herstellen>>"
+msgstr "Estabelecer uma Ligação a partir do Centro de Controlo agrirouter"
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:8
+#, fuzzy
+#| msgid "ISOXML-Dateien an das John Deere Operations Center senden"
+msgid ""
+"<<connection-from-jdoc-agrirouter,ISOXML-Dateien an das John Deere "
+"Operations Center senden>>"
 msgstr "Enviar ficheiros ISOXML para o Centro de Operações John Deere"
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:12
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:9
+#, fuzzy
+#| msgid "ISOXML-Dateien an das John Deere Operations Center senden"
+msgid ""
+"<<send-isoxml,ISOXML-Dateien an das John Deere Operations Center senden>>"
+msgstr "Enviar ficheiros ISOXML para o Centro de Operações John Deere"
+
+#. type: #connect-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:14
 msgid ""
 "Um Daten von JDOC über den agrirouter senden und empfangen zu können, muss "
 "zuerst eine Verbindung zwischen deinem JDOC-Konto und deinem agrirouter-"
@@ -11193,13 +11204,13 @@ msgstr ""
 "Conta agrirouter. Isto pode ser feito de duas formas:"
 
 #. type: Title ===
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:13
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:16
 #, no-wrap
 msgid "Verbindung aus dem agrirouter Control Center herstellen"
 msgstr "Estabelecer uma Ligação a partir do Centro de Controlo agrirouter"
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:16
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:19
 msgid ""
 "Melde dich im **agrirouter Control Center** mit deinen Zugangsdaten an "
 "(Einmalcode oder Passwort)."
@@ -11207,19 +11218,19 @@ msgstr ""
 "Inicie a sessão no Centro de Controlo agrirouter com os seus dados de acesso "
 "(código de utilização única ou palavra-passe)."
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:17
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:20
 msgid "Klicke auf **\"+ Software hinzufügen\"**."
 msgstr "Clique em **\"+ Adicionar software \"**."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:18
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:21
 #, no-wrap
 msgid "Software hinzufügen"
 msgstr "Adicionar software"
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:21
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:24
 msgid ""
 "Suche deine Lösung in der Suchleiste oder scrolle zu deiner gewünschten "
 "Lösung."
@@ -11227,24 +11238,24 @@ msgstr ""
 "Procure a sua solução na barra de pesquisa ou desloque-se para a solução "
 "pretendida."
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:22
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:25
 msgid "Klicke auf **verbinden**"
 msgstr "Clicar em Ligação"
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:23
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:26
 #, no-wrap
 msgid "Verbindung starten"
 msgstr "Ligação inicial"
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:26
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:29
 msgid "Falls erforderlich: Gib deine individuellen Zugangsdaten des JDOC ein"
 msgstr "Se necessário: Introduza os seus dados de acesso individuais ao JDOC"
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:27
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:30
 msgid ""
 "Wähle das Unternehmen aus, das mit dem agrirouter verbunden werden soll. "
 "Mehrere Unternehmen im JDOC können mit dem agrirouter verbunden werden."
@@ -11252,8 +11263,8 @@ msgstr ""
 "Selecionar a empresa a ligar ao agrirouter. Várias empresas do JDOC podem "
 "ser ligadas ao agrirouter."
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:28
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:31
 msgid ""
 "Nach der erfolgreichen Verbindung werden **automatisch Routen zwischen JDOC "
 "und bereits verbundenen Maschinen** erstellt."
@@ -11262,15 +11273,15 @@ msgstr ""
 "e as Máquinas já ligadas**."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:29
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:57
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:32
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:61
 #, no-wrap
 msgid "Verbundene Endpunkte"
 msgstr "Pontos finais ligados"
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:34
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:62
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:37
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:66
 msgid ""
 "Routen zwischen zwei Softwarelösungen müssen **manuell** mittels Drag and "
 "Drop erstellt werden, da automatische Routen nur zwischen Maschine und "
@@ -11281,14 +11292,14 @@ msgstr ""
 "só são criadas entre a Máquina e o software."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:36
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:64
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:39
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:68
 #, no-wrap
 msgid "Verbindung manuell anlegen"
 msgstr "Criar Ligação manualmente"
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:41
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:44
 msgid ""
 "Falls keine automatische Route erstellt wird, ist die Funktion für "
 "automatische Verbindungen im Endpunkt deaktiviert. Öffne den Endpunkt, "
@@ -11300,30 +11311,30 @@ msgstr ""
 "ligações futuras serão estabelecidas automaticamente."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:43
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:71
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:46
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:75
 #, no-wrap
 msgid "Automatische Verbindung aktivieren"
 msgstr "Ativar a Ligação automática"
 
 #. type: Title ===
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:45
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:49
 #, no-wrap
 msgid "Verbindung aus dem John Deere Operations Center herstellen"
 msgstr "Estabelecer uma Ligação a partir do Centro de Operações John Deere"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:48
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:52
 msgid "Melde dich im **John Deere Operations Center** an."
 msgstr "Iniciar sessão no **Centro de Operações John Deere**."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:49
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:53
 msgid "Gehe zu **Einrichten → Verbindungen**."
 msgstr "Aceder a **Configuração → Ligações**."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:50
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:54
 msgid ""
 "Suche nach **agrirouter** oder scrolle zu der Kachel. Du kannst auch nach "
 "Firmen wie „Grimme“ oder „Krone“ oder anderen agrirouter Partnerfirmen "
@@ -11334,16 +11345,16 @@ msgstr ""
 "agrirouter, uma vez que estas soluções trocam dados com o JDOC através do "
 "agrirouter."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:51
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:55
 msgid ""
 "Klicke auf **verbinden** und gib deine Zugangsdaten deines agrirouter Konto "
 "ein."
 msgstr ""
 "Clique em Ligação e introduza os dados de acesso à sua Conta agrirouter."
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:52
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:56
 msgid ""
 "Bestätige das Verbindungsfenster mit **Connect** und wähle das Unternehmen "
 "aus, das verbunden werden soll. Anschließend speichere diesen Schritt."
@@ -11352,13 +11363,13 @@ msgstr ""
 "Em seguida, guardar esta etapa."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:53
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:57
 #, no-wrap
 msgid "JDOC Zugriff aktivieren"
 msgstr "Ativar o acesso ao JDOC"
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:56
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:60
 msgid ""
 "Nach der erfolgreichen Verbindung werden die Routen zu bereits verbundenen "
 "Maschinen **automatisch hergestellt**."
@@ -11367,7 +11378,7 @@ msgstr ""
 "estabelecidas **automaticamente**."
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:69
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:73
 msgid ""
 "Wenn keine automatische Route erstellt wird, überprüfe die Endpunktdetails "
 "und aktiviere die automatische Verbindung. Künftige Verbindungen werden dann "
@@ -11377,8 +11388,14 @@ msgstr ""
 "e active a Ligação automática. As ligações futuras serão então estabelecidas "
 "automaticamente."
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:77
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:78
+#, no-wrap
+msgid "ISOXML-Dateien an das John Deere Operations Center senden"
+msgstr "Enviar ficheiros ISOXML para o Centro de Operações John Deere"
+
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:81
 msgid ""
 "Im ersten Schritt können nur **ISOXML-Dateien** (Ertragskarten, "
 "Applikationskarten, Arbeitspläne) von einer mit dem agrirouter verbundenen "
@@ -11389,22 +11406,22 @@ msgstr ""
 "partir de uma Máquina ou solução de software ligada ao agrirouter."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:78
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:82
 #, no-wrap
 msgid "John Deere Operations Center Capabilities"
 msgstr "Capacidades do Centro de Operações John Deere"
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:81
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:85
 msgid ""
 "Die vom agrirouter gesendeten Dateien werden im Bereich **„Dateien / "
 "Files“** abgelegt und vom JDOC verarbeitet."
 msgstr ""
-"Os ficheiros enviados pelo agrirouter são armazenados na zona **"
-"\"Dateien / Files \"** e processados pelo JDOC."
+"Os ficheiros enviados pelo agrirouter são armazenados na zona **\"Dateien / "
+"Files \"** e processados pelo JDOC."
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:82
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:86
 msgid ""
 "Stammdaten wie Schlag, Betrieb und Mandant werden automatisch ausgelesen und "
 "angelegt (falls noch nicht vorhanden)."
@@ -11412,8 +11429,8 @@ msgstr ""
 "Os dados mestre como o campo, a empresa e o cliente são automaticamente "
 "lidos e criados (se ainda não estiverem disponíveis)."
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:83
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:87
 msgid ""
 "Vorhandene Ertrags- und Ausbringdaten werden im JDOC übernommen/visualisiert."
 msgstr ""
@@ -11421,21 +11438,21 @@ msgstr ""
 "visualizados no JDOC."
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:84
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:88
 #, no-wrap
 msgid "Datenprozessierung im John Deere Operations Center"
 msgstr "Processamento de dados no Centro de Operações da John Deere"
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:86
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:90
 msgid ""
 "Weitere Informationen zu den Ausbaustufen findest du im **https://agrirouter."
 "com/de/solutions/john-deere-operations-center[Solution-Finder, "
 "window=\"_blank\"]**."
 msgstr ""
 "Para mais informações sobre as fases de expansão, consultar **https://"
-"agrirouter.com/de/solutions/john-deere-operations-center"
-"[Solution-Finder, window=\"_blank\"]**."
+"agrirouter.com/de/solutions/john-deere-operations-center[Solution-Finder, "
+"window=\"_blank\"]**."
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:2
@@ -11534,55 +11551,62 @@ msgstr "xref:solution-guides/dacom.adoc[DACOM]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:21
+msgid ""
+"xref:solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc[FarmENGAGE "
+"- Fendt, Massey Ferguson, Valtra]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:22
 msgid "xref:solution-guides/farmpilot.adoc[farmpilot]"
 msgstr "xref:solution-guides/farmpilot.adoc[farmpilot]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:22
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
 msgid ""
 "xref:solution-guides/john-deere-operations-center.adoc[John Deere Operations "
 "Center]"
 msgstr ""
-"xref:solution-guides/john-deere-operations-center.adoc"
-"[John Deere Operations Center]"
+"xref:solution-guides/john-deere-operations-center.adoc[John Deere Operations "
+"Center]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
 msgid "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
 msgstr "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
 msgid "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 msgstr "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
 msgid "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 msgstr "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
 msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
 msgstr "xref:solution-guides/plantivo.adoc[Plantivo]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/proflura.adoc[ProFlura]"
 msgstr "xref:solution-guides/proflura.adoc[ProFlura]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
 msgid "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
 msgstr "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:30
 msgid "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 msgstr "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:30
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr "xref:solution-guides/xfarm.adoc[xFarm]"
 
@@ -14282,6 +14306,18 @@ msgstr ""
 "reduz significativamente a introdução manual pelo motorista do Prestador de "
 "serviços agrícolas. Os erros de digitação são evitados e a faturação é mais "
 "precisa. Isto significa que não há mais trabalho perdido ou ignorado."
+
+#~ msgid ""
+#~ "image:endpoints/link-icon-green.png[Green Link Icon, 30] image:endpoints/"
+#~ "link-icon-red.png[Red Link Icon, 30]: Dieses Icon zeigt an, ob ein "
+#~ "<<connect-software, Software-Endpunkt verbunden>> ist (grün) oder nicht "
+#~ "(rot). Dieses Icon wird ausschließlich bei Software-Endpunkten angezeigt."
+#~ msgstr ""
+#~ "image:endpoints/link-icon-green.png[Ícone de ligação verde, 30] image:"
+#~ "endpoints/link-icon-red.png[Ícone de ligação vermelho, 30]: Este ícone "
+#~ "indica se um <<connect-software, Software do ponto final está ligado>> "
+#~ "(verde) ou não (vermelho). Este ícone só é apresentado para pontos finais "
+#~ "de software."
 
 #, fuzzy, no-wrap
 #~| msgid "Mehrere Applikationskarten an eine Maschine senden"
