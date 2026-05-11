@@ -93,7 +93,7 @@ TIP: Wenn du Daten von deiner Maschine an den agrirouter senden möchtest, <<con
 === Maschine verbinden
 Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem agrirouter und wird der _my agrirouter_ Seite hinzugefügt.
 
-. Klicke den Button *_Verbindung hinzufügen_* image:endpoints/add-connection-button.png[Verbindung hinzufügen Button, 120].
+. Klicke den Button *_Verbindung hinzufügen_* image:endpoints/add-connection-software.png[Verbindung hinzufügen Button, 120].
 [.result]#Die folgende Seite wird geöffnet:#
 
 image:endpoints/add-connection-information.png[Verbindung hinzufügen, 600]
@@ -161,7 +161,7 @@ Um eine Agrarsoftware mit dem agrirouter zu verbinden, öffne deine _my agrirout
 
 [.float-group]
 --
-image:endpoints/add-software-1.png[Software Auswahlseite, 400, float=right]
+image::endpoints/add-software-1.png[Software Auswahlseite, 400, float=right]
 
 . Klicke auf das *_Dropdown-Menü_*.
 . Wähle die Software aus, die du verbinden möchtest.
@@ -185,19 +185,12 @@ Die ausgewählte Software wird dir nun rechts auf deiner _my agrirouter_ Seite a
 --
 
 [start=4]
-. Klicke auf das Icon mit dem roten Kettenelement image:endpoints/link-icon-red.png[Software hinzufügen, 24].
-[.result]#Du wirst auf dei Seite des Softwareanbieters weitergeleitet.#
-
-
-[start=5]
 . Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das für deine Software funktioniert, erfährst du in den xref:solution-guides.adoc#solution-guides[Solution-Guides].
 
 [.float-group]
 --
 image:endpoints/add-software-4.png[Software nicht verbunden, 400, float=left]
 
-[start=6]
-. Wenn du deine Agrarsoftware erfolgreich verbunden hast, aktualisiere die _my agrirouter_ Seite. Das Icon mit dem Kettenelement erscheint nun in grün image:endpoints/link-icon-green.png[Software hinzufügen, 24]. Die Verbindung wurde erfolgreich hergestellt.
 --
 
 TIP: Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In den xref:solution-guides.adoc#solution-guides[Solution-Guides] findest du eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest.
