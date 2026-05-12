@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2026-05-11 14:31+0000\n"
-"PO-Revision-Date: 2026-03-09 10:40+0000\n"
+"PO-Revision-Date: 2026-05-12 08:40+0000\n"
 "Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
 "Language-Team: Portuguese <https://weblate.agrirouter.com/projects/"
 "agrirouter/user-manual/pt/>\n"
@@ -12430,7 +12430,7 @@ msgstr ""
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:261
 msgid "*Direkte Maschinenadressierung*"
-msgstr ""
+msgstr "*Endereçamento direto da máquina"
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:263
@@ -12439,11 +12439,14 @@ msgid ""
 "derzeit manuell in FarmENGAGE einer Maschine zugewiesen werden. Die Funktion "
 "befindet sich derzeit in Entwicklung bei AGCO."
 msgstr ""
+"Atualmente não é suportado. Atualmente, as ordens de trabalho e os mapas de "
+"prescrição devem ser atribuídos manualmente a uma Máquina na FarmENGAGE. A "
+"função está atualmente em desenvolvimento na AGCO."
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:265
 msgid "*Gleichzeitiges Senden mehrerer Arbeitsaufträge*"
-msgstr ""
+msgstr "*Envio de várias ordens de trabalho ao mesmo tempo"
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:267
@@ -12452,11 +12455,15 @@ msgid ""
 "AGCO-Maschinen gesendet werden. Applikationskarten können hingegen "
 "gleichzeitig an eine oder mehrere AGCO-Maschinen übertragen werden."
 msgstr ""
+"Atualmente não é suportado. Atualmente, as ordens de trabalho só podem ser "
+"enviadas individualmente para as máquinas da AGCO. Os mapas de aplicação, "
+"por outro lado, podem ser enviados para uma ou mais Máquinas AGCO em "
+"simultâneo."
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:269
 msgid "*Parallele Nutzung von FendtONE Offboard und FarmENGAGE*"
-msgstr ""
+msgstr "*Utilização paralela de FendtONE Offboard e FarmENGAGE"
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:271
@@ -12467,11 +12474,15 @@ msgid ""
 "können anschließend nicht mehr über _FarmENGAGE_ adressiert werden. Sie "
 "müssen erst in FarmENGAGE neu hinzugefügt werden."
 msgstr ""
+"Suporte limitado. Se uma Máquina é adicionada diretamente na FarmENGAGE, a "
+"Ligação existente entre _FendtONE Offboard_ e _FarmENGAGE_ é removida. As "
+"máquinas Fendt do FendtONE Offboard já não podem ser endereçadas através do "
+"_FarmENGAGE_. Elas devem ser adicionadas novamente no FarmENGAGE."
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:273
 msgid "*Nachträgliche Aktivierung von FendtONE Offboard*"
-msgstr ""
+msgstr "*Ativação subsequente do FendtONE offboard"
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:275
@@ -12482,19 +12493,23 @@ msgid ""
 "zwischen _FendtONE Offboard_ und _FarmENGAGE_ hergestellt werden und die "
 "Fendt-Maschinen müssen in _FendtONE Offboard _hinzugefügt werden."
 msgstr ""
+"Suporte limitado. Se o _FendtONE Offboard_ for posteriormente utilizado em "
+"paralelo com o FarmENGAGE, a _auto-soap-bridge_ existente deve ser removida "
+"pelo Apoio AGCO. Só então é que a Ligação entre o _FendtONE Offboard_ e o "
+"_FarmENGAGE_ pode ser estabelecida e as Máquinas Fendt devem ser adicionadas "
+"ao _FendtONE Offboard_."
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:277
 #, no-wrap
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:278
-#, fuzzy, no-wrap
-#| msgid "Kontoinformationen ändern"
+#, no-wrap
 msgid "Supportinformationen für Endkunden"
-msgstr "Alterar informações da conta"
+msgstr "Informações de apoio aos clientes finais"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:281
@@ -12502,6 +12517,8 @@ msgid ""
 "*An wen wende ich mich, wenn ich nachträglich FendtONE Offboard und "
 "FarmENGAGE parallel nutzen möchte?*"
 msgstr ""
+"*Quem devo contactar se quiser usar o FendtONE Offboard e o FarmENGAGE em "
+"paralelo numa data posterior?"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:283
@@ -12512,11 +12529,15 @@ msgid ""
 "Support ab. Bitte beachte, dass Fendt-Maschinen anschließend erneut in "
 "FendtONE Offboard hinzugefügt werden müssen."
 msgstr ""
+"Se uma Máquina já foi adicionada à FarmENGAGE e o FendtONE Offboard também "
+"vai ser utilizado, por favor contacte o seu revendedor AGCO ou PTx Trimble. "
+"Eles coordenarão os passos necessários com o apoio da AGCO. Por favor note "
+"que as Máquinas Fendt devem ser adicionadas novamente no FendtONE Offboard."
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:285
 msgid "*Wo können FarmENGAGE-Lizenzen erworben werden?*"
-msgstr ""
+msgstr "*Onde é que as licenças FarmENGAGE podem ser adquiridas?"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:287
@@ -12524,6 +12545,8 @@ msgid ""
 "FarmENGAGE-Lizenzen können über deinen AGCO- oder PTx-Trimble-Händler "
 "erworben werden."
 msgstr ""
+"As licenças FarmENGAGE podem ser adquiridas através do seu concessionário "
+"AGCO ou PTx Trimble."
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:289
@@ -12531,6 +12554,8 @@ msgstr ""
 msgid ""
 "*Können Arbeitsergebnisse erneut von FarmENGAGE an ein FMIS gesendet werden?*"
 msgstr ""
+"*Os resultados do trabalho podem ser reenviados da FarmENGAGE para um "
+"sistema de gestão financeira (FMIS)?"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:291
@@ -12538,6 +12563,8 @@ msgid ""
 "Nein. Arbeitsergebnisse können nicht erneut automatisch von FarmENGAGE an "
 "ein über agrirouter angebundenes FMIS übertragen werden."
 msgstr ""
+"Não. Os resultados do trabalho não podem ser automaticamente transferidos de "
+"novo do FarmENGAGE para um FMIS ligado via agrirouter."
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:293
@@ -12547,6 +12574,10 @@ msgid ""
 "in FarmENGAGE unter: *_Dateiübertragung → Dateien verwalten → Von "
 "Fahrzeugen_*"
 msgstr ""
+"No entanto, é possível descarregar os ficheiros manualmente do FarmENGAGE e "
+"depois carregá-los para o FMIS desejado.  Os ficheiros podem ser encontrados "
+"no FarmENGAGE em: *Transferência de ficheiros → Gestão de ficheiros → Dos "
+"veículos_*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:295
@@ -12554,6 +12585,9 @@ msgid ""
 "*Ich nutze derzeit FendtONE Offboard und FarmENGAGE, möchte zukünftig jedoch "
 "ausschließlich FarmENGAGE verwenden. Was ist zu beachten?*"
 msgstr ""
+"*Utilizo atualmente o FendtONE Offboard e o FarmENGAGE, mas gostaria de "
+"utilizar exclusivamente o FarmENGAGE no futuro. O que devo ter em "
+"consideração?"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:297
@@ -12564,13 +12598,17 @@ msgid ""
 "FendtONE Offboard und FarmENGAGE entfernt. Anschließend müssen alle "
 "Maschinen direkt in FarmENGAGE verwaltet werden."
 msgstr ""
+"A conta FendtONE Offboard existente pode permanecer no local. No entanto, se "
+"uma nova Máquina Fendt for adicionada diretamente no Centro de Conectividade "
+"da FarmENGAGE, a Ligação existente entre o FendtONE Offboard e a FarmENGAGE "
+"será removida. Todas as Máquinas devem então ser geridas diretamente na "
+"FarmENGAGE."
 
 #. type: Title ===
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:298
-#, fuzzy, no-wrap
-#| msgid "Kontoinformationen ändern"
+#, no-wrap
 msgid "*Supportinformationen für Händler*"
-msgstr "Alterar informações da conta"
+msgstr "*Informações de apoio aos concessionários"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:301
