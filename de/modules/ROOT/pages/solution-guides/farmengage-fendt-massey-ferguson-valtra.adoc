@@ -1,0 +1,313 @@
+= FarmENGAGE - Fendt, Massey Ferguson, Valtra Solution Guide
+
+Mit **FarmENGAGE - Fendt, Massey Ferguson, Valtra** können Betriebsdaten (Maschinen-, Feld- und Prozessdaten) zentralisiert, analysiert und Arbeitsabläufe optimiert werden. Dieses Kapitel behandelt folgende Themen:
+
+* <<glossary,Glossar>>
+* <<license-requirements,Voraussetzungen>>
+* <<quick-start-guide,Quickstart - kompakt erklärt>>
+* <<connect-agrirouter,Verbindung mit dem agrirouter herstellen>>
+* <<specialities,Besonderheiten bei der Verbindung von FarmENGAGE>>
+** <<add-agco-machine,FendtONE Offboard und FarmENGAGE parallel nutzen>>
+** <<add-mixed-agco-fleet,Gemischte AGCO-Flotten nutzen>>
+* <<send-work-order,Arbeitspläne (Work Order) an AGCO-Maschinen senden>>
+* <<send-application-maps,Applikationskarten an AGCO-Maschinen senden>>
+* <<send-work-records,Arbeitsergebnisse von AGCO-Maschinen an agrirouter angebundene FMIS weiterleiten>>
+* <<known-restrictions,Bekannte Einschränkungen>>
+* <<support,Supportinformationen>>
+
+[#glossary]
+== Glossar
+
+*FMIS:*
+Farm Management Information System. System zur Planung, Verwaltung und Dokumentation landwirtschaftlicher Betriebsprozesse.
+
+*agrirouter:*
+Herstellerübergreifende Datenplattform zum Austausch von landwirtschaftlichen Daten zwischen Software und Maschinen.
+
+*PTx FarmENGAGE™:*
+Zentrale Plattform zur Verbindung von agrirouter mit AGCO-Maschinen.
+
+*FendtONE Offboard:*
+Herstellerspezifisches System zur Verwaltung von Fendt-Maschinen und Datenverbindungen.
+
+*Route:*
+Definierte Datenverbindung zwischen zwei Endpunkten im agrirouter-System.
+
+*Endpunkt:*
+Technischer Anschluss eines Systems (z. B. FMIS, Maschine oder FarmENGAGE) im agrirouter.
+
+*Work Order:*
+Digitaler Arbeitsauftrag aus dem FMIS an die Maschine.
+
+*Work Record:*
+Ergebnisdaten eines auf der Maschine abgeschlossenen Arbeitsauftrags.
+
+[#license-requirements]
+== Voraussetzungen
+
+Für den Datenaustausch zwischen FMIS und AGCO-Maschinen über agrirouter in Verbindung mit PTx FarmENGAGE™ müssen folgende Voraussetzungen erfüllt sein:
+
+- Aktives agrirouter-Konto
+- Zugriff auf PTx FarmENGAGE™ inklusive gültiger Lizenz
+- Gegebenenfalls Zugriff auf FendtONE Offboard (nur bei reinen Fendt-Flotten)
+- Unterstützte Fendt-, Massey-Ferguson- oder Valtra-Maschine
+- Kompatibles Terminal mit TaskDoc-Unterstützung (je nach Maschinenkonfiguration)
+- Aktive Mobilfunkverbindung auf der Maschine
+- Bestehende Verbindung zwischen FarmENGAGE und agrirouter
+- Route zwischen dem verwendeten FMIS und dem FarmENGAGE-Endpunkt im agrirouter
+- Unterstützte Datentypen und Capabilities (Fähigkeiten) der jeweiligen agrirouter-Endpunkte
+
+[TIP]
+Der Datenaustausch über agrirouter wird ausschließlich über PTx FarmENGAGE™, nicht über FendtONE Offboard.
+
+[#quick-start-guide]
+== Quickstart - kompakt erklärt
+Mit den folgenden Schritten verbindest du Fendt-, Massey-Ferguson- oder Valtra-Maschinen mit agrirouter und überträgst Arbeitsaufträge sowie Arbeitsergebnisse.
+
+Wähle die passende Anleitung entsprechend deiner Flottenkonfiguration:
+
+- Nur Fendt-Flotte
+- Gemischte AGCO-Flotte
+
+=== Fendt-Flotte
+
+1. PTx FarmENGAGE™ – Fendt, Massey Ferguson, Valtra zum agrirouter-Konto hinzufügen
+2. Route zwischen FMIS und FarmENGAGE prüfen
+3. Fendt-Maschinen in FendtONE Offboard registrieren
+4. Verbindung zwischen FendtONE Offboard und FarmENGAGE herstellen
+5. Maschinen in FarmENGAGE prüfen
+6. Arbeitsauftrag/Applikationskarte aus dem FMIS senden
+7. Eingang des Arbeitsauftrags in FarmENGAGE prüfen
+8. Arbeitsauftrag/Applikationskarte aus FarmENGAGE an die Maschine senden
+9. Arbeit durchführen und Auftrag abschließen
+10. Synchronisierung der Work Records im FMIS prüfen
+
+=== Gemischte AGCO-Flotte
+
+1. PTx FarmENGAGE™ – Fendt, Massey Ferguson, Valtra zum agrirouter-Konto hinzufügen
+2. Route zwischen FMIS und FarmENGAGE prüfen
+3. AGCO-Maschinen in FarmENGAGE registrieren
+4. Arbeitsauftrag/Applikationskarte aus dem FMIS senden
+5. Eingang des Arbeitsauftrags in FarmENGAGE prüfen
+6. Arbeitsauftrag/Applikationskarte aus FarmENGAGE an die Maschine senden
+7. Arbeit durchführen und Auftrag abschließen
+8. Synchronisierung der Work Records im FMIS prüfen
+
+Weitere Details und herstellerspezifische Hinweise befinden sich in den folgenden Abschnitten.
+
+//Quickstart druckbar machen in neuer Doku
+
+[#connect-agrirouter]
+== Verbindung mit dem agrirouter herstellen
+
+Um Daten über den agrirouter an AGCO-Maschinen zu senden und von diesen zu empfangen, muss zuerst eine Verbindung zwischen deinem FarmENGAGE-Konto und deinem agrirouter-Konto hergestellt werden. Dies kann auf zwei Wegen erfolgen:
+
+[#connection-from-agrirouter-farmengage]
+=== Verbindung aus dem agrirouter Control Center herstellen
+
+* Melde dich im **agrirouter Control Center** mit deinen Zugangsdaten an (Einmalcode oder Passwort).  
+* Klicke auf image:endpoints/add-software-button.png[Software hinzufügen,120]. 
+* Suche deine Lösung über die Suchleiste oder scrolle zur gewünschten Anwendung.  
+* Klicke auf **verbinden**.
+* Falls erforderlich: Gib deine individuellen FarmENGAGE Zugangsdaten ein.
+* Wähle das Unternehmen aus, das mit dem agrirouter verbunden werden soll. Mehrere Organisationen in FarmENGAGE können mit dem agrirouter verbunden werden.  
+* Nach der erfolgreichen Verbindung werden **automatisch Routen zwischen FarmENGAGE und bereits verbundenen Maschinen** erstellt.
+* Um deine Daten zwischen FarmENGAGE(1) und deinen anderen Softwareprodukten (2) austauschen zu können, *muss* eine *manuelle Route* zwischen FarmENGAGE und deinen anderen Softwareprodukten erzeugt werden.
+
+image::interactive_agrirouter/farmengage/connect-farmengage-1.png[Verbindung manuell anlegen, 800]
+
+[TIP]
+====
+Routen zwischen zwei Softwarelösungen müssen *manuell* mittels Drag and Drop erstellt werden, da automatische Routen nur zwischen Maschinen und Softwarelösungen erstellt werden.  Im Kapitel <<routing,Routing>> findest du weitere Informationen zum Thema Routen und Routen anlegen.
+====
+
+[#connection-from-farmengage-agrirouter]
+=== Verbindung aus FarmENGAGE herstellen
+
+[NOTE]
+Aktuell kann keine direkte agrirouter-Verbindung aus FarmENGAGE hergestellt werden.Diese Funktion befindet sich derzeit in Entwicklung durch AGCO. Sobald die Funktion verfügbar ist, wird sie in FarmENGAGE integriert und entsprechend in der Dokumentation ergänzt.
+
+//*Siehe Schritte JDOC
+
+[#specialities]
+== Besonderheiten bei der Verbindung von FarmENGAGE
+== Fendt-Flotten
+
+Wenn reine Fendt-Flotten auf dem Hof existieren, ist es möglich _FendtONE Offboard_ und _FarmENGAGE_ parallel zu nutzen. Dazu müssen die Fendt-Maschinen im _Connectivity Center_ in FendtONE hinzugefügt *_und parallel_* muss eine Verbindung zwischen _FendtONE Offboard_ und _FarmENGAGE_ aufgebaut werden. Wie eine Fendt-Maschine in _FendtONE Offboard_ hinzugefügt und _FendtONE Offboard_ sowie _FarmENGAGE_ parallel genutzt werden, wird in den folgenden Schritten beschrieben.
+
+[#add-connection-between-fendtone-farmengage]
+=== FendtONE Offboard und FarmENGAGE parallel nutzen
+
+* Melde dich mit deinen Zugangsdaten in link:https://fendt.one[FendtONE Offboard] an.
+* Öffne über das Burger Menü das _Connectivity Center_ (1).
+* Klicke auf das *"+"* auf der rechten Seite (2).
+* Wähle *FarmENGAGE* aus.
+* Vergebe einen Namen für die Optionen *SOAP-Name*, *Benutzername* und *Kennwort*. Der *Benutzername* und das *Kennwort* können in diesem Fall fiktiv sein (3).
+* Anschließend klicke auf Verbindung hinzufügen.
+
+image::interactive_agrirouter/farmengage/connect-farmengage-2.png[FarmENGAGE in FendtONE hinzufügen, 800]
+
+* Nachdem die Verbindung in _FendtONE Offboard_ hinzugefügt wurde, öffne den link:https://www.farmengage.com/farmmanagement#dataTransfer/settings/apiConnections[Connected Apps Bereich] in _FarmENGAGE_ (1+2).
+* Klicke auf den Button *+ ADD ACCOUNT* und wähle TaskDoc aus (3).
+* Nun füge den in _FendtONE Offboard_ erzeugten *Benutzernamen* und das *Kennwort* in die vorgesehenen Felder ein.
+* Abschließend klicke auf den Button *CONNECT* und es wird eine Verbindung zwischen _FendtONE Offboard_ und _FarmENGAGE_ aufgebaut (4).
+
+image::interactive_agrirouter/farmengage/connect-farmengage-3.png[FendtONE Verbindung in FarmENGAGE hinzufügen, 800]
+
+[#add-maschine-to-fendtone]
+=== Fendt-Maschine im Connectivity Center hinzufügen
+
+Um eine Maschine im _Connectivity Center_ in _FendtONE Offboard_ hinzuzufügen, füge folgende Schritte durch:
+
+* Melde dich mit deinen Zugangsdaten in link:https://fendt.one[FendtONE Offboard] an.
+* Öffne die Kachel *Maschinen* im Hauptmenü.
+* Füge über das *"+"* Icon eine neue Maschine hinzu und durchlaufe die erforderlichen Schritte.
+* Nachdem die Maschine erfolgreich hinzugefügt wurde und im _Connectivity Center_ angezeigt wurde, muss die Maschine noch "freigeschaltet werden"
+** Gib den von _FendtONE Offboard_ erzeugten Code in deinem Maschinenterminal ein.
+** Die Maschine generiert einen QR-Code. Dieser muss mit dem Smartphone gescannt werden.
+* Anschließend kann die Maschine Daten mit dem _Connectivity Center_ austauschen.
+
+[IMPORTANT]
+====
+Wenn im _Connectivity Center_ keine Aktualisierungen der Menüpunkte *Softwareversion* oder *zuletzt gesehen* angezeigt werden, muss im Terminal der Datentransfer auf Mobilfunk umgestellt werden oder die Maschine hat noch keine stabile Internetverbindung aufgebaut
+====
+
+* Wenn eine Verbindung zwischen _FendtONE_ und _FarmENGAGE_ hergestellt wurde - wie unter <<add-connection-between-fendtone-farmengage,FendtONE Offboard und FarmENGAGE parallel nutzen>> beschrieben - wird die gerade hinzugefügte Maschine in _FarmENGAGE_ im Bereich *Einrichten* → *Maschinen* → *Fahrzeuge* angezeigt.
+* Über den *Stift-Button* kann die Maschine dann z.B. namentlich in _FarmENGAGE_ angepasst werden.
+* Abschließend können vom agrirouter empfangende <<send-work-order,Arbeitspläne (Work Order)>> oder <<send-application-maps,Applikationskarten>> an die hinzugefügten AGCO-Maschinen gesendet werden.
+
+*In diesem Video von Fendt wird gezeigt, wie eine link:https://www.youtube.com/watch?v=DmXyByjdGsw[Fendt Maschine in FendtONE Offboard] hinzugefügt wird.*
+
+[#add-mixed-agco-fleet]
+== Gemischte AGCO-Flotten nutzen
+
+Wenn Massey Ferguson, Valtra oder gemischte AGCO-Flotten auf dem Hof existieren, kann nur _FarmENGAGE_ als zentrale Plattform genutzt werden. Hierzu müssen dann alle Maschinen im _Connectivity Center_ in FarmENGAGE hinzugefügt werden. Wie du die Maschinen im _Connectivity Center_ hinzufügst, wird in den folgenden Schritten beschrieben.
+
+[#add-agco-machine-to-farmengage]
+=== AGCO-Maschinen mit dem Connectivity Center verbinden
+
+Um eine Maschine im _Connectivity Center_ in FarmENGAGE hinzuzufügen, füge folgende Schritte durch:
+
+* Melde dich mit deinen Zugangsdaten in link:https://www.farmengage.com/farmmanagement[FarmENGAGE] an.
+* Öffne im linken Menü *Datenübertragung* → *Connectivity Center*.
+* Füge über den *+ HINZUFÜGEN* Button → *Maschine* eine neue Maschine hinzu und durchlaufe die erforderlichen Schritte.
+** Gib den vom _Connectivity Center_ erzeugten Code in deinem Maschinenterminal ein.
+** Von der Maschine wird ein QR-Code erzeugt. Dieser muss mit dem Smartphone gescannt werden.
+* Anschließend kann die Maschine Daten mit dem _Connectivity Center_ austauschen.
+
+[IMPORTANT]
+====
+Wenn im _Connectivity Center_ keine Aktualisierungen angezeigt werden, muss im Terminal der Datentransfer auf Mobilfunk umgestellt werden oder die Maschine hat noch keine stabile Internetverbindung aufgebaut
+====
+
+* Abschließend können vom agrirouter empfangende <<send-work-order,Arbeitspläne (Work Order)>> oder <<send-application-maps,Applikationskarten>> an die hinzugefügten AGCO-Maschinen gesendet werden.
+
+*Weitere Informationen zum Hinzufügen einer AGCO-Maschine in FarmENGAGE findest du in der link:https://cdn.bfldr.com/7M6SII1K/as/nghfrvqnprnh92fkxw5hsk5/AGCO_Equipment_Operations_Activation[offiziellen PTx Trimble Dokumentation].*
+
+[#send-work-order]
+== Arbeitspläne (Work Order) an AGCO-Maschinen senden
+
+Nachdem der agrirouter erfolgreich mit _FarmENGAGE_ verbunden und Maschinen gekoppelt wurden, können nun Daten zwischen einem agrirouter-ready FMIS und einer AGCO-Maschine ausgetauscht werden. Wie Arbeitspläne auf eine AGCO-Maschine gelangen, wird in den nächsten Schritten beschrieben.
+
+* Die Arbeitspläne, die im FMIS erzeugt wurden, müssen zunächst über den *_agrirouter_* an _FarmENGAGE_ gesendet werden.
+* Die vom agrirouter gesendeten Dateien werden in FarmENGAGE im Bereich **„Planung → Arbeitsaufträge** abgelegt (Schritt 1).  
+** Stammdaten wie Kunden, Betriebe, Felder werden automatisch ausgelesen und in FarmENGAGE angelegt (falls noch nicht vorhanden).
+* Anschließend muss der Arbeitsplan, der auf eine Maschine gesendet werden soll, ausgewählt werden (Schritt 2).
+* Über das Drei-Punkte-Menü kann anschließend _An TaskDoc-Fahrzeug senden_ ausgewählt werden (Schritt 3).
+* Im letzten Schritt wird die Maschine adressiert und der Arbeitsplan an diese versendet. In diesem Schritt kann immer *nur ein* Arbeitsplan geschickt werden, jedoch können mehrere Maschinen gleichzeitig adressiert werden. (Schritt 4).
+
+
+[TIP]
+Es kann immer nur *ein Auftrag* an eine oder mehrere Maschinen gesendet werden. Es können jedoch - im Gegensatz zu Maschinen, die am TaskDoc/VarioDoc angebunden sind, mehrere Aufträge hintereinander geschickt werden, ohne das diese auf dem Terminal überschrieben werden.
+
+image::interactive_agrirouter/farmengage/send-workorder-to-machine.png[Arbeitsaufträge an Maschine senden, 800]
+
+[#send-application-maps]
+== Applikationskarten an AGCO-Maschinen senden
+
+* Die Applikationskarten, die im FMIS erzeugt wurden, müssen zunächst über den *_agrirouter_* an _FarmENGAGE_ gesendet werden.
+* Die vom agrirouter gesendeten Dateien werden in FarmENGAGE im Bereich **„Planung → Applikationskarten** abgelegt (Schritt 1).  
+** Stammdaten wie Kunden, Betriebe, Felder werden automatisch ausgelesen und in FarmENGAGE angelegt (falls noch nicht vorhanden).
+* Anschließend muss die Applikationskarte, die auf eine Maschine gesendet werden soll, ausgewählt werden (Schritt 2).
+* Über den *Senden-Button* kann die ausgewählte Applikationskarte / die ausgewählten Applikationskarten an eine AGCO-Maschine gesendet werden (Schritt 3).
+* Im letzten Schritt wird die Maschine adressiert und die Applikationskarte an diese versendet. In diesem Schritt können sowohl mehrere Applikationskarten als auch mehrere Maschinen gleichzeitig adressiert werden.
+
+[TIP]
+Es können *mehrere* Applikationskarten an eine oder mehrere Maschinen _gleichzeitig_ gesendet werden. Im Gegensatz zu Maschinen, die am TaskDoc/VarioDoc angebunden sind, werden die Daten auf dem Terminal nicht überschrieben.
+
+image::interactive_agrirouter/farmengage/send-applicationmap-to-machine.png[Applikationskarte an Maschine senden, 800]
+
+[#send-work-records]
+== Arbeitsergebnisse (Work Record) von AGCO-Maschinen an agrirouter angebundene FMIS weiterleiten
+
+Nachdem eine Arbeit auf dem Feld erfolgreich beendet wurde, wird die abgeschlossene Arbeit als *_Work Record_* von der AGCO-Maschine zurückgesendet.
+Diese Daten werden von der AGCO-Maschine an FarmENGAGE geschickt. Von dort werden die Daten automatisch an ein oder mehrere FMIS gesendet, die über den agrirouter angebunden sind. 
+
+[TIP]
+Die Daten werden nur automatisch an ein FMIS gesendet, wenn eine Route von _FarmENGAGE_ Endpunkt im agrirouter zu einem _FMIS_ erzeugt wurde. Eine Route zwischen zwei agrirouter Endpunkten kann nur hergestellt werden, wenn mindestens eine gleiche Fähigkeit (Capabilities) von beiden Endpunkten unterstützt wird. Weitere Informationen dazu findest du unter <<connect-agrirouter,Verbindung mit dem agrirouter herstellen>>.
+
+Des Weiteren findest du im Bereich *Datenübertragung (1) → Dateien verwalten (2) → Von Fahrzeugen (3)* alle Dateien, die von deiner AGCO-Maschine Richtung FarmENGAGE gesendet wurden.
+
+image::interactive_agrirouter/farmengage/work-records-in-farmengage.png[Anzeige von Arbeitsergebnissen (Work Record) in FarmENGAGE, 800]
+
+[#known-restrictions]
+== Bekannte Einschränkungen
+
+*Direkte agrirouter-Verbindung aus FarmENGAGE*
+
+* Derzeit nicht unterstützt. Die Verbindung zum agrirouter muss derzeit über das agrirouter Control Center hergestellt werden. Die Funktion befindet sich derzeit in Entwicklung bei AGCO.
+
+*Direkte Maschinenadressierung*
+
+* Derzeit nicht unterstützt. Arbeitsaufträge und Applikationskarten müssen derzeit manuell in FarmENGAGE einer Maschine zugewiesen werden. Die Funktion befindet sich derzeit in Entwicklung bei AGCO.
+
+*Gleichzeitiges Senden mehrerer Arbeitsaufträge*
+
+* Derzeit nicht unterstützt. Arbeitsaufträge können derzeit nur einzeln an AGCO-Maschinen gesendet werden. Applikationskarten können hingegen gleichzeitig an eine oder mehrere AGCO-Maschinen übertragen werden.
+
+*Parallele Nutzung von FendtONE Offboard und FarmENGAGE*
+
+* Eingeschränkt unterstützt. Wenn eine AGCO-Maschine direkt in FarmENGAGE hinzugefügt wird, wird die bestehende Verbindung zwischen _FendtONE Offboard_ und _FarmENGAGE_ entfernt. Fendt-Maschinen aus FendtONE Offboard können anschließend nicht mehr über _FarmENGAGE_ adressiert werden. Sie müssen erst in FarmENGAGE neu hinzugefügt werden.
+
+*Nachträgliche Aktivierung von FendtONE Offboard*
+
+* Eingeschränkt unterstützt. Wenn _FendtONE Offboard_ nachträglich parallel zu FarmENGAGE genutzt werden soll, muss die bestehende _auto-soap-bridge_ durch den AGCO-Support entfernt werden. Erst anschließend kann die Verbindung zwischen _FendtONE Offboard_ und _FarmENGAGE_ hergestellt werden und die Fendt-Maschinen müssen in _FendtONE Offboard _hinzugefügt werden.
+
+[#support]
+== FAQ
+=== Supportinformationen für Endkunden
+
+*An wen wende ich mich, wenn ich nachträglich FendtONE Offboard und FarmENGAGE parallel nutzen möchte?*
+
+* Wenn eine Maschine bereits in FarmENGAGE hinzugefügt wurde und FendtONE Offboard zusätzlich genutzt werden soll, kontaktiere bitte deinen AGCO- oder PTx-Trimble-Händler. Dieser stimmt die notwendigen Schritte mit dem AGCO-Support ab. Bitte beachte, dass Fendt-Maschinen anschließend erneut in FendtONE Offboard hinzugefügt werden müssen.
+
+*Wo können FarmENGAGE-Lizenzen erworben werden?*
+
+* FarmENGAGE-Lizenzen können über deinen AGCO- oder PTx-Trimble-Händler erworben werden.
+
+*Können Arbeitsergebnisse erneut von FarmENGAGE an ein FMIS gesendet werden?*
+
+* Nein. Arbeitsergebnisse können nicht erneut automatisch von FarmENGAGE an ein über agrirouter angebundenes FMIS übertragen werden.
+* Es ist jedoch möglich, die Dateien manuell aus FarmENGAGE herunterzuladen und anschließend im gewünschten FMIS hochzuladen.
+Die Dateien befinden sich in FarmENGAGE unter: *_Dateiübertragung → Dateien verwalten → Von Fahrzeugen_*
+
+*Ich nutze derzeit FendtONE Offboard und FarmENGAGE, möchte zukünftig jedoch ausschließlich FarmENGAGE verwenden. Was ist zu beachten?*
+
+* Der bestehende FendtONE Offboard Account kann weiterhin bestehen bleiben. Wenn jedoch eine neue Fendt-Maschine direkt im Connectivity Center von FarmENGAGE hinzugefügt wird, wird die bestehende Verbindung zwischen FendtONE Offboard und FarmENGAGE entfernt. Anschließend müssen alle Maschinen direkt in FarmENGAGE verwaltet werden.
+
+=== *Supportinformationen für Händler*
+
+*Mein Kunde möchte nachträglich FendtONE Offboard und FarmENGAGE parallel nutzen. Was ist zu beachten?*
+
+* Wenn Maschinen bereits in FarmENGAGE hinzugefügt wurden und FendtONE Offboard nachträglich parallel genutzt werden soll, muss zunächst die bestehende _auto-soap-bridge_ entfernt werden. Die Entfernung erfolgt über den AGCO-Support oder den zuständigen Smart-Farming-Berater.
+
+* Anschließend muss:
+** die Verbindung zwischen FendtONE Offboard und FarmENGAGE erneut hergestellt werden
+** die Fendt-Maschine in FendtONE Offboard hinzugefügt werden
+* Die notwendigen Schritte werden im Kapitel <<add-connection-between-fendtone-farmengage,FendtONE Offboard und FarmENGAGE parallel nutzen>> beschrieben.
+
+*Können Arbeitsergebnisse erneut von FarmENGAGE an ein FMIS gesendet werden?*
+
+* Nein. Arbeitsergebnisse können nicht erneut automatisch an ein über agrirouter angebundenes FMIS übertragen werden.
+* Die Dateien können jedoch manuell aus FarmENGAGE exportiert und anschließend im FMIS importiert werden. Die Dateien befinden sich in FarmENGAGE unter: *_Dateiübertragung → Dateien verwalten → Von Fahrzeugen_*
+

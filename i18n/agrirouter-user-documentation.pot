@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-02-26 15:31+0000\n"
+"POT-Creation-Date: 2026-05-11 14:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -988,7 +988,7 @@ msgstr ""
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:114
-#: de/modules/ROOT/pages/endpoint.adoc:148
+#: de/modules/ROOT/pages/endpoint.adoc:147
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:102
 msgid "Klicke auf *_Speichern_*."
 msgstr ""
@@ -1371,7 +1371,7 @@ msgstr ""
 #. type: Positional ($1) AttributeList argument for macro 'image'
 #: de/modules/ROOT/pages/endpoint.adoc:27
 #: de/modules/ROOT/pages/introduction.adoc:36
-#: de/modules/ROOT/pages/routing.adoc:26
+#: de/modules/ROOT/pages/routing.adoc:36
 #, no-wrap
 msgid "My agrirouter Seite"
 msgstr ""
@@ -1466,24 +1466,14 @@ msgid ""
 "Endpunkt mit anderen Endpunkten verbunden ist."
 msgstr ""
 
-#. type: #endpoints
-#: de/modules/ROOT/pages/endpoint.adoc:51
-msgid ""
-"image:endpoints/link-icon-green.png[Green Link Icon, 30] "
-"image:endpoints/link-icon-red.png[Red Link Icon, 30]: Dieses Icon zeigt an, "
-"ob ein <<connect-software, Software-Endpunkt verbunden>> ist (grün) oder "
-"nicht (rot). Dieses Icon wird ausschließlich bei Software-Endpunkten "
-"angezeigt."
-msgstr ""
-
 #. type: Title ==
-#: de/modules/ROOT/pages/endpoint.adoc:54
+#: de/modules/ROOT/pages/endpoint.adoc:53
 #, no-wrap
 msgid "Endpunkte verbinden"
 msgstr ""
 
 #. type: #add-endpoints
-#: de/modules/ROOT/pages/endpoint.adoc:56
+#: de/modules/ROOT/pages/endpoint.adoc:55
 msgid ""
 "Du kannst Telemetrieeinheiten und Agrar-Software als Endpunkte "
 "hinzufügen. Die Telemetrieeinheiten sind immer mit Maschinen verbunden, die "
@@ -1493,13 +1483,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:58
+#: de/modules/ROOT/pages/endpoint.adoc:57
 #, no-wrap
 msgid "Hersteller hinzufügen"
 msgstr ""
 
 #. type: #add-manufacturer
-#: de/modules/ROOT/pages/endpoint.adoc:60
+#: de/modules/ROOT/pages/endpoint.adoc:59
 msgid ""
 "Mit einem \"*_Hersteller_*\" ist immer der Hersteller einer Maschine "
 "gemeint, die du über eine Telemetrieeinheit mit dem agrirouter verbinden "
@@ -1510,7 +1500,7 @@ msgid ""
 msgstr ""
 
 #. type: #add-manufacturer
-#: de/modules/ROOT/pages/endpoint.adoc:63
+#: de/modules/ROOT/pages/endpoint.adoc:62
 msgid ""
 "Klicke den Button *_Hersteller hinzufügen_* "
 "image:endpoints/add-manufacturer-button.png[Hersteller hinzufügen Button, "
@@ -1518,41 +1508,41 @@ msgid ""
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/endpoint.adoc:66
-#: de/modules/ROOT/pages/endpoint.adoc:75
+#: de/modules/ROOT/pages/endpoint.adoc:65
+#: de/modules/ROOT/pages/endpoint.adoc:74
 #, no-wrap
 msgid "Hersteller Auswahl"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:69
+#: de/modules/ROOT/pages/endpoint.adoc:68
 msgid "Klicke auf das Dropdown-Menü."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:71
+#: de/modules/ROOT/pages/endpoint.adoc:70
 msgid ""
 "Wähle den Hersteller aus, den du hinzufügen möchtest.  [.result]#Der "
 "ausgewählte Hersteller wird dir rechts neben deiner Auswahl angezeigt.#"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:80
-#: de/modules/ROOT/pages/endpoint.adoc:179
+#: de/modules/ROOT/pages/endpoint.adoc:79
+#: de/modules/ROOT/pages/endpoint.adoc:178
 msgid ""
 "Klicke auf den *_Speichern_* Button.  [.result]#Du kommst zurück auf die _my "
 "agrirouter_ Seite.#"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:85
+#: de/modules/ROOT/pages/endpoint.adoc:84
 msgid ""
 "image:endpoints/add-manufacturer-3.png[Hersteller verbunden, 400, "
 "float=right]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:88
+#: de/modules/ROOT/pages/endpoint.adoc:87
 msgid ""
 "Der ausgewählte Hersteller wird dir nun links auf deiner _my agrirouter_ "
 "Seite angezeigt. *_Das bedeutet allerdings nicht, dass deine Maschine "
@@ -1560,7 +1550,7 @@ msgid ""
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:91
+#: de/modules/ROOT/pages/endpoint.adoc:90
 msgid ""
 "Wenn du Daten von deiner Maschine an den agrirouter senden möchtest, "
 "<<connect-machine, verbinde eine neue Maschine>>. Die Maschine kannst du im "
@@ -1568,13 +1558,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:94
+#: de/modules/ROOT/pages/endpoint.adoc:93
 #, no-wrap
 msgid "Maschine verbinden"
 msgstr ""
 
 #. type: #connect-machine
-#: de/modules/ROOT/pages/endpoint.adoc:96
+#: de/modules/ROOT/pages/endpoint.adoc:95
 msgid ""
 "Eine Maschine benötigt zur Kommunikation mit der Außenwelt eine "
 "Telemetrie-Einheit. Die Telemetrie-Einheit verbindet die Maschine mit dem "
@@ -1582,27 +1572,27 @@ msgid ""
 msgstr ""
 
 #. type: #connect-machine
-#: de/modules/ROOT/pages/endpoint.adoc:99
+#: de/modules/ROOT/pages/endpoint.adoc:98
 msgid ""
 "Klicke den Button *_Verbindung hinzufügen_* "
-"image:endpoints/add-connection-button.png[Verbindung hinzufügen Button, "
+"image:endpoints/add-connection-software.png[Verbindung hinzufügen Button, "
 "120].  [.result]#Die folgende Seite wird geöffnet:#"
 msgstr ""
 
 #. type: #connect-machine
-#: de/modules/ROOT/pages/endpoint.adoc:101
+#: de/modules/ROOT/pages/endpoint.adoc:100
 msgid "image:endpoints/add-connection-information.png[Verbindung hinzufügen, 600]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:105
+#: de/modules/ROOT/pages/endpoint.adoc:104
 msgid ""
 "Notiere den Registrierungscode und klicke auf *_Zurück_*.  [.result]#Die _my "
 "agrirouter_ Seite wird angezeigt.#"
 msgstr ""
 
 #. type: delimited block =
-#: de/modules/ROOT/pages/endpoint.adoc:110
+#: de/modules/ROOT/pages/endpoint.adoc:109
 #, no-wrap
 msgid ""
 "Klicke das Icon *_Kopieren_* image:endpoints/copy-button.png[copy, 30, 30], "
@@ -1612,7 +1602,7 @@ msgid ""
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:114
+#: de/modules/ROOT/pages/endpoint.adoc:113
 msgid ""
 "Gebe den Registrierungscode an der Telemetrie-Einheit ein. Wie das bei "
 "deinem Anbieter funktioniert, kannst du in den "
@@ -1620,27 +1610,27 @@ msgid ""
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:116
+#: de/modules/ROOT/pages/endpoint.adoc:115
 msgid ""
 "Aktualisiere die _my agrirouter_ Seite.  [.result]#Die Telemetrie-Einheit "
 "wird auf der rechten Seite deiner _my agrirouter_ Seite angezeigt.#"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:119
+#: de/modules/ROOT/pages/endpoint.adoc:118
 msgid ""
 "Lese in den xref:solution-guides.adoc#solution-guides[Solution-Guides] nach, "
 "wie du den Registrierungscode an der Telemetrie-Einheit eingibst."
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:121
+#: de/modules/ROOT/pages/endpoint.adoc:120
 #, no-wrap
 msgid "Maschine einem Hersteller zuordnen"
 msgstr ""
 
 #. type: #manufacturer-machine-connection
-#: de/modules/ROOT/pages/endpoint.adoc:123
+#: de/modules/ROOT/pages/endpoint.adoc:122
 msgid ""
 "Für eine bessere Übersicht auf deiner _my agrirouter_ Seite, kannst du deine "
 "Maschinen einem Hersteller zuordnen. Voraussetzung hierfür ist, dass du "
@@ -1649,14 +1639,14 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:127
+#: de/modules/ROOT/pages/endpoint.adoc:126
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-1.png[Verbindung Infos, 400, "
 "float=right]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:130
+#: de/modules/ROOT/pages/endpoint.adoc:129
 msgid ""
 "Klicke auf das *Bearbeiten* image:endpoints/edit-endpoint-icon.png[copy, 30, "
 "30] Icon der Verbindung, die du einem Hersteller zuordnen möchtest.  "
@@ -1664,56 +1654,56 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:135
+#: de/modules/ROOT/pages/endpoint.adoc:134
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-2.png[Verbindung Infos, 400, "
 "float=left]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:138
+#: de/modules/ROOT/pages/endpoint.adoc:137
 msgid "Unter *_Name_* kannst du die Bezeichnung deiner Verbindung anpassen."
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:139
+#: de/modules/ROOT/pages/endpoint.adoc:138
 msgid "Klicke auf das *_Dropdown Menü_*, um einen Hersteller auszuwählen."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:144
+#: de/modules/ROOT/pages/endpoint.adoc:143
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-3.png[Verbindung Infos, 400, "
 "float=right]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:147
+#: de/modules/ROOT/pages/endpoint.adoc:146
 msgid "Wähle den Hersteller aus, dem du deine Verbindung zuordnen willst."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:153
+#: de/modules/ROOT/pages/endpoint.adoc:152
 msgid ""
 "image:endpoints/add-connection-to-manufacturer-4.png[Verbindung Infos, 400, "
 "float=left]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:156
+#: de/modules/ROOT/pages/endpoint.adoc:155
 msgid ""
 "Wenn du zurück auf die _my agrirouter_ Seite gehst, siehst du nun, dass "
 "deine Verbindung dem gewünschten Hersteller zugeordnet wurde."
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:159
+#: de/modules/ROOT/pages/endpoint.adoc:158
 #, no-wrap
 msgid "Agrarsoftware verbinden"
 msgstr ""
 
 #. type: #connect-software
-#: de/modules/ROOT/pages/endpoint.adoc:162
+#: de/modules/ROOT/pages/endpoint.adoc:161
 msgid ""
 "Um eine Agrarsoftware mit dem agrirouter zu verbinden, öffne deine _my "
 "agrirouter_ Seite und klicke auf den Button *_Software hinzufügen_* "
@@ -1721,52 +1711,45 @@ msgid ""
 "[.result]#Die folgende Seite öffnet sich:#"
 msgstr ""
 
-#. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:166
-msgid "image:endpoints/add-software-1.png[Software Auswahlseite, 400, float=right]"
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/endpoint.adoc:164
+#, no-wrap
+msgid "Software Auswahlseite"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:168
+#: de/modules/ROOT/pages/endpoint.adoc:167
 msgid "Klicke auf das *_Dropdown-Menü_*."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:170
+#: de/modules/ROOT/pages/endpoint.adoc:169
 msgid ""
 "Wähle die Software aus, die du verbinden möchtest.  [.result]#Die "
 "ausgewählte Software wird dir rechts neben deiner Auswahl angezeigt.#"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:175
+#: de/modules/ROOT/pages/endpoint.adoc:174
 msgid "image:endpoints/add-software-2.png[Software Auswahlseite, 400, float=left]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:184
+#: de/modules/ROOT/pages/endpoint.adoc:183
 msgid ""
 "image:endpoints/add-software-3.png[Software nicht verbunden, 400, "
 "float=right]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:186
+#: de/modules/ROOT/pages/endpoint.adoc:185
 msgid ""
 "Die ausgewählte Software wird dir nun rechts auf deiner _my agrirouter_ "
 "Seite angezeigt. *_Sie ist aber noch nicht verbunden!_*"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:191
-msgid ""
-"Klicke auf das Icon mit dem roten Kettenelement "
-"image:endpoints/link-icon-red.png[Software hinzufügen, 24].  [.result]#Du "
-"wirst auf dei Seite des Softwareanbieters weitergeleitet.#"
-msgstr ""
-
-#. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:195
+#: de/modules/ROOT/pages/endpoint.adoc:189
 msgid ""
 "Logge dich in deine Agrarsoftware ein und verbinde den agrirouter. Wie das "
 "für deine Software funktioniert, erfährst du in den "
@@ -1774,23 +1757,14 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:199
+#: de/modules/ROOT/pages/endpoint.adoc:193
 msgid ""
 "image:endpoints/add-software-4.png[Software nicht verbunden, 400, "
 "float=left]"
 msgstr ""
 
-#. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:202
-msgid ""
-"Wenn du deine Agrarsoftware erfolgreich verbunden hast, aktualisiere die _my "
-"agrirouter_ Seite. Das Icon mit dem Kettenelement erscheint nun in grün "
-"image:endpoints/link-icon-green.png[Software hinzufügen, 24]. Die Verbindung "
-"wurde erfolgreich hergestellt."
-msgstr ""
-
-#. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:205
+#. type: .float-group
+#: de/modules/ROOT/pages/endpoint.adoc:197
 msgid ""
 "Die Funktion *_Mit agrirouter verbinden_* (die Bezeichnung lautet in einigen "
 "Fällen anders) findest du meist in den Einstellungen der Agrarsoftware. In "
@@ -1798,33 +1772,33 @@ msgid ""
 "eine Anleitung, wie du deine Agrarsoftware mit dem agrirouter verbindest."
 msgstr ""
 
-#. type: start
-#: de/modules/ROOT/pages/endpoint.adoc:207
+#. type: .float-group
+#: de/modules/ROOT/pages/endpoint.adoc:199
 msgid ""
 "Eine vollständige Liste von Agrarsoftware mit agrirouter-Schnittstelle "
 "findest du auf dem https://agrirouter.com/solutions[Solution-Finder]."
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:210
+#: de/modules/ROOT/pages/endpoint.adoc:202
 #, no-wrap
 msgid "Löschen"
 msgstr ""
 
 #. type: #delete
-#: de/modules/ROOT/pages/endpoint.adoc:212
+#: de/modules/ROOT/pages/endpoint.adoc:204
 msgid "Wenn ein Endpunkt oder ein Hersteller nicht mehr benötigt wird, lösche ihn:"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:216
+#: de/modules/ROOT/pages/endpoint.adoc:208
 msgid ""
 "image:endpoints/delete-endpoint.png[Software nicht verbunden, 380, "
 "float=right]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:219
+#: de/modules/ROOT/pages/endpoint.adoc:211
 msgid ""
 "Um einen Endpunkt zu löschen, klicke auf das *löschen* "
 "image:endpoints/delete-icon.png[Delete Icon, 25] Icon auf Höhe des "
@@ -1833,7 +1807,7 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:221
+#: de/modules/ROOT/pages/endpoint.adoc:213
 msgid ""
 "Um einen Hersteller zu löschen, klicke auf das *löschen* "
 "image:endpoints/delete-icon.png[Delete Icon, 25] Icon auf Höhe des "
@@ -1842,75 +1816,75 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: de/modules/ROOT/pages/endpoint.adoc:224
+#: de/modules/ROOT/pages/endpoint.adoc:216
 #, no-wrap
 msgid "Detailansicht"
 msgstr ""
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:226
+#: de/modules/ROOT/pages/endpoint.adoc:218
 msgid "In der Detailansicht sind alle Informationen zum Endpunkt zusammengefasst:"
 msgstr ""
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:228
+#: de/modules/ROOT/pages/endpoint.adoc:220
 msgid "Die Fähigkeiten, also die unterstützen Datenformate."
 msgstr ""
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:229
+#: de/modules/ROOT/pages/endpoint.adoc:221
 msgid "Wann zum letzten Mal Daten empfangen oder gesendet wurden."
 msgstr ""
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:230
+#: de/modules/ROOT/pages/endpoint.adoc:222
 msgid "Details wie Hersteller, Versionsnummer und zugeordnete Hersteller."
 msgstr ""
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:231
+#: de/modules/ROOT/pages/endpoint.adoc:223
 msgid "Die Informationen, die du für den agrirouter-Support benötigst."
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:232
+#: de/modules/ROOT/pages/endpoint.adoc:224
 #, no-wrap
 msgid "Fähigkeiten"
 msgstr ""
 
 #. type: #details
-#: de/modules/ROOT/pages/endpoint.adoc:234
+#: de/modules/ROOT/pages/endpoint.adoc:226
 msgid "Hier siehst du, was der Endpunkt senden oder empfangen kann."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:238
+#: de/modules/ROOT/pages/endpoint.adoc:230
 msgid "image:endpoints/capabilities.png[Capabilities, 400, float=right]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:240
+#: de/modules/ROOT/pages/endpoint.adoc:232
 msgid ""
 "*_Letzter Austausch der Fähigkeiten_*: Der letzte Tag, an dem Daten gesendet "
 "oder empfangen wurden."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:241
+#: de/modules/ROOT/pages/endpoint.adoc:233
 msgid ""
 "*_Letzer Austausch der Abonnements_*: Der letzte Tag, an dem Echtzeitdaten "
 "gesendet oder empfagen wurden."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:242
+#: de/modules/ROOT/pages/endpoint.adoc:234
 msgid ""
 "*_Push Beachrichtigungen_* Gibt Auskunft darüber, ob Push-Benachrichtigungen "
 "zu diesem Endpunkt aktiviert oder deaktiviert sind."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:245
+#: de/modules/ROOT/pages/endpoint.adoc:237
 msgid ""
 "Die *_Tabelle_* im unteren Bereich der Fähigkeiten gibt Auskunft darüber, ob "
 "eine Fähigkeit bzw. ein Datentyp empfangen, gesendet oder abonniert werden "
@@ -1923,61 +1897,61 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:247
+#: de/modules/ROOT/pages/endpoint.adoc:239
 #, no-wrap
 msgid "Details zum Endpunkt"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:249
+#: de/modules/ROOT/pages/endpoint.adoc:241
 msgid ""
 "Die Details geben Auskunft über Herkunft, Name und weitere grundlegende "
 "Informationen des Endpunkts."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:253
+#: de/modules/ROOT/pages/endpoint.adoc:245
 msgid "image:endpoints/endpoint-details.png[Endpunkt Details, 400, float=right]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:255
+#: de/modules/ROOT/pages/endpoint.adoc:247
 msgid ""
 "*_Typ_*: Gibt Auskunft darüber, um welche Art von Endpunkt (Software, "
 "Telemetrieeinheit, Maschine, ...) es sich handelt."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:256
+#: de/modules/ROOT/pages/endpoint.adoc:248
 msgid "*_Verbunden_*: Zeitpunkt, an dem der Endpunkt verbunden wurde."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:257
+#: de/modules/ROOT/pages/endpoint.adoc:249
 msgid "*_Software-Anbieter_*: Anbieter der zugehörigen Software."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:258
+#: de/modules/ROOT/pages/endpoint.adoc:250
 msgid "*_Software-Endpunkt_*: -"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:259
+#: de/modules/ROOT/pages/endpoint.adoc:251
 msgid ""
 "*_Versionsnummer_*: Für den Fall, dass es mehrere Versionen eines Endpunkts "
 "gibt."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:260
+#: de/modules/ROOT/pages/endpoint.adoc:252
 msgid ""
 "*_Montiert auf_*: Gibt Auskunft darüber, auf welcher Maschine der Endpunkt "
 "montiert ist."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:262
+#: de/modules/ROOT/pages/endpoint.adoc:254
 msgid ""
 "Über einem Klick auf das Bearbeiten image:endpoints/edit-icon.png[Edit Icon, "
 "25] Icon, kannst du den <<manufacturer-machine-connection, Namen des "
@@ -1985,25 +1959,25 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:264
+#: de/modules/ROOT/pages/endpoint.adoc:256
 #, no-wrap
 msgid "Routeneinstellungen und Nachrichtenspeicher"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:266
+#: de/modules/ROOT/pages/endpoint.adoc:258
 msgid ""
 "Hier siehst du, wann zum letzten mal Daten empfangen oder gesendet wurden "
 "und kannst deine Routeneinstellungen zurücksetzen."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:270
+#: de/modules/ROOT/pages/endpoint.adoc:262
 msgid "image:endpoints/route-settings.png[Support Informationen, 400, float=right]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:272
+#: de/modules/ROOT/pages/endpoint.adoc:264
 msgid ""
 "*_Von agrirouter verwaltete Routen_*: Wenn diese Option gewählt ist "
 "image:endpoints/active-routing-icon.png[Active Icon, 25], dann sind die "
@@ -2013,26 +1987,26 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:273
+#: de/modules/ROOT/pages/endpoint.adoc:265
 msgid ""
 "*_Letzte gesendete Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "gesendet wurden."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:274
+#: de/modules/ROOT/pages/endpoint.adoc:266
 msgid ""
 "*_Letzte empfangene Nachricht_*: Zeitpunkt, zu dem zum letzten mal Daten "
 "empfangen wurden."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:275
+#: de/modules/ROOT/pages/endpoint.adoc:267
 msgid "*_Aktuelle Nachrichten_*: Gibt an, wie viele Nachrichten aktuell vorliegen."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:278
+#: de/modules/ROOT/pages/endpoint.adoc:270
 msgid ""
 "Wenn du die Routeneinstellungen manuell abgeändert hast, kannst du sie über "
 "das anwählen des Kästschens image:endpoints/active-routing-icon.png[Active "
@@ -2040,13 +2014,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/endpoint.adoc:279
+#: de/modules/ROOT/pages/endpoint.adoc:271
 #, no-wrap
 msgid "Support Informationen"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:285
+#: de/modules/ROOT/pages/endpoint.adoc:277
 msgid ""
 "image:support/support-information.png[Support Informationen, 400, "
 "float=right] Diese Informationen benötigst du, um eine Anfrage an den "
@@ -2054,14 +2028,14 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:288
+#: de/modules/ROOT/pages/endpoint.adoc:280
 msgid ""
 "Klicke den *_Kopieren_*-Button, um die Diagnoseinformationen in die "
 "Zwischenablage zu kopieren."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/endpoint.adoc:290
+#: de/modules/ROOT/pages/endpoint.adoc:282
 msgid ""
 "Gehe zum Kapitel xref:support.adoc#support[Support] für weitere "
 "Informationen."
@@ -2419,23 +2393,55 @@ msgstr ""
 #. type: Title ==
 #: de/modules/ROOT/pages/routing.adoc:11
 #, no-wrap
+msgid "Automatische Routen"
+msgstr ""
+
+#. type: #automatic-route
+#: de/modules/ROOT/pages/routing.adoc:14
+msgid ""
+"Eine Route zwischen einem Maschinen- und einem Softwareendpunkt werden "
+"automatisch erstellt. Dabei kann ein Maschinenendpunkt zu beliebig vielen "
+"Softwareendpunkten eine Route aufbauen sowie umgekehrt."
+msgstr ""
+
+#. type: TIP
+#: de/modules/ROOT/pages/routing.adoc:17
+msgid ""
+"Falls keine automatische Route erstellt wird, ist die Funktion für "
+"automatische Verbindungen am Endpunkt deaktiviert. Füge dafür zunächst die "
+"manuelle Route zu deinem gewünschten Endpunkt hinzu. Öffne anschließend die "
+"Endpunktdetails indem du auf den Endpunkt klickst, aktiviere die Funktion "
+"*_Automatische Verbindung zwischen Endpunkten_*, und künftige Verbindungen "
+"werden automatisch hergestellt."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/routing.adoc:18
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:60
+#, no-wrap
+msgid "Automatische Verbindung aktivieren"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/routing.adoc:21
+#, no-wrap
 msgid "Routen hinzufügen"
 msgstr ""
 
 #. type: #add-route
-#: de/modules/ROOT/pages/routing.adoc:13
+#: de/modules/ROOT/pages/routing.adoc:23
 msgid ""
 "Um Daten von einem Endpunkt zum anderen senden zu können, muss zuerst eine "
 "Route zwischen den beiden Endpunkten hergestellt werden."
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/routing.adoc:17
+#: de/modules/ROOT/pages/routing.adoc:27
 msgid "image:endpoints/add-route-1.png[Neue Route, 400, float=right]"
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/routing.adoc:20
+#: de/modules/ROOT/pages/routing.adoc:30
 msgid ""
 "Klicke bei dem Endpunkt, den du mit einem anderen Endpunkt verbinden "
 "möchtest, auf das *_Routen ansehen_* "
@@ -2446,7 +2452,7 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/routing.adoc:22
+#: de/modules/ROOT/pages/routing.adoc:32
 msgid ""
 "Klicke auf das *_Route hinzufügen_* "
 "image:endpoints/add-route-icon.png[Routen hinzufügen Icon, 22] Icon.  "
@@ -2456,7 +2462,7 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/routing.adoc:25
+#: de/modules/ROOT/pages/routing.adoc:35
 msgid ""
 "Die hier rot umkreisten *_Route erstellen_* "
 "image:endpoints/create-route-icon.png[Routen erstellen Icon, 22] Icons "
@@ -2466,7 +2472,7 @@ msgid ""
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:31
+#: de/modules/ROOT/pages/routing.adoc:41
 msgid ""
 "Klicke bei dem Endpunkt, zu dem du eine Route herstellen möchtest, auf das "
 "*_Route erstellen_* image:endpoints/create-route-icon.png[Routen hinzufügen "
@@ -2474,19 +2480,19 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/routing.adoc:35
+#: de/modules/ROOT/pages/routing.adoc:45
 msgid "image:endpoints/add-route-3.1.png[Neue Route, 400, float=left]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:38
+#: de/modules/ROOT/pages/routing.adoc:48
 msgid ""
 "Hier wird dir angezeigt, welcher Endpunkt im weiteren Verlauf mit welchem "
 "Buchstaben gekennzeichnet ist."
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:39
+#: de/modules/ROOT/pages/routing.adoc:49
 msgid ""
 "Du kannst jetzt bestimmen, welche Routen für welche Datentypen zwischen den "
 "beiden Endpunkten enstehen sollen. Auf der linken Seite sind alle für die "
@@ -2495,28 +2501,28 @@ msgid ""
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:42
+#: de/modules/ROOT/pages/routing.adoc:52
 msgid ""
 "image:endpoints/a-to-b-icon.png[Legende Icon, 40] In dieser Spalte ist der "
 "Endpunkt A Sender und der Endpunkt B Empfänger."
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:43
+#: de/modules/ROOT/pages/routing.adoc:53
 msgid ""
 "image:endpoints/route-active-icon.png[Route aktiv Icon, 40] Die Route ist "
 "aktiv. Endpunkt A sendet Daten an Endpunkt B."
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:44
+#: de/modules/ROOT/pages/routing.adoc:54
 msgid ""
 "image:endpoints/route-not-active-icon.png[Route nicht aktiv Icon, 40] Die "
 "Route ist nicht aktiv. Endpunkt A sendet keine Daten an Endpunkt B."
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:45
+#: de/modules/ROOT/pages/routing.adoc:55
 msgid ""
 "image:endpoints/no-route-possible-icon.png[Keine Route möglich Icon, 40] Die "
 "Route kann nicht erstellt werden. Für diesen Datentyp können keine Daten von "
@@ -2525,7 +2531,7 @@ msgid ""
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:47
+#: de/modules/ROOT/pages/routing.adoc:57
 msgid ""
 "Alle manuellen Änderungen an den Routen führen dazu, dass diese Endpunkte "
 "bei der automatisierten Routenerstellung nicht berücksichtigt werden. Du "
@@ -2534,44 +2540,44 @@ msgid ""
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:50
+#: de/modules/ROOT/pages/routing.adoc:60
 msgid ""
 "Wenn du die Routen nach deinem Wunsch eingerichtet hast, klicke auf den "
 "*_Speichern_* Button."
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:52
+#: de/modules/ROOT/pages/routing.adoc:62
 msgid "image:endpoints/add-route-4.png[Route fertiggestellt, 800]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:55
+#: de/modules/ROOT/pages/routing.adoc:65
 msgid ""
 "Fertig, dir wird nun angezeigt, dass eine Route zwischen den beiden "
 "Endpunkten besteht."
 msgstr ""
 
 #. type: Title ==
-#: de/modules/ROOT/pages/routing.adoc:57
+#: de/modules/ROOT/pages/routing.adoc:67
 #, no-wrap
 msgid "Routen bearbeiten oder löschen"
 msgstr ""
 
 #. type: #edit-connection
-#: de/modules/ROOT/pages/routing.adoc:59
+#: de/modules/ROOT/pages/routing.adoc:69
 msgid ""
 "Routen, die du wie unter dem Kapitel <<add-route, Route hinzufügen>>, "
 "bereits erstellt hast, kannst du auch bearbeiten und löschen."
 msgstr ""
 
 #. type: #edit-connection
-#: de/modules/ROOT/pages/routing.adoc:61
+#: de/modules/ROOT/pages/routing.adoc:71
 msgid "image:endpoints/edit-route-1.png[Route fertiggestellt, 800]"
 msgstr ""
 
 #. type: #edit-connection
-#: de/modules/ROOT/pages/routing.adoc:64
+#: de/modules/ROOT/pages/routing.adoc:74
 msgid ""
 "Klicke bei dem Endpunkt, den du bearbeiten möchtest, auf das *_Routen "
 "ansehen_* image:endpoints/see-routes-icon.png[Routen ansehen Icon, 22] "
@@ -2580,7 +2586,7 @@ msgid ""
 msgstr ""
 
 #. type: #edit-connection
-#: de/modules/ROOT/pages/routing.adoc:66
+#: de/modules/ROOT/pages/routing.adoc:76
 msgid ""
 "Wenn du deine Maus über einen Pfeil bewegst, wird dieser grün. *_Klicke auf "
 "den Pfeil_* der Route, die du bearbeiten möchtest.  [.result]#Das folgende "
@@ -2588,19 +2594,19 @@ msgid ""
 msgstr ""
 
 #. type: .float-group
-#: de/modules/ROOT/pages/routing.adoc:70
+#: de/modules/ROOT/pages/routing.adoc:80
 msgid "image:endpoints/edit-route-2.png[Neue Route, 400, float=left]"
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:73
+#: de/modules/ROOT/pages/routing.adoc:83
 msgid ""
 "Du kannst nun die Route nun *_bearbeiten_*. Wie das funktioniert, wird im "
 "Kapitel <<add-route, Route hinzufügen>> beschrieben."
 msgstr ""
 
 #. type: start
-#: de/modules/ROOT/pages/routing.adoc:74
+#: de/modules/ROOT/pages/routing.adoc:84
 msgid ""
 "Bist du fertig, kannst du die neu eingestellte Route *_speichern_*. Du "
 "findest hier auch eine Möglichkeit, die bestehende Route zu *_löschen_*."
@@ -3039,8 +3045,8 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/xarvio.adoc:11
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:6
 #: de/modules/ROOT/pages/solution-guides/xfarm.adoc:12
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:6
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:9
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:11
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:101
 #, no-wrap
 msgid "Verbindung mit dem agrirouter herstellen"
 msgstr ""
@@ -9300,15 +9306,32 @@ msgid ""
 "behandelt:"
 msgstr ""
 
-#. type: Title ==
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:7
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:74
-#, no-wrap
-msgid "ISOXML-Dateien an das John Deere Operations Center senden"
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:6
+msgid "<<connect-agrirouter-jdoc,Verbindung mit dem agrirouter herstellen>>"
 msgstr ""
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:12
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:7
+msgid ""
+"<<connection-from-agrirouter-jdoc,Verbindung aus dem agrirouter Control "
+"Center herstellen>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:8
+msgid ""
+"<<connection-from-jdoc-agrirouter,ISOXML-Dateien an das John Deere "
+"Operations Center senden>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:9
+msgid "<<send-isoxml,ISOXML-Dateien an das John Deere Operations Center senden>>"
+msgstr ""
+
+#. type: #connect-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:14
 msgid ""
 "Um Daten von JDOC über den agrirouter senden und empfangen zu können, muss "
 "zuerst eine Verbindung zwischen deinem JDOC-Konto und deinem "
@@ -9316,124 +9339,94 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:13
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:16
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:106
 #, no-wrap
 msgid "Verbindung aus dem agrirouter Control Center herstellen"
 msgstr ""
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:16
+#. type: #connection-from-agrirouter-farmengage
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:19
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:109
 msgid ""
 "Melde dich im **agrirouter Control Center** mit deinen Zugangsdaten an "
 "(Einmalcode oder Passwort)."
 msgstr ""
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:17
-msgid "Klicke auf **\"+ Software hinzufügen\"**."
+#. type: #connection-from-agrirouter-farmengage
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:20
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:110
+msgid "Klicke auf image:endpoints/add-software-button.png[Software hinzufügen,120]."
 msgstr ""
 
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:18
-#, no-wrap
-msgid "Software hinzufügen"
-msgstr ""
-
-#. type: #connect-agrirouter
+#. type: #connection-from-agrirouter-farmengage
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:21
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:111
 msgid ""
-"Suche deine Lösung in der Suchleiste oder scrolle zu deiner gewünschten "
-"Lösung."
+"Suche deine Lösung über die Suchleiste oder scrolle zur gewünschten "
+"Anwendung."
 msgstr ""
 
-#. type: #connect-agrirouter
+#. type: #connection-from-agrirouter-jdoc
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:22
 msgid "Klicke auf **verbinden**"
 msgstr ""
 
-#. type: Positional ($1) AttributeList argument for macro 'image'
+#. type: #connection-from-agrirouter-jdoc
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:23
-#, no-wrap
-msgid "Verbindung starten"
-msgstr ""
-
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:26
 msgid "Falls erforderlich: Gib deine individuellen Zugangsdaten des JDOC ein"
 msgstr ""
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:27
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:24
 msgid ""
 "Wähle das Unternehmen aus, das mit dem agrirouter verbunden werden "
 "soll. Mehrere Unternehmen im JDOC können mit dem agrirouter verbunden "
 "werden."
 msgstr ""
 
-#. type: #connect-agrirouter
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:28
+#. type: #connection-from-agrirouter-jdoc
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:25
 msgid ""
 "Nach der erfolgreichen Verbindung werden **automatisch Routen zwischen JDOC "
 "und bereits verbundenen Maschinen** erstellt."
 msgstr ""
 
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:29
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:57
-#, no-wrap
-msgid "Verbundene Endpunkte"
-msgstr ""
-
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:34
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:62
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:29
 msgid ""
 "Routen zwischen zwei Softwarelösungen müssen **manuell** mittels Drag and "
 "Drop erstellt werden, da automatische Routen nur zwischen Maschine und "
-"Software erstellt werden."
+"Software erstellt werden. Im Kapitel <<routing,Routing>> findest du weitere "
+"Informationen zum Thema Routen und Routen anlegen."
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:36
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:64
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:31
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:53
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:117
 #, no-wrap
 msgid "Verbindung manuell anlegen"
 msgstr ""
 
-#. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:41
-msgid ""
-"Falls keine automatische Route erstellt wird, ist die Funktion für "
-"automatische Verbindungen im Endpunkt deaktiviert. Öffne den Endpunkt, "
-"aktiviere die Funktion, und künftige Verbindungen werden automatisch "
-"hergestellt."
-msgstr ""
-
-#. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:43
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:71
-#, no-wrap
-msgid "Automatische Verbindung aktivieren"
-msgstr ""
-
 #. type: Title ===
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:45
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:34
 #, no-wrap
 msgid "Verbindung aus dem John Deere Operations Center herstellen"
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:48
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:37
 msgid "Melde dich im **John Deere Operations Center** an."
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:49
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:38
 msgid "Gehe zu **Einrichten → Verbindungen**."
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:50
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:39
 msgid ""
 "Suche nach **agrirouter** oder scrolle zu der Kachel. Du kannst auch nach "
 "Firmen wie „Grimme“ oder „Krone“ oder anderen agrirouter Partnerfirmen "
@@ -9441,43 +9434,63 @@ msgid ""
 "austauschen."
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:51
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:40
 msgid ""
 "Klicke auf **verbinden** und gib deine Zugangsdaten deines agrirouter Konto "
 "ein."
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:52
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:41
 msgid ""
 "Bestätige das Verbindungsfenster mit **Connect** und wähle das Unternehmen "
 "aus, das verbunden werden soll. Anschließend speichere diesen Schritt."
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:53
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:42
 #, no-wrap
 msgid "JDOC Zugriff aktivieren"
 msgstr ""
 
-#. type: Plain text
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:56
+#. type: #connection-from-jdoc-agrirouter
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:45
 msgid ""
 "Nach der erfolgreichen Verbindung werden die Routen zu bereits verbundenen "
 "Maschinen **automatisch hergestellt**."
 msgstr ""
 
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:46
+#, no-wrap
+msgid "Verbundene Endpunkte"
+msgstr ""
+
 #. type: delimited block =
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:69
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:51
+msgid ""
+"Routen zwischen zwei Softwarelösungen müssen **manuell** mittels Drag and "
+"Drop erstellt werden, da automatische Routen nur zwischen Maschine und "
+"Software erstellt werden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:58
 msgid ""
 "Wenn keine automatische Route erstellt wird, überprüfe die Endpunktdetails "
 "und aktiviere die automatische Verbindung. Künftige Verbindungen werden dann "
 "wieder automatisch hergestellt."
 msgstr ""
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:77
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:63
+#, no-wrap
+msgid "ISOXML-Dateien an das John Deere Operations Center senden"
+msgstr ""
+
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:66
 msgid ""
 "Im ersten Schritt können nur **ISOXML-Dateien** (Ertragskarten, "
 "Applikationskarten, Arbeitspläne) von einer mit dem agrirouter verbundenen "
@@ -9485,44 +9498,1102 @@ msgid ""
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:78
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:67
 #, no-wrap
 msgid "John Deere Operations Center Capabilities"
 msgstr ""
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:81
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:70
 msgid ""
 "Die vom agrirouter gesendeten Dateien werden im Bereich **„Dateien / "
 "Files“** abgelegt und vom JDOC verarbeitet."
 msgstr ""
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:82
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:71
 msgid ""
 "Stammdaten wie Schlag, Betrieb und Mandant werden automatisch ausgelesen und "
 "angelegt (falls noch nicht vorhanden)."
 msgstr ""
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:83
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:72
 msgid ""
 "Vorhandene Ertrags- und Ausbringdaten werden im JDOC "
 "übernommen/visualisiert."
 msgstr ""
 
 #. type: Positional ($1) AttributeList argument for macro 'image'
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:84
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:73
 #, no-wrap
 msgid "Datenprozessierung im John Deere Operations Center"
 msgstr ""
 
-#. type: #isoxml
-#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:86
+#. type: #send-isoxml
+#: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:75
 msgid ""
 "Weitere Informationen zu den Ausbaustufen findest du im "
 "**https://agrirouter.com/de/solutions/john-deere-operations-center[Solution-Finder, "
 "window=\"_blank\"]**."
+msgstr ""
+
+#. type: Title =
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:1
+#, no-wrap
+msgid "FarmENGAGE - Fendt, Massey Ferguson, Valtra Solution Guide"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:4
+msgid ""
+"Mit **FarmENGAGE - Fendt, Massey Ferguson, Valtra** können Betriebsdaten "
+"(Maschinen-, Feld- und Prozessdaten) zentralisiert, analysiert und "
+"Arbeitsabläufe optimiert werden. Dieses Kapitel behandelt folgende Themen:"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:6
+msgid "<<glossary,Glossar>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:7
+msgid "<<license-requirements,Voraussetzungen>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:8
+msgid "<<quick-start-guide,Quickstart - kompakt erklärt>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:9
+msgid "<<connect-agrirouter,Verbindung mit dem agrirouter herstellen>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:10
+msgid "<<specialities,Besonderheiten bei der Verbindung von FarmENGAGE>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:11
+msgid "<<add-agco-machine,FendtONE Offboard und FarmENGAGE parallel nutzen>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:12
+msgid "<<add-mixed-agco-fleet,Gemischte AGCO-Flotten nutzen>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:13
+msgid "<<send-work-order,Arbeitspläne (Work Order) an AGCO-Maschinen senden>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:14
+msgid "<<send-application-maps,Applikationskarten an AGCO-Maschinen senden>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:15
+msgid ""
+"<<send-work-records,Arbeitsergebnisse von AGCO-Maschinen an agrirouter "
+"angebundene FMIS weiterleiten>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:16
+msgid "<<known-restrictions,Bekannte Einschränkungen>>"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:17
+msgid "<<support,Supportinformationen>>"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:19
+#, no-wrap
+msgid "Glossar"
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:23
+msgid ""
+"*FMIS:* Farm Management Information System. System zur Planung, Verwaltung "
+"und Dokumentation landwirtschaftlicher Betriebsprozesse."
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:26
+msgid ""
+"*agrirouter:* Herstellerübergreifende Datenplattform zum Austausch von "
+"landwirtschaftlichen Daten zwischen Software und Maschinen."
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:29
+msgid ""
+"*PTx FarmENGAGE™:* Zentrale Plattform zur Verbindung von agrirouter mit "
+"AGCO-Maschinen."
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:32
+msgid ""
+"*FendtONE Offboard:* Herstellerspezifisches System zur Verwaltung von "
+"Fendt-Maschinen und Datenverbindungen."
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:35
+msgid ""
+"*Route:* Definierte Datenverbindung zwischen zwei Endpunkten im "
+"agrirouter-System."
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:38
+msgid ""
+"*Endpunkt:* Technischer Anschluss eines Systems (z. B. FMIS, Maschine oder "
+"FarmENGAGE) im agrirouter."
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:41
+msgid "*Work Order:* Digitaler Arbeitsauftrag aus dem FMIS an die Maschine."
+msgstr ""
+
+#. type: #glossary
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:44
+msgid ""
+"*Work Record:* Ergebnisdaten eines auf der Maschine abgeschlossenen "
+"Arbeitsauftrags."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:46
+#, no-wrap
+msgid "Voraussetzungen"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:49
+msgid ""
+"Für den Datenaustausch zwischen FMIS und AGCO-Maschinen über agrirouter in "
+"Verbindung mit PTx FarmENGAGE™ müssen folgende Voraussetzungen erfüllt sein:"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:51
+msgid "Aktives agrirouter-Konto"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:52
+msgid "Zugriff auf PTx FarmENGAGE™ inklusive gültiger Lizenz"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:53
+msgid "Gegebenenfalls Zugriff auf FendtONE Offboard (nur bei reinen Fendt-Flotten)"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:54
+msgid "Unterstützte Fendt-, Massey-Ferguson- oder Valtra-Maschine"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:55
+msgid ""
+"Kompatibles Terminal mit TaskDoc-Unterstützung (je nach "
+"Maschinenkonfiguration)"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:56
+msgid "Aktive Mobilfunkverbindung auf der Maschine"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:57
+msgid "Bestehende Verbindung zwischen FarmENGAGE und agrirouter"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:58
+msgid ""
+"Route zwischen dem verwendeten FMIS und dem FarmENGAGE-Endpunkt im "
+"agrirouter"
+msgstr ""
+
+#. type: #license-requirements
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:59
+msgid ""
+"Unterstützte Datentypen und Capabilities (Fähigkeiten) der jeweiligen "
+"agrirouter-Endpunkte"
+msgstr ""
+
+#. type: TIP
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:62
+msgid ""
+"Der Datenaustausch über agrirouter wird ausschließlich über PTx FarmENGAGE™, "
+"nicht über FendtONE Offboard."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:64
+#, no-wrap
+msgid "Quickstart - kompakt erklärt"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:66
+msgid ""
+"Mit den folgenden Schritten verbindest du Fendt-, Massey-Ferguson- oder "
+"Valtra-Maschinen mit agrirouter und überträgst Arbeitsaufträge sowie "
+"Arbeitsergebnisse."
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:68
+msgid "Wähle die passende Anleitung entsprechend deiner Flottenkonfiguration:"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:70
+msgid "Nur Fendt-Flotte"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:71
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:85
+#, no-wrap
+msgid "Gemischte AGCO-Flotte"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:72
+#, no-wrap
+msgid "Fendt-Flotte"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:75
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:88
+msgid ""
+"PTx FarmENGAGE™ – Fendt, Massey Ferguson, Valtra zum agrirouter-Konto "
+"hinzufügen"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:76
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:89
+msgid "Route zwischen FMIS und FarmENGAGE prüfen"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:77
+msgid "Fendt-Maschinen in FendtONE Offboard registrieren"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:78
+msgid "Verbindung zwischen FendtONE Offboard und FarmENGAGE herstellen"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:79
+msgid "Maschinen in FarmENGAGE prüfen"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:80
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:91
+msgid "Arbeitsauftrag/Applikationskarte aus dem FMIS senden"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:81
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:92
+msgid "Eingang des Arbeitsauftrags in FarmENGAGE prüfen"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:82
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:93
+msgid "Arbeitsauftrag/Applikationskarte aus FarmENGAGE an die Maschine senden"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:83
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:94
+msgid "Arbeit durchführen und Auftrag abschließen"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:84
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:95
+msgid "Synchronisierung der Work Records im FMIS prüfen"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:90
+msgid "AGCO-Maschinen in FarmENGAGE registrieren"
+msgstr ""
+
+#. type: #quick-start-guide
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:97
+msgid ""
+"Weitere Details und herstellerspezifische Hinweise befinden sich in den "
+"folgenden Abschnitten."
+msgstr ""
+
+#. type: #connect-agrirouter
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:104
+msgid ""
+"Um Daten über den agrirouter an AGCO-Maschinen zu senden und von diesen zu "
+"empfangen, muss zuerst eine Verbindung zwischen deinem FarmENGAGE-Konto und "
+"deinem agrirouter-Konto hergestellt werden. Dies kann auf zwei Wegen "
+"erfolgen:"
+msgstr ""
+
+#. type: #connection-from-agrirouter-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:112
+msgid "Klicke auf **verbinden**."
+msgstr ""
+
+#. type: #connection-from-agrirouter-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:113
+msgid "Falls erforderlich: Gib deine individuellen FarmENGAGE Zugangsdaten ein."
+msgstr ""
+
+#. type: #connection-from-agrirouter-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:114
+msgid ""
+"Wähle das Unternehmen aus, das mit dem agrirouter verbunden werden "
+"soll. Mehrere Organisationen in FarmENGAGE können mit dem agrirouter "
+"verbunden werden."
+msgstr ""
+
+#. type: #connection-from-agrirouter-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:115
+msgid ""
+"Nach der erfolgreichen Verbindung werden **automatisch Routen zwischen "
+"FarmENGAGE und bereits verbundenen Maschinen** erstellt."
+msgstr ""
+
+#. type: #connection-from-agrirouter-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:116
+msgid ""
+"Um deine Daten zwischen FarmENGAGE(1) und deinen anderen Softwareprodukten "
+"(2) austauschen zu können, *muss* eine *manuelle Route* zwischen FarmENGAGE "
+"und deinen anderen Softwareprodukten erzeugt werden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:122
+msgid ""
+"Routen zwischen zwei Softwarelösungen müssen *manuell* mittels Drag and Drop "
+"erstellt werden, da automatische Routen nur zwischen Maschinen und "
+"Softwarelösungen erstellt werden.  Im Kapitel <<routing,Routing>> findest du "
+"weitere Informationen zum Thema Routen und Routen anlegen."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:125
+#, no-wrap
+msgid "Verbindung aus FarmENGAGE herstellen"
+msgstr ""
+
+#. type: NOTE
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:129
+msgid ""
+"Aktuell kann keine direkte agrirouter-Verbindung aus FarmENGAGE hergestellt "
+"werden.Diese Funktion befindet sich derzeit in Entwicklung durch "
+"AGCO. Sobald die Funktion verfügbar ist, wird sie in FarmENGAGE integriert "
+"und entsprechend in der Dokumentation ergänzt."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:133
+#, no-wrap
+msgid "Besonderheiten bei der Verbindung von FarmENGAGE"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:134
+#, no-wrap
+msgid "Fendt-Flotten"
+msgstr ""
+
+#. type: #specialities
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:137
+msgid ""
+"Wenn reine Fendt-Flotten auf dem Hof existieren, ist es möglich _FendtONE "
+"Offboard_ und _FarmENGAGE_ parallel zu nutzen. Dazu müssen die "
+"Fendt-Maschinen im _Connectivity Center_ in FendtONE hinzugefügt *_und "
+"parallel_* muss eine Verbindung zwischen _FendtONE Offboard_ und "
+"_FarmENGAGE_ aufgebaut werden. Wie eine Fendt-Maschine in _FendtONE "
+"Offboard_ hinzugefügt und _FendtONE Offboard_ sowie _FarmENGAGE_ parallel "
+"genutzt werden, wird in den folgenden Schritten beschrieben."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:139
+#, no-wrap
+msgid "FendtONE Offboard und FarmENGAGE parallel nutzen"
+msgstr ""
+
+#. type: #add-maschine-to-fendtone
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:142
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:163
+msgid ""
+"Melde dich mit deinen Zugangsdaten in link:https://fendt.one[FendtONE "
+"Offboard] an."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:143
+msgid "Öffne über das Burger Menü das _Connectivity Center_ (1)."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:144
+msgid "Klicke auf das *\"+\"* auf der rechten Seite (2)."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:145
+msgid "Wähle *FarmENGAGE* aus."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:146
+msgid ""
+"Vergebe einen Namen für die Optionen *SOAP-Name*, *Benutzername* und "
+"*Kennwort*. Der *Benutzername* und das *Kennwort* können in diesem Fall "
+"fiktiv sein (3)."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:147
+msgid "Anschließend klicke auf Verbindung hinzufügen."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:148
+#, no-wrap
+msgid "FarmENGAGE in FendtONE hinzufügen"
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:151
+msgid ""
+"Nachdem die Verbindung in _FendtONE Offboard_ hinzugefügt wurde, öffne den "
+"link:https://www.farmengage.com/farmmanagement#dataTransfer/settings/apiConnections[Connected "
+"Apps Bereich] in _FarmENGAGE_ (1+2)."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:152
+msgid "Klicke auf den Button *+ ADD ACCOUNT* und wähle TaskDoc aus (3)."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:153
+msgid ""
+"Nun füge den in _FendtONE Offboard_ erzeugten *Benutzernamen* und das "
+"*Kennwort* in die vorgesehenen Felder ein."
+msgstr ""
+
+#. type: #add-connection-between-fendtone-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:154
+msgid ""
+"Abschließend klicke auf den Button *CONNECT* und es wird eine Verbindung "
+"zwischen _FendtONE Offboard_ und _FarmENGAGE_ aufgebaut (4)."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:155
+#, no-wrap
+msgid "FendtONE Verbindung in FarmENGAGE hinzufügen"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:158
+#, no-wrap
+msgid "Fendt-Maschine im Connectivity Center hinzufügen"
+msgstr ""
+
+#. type: #add-maschine-to-fendtone
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:161
+msgid ""
+"Um eine Maschine im _Connectivity Center_ in _FendtONE Offboard_ "
+"hinzuzufügen, füge folgende Schritte durch:"
+msgstr ""
+
+#. type: #add-maschine-to-fendtone
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:164
+msgid "Öffne die Kachel *Maschinen* im Hauptmenü."
+msgstr ""
+
+#. type: #add-maschine-to-fendtone
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:165
+msgid ""
+"Füge über das *\"+\"* Icon eine neue Maschine hinzu und durchlaufe die "
+"erforderlichen Schritte."
+msgstr ""
+
+#. type: #add-maschine-to-fendtone
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:166
+msgid ""
+"Nachdem die Maschine erfolgreich hinzugefügt wurde und im _Connectivity "
+"Center_ angezeigt wurde, muss die Maschine noch \"freigeschaltet werden\""
+msgstr ""
+
+#. type: #add-maschine-to-fendtone
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:167
+msgid ""
+"Gib den von _FendtONE Offboard_ erzeugten Code in deinem Maschinenterminal "
+"ein."
+msgstr ""
+
+#. type: #add-maschine-to-fendtone
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:168
+msgid ""
+"Die Maschine generiert einen QR-Code. Dieser muss mit dem Smartphone "
+"gescannt werden."
+msgstr ""
+
+#. type: #add-agco-machine-to-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:169
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:197
+msgid ""
+"Anschließend kann die Maschine Daten mit dem _Connectivity Center_ "
+"austauschen."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:173
+msgid ""
+"Wenn im _Connectivity Center_ keine Aktualisierungen der Menüpunkte "
+"*Softwareversion* oder *zuletzt gesehen* angezeigt werden, muss im Terminal "
+"der Datentransfer auf Mobilfunk umgestellt werden oder die Maschine hat noch "
+"keine stabile Internetverbindung aufgebaut"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:176
+msgid ""
+"Wenn eine Verbindung zwischen _FendtONE_ und _FarmENGAGE_ hergestellt wurde "
+"- wie unter <<add-connection-between-fendtone-farmengage,FendtONE Offboard "
+"und FarmENGAGE parallel nutzen>> beschrieben - wird die gerade hinzugefügte "
+"Maschine in _FarmENGAGE_ im Bereich *Einrichten* → *Maschinen* → *Fahrzeuge* "
+"angezeigt."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:177
+msgid ""
+"Über den *Stift-Button* kann die Maschine dann z.B. namentlich in "
+"_FarmENGAGE_ angepasst werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:178
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:204
+msgid ""
+"Abschließend können vom agrirouter empfangende "
+"<<send-work-order,Arbeitspläne (Work Order)>> oder "
+"<<send-application-maps,Applikationskarten>> an die hinzugefügten "
+"AGCO-Maschinen gesendet werden."
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:180
+msgid ""
+"*In diesem Video von Fendt wird gezeigt, wie eine "
+"link:https://www.youtube.com/watch?v=DmXyByjdGsw[Fendt Maschine in FendtONE "
+"Offboard] hinzugefügt wird.*"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:182
+#, no-wrap
+msgid "Gemischte AGCO-Flotten nutzen"
+msgstr ""
+
+#. type: #add-mixed-agco-fleet
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:185
+msgid ""
+"Wenn Massey Ferguson, Valtra oder gemischte AGCO-Flotten auf dem Hof "
+"existieren, kann nur _FarmENGAGE_ als zentrale Plattform genutzt "
+"werden. Hierzu müssen dann alle Maschinen im _Connectivity Center_ in "
+"FarmENGAGE hinzugefügt werden. Wie du die Maschinen im _Connectivity Center_ "
+"hinzufügst, wird in den folgenden Schritten beschrieben."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:187
+#, no-wrap
+msgid "AGCO-Maschinen mit dem Connectivity Center verbinden"
+msgstr ""
+
+#. type: #add-agco-machine-to-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:190
+msgid ""
+"Um eine Maschine im _Connectivity Center_ in FarmENGAGE hinzuzufügen, füge "
+"folgende Schritte durch:"
+msgstr ""
+
+#. type: #add-agco-machine-to-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:192
+msgid ""
+"Melde dich mit deinen Zugangsdaten in "
+"link:https://www.farmengage.com/farmmanagement[FarmENGAGE] an."
+msgstr ""
+
+#. type: #add-agco-machine-to-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:193
+msgid "Öffne im linken Menü *Datenübertragung* → *Connectivity Center*."
+msgstr ""
+
+#. type: #add-agco-machine-to-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:194
+msgid ""
+"Füge über den *+ HINZUFÜGEN* Button → *Maschine* eine neue Maschine hinzu "
+"und durchlaufe die erforderlichen Schritte."
+msgstr ""
+
+#. type: #add-agco-machine-to-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:195
+msgid ""
+"Gib den vom _Connectivity Center_ erzeugten Code in deinem Maschinenterminal "
+"ein."
+msgstr ""
+
+#. type: #add-agco-machine-to-farmengage
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:196
+msgid ""
+"Von der Maschine wird ein QR-Code erzeugt. Dieser muss mit dem Smartphone "
+"gescannt werden."
+msgstr ""
+
+#. type: delimited block =
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:201
+msgid ""
+"Wenn im _Connectivity Center_ keine Aktualisierungen angezeigt werden, muss "
+"im Terminal der Datentransfer auf Mobilfunk umgestellt werden oder die "
+"Maschine hat noch keine stabile Internetverbindung aufgebaut"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:206
+msgid ""
+"*Weitere Informationen zum Hinzufügen einer AGCO-Maschine in FarmENGAGE "
+"findest du in der "
+"link:https://cdn.bfldr.com/7M6SII1K/as/nghfrvqnprnh92fkxw5hsk5/AGCO_Equipment_Operations_Activation[offiziellen "
+"PTx Trimble Dokumentation].*"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:208
+#, no-wrap
+msgid "Arbeitspläne (Work Order) an AGCO-Maschinen senden"
+msgstr ""
+
+#. type: #send-work-order
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:211
+msgid ""
+"Nachdem der agrirouter erfolgreich mit _FarmENGAGE_ verbunden und Maschinen "
+"gekoppelt wurden, können nun Daten zwischen einem agrirouter-ready FMIS und "
+"einer AGCO-Maschine ausgetauscht werden. Wie Arbeitspläne auf eine "
+"AGCO-Maschine gelangen, wird in den nächsten Schritten beschrieben."
+msgstr ""
+
+#. type: #send-work-order
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:213
+msgid ""
+"Die Arbeitspläne, die im FMIS erzeugt wurden, müssen zunächst über den "
+"*_agrirouter_* an _FarmENGAGE_ gesendet werden."
+msgstr ""
+
+#. type: #send-work-order
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:214
+msgid ""
+"Die vom agrirouter gesendeten Dateien werden in FarmENGAGE im Bereich "
+"**„Planung → Arbeitsaufträge** abgelegt (Schritt 1)."
+msgstr ""
+
+#. type: #send-application-maps
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:215
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:231
+msgid ""
+"Stammdaten wie Kunden, Betriebe, Felder werden automatisch ausgelesen und in "
+"FarmENGAGE angelegt (falls noch nicht vorhanden)."
+msgstr ""
+
+#. type: #send-work-order
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:216
+msgid ""
+"Anschließend muss der Arbeitsplan, der auf eine Maschine gesendet werden "
+"soll, ausgewählt werden (Schritt 2)."
+msgstr ""
+
+#. type: #send-work-order
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:217
+msgid ""
+"Über das Drei-Punkte-Menü kann anschließend _An TaskDoc-Fahrzeug senden_ "
+"ausgewählt werden (Schritt 3)."
+msgstr ""
+
+#. type: #send-work-order
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:218
+msgid ""
+"Im letzten Schritt wird die Maschine adressiert und der Arbeitsplan an diese "
+"versendet. In diesem Schritt kann immer *nur ein* Arbeitsplan geschickt "
+"werden, jedoch können mehrere Maschinen gleichzeitig adressiert "
+"werden. (Schritt 4)."
+msgstr ""
+
+#. type: TIP
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:222
+msgid ""
+"Es kann immer nur *ein Auftrag* an eine oder mehrere Maschinen gesendet "
+"werden. Es können jedoch - im Gegensatz zu Maschinen, die am "
+"TaskDoc/VarioDoc angebunden sind, mehrere Aufträge hintereinander geschickt "
+"werden, ohne das diese auf dem Terminal überschrieben werden."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:223
+#, no-wrap
+msgid "Arbeitsaufträge an Maschine senden"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:226
+#, no-wrap
+msgid "Applikationskarten an AGCO-Maschinen senden"
+msgstr ""
+
+#. type: #send-application-maps
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:229
+msgid ""
+"Die Applikationskarten, die im FMIS erzeugt wurden, müssen zunächst über den "
+"*_agrirouter_* an _FarmENGAGE_ gesendet werden."
+msgstr ""
+
+#. type: #send-application-maps
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:230
+msgid ""
+"Die vom agrirouter gesendeten Dateien werden in FarmENGAGE im Bereich "
+"**„Planung → Applikationskarten** abgelegt (Schritt 1)."
+msgstr ""
+
+#. type: #send-application-maps
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:232
+msgid ""
+"Anschließend muss die Applikationskarte, die auf eine Maschine gesendet "
+"werden soll, ausgewählt werden (Schritt 2)."
+msgstr ""
+
+#. type: #send-application-maps
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:233
+msgid ""
+"Über den *Senden-Button* kann die ausgewählte Applikationskarte / die "
+"ausgewählten Applikationskarten an eine AGCO-Maschine gesendet werden "
+"(Schritt 3)."
+msgstr ""
+
+#. type: #send-application-maps
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:234
+msgid ""
+"Im letzten Schritt wird die Maschine adressiert und die Applikationskarte an "
+"diese versendet. In diesem Schritt können sowohl mehrere Applikationskarten "
+"als auch mehrere Maschinen gleichzeitig adressiert werden."
+msgstr ""
+
+#. type: TIP
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:237
+msgid ""
+"Es können *mehrere* Applikationskarten an eine oder mehrere Maschinen "
+"_gleichzeitig_ gesendet werden. Im Gegensatz zu Maschinen, die am "
+"TaskDoc/VarioDoc angebunden sind, werden die Daten auf dem Terminal nicht "
+"überschrieben."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:238
+#, no-wrap
+msgid "Applikationskarte an Maschine senden"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:241
+#, no-wrap
+msgid ""
+"Arbeitsergebnisse (Work Record) von AGCO-Maschinen an agrirouter angebundene "
+"FMIS weiterleiten"
+msgstr ""
+
+#. type: #send-work-records
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:245
+msgid ""
+"Nachdem eine Arbeit auf dem Feld erfolgreich beendet wurde, wird die "
+"abgeschlossene Arbeit als *_Work Record_* von der AGCO-Maschine "
+"zurückgesendet.  Diese Daten werden von der AGCO-Maschine an FarmENGAGE "
+"geschickt. Von dort werden die Daten automatisch an ein oder mehrere FMIS "
+"gesendet, die über den agrirouter angebunden sind."
+msgstr ""
+
+#. type: TIP
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:248
+msgid ""
+"Die Daten werden nur automatisch an ein FMIS gesendet, wenn eine Route von "
+"_FarmENGAGE_ Endpunkt im agrirouter zu einem _FMIS_ erzeugt wurde. Eine "
+"Route zwischen zwei agrirouter Endpunkten kann nur hergestellt werden, wenn "
+"mindestens eine gleiche Fähigkeit (Capabilities) von beiden Endpunkten "
+"unterstützt wird. Weitere Informationen dazu findest du unter "
+"<<connect-agrirouter,Verbindung mit dem agrirouter herstellen>>."
+msgstr ""
+
+#. type: TIP
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:250
+msgid ""
+"Des Weiteren findest du im Bereich *Datenübertragung (1) → Dateien verwalten "
+"(2) → Von Fahrzeugen (3)* alle Dateien, die von deiner AGCO-Maschine "
+"Richtung FarmENGAGE gesendet wurden."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:251
+#, no-wrap
+msgid "Anzeige von Arbeitsergebnissen (Work Record) in FarmENGAGE"
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:254
+#, no-wrap
+msgid "Bekannte Einschränkungen"
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:257
+msgid "*Direkte agrirouter-Verbindung aus FarmENGAGE*"
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:259
+msgid ""
+"Derzeit nicht unterstützt. Die Verbindung zum agrirouter muss derzeit über "
+"das agrirouter Control Center hergestellt werden. Die Funktion befindet sich "
+"derzeit in Entwicklung bei AGCO."
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:261
+msgid "*Direkte Maschinenadressierung*"
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:263
+msgid ""
+"Derzeit nicht unterstützt. Arbeitsaufträge und Applikationskarten müssen "
+"derzeit manuell in FarmENGAGE einer Maschine zugewiesen werden. Die Funktion "
+"befindet sich derzeit in Entwicklung bei AGCO."
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:265
+msgid "*Gleichzeitiges Senden mehrerer Arbeitsaufträge*"
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:267
+msgid ""
+"Derzeit nicht unterstützt. Arbeitsaufträge können derzeit nur einzeln an "
+"AGCO-Maschinen gesendet werden. Applikationskarten können hingegen "
+"gleichzeitig an eine oder mehrere AGCO-Maschinen übertragen werden."
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:269
+msgid "*Parallele Nutzung von FendtONE Offboard und FarmENGAGE*"
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:271
+msgid ""
+"Eingeschränkt unterstützt. Wenn eine AGCO-Maschine direkt in FarmENGAGE "
+"hinzugefügt wird, wird die bestehende Verbindung zwischen _FendtONE "
+"Offboard_ und _FarmENGAGE_ entfernt. Fendt-Maschinen aus FendtONE Offboard "
+"können anschließend nicht mehr über _FarmENGAGE_ adressiert werden. Sie "
+"müssen erst in FarmENGAGE neu hinzugefügt werden."
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:273
+msgid "*Nachträgliche Aktivierung von FendtONE Offboard*"
+msgstr ""
+
+#. type: #known-restrictions
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:275
+msgid ""
+"Eingeschränkt unterstützt. Wenn _FendtONE Offboard_ nachträglich parallel zu "
+"FarmENGAGE genutzt werden soll, muss die bestehende _auto-soap-bridge_ durch "
+"den AGCO-Support entfernt werden. Erst anschließend kann die Verbindung "
+"zwischen _FendtONE Offboard_ und _FarmENGAGE_ hergestellt werden und die "
+"Fendt-Maschinen müssen in _FendtONE Offboard _hinzugefügt werden."
+msgstr ""
+
+#. type: Title ==
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:277
+#, no-wrap
+msgid "FAQ"
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:278
+#, no-wrap
+msgid "Supportinformationen für Endkunden"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:281
+msgid ""
+"*An wen wende ich mich, wenn ich nachträglich FendtONE Offboard und "
+"FarmENGAGE parallel nutzen möchte?*"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:283
+msgid ""
+"Wenn eine Maschine bereits in FarmENGAGE hinzugefügt wurde und FendtONE "
+"Offboard zusätzlich genutzt werden soll, kontaktiere bitte deinen AGCO- oder "
+"PTx-Trimble-Händler. Dieser stimmt die notwendigen Schritte mit dem "
+"AGCO-Support ab. Bitte beachte, dass Fendt-Maschinen anschließend erneut in "
+"FendtONE Offboard hinzugefügt werden müssen."
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:285
+msgid "*Wo können FarmENGAGE-Lizenzen erworben werden?*"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:287
+msgid ""
+"FarmENGAGE-Lizenzen können über deinen AGCO- oder PTx-Trimble-Händler "
+"erworben werden."
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:289
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:310
+msgid ""
+"*Können Arbeitsergebnisse erneut von FarmENGAGE an ein FMIS gesendet "
+"werden?*"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:291
+msgid ""
+"Nein. Arbeitsergebnisse können nicht erneut automatisch von FarmENGAGE an "
+"ein über agrirouter angebundenes FMIS übertragen werden."
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:293
+msgid ""
+"Es ist jedoch möglich, die Dateien manuell aus FarmENGAGE herunterzuladen "
+"und anschließend im gewünschten FMIS hochzuladen.  Die Dateien befinden sich "
+"in FarmENGAGE unter: *_Dateiübertragung → Dateien verwalten → Von "
+"Fahrzeugen_*"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:295
+msgid ""
+"*Ich nutze derzeit FendtONE Offboard und FarmENGAGE, möchte zukünftig jedoch "
+"ausschließlich FarmENGAGE verwenden. Was ist zu beachten?*"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:297
+msgid ""
+"Der bestehende FendtONE Offboard Account kann weiterhin bestehen "
+"bleiben. Wenn jedoch eine neue Fendt-Maschine direkt im Connectivity Center "
+"von FarmENGAGE hinzugefügt wird, wird die bestehende Verbindung zwischen "
+"FendtONE Offboard und FarmENGAGE entfernt. Anschließend müssen alle "
+"Maschinen direkt in FarmENGAGE verwaltet werden."
+msgstr ""
+
+#. type: Title ===
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:298
+#, no-wrap
+msgid "*Supportinformationen für Händler*"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:301
+msgid ""
+"*Mein Kunde möchte nachträglich FendtONE Offboard und FarmENGAGE parallel "
+"nutzen. Was ist zu beachten?*"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:303
+msgid ""
+"Wenn Maschinen bereits in FarmENGAGE hinzugefügt wurden und FendtONE "
+"Offboard nachträglich parallel genutzt werden soll, muss zunächst die "
+"bestehende _auto-soap-bridge_ entfernt werden. Die Entfernung erfolgt über "
+"den AGCO-Support oder den zuständigen Smart-Farming-Berater."
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:305
+msgid "Anschließend muss:"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:306
+msgid ""
+"die Verbindung zwischen FendtONE Offboard und FarmENGAGE erneut hergestellt "
+"werden"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:307
+msgid "die Fendt-Maschine in FendtONE Offboard hinzugefügt werden"
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:308
+msgid ""
+"Die notwendigen Schritte werden im Kapitel "
+"<<add-connection-between-fendtone-farmengage,FendtONE Offboard und "
+"FarmENGAGE parallel nutzen>> beschrieben."
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:312
+msgid ""
+"Nein. Arbeitsergebnisse können nicht erneut automatisch an ein über "
+"agrirouter angebundenes FMIS übertragen werden."
+msgstr ""
+
+#. type: #support
+#: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:313
+msgid ""
+"Die Dateien können jedoch manuell aus FarmENGAGE exportiert und anschließend "
+"im FMIS importiert werden. Die Dateien befinden sich in FarmENGAGE unter: "
+"*_Dateiübertragung → Dateien verwalten → Von Fahrzeugen_*"
 msgstr ""
 
 #. type: Plain text
@@ -9622,53 +10693,60 @@ msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:21
-msgid "xref:solution-guides/farmpilot.adoc[farmpilot]"
+msgid ""
+"xref:solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc[FarmENGAGE "
+"- Fendt, Massey Ferguson, Valtra]"
 msgstr ""
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:22
+msgid "xref:solution-guides/farmpilot.adoc[farmpilot]"
+msgstr ""
+
+#. type: Plain text
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
 msgid ""
 "xref:solution-guides/john-deere-operations-center.adoc[John Deere Operations "
 "Center]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:23
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
 msgid "xref:solution-guides/myeasyfarm.adoc[MyEasyFarm]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:24
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
 msgid "xref:solution-guides/mydataplant.adoc[MyDataPlant]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:25
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
 msgid "xref:solution-guides/next-farming.adoc[NEXT Farming]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:26
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
 msgid "xref:solution-guides/plantivo.adoc[Plantivo]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:27
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
 msgid "xref:solution-guides/proflura.adoc[ProFlura]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:28
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
 msgid "xref:solution-guides/vyc.adoc[VYC (Vineyard Cloud)]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:30
 msgid "xref:solution-guides/xarvio.adoc[xarvio FIELD MANAGER]"
 msgstr ""
 
 #. type: Plain text
-#: de/modules/ROOT/partials/solutionguides/nav.adoc:29
+#: de/modules/ROOT/partials/solutionguides/nav.adoc:30
 msgid "xref:solution-guides/xfarm.adoc[xFarm]"
 msgstr ""
 

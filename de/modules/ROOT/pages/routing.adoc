@@ -7,6 +7,16 @@
 Eine xref:introduction.adoc#route[Route] ist die Verbindung zwischen zwei xref:introduction.adoc#endpoint[Endpunkten], d.h. über die Route fließen die Daten zwischen zwei Endpunkten.
 [.result]#Mit der Route legst du fest, wer welche Daten austauscht.#
 
+[#automatic-route]
+== Automatische Routen
+
+Eine Route zwischen einem Maschinen- und einem Softwareendpunkt werden automatisch erstellt. Dabei kann ein Maschinenendpunkt zu beliebig vielen Softwareendpunkten eine Route aufbauen sowie umgekehrt. 
+
+[TIP]
+Falls keine automatische Route erstellt wird, ist die Funktion für automatische Verbindungen am Endpunkt deaktiviert. Füge dafür zunächst die manuelle Route zu deinem gewünschten Endpunkt hinzu. Öffne anschließend die Endpunktdetails indem du auf den Endpunkt klickst, aktiviere die Funktion *_Automatische Verbindung zwischen Endpunkten_*, und künftige Verbindungen werden automatisch hergestellt.
+
+image::endpoints/activate-auto-route.png[Automatische Verbindung aktivieren, 800]
+
 [#add-route]
 == Routen hinzufügen
 Um Daten von einem Endpunkt zum anderen senden zu können, muss zuerst eine Route zwischen den beiden Endpunkten hergestellt werden. 
