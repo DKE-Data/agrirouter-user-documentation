@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2026-05-11 14:31+0000\n"
-"PO-Revision-Date: 2026-05-12 08:40+0000\n"
+"PO-Revision-Date: 2026-05-12 10:40+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Portuguese <https://weblate.agrirouter.com/projects/"
 "agrirouter/user-manual/pt/>\n"
@@ -1103,7 +1103,7 @@ msgid ""
 msgstr ""
 "Introduza o seu endereço de correio eletrónico e clique em *_Login_*.  [Será "
 "enviada uma mensagem de correio eletrónico com um código de início de sessão "
-"para o seu endereço de correio eletrónico."
+"para o seu endereço de correio eletrónico.#"
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:147
@@ -1116,7 +1116,7 @@ msgid ""
 "Klicke auf *_Anmelden_*.  [.result]#Du bist jetzt bei deinem agrirouter-"
 "Konto angemeldet.#"
 msgstr ""
-"Clique em *_Login_*.  [Está agora a iniciar sessão na sua Conta agrirouter."
+"Clique em *_Login_*.  [Está agora a iniciar sessão na sua Conta agrirouter.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:154
@@ -1194,8 +1194,8 @@ msgid ""
 "Anmeldefenster wird geöffnet.#"
 msgstr ""
 "Clique na frase *_Log in with password?_*, que se encontra por baixo da "
-"janela de introdução do endereço de correio eletrónico.  [Será aberta uma "
-"nova janela de início de sessão."
+"janela de introdução do endereço de correio eletrónico. [.result]#Será "
+"aberta uma nova janela de início de sessão.#"
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:188
@@ -1213,7 +1213,7 @@ msgid ""
 "Klicke auf *_Anmelden_* [.result]#Du bist jetzt bei deinem agrirouter-Konto "
 "angemeldet.#"
 msgstr ""
-"Clique em *_login_* [.result]#Está agora ligado à sua Conta agrirouter."
+"Clique em *_login_* [.result]#Está agora ligado à sua Conta agrirouter.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:194
@@ -1243,7 +1243,8 @@ msgid ""
 "geöffnet.#"
 msgstr ""
 "Clique na frase *_Alterar / esqueci-me da palavra-passe_*, que se encontra "
-"por cima da janela de introdução da palavra-passe.  [Abre-se uma nova janela."
+"por cima da janela de introdução da palavra-passe. [.result]#Abre-se uma "
+"nova janela.#"
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:223
@@ -1256,8 +1257,9 @@ msgid ""
 "Klicke auf *_Absenden_*.  [.result]#Dir wird nun eine E-Mail mit einem Link "
 "geschickt, über den du dein (neues) Passwort setzen kannst.#"
 msgstr ""
-"Clique em *Enviar_*.  [Será enviada uma mensagem de correio eletrónico com "
-"uma ligação que pode utilizar para definir a sua (nova) palavra-passe."
+"Clique em *Enviar_*. [.result]#Será enviada uma mensagem de correio "
+"eletrónico com uma ligação que pode utilizar para definir a sua (nova) "
+"palavra-passe.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:230
@@ -2014,7 +2016,7 @@ msgid ""
 "Seite angezeigt. *_Sie ist aber noch nicht verbunden!_*"
 msgstr ""
 "O software selecionado é agora apresentado no lado direito da sua página _my "
-"agrirouter_. *Mas ainda não está ligado."
+"agrirouter_. *_Mas ainda não está ligado!_*"
 
 #. type: start
 #: de/modules/ROOT/pages/endpoint.adoc:189
@@ -2434,9 +2436,9 @@ msgid ""
 "result]#Erstelle und verwalte dein Konto, wie im Kapitel xref:account."
 "adoc[Konto] beschrieben.#"
 msgstr ""
-"*Conta:* É necessária uma conta de utilizador para utilizar o agrirouter: [."
-"result]#Criar e gerir a sua conta como descrito no capítulo xref:account."
-"adoc[account]."
+"*Conta:* É necessária uma conta de utilizador para utilizar o agrirouter: "
+"[.result]#Criar e gerir a sua conta como descrito no capítulo "
+"xref:account.adoc[account].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:22
@@ -2447,9 +2449,9 @@ msgid ""
 "Funktionen des agrirouters.#"
 msgstr ""
 "*O meu agrirouter:* Ao Iniciar sessão no agrirouter, é apresentada a sua "
-"página inicial pessoal, a página <<meu agrirouter, meu agrirouter>>: [."
-"result]#A página *my agrirouter* dá-lhe acesso a todas as funções do "
-"agrirouter."
+"página inicial pessoal, a página <<meu agrirouter, meu agrirouter>>: "
+"[.result]#A página *my agrirouter* dá-lhe acesso a todas as funções do "
+"agrirouter.#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:25
@@ -3477,7 +3479,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides.adoc:2
 #, no-wrap
 msgid "Solution Guides"
-msgstr "Guias de soluções"
+msgstr "Solution Guides"
 
 #. type: #solution-guides
 #: de/modules/ROOT/pages/solution-guides.adoc:5
@@ -3650,7 +3652,7 @@ msgstr "Exportação de mapas de aplicações de destino"
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:8
 #, no-wrap
 msgid "Import von Ist-Applikationskarten & Telemetriedaten"
-msgstr "Importação de mapas de aplicações reais e dados de telemetria"
+msgstr "Importação de mapas de aplicação reais e dados de telemetria"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:15
@@ -3994,7 +3996,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:1
 #, no-wrap
 msgid "AgForce Solution Guide"
-msgstr "Guia de soluções AgForce"
+msgstr "AgForce Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:4
@@ -4329,7 +4331,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:1
 #, no-wrap
 msgid "Agricolus Solution Guide"
-msgstr "Guia de soluções Agricolus"
+msgstr "Agricolus Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:4
@@ -4565,7 +4567,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:1
 #, no-wrap
 msgid "AGRARMONITOR Solution Guide"
-msgstr "Guia de Soluções AGRARMONITOR"
+msgstr "AGRARMONITOR Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:4
@@ -11199,20 +11201,19 @@ msgstr "Estabelecer uma Ligação a partir do Centro de Controlo agrirouter"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:8
-#, fuzzy
-#| msgid "ISOXML-Dateien an das John Deere Operations Center senden"
 msgid ""
 "<<connection-from-jdoc-agrirouter,ISOXML-Dateien an das John Deere "
 "Operations Center senden>>"
-msgstr "Enviar ficheiros ISOXML para o Centro de Operações John Deere"
+msgstr ""
+"<<connection-from-jdoc-agrirouter,Enviar ficheiros ISOXML para o John Deere "
+"Operations Center>>"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:9
-#, fuzzy
-#| msgid "ISOXML-Dateien an das John Deere Operations Center senden"
 msgid ""
 "<<send-isoxml,ISOXML-Dateien an das John Deere Operations Center senden>>"
-msgstr "Enviar ficheiros ISOXML para o Centro de Operações John Deere"
+msgstr ""
+"<<send-isoxml,Enviar ficheiros ISOXML para o John Deere Operations Center>>"
 
 #. type: #connect-agrirouter-jdoc
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:14
@@ -11245,14 +11246,10 @@ msgstr ""
 #. type: #connection-from-agrirouter-farmengage
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:20
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:110
-#, fuzzy
-#| msgid ""
-#| "image:endpoints/add-software-4.png[Software nicht verbunden, 400, "
-#| "float=left]"
 msgid ""
 "Klicke auf image:endpoints/add-software-button.png[Software hinzufügen,120]."
 msgstr ""
-"image:endpoints/add-software-4.png[Software não ligado, 400, float=left]"
+"Clique em image:endpoints/add-software-button.png[Adicionar software,120]."
 
 #. type: #connection-from-agrirouter-farmengage
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:21
@@ -11271,7 +11268,7 @@ msgstr ""
 #. type: #connection-from-agrirouter-jdoc
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:22
 msgid "Klicke auf **verbinden**"
-msgstr "Clicar em Ligação"
+msgstr "Clique em **conectar**"
 
 #. type: #connection-from-agrirouter-jdoc
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:23
@@ -11668,11 +11665,13 @@ msgstr "Acesso ao PTx FarmENGAGE™ com licença válida"
 msgid ""
 "Gegebenenfalls Zugriff auf FendtONE Offboard (nur bei reinen Fendt-Flotten)"
 msgstr ""
+"Quando aplicável, acesso ao FendtONE Offboard (apenas para frotas "
+"exclusivamente Fendt)"
 
 #. type: #license-requirements
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:54
 msgid "Unterstützte Fendt-, Massey-Ferguson- oder Valtra-Maschine"
-msgstr ""
+msgstr "Máquina Fendt, Massey Ferguson ou Valtra suportada"
 
 #. type: #license-requirements
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:55
@@ -11680,11 +11679,13 @@ msgid ""
 "Kompatibles Terminal mit TaskDoc-Unterstützung (je nach "
 "Maschinenkonfiguration)"
 msgstr ""
+"Terminal compatível com suporte a TaskDoc (dependendo da configuração da "
+"máquina)"
 
 #. type: #license-requirements
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:56
 msgid "Aktive Mobilfunkverbindung auf der Maschine"
-msgstr ""
+msgstr "Ligação móvel ativa na máquina"
 
 #. type: #license-requirements
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:57
@@ -11695,7 +11696,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:58
 msgid ""
 "Route zwischen dem verwendeten FMIS und dem FarmENGAGE-Endpunkt im agrirouter"
-msgstr ""
+msgstr "Rota entre o FMIS utilizado e o ponto final FarmENGAGE no agrirouter"
 
 #. type: #license-requirements
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:59
@@ -12072,6 +12073,8 @@ msgid ""
 "Nachdem die Maschine erfolgreich hinzugefügt wurde und im _Connectivity "
 "Center_ angezeigt wurde, muss die Maschine noch \"freigeschaltet werden\""
 msgstr ""
+"Depois de a máquina ter sido adicionada com sucesso e ser apresentada no "
+"_Connectivity Center_, a máquina ainda tem de ser \"autorizada\""
 
 #. type: #add-maschine-to-fendtone
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:167
@@ -12103,6 +12106,10 @@ msgid ""
 "der Datentransfer auf Mobilfunk umgestellt werden oder die Maschine hat noch "
 "keine stabile Internetverbindung aufgebaut"
 msgstr ""
+"Se no _Connectivity Center_ não forem apresentadas atualizações nos "
+"elementos do menu *versão de software* ou *última vez visto*, a "
+"transferência de dados no terminal deve ser alterada para rede móvel ou a "
+"máquina ainda não estabeleceu uma ligação estável à Internet"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:176
@@ -12137,6 +12144,8 @@ msgid ""
 "com/watch?v=DmXyByjdGsw[Fendt Maschine in FendtONE Offboard] hinzugefügt "
 "wird.*"
 msgstr ""
+"*Neste vídeo da Fendt é mostrado como adicionar uma link:https://"
+"www.youtube.com/watch?v=DmXyByjdGsw[máquina Fendt no FendtONE Offboard].*"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:182
@@ -12208,6 +12217,9 @@ msgid ""
 "im Terminal der Datentransfer auf Mobilfunk umgestellt werden oder die "
 "Maschine hat noch keine stabile Internetverbindung aufgebaut"
 msgstr ""
+"Se no _Connectivity Center_ não forem apresentadas atualizações, a "
+"transferência de dados no terminal deve ser alterada para rede móvel ou a "
+"máquina ainda não estabeleceu uma ligação estável à Internet"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:206
@@ -12377,6 +12389,8 @@ msgstr "Enviar vários mapas de receitas para uma Máquina"
 #, no-wrap
 msgid "Arbeitsergebnisse (Work Record) von AGCO-Maschinen an agrirouter angebundene FMIS weiterleiten"
 msgstr ""
+"Encaminhar os resultados de trabalho (Work Record) das máquinas AGCO para os "
+"FMIS ligados ao agrirouter"
 
 #. type: #send-work-records
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:245
@@ -12421,10 +12435,8 @@ msgstr ""
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:257
-#, fuzzy
-#| msgid "Wähle dort *_agrirouter Verbindung_* aus."
 msgid "*Direkte agrirouter-Verbindung aus FarmENGAGE*"
-msgstr "Selecionar aí *_agrirouter connection_*."
+msgstr "*Ligação direta ao agrirouter a partir do FarmENGAGE*"
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:259
@@ -12525,7 +12537,7 @@ msgid ""
 "FarmENGAGE parallel nutzen möchte?*"
 msgstr ""
 "*Quem devo contactar se quiser usar o FendtONE Offboard e o FarmENGAGE em "
-"paralelo numa data posterior?"
+"paralelo numa data posterior?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:283
@@ -12544,7 +12556,7 @@ msgstr ""
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:285
 msgid "*Wo können FarmENGAGE-Lizenzen erworben werden?*"
-msgstr "*Onde é que as licenças FarmENGAGE podem ser adquiridas?"
+msgstr "*Onde é que as licenças FarmENGAGE podem ser adquiridas?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:287
@@ -12562,7 +12574,7 @@ msgid ""
 "*Können Arbeitsergebnisse erneut von FarmENGAGE an ein FMIS gesendet werden?*"
 msgstr ""
 "*Os resultados do trabalho podem ser reenviados da FarmENGAGE para um "
-"sistema de gestão financeira (FMIS)?"
+"sistema de gestão financeira (FMIS)?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:291
@@ -12594,7 +12606,7 @@ msgid ""
 msgstr ""
 "*Utilizo atualmente o FendtONE Offboard e o FarmENGAGE, mas gostaria de "
 "utilizar exclusivamente o FarmENGAGE no futuro. O que devo ter em "
-"consideração?"
+"consideração?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:297
@@ -12623,6 +12635,8 @@ msgid ""
 "*Mein Kunde möchte nachträglich FendtONE Offboard und FarmENGAGE parallel "
 "nutzen. Was ist zu beachten?*"
 msgstr ""
+"*O meu cliente pretende utilizar posteriormente o FendtONE Offboard e o "
+"FarmENGAGE em paralelo. O que deve ser tido em conta?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:303
@@ -12671,6 +12685,9 @@ msgid ""
 "im FMIS importiert werden. Die Dateien befinden sich in FarmENGAGE unter: "
 "*_Dateiübertragung → Dateien verwalten → Von Fahrzeugen_*"
 msgstr ""
+"No entanto, os ficheiros podem ser exportados manualmente a partir do "
+"FarmENGAGE e posteriormente importados no FMIS. Os ficheiros encontram-se no "
+"FarmENGAGE em: *_Transferência de ficheiros → Gerir ficheiros → De veículos_*"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:2
@@ -12773,6 +12790,8 @@ msgid ""
 "xref:solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc[FarmENGAGE "
 "- Fendt, Massey Ferguson, Valtra]"
 msgstr ""
+"xref:solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc"
+"[FarmENGAGE - Fendt, Massey Ferguson, Valtra]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:22
