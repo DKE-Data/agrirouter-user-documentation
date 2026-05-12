@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2026-05-11 14:31+0000\n"
-"PO-Revision-Date: 2026-05-12 08:40+0000\n"
+"PO-Revision-Date: 2026-05-12 10:40+0000\n"
 "Last-Translator: Ralf Flothmann <r.flothmann@dke-data.com>\n"
 "Language-Team: Dutch <https://weblate.agrirouter.com/projects/agrirouter/"
 "user-manual/nl/>\n"
@@ -1104,7 +1104,7 @@ msgid ""
 "nun eine E-Mail mit einem Login-Code an deine E-Mail-Adresse gesendet.#"
 msgstr ""
 "Voer je e-mailadres in en klik op *_Login_*.  [Resultaat]#U ontvangt nu een "
-"e-mail met een inlogcode op uw e-mailadres."
+"e-mail met een inlogcode op uw e-mailadres.#"
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:147
@@ -1117,7 +1117,7 @@ msgid ""
 "Klicke auf *_Anmelden_*.  [.result]#Du bist jetzt bei deinem agrirouter-"
 "Konto angemeldet.#"
 msgstr ""
-"Klik op *_Login_*.  [Resultaat]#U bent nu ingelogd op uw agrirouter account."
+"Klik op *_Login_*.  [Resultaat]#U bent nu ingelogd op uw agrirouter account.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:154
@@ -1160,10 +1160,11 @@ msgid ""
 "app.agrirouter.com/[die Anmeldeseite] öffnest, wird sofort deine xref:"
 "introduction.adoc/myagrirouter[my agrirouter Seite] angezeigt.#"
 msgstr ""
-". Als u klaar bent met uw werk in het dashboard, sluit u de website [."
-"underline]#zonder# uit te loggen.  [.result]#De volgende keer dat u https://"
-"app.agrirouter.com/de[de aanmeldpagina] opent, wordt uw xref:introduction."
-"adoc/myagrirouter[mijnagrirouterpagina] onmiddellijk weergegeven.#"
+". Als u klaar bent met uw werk in het dashboard, sluit u de website "
+"[.underline]#zonder# uit te loggen.  [.result]#De volgende keer dat u "
+"https://app.agrirouter.com/[de aanmeldpagina] opent, wordt uw xref:"
+"introduction.adoc/myagrirouter[mijnagrirouterpagina] onmiddellijk "
+"weergegeven.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:167
@@ -1191,8 +1192,8 @@ msgid ""
 "Anmeldefenster wird geöffnet.#"
 msgstr ""
 "Klik op de zin *Log in met wachtwoord?_*, die zich onder het invoervenster "
-"voor het e-mailadres bevindt.  [Resultaat]#Een nieuw inlogvenster wordt "
-"geopend."
+"voor het e-mailadres bevindt.  [.result]#Een nieuw inlogvenster wordt "
+"geopend.#"
 
 #. type: start
 #: de/modules/ROOT/pages/account.adoc:188
@@ -1210,7 +1211,7 @@ msgid ""
 "Klicke auf *_Anmelden_* [.result]#Du bist jetzt bei deinem agrirouter-Konto "
 "angemeldet.#"
 msgstr ""
-"Klik op *_login_* [.resultaat]#U bent nu ingelogd in uw agrirouter account."
+"Klik op *_login_* [.result]#U bent nu ingelogd in uw agrirouter account.#"
 
 #. type: Title ===
 #: de/modules/ROOT/pages/account.adoc:194
@@ -1239,8 +1240,8 @@ msgid ""
 "geöffnet.#"
 msgstr ""
 "Klik op de zin *_Change / forgot password_*, die zich boven het "
-"invoervenster voor het wachtwoord bevindt.  [Resultaat]#Een nieuw venster "
-"wordt geopend."
+"invoervenster voor het wachtwoord bevindt. [.result]#Een nieuw venster wordt "
+"geopend.#"
 
 #. type: Start
 #: de/modules/ROOT/pages/account.adoc:223
@@ -1253,8 +1254,8 @@ msgid ""
 "Klicke auf *_Absenden_*.  [.result]#Dir wird nun eine E-Mail mit einem Link "
 "geschickt, über den du dein (neues) Passwort setzen kannst.#"
 msgstr ""
-"Klik op *_Send_*.  [Resultaat]#U krijgt nu een e-mail met een link waarmee u "
-"uw (nieuwe) wachtwoord kunt instellen."
+"Klik op *_Send_*. [.result]#U krijgt nu een e-mail met een link waarmee u uw "
+"(nieuwe) wachtwoord kunt instellen.#"
 
 #. type: delimited block =
 #: de/modules/ROOT/pages/account.adoc:230
@@ -1465,7 +1466,7 @@ msgid ""
 "hinzufügen."
 msgstr ""
 "Voor elke machine en landbouwsoftware die gegevens moet uitwisselen via de "
-"agrirouter, moet u een xref:introduction.adoc#endpoint[endpoint] toevoegen."
+"agrirouter, moet u een xref:introduction.adoc#endpoint[Eindpunt] toevoegen."
 
 #. type: Plain text
 #: de/modules/ROOT/pages/endpoint.adoc:11
@@ -2457,10 +2458,10 @@ msgid ""
 "software[Agrarsoftware verbinden] beschrieben.#"
 msgstr ""
 "*Endpoints:* Machines en landbouwsoftware kunnen gegevens uitwisselen als u "
-"ze aan de agrirouter toevoegt als <<endpoint,endpoints>>.  [Resultaat]* Voeg "
+"ze aan de agrirouter toevoegt als <<endpoint,endpoints>>.  [.result]* Voeg "
 "endpoints toe zoals beschreven in de hoofdstukken xref:endpoint.adoc#connect-"
-"machine[connect-machine] en xref:endpoint.adoc#connect-software[connect-"
-"landbouwsoftware]."
+"machine[Connect machine] en xref:endpoint.adoc#connect-software"
+"[connect-landbouwsoftware].#"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/introduction.adoc:27
@@ -2779,7 +2780,7 @@ msgstr ""
 #: de/modules/ROOT/pages/routing.adoc:5
 #, no-wrap
 msgid "Routing"
-msgstr "Routing"
+msgstr "Routering"
 
 #. type: #routing
 #: de/modules/ROOT/pages/routing.adoc:9
@@ -3470,7 +3471,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides.adoc:2
 #, no-wrap
 msgid "Solution Guides"
-msgstr "Oplossing Gidsen"
+msgstr "Solution Guides"
 
 #. type: #solution-guides
 #: de/modules/ROOT/pages/solution-guides.adoc:5
@@ -3644,7 +3645,7 @@ msgstr "Exporteren van doeltoepassingskaarten"
 #: de/modules/ROOT/pages/solution-guides/proflura.adoc:8
 #, no-wrap
 msgid "Import von Ist-Applikationskarten & Telemetriedaten"
-msgstr "Importeren van actuele applicatiekaarten en telemetriegegevens"
+msgstr "Import van werkelijke toepassingskaarten en telemetriegegevens"
 
 #. type: #connect-agrirouter
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:15
@@ -3719,7 +3720,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/farmpilot.adoc:31
 #: de/modules/ROOT/pages/solution-guides/plantivo.adoc:33
 msgid "Klicke auf *_VERBINDEN_*."
-msgstr "Klik op *_CONNECT_*."
+msgstr "Klik op *_VERBINDEN_*."
 
 #. type: start
 #: de/modules/ROOT/pages/solution-guides/abaco.adoc:47
@@ -3987,7 +3988,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:1
 #, no-wrap
 msgid "AgForce Solution Guide"
-msgstr "Gids met AgForce-oplossingen"
+msgstr "AgForce Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agforce.adoc:4
@@ -4323,7 +4324,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:1
 #, no-wrap
 msgid "Agricolus Solution Guide"
-msgstr "Gids met oplossingen voor Agricolus"
+msgstr "Agricolus Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agricolus.adoc:4
@@ -4559,7 +4560,7 @@ msgstr ""
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:1
 #, no-wrap
 msgid "AGRARMONITOR Solution Guide"
-msgstr "AGRARMONITOR handleiding voor oplossingen"
+msgstr "AGRARMONITOR Solution Guide"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/agrarmonitor.adoc:4
@@ -11198,14 +11199,14 @@ msgid ""
 "<<connection-from-jdoc-agrirouter,ISOXML-Dateien an das John Deere "
 "Operations Center senden>>"
 msgstr ""
-"<<agrirouter, ISOXML-bestanden verzenden naar het John Deere Operations "
-"Centre>>."
+"<<connection-from-jdoc-agrirouter, ISOXML-bestanden verzenden naar het John "
+"Deere Operations Center>>"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:9
 msgid ""
 "<<send-isoxml,ISOXML-Dateien an das John Deere Operations Center senden>>"
-msgstr "<<send-isoxml,ISOXML-bestanden naar het John Deere Operations Centre>>"
+msgstr "<<send-isoxml,ISOXML-bestanden naar het John Deere Operations Center>>"
 
 #. type: #connect-agrirouter-jdoc
 #: de/modules/ROOT/pages/solution-guides/john-deere-operations-center.adoc:14
@@ -11674,7 +11675,8 @@ msgstr "Bestaande verbinding tussen FarmENGAGE en agrirouter"
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:58
 msgid ""
 "Route zwischen dem verwendeten FMIS und dem FarmENGAGE-Endpunkt im agrirouter"
-msgstr "Route tussen het gebruikte FMIS en het Eindpunt Farmrirouter."
+msgstr ""
+"Route tussen het gebruikte FMIS en het FarmENGAGE-eindpunt in agrirouter"
 
 #. type: #license-requirements
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:59
@@ -12051,7 +12053,7 @@ msgid ""
 "Center_ angezeigt wurde, muss die Maschine noch \"freigeschaltet werden\""
 msgstr ""
 "Nadat de machine succesvol is toegevoegd en weergegeven in het "
-"_Connectiviteitscentrum_, moet de machine nog worden \"geactiveerd\"."
+"_Connectiviteitscentrum_, moet de machine nog worden \"geactiveerd\""
 
 #. type: #add-maschine-to-fendtone
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:167
@@ -12087,9 +12089,9 @@ msgid ""
 "keine stabile Internetverbindung aufgebaut"
 msgstr ""
 "Als er geen updates van de menu-items *Softwareversie* of *Laatst gezien* "
-"worden weergegeven in het _Connectiviteitscentrum_, moet de "
-"gegevensoverdracht in de terminal worden omgeschakeld naar mobiele radio of "
-"heeft de machine nog geen stabiele internetverbinding tot stand gebracht."
+"worden weergegeven in het _Connectivity Center_, moet de gegevensoverdracht "
+"in de terminal worden omgeschakeld naar mobiele radio of heeft de machine "
+"nog geen stabiele internetverbinding tot stand gebracht"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:176
@@ -12135,7 +12137,7 @@ msgid ""
 "wird.*"
 msgstr ""
 "*Deze video van Fendt laat zien hoe je een link toevoegt:https://"
-"www.youtube.com/watch?v=DmXyByjdGsw[Fendt machine in FendtONE Offboard]."
+"www.youtube.com/watch?v=DmXyByjdGsw[Fendt machine in FendtONE Offboard].*"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:182
@@ -12221,9 +12223,9 @@ msgid ""
 "im Terminal der Datentransfer auf Mobilfunk umgestellt werden oder die "
 "Maschine hat noch keine stabile Internetverbindung aufgebaut"
 msgstr ""
-"Als er geen updates worden weergegeven in het _Connectiviteitscentrum_, moet "
-"de gegevensoverdracht in de terminal worden omgeschakeld naar mobiele radio "
-"of heeft de machine nog geen stabiele internetverbinding tot stand gebracht."
+"Als er in het _Connectivity Center_ geen updates worden weergegeven, moet de "
+"gegevensoverdracht in de terminal worden omgeschakeld naar mobiel netwerk of "
+"heeft de machine nog geen stabiele internetverbinding opgebouwd"
 
 #. type: Plain text
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:206
@@ -12236,7 +12238,7 @@ msgstr ""
 "*Voor meer informatie over het toevoegen van een AGCO machine aan "
 "FarmENGAGE, zie de link:https://cdn.bfldr.com/7M6SII1K/as/"
 "nghfrvqnprnh92fkxw5hsk5/AGCO_Equipment_Operations_Activation"
-"[officiële PTx Trimble documentatie]."
+"[officiële PTx Trimble documentatie].*"
 
 #. type: Title ==
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:208
@@ -12473,7 +12475,7 @@ msgstr "Bekende beperkingen"
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:257
 msgid "*Direkte agrirouter-Verbindung aus FarmENGAGE*"
-msgstr "*Directe agrirouterverbinding van FarmENGAGE"
+msgstr "*Directe agrirouterverbinding van FarmENGAGE*"
 
 #. type: #known-restrictions
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:259
@@ -12577,7 +12579,7 @@ msgid ""
 "FarmENGAGE parallel nutzen möchte?*"
 msgstr ""
 "*Wie moet ik contacteren als ik FendtONE Offboard en FarmENGAGE later "
-"parallel wil gebruiken?"
+"parallel wil gebruiken?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:283
@@ -12597,7 +12599,7 @@ msgstr ""
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:285
 msgid "*Wo können FarmENGAGE-Lizenzen erworben werden?*"
-msgstr "*Waar kunnen FarmENGAGE licenties gekocht worden?"
+msgstr "*Waar kunnen FarmENGAGE licenties gekocht worden?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:287
@@ -12613,7 +12615,7 @@ msgstr ""
 msgid ""
 "*Können Arbeitsergebnisse erneut von FarmENGAGE an ein FMIS gesendet werden?*"
 msgstr ""
-"*Kunnen werkresultaten vanuit FarmENGAGE doorgestuurd worden naar een FMIS?"
+"*Kunnen werkresultaten vanuit FarmENGAGE doorgestuurd worden naar een FMIS?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:291
@@ -12644,7 +12646,7 @@ msgid ""
 "ausschließlich FarmENGAGE verwenden. Was ist zu beachten?*"
 msgstr ""
 "*Ik gebruik momenteel FendtONE Offboard en FarmENGAGE, maar wil in de "
-"toekomst uitsluitend FarmENGAGE gebruiken. Waar moet ik rekening mee houden?"
+"toekomst uitsluitend FarmENGAGE gebruiken. Waar moet ik rekening mee houden?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:297
@@ -12674,7 +12676,7 @@ msgid ""
 "nutzen. Was ist zu beachten?*"
 msgstr ""
 "*Mijn klant wil FendtONE Offboard en FarmENGAGE parallel gebruiken. Waar "
-"moet ik op letten?"
+"moet ik op letten?*"
 
 #. type: #support
 #: de/modules/ROOT/pages/solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc:303
@@ -12840,7 +12842,7 @@ msgid ""
 "- Fendt, Massey Ferguson, Valtra]"
 msgstr ""
 "xref:solution-guides/farmengage-fendt-massey-ferguson-valtra.adoc"
-"[FarmENGAGE - Fendt, Massey Ferguson, Valtra]."
+"[FarmENGAGE - Fendt, Massey Ferguson, Valtra]"
 
 #. type: Plain text
 #: de/modules/ROOT/partials/solutionguides/nav.adoc:22
@@ -13770,7 +13772,10 @@ msgstr "zodat latere werkzaamheden op dezelfde sporen kunnen worden uitgevoerd."
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:97
 #, no-wrap
 msgid "möchte ich während der Ausbringung automatisch dokumentieren, dass Nährstoffmengen, Sperrzonen und Einsatzzeiten eingehalten werden"
-msgstr "Ik wil graag automatisch tijdens de toepassing documenteren dat de hoeveelheden voedingsstoffen, uitsluitingszones en toepassingstijden worden nageleefd."
+msgstr ""
+"Ik wil graag automatisch tijdens de toepassing documenteren dat de "
+"hoeveelheden voedingsstoffen, uitsluitingszones en toepassingstijden worden "
+"nageleefd"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/fertilizing.adoc:40
@@ -14334,7 +14339,8 @@ msgstr "zodat de kuilkwaliteit wordt aangepast aan het gewenste voer."
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:192
 #, no-wrap
 msgid "möchte ich meine aufgezeichnete A-B-Linie an den Häckslerfahrer übermitteln"
-msgstr "Ik wil mijn opgenomen A-B lijn naar de chauffeur van de veldhakselaar sturen."
+msgstr ""
+"Ik wil mijn opgenomen A-B lijn naar de chauffeur van de veldhakselaar sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:194
@@ -14569,7 +14575,8 @@ msgstr "zodat de werktijd, de oppervlakte-output en het machinegebruik kunnen wo
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:314
 #, no-wrap
 msgid "möchte ich anhand von Telemetriedaten sehen, wie weit ein Schlag bereits abgeerntet wurde"
-msgstr "Ik wil telemetriegegevens gebruiken om te zien hoe ver een veld al is geoogst."
+msgstr ""
+"Ik wil telemetriegegevens gebruiken om te zien hoe ver een veld al is geoogst"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/harvest.adoc:316
@@ -15072,7 +15079,9 @@ msgstr "zodat de boer precies kan zien waar gewasbeschermingsmiddelen nodig zijn
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:99
 #, no-wrap
 msgid "möchte ich aus den per Drohne erfassten Unkraut- und Krankheitsdrücken eine Applikationskarte erstellen und an den Landwirt senden"
-msgstr "Ik wil graag een toepassingskaart maken van de onkruid- en ziektedruk die met een drone is geregistreerd en deze naar de boer sturen."
+msgstr ""
+"Ik wil graag een toepassingskaart maken van de onkruid- en ziektedruk die "
+"met een drone is geregistreerd en deze naar de boer sturen"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:101
@@ -15120,7 +15129,9 @@ msgstr "zodat meerdere machines tegelijkertijd kunnen spuiten."
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:119
 #, no-wrap
 msgid "möchte ich, dass die Traktoren die Anbaugeräte automatisch nach Applikationskarten steuern"
-msgstr "Ik wil graag dat de trekkers de werktuigen automatisch besturen op basis van de toepassingskaarten."
+msgstr ""
+"Ik wil graag dat de trekkers de werktuigen automatisch besturen op basis van "
+"de toepassingskaarten"
 
 #. type: Table
 #: de/modules/ROOT/pages/user-stories/plant-protection.adoc:121
